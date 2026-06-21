@@ -1,6 +1,6 @@
 const fs = require("node:fs");
 const path = require("node:path");
-const { getClient, json } = require("./db");
+const { getClient, json } = require("./lib/db");
 
 const STAGED_PATH = path.join(__dirname, "..", "..", "data", "ingestion", "staged-event-candidates.json");
 const STAGED_TOP200_PATH = path.join(__dirname, "..", "..", "data", "ingestion", "staged-event-candidates-top-200.json");
