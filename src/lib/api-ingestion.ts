@@ -3,6 +3,7 @@ import type { IntelligenceLayer } from "./intelligence/eventLayers";
 import flagshipBundle from "../../data/ingestion/flagship-recurring-events.json";
 import stagedBundle from "../../data/ingestion/staged-event-candidates.json";
 import stagedTop200Bundle from "../../data/ingestion/staged-event-candidates-top-200.json";
+import partyStagedBundle from "../../data/ingestion/political-party-meetings-staged.json";
 
 const fnBase = import.meta.env.VITE_FUNCTIONS_BASE ?? "/.netlify/functions";
 
@@ -38,13 +39,16 @@ function mapRawCandidate(c: Record<string, unknown>, i: number): IngestionCandid
     harvestWindow: (c.harvest_window as { start: string; end: string }) || null,
     estimatedCrowdMin: (c.estimated_crowd_min as number) ?? null,
     estimatedCrowdMax: (c.estimated_crowd_max as number) ?? null,
+    partyLabel: (c.party_label as string) || null,
+    meetingSubtype: (c.meeting_subtype as string) || null,
   };
 }
 
 function localCandidates(): IngestionCandidate[] {
   const top200 = (stagedTop200Bundle as { candidates?: Record<string, unknown>[] }).candidates ?? [];
   const staged = (stagedBundle as { candidates?: Record<string, unknown>[] }).candidates ?? [];
-  const merged = [...top200, ...staged];
+  const party = (partyStagedBundle as { candidates?: Record<string, unknown>[] }).candidates ?? [];
+  const merged = [...top200, ...staged, ...party];
   if (merged.length) return merged.map(mapRawCandidate);
   const flagship = (flagshipBundle as { events?: Record<string, unknown>[] }).events ?? [];
   return flagship.map(mapRawCandidate);
@@ -66,6 +70,8 @@ function filterSection(list: IngestionCandidate[], section: IntelligenceSection)
       return list.filter((c) => c.isRecurringAnnual || c.reviewStatus === "verified_flagship");
     case "government_meetings":
       return list.filter((c) => c.intelligenceLayer === "government" || c.category === "civic_meeting");
+    case "public_party_meetings":
+      return list.filter((c) => c.category === "public_party_meeting");
     case "church_fundraisers":
       return list.filter((c) => c.intelligenceLayer === "community_church" || c.category === "community_church" || c.category === "faith_meal");
     default:

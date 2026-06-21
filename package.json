@@ -36,7 +36,9 @@
     "density:build": "node scripts/density/build-density-engine.mjs",
     "density:project": "node scripts/run-with-h-drive-env.cjs node scripts/density/project-institution-events.mjs",
     "lanes:generate": "node scripts/event-lanes/generate-lane-coverage.mjs",
-    "lanes:plan": "node scripts/event-lanes/plan-next-lane-harvest.mjs"
+    "lanes:plan": "node scripts/event-lanes/plan-next-lane-harvest.mjs",
+    "harvest:party-meetings": "node scripts/run-with-h-drive-env.cjs node scripts/event-harvest/political-party-meetings/harvest-party-meetings.mjs",
+    "discover:party-sources": "node scripts/run-with-h-drive-env.cjs node scripts/event-harvest/political-party-meetings/party-source-discovery.mjs"
   },
   "dependencies": {
     "@react-google-maps/api": "^2.20.6",

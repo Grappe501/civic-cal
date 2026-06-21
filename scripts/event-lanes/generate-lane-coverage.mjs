@@ -29,6 +29,21 @@ const events = [
   ...(readJson("data/seed-events.json").events ?? []),
   ...(readJson("data/seed-events-public-demo.json").events ?? []),
 ];
+try {
+  const partyStaged = readJson("data/ingestion/political-party-meetings-staged.json").candidates ?? [];
+  for (const c of partyStaged) {
+    events.push({
+      title: c.title,
+      description: c.notes ?? "",
+      county: c.county,
+      city: c.city,
+      category: c.category ?? "public_party_meeting",
+      source: c.source_type,
+    });
+  }
+} catch (_) {
+  /* staged party meetings not harvested yet */
+}
 
 const churches = readJson("data/institutions/church-directory.json").churches ?? [];
 const schools = readJson("data/institutions/school-directory.json").schools ?? [];

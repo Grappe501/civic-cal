@@ -72,6 +72,12 @@ export const CATEGORIES: {
     description: "Food truck rallies, nights, and mobile food gatherings",
     color: "bg-orange-600 text-white",
   },
+  {
+    id: "public_party_meeting",
+    label: "Public civic meetings",
+    description: "County party committee meetings and public civic political gatherings — neutral listing",
+    color: "bg-slate-600 text-white",
+  },
 ];
 
 export function categoryLabel(id: EventCategory): string {

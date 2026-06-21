@@ -11,6 +11,7 @@ import { getEventStudentServiceOpportunity } from "../lib/student-service/studen
 import { CivicGlyph } from "./glyphs/CivicGlyph";
 import { glyphForEventCategory } from "../lib/glyphs/civicGlyphs";
 import { cn } from "../lib/cn";
+import { PublicCivicMeetingBadge } from "./events/PublicCivicMeetingBadge";
 
 export function EventCard({ event, compact }: { event: CivicEvent; compact?: boolean }) {
   const maps = mapsUrl(event);
@@ -48,6 +49,8 @@ export function EventCard({ event, compact }: { event: CivicEvent; compact?: boo
         </div>
         <CategoryBadge category={event.category} />
       </div>
+
+      <PublicCivicMeetingBadge event={event} />
 
       <p className="text-sm text-muted">{formatEventRange(event)}</p>
 

@@ -42,6 +42,8 @@ export interface IngestionCandidate {
   duplicateOfEventId?: string | null;
   notes?: string | null;
   isRecurringAnnual?: boolean;
+  partyLabel?: string | null;
+  meetingSubtype?: string | null;
   flagshipId?: string;
   harvestBatch?: string | null;
   harvestWindow?: { start: string; end: string } | null;
@@ -60,4 +62,5 @@ export type IntelligenceSection =
   | "possible_duplicates"
   | "flagship_annual"
   | "government_meetings"
-  | "church_fundraisers";
+  | "church_fundraisers"
+  | "public_party_meetings";

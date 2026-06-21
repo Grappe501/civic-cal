@@ -13,6 +13,7 @@ const SECTIONS: { id: IntelligenceSection; label: string }[] = [
   { id: "possible_duplicates", label: "Possible duplicates" },
   { id: "flagship_annual", label: "Flagship annual" },
   { id: "government_meetings", label: "Government meetings" },
+  { id: "public_party_meetings", label: "Public party meetings" },
   { id: "church_fundraisers", label: "Church fundraisers" },
 ];
 
@@ -31,7 +32,14 @@ type ExtraFilter =
   | "festivals_fairs"
   | "school_sports"
   | "needs_source"
-  | "possible_dup";
+  | "possible_dup"
+  | "party_all"
+  | "party_democratic"
+  | "party_republican"
+  | "party_libertarian"
+  | "party_recurrence_review"
+  | "party_missing_venue"
+  | "party_missing_date";
 
 export function AdminIntelligencePanel({ token }: Props) {
   const [section, setSection] = useState<IntelligenceSection>("newly_discovered");
@@ -92,6 +100,31 @@ export function AdminIntelligencePanel({ token }: Props) {
         break;
       case "possible_dup":
         list = list.filter((c) => c.reviewStatus === "duplicate" || (c.notes || "").toLowerCase().includes("duplicate"));
+        break;
+      case "party_all":
+        list = list.filter((c) => c.category === "public_party_meeting");
+        break;
+      case "party_democratic":
+        list = list.filter((c) => c.category === "public_party_meeting" && c.partyLabel === "Democratic");
+        break;
+      case "party_republican":
+        list = list.filter((c) => c.category === "public_party_meeting" && c.partyLabel === "Republican");
+        break;
+      case "party_libertarian":
+        list = list.filter((c) => c.category === "public_party_meeting" && c.partyLabel === "Libertarian");
+        break;
+      case "party_recurrence_review":
+        list = list.filter(
+          (c) =>
+            c.category === "public_party_meeting" &&
+            ((c.notes || "").includes("Recurrence unclear") || c.reviewStatus === "needs_verification"),
+        );
+        break;
+      case "party_missing_venue":
+        list = list.filter((c) => c.category === "public_party_meeting" && !c.venueName && !c.address);
+        break;
+      case "party_missing_date":
+        list = list.filter((c) => c.category === "public_party_meeting" && !c.eventDate);
         break;
     }
     return list;
@@ -174,6 +207,13 @@ export function AdminIntelligencePanel({ token }: Props) {
             <option value="school_sports">School / sports</option>
             <option value="needs_source">Needs source verification</option>
             <option value="possible_dup">Possible duplicate</option>
+            <option value="party_all">Public party meetings</option>
+            <option value="party_democratic">Democratic county meetings</option>
+            <option value="party_republican">Republican county meetings</option>
+            <option value="party_libertarian">Libertarian meetings</option>
+            <option value="party_recurrence_review">Needs recurrence review</option>
+            <option value="party_missing_venue">Missing venue</option>
+            <option value="party_missing_date">Missing next date</option>
           </select>
         </div>
         <p className="text-xs text-muted-soft">{filtered.length} of {candidates.length} candidates shown</p>

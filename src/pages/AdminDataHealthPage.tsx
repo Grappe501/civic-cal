@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { AlertTriangle, CheckCircle2, Database, RefreshCw } from "lucide-react";
 import { runEventDataDiagnostics, type EventDataDiagnostics } from "../lib/events/eventDataDiagnostics";
 import { runProfileHealth } from "../lib/profiles/profileHealth";
+import { runPartyMeetingHealth } from "../lib/party-meetings/partyMeetingHealth";
 import { formatEventRange } from "../lib/format";
 
 const fnBase = import.meta.env.VITE_FUNCTIONS_BASE ?? "/.netlify/functions";
@@ -12,6 +13,7 @@ export function AdminDataHealthPage() {
   const [server, setServer] = useState<Record<string, unknown> | null>(null);
   const [loading, setLoading] = useState(true);
   const profileHealth = useMemo(() => runProfileHealth(), []);
+  const partyHealth = useMemo(() => runPartyMeetingHealth(), []);
 
   async function refresh() {
     setLoading(true);
@@ -99,6 +101,25 @@ export function AdminDataHealthPage() {
             </Link>
             <Link to="/admin" className="btn-ghost text-xs mt-4 ml-2 inline-flex" onClick={() => sessionStorage.setItem("civic-admin-tab", "profile_refresh")}>
               Profile refresh queue →
+            </Link>
+          </section>
+
+          <section className="card-readable">
+            <h2 className="font-semibold text-[var(--text-secondary)]">Public party meeting lane</h2>
+            <p className="text-caption mt-1">Neutral civic-meetings coverage — admin approval required before publish.</p>
+            <div className="mt-3 grid gap-3 sm:grid-cols-2 text-sm">
+              <Stat label="Party sources found" value={String(partyHealth.sourcesFound)} />
+              <Stat label="Staged party meetings" value={String(partyHealth.stagedMeetings)} highlight />
+              <Stat label="Approved party meetings" value={String(partyHealth.approvedMeetings)} />
+              <Stat label="Counties with party data" value={String(partyHealth.countiesWithData)} />
+              <Stat label="Recurrence needs review" value={String(partyHealth.recurrenceNeedsReview)} highlight={partyHealth.recurrenceNeedsReview > 0} />
+              <Stat label="Avg recurrence confidence" value={`${partyHealth.avgRecurrenceConfidence}%`} />
+              <Stat label="Republican staged" value={String(partyHealth.partyCounts.Republican ?? 0)} />
+              <Stat label="Democratic staged" value={String(partyHealth.partyCounts.Democratic ?? 0)} />
+              <Stat label="Libertarian staged" value={String(partyHealth.partyCounts.Libertarian ?? 0)} />
+            </div>
+            <Link to="/admin" className="btn-secondary text-xs mt-4 inline-flex" onClick={() => sessionStorage.setItem("civic-admin-tab", "event_coverage")}>
+              Review party meetings →
             </Link>
           </section>
 

@@ -16,6 +16,7 @@ export function inferLayer(text, category) {
     if (re.test(t)) return layer;
   }
   if (category === "civic_meeting") return "government";
+  if (category === "public_party_meeting") return "government";
   if (category === "community_church" || category === "faith_meal") return "community_church";
   if (category === "school") return "school_ecosystem";
   if (category === "small_business" || category === "volunteer") return "relationship";
@@ -32,6 +33,7 @@ export function inferCategory(text) {
   if (/festival|fair|parade|toad suck|watermelon|tomato|peach/.test(t)) return "community";
   if (/library|author event/.test(t)) return "culture";
   if (/forum|town hall|candidate/.test(t)) return "candidate_event";
+  if (/county (republican|democratic|libertarian)|party committee meeting/.test(t)) return "public_party_meeting";
   return "community";
 }
 

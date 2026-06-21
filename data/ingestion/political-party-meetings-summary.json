@@ -1,0 +1,19 @@
+{
+  "generatedAt": "2026-06-21T06:25:15.278Z",
+  "sourcesUsed": [
+    "https://www.arkansasgop.org/countygop.html",
+    "https://www.arkdems.org/county/*"
+  ],
+  "rawMeetingRecords": 82,
+  "stagedCandidates": 279,
+  "partyCounts": {
+    "Republican": 260,
+    "Democratic": 19,
+    "Libertarian": 0,
+    "Other": 0
+  },
+  "countiesWithData": 73,
+  "recurrenceNeedsReview": 21,
+  "withDates": 258,
+  "awaitingConfirmation": 13
+}

@@ -22,8 +22,7 @@ const COMMANDS = {
   churches: ["npm run harvest:registry", "npm run density:project"],
   community_anchors: ["npm run generate:community-anchors", "npm run density:project"],
   vfds: ["npm run density:project"],
-  festivals: ["npm run harvest:registry", "npm run harvest:flagship"],
-};
+  public_party_meetings: ["npm run harvest:party-meetings", "npm run discover:party-sources"],
 
 const scored = [];
 for (const county of coverage.counties ?? []) {

@@ -1,0 +1,15 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "SourceVerification",
+  "type": "object",
+  "required": ["supported", "confidence", "warnings"],
+  "properties": {
+    "supported": { "type": "boolean" },
+    "confirmedFields": { "type": "array", "items": { "type": "string" } },
+    "inferredFields": { "type": "array", "items": { "type": "string" } },
+    "missingFields": { "type": "array", "items": { "type": "string" } },
+    "confidence": { "type": "number", "minimum": 0, "maximum": 100 },
+    "warnings": { "type": "array", "items": { "type": "string" } },
+    "summary": { "type": "string" }
+  }
+}

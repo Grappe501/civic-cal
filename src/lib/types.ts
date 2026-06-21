@@ -9,7 +9,8 @@ export type EventCategory =
   | "government_deadline"
   | "culture"
   | "small_business"
-  | "food_truck_festival";
+  | "food_truck_festival"
+  | "public_party_meeting";
 
 import type { IntelligenceLayer } from "./intelligence/eventLayers";
 import type { SubmissionTrustSignals } from "./submitRiskScore";

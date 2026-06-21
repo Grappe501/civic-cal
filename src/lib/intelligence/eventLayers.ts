@@ -158,7 +158,7 @@ export function inferIntelligenceLayer(text: string, category?: string): Intelli
   for (const { layer, re } of LAYER_PATTERNS) {
     if (re.test(t)) return layer;
   }
-  if (category === "civic_meeting" || category === "government_deadline") return "government";
+  if (category === "civic_meeting" || category === "government_deadline" || category === "public_party_meeting") return "government";
   if (category === "community_church" || category === "faith_meal") return "community_church";
   if (category === "school") return "school_ecosystem";
   if (category === "small_business" || category === "volunteer") return "relationship";

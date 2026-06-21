@@ -1,0 +1,99 @@
+{
+  "version": "1.0",
+  "updatedAt": "2026-06-21",
+  "policy": "Public official party pages only. Neutral civic-meetings lane — equal treatment, no endorsements. Admin approval required before publish.",
+  "sources": [
+    {
+      "id": "ark-gop-county-committees",
+      "party_label": "Republican",
+      "organization": "Republican Party of Arkansas",
+      "source_type": "political_party_public_page",
+      "url": "https://www.arkansasgop.org/countygop.html",
+      "page_kind": "statewide_county_directory",
+      "trust": "high",
+      "notes": "Public county committee meeting times, venues, and chairs."
+    },
+    {
+      "id": "ark-dems-calendar",
+      "party_label": "Democratic",
+      "organization": "Democratic Party of Arkansas",
+      "source_type": "political_party_public_page",
+      "url": "https://www.arkdems.org/calendar/",
+      "page_kind": "state_calendar",
+      "trust": "high",
+      "notes": "Arkansas Action Calendar — county party and civic events."
+    },
+    {
+      "id": "ark-dems-counties-index",
+      "party_label": "Democratic",
+      "organization": "Democratic Party of Arkansas",
+      "source_type": "political_party_public_page",
+      "url": "https://www.arkdems.org/counties/",
+      "page_kind": "county_directory",
+      "trust": "high",
+      "notes": "County committee pages with meeting info when published."
+    },
+    {
+      "id": "lpar-events",
+      "party_label": "Libertarian",
+      "organization": "Libertarian Party of Arkansas",
+      "source_type": "political_party_public_page",
+      "url": "https://www.lpar.org/events/",
+      "page_kind": "events_calendar",
+      "trust": "medium",
+      "notes": "Upcoming events / affiliate listings when publicly posted."
+    },
+    {
+      "id": "benton-county-gop",
+      "party_label": "Republican",
+      "organization": "Benton County Republican Committee",
+      "source_type": "political_party_public_page",
+      "url": "https://www.bentoncountygop.org/",
+      "county": "Benton",
+      "page_kind": "county_party_site",
+      "trust": "high"
+    },
+    {
+      "id": "garland-rpgc",
+      "party_label": "Republican",
+      "organization": "Republican Party of Garland County",
+      "source_type": "political_party_public_page",
+      "url": "https://www.therpgc.org/",
+      "county": "Garland",
+      "page_kind": "county_party_site",
+      "trust": "high"
+    },
+    {
+      "id": "washington-wcrc",
+      "party_label": "Republican",
+      "organization": "Washington County Republican Committee",
+      "source_type": "political_party_public_page",
+      "url": "https://www.wcrc.gop/",
+      "county": "Washington",
+      "page_kind": "county_party_site",
+      "trust": "high"
+    },
+    {
+      "id": "yell-county-gop",
+      "party_label": "Republican",
+      "organization": "Yell County Republicans",
+      "source_type": "political_party_public_page",
+      "url": "https://www.yellcountyrepublicans.com/",
+      "county": "Yell",
+      "page_kind": "county_party_site",
+      "trust": "medium"
+    }
+  ],
+  "democratic_county_pages": [
+    { "county": "Faulkner", "url": "https://www.arkdems.org/county/faulkner/", "meeting_info": "Monthly 1st Monday at 6:30 PM at McGee Center in Conway" },
+    { "county": "Saline", "url": "https://www.arkdems.org/county/saline/", "meeting_info": "Monthly 2nd Tuesday at 6:30 PM" },
+    { "county": "Van Buren", "url": "https://www.arkdems.org/county/van-buren/", "meeting_info": "Monthly 1st Monday at 6:30 PM at Western Sizzlin' in Clinton" },
+    { "county": "Pulaski", "url": "https://www.arkdems.org/county/pulaski/", "meeting_info": null },
+    { "county": "Washington", "url": "https://www.arkdems.org/county/washington/", "meeting_info": null },
+    { "county": "Benton", "url": "https://www.arkdems.org/county/benton/", "meeting_info": null },
+    { "county": "Garland", "url": "https://www.arkdems.org/county/garland/", "meeting_info": null },
+    { "county": "Jefferson", "url": "https://www.arkdems.org/county/jefferson/", "meeting_info": null },
+    { "county": "Sebastian", "url": "https://www.arkdems.org/county/sebastian/", "meeting_info": null },
+    { "county": "White", "url": "https://www.arkdems.org/county/white/", "meeting_info": null }
+  ]
+}

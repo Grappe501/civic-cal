@@ -311,6 +311,22 @@
       "matchPatterns": [],
       "expectedPerCounty": { "base": 0 },
       "harvestPriority": "ongoing"
+    },
+    {
+      "id": "public_party_meetings",
+      "number": 21,
+      "name": "Public Party & Civic Political Meetings",
+      "shortName": "Party Civic",
+      "phase": 2,
+      "buildOrder": 21,
+      "goal": "Neutral public county party committee meetings — all parties treated equally",
+      "sources": ["Democratic county committees", "Republican county committees", "Libertarian affiliates", "Public candidate forums", "Nonpartisan civic political clubs"],
+      "eventTypes": ["County Party Committee Meeting", "Public Candidate Forum", "Civic Political Meeting"],
+      "matchPatterns": ["county republican committee", "county democratic committee", "county libertarian", "party committee meeting", "republican committee meeting", "democratic committee meeting", "libertarian meeting", "candidate forum", "civic round table"],
+      "sourceTypes": ["political_party_public_page"],
+      "expectedPerCounty": { "base": 3 },
+      "harvestPriority": "high",
+      "neutrality": "No partisan promotion — public civic meetings only"
     }
   ]
 }
