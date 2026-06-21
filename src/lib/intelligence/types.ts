@@ -1,3 +1,8 @@
+import type { IntelligenceLayer } from "./eventLayers";
+import type { AttendanceBand } from "../types";
+
+export type { IntelligenceLayer };
+
 export type IngestionReviewStatus =
   | "needs_review"
   | "needs_verification"
@@ -21,8 +26,12 @@ export interface IngestionCandidate {
   latitude?: number | null;
   longitude?: number | null;
   category?: string | null;
+  intelligenceLayer?: IntelligenceLayer;
   civicValue?: string | null;
   politicalOpportunityScore?: number | null;
+  relationshipDensityScore?: number | null;
+  typicalAttendanceBand?: AttendanceBand | null;
+  recurringRegistryId?: string | null;
   confidenceScore?: number | null;
   sourceName?: string | null;
   sourceUrl?: string | null;

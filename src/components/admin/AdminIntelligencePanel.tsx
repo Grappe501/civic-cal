@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { candidateAdminAction, fetchIngestionCandidates } from "../../lib/api-ingestion";
 import type { IngestionCandidate, IntelligenceSection } from "../../lib/intelligence/types";
+import { LayerBadge, DensityBadge } from "../intelligence/LayerBadge";
 
 const SECTIONS: { id: IntelligenceSection; label: string }[] = [
   { id: "newly_discovered", label: "Newly discovered" },
@@ -69,11 +70,15 @@ export function AdminIntelligencePanel({ token }: Props) {
         <div className="space-y-4">
           {candidates.map((c) => (
             <div key={c.id} className="card border-l-4 border-l-ark-rust/50">
-              <div className="flex flex-wrap justify-between gap-2">
+              <div className="flex flex-wrap justify-between gap-2 items-start">
                 <h3 className="font-semibold text-ark-pine">{c.title}</h3>
-                <span className="chip bg-ark-pine/10 text-ark-pine text-xs">
-                  Score {c.politicalOpportunityScore ?? "—"}
-                </span>
+                <div className="flex flex-wrap gap-1">
+                  {c.intelligenceLayer && <LayerBadge layer={c.intelligenceLayer} compact />}
+                  {c.politicalOpportunityScore != null && (
+                    <span className="chip bg-ark-pine/10 text-ark-pine text-xs">PO {c.politicalOpportunityScore}</span>
+                  )}
+                  {c.relationshipDensityScore != null && <DensityBadge score={c.relationshipDensityScore} />}
+                </div>
               </div>
               <p className="text-sm text-ark-pine/60 mt-1">
                 {[c.city, c.county ? `${c.county} County` : null, c.eventDate || "date TBD"].filter(Boolean).join(" · ")}

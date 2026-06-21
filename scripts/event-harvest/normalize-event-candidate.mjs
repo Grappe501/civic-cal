@@ -1,10 +1,12 @@
 /**
- * Normalize raw search hits or flagship records into staged candidate shape.
+ * Normalize raw search hits or flagship/registry records into staged candidate shape.
  */
+import { enrichCandidate, inferCategory } from "./lib/layer-inference.mjs";
+
 export function normalizeFromSearchHit(hit, ctx = {}) {
   const text = `${hit.title} ${hit.snippet || ""}`;
   const category = inferCategory(text);
-  return {
+  return enrichCandidate({
     title: hit.title?.slice(0, 500) || "Untitled discovery",
     description: hit.snippet || null,
     event_date: extractDate(text),
@@ -30,11 +32,11 @@ export function normalizeFromSearchHit(hit, ctx = {}) {
     duplicate_of_event_id: null,
     notes: "Auto-staged from public search — requires human verification.",
     is_recurring_annual: /annual|yearly|tradition/i.test(text),
-  };
+  });
 }
 
 export function normalizeFromFlagship(record) {
-  return {
+  return enrichCandidate({
     title: record.title,
     description: record.notes || null,
     event_date: record.recurrence?.last_verified_occurrence || null,
@@ -47,9 +49,14 @@ export function normalizeFromFlagship(record) {
     state: record.state || "AR",
     latitude: null,
     longitude: null,
-    category: record.category || "community",
+    category: record.category || "community_church",
+    intelligence_layer: record.intelligence_layer || "community_church",
     civic_value: record.civic_value || "high",
     political_opportunity_score: record.political_opportunity_score ?? 70,
+    relationship_density_score: record.relationship_density ?? null,
+    typical_attendance_band: record.typical_attendance_band || record.recurrence?.typical_attendance_band || null,
+    tradition_started_year: record.recurrence?.tradition_started || null,
+    recurring_registry_id: record.recurring_registry_id || record.id,
     confidence_score: record.confidence_score ?? 50,
     source_name: record.source_name,
     source_url: record.source_url,
@@ -61,27 +68,42 @@ export function normalizeFromFlagship(record) {
     notes: record.notes,
     is_recurring_annual: Boolean(record.recurrence?.pattern === "annual"),
     flagship_id: record.id,
-  };
+  });
 }
 
-function inferCategory(text) {
-  const t = text.toLowerCase();
-  if (/city council|quorum court|planning commission|public hearing/.test(t)) return "civic_meeting";
-  if (/school board/.test(t)) return "school";
-  if (/spaghetti|fish fry|bbq|brisket|church dinner|picnic/.test(t)) return "faith_meal";
-  if (/festival|fair|parade/.test(t)) return "community";
-  if (/football|basketball|rivalry|game/.test(t)) return "school";
-  if (/forum|town hall|candidate/.test(t)) return "candidate_event";
-  if (/library/.test(t)) return "culture";
-  if (/chamber|breakfast/.test(t)) return "small_business";
-  if (/volunteer|cleanup|food bank/.test(t)) return "volunteer";
-  return "community";
+export function normalizeFromRegistry(tradition) {
+  return enrichCandidate({
+    title: tradition.event_name,
+    description: tradition.notes || null,
+    event_date: null,
+    venue_name: tradition.venue_name || null,
+    city: tradition.city || null,
+    county: tradition.county || null,
+    state: tradition.state || "AR",
+    category: tradition.category || "community",
+    intelligence_layer: tradition.intelligence_layer,
+    civic_value: tradition.community_value >= 90 ? "very_high" : "high",
+    political_opportunity_score: tradition.political_value,
+    relationship_density_score: tradition.relationship_density,
+    typical_attendance_band: tradition.typical_attendance_band,
+    tradition_started_year: tradition.first_year_held,
+    recurring_registry_id: tradition.id,
+    confidence_score: tradition.review_status === "needs_verification" ? 35 : 75,
+    source_name: tradition.source_name || "recurring_events_registry",
+    source_url: tradition.source_url || null,
+    source_type: "manual_tip",
+    discovered_by: "recurring_registry",
+    raw_text: tradition.notes,
+    review_status: tradition.review_status || "needs_review",
+    notes: `${tradition.notes || ""} Typical month: ${tradition.typical_month || "confirm yearly"}.`.trim(),
+    is_recurring_annual: true,
+  });
 }
 
 function inferCivicValue(category, text) {
   if (category === "civic_meeting") return "very_high";
   if (/spaghetti|catholic point|thousands/.test(text.toLowerCase())) return "very_high";
-  if (category === "faith_meal") return "high";
+  if (category === "community_church" || category === "faith_meal") return "high";
   return "medium";
 }
 
@@ -89,9 +111,9 @@ function scoreFromText(text, category) {
   let score = 50;
   const t = text.toLowerCase();
   if (category === "civic_meeting") score += 35;
+  if (category === "community_church") score += 30;
   if (/annual|tradition|thousands/.test(t)) score += 20;
   if (/spaghetti|catholic point|center ridge/.test(t)) score += 40;
-  if (/bbq|brisket/.test(t)) score += 15;
   return Math.min(100, score);
 }
 

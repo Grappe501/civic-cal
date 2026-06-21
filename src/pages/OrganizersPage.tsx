@@ -3,7 +3,9 @@ import { Link } from "react-router-dom";
 import { Calendar, MapPin, Sparkles, Landmark, UtensilsCrossed, Trophy } from "lucide-react";
 import { fetchEvents } from "../lib/api";
 import { fetchIngestionCandidates } from "../lib/api-ingestion";
-import { scoreEventOpportunity } from "../lib/intelligence/eventOpportunityScore";
+import { scoreEventIntelligence } from "../lib/intelligence/eventOpportunityScore";
+import { INTELLIGENCE_LAYERS } from "../lib/intelligence/eventLayers";
+import { LayerBadge, DensityBadge } from "../components/intelligence/LayerBadge";
 import type { CivicEvent } from "../lib/types";
 import type { IngestionCandidate } from "../lib/intelligence/types";
 import { CategoryBadge } from "../components/CategoryBadge";
@@ -25,20 +27,23 @@ function OpportunityCard({
   title,
   subtitle,
   score,
+  density,
   href,
 }: {
   title: string;
   subtitle: string;
   score?: number;
+  density?: number;
   href?: string;
 }) {
   const inner = (
     <div className="card hover:border-ark-sage transition">
-      <div className="flex justify-between gap-2">
+      <div className="flex justify-between gap-2 items-start">
         <h3 className="font-semibold text-ark-pine leading-snug">{title}</h3>
-        {score != null && (
-          <span className="chip bg-ark-rust/15 text-ark-rust shrink-0">{score}</span>
-        )}
+        <div className="flex flex-col items-end gap-1 shrink-0">
+          {score != null && <span className="chip bg-ark-rust/15 text-ark-rust text-xs">PO {score}</span>}
+          {density != null && <DensityBadge score={density} />}
+        </div>
       </div>
       <p className="text-sm text-ark-pine/60 mt-1">{subtitle}</p>
     </div>
@@ -60,20 +65,43 @@ export function OrganizersPage() {
 
   const topOpportunities = useMemo(() => {
     const merged = [
-      ...candidates.map((c) => ({
-        kind: "candidate" as const,
-        title: c.title,
-        subtitle: [c.city, c.county ? `${c.county} County` : null, c.eventDate || "confirm date"].filter(Boolean).join(" · "),
-        score: c.politicalOpportunityScore ?? scoreEventOpportunity({ title: c.title, category: c.category ?? undefined, civicValue: c.civicValue ?? undefined, description: c.notes ?? undefined, isRecurringAnnual: c.isRecurringAnnual, reviewStatus: c.reviewStatus }),
-        href: undefined,
-      })),
-      ...events.map((e) => ({
-        kind: "event" as const,
-        title: e.title,
-        subtitle: `${e.city || e.county} County`,
-        score: scoreEventOpportunity({ title: e.title, category: e.category, description: e.description ?? undefined, isPublicGovernmentMeeting: e.isPublicGovernmentMeeting, candidateRelevant: e.candidateRelevant }),
-        href: `/event/${e.slug}`,
-      })),
+      ...candidates.map((c) => {
+        const intel = scoreEventIntelligence({
+          title: c.title,
+          category: c.category ?? undefined,
+          intelligenceLayer: c.intelligenceLayer,
+          civicValue: c.civicValue ?? undefined,
+          description: c.notes ?? undefined,
+          isRecurringAnnual: c.isRecurringAnnual,
+          reviewStatus: c.reviewStatus,
+          typicalAttendanceBand: c.typicalAttendanceBand ?? undefined,
+        });
+        return {
+          kind: "candidate" as const,
+          title: c.title,
+          subtitle: [c.city, c.county ? `${c.county} County` : null, c.eventDate || "confirm date"].filter(Boolean).join(" · "),
+          score: c.politicalOpportunityScore ?? intel.politicalOpportunityScore,
+          density: c.relationshipDensityScore ?? intel.relationshipDensityScore,
+          href: undefined,
+        };
+      }),
+      ...events.map((e) => {
+        const intel = scoreEventIntelligence({
+          title: e.title,
+          category: e.category,
+          description: e.description ?? undefined,
+          isPublicGovernmentMeeting: e.isPublicGovernmentMeeting,
+          candidateRelevant: e.candidateRelevant,
+        });
+        return {
+          kind: "event" as const,
+          title: e.title,
+          subtitle: `${e.city || e.county} County`,
+          score: intel.politicalOpportunityScore,
+          density: intel.relationshipDensityScore,
+          href: `/event/${e.slug}`,
+        };
+      }),
     ];
     return merged.sort((a, b) => (b.score ?? 0) - (a.score ?? 0)).slice(0, 12);
   }, [candidates, events]);
@@ -90,8 +118,10 @@ export function OrganizersPage() {
     return [...m.entries()].sort((a, b) => b[1] - a[1]).slice(0, 10);
   }, [candidates, events]);
 
-  const gov = candidates.filter((c) => c.category === "civic_meeting");
-  const church = candidates.filter((c) => c.category === "faith_meal");
+  const gov = candidates.filter((c) => c.intelligenceLayer === "government" || c.category === "civic_meeting");
+  const church = candidates.filter(
+    (c) => c.intelligenceLayer === "community_church" || c.category === "community_church" || c.category === "faith_meal",
+  );
   const festivals = [...candidates, ...events.map((e) => ({ title: e.title, county: e.county, category: e.category }))].filter(
     (x) => x.category === "community",
   );
@@ -113,7 +143,7 @@ export function OrganizersPage() {
         </h2>
         <div className="mt-4 grid gap-3 md:grid-cols-2 lg:grid-cols-3">
           {topOpportunities.slice(0, 6).map((o, i) => (
-            <OpportunityCard key={i} title={o.title} subtitle={o.subtitle} score={o.score} href={o.href} />
+            <OpportunityCard key={i} title={o.title} subtitle={o.subtitle} score={o.score} density={o.density} href={o.href} />
           ))}
         </div>
       </section>
@@ -202,6 +232,22 @@ export function OrganizersPage() {
           </div>
         </section>
       )}
+
+      <section className="mt-12">
+        <h2 className="font-display text-xl font-semibold text-ark-pine mb-4">Five intelligence layers</h2>
+        <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+          {INTELLIGENCE_LAYERS.map((layer) => {
+            const items = candidates.filter((c) => c.intelligenceLayer === layer.id);
+            return (
+              <div key={layer.id} className="card">
+                <LayerBadge layer={layer.id} />
+                <p className="text-sm text-ark-pine/70 mt-2">{layer.description}</p>
+                <p className="text-xs text-ark-pine/50 mt-2">{items.length} staged · watch: {layer.watchFor.slice(0, 3).join(", ")}…</p>
+              </div>
+            );
+          })}
+        </div>
+      </section>
     </div>
   );
 }

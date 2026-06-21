@@ -1,4 +1,5 @@
 import type { IngestionCandidate, IntelligenceSection } from "./intelligence/types";
+import type { IntelligenceLayer } from "./intelligence/eventLayers";
 import flagshipBundle from "../../data/ingestion/flagship-recurring-events.json";
 import stagedBundle from "../../data/ingestion/staged-event-candidates.json";
 
@@ -28,6 +29,10 @@ function mapRawCandidate(c: Record<string, unknown>, i: number): IngestionCandid
     notes: (c.notes as string) || null,
     isRecurringAnnual: Boolean(c.is_recurring_annual || (c.recurrence as { pattern?: string })?.pattern === "annual"),
     flagshipId: (c.flagship_id as string) || (c.id as string),
+    intelligenceLayer: c.intelligence_layer as IntelligenceLayer | undefined,
+    relationshipDensityScore: (c.relationship_density_score as number) ?? null,
+    typicalAttendanceBand: (c.typical_attendance_band as IngestionCandidate["typicalAttendanceBand"]) ?? null,
+    recurringRegistryId: (c.recurring_registry_id as string) || null,
   };
 }
 
@@ -53,9 +58,9 @@ function filterSection(list: IngestionCandidate[], section: IntelligenceSection)
     case "flagship_annual":
       return list.filter((c) => c.isRecurringAnnual || c.reviewStatus === "verified_flagship");
     case "government_meetings":
-      return list.filter((c) => c.category === "civic_meeting");
+      return list.filter((c) => c.intelligenceLayer === "government" || c.category === "civic_meeting");
     case "church_fundraisers":
-      return list.filter((c) => c.category === "faith_meal");
+      return list.filter((c) => c.intelligenceLayer === "community_church" || c.category === "community_church" || c.category === "faith_meal");
     default:
       return list;
   }

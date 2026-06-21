@@ -6,6 +6,7 @@ const { Client } = require("pg");
 
 const stagedPath = path.join(__dirname, "..", "data", "ingestion", "staged-event-candidates.json");
 const migrationPath = path.join(__dirname, "..", "supabase", "migrations", "003_event_ingestion_candidates.sql");
+const migration004Path = path.join(__dirname, "..", "supabase", "migrations", "004_intelligence_layers.sql");
 
 async function main() {
   const url = process.env.DATABASE_URL || process.env.NETLIFY_DATABASE_URL;
@@ -24,6 +25,9 @@ async function main() {
   if (fs.existsSync(migrationPath)) {
     await client.query(fs.readFileSync(migrationPath, "utf8"));
   }
+  if (fs.existsSync(migration004Path)) {
+    await client.query(fs.readFileSync(migration004Path, "utf8"));
+  }
 
   let inserted = 0;
   for (const c of staged.candidates || []) {
@@ -39,8 +43,10 @@ async function main() {
         title, description, event_date, venue_name, address, city, county, state,
         category, civic_value, political_opportunity_score, confidence_score,
         source_name, source_url, source_type, discovered_by, raw_text,
-        review_status, notes, is_recurring_annual
-      ) VALUES ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14,$15,$16,$17,$18,$19,$20)`,
+        review_status, notes, is_recurring_annual,
+        intelligence_layer, relationship_density_score, typical_attendance_band,
+        tradition_started_year, recurring_registry_id
+      ) VALUES ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14,$15,$16,$17,$18,$19,$20,$21,$22,$23,$24,$25)`,
       [
         c.title,
         c.description,
@@ -62,6 +68,11 @@ async function main() {
         c.review_status || "needs_review",
         c.notes,
         c.is_recurring_annual ?? false,
+        c.intelligence_layer ?? null,
+        c.relationship_density_score ?? null,
+        c.typical_attendance_band ?? null,
+        c.tradition_started_year ?? null,
+        c.recurring_registry_id ?? null,
       ],
     );
     inserted += 1;

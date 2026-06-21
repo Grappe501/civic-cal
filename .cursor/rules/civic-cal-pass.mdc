@@ -1,0 +1,15 @@
+---
+description: civic-cal (Arkansas Everywhere) — pass completion and git hygiene
+globs: civic-call/**
+alwaysApply: false
+---
+
+# civic-cal pass rules
+
+- Lane: `H:\SOSWebsite\civic-call` only — no cross-lane imports.
+- H: drive only for npm/cache/temp (use `run-with-h-drive-env.cjs`).
+- End every file-changing pass with git hygiene — see `docs/BURT_PASS_COMPLETION.md`.
+- Never auto-publish harvested events; admin review required.
+- Public sources only — no login bypass, private groups, or paywalls.
+
+Intelligence: five layers + Relationship Density Score. Registry: `recurring-events-registry.json`.

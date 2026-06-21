@@ -25,10 +25,16 @@ export const CATEGORIES: {
     color: "bg-ark-sage text-white",
   },
   {
+    id: "community_church",
+    label: "Community church events",
+    description: "Spaghetti dinners, fish fries, BBQ — not Sunday services",
+    color: "bg-ark-clay text-white",
+  },
+  {
     id: "faith_meal",
     label: "Faith & meals",
     description: "Church dinners, fish fries, community meals",
-    color: "bg-ark-clay text-white",
+    color: "bg-orange-800 text-white",
   },
   {
     id: "school",

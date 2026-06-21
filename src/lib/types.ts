@@ -2,12 +2,19 @@ export type EventCategory =
   | "civic_meeting"
   | "candidate_event"
   | "community"
+  | "community_church"
   | "faith_meal"
   | "school"
   | "volunteer"
   | "government_deadline"
   | "culture"
   | "small_business";
+
+import type { IntelligenceLayer } from "./intelligence/eventLayers";
+
+export type { IntelligenceLayer } from "./intelligence/eventLayers";
+
+export type AttendanceBand = "small" | "medium" | "large" | "massive";
 
 export type EventStatus = "pending" | "approved" | "rejected" | "archived";
 
@@ -52,6 +59,10 @@ export interface CivicEvent {
   mapStatus?: MapStatus;
   state?: string;
   isOnlineOnly?: boolean;
+  intelligenceLayer?: IntelligenceLayer;
+  relationshipDensityScore?: number | null;
+  typicalAttendanceBand?: AttendanceBand | null;
+  recurringRegistryId?: string | null;
 }
 
 export interface EventFilters {

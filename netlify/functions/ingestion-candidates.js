@@ -22,6 +22,10 @@ function rowToCandidate(row) {
     category: row.category,
     civicValue: row.civic_value,
     politicalOpportunityScore: row.political_opportunity_score,
+    relationshipDensityScore: row.relationship_density_score,
+    intelligenceLayer: row.intelligence_layer,
+    typicalAttendanceBand: row.typical_attendance_band,
+    recurringRegistryId: row.recurring_registry_id,
     confidenceScore: row.confidence_score,
     sourceName: row.source_name,
     sourceUrl: row.source_url,
@@ -57,6 +61,10 @@ function loadStagedFallback() {
     category: c.category,
     civicValue: c.civic_value,
     politicalOpportunityScore: c.political_opportunity_score,
+    relationshipDensityScore: c.relationship_density_score,
+    intelligenceLayer: c.intelligence_layer,
+    typicalAttendanceBand: c.typical_attendance_band,
+    recurringRegistryId: c.recurring_registry_id,
     confidenceScore: c.confidence_score,
     sourceName: c.source_name,
     sourceUrl: c.source_url,
@@ -88,7 +96,22 @@ function filterSection(candidates, section) {
     case "government_meetings":
       return candidates.filter((c) => c.category === "civic_meeting");
     case "church_fundraisers":
-      return candidates.filter((c) => c.category === "faith_meal");
+      return candidates.filter(
+        (c) =>
+          c.intelligenceLayer === "community_church" ||
+          c.category === "community_church" ||
+          c.category === "faith_meal",
+      );
+    case "layer_community_identity":
+      return candidates.filter((c) => c.intelligenceLayer === "community_identity");
+    case "layer_school":
+      return candidates.filter((c) => c.intelligenceLayer === "school_ecosystem");
+    case "layer_relationship":
+      return candidates.filter((c) => c.intelligenceLayer === "relationship");
+    case "hidden_gold":
+      return candidates.filter((c) =>
+        ["extension", "farm_bureau", "ffa_4h", "vfd", "library", "community_college"].includes(c.sourceType),
+      );
     default:
       return candidates;
   }
@@ -187,8 +210,9 @@ exports.handler = async (event) => {
           `INSERT INTO civic_call.events (
             slug, title, description, start_at, city, county, state, address, location_name,
             category, status, source, latitude, longitude, formatted_address, map_status,
-            high_civic_value, candidate_relevant, is_recurring
-          ) VALUES ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,'approved','import',$11,$12,$13,$14,$15,$16,$17)
+            high_civic_value, candidate_relevant, is_recurring,
+            intelligence_layer, relationship_density_score, recurring_registry_id
+          ) VALUES ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,'approved','import',$11,$12,$13,$14,$15,$16,$17,$18,$19,$20)
           ON CONFLICT (slug) DO NOTHING`,
           [
             slug,
@@ -208,6 +232,9 @@ exports.handler = async (event) => {
             (c.political_opportunity_score ?? 0) >= 80,
             (c.political_opportunity_score ?? 0) >= 70,
             c.is_recurring_annual,
+            c.intelligence_layer,
+            c.relationship_density_score,
+            c.recurring_registry_id,
           ],
         );
         await client.query(
