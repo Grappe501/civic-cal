@@ -1,0 +1,81 @@
+{
+  "policy": "Students connect only through verified organizations. No direct minor-to-unknown-adult matching.",
+  "opportunities": [
+    {
+      "id": "seed-library-volunteer",
+      "title": "Library shelving & summer reading helper",
+      "description": "Assist librarians with shelving, program setup, and summer reading events. Parent/guardian approval required.",
+      "county": "Pulaski",
+      "city": "Little Rock",
+      "service_category": "library",
+      "eligible_grades": "9-12",
+      "estimated_hours": 4,
+      "recurring": true,
+      "verified_entity": true,
+      "verification_status": "verified",
+      "organization_slug": null,
+      "signup_url": null,
+      "contact_url": null,
+      "source_url": "https://www.cals.org/volunteer",
+      "notes": "Contact local Central Arkansas Library System branch — verify with school counselor."
+    },
+    {
+      "id": "seed-food-pantry",
+      "title": "Food pantry sorting & distribution",
+      "description": "Sort donations and assist with client intake under staff supervision.",
+      "county": "Washington",
+      "city": "Fayetteville",
+      "service_category": "food_pantry",
+      "eligible_grades": "9-12",
+      "estimated_hours": 3,
+      "recurring": true,
+      "verified_entity": true,
+      "verification_status": "verified",
+      "source_url": "https://arkansasfoodbank.org/get-involved/volunteer/",
+      "notes": "Arkansas Foodbank network — route through official volunteer signup."
+    },
+    {
+      "id": "seed-festival-volunteer",
+      "title": "Community festival setup & teardown",
+      "description": "Help festival organizers with setup, guest services, and cleanup.",
+      "county": "Faulkner",
+      "city": "Conway",
+      "service_category": "festival_volunteer",
+      "eligible_grades": "9-12",
+      "estimated_hours": 6,
+      "recurring": false,
+      "verified_entity": true,
+      "verification_status": "needs_review",
+      "notes": "Verify with festival host organization before counting hours."
+    },
+    {
+      "id": "seed-vfd-fundraiser",
+      "title": "VFD pancake breakfast fundraiser",
+      "description": "Serve meals and assist with fundraiser under fire department supervision.",
+      "county": "White",
+      "city": "Searcy",
+      "service_category": "vfd_fundraiser",
+      "eligible_grades": "9-12",
+      "estimated_hours": 4,
+      "recurring": true,
+      "verified_entity": true,
+      "verification_status": "needs_review",
+      "notes": "Contact local VFD — hours documented by organization contact."
+    },
+    {
+      "id": "seed-extension-4h",
+      "title": "4-H / Extension community event helper",
+      "description": "Assist Cooperative Extension with youth programs, livestock shows, or community workshops.",
+      "county": "Garland",
+      "city": "Hot Springs",
+      "service_category": "four_h_extension",
+      "eligible_grades": "9-12",
+      "estimated_hours": 5,
+      "recurring": true,
+      "verified_entity": true,
+      "verification_status": "verified",
+      "source_url": "https://www.uaex.uada.edu/counties/",
+      "notes": "Contact county Extension office — official UAEX volunteer pathway."
+    }
+  ]
+}

@@ -1,0 +1,352 @@
+{
+  "generated_at": "2026-06-21",
+  "category": "food_truck_festival",
+  "policy": "Official/public sources only — no private Facebook scraping.",
+  "keyword_match": {},
+  "patterns": [
+    {
+      "query": "food truck festival Arkansas",
+      "scope": "statewide"
+    },
+    {
+      "query": "Little Rock Arkansas food truck festival",
+      "city": "Little Rock",
+      "scope": "city"
+    },
+    {
+      "query": "Little Rock AR food truck Friday",
+      "city": "Little Rock",
+      "scope": "city"
+    },
+    {
+      "query": "Little Rock Arkansas food truck night",
+      "city": "Little Rock",
+      "scope": "city"
+    },
+    {
+      "query": "Little Rock Arkansas food truck rally",
+      "city": "Little Rock",
+      "scope": "city"
+    },
+    {
+      "query": "downtown Little Rock food trucks",
+      "city": "Little Rock",
+      "scope": "city"
+    },
+    {
+      "query": "Little Rock Arkansas farmers market food trucks",
+      "city": "Little Rock",
+      "scope": "city"
+    },
+    {
+      "query": "Fayetteville Arkansas food truck festival",
+      "city": "Fayetteville",
+      "scope": "city"
+    },
+    {
+      "query": "Fayetteville AR food truck Friday",
+      "city": "Fayetteville",
+      "scope": "city"
+    },
+    {
+      "query": "Fayetteville Arkansas food truck night",
+      "city": "Fayetteville",
+      "scope": "city"
+    },
+    {
+      "query": "Fayetteville Arkansas food truck rally",
+      "city": "Fayetteville",
+      "scope": "city"
+    },
+    {
+      "query": "downtown Fayetteville food trucks",
+      "city": "Fayetteville",
+      "scope": "city"
+    },
+    {
+      "query": "Fayetteville Arkansas farmers market food trucks",
+      "city": "Fayetteville",
+      "scope": "city"
+    },
+    {
+      "query": "Fort Smith Arkansas food truck festival",
+      "city": "Fort Smith",
+      "scope": "city"
+    },
+    {
+      "query": "Fort Smith AR food truck Friday",
+      "city": "Fort Smith",
+      "scope": "city"
+    },
+    {
+      "query": "Fort Smith Arkansas food truck night",
+      "city": "Fort Smith",
+      "scope": "city"
+    },
+    {
+      "query": "Fort Smith Arkansas food truck rally",
+      "city": "Fort Smith",
+      "scope": "city"
+    },
+    {
+      "query": "downtown Fort Smith food trucks",
+      "city": "Fort Smith",
+      "scope": "city"
+    },
+    {
+      "query": "Fort Smith Arkansas farmers market food trucks",
+      "city": "Fort Smith",
+      "scope": "city"
+    },
+    {
+      "query": "Springdale Arkansas food truck festival",
+      "city": "Springdale",
+      "scope": "city"
+    },
+    {
+      "query": "Springdale AR food truck Friday",
+      "city": "Springdale",
+      "scope": "city"
+    },
+    {
+      "query": "Springdale Arkansas food truck night",
+      "city": "Springdale",
+      "scope": "city"
+    },
+    {
+      "query": "Springdale Arkansas food truck rally",
+      "city": "Springdale",
+      "scope": "city"
+    },
+    {
+      "query": "downtown Springdale food trucks",
+      "city": "Springdale",
+      "scope": "city"
+    },
+    {
+      "query": "Springdale Arkansas farmers market food trucks",
+      "city": "Springdale",
+      "scope": "city"
+    },
+    {
+      "query": "Jonesboro Arkansas food truck festival",
+      "city": "Jonesboro",
+      "scope": "city"
+    },
+    {
+      "query": "Jonesboro AR food truck Friday",
+      "city": "Jonesboro",
+      "scope": "city"
+    },
+    {
+      "query": "Jonesboro Arkansas food truck night",
+      "city": "Jonesboro",
+      "scope": "city"
+    },
+    {
+      "query": "Jonesboro Arkansas food truck rally",
+      "city": "Jonesboro",
+      "scope": "city"
+    },
+    {
+      "query": "downtown Jonesboro food trucks",
+      "city": "Jonesboro",
+      "scope": "city"
+    },
+    {
+      "query": "Jonesboro Arkansas farmers market food trucks",
+      "city": "Jonesboro",
+      "scope": "city"
+    },
+    {
+      "query": "Conway Arkansas food truck festival",
+      "city": "Conway",
+      "scope": "city"
+    },
+    {
+      "query": "Conway AR food truck Friday",
+      "city": "Conway",
+      "scope": "city"
+    },
+    {
+      "query": "Conway Arkansas food truck night",
+      "city": "Conway",
+      "scope": "city"
+    },
+    {
+      "query": "Conway Arkansas food truck rally",
+      "city": "Conway",
+      "scope": "city"
+    },
+    {
+      "query": "downtown Conway food trucks",
+      "city": "Conway",
+      "scope": "city"
+    },
+    {
+      "query": "Conway Arkansas farmers market food trucks",
+      "city": "Conway",
+      "scope": "city"
+    },
+    {
+      "query": "Rogers Arkansas food truck festival",
+      "city": "Rogers",
+      "scope": "city"
+    },
+    {
+      "query": "Rogers AR food truck Friday",
+      "city": "Rogers",
+      "scope": "city"
+    },
+    {
+      "query": "Rogers Arkansas food truck night",
+      "city": "Rogers",
+      "scope": "city"
+    },
+    {
+      "query": "Rogers Arkansas food truck rally",
+      "city": "Rogers",
+      "scope": "city"
+    },
+    {
+      "query": "downtown Rogers food trucks",
+      "city": "Rogers",
+      "scope": "city"
+    },
+    {
+      "query": "Rogers Arkansas farmers market food trucks",
+      "city": "Rogers",
+      "scope": "city"
+    },
+    {
+      "query": "Bentonville Arkansas food truck festival",
+      "city": "Bentonville",
+      "scope": "city"
+    },
+    {
+      "query": "Bentonville AR food truck Friday",
+      "city": "Bentonville",
+      "scope": "city"
+    },
+    {
+      "query": "Bentonville Arkansas food truck night",
+      "city": "Bentonville",
+      "scope": "city"
+    },
+    {
+      "query": "Bentonville Arkansas food truck rally",
+      "city": "Bentonville",
+      "scope": "city"
+    },
+    {
+      "query": "downtown Bentonville food trucks",
+      "city": "Bentonville",
+      "scope": "city"
+    },
+    {
+      "query": "Bentonville Arkansas farmers market food trucks",
+      "city": "Bentonville",
+      "scope": "city"
+    },
+    {
+      "query": "Hot Springs Arkansas food truck festival",
+      "city": "Hot Springs",
+      "scope": "city"
+    },
+    {
+      "query": "Hot Springs AR food truck Friday",
+      "city": "Hot Springs",
+      "scope": "city"
+    },
+    {
+      "query": "Hot Springs Arkansas food truck night",
+      "city": "Hot Springs",
+      "scope": "city"
+    },
+    {
+      "query": "Hot Springs Arkansas food truck rally",
+      "city": "Hot Springs",
+      "scope": "city"
+    },
+    {
+      "query": "downtown Hot Springs food trucks",
+      "city": "Hot Springs",
+      "scope": "city"
+    },
+    {
+      "query": "Hot Springs Arkansas farmers market food trucks",
+      "city": "Hot Springs",
+      "scope": "city"
+    },
+    {
+      "query": "North Little Rock Arkansas food truck festival",
+      "city": "North Little Rock",
+      "scope": "city"
+    },
+    {
+      "query": "North Little Rock AR food truck Friday",
+      "city": "North Little Rock",
+      "scope": "city"
+    },
+    {
+      "query": "North Little Rock Arkansas food truck night",
+      "city": "North Little Rock",
+      "scope": "city"
+    },
+    {
+      "query": "North Little Rock Arkansas food truck rally",
+      "city": "North Little Rock",
+      "scope": "city"
+    },
+    {
+      "query": "downtown North Little Rock food trucks",
+      "city": "North Little Rock",
+      "scope": "city"
+    },
+    {
+      "query": "North Little Rock Arkansas farmers market food trucks",
+      "city": "North Little Rock",
+      "scope": "city"
+    },
+    {
+      "query": "Pulaski Arkansas food truck festival",
+      "county": "Pulaski",
+      "scope": "county"
+    },
+    {
+      "query": "Washington Arkansas food truck festival",
+      "county": "Washington",
+      "scope": "county"
+    },
+    {
+      "query": "Sebastian Arkansas food truck festival",
+      "county": "Sebastian",
+      "scope": "county"
+    },
+    {
+      "query": "Benton Arkansas food truck festival",
+      "county": "Benton",
+      "scope": "county"
+    },
+    {
+      "query": "Craighead Arkansas food truck festival",
+      "county": "Craighead",
+      "scope": "county"
+    },
+    {
+      "query": "Faulkner Arkansas food truck festival",
+      "county": "Faulkner",
+      "scope": "county"
+    },
+    {
+      "query": "Garland Arkansas food truck festival",
+      "county": "Garland",
+      "scope": "county"
+    },
+    {
+      "query": "White Arkansas food truck festival",
+      "county": "White",
+      "scope": "county"
+    }
+  ]
+}

@@ -142,6 +142,94 @@ Reusable campaign workspaces with personalized branding, district scope, and eve
 
 Campaign dashboards can mark events as attending, surrogate, or volunteer-needed — and **choose public visibility** on the live calendar.
 
+## Student Service Match + Statewide Dates (Pass 19)
+
+Arkansas public high school students must complete **75 documented community service hours** (grades 9–12) beginning with the **2026–2027 graduating class**. Civic-Cal adds a verified-entity volunteer matching layer.
+
+### Routes
+
+| Route | Purpose |
+|-------|---------|
+| `/student-service` | Find verified volunteer opportunities |
+| `/calendar/dates` | Important Arkansas dates (elections, seasons, holidays) |
+
+### Student safety policy
+
+- No direct minor-to-unknown-adult matching
+- Students connect only through **verified organizations**
+- Student contact info is **never** public
+- Signup routes through organization URLs or parent/guardian review form
+- Track opportunity information, not private student profiles
+
+### State dates source policy
+
+- Official sources only (SOS, AGFC, ADE, Code of Arkansas Rules)
+- Hunting/fishing specifics require AGFC harvest — `needs_review` until sourced
+- See `data/state-dates/source-registry.json` and harvest tasks
+
+### Food truck harvest
+
+- Discovery chip: **Food Trucks**
+- Category: `food_truck_festival`
+- Run: `npm run harvest:food-trucks`
+
+### Sandbox deploy proof
+
+Before GitHub push, run locally:
+
+```bash
+npm install
+npm run typecheck
+npm run build
+npm run preview   # or: npx serve dist
+```
+
+Inspect: `/`, `/student-service`, `/calendar/dates`, `/map`, `/host`, `/organizations`, `/campaigns/kelly-grappe-sos`, `/admin`
+
+### Migration
+
+```bash
+# Apply 018_student_service_state_dates.sql via Supabase
+npm run generate:state-dates
+npm run import:state-dates   # when DATABASE_URL configured
+```
+
+---
+
+## Host Portal & Organization Directory (Pass 18)
+
+**Path 2:** Arkansas Everywhere is a statewide **community platform** — campaigns are a premium layer, not the public brand.
+
+### Public routes (SEO + AI)
+
+| Route | Example |
+|-------|---------|
+| `/city/:slug`, `/:slug` | `/conway` |
+| `/:slug-county` | `/conway-county` |
+| `/organization/:slug` | `/organization/conway-chamber` |
+| `/organizations` | Directory index |
+| `/host`, `/host/dashboard` | Host portal |
+
+### Civic Glyph System
+
+Custom glyph language (no letters/logos/political symbols) on maps and org profiles — `src/lib/glyphs/civicGlyphs.ts`.
+
+### General volunteer layer
+
+Any host can mark **Volunteers needed** on an event (`HostVolunteerControls` on event detail). Separate from campaign volunteer badges (Pass 17).
+
+### AI / search SEO
+
+JSON-LD + `ai-readable-summary` blocks on event, city, county, and organization pages. See `docs/COMMUNITY_PLATFORM_VISION.md`.
+
+### Migration
+
+```bash
+# Apply 017_host_portal_organization_directory.sql via Supabase
+```
+
+---
+
 ## Volunteer Recruitment Presence Layer (Pass 17)
 
 When a campaign marks **Need volunteers** and toggles **Advertise publicly**, the public calendar shows a volunteer-recruitment badge (icon + text, campaign-branded color).

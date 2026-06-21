@@ -2,9 +2,18 @@ import { useEffect, useMemo, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import { List, Map as MapIcon, Share2 } from "lucide-react";
 import { EventCard } from "../components/EventCard";
+import { JsonLd } from "../components/seo/JsonLd";
 import { ArkansasEventMap } from "../components/maps/ArkansasEventMap";
 import { fetchEvents } from "../lib/api";
 import { countyFromSlug, countySlug, formatCountyLabel, ARKANSAS_COUNTIES } from "../lib/counties";
+import { getCountyDossier } from "../lib/local-intelligence/registry";
+import { buildCountyPageSummary } from "../lib/seo/pageSummaries";
+import { countyPageJsonLd } from "../lib/seo/jsonLd";
+import { StudentServiceBlock } from "../components/student-service/StudentServiceBadge";
+import { ImportantArkansasDatesBlock } from "../components/state-dates/ImportantArkansasDatesBlock";
+import { countyPublicPath } from "../lib/organizations/publicOrganizationDirectory";
+import { listPublicStudentServiceOpportunities } from "../lib/student-service/studentServiceEngine";
+import { stateDatesForCounty } from "../lib/state-dates/stateDatesRegistry";
 import type { CivicEvent } from "../lib/types";
 
 function eventsThisWeek(events: CivicEvent[]) {
@@ -32,6 +41,16 @@ export function CountyPage() {
   const civic = useMemo(() => events.filter((e) => e.category === "civic_meeting" || e.isPublicGovernmentMeeting), [events]);
   const community = useMemo(() => events.filter((e) => e.category === "community"), [events]);
   const candidate = useMemo(() => events.filter((e) => e.candidateRelevant), [events]);
+  const summary = useMemo(() => {
+    if (!county) return "";
+    const dossier = getCountyDossier(county);
+    return buildCountyPageSummary(
+      dossier ?? { county, region: "Arkansas", confidenceScore: 10 },
+      events,
+    );
+  }, [county, events]);
+  const serviceOpps = useMemo(() => (county ? listPublicStudentServiceOpportunities(events, { county }) : []), [county, events]);
+  const countyDates = useMemo(() => (county ? stateDatesForCounty(county).slice(0, 5) : []), [county]);
 
   if (!county) {
     return (
@@ -67,15 +86,16 @@ export function CountyPage() {
 
   return (
     <div className="mx-auto max-w-6xl px-4 py-10">
+      <JsonLd data={countyPageJsonLd(county!, summary, events.length)} />
+
       <div className="flex flex-wrap items-start justify-between gap-4 mb-6">
         <div>
           <p className="text-sm text-ark-sage font-medium uppercase tracking-wide">County calendar</p>
           <h1 className="font-display text-3xl font-bold text-ark-pine">{formatCountyLabel(county)}</h1>
-          <p className="mt-2 text-ark-pine/70">
-            Events this week, civic meetings, and community life in {county} County.
-          </p>
+          <p className="mt-2 text-ark-pine/70 ai-readable-summary max-w-2xl">{summary}</p>
         </div>
         <div className="flex flex-wrap gap-2">
+          <Link to={countyPublicPath(county)} className="btn-secondary text-sm">Community intelligence view</Link>
           <div className="flex rounded-full border border-ark-pine/15 p-1 bg-white">
             <button
               type="button"
@@ -120,6 +140,9 @@ export function CountyPage() {
       <Section title="Civic meetings" items={civic} />
       <Section title="Festivals & community" items={community} />
       <Section title="Candidate opportunity events" items={candidate} />
+
+      <StudentServiceBlock county={county} opportunities={serviceOpps} />
+      {countyDates.length > 0 && <ImportantArkansasDatesBlock dates={countyDates} title={`Important dates — ${county} County`} compact />}
     </div>
   );
 }

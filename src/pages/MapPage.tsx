@@ -1,10 +1,11 @@
 import { useEffect, useMemo, useState } from "react";
 import { Link } from "react-router-dom";
-import { List, Map, PlusCircle } from "lucide-react";
+import { List, Map, PlusCircle, CalendarDays } from "lucide-react";
 import { ArkansasEventMap } from "../components/maps/ArkansasEventMap";
 import { MapFilters, type MapFilterState } from "../components/maps/MapFilters";
 import { fetchEvents } from "../lib/api";
 import type { CivicEvent } from "../lib/types";
+import { CivicGlyphLegend } from "../components/glyphs/CivicGlyph";
 import { PresenceLegend } from "../components/campaigns/PresenceLegend";
 import { eventHasMapPin } from "../lib/maps/mapTypes";
 
@@ -53,6 +54,10 @@ export function MapPage() {
             <PlusCircle className="h-4 w-4" />
             Submit an event near you
           </Link>
+          <Link to="/calendar/dates" className="btn-secondary text-sm">
+            <CalendarDays className="h-4 w-4" />
+            State dates
+          </Link>
           <Link to="/" className="btn-secondary">
             <List className="h-4 w-4" />
             View list instead
@@ -78,6 +83,7 @@ export function MapPage() {
             {mappable.length} mapped · {filtered.length - mappable.length} awaiting geocode or address
           </p>
           <PresenceLegend />
+          <CivicGlyphLegend compact />
         </div>
       </div>
     </div>

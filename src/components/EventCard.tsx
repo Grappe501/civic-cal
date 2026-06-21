@@ -5,11 +5,18 @@ import { CategoryBadge } from "./CategoryBadge";
 import { PresenceBadges } from "./campaigns/PresenceBadges";
 import { useEventPresence } from "../hooks/useEventPresence";
 import { downloadIcs, formatEventRange, mapsUrl, shareEventUrl } from "../lib/format";
+import { HostVolunteerBadge } from "./hosts/HostVolunteerBadge";
+import { StudentServiceBadge } from "./student-service/StudentServiceBadge";
+import { getEventStudentServiceOpportunity } from "../lib/student-service/studentServiceEngine";
+import { CivicGlyph } from "./glyphs/CivicGlyph";
+import { glyphForEventCategory } from "../lib/glyphs/civicGlyphs";
 import { cn } from "../lib/cn";
 
 export function EventCard({ event, compact }: { event: CivicEvent; compact?: boolean }) {
   const maps = mapsUrl(event);
   const presence = useEventPresence(event.id);
+  const eventGlyph = glyphForEventCategory(event.category, event.title);
+  const studentServiceOpp = getEventStudentServiceOpportunity(event);
 
   async function handleShare() {
     const url = shareEventUrl(event);
@@ -25,14 +32,17 @@ export function EventCard({ event, compact }: { event: CivicEvent; compact?: boo
     <article className={cn("card flex flex-col gap-3 relative", event.featured && "ring-2 ring-ark-rust/30")}>
       <PresenceBadges presence={presence} eventTitle={event.title} />
       <div className="flex flex-wrap items-start justify-between gap-2">
-        <div className="space-y-1">
-          {event.featured && (
+        <div className="space-y-1 flex-1 min-w-0">
+          <div className="flex items-center gap-2">
+            <CivicGlyph glyph={eventGlyph} size="sm" />
+            {event.featured && (
             <span className="chip bg-ark-rust/10 text-ark-rust text-[10px] uppercase tracking-wide">
               <Star className="inline h-3 w-3 mr-1" />
               Featured
             </span>
           )}
-          <Link to={`/event/${event.slug}`} className="font-display text-lg font-semibold text-ark-pine hover:text-ark-rust">
+          </div>
+          <Link to={`/event/${event.slug}`} className="font-display text-lg font-semibold text-ark-pine hover:text-ark-rust block">
             {event.title}
           </Link>
         </div>
@@ -40,6 +50,11 @@ export function EventCard({ event, compact }: { event: CivicEvent; compact?: boo
       </div>
 
       <p className="text-sm text-ark-pine/70">{formatEventRange(event)}</p>
+
+      <div className="flex flex-wrap gap-1.5">
+        <HostVolunteerBadge event={event} />
+        {studentServiceOpp && <StudentServiceBadge opportunity={studentServiceOpp} compact />}
+      </div>
 
       <p className="text-sm flex items-start gap-1.5 text-ark-pine/80">
         <MapPin className="h-4 w-4 shrink-0 mt-0.5 text-ark-sage" />

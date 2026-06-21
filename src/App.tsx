@@ -19,6 +19,14 @@ import { CampaignWorkspacePage } from "./pages/CampaignWorkspacePage";
 import { CampaignCityIntelPage } from "./pages/CampaignCityIntelPage";
 import { CampaignCountyIntelPage } from "./pages/CampaignCountyIntelPage";
 import { DistrictEnginePage } from "./pages/DistrictEnginePage";
+import { CityPage } from "./pages/CityPage";
+import { OrganizationPage } from "./pages/OrganizationPage";
+import { OrganizationsIndexPage } from "./pages/OrganizationsIndexPage";
+import { HostPortalPage } from "./pages/HostPortalPage";
+import { HostDashboardPage } from "./pages/HostDashboardPage";
+import { StudentServicePage } from "./pages/StudentServicePage";
+import { StateDatesPage } from "./pages/StateDatesPage";
+import { GeoResolverPage } from "./pages/GeoResolverPage";
 
 export default function App() {
   return (
@@ -33,6 +41,11 @@ export default function App() {
           <Route path="/event/:slug" element={<EventDetailPage />} />
           <Route path="/counties" element={<CountiesIndexPage />} />
           <Route path="/county/:slug" element={<CountyPage />} />
+          <Route path="/city/:slug" element={<CityPage />} />
+          <Route path="/organization/:slug" element={<OrganizationPage />} />
+          <Route path="/organizations" element={<OrganizationsIndexPage />} />
+          <Route path="/host" element={<HostPortalPage />} />
+          <Route path="/host/dashboard" element={<HostDashboardPage />} />
           <Route path="/this-week" element={<ThisWeekPage />} />
           <Route path="/civic-watch" element={<CivicWatchPage />} />
           <Route path="/map" element={<MapPage />} />
@@ -45,7 +58,10 @@ export default function App() {
           <Route path="/campaigns/:slug" element={<CampaignWorkspacePage />} />
           <Route path="/campaigns/:slug/city/:citySlug" element={<CampaignCityIntelPage />} />
           <Route path="/campaigns/:slug/county/:countySlug" element={<CampaignCountyIntelPage />} />
+          <Route path="/student-service" element={<StudentServicePage />} />
+          <Route path="/calendar/dates" element={<StateDatesPage />} />
           <Route path="/admin" element={<AdminPage />} />
+          <Route path="/:slug" element={<GeoResolverPage />} />
         </Routes>
       </Layout>
     </BrowserRouter>

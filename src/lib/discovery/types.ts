@@ -25,7 +25,8 @@ export type DiscoveryChipId =
   | "gov_meetings"
   | "volunteer_ops"
   | "candidate_presence"
-  | "campaign_volunteer_opportunities";
+  | "campaign_volunteer_opportunities"
+  | "food_trucks";
 
 export type ExploreIntent =
   | "near_me"

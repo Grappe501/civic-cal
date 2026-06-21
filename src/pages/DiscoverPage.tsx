@@ -13,6 +13,8 @@ import { loadPersonalityMode } from "../lib/discovery/personalityStore";
 import { busiestTownsThisWeekend } from "../lib/discovery/eventDiscovery";
 import type { DiscoveryChipId, PersonalityMode, PublicDiscoveryAnswer } from "../lib/discovery/types";
 import type { CivicEvent, EventFilters } from "../lib/types";
+import { ImportantArkansasDatesBlock } from "../components/state-dates/ImportantArkansasDatesBlock";
+import { upcomingStateDates } from "../lib/state-dates/stateDatesRegistry";
 import { countySlug } from "../lib/counties";
 
 export function DiscoverPage() {
@@ -60,12 +62,13 @@ export function DiscoverPage() {
   }, [events, activeChip, aiAnswer, filters]);
 
   const towns = useMemo(() => busiestTownsThisWeekend(events), [events]);
+  const stateDates = useMemo(() => upcomingStateDates(6), []);
 
   return (
     <div>
       <section className="discovery-banner">
         <div className="mx-auto max-w-6xl px-4 py-12 md:py-16">
-          <p className="discovery-banner-kicker">Arkansas is alive.</p>
+          <p className="discovery-banner-kicker">Arkansas Community Calendar</p>
           <h1 className="discovery-banner-title">Let&apos;s go explore it.</h1>
           <p className="discovery-banner-sub max-w-xl">
             {mode === "citizen"
@@ -133,6 +136,10 @@ export function DiscoverPage() {
             setAiAnswer(null);
           }}
         />
+
+        {!activeChip && !aiAnswer && (
+          <ImportantArkansasDatesBlock dates={stateDates} />
+        )}
 
         {towns.length > 0 && mode === "citizen" && !activeChip && !aiAnswer && (
           <section className="card bg-ark-wheat/40">

@@ -1,0 +1,173 @@
+{
+  "generated_at": "2026-06-20",
+  "policy": "Only verified dates with official source_url are shown as verified in UI. Hunting/fishing season specifics require AGFC harvest task completion.",
+  "dates": [
+    {
+      "id": "ar-holiday-new-year-2026",
+      "title": "New Year's Day (state holiday)",
+      "date": "2026-01-01",
+      "category": "state_holiday",
+      "source_name": "Arkansas state holiday observance",
+      "source_url": "https://www.dfa.arkansas.gov/offices/state-holidays/",
+      "applies_statewide": true,
+      "verification_status": "verified"
+    },
+    {
+      "id": "ar-holiday-mlk-2026",
+      "title": "Martin Luther King Jr. Day (state holiday)",
+      "date": "2026-01-19",
+      "category": "state_holiday",
+      "source_name": "Arkansas state holiday observance",
+      "source_url": "https://www.dfa.arkansas.gov/offices/state-holidays/",
+      "applies_statewide": true,
+      "verification_status": "verified"
+    },
+    {
+      "id": "ar-holiday-memorial-2026",
+      "title": "Memorial Day (state holiday)",
+      "date": "2026-05-25",
+      "category": "state_holiday",
+      "source_name": "Arkansas state holiday observance",
+      "source_url": "https://www.dfa.arkansas.gov/offices/state-holidays/",
+      "applies_statewide": true,
+      "verification_status": "verified"
+    },
+    {
+      "id": "ar-holiday-independence-2026",
+      "title": "Independence Day (state holiday)",
+      "date": "2026-07-04",
+      "category": "state_holiday",
+      "source_name": "Arkansas state holiday observance",
+      "source_url": "https://www.dfa.arkansas.gov/offices/state-holidays/",
+      "applies_statewide": true,
+      "verification_status": "verified"
+    },
+    {
+      "id": "ar-holiday-labor-2026",
+      "title": "Labor Day (state holiday)",
+      "date": "2026-09-07",
+      "category": "state_holiday",
+      "source_name": "Arkansas state holiday observance",
+      "source_url": "https://www.dfa.arkansas.gov/offices/state-holidays/",
+      "applies_statewide": true,
+      "verification_status": "verified"
+    },
+    {
+      "id": "ar-holiday-veterans-2026",
+      "title": "Veterans Day (state holiday)",
+      "date": "2026-11-11",
+      "category": "state_holiday",
+      "source_name": "Arkansas state holiday observance",
+      "source_url": "https://www.dfa.arkansas.gov/offices/state-holidays/",
+      "applies_statewide": true,
+      "verification_status": "verified"
+    },
+    {
+      "id": "ar-holiday-thanksgiving-2026",
+      "title": "Thanksgiving (state holiday)",
+      "date": "2026-11-26",
+      "category": "state_holiday",
+      "source_name": "Arkansas state holiday observance",
+      "source_url": "https://www.dfa.arkansas.gov/offices/state-holidays/",
+      "applies_statewide": true,
+      "verification_status": "verified"
+    },
+    {
+      "id": "ar-holiday-christmas-2026",
+      "title": "Christmas Day (state holiday)",
+      "date": "2026-12-25",
+      "category": "state_holiday",
+      "source_name": "Arkansas state holiday observance",
+      "source_url": "https://www.dfa.arkansas.gov/offices/state-holidays/",
+      "applies_statewide": true,
+      "verification_status": "verified"
+    },
+    {
+      "id": "ar-community-service-requirement",
+      "title": "75-hour community service graduation requirement (2026–2027 graduating class onward)",
+      "date": "2026-08-01",
+      "category": "civic_deadline",
+      "subcategory": "school_policy",
+      "source_name": "Code of Arkansas Rules 6 CAR § 104-102",
+      "source_url": "https://codeofarrules.arkansas.gov/Rules/Rule?chapterID=47&levelType=section&partID=1104&sectionID=35239",
+      "applies_statewide": true,
+      "verification_status": "verified",
+      "notes": "Public high school students must complete 75 documented community service hours in grades 9–12."
+    },
+    {
+      "id": "sos-election-calendar-ref-2026",
+      "title": "2026 Arkansas statewide election dates — official calendar",
+      "date": "2026-01-01",
+      "end_date": "2026-12-31",
+      "category": "elections",
+      "subcategory": "reference",
+      "source_name": "Arkansas Secretary of State",
+      "source_url": "https://www.sos.arkansas.gov/elections/statewide-election-dates",
+      "applies_statewide": true,
+      "verification_status": "verified",
+      "notes": "Consult SOS for preferential primary, primary, general, and runoff dates."
+    },
+    {
+      "id": "election-general-2026",
+      "title": "2026 General Election",
+      "date": "2026-11-03",
+      "category": "elections",
+      "subcategory": "general",
+      "source_name": "Arkansas Secretary of State",
+      "source_url": "https://www.sos.arkansas.gov/elections/statewide-election-dates",
+      "applies_statewide": true,
+      "verification_status": "verified"
+    },
+    {
+      "id": "voter-registration-ref",
+      "title": "Arkansas voter registration information",
+      "date": "2026-01-01",
+      "end_date": "2026-12-31",
+      "category": "voter_registration",
+      "source_name": "Arkansas Secretary of State",
+      "source_url": "https://www.sos.arkansas.gov/elections/voter-information",
+      "applies_statewide": true,
+      "verification_status": "verified",
+      "notes": "Registration deadlines vary by election — verify on SOS site."
+    },
+    {
+      "id": "agfc-hunting-ref",
+      "title": "Arkansas hunting seasons — verify on AGFC",
+      "date": "2026-09-01",
+      "end_date": "2027-01-31",
+      "category": "hunting_season",
+      "subcategory": "reference",
+      "source_name": "Arkansas Game and Fish Commission",
+      "source_url": "https://www.agfc.com/en/hunting/big-game/deer/deer-seasons/",
+      "applies_statewide": true,
+      "verification_status": "needs_review",
+      "season_year": "2025-2026",
+      "species": "deer",
+      "notes": "Specific zone dates require AGFC harvest import — not shown as verified until sourced."
+    },
+    {
+      "id": "agfc-fishing-ref",
+      "title": "Arkansas fishing regulations — official reference",
+      "date": "2026-01-01",
+      "end_date": "2026-12-31",
+      "category": "fishing_season",
+      "source_name": "Arkansas Game and Fish Commission",
+      "source_url": "https://www.agfc.com/en/fishing/",
+      "applies_statewide": true,
+      "verification_status": "verified",
+      "notes": "Major opener dates imported via harvest task when published."
+    },
+    {
+      "id": "fair-season-ref",
+      "title": "Arkansas county fair season (typical late summer–fall)",
+      "date": "2026-08-15",
+      "end_date": "2026-10-31",
+      "category": "agriculture_fair_season",
+      "source_name": "Arkansas Association of Fairs & Shows",
+      "source_url": "https://www.arkansasfairsandshows.com/",
+      "applies_statewide": true,
+      "verification_status": "needs_review",
+      "notes": "County-specific fair dates added via harvest — this is a statewide season window scaffold."
+    }
+  ]
+}

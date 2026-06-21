@@ -30,6 +30,8 @@ import { loadCampaignEvents } from "../../lib/campaigns/campaignEventsStore";
 import { detectScheduleConflicts } from "../../lib/campaigns/campaignConflictDetector";
 import { buildInstitutionRelationships } from "../../lib/institutions/institutionRelationshipEngine";
 import { translateEventToOpportunity } from "../../lib/intelligence/eventImportanceEngine";
+import { StatewideDatesWatchPanel } from "../state-dates/ImportantArkansasDatesBlock";
+import { filterStateDates } from "../../lib/state-dates/stateDatesRegistry";
 import { CampaignLocalIntelOverview } from "../local-intelligence/CampaignLocalIntelOverview";
 import { LocalGeographyIntelStrip } from "../local-intelligence/LocalGeographyIntelStrip";
 import { LayerBadge, DensityBadge } from "../intelligence/LayerBadge";
@@ -484,6 +486,7 @@ export function CampaignDashboard({ workspace }: Props) {
             asks={publicVolunteerAsks}
             themePrimary={theme.primaryColor}
           />
+          <StatewideDatesWatchPanel dates={filterStateDates({ verifiedOnly: true }).slice(0, 8)} />
           <div className="card" style={{ backgroundColor: theme.surfaceColor }}>
             <h3 className="font-semibold" style={{ color: theme.primaryColor }}>AI & local intelligence</h3>
             <p className="text-sm text-ark-pine/70 mt-2">

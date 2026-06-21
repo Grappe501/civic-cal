@@ -7,6 +7,8 @@ import { shareEventUrl } from "../lib/format";
 import type { CivicEvent } from "../lib/types";
 import type { EventDossierBundle } from "../lib/intelligence/eventDossierTypes";
 import { buildDossierBundle } from "../lib/ai/eventDossierBuilder";
+import { JsonLd } from "../components/seo/JsonLd";
+import { eventJsonLd } from "../lib/seo/jsonLd";
 import { EventIntelligenceDossierView } from "../components/events/EventIntelligenceDossierView";
 
 export function EventDetailPage() {
@@ -57,11 +59,14 @@ export function EventDetailPage() {
   }
 
   return (
-    <EventIntelligenceDossierView
+    <>
+      <JsonLd data={eventJsonLd(event, dossierBundle.dossier.candidateGuidance ?? event.description ?? undefined)} />
+      <EventIntelligenceDossierView
       event={event}
       bundle={dossierBundle}
       presence={presence}
       onShare={handleShare}
     />
+    </>
   );
 }

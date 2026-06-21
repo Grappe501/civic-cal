@@ -1,0 +1,78 @@
+{
+  "generated_at": "2026-06-21",
+  "policy": "Only verified dates with official source_url are shown as verified in UI. Hunting/fishing season specifics require AGFC harvest task completion.",
+  "source_count": 9,
+  "date_count": 15,
+  "verified_count": 13,
+  "needs_review_count": 2,
+  "harvest_tasks": [
+    {
+      "id": "harvest-agfc-deer-2026",
+      "title": "Import verified 2026 deer season dates from AGFC deer seasons page",
+      "source_id": "agfc-deer-seasons",
+      "category": "hunting_season",
+      "status": "pending"
+    },
+    {
+      "id": "harvest-agfc-turkey-2026",
+      "title": "Import verified 2026 turkey season dates from AGFC",
+      "source_id": "agfc-turkey-seasons",
+      "category": "hunting_season",
+      "status": "pending"
+    },
+    {
+      "id": "harvest-sos-2026-elections",
+      "title": "Import 2026 election dates from SOS statewide election calendar",
+      "source_id": "arkansas-sos-elections",
+      "category": "elections",
+      "status": "pending"
+    }
+  ],
+  "sources": [
+    {
+      "id": "arkansas-sos-elections",
+      "name": "Arkansas Secretary of State — Elections",
+      "url": "https://www.sos.arkansas.gov/elections/statewide-election-dates"
+    },
+    {
+      "id": "arkansas-sos-voter-info",
+      "name": "Arkansas Secretary of State — Voter Information",
+      "url": "https://www.sos.arkansas.gov/elections/voter-information"
+    },
+    {
+      "id": "agfc-hunting",
+      "name": "Arkansas Game and Fish Commission — Hunting",
+      "url": "https://www.agfc.com/en/hunting/"
+    },
+    {
+      "id": "agfc-deer-seasons",
+      "name": "AGFC — Deer Season Information",
+      "url": "https://www.agfc.com/en/hunting/big-game/deer/deer-seasons/"
+    },
+    {
+      "id": "agfc-turkey-seasons",
+      "name": "AGFC — Turkey Season Information",
+      "url": "https://www.agfc.com/en/hunting/big-game/turkey/turkey-seasons/"
+    },
+    {
+      "id": "agfc-waterfowl",
+      "name": "AGFC — Waterfowl",
+      "url": "https://www.agfc.com/en/hunting/waterfowl/"
+    },
+    {
+      "id": "agfc-fishing",
+      "name": "Arkansas Game and Fish Commission — Fishing",
+      "url": "https://www.agfc.com/en/fishing/"
+    },
+    {
+      "id": "ade-school-calendar",
+      "name": "Arkansas Department of Education",
+      "url": "https://dese.ade.arkansas.gov/"
+    },
+    {
+      "id": "arkansas-code-community-service",
+      "name": "Code of Arkansas Rules — Community service requirement",
+      "url": "https://codeofarrules.arkansas.gov/Rules/Rule?chapterID=47&levelType=section&partID=1104&sectionID=35239"
+    }
+  ]
+}

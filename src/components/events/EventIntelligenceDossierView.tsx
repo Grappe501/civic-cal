@@ -25,6 +25,9 @@ import { PresenceBadges } from "../campaigns/PresenceBadges";
 import { LayerBadge } from "../intelligence/LayerBadge";
 import { DensityBadge } from "../intelligence/LayerBadge";
 import { EventDetailMap } from "../maps/EventDetailMap";
+import { HostVolunteerControls } from "../hosts/HostVolunteerBadge";
+import { StudentServiceBadge } from "../student-service/StudentServiceBadge";
+import { getEventStudentServiceOpportunity } from "../../lib/student-service/studentServiceEngine";
 import { EventFeedbackForm } from "../EventFeedbackForm";
 import { downloadIcs, formatEventRange, mapsUrl } from "../../lib/format";
 import type { IntelligenceLayer } from "../../lib/intelligence/eventLayers";
@@ -76,6 +79,7 @@ export function EventIntelligenceDossierView({ event, bundle, presence, onShare,
   const localConfidence = cityDossier?.confidenceScore ?? countyDossier?.confidenceScore;
   const confidenceLabel =
     dossier.confidenceScore >= 70 ? "High confidence" : dossier.confidenceScore >= 40 ? "Partial" : "Needs research";
+  const studentServiceOpp = getEventStudentServiceOpportunity(event);
 
   return (
     <article className="mx-auto max-w-4xl px-4 py-8 pb-16">
@@ -314,6 +318,17 @@ export function EventIntelligenceDossierView({ event, bundle, presence, onShare,
       {event.description && (
         <Section title="Event description">
           <p className="text-ark-pine/85 whitespace-pre-wrap">{event.description}</p>
+        </Section>
+      )}
+
+      <HostVolunteerControls eventId={event.id} />
+
+      {studentServiceOpp && (
+        <Section title="Student community service">
+          <p className="text-sm text-ark-pine/75 mb-3">
+            Verified organization opportunity — routes through official signup. Parent/guardian documentation required.
+          </p>
+          <StudentServiceBadge opportunity={studentServiceOpp} />
         </Section>
       )}
 

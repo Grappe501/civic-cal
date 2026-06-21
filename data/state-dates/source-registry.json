@@ -1,0 +1,91 @@
+{
+  "policy": "Official/public sources only. Do not publish hunting, fishing, or election dates without source_url and verification_status.",
+  "sources": [
+    {
+      "id": "arkansas-sos-elections",
+      "name": "Arkansas Secretary of State — Elections",
+      "url": "https://www.sos.arkansas.gov/elections/statewide-election-dates",
+      "categories": ["elections", "voter_registration", "early_voting"],
+      "trust": "official"
+    },
+    {
+      "id": "arkansas-sos-voter-info",
+      "name": "Arkansas Secretary of State — Voter Information",
+      "url": "https://www.sos.arkansas.gov/elections/voter-information",
+      "categories": ["voter_registration", "absentee"],
+      "trust": "official"
+    },
+    {
+      "id": "agfc-hunting",
+      "name": "Arkansas Game and Fish Commission — Hunting",
+      "url": "https://www.agfc.com/en/hunting/",
+      "categories": ["hunting_season"],
+      "trust": "official"
+    },
+    {
+      "id": "agfc-deer-seasons",
+      "name": "AGFC — Deer Season Information",
+      "url": "https://www.agfc.com/en/hunting/big-game/deer/deer-seasons/",
+      "categories": ["hunting_season"],
+      "trust": "official"
+    },
+    {
+      "id": "agfc-turkey-seasons",
+      "name": "AGFC — Turkey Season Information",
+      "url": "https://www.agfc.com/en/hunting/big-game/turkey/turkey-seasons/",
+      "categories": ["hunting_season"],
+      "trust": "official"
+    },
+    {
+      "id": "agfc-waterfowl",
+      "name": "AGFC — Waterfowl",
+      "url": "https://www.agfc.com/en/hunting/waterfowl/",
+      "categories": ["hunting_season"],
+      "trust": "official"
+    },
+    {
+      "id": "agfc-fishing",
+      "name": "Arkansas Game and Fish Commission — Fishing",
+      "url": "https://www.agfc.com/en/fishing/",
+      "categories": ["fishing_season"],
+      "trust": "official"
+    },
+    {
+      "id": "ade-school-calendar",
+      "name": "Arkansas Department of Education",
+      "url": "https://dese.ade.arkansas.gov/",
+      "categories": ["school_calendar"],
+      "trust": "official"
+    },
+    {
+      "id": "arkansas-code-community-service",
+      "name": "Code of Arkansas Rules — Community service requirement",
+      "url": "https://codeofarrules.arkansas.gov/Rules/Rule?chapterID=47&levelType=section&partID=1104&sectionID=35239",
+      "categories": ["civic_deadline", "school_calendar"],
+      "trust": "official"
+    }
+  ],
+  "harvest_tasks": [
+    {
+      "id": "harvest-agfc-deer-2026",
+      "title": "Import verified 2026 deer season dates from AGFC deer seasons page",
+      "source_id": "agfc-deer-seasons",
+      "category": "hunting_season",
+      "status": "pending"
+    },
+    {
+      "id": "harvest-agfc-turkey-2026",
+      "title": "Import verified 2026 turkey season dates from AGFC",
+      "source_id": "agfc-turkey-seasons",
+      "category": "hunting_season",
+      "status": "pending"
+    },
+    {
+      "id": "harvest-sos-2026-elections",
+      "title": "Import 2026 election dates from SOS statewide election calendar",
+      "source_id": "arkansas-sos-elections",
+      "category": "elections",
+      "status": "pending"
+    }
+  ]
+}

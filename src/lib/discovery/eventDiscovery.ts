@@ -2,6 +2,7 @@ import { isThisWeek, isWeekend, nextSaturday, addDays, startOfDay, endOfDay } fr
 import type { CivicEvent } from "../types";
 import { getEventPresence } from "../campaigns/presenceLayer";
 import { eventHasPublicVolunteerAsk } from "../campaigns/volunteerRecruitment";
+import { eventHasHostVolunteerAsk } from "../hosts/hostStore";
 import { scoreEventForCampaign } from "../campaigns/eventIntel";
 import { chipById } from "./chips";
 import { isRaceEvent, matchRaceCategory } from "./raceCategories";
@@ -49,12 +50,19 @@ export function filterByChip(events: CivicEvent[], chipId: DiscoveryChipId): Civ
     );
   }
 
+  if (chipId === "food_trucks") {
+    return events.filter((e) =>
+      e.category === "food_truck_festival" ||
+      /food truck|food-truck|food truck festival|food truck rally|food truck night|food truck friday|mobile food/i.test(eventText(e)),
+    );
+  }
+
   if (chipId === "parades") {
     return events.filter((e) => /parade/i.test(eventText(e)));
   }
 
   if (chipId === "campaign_volunteer_opportunities") {
-    return events.filter((e) => eventHasPublicVolunteerAsk(e.id));
+    return events.filter((e) => eventHasPublicVolunteerAsk(e.id) || eventHasHostVolunteerAsk(e.id));
   }
 
   if (chipId === "community_anchors") {

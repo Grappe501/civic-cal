@@ -6,9 +6,10 @@ const nav = [
   { to: "/", label: "Discover" },
   { to: "/explore", label: "Explore" },
   { to: "/map", label: "Map" },
+  { to: "/student-service", label: "Student service" },
+  { to: "/organizations", label: "Organizations" },
+  { to: "/host", label: "Host" },
   { to: "/races", label: "Races" },
-  { to: "/safari", label: "Safari" },
-  { to: "/campaigns", label: "Campaigns" },
   { to: "/counties", label: "Counties" },
   { to: "/submit", label: "Submit", highlight: true as const },
 ];
@@ -26,7 +27,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
               <p className="font-display text-lg font-semibold leading-tight text-ark-pine group-hover:text-ark-rust transition">
                 Arkansas Everywhere
               </p>
-              <p className="text-xs text-ark-pine/60">Every town matters</p>
+              <p className="text-xs text-ark-pine/60">Community calendar · all 75 counties</p>
             </div>
           </Link>
           <nav className="hidden lg:flex items-center gap-1">
@@ -61,8 +62,8 @@ export function Layout({ children }: { children: React.ReactNode }) {
               Arkansas Everywhere
             </p>
             <p className="mt-2 text-sm text-ark-wheat/70">
-              A statewide civic + community calendar. Open to the public — built for organizers,
-              candidates, churches, schools, and neighbors.
+              Arkansas Community Calendar — festivals, church dinners, school events, races, and gatherings in every county.
+              Campaign tools are a premium layer for organizers who opt in.
             </p>
           </div>
           <div className="text-sm">
@@ -70,6 +71,11 @@ export function Layout({ children }: { children: React.ReactNode }) {
             <ul className="space-y-1 text-ark-wheat/70">
               <li><Link to="/submit" className="hover:text-white">Submit an event</Link></li>
               <li><Link to="/explore" className="hover:text-white">Explore Arkansas</Link></li>
+              <li><Link to="/student-service" className="hover:text-white">Student service match</Link></li>
+              <li><Link to="/calendar/dates" className="hover:text-white">Important Arkansas dates</Link></li>
+              <li><Link to="/host" className="hover:text-white">Host portal</Link></li>
+              <li><Link to="/organizations" className="hover:text-white">Organizations</Link></li>
+              <li><Link to="/campaigns" className="hover:text-white">Campaign workspaces</Link></li>
               <li><Link to="/safari" className="hover:text-white">Event Safari</Link></li>
               <li><Link to="/races" className="hover:text-white">Race Circuit</Link></li>
               <li><Link to="/map" className="hover:text-white">Event map</Link></li>

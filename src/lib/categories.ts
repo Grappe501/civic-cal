@@ -66,6 +66,12 @@ export const CATEGORIES: {
     description: "Grand openings, markets, downtown events",
     color: "bg-amber-700 text-white",
   },
+  {
+    id: "food_truck_festival",
+    label: "Food truck festival",
+    description: "Food truck rallies, nights, and mobile food gatherings",
+    color: "bg-orange-600 text-white",
+  },
 ];
 
 export function categoryLabel(id: EventCategory): string {
