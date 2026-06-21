@@ -116,7 +116,7 @@ function approveCountyFairEvents(options = {}) {
   }
 
   approved.generatedAt = new Date().toISOString();
-  approved.pass = "29C";
+  approved.pass = "33";
   saveJson(STAGED, staged);
   saveJson(APPROVED, approved);
   return { ok: true, approved: added, totalApproved: approved.events.length };

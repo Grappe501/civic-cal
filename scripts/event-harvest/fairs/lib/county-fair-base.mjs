@@ -214,15 +214,15 @@ export function extraSourcesForCounty(county) {
 export function fairSearchPatterns(county) {
   return [
     `${county} County Fair 2026 Arkansas`,
-    `${county} County Fairgrounds 2026`,
+    `${county} County Fair schedule 2026`,
+    `${county} County Fair book 2026`,
+    `${county} County Fairgrounds Arkansas`,
     `${county} County Fair livestock show 2026`,
-    `${county} County Fair schedule Arkansas`,
-    `${county} County Fair Association Arkansas`,
-    `${county} County Fair Facebook 2026`,
+    `${county} County Fair pageant 2026`,
+    `${county} County Fair rodeo 2026`,
     `${county} County Fair 4-H Arkansas`,
     `${county} County Fair Extension Arkansas`,
-    `${county} County Fair chamber tourism Arkansas 2026`,
-    `${county} County Fair local news calendar 2026`,
+    `${county} County Fair Association Arkansas`,
   ];
 }
 

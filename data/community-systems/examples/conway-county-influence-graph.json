@@ -1,0 +1,38 @@
+{
+  "version": "1.0",
+  "pass": "39-example",
+  "label": "Conway County — influence graph (illustrative scaffold)",
+  "county": "Conway",
+  "generatedAt": "2026-06-21",
+  "verificationStatus": "illustrative_scaffold",
+  "root": {
+    "id": "county-conway",
+    "type": "county",
+    "slug": "conway-county",
+    "title": "Conway County, Arkansas"
+  },
+  "nodes": [
+    { "id": "inst-ext-conway", "type": "institution", "subtype": "extension_office", "title": "Conway County Cooperative Extension", "city": "Morrilton", "county": "Conway" },
+    { "id": "inst-4h-conway", "type": "institution", "subtype": "four_h", "title": "Conway County 4-H", "city": null, "county": "Conway" },
+    { "id": "inst-homemakers-conway", "type": "institution", "subtype": "homemakers", "title": "Conway County Extension Homemakers", "city": null, "county": "Conway" },
+    { "id": "trad-catholic-point-spaghetti", "type": "tradition", "title": "Catholic Point Spaghetti and Sausage Dinner", "city": "Center Ridge", "county": "Conway", "source_url": "https://www.dolr.org/events" },
+    { "id": "inst-chamber-morrilton", "type": "institution", "subtype": "chamber", "title": "Morrilton Area Chamber of Commerce", "city": "Morrilton", "county": "Conway" },
+    { "id": "inst-school-sacred-heart", "type": "institution", "subtype": "school", "title": "Sacred Heart School", "city": "Morrilton", "county": "Conway" },
+    { "id": "inst-petit-jean-park", "type": "institution", "subtype": "state_park", "title": "Petit Jean State Park", "city": "Morrilton", "county": "Conway" },
+    { "id": "inst-vfd-network-conway", "type": "institution", "subtype": "vfd", "title": "Conway County VFD Network", "city": null, "county": "Conway" },
+    { "id": "trad-conway-county-fair", "type": "tradition", "title": "Conway County Fair", "city": "Morrilton", "county": "Conway" }
+  ],
+  "edges": [
+    { "type": "located_in", "from": "inst-ext-conway", "to": "county-conway" },
+    { "type": "located_in", "from": "inst-4h-conway", "to": "county-conway" },
+    { "type": "located_in", "from": "inst-homemakers-conway", "to": "county-conway" },
+    { "type": "tradition_of", "from": "trad-catholic-point-spaghetti", "to": "inst-ext-conway" },
+    { "type": "hosts", "from": "inst-ext-conway", "to": "trad-catholic-point-spaghetti" },
+    { "type": "located_in", "from": "trad-catholic-point-spaghetti", "to": "county-conway" },
+    { "type": "located_in", "from": "inst-chamber-morrilton", "to": "county-conway" },
+    { "type": "located_in", "from": "inst-school-sacred-heart", "to": "county-conway" },
+    { "type": "located_in", "from": "inst-petit-jean-park", "to": "county-conway" },
+    { "type": "serves", "from": "inst-vfd-network-conway", "to": "county-conway" },
+    { "type": "hosts", "from": "inst-vfd-network-conway", "to": "trad-conway-county-fair" }
+  ]
+}

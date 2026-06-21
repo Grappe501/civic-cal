@@ -1,0 +1,75 @@
+{
+  "version": "1.0",
+  "label": "AI Brain 3.0 — Gap Discovery Rules",
+  "updatedAt": "2026-06-21",
+  "philosophy": "AI discovers coverage gaps and recommends harvest lanes — research director mode.",
+  "rules": [
+    {
+      "id": "schools_no_athletics",
+      "task_type": "school_athletics_gap",
+      "condition": { "high_schools_gte": 1, "football_games_eq": 0 },
+      "confidence": "low",
+      "message": "{county} County: {high_schools} high schools, 0 football games indexed.",
+      "recommended_harvest": ["athletics calendars", "band schedules", "homecoming schedules"],
+      "priority": "high"
+    },
+    {
+      "id": "churches_low_events",
+      "task_type": "church_community_gap",
+      "condition": { "churches_gte": 10, "church_events_lte_ratio": 0.1 },
+      "confidence": "low",
+      "message": "{county} County: {churches} churches, {church_events} church community events — coverage very low.",
+      "recommended_harvest": ["fish fries", "spaghetti dinners", "wild game dinners", "fall festivals"],
+      "priority": "high"
+    },
+    {
+      "id": "thin_event_county",
+      "task_type": "county_event_density",
+      "condition": { "public_events_lt": 3 },
+      "confidence": "medium",
+      "message": "{county} County has fewer than 3 indexed public events.",
+      "recommended_harvest": ["city calendar", "chamber events", "tourism calendar"],
+      "priority": "high"
+    },
+    {
+      "id": "missing_extension_profile",
+      "task_type": "extension_anchor_gap",
+      "condition": { "extension_profile": false },
+      "confidence": "medium",
+      "message": "{county} County Extension office not profiled.",
+      "recommended_harvest": ["extension office profile", "4-H calendar", "homemakers meetings"],
+      "priority": "medium"
+    },
+    {
+      "id": "missing_vfd_network",
+      "task_type": "vfd_anchor_gap",
+      "condition": { "vfd_profiles_eq": 0 },
+      "confidence": "medium",
+      "message": "{county} County has no VFD anchor profiles.",
+      "recommended_harvest": ["VFD fish fry", "pancake breakfast", "fundraiser"],
+      "priority": "medium"
+    },
+    {
+      "id": "cultural_lane_empty",
+      "task_type": "cultural_community_gap",
+      "condition": { "cultural_events_eq": 0, "population_gte": 15000 },
+      "confidence": "low",
+      "message": "{county} County: no cultural community lane events indexed for a population hub.",
+      "recommended_harvest": ["Juneteenth", "heritage festivals", "pride celebrations", "cultural org calendars"],
+      "priority": "medium",
+      "buildPass": 36.5
+    },
+    {
+      "id": "concert_venue_gap",
+      "task_type": "music_venue_gap",
+      "condition": { "major_venues_indexed_lt": 1, "city_population_gte": 50000 },
+      "confidence": "low",
+      "message": "{city}: major concert venue calendar not indexed.",
+      "recommended_harvest": ["Walmart AMP", "Simmons Bank Arena", "Robinson Center", "TempleLive"],
+      "priority": "high",
+      "buildPass": 37.5
+    }
+  ],
+  "outputBundle": "data/ai-brain/research-tasks.json",
+  "integrateScript": "scripts/ai-brain/generate-research-tasks.mjs"
+}

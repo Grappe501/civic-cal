@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Pass 29 — Harvest all 75 Arkansas county fair lane records + regional/state fairs.
+ * Pass 33 — Harvest all 75 Arkansas county fair lane records (institution-first).
  */
 import fs from "node:fs";
 import path from "node:path";
@@ -15,6 +15,7 @@ import {
   countySlug,
   fairSearchPatterns,
 } from "./lib/county-fair-base.mjs";
+import { fetchFairText } from "./lib/fetch-fair-public.mjs";
 import { extractDatesFromHtml, pickBestDateRange } from "../fairs-festivals/lib/date-extract.mjs";
 import { normalizeCountyFair, normalizeResearchTask } from "./normalize-county-fair.mjs";
 
@@ -32,18 +33,8 @@ const FETCH_DELAY_MS = Number(process.env.COUNTY_FAIR_FETCH_DELAY_MS ?? 300);
 const UA = "ArkansasEverywhere-CivicBot/1.0 (+https://arkansaseverywhere.org)";
 
 async function fetchText(url, timeoutMs = 18000) {
-  const controller = new AbortController();
-  const timer = setTimeout(() => controller.abort(), timeoutMs);
-  try {
-    const res = await fetch(url, {
-      signal: controller.signal,
-      headers: { "User-Agent": UA, Accept: "text/html,application/xhtml+xml" },
-    });
-    if (!res.ok) throw new Error(`HTTP ${res.status}`);
-    return await res.text();
-  } finally {
-    clearTimeout(timer);
-  }
+  const { text } = await fetchFairText(url, timeoutMs);
+  return text;
 }
 
 function sleep(ms) {
@@ -151,7 +142,8 @@ async function harvestFairRecord(base, cofairsByCounty, options = {}) {
       isPriority ||
       base.official_url ||
       indexYear === 2026 ||
-      extraSourcesForCounty(base.county).length,
+      extraSourcesForCounty(base.county).length ||
+      true,
   );
 
   if (shouldFetchDetail && base.official_url) {
@@ -405,8 +397,8 @@ async function main() {
   applyPass29CSeed(rawRecords);
 
   const registryPayload = {
-    pass: "29C",
-    label: "Arkansas county fair lane — 75 counties",
+    pass: "33",
+    label: "Arkansas county fair lane — institution-first (75 counties)",
     generatedAt: new Date().toISOString(),
     countyCount: countyRecords.length,
     fairs: countyRecords.map((base) => {
@@ -416,7 +408,7 @@ async function main() {
   };
 
   const sourcePayload = {
-    pass: "29C",
+    pass: "33",
     generatedAt: new Date().toISOString(),
     priority_counties: PRIORITY_HIGH_YIELD_COUNTIES,
     sources: [
@@ -456,7 +448,7 @@ async function main() {
     JSON.stringify(
       {
         generatedAt: new Date().toISOString(),
-        pass: "29C",
+        pass: "33",
         records: rawRecords,
         cofairsIndexEntries: indexEntries.length,
       },
@@ -469,7 +461,7 @@ async function main() {
     JSON.stringify(
       {
         generatedAt: new Date().toISOString(),
-        pass: "29C",
+        pass: "33",
         candidates: stagedCandidates,
         dated_events: dated,
         needs_review: stagedCandidates.filter((c) => !c.event_date),
@@ -483,7 +475,7 @@ async function main() {
     JSON.stringify(
       {
         generatedAt: new Date().toISOString(),
-        pass: "29C",
+        pass: "33",
         tasks: researchTasks,
         openCount: researchTasks.length,
       },

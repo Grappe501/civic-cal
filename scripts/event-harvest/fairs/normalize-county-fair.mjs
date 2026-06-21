@@ -4,7 +4,7 @@
 import { enrichCandidate } from "../lib/layer-inference.mjs";
 import { PRIORITY_HIGH_YIELD_COUNTIES } from "./lib/county-fair-base.mjs";
 
-const HARVEST_BATCH = "county_fair_lane_pass29";
+const HARVEST_BATCH = "county_fair_lane_pass33";
 
 export function slugify(text) {
   return String(text)
@@ -46,7 +46,7 @@ export function normalizeCountyFair(raw) {
     schedule_url: raw.schedule_url,
     source_type: raw.source_type || "county_fair_page",
     discovered_by: "county_fair_harvest",
-    review_status: raw.verification_status === "verified_dated" ? "needs_review" : "needs_verification",
+    review_status: raw.verification_status === "verified_dated" ? "auto_approved" : "needs_verification",
     is_recurring_annual: true,
     harvest_batch: HARVEST_BATCH,
     source_confidence: raw.source_confidence,

@@ -1,0 +1,91 @@
+{
+  "version": "1.0",
+  "label": "Arkansas Discovery Guide Pages",
+  "updatedAt": "2026-06-21",
+  "purpose": "High-intent SEO landing pages aggregating lanes — not thin event lists.",
+  "buildPass": 38,
+  "guides": [
+    {
+      "id": "arkansas-fish-fry-guide",
+      "slug": "arkansas-fish-fry-guide",
+      "title": "Arkansas Fish Fry Guide",
+      "path": "/guides/arkansas-fish-fry-guide",
+      "laneIds": ["churches", "vfds", "community_anchors"],
+      "filters": ["fish_fry", "fish fry", "catfish"],
+      "faqJsonLd": true
+    },
+    {
+      "id": "arkansas-festival-guide",
+      "slug": "arkansas-festival-guide",
+      "title": "Arkansas Festival Guide",
+      "path": "/guides/arkansas-festival-guide",
+      "laneIds": ["festivals"],
+      "filters": ["festival", "jubilee", "celebration"],
+      "faqJsonLd": true
+    },
+    {
+      "id": "arkansas-county-fair-guide",
+      "slug": "arkansas-county-fair-guide",
+      "title": "Arkansas County Fair Guide",
+      "path": "/guides/arkansas-county-fair-guide",
+      "laneIds": ["county_fairs"],
+      "filters": ["county fair", "fairgrounds"],
+      "faqJsonLd": true
+    },
+    {
+      "id": "arkansas-christmas-parade-guide",
+      "slug": "arkansas-christmas-parade-guide",
+      "title": "Arkansas Christmas Parade Guide",
+      "path": "/guides/arkansas-christmas-parade-guide",
+      "laneIds": ["festivals", "parades"],
+      "filters": ["Christmas parade", "holiday parade"],
+      "faqJsonLd": true
+    },
+    {
+      "id": "arkansas-farmers-market-guide",
+      "slug": "arkansas-farmers-market-guide",
+      "title": "Arkansas Farmers Market Guide",
+      "path": "/guides/arkansas-farmers-market-guide",
+      "laneIds": ["farmers_markets"],
+      "filters": ["farmers market", "market day"],
+      "faqJsonLd": true
+    },
+    {
+      "id": "arkansas-food-truck-guide",
+      "slug": "arkansas-food-truck-guide",
+      "title": "Arkansas Food Truck Guide",
+      "path": "/guides/arkansas-food-truck-guide",
+      "laneIds": ["farmers_markets", "festivals"],
+      "filters": ["food truck", "food truck festival"],
+      "faqJsonLd": true
+    },
+    {
+      "id": "arkansas-concert-guide",
+      "slug": "arkansas-concert-guide",
+      "title": "Arkansas Concert Guide",
+      "path": "/guides/arkansas-concert-guide",
+      "laneIds": ["music_concerts"],
+      "filters": ["concert", "live music"],
+      "faqJsonLd": true,
+      "buildPass": 37.5
+    },
+    {
+      "id": "things-to-do-this-weekend",
+      "slug": "things-to-do-this-weekend",
+      "title": "Things To Do in Arkansas This Weekend",
+      "path": "/guides/things-to-do-this-weekend",
+      "generation": "weekly",
+      "windowDays": 3,
+      "faqJsonLd": true
+    },
+    {
+      "id": "arkansas-this-month",
+      "slug": "arkansas-this-month",
+      "title": "Arkansas This Month",
+      "path": "/guides/arkansas-this-month",
+      "generation": "monthly",
+      "windowDays": 31,
+      "faqJsonLd": true
+    }
+  ]
+}

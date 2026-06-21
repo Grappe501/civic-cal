@@ -11,6 +11,7 @@ const OUT = path.join(ROOT, "data/narratives/community-narratives.json");
 const RESEARCH_OUT = path.join(ROOT, "data/narratives/narrative-research-queue.json");
 const TRADITIONS = path.join(ROOT, "data/ingestion/recurring-events-registry.json");
 const FAIRS = path.join(ROOT, "data/fairs/arkansas-county-fair-registry.json");
+const FAIR_INSTITUTIONS = path.join(ROOT, "data/fairs/county-fair-institution-profiles.json");
 const COUNTIES = path.join(ROOT, "data/arkansas-counties.json");
 
 function slugify(s) {
@@ -33,16 +34,29 @@ function collectEntities() {
     });
   }
 
+  const institutions = fs.existsSync(FAIR_INSTITUTIONS)
+    ? JSON.parse(fs.readFileSync(FAIR_INSTITUTIONS, "utf8")).profiles ?? []
+    : [];
+  const instById = new Map(institutions.map((p) => [p.tradition?.id?.replace(/-tradition$/, "") ?? p.id?.replace(/-institution$/, ""), p]));
+
   const fairs = JSON.parse(fs.readFileSync(FAIRS, "utf8")).fairs ?? [];
   for (const f of fairs) {
+    if (f.is_regional_fair || f.is_state_fair) continue;
+    const slug = String(f.id || `${slugify(f.county)}-county-fair`);
+    const inst = instById.get(slug);
+    const instData = inst?.institution;
     entities.push({
       entityType: "festival",
-      slug: String(f.id || `${slugify(f.county)}-county-fair`),
+      slug,
       title: String(f.fair_name ?? `${f.county} County Fair`),
       city: f.city,
       county: f.county,
-      summary: `${f.fair_name} in ${f.county} County`,
-      sources: [f.official_url, f.source_url].filter(Boolean).map((url) => ({ label: "Official", url: String(url) })),
+      summary: instData?.history_public ?? `${f.fair_name} — county fair institution in ${f.county} County, Arkansas.`,
+      sources: [f.official_url, f.source_url, instData?.extension_office_url].filter(Boolean).map((url) => ({
+        label: "Official",
+        url: String(url),
+      })),
+      pass33Institution: Boolean(inst),
     });
   }
 

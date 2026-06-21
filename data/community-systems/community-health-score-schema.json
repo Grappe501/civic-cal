@@ -1,0 +1,60 @@
+{
+  "version": "1.0",
+  "label": "Community Health Score",
+  "updatedAt": "2026-06-21",
+  "purpose": "Public community-life intelligence per county — not campaign opportunity scores.",
+  "dimensions": [
+    {
+      "id": "event_density",
+      "label": "Event Density",
+      "weight": 0.25,
+      "inputs": ["approved_public_events", "population", "events_per_10k"],
+      "thinThreshold": 3
+    },
+    {
+      "id": "institution_density",
+      "label": "Institution Density",
+      "weight": 0.2,
+      "inputs": ["indexed_institutions", "expected_institutions_by_county"],
+      "thinThreshold": 0.35
+    },
+    {
+      "id": "volunteer_density",
+      "label": "Volunteer Density",
+      "weight": 0.15,
+      "inputs": ["vfd_profiles", "student_service_opportunities", "public_fundraiser_events"]
+    },
+    {
+      "id": "anchor_density",
+      "label": "Community Anchor Density",
+      "weight": 0.15,
+      "inputs": ["extension", "chamber", "library", "fair", "major_employer_anchors"]
+    },
+    {
+      "id": "cultural_diversity_density",
+      "label": "Cultural Diversity Density",
+      "weight": 0.1,
+      "inputs": ["cultural_community_lane_events", "cultural_org_profiles"]
+    },
+    {
+      "id": "recreation_density",
+      "label": "Recreation Density",
+      "weight": 0.15,
+      "inputs": ["state_parks", "athletics_events", "race_events", "parks_rec_events"]
+    }
+  ],
+  "scoreRange": { "min": 0, "max": 100 },
+  "bands": [
+    { "id": "thriving", "min": 75, "label": "High community activity" },
+    { "id": "moderate", "min": 45, "max": 74, "label": "Moderate coverage" },
+    { "id": "underserved", "min": 0, "max": 44, "label": "Underserved — prioritize harvest" }
+  ],
+  "publicQuestions": [
+    "What counties have the most community activity?",
+    "What counties have the fewest public events?",
+    "What counties have the strongest volunteer culture?",
+    "What counties are underserved?"
+  ],
+  "bundleTarget": "data/community-systems/county-health-scores.json",
+  "buildPass": 40
+}

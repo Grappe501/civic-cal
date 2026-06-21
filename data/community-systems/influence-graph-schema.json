@@ -1,0 +1,72 @@
+{
+  "version": "1.0",
+  "label": "Community Influence Graph — schema",
+  "updatedAt": "2026-06-21",
+  "philosophy": "Events are symptoms. Institutions are assets. Traditions bridge institutions to recurring calendar density.",
+  "nodeTypes": [
+    "county",
+    "city",
+    "institution",
+    "tradition",
+    "event",
+    "person",
+    "venue",
+    "artist",
+    "guide"
+  ],
+  "institutionSubtypes": [
+    "extension_office",
+    "four_h",
+    "homemakers",
+    "church",
+    "school",
+    "college",
+    "library",
+    "chamber",
+    "vfd",
+    "nonprofit",
+    "civic_organization",
+    "festival_organization",
+    "fair_board",
+    "state_park",
+    "employer_anchor",
+    "cultural_organization",
+    "venue"
+  ],
+  "edgeTypes": [
+    { "id": "located_in", "from": ["institution", "tradition", "event", "venue"], "to": ["city", "county"] },
+    { "id": "hosts", "from": ["institution"], "to": ["tradition", "event"] },
+    { "id": "tradition_of", "from": ["tradition"], "to": ["institution"] },
+    { "id": "instance_of", "from": ["event"], "to": ["tradition"] },
+    { "id": "serves", "from": ["institution"], "to": ["county", "city"] },
+    { "id": "partners_with", "from": ["institution"], "to": ["institution"] },
+    { "id": "draws_from", "from": ["tradition", "event"], "to": ["county", "city"] },
+    { "id": "performs_at", "from": ["artist", "event"], "to": ["venue"] },
+    { "id": "aggregates", "from": ["guide"], "to": ["tradition", "event", "institution"] }
+  ],
+  "nodeFields": {
+    "required": ["id", "type", "slug", "title", "county"],
+    "recommended": [
+      "city",
+      "subtype",
+      "source_url",
+      "verification_status",
+      "relationship_density_score",
+      "typical_attendance_band",
+      "last_refreshed_at"
+    ],
+    "narrative": ["about", "history", "faqs", "related_slugs", "sources"]
+  },
+  "publicAiQueries": [
+    "What institutions shape {county} County?",
+    "What annual events draw the largest crowds in {county}?",
+    "What organizations generate the most recurring events in {city}?",
+    "What communities are underrepresented on the calendar in {county}?",
+    "What counties have the strongest volunteer networks?"
+  ],
+  "bundles": {
+    "graph": "data/community-systems/influence-graph.json",
+    "examples": "data/community-systems/examples/"
+  },
+  "buildPass": 39
+}

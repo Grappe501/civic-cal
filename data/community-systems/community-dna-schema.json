@@ -1,0 +1,48 @@
+{
+  "version": "1.0",
+  "label": "Community DNA Layer — Census + BLS",
+  "updatedAt": "2026-06-21",
+  "purpose": "Community intelligence for city/county dossiers — not campaign targeting or voter micro-segmentation.",
+  "sources": {
+    "census_acs": {
+      "label": "U.S. Census Bureau — American Community Survey",
+      "baseUrl": "https://data.census.gov/",
+      "quickFacts": "https://www.census.gov/quickfacts/",
+      "fields": [
+        "population_total",
+        "population_growth_rate",
+        "median_age",
+        "age_under_18_pct",
+        "age_65_plus_pct",
+        "median_household_income",
+        "poverty_rate",
+        "educational_attainment_bachelors_plus_pct",
+        "housing_units",
+        "commute_mean_minutes"
+      ]
+    },
+    "bls": {
+      "label": "Bureau of Labor Statistics",
+      "qcew": "https://www.bls.gov/cew/",
+      "laus": "https://www.bls.gov/lau/",
+      "fields": [
+        "unemployment_rate",
+        "labor_force_participation",
+        "total_nonfarm_employment",
+        "top_industries_by_employment"
+      ]
+    }
+  },
+  "cityDossierSections": {
+    "identity": ["one_line_character", "rural_suburban_urban", "economy_type"],
+    "population": ["total", "growth_rate", "age_breakdown"],
+    "economic_profile": ["major_employers", "unemployment", "labor_participation", "median_income"],
+    "education": ["attainment_summary", "school_systems", "college_enrollment"],
+    "community_anchors": ["institution_slugs"],
+    "community_character": ["tourism", "manufacturing", "agriculture", "college_town", "healthcare_hub"]
+  },
+  "economyTypes": ["tourism", "manufacturing", "agriculture", "college_town", "healthcare", "government", "mixed"],
+  "bundleTarget": "data/local-intelligence/top-city-dossiers.json",
+  "buildPass": 38,
+  "refreshPolicy": "Annual ACS release + quarterly BLS where available; cite vintage in dossier."
+}

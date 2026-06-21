@@ -25,16 +25,24 @@
 ```text
 Arkansas Everywhere
         ↓
-Best Arkansas Community Calendar
+Community Calendar (visible)
         ↓
-Best Arkansas Event Database
+Event Database
         ↓
-Best Arkansas Community Knowledge Graph
+Community Knowledge Graph (institutions + traditions + events)
         ↓
-Best Arkansas Civic Intelligence Engine
+Community Influence Graph (Pass 39)
+        ↓
+Community DNA — Census + BLS (Pass 38, community intel only)
+        ↓
+Community Health Score (Pass 40)
+        ↓
+AI Brain 3.0 — gap discovery as research director
         ↓
 Campaign tools (admin-only intelligence)
 ```
+
+**Principle:** An event is a symptom. The institution is the asset. See `docs/COMMUNITY_SYSTEMS_NORTH_STAR.md`.
 
 ## Candidate surfaces
 

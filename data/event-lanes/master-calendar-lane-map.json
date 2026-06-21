@@ -1,19 +1,24 @@
 {
-  "version": "2.0",
+  "version": "3.0",
   "title": "Master Calendar Lane Map",
   "updatedAt": "2026-06-21",
-  "objective": "Build the definitive civic, community, cultural, educational, recreational, and political event graph for Arkansas.",
+  "objective": "Build the definitive community systems graph for Arkansas — institutions, traditions, events — with calendar as the visible surface.",
+  "northStarDoc": "docs/COMMUNITY_SYSTEMS_NORTH_STAR.md",
+  "roadmapDoc": "docs/PASSES_33_40_ROADMAP.md",
   "productStack": [
     "Arkansas Everywhere",
-    "Best Arkansas Community Calendar",
-    "Best Arkansas Event Database",
-    "Best Arkansas Community Knowledge Graph",
-    "Best Arkansas Civic Intelligence Engine",
+    "Community Calendar (visible surface)",
+    "Event Database",
+    "Community Knowledge Graph (institutions + traditions + events)",
+    "Community Influence Graph (Pass 39)",
+    "Community DNA — Census + BLS (Pass 38)",
+    "Community Health Score (Pass 40)",
+    "AI Brain 3.0 — gap discovery",
     "Campaign tools (admin-only, on top)"
   ],
   "buildProgram": {
     "stopUntilDensity": ["campaign_features", "paid_features", "crm_features"],
-    "focus": ["density", "content", "drill_down_pages", "lanes", "narratives", "internal_links", "ai_knowledge"]
+    "focus": ["institutions", "traditions", "density", "narratives", "guides", "influence_graph", "community_dna", "internal_links", "ai_knowledge"]
   },
   "tenLaneProgram": [
     {
@@ -92,6 +97,51 @@
       "label": "Race Circuit",
       "coverage": ["5k", "10k", "half_marathon", "marathon", "trail", "triathlon"],
       "registryLane": "races"
+    },
+    {
+      "lane": 11,
+      "id": "cultural_communities",
+      "label": "Cultural Community Layer",
+      "buildPass": "36.5",
+      "coverage": ["pride", "hispanic_heritage", "marshallese", "muslim_community", "asian_heritage", "black_community", "juneteenth"],
+      "note": "Public community events only — not worship services",
+      "registryLane": "cultural_communities"
+    },
+    {
+      "lane": 12,
+      "id": "music_concerts",
+      "label": "Music / Concert Intelligence",
+      "buildPass": "37.5",
+      "goal": { "venues": 15, "artists_indexed": 500 },
+      "coverage": ["concerts", "venues", "artists", "tours"],
+      "venues": ["Walmart AMP", "Simmons Bank Arena", "Robinson Center", "First Security Amphitheater", "TempleLive", "Revolution Music Room", "George's Majestic Lounge"],
+      "registryLane": "music_concerts"
+    }
+  ],
+  "metaLanes": [
+    {
+      "id": "community_influence_graph",
+      "label": "Community Influence Graph",
+      "buildPass": 39,
+      "schema": "data/community-systems/influence-graph-schema.json"
+    },
+    {
+      "id": "community_dna",
+      "label": "Community DNA — Census + BLS",
+      "buildPass": 38,
+      "schema": "data/community-systems/community-dna-schema.json"
+    },
+    {
+      "id": "community_health_score",
+      "label": "Community Health Score",
+      "buildPass": 40,
+      "schema": "data/community-systems/community-health-score-schema.json"
+    },
+    {
+      "id": "discovery_guides",
+      "label": "Discovery Guide Pages",
+      "buildPass": 38,
+      "registry": "data/community-systems/discovery-guide-registry.json"
     }
   ],
   "sixMonthPriority": [
@@ -122,11 +172,15 @@
     "push"
   ],
   "aiBrainQuestions": [
-    "Where should I be today?",
-    "What are the highest value events this week?",
-    "What relationships am I neglecting this month?",
-    "What counties am I ignoring long term?",
-    "What event has the highest relationship density?",
-    "What event am I missing that my opponent is attending?"
-  ]
+    "What institutions shape this county?",
+    "What annual traditions draw the largest crowds?",
+    "What organizations generate the most recurring events?",
+    "What communities are underrepresented on the calendar?",
+    "What counties have the strongest volunteer networks?",
+    "What counties are underserved for public community life?"
+  ],
+  "aiBrain3": {
+    "gapRules": "data/community-systems/ai-brain-3-gap-rules.json",
+    "mode": "research_director"
+  }
 }

@@ -61,6 +61,7 @@ function add(path) {
   "/colleges",
   "/races",
   "/festivals",
+  "/guides/arkansas-county-fair-guide",
   "/parades",
   "/volunteer-opportunities",
   "/dates",
@@ -102,7 +103,17 @@ for (const bundle of [
   }
 }
 
-// Pass 32 festival / city narrative profiles
+// County fair institution profiles (Pass 33)
+try {
+  const { profiles = [] } = readJson("data/fairs/county-fair-institution-profiles.json");
+  for (const p of profiles) {
+    const slug = p.tradition?.id?.replace(/-tradition$/, "") ?? p.id?.replace(/-institution$/, "");
+    if (slug) add(`/festival/${slug}`);
+  }
+} catch {
+  /* skip */
+}
+
 try {
   const { narratives = [] } = readJson("data/narratives/community-narratives.json");
   for (const n of narratives) {

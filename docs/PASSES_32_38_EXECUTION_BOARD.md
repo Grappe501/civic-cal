@@ -86,4 +86,4 @@ Pass 37 → Farmers markets + food trucks
 Pass 38 → Narrative enrichment at scale
 ```
 
-See also: `docs/PRODUCT_PRIORITY_RESET.md`, `data/event-lanes/master-calendar-lane-map.json`.
+See also: `docs/PRODUCT_PRIORITY_RESET.md`, `docs/PASSES_33_40_ROADMAP.md`, `docs/COMMUNITY_SYSTEMS_NORTH_STAR.md`, `data/event-lanes/master-calendar-lane-map.json`.
