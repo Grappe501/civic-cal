@@ -119,6 +119,7 @@ Reusable campaign workspaces with personalized branding, district scope, and eve
 | `chris-jones-ar02` | Chris Jones | U.S. House AR-02 |
 | `fred-love-governor` | Fred Love | Governor (statewide) |
 | `eduardo-guzman-senate` | Eduardo Guzman | State Senate SD-27 |
+| `joshua-irby-sd16` | Joshua Irby | State Senate SD-16 (Saline / Benton / Bryant) |
 
 - **Data:** `data/campaigns/initial-campaign-workspaces.json` + migration `006_named_campaign_workspaces.sql`
 - **API:** `/.netlify/functions/campaign-workspaces` (seed JSON fallback)

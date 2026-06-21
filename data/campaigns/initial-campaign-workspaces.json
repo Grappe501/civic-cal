@@ -117,6 +117,36 @@
       "notes": "Fort Smith / Sebastian placeholder until Senate district GIS loaded.",
       "is_active": true,
       "access_mode": "private_admin"
+    },
+    {
+      "slug": "joshua-irby-sd16",
+      "campaign_name": "Joshua Irby for State Senate",
+      "candidate_name": "Joshua Irby",
+      "office_sought": "Arkansas State Senate",
+      "district_type": "state_senate",
+      "district_name": "Arkansas Senate District 16",
+      "dashboard_label": "Joshua Irby — SD-16 Command",
+      "counties": ["Saline", "Pulaski"],
+      "cities": ["Benton", "Bryant", "Alexander", "Mabelvale"],
+      "district_scope": {
+        "mode": "state_senate",
+        "districtCode": "SD-16",
+        "counties": ["Saline", "Pulaski"],
+        "cities": ["Benton", "Bryant"],
+        "boundaryPrecision": "pending",
+        "boundaryNote": "SD-16 is central Saline (Benton, Bryant) plus western Pulaski — precinct GIS pending"
+      },
+      "dashboard_theme": {
+        "primaryColor": "#1E3A5F",
+        "accentColor": "#C9A227",
+        "surfaceColor": "#F0F4F8",
+        "heroTagline": "Respect. Resolve. Renewal. — every voice in District 16.",
+        "logoInitials": "JI",
+        "badgeLabel": "State Senate · SD-16"
+      },
+      "notes": "Saline County base (Bryant). Democratic nominee SD-16 2026. Church dinners, school events, Benton/Bryant civic calendar priority.",
+      "is_active": true,
+      "access_mode": "private_admin"
     }
   ]
 }
