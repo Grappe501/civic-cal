@@ -11,6 +11,8 @@ import {
   summarizeCountyEventHorizon,
   type CountyHorizonCounts,
 } from "./publicCalendarHorizon";
+import { hasGoogleMapsApiKey } from "../launch/launchFlags";
+import { isRepublicanPartyMeetingPubliclyHidden } from "./publicPartyMeetings";
 import { getBundledSeedEvents, loadDemoSeedEvents, loadMainSeedEvents } from "./seedCatalog";
 
 export type EventDataSource =
@@ -29,7 +31,8 @@ export type HiddenReason =
   | "archived-status"
   | "missing-start-date"
   | "missing-slug"
-  | "post-election-hold";
+  | "post-election-hold"
+  | "republican-party-hidden";
 
 export interface HiddenEventSample {
   event: CivicEvent;
@@ -59,6 +62,8 @@ export interface EventDataDiagnostics {
   electionCalendarLastDay: string;
   postElectionReleaseActive: boolean;
   countyHorizonSummary: CountyHorizonCounts[];
+  republicanPartyHiddenCount: number;
+  mapsConfigured: boolean;
 }
 
 function classifyHidden(event: CivicEvent, now: Date): HiddenEventSample | null {
@@ -82,6 +87,13 @@ function classifyHidden(event: CivicEvent, now: Date): HiddenEventSample | null 
       detail: `Held until September release — starts after ${ELECTION_CALENDAR_LAST_DAY}`,
     };
   }
+  if (isRepublicanPartyMeetingPubliclyHidden(event)) {
+    return {
+      event,
+      reason: "republican-party-hidden",
+      detail: "Republican county meetings hidden from public calendar until launch flag enabled",
+    };
+  }
   return null;
 }
 
@@ -100,6 +112,7 @@ export function analyzeEventCatalog(events: CivicEvent[], now = new Date()): {
   pastHidden: number;
   unapprovedHidden: number;
   postElectionHeld: number;
+  republicanPartyHidden: number;
 } {
   const hidden: HiddenEventSample[] = [];
   let missingDateCount = 0;
@@ -107,6 +120,7 @@ export function analyzeEventCatalog(events: CivicEvent[], now = new Date()): {
   let pastHidden = 0;
   let unapprovedHidden = 0;
   let postElectionHeld = 0;
+  let republicanPartyHidden = 0;
 
   for (const e of events) {
     if (!e.startAt) missingDateCount++;
@@ -117,6 +131,7 @@ export function analyzeEventCatalog(events: CivicEvent[], now = new Date()): {
       if (h.reason === "past-archived") pastHidden++;
       if (h.reason === "not-approved" || h.reason === "archived-status") unapprovedHidden++;
       if (h.reason === "post-election-hold") postElectionHeld++;
+      if (h.reason === "republican-party-hidden") republicanPartyHidden++;
     }
   }
 
@@ -129,6 +144,7 @@ export function analyzeEventCatalog(events: CivicEvent[], now = new Date()): {
     pastHidden,
     unapprovedHidden,
     postElectionHeld,
+    republicanPartyHidden,
   };
 }
 
@@ -221,6 +237,8 @@ export async function runEventDataDiagnostics(): Promise<EventDataDiagnostics> {
     electionCalendarLastDay: ELECTION_CALENDAR_LAST_DAY,
     postElectionReleaseActive: !isPostElectionCalendarHoldActive(now),
     countyHorizonSummary: summarizeCountyEventHorizon(workingSet, now),
+    republicanPartyHiddenCount: analysis.republicanPartyHidden,
+    mapsConfigured: hasGoogleMapsApiKey(),
   };
 }
 

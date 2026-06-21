@@ -1,20 +1,46 @@
 import { Link, NavLink } from "react-router-dom";
-import { CalendarHeart, MapPin, PlusCircle } from "lucide-react";
+import { CalendarDays, CalendarHeart, MapPin, PlusCircle } from "lucide-react";
 import { cn } from "../lib/cn";
+import { launchFlags } from "../lib/launch/launchFlags";
 
-const nav = [
-  { to: "/", label: "Discover" },
-  { to: "/explore", label: "Explore" },
-  { to: "/map", label: "Map" },
-  { to: "/student-service", label: "Student service" },
-  { to: "/organizations", label: "Organizations" },
-  { to: "/host", label: "Host" },
-  { to: "/races", label: "Races" },
-  { to: "/counties", label: "Counties" },
-  { to: "/submit", label: "Submit", highlight: true as const },
+type NavItem = { to: string; label: string; always?: boolean; flag?: keyof typeof launchFlags };
+
+const navItems: NavItem[] = [
+  { to: "/calendar/month", label: "Calendar", always: true },
+  { to: "/", label: "Discover", flag: "showDiscoverNav" },
+  { to: "/explore", label: "Explore", flag: "showExploreNav" },
+  { to: "/map", label: "Map", flag: "showMapNav" },
+  { to: "/student-service", label: "Student service", flag: "showStudentServicesNav" },
+  { to: "/organizations", label: "Organizations", flag: "showOrganizationsNav" },
+  { to: "/host", label: "Host", always: true },
+  { to: "/races", label: "Races", flag: "showRacesNav" },
+  { to: "/counties", label: "Counties", always: true },
+];
+
+function visibleNavItems(): NavItem[] {
+  return navItems.filter((item) => item.always || (item.flag && launchFlags[item.flag]));
+}
+
+type FooterLink = { to: string; label: string; flag?: keyof typeof launchFlags; always?: boolean };
+
+const footerLinks: FooterLink[] = [
+  { to: "/submit", label: "Submit an event", always: true },
+  { to: "/calendar/month", label: "Community calendar", always: true },
+  { to: "/explore", label: "Explore Arkansas", flag: "showExploreNav" },
+  { to: "/student-service", label: "Student service match", flag: "showStudentServicesNav" },
+  { to: "/calendar/dates", label: "Important Arkansas dates", always: true },
+  { to: "/host", label: "Host portal", always: true },
+  { to: "/organizations", label: "Organizations", flag: "showOrganizationsNav" },
+  { to: "/campaigns", label: "Campaign workspaces", flag: "showCampaignWorkspacesNav" },
+  { to: "/safari", label: "Event Safari", flag: "showExploreNav" },
+  { to: "/races", label: "Race Circuit", flag: "showRacesNav" },
+  { to: "/map", label: "Event map", flag: "showMapNav" },
+  { to: "/admin", label: "Admin review", always: true },
 ];
 
 export function Layout({ children }: { children: React.ReactNode }) {
+  const nav = visibleNavItems();
+
   return (
     <div className="min-h-screen flex flex-col">
       <header className="sticky top-0 z-50 border-b border-ark-pine/10 bg-ark-porch/95 backdrop-blur-md">
@@ -27,14 +53,15 @@ export function Layout({ children }: { children: React.ReactNode }) {
               <p className="font-display text-lg font-semibold leading-tight text-ark-pine group-hover:text-ark-rust transition">
                 Arkansas Everywhere
               </p>
-              <p className="text-caption">Community calendar · all 75 counties</p>
+              <p className="text-caption">Arkansas Community Calendar · all 75 counties</p>
             </div>
           </Link>
           <nav className="hidden lg:flex items-center gap-1">
-            {nav.filter((item) => !("highlight" in item)).map((item) => (
+            {nav.map((item) => (
               <NavLink
                 key={item.to}
                 to={item.to}
+                end={item.to === "/"}
                 className={({ isActive }) =>
                   cn(
                     "rounded-full px-3 py-2 text-sm font-medium transition",
@@ -62,29 +89,30 @@ export function Layout({ children }: { children: React.ReactNode }) {
               Arkansas Everywhere
             </p>
             <p className="mt-2 text-sm text-ark-wheat/70">
-              Arkansas Community Calendar — festivals, church dinners, school events, races, and gatherings in every county.
-              Campaign tools are a premium layer for organizers who opt in.
+              A statewide community calendar being built county by county — festivals, fairs, school events, and local
+              gatherings across all 75 Arkansas counties.
             </p>
           </div>
           <div className="text-sm">
             <p className="font-semibold mb-2">Quick links</p>
             <ul className="space-y-1 text-ark-wheat/70">
-              <li><Link to="/submit" className="hover:text-white">Submit an event</Link></li>
-              <li><Link to="/explore" className="hover:text-white">Explore Arkansas</Link></li>
-              <li><Link to="/student-service" className="hover:text-white">Student service match</Link></li>
-              <li><Link to="/calendar/dates" className="hover:text-white">Important Arkansas dates</Link></li>
-              <li><Link to="/host" className="hover:text-white">Host portal</Link></li>
-              <li><Link to="/organizations" className="hover:text-white">Organizations</Link></li>
-              <li><Link to="/campaigns" className="hover:text-white">Campaign workspaces</Link></li>
-              <li><Link to="/safari" className="hover:text-white">Event Safari</Link></li>
-              <li><Link to="/races" className="hover:text-white">Race Circuit</Link></li>
-              <li><Link to="/map" className="hover:text-white">Event map</Link></li>
-              <li><Link to="/admin" className="hover:text-white">Admin review</Link></li>
+              {footerLinks
+                .filter((l) => l.always || (l.flag && launchFlags[l.flag]))
+                .map((l) => (
+                  <li key={l.to}>
+                    <Link to={l.to} className="hover:text-white">
+                      {l.label}
+                    </Link>
+                  </li>
+                ))}
             </ul>
           </div>
           <div className="text-sm text-ark-wheat/60">
-            <p>Standalone civic lane — firewalled from campaign systems.</p>
-            <p className="mt-1">Share your county calendar with local leaders.</p>
+            <p className="flex items-center gap-2">
+              <CalendarDays className="h-4 w-4" />
+              Calendar-first public preview
+            </p>
+            <p className="mt-1">More discovery surfaces return as event density grows.</p>
           </div>
         </div>
       </footer>

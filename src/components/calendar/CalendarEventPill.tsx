@@ -10,6 +10,7 @@ import { getEventStudentServiceOpportunity } from "../../lib/student-service/stu
 import { isDemoSeedEvent } from "../../lib/events/seedCatalog";
 import { isFairFestivalEvent } from "../../lib/events/festivalUtils";
 import { getCalendarDisplayPinLabel } from "../../lib/calendar/calendarDisplayPriority";
+import { getPartyMeetingPresentation } from "../../lib/events/partyMeetingStyles";
 import { cn } from "../../lib/cn";
 
 interface Props {
@@ -26,6 +27,7 @@ export function CalendarEventPill({ event, compact, className, showDisplayPin }:
   const hasVolunteer = presence.volunteerNeeds.length > 0;
   const student = getEventStudentServiceOpportunity(event);
   const displayPin = showDisplayPin ? getCalendarDisplayPinLabel(event) : null;
+  const partyStyle = getPartyMeetingPresentation(event);
   const time = event.allDay
     ? "All day"
     : formatInTimeZone(parseISO(event.startAt), event.timezone || CALENDAR_TZ, "h:mm a");
@@ -34,8 +36,8 @@ export function CalendarEventPill({ event, compact, className, showDisplayPin }:
     <Link
       to={`/event/${event.slug}`}
       className={cn(
-        "block rounded-lg border border-[var(--border)] px-2 py-1 text-left transition hover:shadow-md hover:border-ark-sage/50",
-        categoryColor(event.category),
+        "block rounded-lg border px-2 py-1 text-left transition hover:shadow-md",
+        partyStyle?.pillClassName ?? cn(categoryColor(event.category), "border-[var(--border)] hover:border-ark-sage/50"),
         compact ? "text-[10px] leading-tight" : "text-xs",
         className,
       )}
@@ -43,9 +45,14 @@ export function CalendarEventPill({ event, compact, className, showDisplayPin }:
     >
       <span className="font-semibold line-clamp-2">{event.title}</span>
       {!compact && <span className="block opacity-90 mt-0.5">{time}</span>}
-      {(displayPin || hasCandidate || hasVolunteer || student || isDemoSeedEvent(event) || isFairFestivalEvent(event)) && (
+      {(partyStyle || displayPin || hasCandidate || hasVolunteer || student || isDemoSeedEvent(event) || isFairFestivalEvent(event)) && (
         <span className="flex flex-wrap gap-0.5 mt-1">
-          {displayPin === "Dem meeting" && (
+          {partyStyle && (
+            <span className={`inline-flex rounded px-1 text-[8px] font-semibold ${partyStyle.badgeClassName}`}>
+              {partyStyle.label}
+            </span>
+          )}
+          {!partyStyle && displayPin === "Dem meeting" && (
             <span className="inline-flex rounded bg-blue-900 text-white px-1 text-[8px] font-semibold" title="Democratic county party meeting">
               Dem meeting
             </span>
@@ -60,7 +67,7 @@ export function CalendarEventPill({ event, compact, className, showDisplayPin }:
               Festival
             </span>
           )}
-          {!displayPin && isFairFestivalEvent(event) && (
+          {!partyStyle && !displayPin && isFairFestivalEvent(event) && (
             <span className="inline-flex rounded bg-emerald-900 text-white px-1 text-[8px]" title="Fair or festival">
               fest
             </span>

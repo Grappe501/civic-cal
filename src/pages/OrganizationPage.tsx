@@ -22,6 +22,7 @@ import { RelatedCommunityPages } from "../components/profiles/RelatedCommunityPa
 import { relatedLink } from "../lib/profiles/profileLinks";
 import { getPoliticalPartyOrganization } from "../lib/political-infrastructure/registry";
 import { formatDensitySummaryText, buildCivicPoliticalDensitySummary } from "../lib/political-infrastructure/civicPoliticalDensityAssistant";
+import { cn } from "../lib/cn";
 
 export function OrganizationPage() {
   const { slug } = useParams<{ slug: string }>();
@@ -62,6 +63,21 @@ export function OrganizationPage() {
     [org],
   );
 
+  const partyBanner = useMemo(() => {
+    if (org?.hostType !== "political_party" || !politicalOrg) return null;
+    const label = politicalOrg.partyLabel;
+    if (label === "Democratic") {
+      return { text: "Democratic county meeting organization", className: "bg-blue-900 text-white border-blue-800" };
+    }
+    if (label === "Republican") {
+      return { text: "Republican county meeting organization", className: "bg-red-900 text-white border-red-800" };
+    }
+    if (label === "Libertarian") {
+      return { text: "Libertarian meeting organization", className: "bg-amber-800 text-white border-amber-700" };
+    }
+    return null;
+  }, [org, politicalOrg]);
+
   const profile = useMemo(() => {
     if (!org || !slug) return null;
     const base = getProfile(slug, "organization") ?? getProfile(slug);
@@ -96,6 +112,11 @@ export function OrganizationPage() {
             {org.county} County · {org.claimStatus === "unclaimed" ? "Unclaimed — hosts can claim this page" : org.claimStatus}
           </p>
           <p className="text-sm text-muted mt-3 max-w-2xl ai-readable-summary">{summary}</p>
+          {partyBanner && (
+            <p className={cn("inline-flex mt-3 text-xs font-semibold px-3 py-1 rounded-full border", partyBanner.className)}>
+              {partyBanner.text}
+            </p>
+          )}
         </div>
       </div>
 

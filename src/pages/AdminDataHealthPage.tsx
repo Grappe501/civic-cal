@@ -2,6 +2,7 @@ import { useEffect, useMemo, useState } from "react";
 import { Link } from "react-router-dom";
 import { AlertTriangle, CheckCircle2, Database, RefreshCw } from "lucide-react";
 import { runEventDataDiagnostics, type EventDataDiagnostics } from "../lib/events/eventDataDiagnostics";
+import { launchFlags, shouldShowHomepageMap } from "../lib/launch/launchFlags";
 import { runProfileHealth } from "../lib/profiles/profileHealth";
 import { runPartyMeetingHealth } from "../lib/party-meetings/partyMeetingHealth";
 import { runSchoolHarvestHealth } from "../lib/schools/schoolHarvestHealth";
@@ -93,6 +94,20 @@ export function AdminDataHealthPage() {
             <Stat label="Missing slugs" value={String(diag.missingSlugCount)} />
             <Stat label="VITE_USE_SEED" value={String(diag.viteUseSeed)} />
             <Stat label="API reachable" value={String(diag.apiReachable)} />
+          </section>
+
+          <section className="card-readable">
+            <h2 className="font-semibold text-[var(--text-secondary)]">Pre-launch public policy</h2>
+            <p className="text-caption mt-1">
+              Routes remain built; public nav and CTAs gated until calendar density improves. Republican county meetings
+              hidden from public calendar until <code className="text-xs">VITE_SHOW_REPUBLICAN_PARTY_MEETINGS=true</code>.
+            </p>
+            <div className="mt-3 grid gap-3 sm:grid-cols-2 text-sm">
+              <Stat label="Republican meetings hidden" value={String(diag.republicanPartyHiddenCount)} highlight={diag.republicanPartyHiddenCount > 0} />
+              <Stat label="Google Maps configured" value={diag.mapsConfigured ? "Yes" : "No — homepage map off"} highlight={!diag.mapsConfigured} />
+              <Stat label="Homepage map enabled" value={shouldShowHomepageMap() ? "Yes" : "No"} />
+              <Stat label="Public discover nav" value={launchFlags.showDiscoverNav ? "On" : "Off"} />
+            </div>
           </section>
 
           <section className="card-readable">

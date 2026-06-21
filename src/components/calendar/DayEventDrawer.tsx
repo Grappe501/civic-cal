@@ -40,7 +40,7 @@ export function DayEventDrawer({ date, events, onClose }: Props) {
         <ul className="space-y-2">
           {events.map((e) => (
             <li key={e.id}>
-              <CalendarEventPill event={e} />
+              <CalendarEventPill event={e} showDisplayPin />
             </li>
           ))}
           {events.length === 0 && (

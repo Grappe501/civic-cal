@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { CATEGORIES } from "../../lib/categories";
 import { CALENDAR_FILTER_CHIPS, type CalendarFilterState, toggleCalendarFilter } from "../../lib/calendar/calendarFilters";
 import { ARKANSAS_COUNTIES } from "../../lib/counties";
+import { launchFlags } from "../../lib/launch/launchFlags";
 
 interface Props {
   filters: CalendarFilterState;
@@ -59,7 +60,9 @@ export function CalendarFilters({ filters, onChange }: Props) {
         >
           <option value="">All parties</option>
           <option value="Democratic">Democratic county meetings</option>
-          <option value="Republican">Republican county meetings</option>
+          {launchFlags.showRepublicanPartyMeetings && (
+            <option value="Republican">Republican county meetings</option>
+          )}
           <option value="Libertarian">Libertarian meetings</option>
         </select>
         <select

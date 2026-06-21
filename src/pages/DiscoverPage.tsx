@@ -1,17 +1,10 @@
 import { useEffect, useMemo, useState } from "react";
 import { Link } from "react-router-dom";
-import { ChevronDown, Compass, CalendarDays, Map as MapIcon } from "lucide-react";
+import { ChevronDown, CalendarDays } from "lucide-react";
 import { EventCard } from "../components/EventCard";
 import { CommunityPulse } from "../components/CommunityPulse";
-import { DiscoveryHero } from "../components/discovery/DiscoveryHero";
-import { DiscoveryChips } from "../components/discovery/DiscoveryChips";
-import { PersonalityModeToggle } from "../components/discovery/PersonalityModeToggle";
 import { EventFiltersBar } from "../components/EventFiltersBar";
 import { fetchEvents } from "../lib/api";
-import { filterByChip } from "../lib/discovery/eventDiscovery";
-import { loadPersonalityMode } from "../lib/discovery/personalityStore";
-import { busiestTownsThisWeekend } from "../lib/discovery/eventDiscovery";
-import type { DiscoveryChipId, PersonalityMode, PublicDiscoveryAnswer } from "../lib/discovery/types";
 import type { CivicEvent, EventFilters } from "../lib/types";
 import { ImportantArkansasDatesBlock } from "../components/state-dates/ImportantArkansasDatesBlock";
 import { upcomingStateDates } from "../lib/state-dates/stateDatesRegistry";
@@ -19,6 +12,17 @@ import { countySlug } from "../lib/counties";
 import { formatCalendarDateParam } from "../lib/calendar/calendarUtils";
 import { startOfMonth, startOfWeek } from "date-fns";
 import { HomeDiscoveryMap } from "../components/maps/HomeDiscoveryMap";
+import { launchFlags, shouldShowHomepageMap } from "../lib/launch/launchFlags";
+import { isDemocraticCountyPartyMeeting } from "../lib/calendar/calendarDisplayPriority";
+import { isFairFestivalEvent } from "../lib/events/festivalUtils";
+import { DiscoveryHero } from "../components/discovery/DiscoveryHero";
+import { DiscoveryChips } from "../components/discovery/DiscoveryChips";
+import { PersonalityModeToggle } from "../components/discovery/PersonalityModeToggle";
+import { filterByChip } from "../lib/discovery/eventDiscovery";
+import { loadPersonalityMode } from "../lib/discovery/personalityStore";
+import { busiestTownsThisWeekend } from "../lib/discovery/eventDiscovery";
+import type { DiscoveryChipId, PersonalityMode, PublicDiscoveryAnswer } from "../lib/discovery/types";
+import { Compass, Map as MapIcon } from "lucide-react";
 
 export function DiscoverPage() {
   const [mode, setMode] = useState<PersonalityMode>(() => loadPersonalityMode());
@@ -64,41 +68,58 @@ export function DiscoverPage() {
     return list;
   }, [events, activeChip, aiAnswer, filters]);
 
+  const priorityHighlights = useMemo(() => {
+    const pool = events.filter(
+      (e) => e.featured || e.highCivicValue || isFairFestivalEvent(e) || isDemocraticCountyPartyMeeting(e),
+    );
+    return pool.slice(0, 9);
+  }, [events]);
+
   const towns = useMemo(() => busiestTownsThisWeekend(events), [events]);
   const stateDates = useMemo(() => upcomingStateDates(6), []);
   const todayParam = formatCalendarDateParam(new Date());
   const weekStart = formatCalendarDateParam(startOfWeek(new Date(), { weekStartsOn: 0 }));
   const monthStart = formatCalendarDateParam(startOfMonth(new Date()));
+  const showMap = shouldShowHomepageMap();
+  const showIntent = launchFlags.showHomepageIntentSearch;
 
   return (
     <div>
       <section className="discovery-banner">
         <div className="mx-auto max-w-6xl px-4 py-12 md:py-16">
           <p className="discovery-banner-kicker">Arkansas Community Calendar</p>
-          <h1 className="discovery-banner-title">Let&apos;s go explore it.</h1>
+          <h1 className="discovery-banner-title">Community life, county by county.</h1>
           <p className="discovery-banner-sub max-w-xl">
-            {mode === "citizen"
-              ? "What should you do Saturday? Where is everybody going?"
-              : mode === "candidate"
-                ? "Where are the people? Find the rooms that matter."
-                : "Discover gatherings, volunteers, and community momentum."}
+            A statewide community calendar being built across all 75 Arkansas counties — fairs, festivals, school events,
+            Democratic county meetings, and local gatherings with source-backed dates.
           </p>
           <div className="flex flex-wrap gap-3 mt-6">
-            <Link to="/explore" className="btn-primary bg-ark-rust hover:bg-ark-clay">
-              <Compass className="h-4 w-4" /> Explore Arkansas
-            </Link>
-            <Link to="/safari" className="btn-on-dark">
-              Event Safari
-            </Link>
-            <Link to="/races" className="btn-on-dark">
-              Race Circuit
-            </Link>
-            <Link to="/map" className="btn-on-dark">
-              <MapIcon className="h-4 w-4" /> Map
-            </Link>
-            <Link to="/calendar/month" className="btn-on-dark">
+            <Link to="/calendar/month" className="btn-primary bg-ark-rust hover:bg-ark-clay">
               <CalendarDays className="h-4 w-4" /> View Calendar
             </Link>
+            <Link to="/submit" className="btn-on-dark">
+              Submit an event
+            </Link>
+            {launchFlags.showExploreNav && (
+              <Link to="/explore" className="btn-on-dark">
+                <Compass className="h-4 w-4" /> Explore Arkansas
+              </Link>
+            )}
+            {launchFlags.showExploreNav && (
+              <Link to="/safari" className="btn-on-dark">
+                Event Safari
+              </Link>
+            )}
+            {launchFlags.showRacesNav && (
+              <Link to="/races" className="btn-on-dark">
+                Race Circuit
+              </Link>
+            )}
+            {launchFlags.showMapNav && (
+              <Link to="/map" className="btn-on-dark">
+                <MapIcon className="h-4 w-4" /> Map
+              </Link>
+            )}
           </div>
           <div className="flex flex-wrap gap-2 mt-4">
             <Link to={`/calendar/day?date=${todayParam}`} className="chip chip-muted text-xs text-white border-white/30 bg-white/10 hover:bg-white/20">
@@ -110,6 +131,12 @@ export function DiscoverPage() {
             <Link to={`/calendar/month?date=${monthStart}`} className="chip chip-muted text-xs text-white border-white/30 bg-white/10 hover:bg-white/20">
               This Month
             </Link>
+            <Link
+              to="/calendar/month?category=public_party_meeting&party=Democratic&partyMeeting=1"
+              className="chip chip-muted text-xs text-white border-white/30 bg-white/10 hover:bg-white/20"
+            >
+              Democratic county meetings
+            </Link>
           </div>
         </div>
       </section>
@@ -119,65 +146,75 @@ export function DiscoverPage() {
           <Link to="/calendar/month" className="font-semibold text-ark-rust hover:underline flex items-center gap-2">
             <CalendarDays className="h-5 w-5" /> Browse the full calendar — day, week, and month views
           </Link>
-          <p className="text-muted text-sm mt-2">Filter by county, volunteer shifts, festivals, and more.</p>
+          <p className="text-muted text-sm mt-2">Filter by county, festivals, volunteer shifts, and more.</p>
         </section>
 
-        <PersonalityModeToggle
-          value={mode}
-          onChange={(m) => {
-            setMode(m);
-            setActiveChip(null);
-            setAiAnswer(null);
-          }}
-        />
+        {showIntent && (
+          <PersonalityModeToggle
+            value={mode}
+            onChange={(m) => {
+              setMode(m);
+              setActiveChip(null);
+              setAiAnswer(null);
+            }}
+          />
+        )}
 
-        <DiscoveryHero
-          events={events}
-          mode={mode}
-          onAnswer={(a) => {
-            setAiAnswer(a);
-            setActiveChip(null);
-          }}
-        />
+        {showIntent && (
+          <DiscoveryHero
+            events={events}
+            mode={mode}
+            onAnswer={(a) => {
+              setAiAnswer(a);
+              setActiveChip(null);
+            }}
+          />
+        )}
 
-        {!loading && events.length > 0 && <HomeDiscoveryMap events={events} />}
+        {showMap && !loading && events.length > 0 && <HomeDiscoveryMap events={events} />}
 
-        {aiAnswer && (
+        {showIntent && aiAnswer && (
           <section className="card card-elevated border-l-4 border-ark-sage">
             <h2 className="font-display text-xl font-semibold text-ark-pine">{aiAnswer.headline}</h2>
             <p className="text-sm text-muted mt-2">{aiAnswer.summary}</p>
-            <div className="flex flex-wrap gap-2 mt-3">
-              {aiAnswer.followUpPrompts.slice(0, 3).map((p) => (
-                <button key={p} type="button" className="discovery-example-chip" onClick={() => setAiAnswer(null)}>
-                  {p}
-                </button>
-              ))}
-              <button type="button" className="text-xs text-muted underline" onClick={() => setAiAnswer(null)}>Clear</button>
-            </div>
+            <button type="button" className="text-xs text-muted underline mt-3" onClick={() => setAiAnswer(null)}>
+              Clear
+            </button>
           </section>
         )}
 
-        <DiscoveryChips
-          mode={mode}
-          activeChip={activeChip}
-          onSelect={(id) => {
-            setActiveChip(id);
-            setAiAnswer(null);
-          }}
-        />
-
-        {!activeChip && !aiAnswer && (
-          <ImportantArkansasDatesBlock dates={stateDates} />
+        {showIntent && (
+          <DiscoveryChips
+            mode={mode}
+            activeChip={activeChip}
+            onSelect={(id) => {
+              setActiveChip(id);
+              setAiAnswer(null);
+            }}
+          />
         )}
 
-        {towns.length > 0 && mode === "citizen" && !activeChip && !aiAnswer && (
+        {!activeChip && !aiAnswer && <ImportantArkansasDatesBlock dates={stateDates} />}
+
+        {towns.length > 0 && !activeChip && !aiAnswer && (
           <section className="card bg-ark-wheat/40">
-            <h3 className="font-semibold text-ark-pine">Towns alive this weekend</h3>
+            <h3 className="font-semibold text-ark-pine">Towns with events this weekend</h3>
             <div className="flex flex-wrap gap-2 mt-3">
               {towns.map((t) => (
                 <Link key={`${t.city}-${t.county}`} to={`/county/${countySlug(t.county)}`} className="chip chip-muted hover:border-ark-rust/40">
                   {t.city} · {t.count} events
                 </Link>
+              ))}
+            </div>
+          </section>
+        )}
+
+        {!loading && priorityHighlights.length > 0 && !activeChip && !aiAnswer && (
+          <section>
+            <h2 className="font-display text-2xl font-semibold text-ark-pine mb-4">Featured community events</h2>
+            <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+              {priorityHighlights.map((e) => (
+                <EventCard key={e.id} event={e} compact />
               ))}
             </div>
           </section>
@@ -203,7 +240,7 @@ export function DiscoverPage() {
 
         <section>
           <h2 className="font-display text-2xl font-semibold text-ark-pine mb-4">
-            {loading ? "Loading…" : `${displayed.length} discoveries`}
+            {loading ? "Loading…" : `${displayed.length} upcoming events`}
           </h2>
           {loading ? (
             <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
@@ -213,8 +250,10 @@ export function DiscoverPage() {
             </div>
           ) : displayed.length === 0 ? (
             <div className="card text-center py-12">
-              <p className="text-muted">Nothing matched — try Event Safari or ask a different question.</p>
-              <Link to="/safari" className="btn-primary mt-4 inline-flex">Start Event Safari</Link>
+              <p className="text-muted">Nothing matched — try the month calendar or submit an event for your county.</p>
+              <Link to="/calendar/month" className="btn-primary mt-4 inline-flex">
+                Open calendar
+              </Link>
             </div>
           ) : (
             <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
