@@ -41,7 +41,10 @@
     "discover:party-sources": "node scripts/run-with-h-drive-env.cjs node scripts/event-harvest/political-party-meetings/party-source-discovery.mjs",
     "feeds:generate": "node scripts/run-with-h-drive-env.cjs node scripts/feeds/generate-feed-registries.mjs",
     "feeds:report": "node scripts/run-with-h-drive-env.cjs node scripts/feeds/build-feed-attachment-report.mjs",
-    "feeds:build": "node scripts/run-with-h-drive-env.cjs node scripts/feeds/generate-feed-registries.mjs && node scripts/run-with-h-drive-env.cjs node scripts/feeds/build-feed-attachment-report.mjs"
+    "feeds:build": "node scripts/run-with-h-drive-env.cjs node scripts/feeds/generate-feed-registries.mjs && node scripts/run-with-h-drive-env.cjs node scripts/feeds/build-feed-attachment-report.mjs",
+    "feeds:discover": "node scripts/run-with-h-drive-env.cjs node scripts/feeds/discover-feed-urls.mjs",
+    "feeds:apply": "node scripts/run-with-h-drive-env.cjs node scripts/feeds/apply-feed-discovery.mjs",
+    "feeds:discover-all": "node scripts/run-with-h-drive-env.cjs node scripts/feeds/discover-feed-urls.mjs && node scripts/run-with-h-drive-env.cjs node scripts/feeds/apply-feed-discovery.mjs && node scripts/run-with-h-drive-env.cjs node scripts/feeds/build-feed-attachment-report.mjs"
   },
   "dependencies": {
     "@react-google-maps/api": "^2.20.6",

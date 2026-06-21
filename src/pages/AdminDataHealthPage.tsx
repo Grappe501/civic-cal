@@ -131,7 +131,8 @@ export function AdminDataHealthPage() {
               <Stat label="Known institutions" value={String(feedReport.metrics.knownInstitutions)} />
               <Stat label="Feed slots" value={String(feedReport.metrics.feedSlotsTotal)} />
               <Stat label="Feeds attached" value={String(feedReport.metrics.feedsAttached)} highlight />
-              <Stat label="Coverage" value={`${feedReport.metrics.coveragePercent}%`} highlight />
+              <Stat label="Attachment goal" value={`${feedReport.metrics.feedsAttached} / ${feedReport.metrics.attachmentGoal ?? 1500}`} highlight />
+              <Stat label="Goal progress" value={`${feedReport.metrics.attachmentGoalProgress ?? 0}%`} />
               <Stat label="Attached projected yield" value={String(feedReport.metrics.attachedProjectedYield)} />
               <Stat label="Potential projected yield" value={String(Math.round(feedReport.metrics.potentialProjectedYield))} />
             </div>

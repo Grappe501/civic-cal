@@ -1,0 +1,263 @@
+{
+  "entries": {
+    "https://www.baxterk12.ar.us": {
+      "url": "https://www.baxterk12.ar.us",
+      "ok": false,
+      "status": null,
+      "method": null,
+      "checkedAt": "2026-06-21T06:40:33.155Z"
+    },
+    "https://www.bradleyschools.org": {
+      "url": "https://www.bradleyschools.org",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "checkedAt": "2026-06-21T06:40:34.976Z"
+    },
+    "https://www.chicotchamber.com": {
+      "url": "https://www.chicotchamber.com",
+      "ok": false,
+      "status": null,
+      "method": null,
+      "checkedAt": "2026-06-21T06:40:37.587Z"
+    },
+    "https://www.cleburnecountychamber.com": {
+      "url": "https://www.cleburnecountychamber.com",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "checkedAt": "2026-06-21T06:40:39.353Z"
+    },
+    "https://www.conwaylibrary.org": {
+      "url": "https://www.conwaylibrary.org",
+      "ok": false,
+      "status": null,
+      "method": null,
+      "checkedAt": "2026-06-21T06:40:41.255Z"
+    },
+    "https://www.crittendencountylibrary.org": {
+      "url": "https://www.crittendencountylibrary.org",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "checkedAt": "2026-06-21T06:40:42.740Z"
+    },
+    "https://www.dallascountyschools.org": {
+      "url": "https://www.dallascountyschools.org",
+      "ok": false,
+      "status": null,
+      "method": null,
+      "checkedAt": "2026-06-21T06:40:44.730Z"
+    },
+    "https://www.faulknerk12.ar.us": {
+      "url": "https://www.faulknerk12.ar.us",
+      "ok": false,
+      "status": null,
+      "method": null,
+      "checkedAt": "2026-06-21T06:40:46.087Z"
+    },
+    "https://www.garlandschools.org": {
+      "url": "https://www.garlandschools.org",
+      "ok": false,
+      "status": null,
+      "method": null,
+      "checkedAt": "2026-06-21T06:40:48.733Z"
+    },
+    "https://www.hempsteadchamber.com": {
+      "url": "https://www.hempsteadchamber.com",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "checkedAt": "2026-06-21T06:40:49.965Z"
+    },
+    "https://www.independencecountychamber.com": {
+      "url": "https://www.independencecountychamber.com",
+      "ok": false,
+      "status": null,
+      "method": null,
+      "checkedAt": "2026-06-21T06:40:51.030Z"
+    },
+    "https://www.jeffersonlibrary.org": {
+      "url": "https://www.jeffersonlibrary.org",
+      "ok": false,
+      "status": null,
+      "method": null,
+      "checkedAt": "2026-06-21T06:40:53.189Z"
+    },
+    "https://www.lawrencecountylibrary.org": {
+      "url": "https://www.lawrencecountylibrary.org",
+      "ok": false,
+      "status": null,
+      "method": null,
+      "checkedAt": "2026-06-21T06:40:55.602Z"
+    },
+    "https://www.lincolncountyschools.org": {
+      "url": "https://www.lincolncountyschools.org",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "checkedAt": "2026-06-21T06:41:02.059Z"
+    },
+    "https://www.lonokek12.ar.us": {
+      "url": "https://www.lonokek12.ar.us",
+      "ok": false,
+      "status": null,
+      "method": null,
+      "checkedAt": "2026-06-21T06:41:05.434Z"
+    },
+    "https://www.millerschools.org": {
+      "url": "https://www.millerschools.org",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "checkedAt": "2026-06-21T06:41:08.274Z"
+    },
+    "https://www.montgomerychamber.com": {
+      "url": "https://www.montgomerychamber.com",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "checkedAt": "2026-06-21T06:41:11.020Z"
+    },
+    "https://www.ouachitacountychamber.com": {
+      "url": "https://www.ouachitacountychamber.com",
+      "ok": false,
+      "status": null,
+      "method": null,
+      "checkedAt": "2026-06-21T06:41:13.269Z"
+    },
+    "https://www.pikelibrary.org": {
+      "url": "https://www.pikelibrary.org",
+      "ok": false,
+      "status": null,
+      "method": null,
+      "checkedAt": "2026-06-21T06:41:14.795Z"
+    },
+    "https://www.sebastianschools.org": {
+      "url": "https://www.sebastianschools.org",
+      "ok": false,
+      "status": null,
+      "method": null,
+      "checkedAt": "2026-06-21T06:41:23.728Z"
+    },
+    "https://www.stonechamber.com": {
+      "url": "https://www.stonechamber.com",
+      "ok": true,
+      "status": 200,
+      "method": "GET",
+      "checkedAt": "2026-06-21T06:41:27.884Z"
+    },
+    "https://www.washingtoncountychamber.com": {
+      "url": "https://www.washingtoncountychamber.com",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "checkedAt": "2026-06-21T06:41:31.138Z"
+    },
+    "https://www.yelllibrary.org": {
+      "url": "https://www.yelllibrary.org",
+      "ok": false,
+      "status": null,
+      "method": null,
+      "checkedAt": "2026-06-21T06:41:34.719Z"
+    },
+    "https://www.fortsmithlibrary.org": {
+      "url": "https://www.fortsmithlibrary.org",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "checkedAt": "2026-06-21T06:41:37.651Z"
+    },
+    "https://www.springdalelibrary.org": {
+      "url": "https://www.springdalelibrary.org",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "checkedAt": "2026-06-21T06:41:38.725Z"
+    },
+    "https://www.rogerslibrary.org": {
+      "url": "https://www.rogerslibrary.org",
+      "ok": false,
+      "status": null,
+      "method": null,
+      "checkedAt": "2026-06-21T06:41:40.571Z"
+    },
+    "https://www.northlittlerockpubliclibrary.org": {
+      "url": "https://www.northlittlerockpubliclibrary.org",
+      "ok": false,
+      "status": null,
+      "method": null,
+      "checkedAt": "2026-06-21T06:41:41.381Z"
+    },
+    "https://www.pinebluffpubliclibrary.org": {
+      "url": "https://www.pinebluffpubliclibrary.org",
+      "ok": false,
+      "status": null,
+      "method": null,
+      "checkedAt": "2026-06-21T06:41:42.728Z"
+    },
+    "https://www.bentonchamber.org": {
+      "url": "https://www.bentonchamber.org",
+      "ok": false,
+      "status": null,
+      "method": null,
+      "checkedAt": "2026-06-21T06:41:44.486Z"
+    },
+    "https://www.sherwoodchamber.org": {
+      "url": "https://www.sherwoodchamber.org",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "checkedAt": "2026-06-21T06:41:45.846Z"
+    },
+    "https://www.russellvillechamber.org": {
+      "url": "https://www.russellvillechamber.org",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "checkedAt": "2026-06-21T06:41:47.216Z"
+    },
+    "https://www.paragouldchamber.org": {
+      "url": "https://www.paragouldchamber.org",
+      "ok": false,
+      "status": null,
+      "method": null,
+      "checkedAt": "2026-06-21T06:41:48.174Z"
+    },
+    "https://www.vanburenparksandrec.com": {
+      "url": "https://www.vanburenparksandrec.com",
+      "ok": false,
+      "status": null,
+      "method": null,
+      "checkedAt": "2026-06-21T06:41:49.258Z"
+    },
+    "https://www.maumellear.gov/parks": {
+      "url": "https://www.maumellear.gov/parks",
+      "ok": false,
+      "status": null,
+      "method": null,
+      "checkedAt": "2026-06-21T06:41:50.138Z"
+    },
+    "https://www.siloamspringsar.gov/parks": {
+      "url": "https://www.siloamspringsar.gov/parks",
+      "ok": false,
+      "status": null,
+      "method": null,
+      "checkedAt": "2026-06-21T06:41:50.954Z"
+    },
+    "https://www.centerridgear.gov/parks": {
+      "url": "https://www.centerridgear.gov/parks",
+      "ok": false,
+      "status": null,
+      "method": null,
+      "checkedAt": "2026-06-21T06:41:52.033Z"
+    },
+    "https://www.mountainhomear.gov/parks": {
+      "url": "https://www.mountainhomear.gov/parks",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "checkedAt": "2026-06-21T06:41:53.365Z"
+    }
+  }
+}

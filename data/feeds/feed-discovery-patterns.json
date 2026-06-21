@@ -1,0 +1,133 @@
+{
+  "version": "1.0",
+  "updatedAt": "2026-06-21",
+  "statewideGoalAttachedFeeds": 1500,
+  "annualYieldForecast": {
+    "school_district": 70,
+    "high_school": 45,
+    "college": 40,
+    "library": 24,
+    "church": 12,
+    "vfd": 6,
+    "county_fair": 8,
+    "extension": 18,
+    "farm_bureau": 10,
+    "chamber": 15,
+    "city_official": 35,
+    "parks_rec": 20,
+    "tourism": 8,
+    "downtown": 10,
+    "community_center": 11
+  },
+  "slotPatterns": {
+    "city_calendar": [
+      "https://www.{citySlug}ar.gov",
+      "https://www.{citySlug}.org",
+      "https://www.cityof{citySlug}.com",
+      "https://{citySlug}ar.gov"
+    ],
+    "city_parks_rec": [
+      "https://www.{citySlug}parksandrec.com",
+      "https://www.{citySlug}parks.com",
+      "https://www.{citySlug}ar.gov/parks",
+      "https://www.{citySlug}ar.gov/departments/parks-and-recreation"
+    ],
+    "city_library": [
+      "https://www.{citySlug}library.org",
+      "https://{citySlug}library.com",
+      "https://www.{citySlug}publiclibrary.org"
+    ],
+    "city_chamber": [
+      "https://www.{citySlug}chamber.com",
+      "https://www.{citySlug}chamber.org",
+      "https://www.{citySlug}chamberofcommerce.com"
+    ],
+    "city_downtown": [
+      "https://www.downtown{citySlug}.com",
+      "https://www.{citySlug}downtown.com"
+    ],
+    "city_tourism": [
+      "https://www.visit{citySlug}.com",
+      "https://www.{citySlug}cvb.com",
+      "https://www.experience{citySlug}.com"
+    ],
+    "city_community_center": [
+      "https://www.{citySlug}communitycenter.com",
+      "https://www.{citySlug}ar.gov/community-center"
+    ],
+    "county_government": [
+      "https://www.{countySlug}countyar.gov",
+      "https://www.co.{countySlug}.ar.us"
+    ],
+    "county_extension": [
+      "https://www.uaex.uada.edu/counties/{countySlug}/",
+      "https://www.uaex.uada.edu/counties/{countyTitle}/"
+    ],
+    "county_library": [
+      "https://www.{countySlug}countylibrary.org",
+      "https://www.{countySlug}library.org"
+    ],
+    "county_fair": [
+      "https://www.{countySlug}countyfair.com",
+      "https://www.{countySlug}fair.com"
+    ],
+    "county_farm_bureau": [
+      "https://www.arfb.com",
+      "https://www.{countySlug}countyfarmbureau.com"
+    ],
+    "county_chamber": [
+      "https://www.{countySlug}countychamber.com",
+      "https://www.{countySlug}chamber.com"
+    ],
+    "county_tourism": [
+      "https://www.visit{countySlug}county.com",
+      "https://www.{countySlug}county.com"
+    ],
+    "county_schools": [
+      "https://www.{citySlug}schools.org",
+      "https://www.{citySlug}k12.ar.us",
+      "https://www.{countySlug}countyschools.org"
+    ],
+    "county_colleges": [],
+    "county_vfd": [
+      "https://www.{countySlug}countyfire.com"
+    ]
+  },
+  "institutionPatterns": {
+    "school": [
+      "https://www.{citySlug}schools.org",
+      "https://www.{citySlug}k12.ar.us"
+    ],
+    "church": [
+      "https://www.{citySlug}firstbaptist.org",
+      "https://www.{citySlug}umc.org"
+    ],
+    "library": [
+      "https://www.{citySlug}library.org"
+    ],
+    "chamber": [
+      "https://www.{citySlug}chamber.com"
+    ],
+    "college": []
+  },
+  "knownCollegeUrls": {
+    "University of Arkansas": "https://www.uark.edu",
+    "Arkansas State University": "https://www.astate.edu",
+    "University of Central Arkansas": "https://www.uca.edu",
+    "University of Arkansas at Little Rock": "https://www.ualr.edu",
+    "University of Arkansas at Pine Bluff": "https://www.uapb.edu",
+    "Arkansas Tech University": "https://www.atu.edu",
+    "Henderson State University": "https://www.hsu.edu",
+    "Southern Arkansas University": "https://www.saumag.edu",
+    "University of the Ozarks": "https://www.ozarks.edu",
+    "Harding University": "https://www.harding.edu",
+    "John Brown University": "https://www.jbu.edu",
+    "Ouachita Baptist University": "https://www.obu.edu",
+    "Hendrix College": "https://www.hendrix.edu",
+    "Lyon College": "https://www.lyon.edu",
+    "Philander Smith College": "https://www.philander.edu",
+    "University of Arkansas at Monticello": "https://www.uamont.edu",
+    "University of Arkansas at Fort Smith": "https://www.uafs.edu",
+    "University of Arkansas for Medical Sciences": "https://www.uams.edu"
+  }
+}

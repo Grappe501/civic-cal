@@ -37,6 +37,7 @@ export interface CountyFeedCoverage {
   attachedProjectedYield: number;
   potentialProjectedYield: number;
   densityProjectedEvents: number;
+  institutionFeedsAttached?: number;
 }
 
 export interface FeedAttachmentReport {
@@ -44,10 +45,17 @@ export interface FeedAttachmentReport {
   metrics: {
     knownInstitutions: number;
     feedSlotsTotal: number;
+    institutionFeedsTotal?: number;
+    totalFeedRecords?: number;
     feedsAttached: number;
+    slotFeedsAttached?: number;
+    institutionFeedsAttached?: number;
     feedsMissing: number;
     feedsSearchOnly: number;
     coveragePercent: number;
+    attachmentGoal?: number;
+    attachmentGoalProgress?: number;
+    feedsToGoal?: number;
     verifiedEventCount: number;
     stagedPartyMeetings: number;
     attachedProjectedYield: number;
@@ -68,4 +76,12 @@ export interface FeedAttachmentReport {
     potentialProjectedYield: number;
   }[];
   tier1Gaps: FeedSlotRecord[];
+  topDiscoveryTargets?: {
+    county: string;
+    institutions: number;
+    feedsAttached: number;
+    feedsMissing: number;
+    coveragePercent: number;
+    potentialProjectedYield: number;
+  }[];
 }

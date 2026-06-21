@@ -1,4 +1,5 @@
 import type { CountyFeedCoverage } from "../../lib/feeds/types";
+import { formatFeedAttachmentScore } from "../../lib/ai/feedDiscoveryAssistant";
 
 interface Props {
   coverage: CountyFeedCoverage | null;
@@ -9,15 +10,16 @@ export function CountyFeedCoverageStrip({ coverage }: Props) {
 
   return (
     <section className="card-readable text-sm mb-6">
-      <p className="text-kicker">Feed coverage</p>
-      <div className="mt-2 grid gap-3 sm:grid-cols-4">
+      <p className="text-kicker">Feed attachment score</p>
+      <p className="text-xs text-muted mt-1">{formatFeedAttachmentScore(coverage)}</p>
+      <div className="mt-3 grid gap-3 sm:grid-cols-4">
         <Metric label="Institutions" value={String(coverage.institutions)} />
         <Metric label="Feeds attached" value={String(coverage.feedsAttached)} highlight />
         <Metric label="Feeds missing" value={String(coverage.feedsMissing)} />
         <Metric label="Coverage" value={`${coverage.coveragePercent}%`} highlight />
       </div>
       <p className="text-xs text-muted mt-2">
-        Projected yield if fully attached: {coverage.potentialProjectedYield.toLocaleString()} events · Verified on calendar:{" "}
+        Potential yield: {coverage.potentialProjectedYield.toLocaleString()} events/year if feeds attach · Verified on calendar:{" "}
         {coverage.verifiedEvents}
       </p>
     </section>
