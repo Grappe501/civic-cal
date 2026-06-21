@@ -12,9 +12,11 @@
     "typecheck": "node scripts/run-with-h-drive-env.cjs tsc --noEmit",
     "seed:sync": "node scripts/run-with-h-drive-env.cjs node scripts/sync-seed-from-reddirt.cjs",
     "seed:import": "node scripts/run-with-h-drive-env.cjs node scripts/import-seed-to-db.cjs",
+    "seed:geocode": "node scripts/run-with-h-drive-env.cjs node scripts/geocode-seed-events.mjs",
     "lint": "eslint src --ext ts,tsx"
   },
   "dependencies": {
+    "@react-google-maps/api": "^2.20.6",
     "@supabase/supabase-js": "^2.49.1",
     "clsx": "^2.1.1",
     "date-fns": "^4.1.0",
@@ -27,6 +29,7 @@
     "tailwind-merge": "^2.5.4"
   },
   "devDependencies": {
+    "@types/google.maps": "^3.58.1",
     "@netlify/functions": "^3.0.0",
     "@types/node": "^20.14.0",
     "@types/pg": "^8.11.11",

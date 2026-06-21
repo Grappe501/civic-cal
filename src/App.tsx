@@ -6,6 +6,7 @@ import { EventDetailPage } from "./pages/EventDetailPage";
 import { SubmitPage } from "./pages/SubmitPage";
 import { ThisWeekPage, CivicWatchPage } from "./pages/IntelPages";
 import { AdminPage } from "./pages/AdminPage";
+import { MapPage } from "./pages/MapPage";
 
 export default function App() {
   return (
@@ -19,6 +20,7 @@ export default function App() {
           <Route path="/county/:slug" element={<CountyPage />} />
           <Route path="/this-week" element={<ThisWeekPage />} />
           <Route path="/civic-watch" element={<CivicWatchPage />} />
+          <Route path="/map" element={<MapPage />} />
           <Route path="/admin" element={<AdminPage />} />
         </Routes>
       </Layout>

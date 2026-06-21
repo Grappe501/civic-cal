@@ -100,7 +100,7 @@ export async function fetchAdminEvents(token: string, status = "pending"): Promi
 export async function adminAction(
   token: string,
   id: string,
-  action: "approve" | "reject" | "feature",
+  action: "approve" | "reject" | "feature" | "geocode" | "set_coordinates",
   extra?: Record<string, unknown>,
 ): Promise<void> {
   const res = await fetch(`${fnBase}/events-admin`, {
@@ -113,6 +113,17 @@ export async function adminAction(
   });
   if (!res.ok) throw new Error("Admin action failed");
 }
+
+export async function fetchAdminMapReview(token: string): Promise<CivicEvent[]> {
+  const res = await fetch(`${fnBase}/events-admin?mapReview=true&limit=100`, {
+    headers: { Authorization: `Bearer ${token}` },
+  });
+  if (!res.ok) throw new Error("Map review fetch failed");
+  const data = await res.json();
+  return data.events ?? [];
+}
+
+export { geocodeLocation } from "./maps/geocode";
 
 export function groupEventsByCounty(events: CivicEvent[]): Map<string, CivicEvent[]> {
   const map = new Map<string, CivicEvent[]>();

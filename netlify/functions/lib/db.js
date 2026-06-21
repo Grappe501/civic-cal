@@ -41,6 +41,14 @@ function rowToEvent(row) {
     submitterName: row.submitter_name,
     createdAt: row.created_at,
     updatedAt: row.updated_at,
+    latitude: row.latitude != null ? Number(row.latitude) : null,
+    longitude: row.longitude != null ? Number(row.longitude) : null,
+    placeId: row.place_id,
+    formattedAddress: row.formatted_address,
+    locationConfidence: row.location_confidence,
+    mapStatus: row.map_status,
+    state: row.state,
+    isOnlineOnly: row.is_online_only,
   };
 }
 
@@ -71,6 +79,7 @@ function parseFilters(params) {
     candidateRelevant: params.candidateRelevant === "true",
     thisWeekend: params.thisWeekend === "true",
     featured: params.featured === "true",
+    mapReview: params.mapReview === "true",
     status: params.status || "approved",
     limit: Math.min(parseInt(params.limit || "100", 10), 500),
     offset: parseInt(params.offset || "0", 10),
@@ -133,6 +142,9 @@ function buildWhere(filters, forAdmin) {
   if (filters.thisWeekend) {
     clauses.push(`start_at >= date_trunc('week', now()) + interval '5 days'`);
     clauses.push(`start_at < date_trunc('week', now()) + interval '7 days'`);
+  }
+  if (filters.mapReview) {
+    clauses.push(`(latitude IS NULL OR map_status IN ('pending', 'manual_review'))`);
   }
 
   return { where: clauses.length ? `WHERE ${clauses.join(" AND ")}` : "", values, nextIndex: i };

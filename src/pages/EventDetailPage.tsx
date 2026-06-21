@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import { CalendarPlus, ExternalLink, MapPin, Share2 } from "lucide-react";
 import { CategoryBadge } from "../components/CategoryBadge";
+import { EventDetailMap } from "../components/maps/EventDetailMap";
 import { fetchEventBySlug } from "../lib/api";
 import { downloadIcs, formatEventRange, mapsUrl, shareEventUrl } from "../lib/format";
 import type { CivicEvent } from "../lib/types";
@@ -53,7 +54,12 @@ export function EventDetailPage() {
         <p className="text-lg text-ark-pine/70">{formatEventRange(ev)}</p>
       </header>
 
-      <div className="card mt-8 space-y-4">
+      <div className="mt-8">
+        <h2 className="text-sm font-medium uppercase tracking-wide text-ark-sage mb-3">Location</h2>
+        <EventDetailMap event={ev} />
+      </div>
+
+      <div className="card mt-6 space-y-4">
         <p className="flex items-start gap-2 text-ark-pine">
           <MapPin className="h-5 w-5 shrink-0 text-ark-sage" />
           <span>
@@ -79,7 +85,7 @@ export function EventDetailPage() {
       <div className="mt-6 flex flex-wrap gap-3">
         {maps && (
           <a href={maps} target="_blank" rel="noreferrer" className="btn-secondary">
-            Open in Maps
+            Open in Google Maps
           </a>
         )}
         <button type="button" onClick={() => downloadIcs(ev)} className="btn-secondary">
@@ -88,7 +94,7 @@ export function EventDetailPage() {
         </button>
         <button type="button" onClick={handleShare} className="btn-primary">
           <Share2 className="h-4 w-4" />
-          Share event
+          Share this event
         </button>
       </div>
     </article>

@@ -11,6 +11,9 @@ export type EventCategory =
 
 export type EventStatus = "pending" | "approved" | "rejected" | "archived";
 
+export type MapStatus = "pending" | "geocoded" | "manual_review" | "verified" | "online" | "disabled";
+export type LocationConfidence = "high" | "medium" | "low" | "manual" | "unknown";
+
 export interface CivicEvent {
   id: string;
   slug: string;
@@ -41,6 +44,14 @@ export interface CivicEvent {
   source?: string;
   submitterName?: string | null;
   dateTbd?: boolean;
+  latitude?: number | null;
+  longitude?: number | null;
+  placeId?: string | null;
+  formattedAddress?: string | null;
+  locationConfidence?: LocationConfidence | null;
+  mapStatus?: MapStatus;
+  state?: string;
+  isOnlineOnly?: boolean;
 }
 
 export interface EventFilters {
@@ -78,4 +89,12 @@ export interface SubmitEventPayload {
   isFamilyFriendly?: boolean;
   isFree?: boolean;
   submitterName?: string;
+  state?: string;
+  isOnlineOnly?: boolean;
+  latitude?: number;
+  longitude?: number;
+  formattedAddress?: string;
+  placeId?: string;
+  locationConfidence?: LocationConfidence;
+  mapStatus?: MapStatus;
 }
