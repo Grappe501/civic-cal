@@ -64,9 +64,21 @@
     },
     {
       "lane": 6,
-      "id": "community_anchors",
-      "label": "Extension / 4-H / Homemakers",
-      "registryLane": "community_anchors"
+      "id": "food_ag_ecosystem",
+      "label": "Arkansas Food & Agriculture Ecosystem",
+      "pass": 34,
+      "subLanes": ["34A_extension", "34B_four_h", "34C_ffa", "34D_farm_bureau", "34E_food_trail", "34F_ag_businesses", "34G_outdoor_culture"],
+      "goal": { "institution_profiles": 750, "recurring_events": 2000 },
+      "registryLane": "food_ag_ecosystem"
+    },
+    {
+      "lane": "6G",
+      "id": "outdoor_culture",
+      "label": "Arkansas Hunting & Outdoor Culture",
+      "pass": "34G",
+      "parentLane": 6,
+      "coverage": ["du_chapters", "nwtf", "wildlife_banquets", "fishing_tournaments", "outdoor_expos"],
+      "registryLane": "outdoor_culture"
     },
     {
       "lane": 7,

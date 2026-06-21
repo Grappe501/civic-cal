@@ -1,0 +1,75 @@
+{
+  "version": "1.0",
+  "label": "Community Calendar DNA Score",
+  "updatedAt": "2026-06-21",
+  "purpose": "Per-county dimensional density scores — feeds Pass 40 Community Health Score. Public community-life lens, not campaign opportunity.",
+  "reportUnit": "county",
+  "dimensions": [
+    {
+      "id": "event_density",
+      "label": "Event Density",
+      "weight": 0.2,
+      "inputs": ["approved_public_events", "population", "events_per_10k"],
+      "thinThreshold": 3
+    },
+    {
+      "id": "institution_density",
+      "label": "Institution Density",
+      "weight": 0.15,
+      "inputs": ["indexed_institutions", "expected_institutions_by_county"],
+      "thinThreshold": 0.35
+    },
+    {
+      "id": "tradition_density",
+      "label": "Tradition Density",
+      "weight": 0.15,
+      "inputs": ["food_trail_traditions", "recurring_fair_events", "annual_community_traditions"],
+      "lanes": ["34E", "county_fairs", "churches", "vfds"]
+    },
+    {
+      "id": "cultural_density",
+      "label": "Cultural Density",
+      "weight": 0.1,
+      "inputs": ["cultural_community_profiles", "cultural_lane_events"],
+      "lanes": ["36.5"]
+    },
+    {
+      "id": "youth_density",
+      "label": "Youth Density",
+      "weight": 0.1,
+      "inputs": ["four_h_profiles", "ffa_chapters", "school_events", "youth_org_events"],
+      "lanes": ["34B", "34C", "schools"]
+    },
+    {
+      "id": "volunteer_density",
+      "label": "Volunteer Density",
+      "weight": 0.1,
+      "inputs": ["vfd_profiles", "fundraiser_events", "student_service_opportunities"],
+      "lanes": [35, 36]
+    },
+    {
+      "id": "outdoor_density",
+      "label": "Outdoor Density",
+      "weight": 0.1,
+      "inputs": ["outdoor_org_profiles", "hunting_fishing_events", "state_park_events", "race_events"],
+      "lanes": ["34G", "state_parks", "races"]
+    },
+    {
+      "id": "agricultural_density",
+      "label": "Agricultural Density",
+      "weight": 0.1,
+      "inputs": ["extension_profiles", "farm_bureau_profiles", "farmers_markets", "ag_business_gathering_places"],
+      "lanes": ["34A", "34D", "34F"]
+    }
+  ],
+  "scoreRange": { "min": 0, "max": 100 },
+  "feedsPass": 40,
+  "feedsSchema": "data/community-systems/community-health-score-schema.json",
+  "bundleTarget": "data/community-systems/county-calendar-dna-scores.json",
+  "buildPass": 38,
+  "publicQuestions": [
+    "Which counties have the richest community calendar coverage?",
+    "Where are food traditions under-indexed?",
+    "Which counties lack youth or outdoor org profiles?"
+  ]
+}

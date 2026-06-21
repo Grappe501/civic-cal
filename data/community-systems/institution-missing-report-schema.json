@@ -1,0 +1,37 @@
+{
+  "version": "1.0",
+  "label": "Institution Missing Report",
+  "updatedAt": "2026-06-21",
+  "purpose": "Per-county profile coverage gaps — AI research director input, not public campaign scores.",
+  "reportUnit": "county",
+  "institutionCategories": [
+    { "id": "schools", "expectedSource": "pass_30_school_registry", "profileBundle": "data/institutions/school-profiles.json" },
+    { "id": "churches", "expectedSource": "pass_36_church_registry", "profileBundle": "data/institutions/church-community-profiles.json" },
+    { "id": "vfds", "expectedSource": "pass_35_vfd_registry", "profileBundle": "data/institutions/vfd-profiles.json" },
+    { "id": "extension", "expectedSource": "pass_34A", "profileBundle": "data/institutions/county-food-ag-profiles.json", "filter": "extension_network" },
+    { "id": "four_h", "expectedSource": "pass_34B", "profileBundle": "data/institutions/county-food-ag-profiles.json", "filter": "four_h_network" },
+    { "id": "ffa", "expectedSource": "pass_34C", "profileBundle": "data/institutions/county-food-ag-profiles.json", "filter": "ffa_network" },
+    { "id": "farm_bureau", "expectedSource": "pass_34D", "profileBundle": "data/institutions/county-food-ag-profiles.json", "filter": "farm_bureau_network" },
+    { "id": "county_fairs", "expectedSource": "pass_33", "profileBundle": "data/fairs/county-fair-institution-profiles.json" },
+    { "id": "farmers_markets", "expectedSource": "pass_34F", "profileBundle": "data/institutions/county-food-ag-profiles.json", "filter": "farmers_market" },
+    { "id": "outdoor_orgs", "expectedSource": "pass_34G", "profileBundle": "data/institutions/outdoor-culture-profiles.json" }
+  ],
+  "rowShape": {
+    "category": "string",
+    "expectedCount": "number",
+    "profileCount": "number",
+    "missingCount": "number",
+    "missingPct": "number"
+  },
+  "countyReportShape": {
+    "county": "string",
+    "fips": "string",
+    "categories": "rowShape[]",
+    "biggestOpportunity": { "category": "string", "missingPct": "number" },
+    "generatedAt": "ISO8601"
+  },
+  "aiBrainPromptTemplate": "Biggest density opportunity: {category}. Missing: {missingPct}%.",
+  "bundleTarget": "data/community-systems/county-institution-missing-reports.json",
+  "buildPass": 34,
+  "refreshWithPasses": [33, 34, 35, 36, 39]
+}

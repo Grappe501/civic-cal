@@ -1,0 +1,119 @@
+{
+  "version": "2.0",
+  "label": "Arkansas Food & Agriculture Ecosystem",
+  "pass": 34,
+  "updatedAt": "2026-06-21",
+  "replaces": "agricultural-community-system-schema.json",
+  "subLanes": {
+    "34A": {
+      "id": "extension_network",
+      "label": "Extension Network",
+      "perCounty": true,
+      "profileFields": ["office", "agents", "programs", "calendar", "publications", "workshops"],
+      "sourcePattern": "https://www.uaex.uada.edu/counties/{county}/"
+    },
+    "34B": {
+      "id": "four_h_network",
+      "label": "4-H Network",
+      "perCounty": true,
+      "profileFields": ["clubs", "leaders", "livestock_programs", "competitions", "camps", "fairs"]
+    },
+    "34C": {
+      "id": "ffa_network",
+      "label": "FFA Network",
+      "perSchool": true,
+      "profileFields": ["chapter", "advisors", "competitions", "livestock", "events"]
+    },
+    "34D": {
+      "id": "farm_bureau_network",
+      "label": "Farm Bureau Network",
+      "perCounty": true,
+      "profileFields": ["leadership", "meetings", "youth_programs", "womens_committees", "events"]
+    },
+    "34E": {
+      "id": "arkansas_food_trail",
+      "label": "Arkansas Food Trail",
+      "chain": ["food_event", "food_tradition", "community", "county"],
+      "traditionTypes": [
+        "bbq_festival",
+        "fish_fry",
+        "spaghetti_supper",
+        "wild_game_dinner",
+        "bean_supper",
+        "catfish_festival",
+        "crawfish_festival",
+        "watermelon_festival",
+        "tomato_festival",
+        "peach_festival",
+        "strawberry_festival"
+      ]
+    },
+    "34F": {
+      "id": "agricultural_businesses",
+      "label": "Agricultural Businesses (community intelligence)",
+      "perCounty": true,
+      "note": "Gathering-place intelligence only — not commerce listings",
+      "businessTypes": [
+        "farmers_market",
+        "feed_store",
+        "co_op",
+        "livestock_auction",
+        "sale_barn",
+        "equipment_dealer",
+        "seed_supplier",
+        "farm_store"
+      ]
+    },
+    "34G": {
+      "id": "hunting_outdoor_culture",
+      "label": "Arkansas Hunting & Outdoor Culture",
+      "profileTypes": [
+        "ducks_unlimited_chapter",
+        "nwtf_chapter",
+        "quail_forever_chapter",
+        "delta_waterfowl_chapter",
+        "wildlife_banquet",
+        "outdoor_expo",
+        "deer_classic",
+        "fishing_tournament",
+        "bass_club",
+        "crappie_tournament",
+        "archery_shoot"
+      ]
+    }
+  },
+  "countyTarget": 75,
+  "institutionsPerCountyTarget": 10,
+  "sharedProfileFields": [
+    "name",
+    "county",
+    "city",
+    "sub_lane",
+    "institution_type",
+    "official_url",
+    "calendar_url",
+    "staff_public",
+    "programs",
+    "related_fair_id",
+    "extension_url",
+    "source_confidence",
+    "last_refreshed_at"
+  ],
+  "fairLaneLinks": {
+    "registry": "data/fairs/county-fair-institution-profiles.json",
+    "note": "Each fair institution profile links 34A–34G anchors where source-backed"
+  },
+  "densityEngines": {
+    "institutionMissingReport": "data/community-systems/institution-missing-report-schema.json",
+    "calendarDnaScore": "data/community-systems/community-calendar-dna-score-schema.json"
+  },
+  "bundles": {
+    "registry": "data/institutions/food-agriculture-ecosystem-registry.json",
+    "countyProfiles": "data/institutions/county-food-ag-profiles.json",
+    "foodTrailTraditions": "data/institutions/food-trail-tradition-profiles.json",
+    "outdoorCulture": "data/institutions/outdoor-culture-profiles.json",
+    "events": "data/ingestion/ag-food-ecosystem-approved-events.json",
+    "missingReports": "data/community-systems/county-institution-missing-reports.json"
+  },
+  "npmScript": "ag-food-ecosystem:pass34-publish"
+}

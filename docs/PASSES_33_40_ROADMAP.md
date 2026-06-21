@@ -18,11 +18,29 @@ Every pass delivers: **density · narrative depth · crawlable/searchable pages*
 
 ---
 
-## Pass 34 — Extension / 4-H / Homemakers
+## Pass 34 — Arkansas Food & Agriculture Ecosystem
 
-**Goal:** Every county — Extension office profile, 4-H profile, Homemakers profile, linked calendars.
+**Goal:** Full food & agriculture community layer — not Extension-only. One of the strongest content moats in the state.
 
-**Why:** Rural relationship network; often higher civic value than generic festivals.
+**Sub-lanes:**
+
+| Lane | Focus |
+|------|-------|
+| **34A** | Extension Network — office, agents, programs, calendar, publications, workshops |
+| **34B** | 4-H Network — clubs, leaders, livestock, competitions, camps, fairs |
+| **34C** | FFA Network — per-school chapters, advisors, competitions, livestock, events |
+| **34D** | Farm Bureau Network — leadership, meetings, youth, women's committees, events |
+| **34E** | Arkansas Food Trail — BBQ, fish fries, spaghetti, wild game, bean suppers, crop festivals → Food Event → Tradition → Community → County |
+| **34F** | Agricultural Businesses — farmers markets, feed stores, co-ops, sale barns (community intelligence, not commerce) |
+| **34G** | Hunting & Outdoor Culture — DU, NWTF, banquets, expos, fishing tournaments, archery shoots |
+
+**Density:** 75 × 10+ institutions ≈ **750+ profiles** + food trail + outdoor org profiles + **2,000+** recurring events.
+
+**Density engines:** Institution Missing Report (AI research director) · Community Calendar DNA Score (8 dimensions → Pass 40).
+
+**Fair tie-in:** Link Pass 33 county fairs to 34A–34G anchors.
+
+See `docs/PASS_34_ARKANSAS_FOOD_AGRICULTURE_ECOSYSTEM.md`.
 
 ---
 
@@ -85,7 +103,9 @@ Every pass delivers: **density · narrative depth · crawlable/searchable pages*
 
 **Community DNA:** Population, growth, age, employers, unemployment, education, rural/suburban/urban character (Census ACS + BLS — public sources only).
 
-**Guide pages (launch):** Festival guide · County fair guide · Fish fry guide · Farmers market guide · Concert guide · This weekend · This month.
+**Community Calendar DNA Score (pre–Pass 39):** Event · institution · tradition · cultural · youth · volunteer · outdoor · agricultural density per county. Schema: `community-calendar-dna-score-schema.json`.
+
+**Guide pages (launch):** Fish fry · Festival · County fair · Parade · Farmers market · Food truck · Rodeo · Livestock show · Hunting events · Fishing tournaments · Concert · This weekend · This month · Things to do in every county.
 
 ---
 
@@ -138,7 +158,7 @@ Conway County
 ```text
 Pass 32  Festival density ✅ (107 approved, pipeline live)
 Pass 33  County fair completion
-Pass 34  Extension / 4-H / Homemakers
+Pass 34  Arkansas Food & Agriculture Ecosystem (34A–34G)
 Pass 35  VFD network
 Pass 36  Church community events
 Pass 36.5 Cultural community layer
@@ -157,5 +177,5 @@ Pass 40  Community health score
 | Institution/tradition profiles | ~488 | **15,000+** |
 | Influence graph nodes | 0 | **25,000+** |
 | Counties with health score | 0 | **75** |
-| Discovery guide pages | 0 | **9+ live** |
+| Discovery guide pages | 0 | **15+ live** |
 | AI gap tasks (open) | 144 | research director mode |

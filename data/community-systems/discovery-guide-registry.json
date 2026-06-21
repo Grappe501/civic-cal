@@ -1,5 +1,5 @@
 {
-  "version": "1.0",
+  "version": "2.0",
   "label": "Arkansas Discovery Guide Pages",
   "updatedAt": "2026-06-21",
   "purpose": "High-intent SEO landing pages aggregating lanes — not thin event lists.",
@@ -10,7 +10,7 @@
       "slug": "arkansas-fish-fry-guide",
       "title": "Arkansas Fish Fry Guide",
       "path": "/guides/arkansas-fish-fry-guide",
-      "laneIds": ["churches", "vfds", "community_anchors"],
+      "laneIds": ["churches", "vfds", "community_anchors", "food_trail"],
       "filters": ["fish_fry", "fish fry", "catfish"],
       "faqJsonLd": true
     },
@@ -19,7 +19,7 @@
       "slug": "arkansas-festival-guide",
       "title": "Arkansas Festival Guide",
       "path": "/guides/arkansas-festival-guide",
-      "laneIds": ["festivals"],
+      "laneIds": ["festivals", "food_trail"],
       "filters": ["festival", "jubilee", "celebration"],
       "faqJsonLd": true
     },
@@ -30,6 +30,15 @@
       "path": "/guides/arkansas-county-fair-guide",
       "laneIds": ["county_fairs"],
       "filters": ["county fair", "fairgrounds"],
+      "faqJsonLd": true
+    },
+    {
+      "id": "arkansas-parade-guide",
+      "slug": "arkansas-parade-guide",
+      "title": "Arkansas Parade Guide",
+      "path": "/guides/arkansas-parade-guide",
+      "laneIds": ["festivals", "parades"],
+      "filters": ["parade", "homecoming parade", "Christmas parade"],
       "faqJsonLd": true
     },
     {
@@ -46,7 +55,7 @@
       "slug": "arkansas-farmers-market-guide",
       "title": "Arkansas Farmers Market Guide",
       "path": "/guides/arkansas-farmers-market-guide",
-      "laneIds": ["farmers_markets"],
+      "laneIds": ["farmers_markets", "food_ag_ecosystem"],
       "filters": ["farmers market", "market day"],
       "faqJsonLd": true
     },
@@ -57,6 +66,42 @@
       "path": "/guides/arkansas-food-truck-guide",
       "laneIds": ["farmers_markets", "festivals"],
       "filters": ["food truck", "food truck festival"],
+      "faqJsonLd": true
+    },
+    {
+      "id": "arkansas-rodeo-guide",
+      "slug": "arkansas-rodeo-guide",
+      "title": "Arkansas Rodeo Guide",
+      "path": "/guides/arkansas-rodeo-guide",
+      "laneIds": ["county_fairs", "food_ag_ecosystem"],
+      "filters": ["rodeo", "bull riding", "ranch rodeo"],
+      "faqJsonLd": true
+    },
+    {
+      "id": "arkansas-livestock-show-guide",
+      "slug": "arkansas-livestock-show-guide",
+      "title": "Arkansas Livestock Show Guide",
+      "path": "/guides/arkansas-livestock-show-guide",
+      "laneIds": ["county_fairs", "food_ag_ecosystem"],
+      "filters": ["livestock show", "4-H", "FFA", "sale barn"],
+      "faqJsonLd": true
+    },
+    {
+      "id": "arkansas-hunting-event-guide",
+      "slug": "arkansas-hunting-event-guide",
+      "title": "Arkansas Hunting Event Guide",
+      "path": "/guides/arkansas-hunting-event-guide",
+      "laneIds": ["outdoor_culture"],
+      "filters": ["hunting", "deer classic", "wildlife banquet", "NWTF", "Ducks Unlimited"],
+      "faqJsonLd": true
+    },
+    {
+      "id": "arkansas-fishing-tournament-guide",
+      "slug": "arkansas-fishing-tournament-guide",
+      "title": "Arkansas Fishing Tournament Guide",
+      "path": "/guides/arkansas-fishing-tournament-guide",
+      "laneIds": ["outdoor_culture"],
+      "filters": ["fishing tournament", "bass", "crappie", "catfish tournament"],
       "faqJsonLd": true
     },
     {
@@ -85,6 +130,15 @@
       "path": "/guides/arkansas-this-month",
       "generation": "monthly",
       "windowDays": 31,
+      "faqJsonLd": true
+    },
+    {
+      "id": "things-to-do-in-every-county",
+      "slug": "things-to-do-in-every-county",
+      "title": "Things To Do In Every Arkansas County",
+      "path": "/guides/things-to-do-in-every-county",
+      "generation": "county_index",
+      "countyTarget": 75,
       "faqJsonLd": true
     }
   ]
