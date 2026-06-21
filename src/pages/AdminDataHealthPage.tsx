@@ -96,6 +96,16 @@ export function AdminDataHealthPage() {
           </section>
 
           <section className="card-readable">
+            <h2 className="font-semibold text-[var(--text-secondary)]">Calendar display priority</h2>
+            <p className="text-caption mt-1">
+              Compact month/week cells — Dem meetings, fairs, and festivals visible before &quot;+ more&quot;.
+            </p>
+            <Link to="/admin/calendar-priority" className="btn-secondary text-xs mt-4 inline-flex">
+              Open calendar priority audit →
+            </Link>
+          </section>
+
+          <section className="card-readable">
             <h2 className="font-semibold text-[var(--text-secondary)]">Community profile graph</h2>
             <div className="mt-3 grid gap-3 sm:grid-cols-2 text-sm">
               <Stat label="Total profiles" value={String(profileHealth.totalProfiles)} />

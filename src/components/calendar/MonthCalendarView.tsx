@@ -8,6 +8,7 @@ import {
   isSameMonth,
   monthGridDays,
 } from "../../lib/calendar/calendarUtils";
+import { selectVisibleCalendarEvents } from "../../lib/calendar/calendarDisplayPriority";
 import { CalendarEventPill } from "./CalendarEventPill";
 import { DayEventDrawer } from "./DayEventDrawer";
 import { cn } from "../../lib/cn";
@@ -38,9 +39,10 @@ export function MonthCalendarView({ anchor, events }: Props) {
           ))}
           {days.map((day) => {
             const dayEvents = eventsOnDate(events, day);
+            const visibleEvents = selectVisibleCalendarEvents(dayEvents, MAX_VISIBLE, "month_cell");
             const inMonth = isSameMonth(day, anchor);
             const today = isSameDay(day, new Date());
-            const extra = dayEvents.length - MAX_VISIBLE;
+            const extra = dayEvents.length - visibleEvents.length;
             return (
               <div
                 key={day.toISOString()}
@@ -61,8 +63,8 @@ export function MonthCalendarView({ anchor, events }: Props) {
                   {day.getDate()}
                 </button>
                 <div className="space-y-1 flex-1">
-                  {dayEvents.slice(0, MAX_VISIBLE).map((e) => (
-                    <CalendarEventPill key={e.id} event={e} compact />
+                  {visibleEvents.map((e) => (
+                    <CalendarEventPill key={e.id} event={e} compact showDisplayPin />
                   ))}
                   {extra > 0 && (
                     <button

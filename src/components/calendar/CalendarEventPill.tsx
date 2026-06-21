@@ -9,19 +9,23 @@ import { getEventPresence } from "../../lib/campaigns/presenceLayer";
 import { getEventStudentServiceOpportunity } from "../../lib/student-service/studentServiceEngine";
 import { isDemoSeedEvent } from "../../lib/events/seedCatalog";
 import { isFairFestivalEvent } from "../../lib/events/festivalUtils";
+import { getCalendarDisplayPinLabel } from "../../lib/calendar/calendarDisplayPriority";
 import { cn } from "../../lib/cn";
 
 interface Props {
   event: CivicEvent;
   compact?: boolean;
   className?: string;
+  /** Show Dem meeting / Fair / Festival pin on compact crowded cells */
+  showDisplayPin?: boolean;
 }
 
-export function CalendarEventPill({ event, compact, className }: Props) {
+export function CalendarEventPill({ event, compact, className, showDisplayPin }: Props) {
   const presence = getEventPresence(event.id);
   const hasCandidate = presence.attendingCampaigns.length > 0 || presence.surrogatePlans.length > 0;
   const hasVolunteer = presence.volunteerNeeds.length > 0;
   const student = getEventStudentServiceOpportunity(event);
+  const displayPin = showDisplayPin ? getCalendarDisplayPinLabel(event) : null;
   const time = event.allDay
     ? "All day"
     : formatInTimeZone(parseISO(event.startAt), event.timezone || CALENDAR_TZ, "h:mm a");
@@ -39,9 +43,24 @@ export function CalendarEventPill({ event, compact, className }: Props) {
     >
       <span className="font-semibold line-clamp-2">{event.title}</span>
       {!compact && <span className="block opacity-90 mt-0.5">{time}</span>}
-      {(hasCandidate || hasVolunteer || student || isDemoSeedEvent(event) || isFairFestivalEvent(event)) && (
+      {(displayPin || hasCandidate || hasVolunteer || student || isDemoSeedEvent(event) || isFairFestivalEvent(event)) && (
         <span className="flex flex-wrap gap-0.5 mt-1">
-          {isFairFestivalEvent(event) && (
+          {displayPin === "Dem meeting" && (
+            <span className="inline-flex rounded bg-blue-900 text-white px-1 text-[8px] font-semibold" title="Democratic county party meeting">
+              Dem meeting
+            </span>
+          )}
+          {displayPin === "Fair" && (
+            <span className="inline-flex rounded bg-amber-900 text-white px-1 text-[8px] font-semibold" title="County fair">
+              Fair
+            </span>
+          )}
+          {displayPin === "Festival" && (
+            <span className="inline-flex rounded bg-emerald-900 text-white px-1 text-[8px] font-semibold" title="Festival">
+              Festival
+            </span>
+          )}
+          {!displayPin && isFairFestivalEvent(event) && (
             <span className="inline-flex rounded bg-emerald-900 text-white px-1 text-[8px]" title="Fair or festival">
               fest
             </span>

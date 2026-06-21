@@ -40,6 +40,7 @@ import { AdminPoliticalInfrastructurePage } from "./pages/AdminPoliticalInfrastr
 import { AdminSchoolCalendarPage } from "./pages/AdminSchoolCalendarPage";
 import { AdminCandidatesPage } from "./pages/AdminCandidatesPage";
 import { AdminAiBrainPage } from "./pages/AdminAiBrainPage";
+import { AdminCalendarPriorityPage } from "./pages/AdminCalendarPriorityPage";
 import { CivicPoliticalEventsPage } from "./pages/CivicPoliticalEventsPage";
 import { DemocraticCountyPartiesPage } from "./pages/DemocraticCountyPartiesPage";
 import { CampaignPublicCalendarPage } from "./pages/CampaignPublicCalendarPage";
@@ -104,6 +105,7 @@ export default function App() {
           <Route path="/volunteer/:slug" element={<EntityProfilePage entityType="volunteer_opportunity" />} />
           <Route path="/date/:slug" element={<EntityProfilePage entityType="state_date" />} />
           <Route path="/admin/data-health" element={<AdminDataHealthPage />} />
+          <Route path="/admin/calendar-priority" element={<AdminCalendarPriorityPage />} />
           <Route path="/admin/density" element={<AdminDensityPage />} />
           <Route path="/admin/feeds" element={<AdminFeedCoveragePage />} />
           <Route path="/admin/autogrow" element={<AdminAutogrowPage />} />

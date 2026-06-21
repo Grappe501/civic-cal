@@ -3,9 +3,12 @@ import { Sparkles } from "lucide-react";
 import type { CivicEvent } from "../../lib/types";
 import { CALENDAR_TZ, eventsOnDate, groupDayEvents, isWeekend, weekDays } from "../../lib/calendar/calendarUtils";
 import { selectPublicCalendarHighlights } from "../../lib/calendar/publicCalendarSort";
+import { selectVisibleCalendarEvents } from "../../lib/calendar/calendarDisplayPriority";
 import { CalendarEventPill } from "./CalendarEventPill";
 import { cn } from "../../lib/cn";
 import { formatInTimeZone } from "date-fns-tz";
+
+const WEEK_GROUP_VISIBLE = 3;
 
 interface Props {
   anchor: Date;
@@ -49,20 +52,27 @@ export function WeekCalendarView({ anchor, events }: Props) {
               <p className="text-xs font-bold text-[var(--text-secondary)] mb-2">
                 {formatInTimeZone(day, CALENDAR_TZ, "EEE d")}
               </p>
-              {(["all-day", "morning", "afternoon", "evening"] as const).map((part) =>
-                groups[part].length > 0 ? (
+              {(["all-day", "morning", "afternoon", "evening"] as const).map((part) => {
+                const partEvents = groups[part];
+                if (partEvents.length === 0) return null;
+                const visible = selectVisibleCalendarEvents(partEvents, WEEK_GROUP_VISIBLE, "week_cell");
+                const extra = partEvents.length - visible.length;
+                return (
                   <div key={part} className="mb-2">
                     <p className="text-[9px] uppercase text-muted-soft font-bold">{part}</p>
                     <ul className="space-y-1 mt-0.5">
-                      {groups[part].map((e) => (
+                      {visible.map((e) => (
                         <li key={e.id}>
-                          <CalendarEventPill event={e} compact />
+                          <CalendarEventPill event={e} compact showDisplayPin />
                         </li>
                       ))}
+                      {extra > 0 && (
+                        <li className="text-[9px] font-semibold text-ark-rust">+{extra} more</li>
+                      )}
                     </ul>
                   </div>
-                ) : null,
-              )}
+                );
+              })}
               {dayEvents.length === 0 && <p className="text-caption">—</p>}
             </div>
           );
