@@ -51,6 +51,37 @@ function presenceNearby(event: CivicEvent, workspace: CampaignWorkspace): boolea
   return presence.attendingCampaigns.some((p) => p.slug === workspace.slug);
 }
 
+/** Democratic-campaign-weighted event type boost — admin/campaign views only. */
+export function campaignEventTypeBoost(event: CivicEvent): number {
+  const title = String(event.title ?? "").toLowerCase();
+  const party = String(event.partyLabel ?? "").toLowerCase();
+
+  if (event.category === "public_party_meeting") {
+    if (party === "democratic") {
+      if (/women'?s club|women's club/i.test(title)) return 90;
+      if (/county committee|central committee|county party/i.test(title)) return 100;
+      return 100;
+    }
+    if (party === "republican") return 20;
+    if (party === "libertarian") return 25;
+    return 30;
+  }
+
+  if (/naacp/i.test(title)) return 90;
+  if (/labor|union|afl-cio|afscme/i.test(title)) return 85;
+  if (/democratic women/i.test(title)) return 90;
+
+  if (/extension|4-?h|homemakers|ffa|farm bureau|livestock/i.test(title)) return 75;
+  if (/fish fry|vfd|volunteer fire/i.test(title)) return 75;
+  if (/county fair|fairgrounds/i.test(title)) return 70;
+  if (/festival|jubilee|celebration/i.test(title)) return 65;
+
+  if (event.highCivicValue || event.category === "community") return 80;
+  if (event.category === "faith_meal" || event.category === "community_church") return 70;
+
+  return 40;
+}
+
 export function scoreCampaignEventPriority(
   event: CivicEvent,
   workspace: CampaignWorkspace,
@@ -59,10 +90,14 @@ export function scoreCampaignEventPriority(
 ): CampaignPriorityResult {
   const scored = scoreEventForCampaign(event);
   const tradition = traditionStrengthEstimate(event) ?? 0;
+  const typeBoost = campaignEventTypeBoost(event);
   const factors: string[] = [];
   const warnings: string[] = [];
 
-  let total = 0;
+  let total = typeBoost * 0.22;
+  if (typeBoost >= 85) factors.push("High-value event type for Democratic campaigns");
+  else if (typeBoost <= 25) factors.push("Lower campaign priority event type");
+
   const weights = {
     district: 0.2,
     po: 0.12,

@@ -19,6 +19,7 @@ import {
 import { formatInTimeZone } from "date-fns-tz";
 import type { CivicEvent } from "../types";
 import { DEFAULT_EVENT_TIMEZONE } from "../events/eventArchive";
+import { comparePublicCalendarEvents } from "./publicCalendarSort";
 
 export const CALENDAR_TZ = DEFAULT_EVENT_TIMEZONE;
 
@@ -41,7 +42,7 @@ export function eventLocalDateKey(event: CivicEvent): string {
 
 export function eventsOnDate(events: CivicEvent[], day: Date): CivicEvent[] {
   const key = formatCalendarDateParam(day);
-  return events.filter((e) => eventLocalDateKey(e) === key);
+  return events.filter((e) => eventLocalDateKey(e) === key).sort(comparePublicCalendarEvents);
 }
 
 export function monthGridDays(anchor: Date): Date[] {

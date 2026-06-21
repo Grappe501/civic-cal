@@ -10,6 +10,7 @@ import { buildDeterministicDossier, dossierMiniSummary } from "../../lib/ai/even
 import { traditionStrengthEstimate, verificationLabel } from "../../lib/campaigns/eventIntel";
 import { loadCampaignGoalSettings } from "../../lib/campaigns/campaignGoalSettings";
 import { scoreCandidateEventPriority, priorityBadgeClass } from "../../lib/intelligence/candidateEventPriority";
+import { scoreCampaignEventPriority } from "../../lib/intelligence/campaignPriorityScore";
 import { buildPlan, loadPlansForCampaign, savePlanForCampaign } from "../../lib/campaigns/planStore";
 import { notifyPresenceUpdate } from "../../lib/campaigns/presenceLayer";
 import { CampaignPresenceControls } from "./CampaignPresenceControls";
@@ -252,14 +253,22 @@ export function CampaignDashboard({ workspace }: Props) {
     () => pool.filter((c) => isThisWeek(new Date(c.scored.event.startAt), { weekStartsOn: 0 })),
     [pool],
   );
-  const topOpportunity = useMemo(
-    () => [...pool].sort((a, b) => b.scored.politicalOpportunityScore - a.scored.politicalOpportunityScore).slice(0, 8),
-    [pool],
-  );
-  const topDensity = useMemo(
-    () => [...pool].sort((a, b) => b.scored.relationshipDensityScore - a.scored.relationshipDensityScore).slice(0, 8),
-    [pool],
-  );
+  const goals = useMemo(() => loadCampaignGoalSettings(workspace.slug), [workspace.slug]);
+  const topOpportunity = useMemo(() => {
+    return [...pool]
+      .map((c) => ({
+        item: c,
+        score: scoreCampaignEventPriority(c.scored.event, workspace, plans, goals).score,
+      }))
+      .sort((a, b) => b.score - a.score)
+      .slice(0, 8)
+      .map((x) => x.item);
+  }, [pool, workspace, plans, goals]);
+  const topDensity = useMemo(() => {
+    return [...pool]
+      .sort((a, b) => b.scored.relationshipDensityScore - a.scored.relationshipDensityScore)
+      .slice(0, 8);
+  }, [pool]);
   const church = useMemo(() => pool.filter((c) => c.scored.layer === "community_church").slice(0, 8), [pool]);
   const gov = useMemo(
     () => pool.filter((c) => c.scored.layer === "government" || c.scored.event.category === "civic_meeting").slice(0, 8),

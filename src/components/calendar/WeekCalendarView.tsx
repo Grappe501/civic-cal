@@ -2,6 +2,7 @@ import { useMemo } from "react";
 import { Sparkles } from "lucide-react";
 import type { CivicEvent } from "../../lib/types";
 import { CALENDAR_TZ, eventsOnDate, groupDayEvents, isWeekend, weekDays } from "../../lib/calendar/calendarUtils";
+import { selectPublicCalendarHighlights } from "../../lib/calendar/publicCalendarSort";
 import { CalendarEventPill } from "./CalendarEventPill";
 import { cn } from "../../lib/cn";
 import { formatInTimeZone } from "date-fns-tz";
@@ -14,21 +15,17 @@ interface Props {
 export function WeekCalendarView({ anchor, events }: Props) {
   const days = weekDays(anchor);
 
-  const best = useMemo(() => {
-    return [...events]
-      .sort((a, b) => (b.relationshipDensityScore ?? 0) - (a.relationshipDensityScore ?? 0))
-      .slice(0, 5);
-  }, [events]);
+  const featured = useMemo(() => selectPublicCalendarHighlights(events, 5), [events]);
 
   return (
     <div className="space-y-4">
-      {best.length > 0 && (
+      {featured.length > 0 && (
         <section className="card-readable border-l-4 border-ark-rust">
           <h2 className="font-semibold text-[var(--text-secondary)] flex items-center gap-2">
-            <Sparkles className="h-4 w-4 text-ark-rust" /> Best opportunities this week
+            <Sparkles className="h-4 w-4 text-ark-rust" /> Featured community events this week
           </h2>
           <ul className="mt-2 flex flex-wrap gap-2">
-            {best.map((e) => (
+            {featured.map((e) => (
               <li key={e.id} className="min-w-[140px] flex-1">
                 <CalendarEventPill event={e} />
               </li>

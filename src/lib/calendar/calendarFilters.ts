@@ -1,6 +1,7 @@
 import type { CivicEvent } from "../types";
 import { getEventPresence } from "../campaigns/presenceLayer";
 import { getEventStudentServiceOpportunity } from "../student-service/studentServiceEngine";
+import { sortPublicCalendarEvents } from "./publicCalendarSort";
 
 export interface CalendarFilterState {
   county?: string;
@@ -82,7 +83,7 @@ export function applyCalendarFilters(events: CivicEvent[], filters: CalendarFilt
     list = list.filter((e) => e.category === "culture" || /concert|music|live music/i.test(e.title));
   }
 
-  return list;
+  return sortPublicCalendarEvents(list);
 }
 
 export function toggleCalendarFilter(
