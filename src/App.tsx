@@ -12,6 +12,7 @@ import { OpportunityEnginePage } from "./pages/OpportunityEnginePage";
 import { HelpBuildCalendarPage } from "./pages/HelpBuildCalendarPage";
 import { CampaignsLandingPage } from "./pages/CampaignsLandingPage";
 import { CampaignDemoPage } from "./pages/CampaignDemoPage";
+import { CampaignWorkspacePage } from "./pages/CampaignWorkspacePage";
 
 export default function App() {
   return (
@@ -31,6 +32,7 @@ export default function App() {
           <Route path="/help-build-the-calendar" element={<HelpBuildCalendarPage />} />
           <Route path="/campaigns" element={<CampaignsLandingPage />} />
           <Route path="/campaigns/demo" element={<CampaignDemoPage />} />
+          <Route path="/campaigns/:slug" element={<CampaignWorkspacePage />} />
           <Route path="/admin" element={<AdminPage />} />
         </Routes>
       </Layout>

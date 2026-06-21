@@ -109,6 +109,27 @@ Without `OPENAI_API_KEY`, scoring uses deterministic PO/RD fallback.
 - `/campaigns/demo` — localStorage workspace, district filter, plan statuses
 - Google Calendar & Mobilize — disabled planning rails only
 
+## Named Campaign Dashboards
+
+Reusable campaign workspaces with personalized branding, district scope, and event planning.
+
+| Slug | Candidate | Office |
+|------|-----------|--------|
+| `kelly-grappe-sos` | Kelly Grappe | Secretary of State (statewide) |
+| `chris-jones-ar02` | Chris Jones | U.S. House AR-02 |
+| `fred-love-governor` | Fred Love | Governor (statewide) |
+| `eduardo-guzman-senate` | Eduardo Guzman | State Senate SD-27 |
+
+- **Data:** `data/campaigns/initial-campaign-workspaces.json` + migration `006_named_campaign_workspaces.sql`
+- **API:** `/.netlify/functions/campaign-workspaces` (seed JSON fallback)
+- **Plans:** localStorage per slug until auth/DB sync
+- **District boundaries:** placeholder counties for congressional/senate — GIS pass next
+- **Google Calendar / Mobilize:** planned, disabled — no live sync without explicit campaign authorization
+
+```bash
+psql $DATABASE_URL -f supabase/migrations/006_named_campaign_workspaces.sql
+```
+
 ### Contributor trust
 
 - `/help-build-the-calendar` → `trusted_contributors` table (`trust_level: new`)
@@ -134,8 +155,9 @@ Set all env vars from [`.github/NETLIFY_ENV.md`](.github/NETLIFY_ENV.md).
 | `/organizers` | Organizer intelligence + five layers |
 | `/opportunity-engine` | Scoring system explainer |
 | `/help-build-the-calendar` | County ambassador signup |
-| `/campaigns` | Campaign dashboard landing |
-| `/campaigns/demo` | Demo workspace (localStorage) |
+| `/campaigns` | Campaign selector + named dashboards |
+| `/campaigns/:slug` | Branded campaign command center |
+| `/campaigns/demo` | Generic sandbox dashboard |
 | `/admin` | Moderation + map review + Event Intelligence + AI scoring |
 | `/county/:slug` | County calendar (map/list toggle) |
 | `/event/:slug` | Detail + embedded map |

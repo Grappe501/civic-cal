@@ -69,6 +69,7 @@ psql $DATABASE_URL -f supabase/migrations/002_event_maps.sql
 psql $DATABASE_URL -f supabase/migrations/003_event_ingestion_candidates.sql
 psql $DATABASE_URL -f supabase/migrations/004_intelligence_layers.sql
 psql $DATABASE_URL -f supabase/migrations/005_ai_event_network.sql
+psql $DATABASE_URL -f supabase/migrations/006_named_campaign_workspaces.sql
 npm run seed:import
 ```
 

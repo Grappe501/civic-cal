@@ -1,0 +1,122 @@
+{
+  "version": 1,
+  "updatedAt": "2026-06-21",
+  "workspaces": [
+    {
+      "slug": "kelly-grappe-sos",
+      "campaign_name": "Kelly Grappe for Secretary of State",
+      "candidate_name": "Kelly Grappe",
+      "office_sought": "Arkansas Secretary of State",
+      "district_type": "statewide",
+      "district_name": "State of Arkansas",
+      "dashboard_label": "Kelly Grappe — SOS Command",
+      "counties": [],
+      "cities": [],
+      "district_scope": {
+        "mode": "statewide",
+        "counties": [],
+        "cities": [],
+        "boundaryPrecision": "full"
+      },
+      "dashboard_theme": {
+        "primaryColor": "#1B4332",
+        "accentColor": "#BC4749",
+        "surfaceColor": "#F5F0E6",
+        "heroTagline": "Every vote counted. Every community heard.",
+        "logoInitials": "KG",
+        "badgeLabel": "Secretary of State"
+      },
+      "notes": "Statewide scope — all 75 counties. Civic access and election integrity focus.",
+      "is_active": true,
+      "access_mode": "private_admin"
+    },
+    {
+      "slug": "chris-jones-ar02",
+      "campaign_name": "Chris Jones for Congress",
+      "candidate_name": "Chris Jones",
+      "office_sought": "U.S. House of Representatives",
+      "district_type": "congressional",
+      "district_name": "Arkansas Congressional District 2",
+      "dashboard_label": "Chris Jones — AR-02 Command",
+      "counties": ["Cleburne", "Conway", "Faulkner", "Perry", "Saline", "Van Buren", "White", "Pulaski"],
+      "cities": ["Little Rock", "Conway", "North Little Rock", "Benton", "Malvern"],
+      "district_scope": {
+        "mode": "congressional",
+        "districtCode": "AR-02",
+        "counties": ["Cleburne", "Conway", "Faulkner", "Perry", "Saline", "Van Buren", "White", "Pulaski"],
+        "cities": [],
+        "boundaryPrecision": "pending",
+        "boundaryNote": "Pulaski County is partial in AR-02 — GIS pass required"
+      },
+      "dashboard_theme": {
+        "primaryColor": "#2D6A4F",
+        "accentColor": "#40916C",
+        "surfaceColor": "#E8F4F0",
+        "heroTagline": "Building Arkansas's future — District 2.",
+        "logoInitials": "CJ",
+        "badgeLabel": "Congress · AR-02"
+      },
+      "notes": "Placeholder county scope from statutory district definition.",
+      "is_active": true,
+      "access_mode": "private_admin"
+    },
+    {
+      "slug": "fred-love-governor",
+      "campaign_name": "Fred Love for Governor",
+      "candidate_name": "Fred Love",
+      "office_sought": "Governor of Arkansas",
+      "district_type": "statewide",
+      "district_name": "State of Arkansas",
+      "dashboard_label": "Fred Love — Governor Command",
+      "counties": [],
+      "cities": [],
+      "district_scope": {
+        "mode": "statewide",
+        "counties": [],
+        "cities": [],
+        "boundaryPrecision": "full"
+      },
+      "dashboard_theme": {
+        "primaryColor": "#3D405B",
+        "accentColor": "#E07A5F",
+        "surfaceColor": "#F4F1DE",
+        "heroTagline": "Leadership for all Arkansans.",
+        "logoInitials": "FL",
+        "badgeLabel": "Governor"
+      },
+      "notes": "Statewide scope — all Arkansas communities.",
+      "is_active": true,
+      "access_mode": "private_admin"
+    },
+    {
+      "slug": "eduardo-guzman-senate",
+      "campaign_name": "Eduardo Guzman for State Senate",
+      "candidate_name": "Eduardo Guzman",
+      "office_sought": "Arkansas State Senate",
+      "district_type": "state_senate",
+      "district_name": "Arkansas Senate District 27",
+      "dashboard_label": "Eduardo Guzman — SD-27 Command",
+      "counties": ["Sebastian"],
+      "cities": ["Fort Smith"],
+      "district_scope": {
+        "mode": "state_senate",
+        "districtCode": "SD-27",
+        "counties": ["Sebastian"],
+        "cities": ["Fort Smith"],
+        "boundaryPrecision": "pending",
+        "boundaryNote": "SD-27 covers part of Sebastian County — precinct-level GIS pending"
+      },
+      "dashboard_theme": {
+        "primaryColor": "#5C4033",
+        "accentColor": "#C1666B",
+        "surfaceColor": "#FAF3F0",
+        "heroTagline": "Fort Smith's voice at the Capitol.",
+        "logoInitials": "EG",
+        "badgeLabel": "State Senate · SD-27"
+      },
+      "notes": "Fort Smith / Sebastian placeholder until Senate district GIS loaded.",
+      "is_active": true,
+      "access_mode": "private_admin"
+    }
+  ]
+}

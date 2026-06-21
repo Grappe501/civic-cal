@@ -6,8 +6,9 @@ import type { CivicEvent } from "../lib/types";
 import { eventHasMapPin } from "../lib/maps/mapTypes";
 
 import { AdminIntelligencePanel } from "../components/admin/AdminIntelligencePanel";
+import { AdminCampaignWorkspacesPanel } from "../components/admin/AdminCampaignWorkspacesPanel";
 
-type Tab = "pending" | "map" | "intelligence";
+type Tab = "pending" | "map" | "intelligence" | "campaigns";
 
 export function AdminPage() {
   const [token, setToken] = useState(() => sessionStorage.getItem("civic-admin-token") ?? "");
@@ -19,7 +20,7 @@ export function AdminPage() {
 
   async function load(t: string, activeTab: Tab = tab) {
     try {
-      if (activeTab !== "intelligence") {
+      if (activeTab !== "intelligence" && activeTab !== "campaigns") {
         const data =
           activeTab === "map" ? await fetchAdminMapReview(t) : await fetchAdminEvents(t, "pending");
         setEvents(data);
@@ -82,14 +83,14 @@ export function AdminPage() {
   return (
     <div className="mx-auto max-w-4xl px-4 py-10">
       <div className="flex flex-wrap gap-2 mb-6">
-        {(["pending", "map", "intelligence"] as Tab[]).map((t) => (
+        {(["pending", "map", "intelligence", "campaigns"] as Tab[]).map((t) => (
           <button
             key={t}
             type="button"
             onClick={() => setTab(t)}
             className={tab === t ? "chip bg-ark-pine text-white" : "chip bg-ark-wheat text-ark-pine"}
           >
-            {t === "pending" ? "Pending submissions" : t === "map" ? "Map review" : "Event Intelligence"}
+            {t === "pending" ? "Pending submissions" : t === "map" ? "Map review" : t === "intelligence" ? "Event Intelligence" : "Campaign workspaces"}
           </button>
         ))}
       </div>
@@ -101,12 +102,22 @@ export function AdminPage() {
       )}
 
       <h1 className="font-display text-2xl font-bold text-ark-pine">
-        {tab === "pending" ? `Pending (${events.length})` : tab === "map" ? `Map review (${events.length})` : "Event Intelligence"}
+        {tab === "pending"
+          ? `Pending (${events.length})`
+          : tab === "map"
+            ? `Map review (${events.length})`
+            : tab === "intelligence"
+              ? "Event Intelligence"
+              : "Campaign workspaces"}
       </h1>
 
       {tab === "intelligence" ? (
         <div className="mt-6">
           <AdminIntelligencePanel token={token} />
+        </div>
+      ) : tab === "campaigns" ? (
+        <div className="mt-6">
+          <AdminCampaignWorkspacesPanel token={token} />
         </div>
       ) : (
       <div className="mt-6 space-y-4">
