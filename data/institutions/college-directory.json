@@ -1,0 +1,727 @@
+{
+  "version": 1,
+  "generatedAt": "2026-06-21",
+  "count": 18,
+  "colleges": [
+    {
+      "id": "college-university-of-arkansas",
+      "institution_name": "University of Arkansas",
+      "city": "Fayetteville",
+      "county": "Washington",
+      "institution_type": "university",
+      "enrollment": 32000,
+      "student_demographics": null,
+      "athletics": [
+        "Football",
+        "Basketball",
+        "Baseball",
+        "Softball",
+        "Track",
+        "Band"
+      ],
+      "major_programs": [],
+      "campus_calendar_url": null,
+      "public_events_notes": "Campus calendar — harvest as event source",
+      "calendar_feed": {
+        "harvest_targets": [
+          "Sports",
+          "Concert",
+          "Guest Speaker",
+          "Graduation",
+          "Community Event"
+        ],
+        "last_harvest_at": null
+      },
+      "source_links": [
+        {
+          "label": "Institution website (verify)",
+          "url": "https://www.arkansas.gov/education",
+          "type": "hook"
+        }
+      ],
+      "last_verified": null,
+      "verified": false,
+      "status": "scaffold"
+    },
+    {
+      "id": "college-arkansas-state-university",
+      "institution_name": "Arkansas State University",
+      "city": "Jonesboro",
+      "county": "Craighead",
+      "institution_type": "university",
+      "enrollment": 14000,
+      "student_demographics": null,
+      "athletics": [
+        "Football",
+        "Basketball",
+        "Baseball",
+        "Softball",
+        "Track",
+        "Band"
+      ],
+      "major_programs": [],
+      "campus_calendar_url": null,
+      "public_events_notes": "Campus calendar — harvest as event source",
+      "calendar_feed": {
+        "harvest_targets": [
+          "Sports",
+          "Concert",
+          "Guest Speaker",
+          "Graduation",
+          "Community Event"
+        ],
+        "last_harvest_at": null
+      },
+      "source_links": [
+        {
+          "label": "Institution website (verify)",
+          "url": "https://www.arkansas.gov/education",
+          "type": "hook"
+        }
+      ],
+      "last_verified": null,
+      "verified": false,
+      "status": "scaffold"
+    },
+    {
+      "id": "college-university-of-central-arkansas",
+      "institution_name": "University of Central Arkansas",
+      "city": "Conway",
+      "county": "Faulkner",
+      "institution_type": "university",
+      "enrollment": 10000,
+      "student_demographics": null,
+      "athletics": [
+        "Football",
+        "Basketball",
+        "Baseball",
+        "Softball",
+        "Track",
+        "Band"
+      ],
+      "major_programs": [],
+      "campus_calendar_url": null,
+      "public_events_notes": "Campus calendar — harvest as event source",
+      "calendar_feed": {
+        "harvest_targets": [
+          "Sports",
+          "Concert",
+          "Guest Speaker",
+          "Graduation",
+          "Community Event"
+        ],
+        "last_harvest_at": null
+      },
+      "source_links": [
+        {
+          "label": "Institution website (verify)",
+          "url": "https://www.arkansas.gov/education",
+          "type": "hook"
+        }
+      ],
+      "last_verified": null,
+      "verified": false,
+      "status": "scaffold"
+    },
+    {
+      "id": "college-university-of-arkansas-at-little-rock",
+      "institution_name": "University of Arkansas at Little Rock",
+      "city": "Little Rock",
+      "county": "Pulaski",
+      "institution_type": "university",
+      "enrollment": 9000,
+      "student_demographics": null,
+      "athletics": [
+        "Football",
+        "Basketball",
+        "Baseball",
+        "Softball",
+        "Track",
+        "Band"
+      ],
+      "major_programs": [],
+      "campus_calendar_url": null,
+      "public_events_notes": "Campus calendar — harvest as event source",
+      "calendar_feed": {
+        "harvest_targets": [
+          "Sports",
+          "Concert",
+          "Guest Speaker",
+          "Graduation",
+          "Community Event"
+        ],
+        "last_harvest_at": null
+      },
+      "source_links": [
+        {
+          "label": "Institution website (verify)",
+          "url": "https://www.arkansas.gov/education",
+          "type": "hook"
+        }
+      ],
+      "last_verified": null,
+      "verified": false,
+      "status": "scaffold"
+    },
+    {
+      "id": "college-henderson-state-university",
+      "institution_name": "Henderson State University",
+      "city": "Arkadelphia",
+      "county": "Clark",
+      "institution_type": "university",
+      "enrollment": 3500,
+      "student_demographics": null,
+      "athletics": [
+        "Football",
+        "Basketball",
+        "Baseball",
+        "Softball",
+        "Track",
+        "Band"
+      ],
+      "major_programs": [],
+      "campus_calendar_url": null,
+      "public_events_notes": "Campus calendar — harvest as event source",
+      "calendar_feed": {
+        "harvest_targets": [
+          "Sports",
+          "Concert",
+          "Guest Speaker",
+          "Graduation",
+          "Community Event"
+        ],
+        "last_harvest_at": null
+      },
+      "source_links": [
+        {
+          "label": "Institution website (verify)",
+          "url": "https://www.arkansas.gov/education",
+          "type": "hook"
+        }
+      ],
+      "last_verified": null,
+      "verified": false,
+      "status": "scaffold"
+    },
+    {
+      "id": "college-southern-arkansas-university",
+      "institution_name": "Southern Arkansas University",
+      "city": "Magnolia",
+      "county": "Columbia",
+      "institution_type": "university",
+      "enrollment": 4500,
+      "student_demographics": null,
+      "athletics": [
+        "Football",
+        "Basketball",
+        "Baseball",
+        "Softball",
+        "Track",
+        "Band"
+      ],
+      "major_programs": [],
+      "campus_calendar_url": null,
+      "public_events_notes": "Campus calendar — harvest as event source",
+      "calendar_feed": {
+        "harvest_targets": [
+          "Sports",
+          "Concert",
+          "Guest Speaker",
+          "Graduation",
+          "Community Event"
+        ],
+        "last_harvest_at": null
+      },
+      "source_links": [
+        {
+          "label": "Institution website (verify)",
+          "url": "https://www.arkansas.gov/education",
+          "type": "hook"
+        }
+      ],
+      "last_verified": null,
+      "verified": false,
+      "status": "scaffold"
+    },
+    {
+      "id": "college-arkansas-tech-university",
+      "institution_name": "Arkansas Tech University",
+      "city": "Russellville",
+      "county": "Pope",
+      "institution_type": "university",
+      "enrollment": 10000,
+      "student_demographics": null,
+      "athletics": [
+        "Football",
+        "Basketball",
+        "Baseball",
+        "Softball",
+        "Track",
+        "Band"
+      ],
+      "major_programs": [],
+      "campus_calendar_url": null,
+      "public_events_notes": "Campus calendar — harvest as event source",
+      "calendar_feed": {
+        "harvest_targets": [
+          "Sports",
+          "Concert",
+          "Guest Speaker",
+          "Graduation",
+          "Community Event"
+        ],
+        "last_harvest_at": null
+      },
+      "source_links": [
+        {
+          "label": "Institution website (verify)",
+          "url": "https://www.arkansas.gov/education",
+          "type": "hook"
+        }
+      ],
+      "last_verified": null,
+      "verified": false,
+      "status": "scaffold"
+    },
+    {
+      "id": "college-university-of-arkansas-at-pine-bluff",
+      "institution_name": "University of Arkansas at Pine Bluff",
+      "city": "Pine Bluff",
+      "county": "Jefferson",
+      "institution_type": "university",
+      "enrollment": 2500,
+      "student_demographics": null,
+      "athletics": [
+        "Football",
+        "Basketball",
+        "Baseball",
+        "Softball",
+        "Track",
+        "Band"
+      ],
+      "major_programs": [],
+      "campus_calendar_url": null,
+      "public_events_notes": "Campus calendar — harvest as event source",
+      "calendar_feed": {
+        "harvest_targets": [
+          "Sports",
+          "Concert",
+          "Guest Speaker",
+          "Graduation",
+          "Community Event"
+        ],
+        "last_harvest_at": null
+      },
+      "source_links": [
+        {
+          "label": "Institution website (verify)",
+          "url": "https://www.arkansas.gov/education",
+          "type": "hook"
+        }
+      ],
+      "last_verified": null,
+      "verified": false,
+      "status": "scaffold"
+    },
+    {
+      "id": "college-university-of-arkansas-at-monticello",
+      "institution_name": "University of Arkansas at Monticello",
+      "city": "Monticello",
+      "county": "Drew",
+      "institution_type": "university",
+      "enrollment": 3500,
+      "student_demographics": null,
+      "athletics": [
+        "Football",
+        "Basketball",
+        "Baseball",
+        "Softball",
+        "Track",
+        "Band"
+      ],
+      "major_programs": [],
+      "campus_calendar_url": null,
+      "public_events_notes": "Campus calendar — harvest as event source",
+      "calendar_feed": {
+        "harvest_targets": [
+          "Sports",
+          "Concert",
+          "Guest Speaker",
+          "Graduation",
+          "Community Event"
+        ],
+        "last_harvest_at": null
+      },
+      "source_links": [
+        {
+          "label": "Institution website (verify)",
+          "url": "https://www.arkansas.gov/education",
+          "type": "hook"
+        }
+      ],
+      "last_verified": null,
+      "verified": false,
+      "status": "scaffold"
+    },
+    {
+      "id": "college-university-of-the-ozarks",
+      "institution_name": "University of the Ozarks",
+      "city": "Clarksville",
+      "county": "Johnson",
+      "institution_type": "private_college",
+      "enrollment": 900,
+      "student_demographics": null,
+      "athletics": [
+        "Football",
+        "Basketball",
+        "Baseball",
+        "Softball",
+        "Track",
+        "Band"
+      ],
+      "major_programs": [],
+      "campus_calendar_url": null,
+      "public_events_notes": "Campus calendar — harvest as event source",
+      "calendar_feed": {
+        "harvest_targets": [
+          "Sports",
+          "Concert",
+          "Guest Speaker",
+          "Graduation",
+          "Community Event"
+        ],
+        "last_harvest_at": null
+      },
+      "source_links": [
+        {
+          "label": "Institution website (verify)",
+          "url": "https://www.arkansas.gov/education",
+          "type": "hook"
+        }
+      ],
+      "last_verified": null,
+      "verified": false,
+      "status": "scaffold"
+    },
+    {
+      "id": "college-harding-university",
+      "institution_name": "Harding University",
+      "city": "Searcy",
+      "county": "White",
+      "institution_type": "private_college",
+      "enrollment": 4500,
+      "student_demographics": null,
+      "athletics": [
+        "Football",
+        "Basketball",
+        "Baseball",
+        "Softball",
+        "Track",
+        "Band"
+      ],
+      "major_programs": [],
+      "campus_calendar_url": null,
+      "public_events_notes": "Campus calendar — harvest as event source",
+      "calendar_feed": {
+        "harvest_targets": [
+          "Sports",
+          "Concert",
+          "Guest Speaker",
+          "Graduation",
+          "Community Event"
+        ],
+        "last_harvest_at": null
+      },
+      "source_links": [
+        {
+          "label": "Institution website (verify)",
+          "url": "https://www.arkansas.gov/education",
+          "type": "hook"
+        }
+      ],
+      "last_verified": null,
+      "verified": false,
+      "status": "scaffold"
+    },
+    {
+      "id": "college-john-brown-university",
+      "institution_name": "John Brown University",
+      "city": "Siloam Springs",
+      "county": "Benton",
+      "institution_type": "private_college",
+      "enrollment": 2500,
+      "student_demographics": null,
+      "athletics": [
+        "Football",
+        "Basketball",
+        "Baseball",
+        "Softball",
+        "Track",
+        "Band"
+      ],
+      "major_programs": [],
+      "campus_calendar_url": null,
+      "public_events_notes": "Campus calendar — harvest as event source",
+      "calendar_feed": {
+        "harvest_targets": [
+          "Sports",
+          "Concert",
+          "Guest Speaker",
+          "Graduation",
+          "Community Event"
+        ],
+        "last_harvest_at": null
+      },
+      "source_links": [
+        {
+          "label": "Institution website (verify)",
+          "url": "https://www.arkansas.gov/education",
+          "type": "hook"
+        }
+      ],
+      "last_verified": null,
+      "verified": false,
+      "status": "scaffold"
+    },
+    {
+      "id": "college-lyon-college",
+      "institution_name": "Lyon College",
+      "city": "Batesville",
+      "county": "Independence",
+      "institution_type": "private_college",
+      "enrollment": 700,
+      "student_demographics": null,
+      "athletics": [
+        "Football",
+        "Basketball",
+        "Baseball",
+        "Softball",
+        "Track",
+        "Band"
+      ],
+      "major_programs": [],
+      "campus_calendar_url": null,
+      "public_events_notes": "Campus calendar — harvest as event source",
+      "calendar_feed": {
+        "harvest_targets": [
+          "Sports",
+          "Concert",
+          "Guest Speaker",
+          "Graduation",
+          "Community Event"
+        ],
+        "last_harvest_at": null
+      },
+      "source_links": [
+        {
+          "label": "Institution website (verify)",
+          "url": "https://www.arkansas.gov/education",
+          "type": "hook"
+        }
+      ],
+      "last_verified": null,
+      "verified": false,
+      "status": "scaffold"
+    },
+    {
+      "id": "college-ouachita-baptist-university",
+      "institution_name": "Ouachita Baptist University",
+      "city": "Arkadelphia",
+      "county": "Clark",
+      "institution_type": "private_college",
+      "enrollment": 1500,
+      "student_demographics": null,
+      "athletics": [
+        "Football",
+        "Basketball",
+        "Baseball",
+        "Softball",
+        "Track",
+        "Band"
+      ],
+      "major_programs": [],
+      "campus_calendar_url": null,
+      "public_events_notes": "Campus calendar — harvest as event source",
+      "calendar_feed": {
+        "harvest_targets": [
+          "Sports",
+          "Concert",
+          "Guest Speaker",
+          "Graduation",
+          "Community Event"
+        ],
+        "last_harvest_at": null
+      },
+      "source_links": [
+        {
+          "label": "Institution website (verify)",
+          "url": "https://www.arkansas.gov/education",
+          "type": "hook"
+        }
+      ],
+      "last_verified": null,
+      "verified": false,
+      "status": "scaffold"
+    },
+    {
+      "id": "college-national-park-college",
+      "institution_name": "National Park College",
+      "city": "Hot Springs",
+      "county": "Garland",
+      "institution_type": "community_college",
+      "enrollment": 3000,
+      "student_demographics": null,
+      "athletics": [
+        "Football",
+        "Basketball",
+        "Baseball",
+        "Softball",
+        "Track",
+        "Band"
+      ],
+      "major_programs": [],
+      "campus_calendar_url": null,
+      "public_events_notes": "Campus calendar — harvest as event source",
+      "calendar_feed": {
+        "harvest_targets": [
+          "Sports",
+          "Concert",
+          "Guest Speaker",
+          "Graduation",
+          "Community Event"
+        ],
+        "last_harvest_at": null
+      },
+      "source_links": [
+        {
+          "label": "Institution website (verify)",
+          "url": "https://www.arkansas.gov/education",
+          "type": "hook"
+        }
+      ],
+      "last_verified": null,
+      "verified": false,
+      "status": "scaffold"
+    },
+    {
+      "id": "college-northwest-arkansas-community-college",
+      "institution_name": "NorthWest Arkansas Community College",
+      "city": "Bentonville",
+      "county": "Benton",
+      "institution_type": "community_college",
+      "enrollment": 8000,
+      "student_demographics": null,
+      "athletics": [
+        "Football",
+        "Basketball",
+        "Baseball",
+        "Softball",
+        "Track",
+        "Band"
+      ],
+      "major_programs": [],
+      "campus_calendar_url": null,
+      "public_events_notes": "Campus calendar — harvest as event source",
+      "calendar_feed": {
+        "harvest_targets": [
+          "Sports",
+          "Concert",
+          "Guest Speaker",
+          "Graduation",
+          "Community Event"
+        ],
+        "last_harvest_at": null
+      },
+      "source_links": [
+        {
+          "label": "Institution website (verify)",
+          "url": "https://www.arkansas.gov/education",
+          "type": "hook"
+        }
+      ],
+      "last_verified": null,
+      "verified": false,
+      "status": "scaffold"
+    },
+    {
+      "id": "college-pulaski-technical-college",
+      "institution_name": "Pulaski Technical College",
+      "city": "North Little Rock",
+      "county": "Pulaski",
+      "institution_type": "community_college",
+      "enrollment": 6000,
+      "student_demographics": null,
+      "athletics": [
+        "Football",
+        "Basketball",
+        "Baseball",
+        "Softball",
+        "Track",
+        "Band"
+      ],
+      "major_programs": [],
+      "campus_calendar_url": null,
+      "public_events_notes": "Campus calendar — harvest as event source",
+      "calendar_feed": {
+        "harvest_targets": [
+          "Sports",
+          "Concert",
+          "Guest Speaker",
+          "Graduation",
+          "Community Event"
+        ],
+        "last_harvest_at": null
+      },
+      "source_links": [
+        {
+          "label": "Institution website (verify)",
+          "url": "https://www.arkansas.gov/education",
+          "type": "hook"
+        }
+      ],
+      "last_verified": null,
+      "verified": false,
+      "status": "scaffold"
+    },
+    {
+      "id": "college-phillips-community-college",
+      "institution_name": "Phillips Community College",
+      "city": "Helena-West Helena",
+      "county": "Phillips",
+      "institution_type": "community_college",
+      "enrollment": 1500,
+      "student_demographics": null,
+      "athletics": [
+        "Football",
+        "Basketball",
+        "Baseball",
+        "Softball",
+        "Track",
+        "Band"
+      ],
+      "major_programs": [],
+      "campus_calendar_url": null,
+      "public_events_notes": "Campus calendar — harvest as event source",
+      "calendar_feed": {
+        "harvest_targets": [
+          "Sports",
+          "Concert",
+          "Guest Speaker",
+          "Graduation",
+          "Community Event"
+        ],
+        "last_harvest_at": null
+      },
+      "source_links": [
+        {
+          "label": "Institution website (verify)",
+          "url": "https://www.arkansas.gov/education",
+          "type": "hook"
+        }
+      ],
+      "last_verified": null,
+      "verified": false,
+      "status": "scaffold"
+    }
+  ]
+}

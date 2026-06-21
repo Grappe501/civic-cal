@@ -3,13 +3,13 @@ import { Link } from "react-router-dom";
 import { AlertTriangle, Brain, MapPin, Target } from "lucide-react";
 import type { CampaignWorkspace } from "../../lib/campaigns/types";
 import type { ClassifiedCampaignEvent } from "../../lib/campaigns/districtScope";
+import { countySlug } from "../../lib/counties";
 import {
   citySlug,
   listCityDossiers,
   listCountyDossiers,
   voteTargetGap,
 } from "../../lib/local-intelligence/registry";
-import { countySlug } from "../../lib/counties";
 import { summarizeLocalIntelligence } from "../../lib/api-local-intelligence";
 import { getCityDossier, getCountyDossier } from "../../lib/local-intelligence/registry";
 
@@ -101,9 +101,9 @@ export function CampaignLocalIntelOverview({ workspace, classified, themePrimary
   return (
     <section className="card card-elevated mb-8" style={{ borderTop: `4px solid ${themeAccent}` }}>
       <h2 className="font-display text-lg font-semibold flex items-center gap-2" style={{ color: themePrimary }}>
-        <MapPin className="h-5 w-5" /> Local intelligence map
+        <MapPin className="h-5 w-5" /> County intelligence map
       </h2>
-      <p className="text-xs text-muted mt-1">Candidate-only · aggregate geography · top 100 cities (expandable to 250)</p>
+      <p className="text-xs text-muted mt-1">County Rollup 2.0 · {listCountyDossiers().length} counties · {listCityDossiers(250).length} city feeders</p>
 
       <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3 mt-6">
         <div>

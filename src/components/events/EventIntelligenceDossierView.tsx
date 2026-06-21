@@ -83,7 +83,7 @@ export function EventIntelligenceDossierView({ event, bundle, presence, onShare,
 
       {/* Hero */}
       <header className="dossier-hero mt-6 relative">
-        <PresenceBadges presence={presence} />
+        <PresenceBadges presence={presence} eventTitle={event.title} />
         <div className="flex flex-wrap gap-2 items-center mb-3">
           <CategoryBadge category={event.category} />
           <LayerBadge layer={scored.layer as IntelligenceLayer} compact />

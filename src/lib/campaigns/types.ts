@@ -57,6 +57,10 @@ export interface CampaignWorkspace {
   accessMode: string;
   googleCalendarStatus?: "not_connected" | "pending_oauth" | "connected";
   mobilizeStatus?: "not_connected" | "pending" | "connected";
+  defaultVolunteerSignupUrl?: string | null;
+  mobilizeOrgUrl?: string | null;
+  volunteerBrandColor?: string | null;
+  volunteerBadgeLabel?: string | null;
 }
 
 export type PublicPresenceStatus = "private" | "public";
@@ -79,6 +83,15 @@ export interface CampaignEventPlan {
   volunteerPublicNote?: string;
   candidateColor?: string;
   volunteerColor?: string;
+  /** Pass 17 — volunteer recruitment presence */
+  advertiseVolunteers?: boolean;
+  volunteerSignupUrl?: string | null;
+  mobilizeEventUrl?: string | null;
+  volunteerBadgeLabel?: string | null;
+  volunteerBadgeColor?: string | null;
+  volunteerNeededCount?: number | null;
+  volunteerRoleSummary?: string | null;
+  volunteerShiftNotes?: string | null;
 }
 
 export interface ScoredEvent {

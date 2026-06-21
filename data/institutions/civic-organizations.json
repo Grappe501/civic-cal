@@ -1,0 +1,7047 @@
+{
+  "version": 1,
+  "generatedAt": "2026-06-21",
+  "count": 880,
+  "organizations": [
+    {
+      "id": "org-little-rock-library",
+      "name": "Pulaski County / Little Rock library — verify",
+      "org_type": "library",
+      "city": "Little Rock",
+      "county": "Pulaski",
+      "verified": false
+    },
+    {
+      "id": "org-little-rock-chamber",
+      "name": "Little Rock Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Little Rock",
+      "county": "Pulaski",
+      "verified": false
+    },
+    {
+      "id": "org-little-rock-vfd",
+      "name": "Little Rock VFD — verify",
+      "org_type": "vfd",
+      "city": "Little Rock",
+      "county": "Pulaski",
+      "verified": false
+    },
+    {
+      "id": "org-little-rock-rotary",
+      "name": "Little Rock Rotary — verify chapter",
+      "org_type": "rotary",
+      "city": "Little Rock",
+      "county": "Pulaski",
+      "verified": false
+    },
+    {
+      "id": "org-little-rock-farm-bureau",
+      "name": "Pulaski Farm Bureau — verify",
+      "org_type": "farm_bureau",
+      "city": "Little Rock",
+      "county": "Pulaski",
+      "verified": false
+    },
+    {
+      "id": "org-fort-smith-library",
+      "name": "Sebastian County / Fort Smith library — verify",
+      "org_type": "library",
+      "city": "Fort Smith",
+      "county": "Sebastian",
+      "verified": false
+    },
+    {
+      "id": "org-fort-smith-chamber",
+      "name": "Fort Smith Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Fort Smith",
+      "county": "Sebastian",
+      "verified": false
+    },
+    {
+      "id": "org-fort-smith-vfd",
+      "name": "Fort Smith VFD — verify",
+      "org_type": "vfd",
+      "city": "Fort Smith",
+      "county": "Sebastian",
+      "verified": false
+    },
+    {
+      "id": "org-fort-smith-rotary",
+      "name": "Fort Smith Rotary — verify chapter",
+      "org_type": "rotary",
+      "city": "Fort Smith",
+      "county": "Sebastian",
+      "verified": false
+    },
+    {
+      "id": "org-fort-smith-farm-bureau",
+      "name": "Sebastian Farm Bureau — verify",
+      "org_type": "farm_bureau",
+      "city": "Fort Smith",
+      "county": "Sebastian",
+      "verified": false
+    },
+    {
+      "id": "org-fayetteville-library",
+      "name": "Washington County / Fayetteville library — verify",
+      "org_type": "library",
+      "city": "Fayetteville",
+      "county": "Washington",
+      "verified": false
+    },
+    {
+      "id": "org-fayetteville-chamber",
+      "name": "Fayetteville Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Fayetteville",
+      "county": "Washington",
+      "verified": false
+    },
+    {
+      "id": "org-fayetteville-vfd",
+      "name": "Fayetteville VFD — verify",
+      "org_type": "vfd",
+      "city": "Fayetteville",
+      "county": "Washington",
+      "verified": false
+    },
+    {
+      "id": "org-fayetteville-rotary",
+      "name": "Fayetteville Rotary — verify chapter",
+      "org_type": "rotary",
+      "city": "Fayetteville",
+      "county": "Washington",
+      "verified": false
+    },
+    {
+      "id": "org-fayetteville-farm-bureau",
+      "name": "Washington Farm Bureau — verify",
+      "org_type": "farm_bureau",
+      "city": "Fayetteville",
+      "county": "Washington",
+      "verified": false
+    },
+    {
+      "id": "org-springdale-library",
+      "name": "Washington County / Springdale library — verify",
+      "org_type": "library",
+      "city": "Springdale",
+      "county": "Washington",
+      "verified": false
+    },
+    {
+      "id": "org-springdale-chamber",
+      "name": "Springdale Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Springdale",
+      "county": "Washington",
+      "verified": false
+    },
+    {
+      "id": "org-springdale-vfd",
+      "name": "Springdale VFD — verify",
+      "org_type": "vfd",
+      "city": "Springdale",
+      "county": "Washington",
+      "verified": false
+    },
+    {
+      "id": "org-springdale-rotary",
+      "name": "Springdale Rotary — verify chapter",
+      "org_type": "rotary",
+      "city": "Springdale",
+      "county": "Washington",
+      "verified": false
+    },
+    {
+      "id": "org-springdale-farm-bureau",
+      "name": "Washington Farm Bureau — verify",
+      "org_type": "farm_bureau",
+      "city": "Springdale",
+      "county": "Washington",
+      "verified": false
+    },
+    {
+      "id": "org-jonesboro-library",
+      "name": "Craighead County / Jonesboro library — verify",
+      "org_type": "library",
+      "city": "Jonesboro",
+      "county": "Craighead",
+      "verified": false
+    },
+    {
+      "id": "org-jonesboro-chamber",
+      "name": "Jonesboro Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Jonesboro",
+      "county": "Craighead",
+      "verified": false
+    },
+    {
+      "id": "org-jonesboro-vfd",
+      "name": "Jonesboro VFD — verify",
+      "org_type": "vfd",
+      "city": "Jonesboro",
+      "county": "Craighead",
+      "verified": false
+    },
+    {
+      "id": "org-jonesboro-rotary",
+      "name": "Jonesboro Rotary — verify chapter",
+      "org_type": "rotary",
+      "city": "Jonesboro",
+      "county": "Craighead",
+      "verified": false
+    },
+    {
+      "id": "org-jonesboro-farm-bureau",
+      "name": "Craighead Farm Bureau — verify",
+      "org_type": "farm_bureau",
+      "city": "Jonesboro",
+      "county": "Craighead",
+      "verified": false
+    },
+    {
+      "id": "org-rogers-library",
+      "name": "Benton County / Rogers library — verify",
+      "org_type": "library",
+      "city": "Rogers",
+      "county": "Benton",
+      "verified": false
+    },
+    {
+      "id": "org-rogers-chamber",
+      "name": "Rogers Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Rogers",
+      "county": "Benton",
+      "verified": false
+    },
+    {
+      "id": "org-rogers-vfd",
+      "name": "Rogers VFD — verify",
+      "org_type": "vfd",
+      "city": "Rogers",
+      "county": "Benton",
+      "verified": false
+    },
+    {
+      "id": "org-rogers-rotary",
+      "name": "Rogers Rotary — verify chapter",
+      "org_type": "rotary",
+      "city": "Rogers",
+      "county": "Benton",
+      "verified": false
+    },
+    {
+      "id": "org-rogers-farm-bureau",
+      "name": "Benton Farm Bureau — verify",
+      "org_type": "farm_bureau",
+      "city": "Rogers",
+      "county": "Benton",
+      "verified": false
+    },
+    {
+      "id": "org-conway-library",
+      "name": "Faulkner County / Conway library — verify",
+      "org_type": "library",
+      "city": "Conway",
+      "county": "Faulkner",
+      "verified": false
+    },
+    {
+      "id": "org-conway-chamber",
+      "name": "Conway Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Conway",
+      "county": "Faulkner",
+      "verified": false
+    },
+    {
+      "id": "org-conway-vfd",
+      "name": "Conway VFD — verify",
+      "org_type": "vfd",
+      "city": "Conway",
+      "county": "Faulkner",
+      "verified": false
+    },
+    {
+      "id": "org-conway-rotary",
+      "name": "Conway Rotary — verify chapter",
+      "org_type": "rotary",
+      "city": "Conway",
+      "county": "Faulkner",
+      "verified": false
+    },
+    {
+      "id": "org-conway-farm-bureau",
+      "name": "Faulkner Farm Bureau — verify",
+      "org_type": "farm_bureau",
+      "city": "Conway",
+      "county": "Faulkner",
+      "verified": false
+    },
+    {
+      "id": "org-north-little-rock-library",
+      "name": "Pulaski County / North Little Rock library — verify",
+      "org_type": "library",
+      "city": "North Little Rock",
+      "county": "Pulaski",
+      "verified": false
+    },
+    {
+      "id": "org-north-little-rock-chamber",
+      "name": "North Little Rock Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "North Little Rock",
+      "county": "Pulaski",
+      "verified": false
+    },
+    {
+      "id": "org-north-little-rock-vfd",
+      "name": "North Little Rock VFD — verify",
+      "org_type": "vfd",
+      "city": "North Little Rock",
+      "county": "Pulaski",
+      "verified": false
+    },
+    {
+      "id": "org-north-little-rock-rotary",
+      "name": "North Little Rock Rotary — verify chapter",
+      "org_type": "rotary",
+      "city": "North Little Rock",
+      "county": "Pulaski",
+      "verified": false
+    },
+    {
+      "id": "org-north-little-rock-farm-bureau",
+      "name": "Pulaski Farm Bureau — verify",
+      "org_type": "farm_bureau",
+      "city": "North Little Rock",
+      "county": "Pulaski",
+      "verified": false
+    },
+    {
+      "id": "org-bentonville-library",
+      "name": "Benton County / Bentonville library — verify",
+      "org_type": "library",
+      "city": "Bentonville",
+      "county": "Benton",
+      "verified": false
+    },
+    {
+      "id": "org-bentonville-chamber",
+      "name": "Bentonville Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Bentonville",
+      "county": "Benton",
+      "verified": false
+    },
+    {
+      "id": "org-bentonville-vfd",
+      "name": "Bentonville VFD — verify",
+      "org_type": "vfd",
+      "city": "Bentonville",
+      "county": "Benton",
+      "verified": false
+    },
+    {
+      "id": "org-bentonville-rotary",
+      "name": "Bentonville Rotary — verify chapter",
+      "org_type": "rotary",
+      "city": "Bentonville",
+      "county": "Benton",
+      "verified": false
+    },
+    {
+      "id": "org-bentonville-farm-bureau",
+      "name": "Benton Farm Bureau — verify",
+      "org_type": "farm_bureau",
+      "city": "Bentonville",
+      "county": "Benton",
+      "verified": false
+    },
+    {
+      "id": "org-pine-bluff-library",
+      "name": "Jefferson County / Pine Bluff library — verify",
+      "org_type": "library",
+      "city": "Pine Bluff",
+      "county": "Jefferson",
+      "verified": false
+    },
+    {
+      "id": "org-pine-bluff-chamber",
+      "name": "Pine Bluff Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Pine Bluff",
+      "county": "Jefferson",
+      "verified": false
+    },
+    {
+      "id": "org-pine-bluff-vfd",
+      "name": "Pine Bluff VFD — verify",
+      "org_type": "vfd",
+      "city": "Pine Bluff",
+      "county": "Jefferson",
+      "verified": false
+    },
+    {
+      "id": "org-pine-bluff-rotary",
+      "name": "Pine Bluff Rotary — verify chapter",
+      "org_type": "rotary",
+      "city": "Pine Bluff",
+      "county": "Jefferson",
+      "verified": false
+    },
+    {
+      "id": "org-pine-bluff-farm-bureau",
+      "name": "Jefferson Farm Bureau — verify",
+      "org_type": "farm_bureau",
+      "city": "Pine Bluff",
+      "county": "Jefferson",
+      "verified": false
+    },
+    {
+      "id": "org-hot-springs-library",
+      "name": "Garland County / Hot Springs library — verify",
+      "org_type": "library",
+      "city": "Hot Springs",
+      "county": "Garland",
+      "verified": false
+    },
+    {
+      "id": "org-hot-springs-chamber",
+      "name": "Hot Springs Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Hot Springs",
+      "county": "Garland",
+      "verified": false
+    },
+    {
+      "id": "org-hot-springs-vfd",
+      "name": "Hot Springs VFD — verify",
+      "org_type": "vfd",
+      "city": "Hot Springs",
+      "county": "Garland",
+      "verified": false
+    },
+    {
+      "id": "org-hot-springs-rotary",
+      "name": "Hot Springs Rotary — verify chapter",
+      "org_type": "rotary",
+      "city": "Hot Springs",
+      "county": "Garland",
+      "verified": false
+    },
+    {
+      "id": "org-hot-springs-farm-bureau",
+      "name": "Garland Farm Bureau — verify",
+      "org_type": "farm_bureau",
+      "city": "Hot Springs",
+      "county": "Garland",
+      "verified": false
+    },
+    {
+      "id": "org-benton-library",
+      "name": "Saline County / Benton library — verify",
+      "org_type": "library",
+      "city": "Benton",
+      "county": "Saline",
+      "verified": false
+    },
+    {
+      "id": "org-benton-chamber",
+      "name": "Benton Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Benton",
+      "county": "Saline",
+      "verified": false
+    },
+    {
+      "id": "org-benton-vfd",
+      "name": "Benton VFD — verify",
+      "org_type": "vfd",
+      "city": "Benton",
+      "county": "Saline",
+      "verified": false
+    },
+    {
+      "id": "org-benton-rotary",
+      "name": "Benton Rotary — verify chapter",
+      "org_type": "rotary",
+      "city": "Benton",
+      "county": "Saline",
+      "verified": false
+    },
+    {
+      "id": "org-benton-farm-bureau",
+      "name": "Saline Farm Bureau — verify",
+      "org_type": "farm_bureau",
+      "city": "Benton",
+      "county": "Saline",
+      "verified": false
+    },
+    {
+      "id": "org-texarkana-library",
+      "name": "Miller County / Texarkana library — verify",
+      "org_type": "library",
+      "city": "Texarkana",
+      "county": "Miller",
+      "verified": false
+    },
+    {
+      "id": "org-texarkana-chamber",
+      "name": "Texarkana Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Texarkana",
+      "county": "Miller",
+      "verified": false
+    },
+    {
+      "id": "org-texarkana-vfd",
+      "name": "Texarkana VFD — verify",
+      "org_type": "vfd",
+      "city": "Texarkana",
+      "county": "Miller",
+      "verified": false
+    },
+    {
+      "id": "org-texarkana-rotary",
+      "name": "Texarkana Rotary — verify chapter",
+      "org_type": "rotary",
+      "city": "Texarkana",
+      "county": "Miller",
+      "verified": false
+    },
+    {
+      "id": "org-texarkana-farm-bureau",
+      "name": "Miller Farm Bureau — verify",
+      "org_type": "farm_bureau",
+      "city": "Texarkana",
+      "county": "Miller",
+      "verified": false
+    },
+    {
+      "id": "org-sherwood-library",
+      "name": "Pulaski County / Sherwood library — verify",
+      "org_type": "library",
+      "city": "Sherwood",
+      "county": "Pulaski",
+      "verified": false
+    },
+    {
+      "id": "org-sherwood-chamber",
+      "name": "Sherwood Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Sherwood",
+      "county": "Pulaski",
+      "verified": false
+    },
+    {
+      "id": "org-sherwood-vfd",
+      "name": "Sherwood VFD — verify",
+      "org_type": "vfd",
+      "city": "Sherwood",
+      "county": "Pulaski",
+      "verified": false
+    },
+    {
+      "id": "org-sherwood-rotary",
+      "name": "Sherwood Rotary — verify chapter",
+      "org_type": "rotary",
+      "city": "Sherwood",
+      "county": "Pulaski",
+      "verified": false
+    },
+    {
+      "id": "org-sherwood-farm-bureau",
+      "name": "Pulaski Farm Bureau — verify",
+      "org_type": "farm_bureau",
+      "city": "Sherwood",
+      "county": "Pulaski",
+      "verified": false
+    },
+    {
+      "id": "org-jacksonville-library",
+      "name": "Pulaski County / Jacksonville library — verify",
+      "org_type": "library",
+      "city": "Jacksonville",
+      "county": "Pulaski",
+      "verified": false
+    },
+    {
+      "id": "org-jacksonville-chamber",
+      "name": "Jacksonville Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Jacksonville",
+      "county": "Pulaski",
+      "verified": false
+    },
+    {
+      "id": "org-jacksonville-vfd",
+      "name": "Jacksonville VFD — verify",
+      "org_type": "vfd",
+      "city": "Jacksonville",
+      "county": "Pulaski",
+      "verified": false
+    },
+    {
+      "id": "org-jacksonville-rotary",
+      "name": "Jacksonville Rotary — verify chapter",
+      "org_type": "rotary",
+      "city": "Jacksonville",
+      "county": "Pulaski",
+      "verified": false
+    },
+    {
+      "id": "org-jacksonville-farm-bureau",
+      "name": "Pulaski Farm Bureau — verify",
+      "org_type": "farm_bureau",
+      "city": "Jacksonville",
+      "county": "Pulaski",
+      "verified": false
+    },
+    {
+      "id": "org-russellville-library",
+      "name": "Pope County / Russellville library — verify",
+      "org_type": "library",
+      "city": "Russellville",
+      "county": "Pope",
+      "verified": false
+    },
+    {
+      "id": "org-russellville-chamber",
+      "name": "Russellville Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Russellville",
+      "county": "Pope",
+      "verified": false
+    },
+    {
+      "id": "org-russellville-vfd",
+      "name": "Russellville VFD — verify",
+      "org_type": "vfd",
+      "city": "Russellville",
+      "county": "Pope",
+      "verified": false
+    },
+    {
+      "id": "org-russellville-rotary",
+      "name": "Russellville Rotary — verify chapter",
+      "org_type": "rotary",
+      "city": "Russellville",
+      "county": "Pope",
+      "verified": false
+    },
+    {
+      "id": "org-russellville-farm-bureau",
+      "name": "Pope Farm Bureau — verify",
+      "org_type": "farm_bureau",
+      "city": "Russellville",
+      "county": "Pope",
+      "verified": false
+    },
+    {
+      "id": "org-bella-vista-library",
+      "name": "Benton County / Bella Vista library — verify",
+      "org_type": "library",
+      "city": "Bella Vista",
+      "county": "Benton",
+      "verified": false
+    },
+    {
+      "id": "org-bella-vista-chamber",
+      "name": "Bella Vista Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Bella Vista",
+      "county": "Benton",
+      "verified": false
+    },
+    {
+      "id": "org-bella-vista-vfd",
+      "name": "Bella Vista VFD — verify",
+      "org_type": "vfd",
+      "city": "Bella Vista",
+      "county": "Benton",
+      "verified": false
+    },
+    {
+      "id": "org-bella-vista-rotary",
+      "name": "Bella Vista Rotary — verify chapter",
+      "org_type": "rotary",
+      "city": "Bella Vista",
+      "county": "Benton",
+      "verified": false
+    },
+    {
+      "id": "org-bella-vista-farm-bureau",
+      "name": "Benton Farm Bureau — verify",
+      "org_type": "farm_bureau",
+      "city": "Bella Vista",
+      "county": "Benton",
+      "verified": false
+    },
+    {
+      "id": "org-paragould-library",
+      "name": "Greene County / Paragould library — verify",
+      "org_type": "library",
+      "city": "Paragould",
+      "county": "Greene",
+      "verified": false
+    },
+    {
+      "id": "org-paragould-chamber",
+      "name": "Paragould Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Paragould",
+      "county": "Greene",
+      "verified": false
+    },
+    {
+      "id": "org-paragould-vfd",
+      "name": "Paragould VFD — verify",
+      "org_type": "vfd",
+      "city": "Paragould",
+      "county": "Greene",
+      "verified": false
+    },
+    {
+      "id": "org-paragould-rotary",
+      "name": "Paragould Rotary — verify chapter",
+      "org_type": "rotary",
+      "city": "Paragould",
+      "county": "Greene",
+      "verified": false
+    },
+    {
+      "id": "org-paragould-farm-bureau",
+      "name": "Greene Farm Bureau — verify",
+      "org_type": "farm_bureau",
+      "city": "Paragould",
+      "county": "Greene",
+      "verified": false
+    },
+    {
+      "id": "org-cabot-library",
+      "name": "Lonoke County / Cabot library — verify",
+      "org_type": "library",
+      "city": "Cabot",
+      "county": "Lonoke",
+      "verified": false
+    },
+    {
+      "id": "org-cabot-chamber",
+      "name": "Cabot Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Cabot",
+      "county": "Lonoke",
+      "verified": false
+    },
+    {
+      "id": "org-cabot-vfd",
+      "name": "Cabot VFD — verify",
+      "org_type": "vfd",
+      "city": "Cabot",
+      "county": "Lonoke",
+      "verified": false
+    },
+    {
+      "id": "org-cabot-rotary",
+      "name": "Cabot Rotary — verify chapter",
+      "org_type": "rotary",
+      "city": "Cabot",
+      "county": "Lonoke",
+      "verified": false
+    },
+    {
+      "id": "org-cabot-farm-bureau",
+      "name": "Lonoke Farm Bureau — verify",
+      "org_type": "farm_bureau",
+      "city": "Cabot",
+      "county": "Lonoke",
+      "verified": false
+    },
+    {
+      "id": "org-searcy-library",
+      "name": "White County / Searcy library — verify",
+      "org_type": "library",
+      "city": "Searcy",
+      "county": "White",
+      "verified": false
+    },
+    {
+      "id": "org-searcy-chamber",
+      "name": "Searcy Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Searcy",
+      "county": "White",
+      "verified": false
+    },
+    {
+      "id": "org-searcy-vfd",
+      "name": "Searcy VFD — verify",
+      "org_type": "vfd",
+      "city": "Searcy",
+      "county": "White",
+      "verified": false
+    },
+    {
+      "id": "org-searcy-rotary",
+      "name": "Searcy Rotary — verify chapter",
+      "org_type": "rotary",
+      "city": "Searcy",
+      "county": "White",
+      "verified": false
+    },
+    {
+      "id": "org-searcy-farm-bureau",
+      "name": "White Farm Bureau — verify",
+      "org_type": "farm_bureau",
+      "city": "Searcy",
+      "county": "White",
+      "verified": false
+    },
+    {
+      "id": "org-van-buren-library",
+      "name": "Crawford County / Van Buren library — verify",
+      "org_type": "library",
+      "city": "Van Buren",
+      "county": "Crawford",
+      "verified": false
+    },
+    {
+      "id": "org-van-buren-chamber",
+      "name": "Van Buren Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Van Buren",
+      "county": "Crawford",
+      "verified": false
+    },
+    {
+      "id": "org-van-buren-vfd",
+      "name": "Van Buren VFD — verify",
+      "org_type": "vfd",
+      "city": "Van Buren",
+      "county": "Crawford",
+      "verified": false
+    },
+    {
+      "id": "org-van-buren-rotary",
+      "name": "Van Buren Rotary — verify chapter",
+      "org_type": "rotary",
+      "city": "Van Buren",
+      "county": "Crawford",
+      "verified": false
+    },
+    {
+      "id": "org-van-buren-farm-bureau",
+      "name": "Crawford Farm Bureau — verify",
+      "org_type": "farm_bureau",
+      "city": "Van Buren",
+      "county": "Crawford",
+      "verified": false
+    },
+    {
+      "id": "org-el-dorado-library",
+      "name": "Union County / El Dorado library — verify",
+      "org_type": "library",
+      "city": "El Dorado",
+      "county": "Union",
+      "verified": false
+    },
+    {
+      "id": "org-el-dorado-chamber",
+      "name": "El Dorado Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "El Dorado",
+      "county": "Union",
+      "verified": false
+    },
+    {
+      "id": "org-el-dorado-vfd",
+      "name": "El Dorado VFD — verify",
+      "org_type": "vfd",
+      "city": "El Dorado",
+      "county": "Union",
+      "verified": false
+    },
+    {
+      "id": "org-el-dorado-rotary",
+      "name": "El Dorado Rotary — verify chapter",
+      "org_type": "rotary",
+      "city": "El Dorado",
+      "county": "Union",
+      "verified": false
+    },
+    {
+      "id": "org-el-dorado-farm-bureau",
+      "name": "Union Farm Bureau — verify",
+      "org_type": "farm_bureau",
+      "city": "El Dorado",
+      "county": "Union",
+      "verified": false
+    },
+    {
+      "id": "org-maumelle-library",
+      "name": "Pulaski County / Maumelle library — verify",
+      "org_type": "library",
+      "city": "Maumelle",
+      "county": "Pulaski",
+      "verified": false
+    },
+    {
+      "id": "org-maumelle-chamber",
+      "name": "Maumelle Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Maumelle",
+      "county": "Pulaski",
+      "verified": false
+    },
+    {
+      "id": "org-maumelle-vfd",
+      "name": "Maumelle VFD — verify",
+      "org_type": "vfd",
+      "city": "Maumelle",
+      "county": "Pulaski",
+      "verified": false
+    },
+    {
+      "id": "org-maumelle-rotary",
+      "name": "Maumelle Rotary — verify chapter",
+      "org_type": "rotary",
+      "city": "Maumelle",
+      "county": "Pulaski",
+      "verified": false
+    },
+    {
+      "id": "org-maumelle-farm-bureau",
+      "name": "Pulaski Farm Bureau — verify",
+      "org_type": "farm_bureau",
+      "city": "Maumelle",
+      "county": "Pulaski",
+      "verified": false
+    },
+    {
+      "id": "org-bryant-library",
+      "name": "Saline County / Bryant library — verify",
+      "org_type": "library",
+      "city": "Bryant",
+      "county": "Saline",
+      "verified": false
+    },
+    {
+      "id": "org-bryant-chamber",
+      "name": "Bryant Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Bryant",
+      "county": "Saline",
+      "verified": false
+    },
+    {
+      "id": "org-bryant-vfd",
+      "name": "Bryant VFD — verify",
+      "org_type": "vfd",
+      "city": "Bryant",
+      "county": "Saline",
+      "verified": false
+    },
+    {
+      "id": "org-bryant-rotary",
+      "name": "Bryant Rotary — verify chapter",
+      "org_type": "rotary",
+      "city": "Bryant",
+      "county": "Saline",
+      "verified": false
+    },
+    {
+      "id": "org-bryant-farm-bureau",
+      "name": "Saline Farm Bureau — verify",
+      "org_type": "farm_bureau",
+      "city": "Bryant",
+      "county": "Saline",
+      "verified": false
+    },
+    {
+      "id": "org-siloam-springs-library",
+      "name": "Benton County / Siloam Springs library — verify",
+      "org_type": "library",
+      "city": "Siloam Springs",
+      "county": "Benton",
+      "verified": false
+    },
+    {
+      "id": "org-siloam-springs-chamber",
+      "name": "Siloam Springs Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Siloam Springs",
+      "county": "Benton",
+      "verified": false
+    },
+    {
+      "id": "org-siloam-springs-vfd",
+      "name": "Siloam Springs VFD — verify",
+      "org_type": "vfd",
+      "city": "Siloam Springs",
+      "county": "Benton",
+      "verified": false
+    },
+    {
+      "id": "org-siloam-springs-rotary",
+      "name": "Siloam Springs Rotary — verify chapter",
+      "org_type": "rotary",
+      "city": "Siloam Springs",
+      "county": "Benton",
+      "verified": false
+    },
+    {
+      "id": "org-siloam-springs-farm-bureau",
+      "name": "Benton Farm Bureau — verify",
+      "org_type": "farm_bureau",
+      "city": "Siloam Springs",
+      "county": "Benton",
+      "verified": false
+    },
+    {
+      "id": "org-morrilton-library",
+      "name": "Conway County / Morrilton library — verify",
+      "org_type": "library",
+      "city": "Morrilton",
+      "county": "Conway",
+      "verified": false
+    },
+    {
+      "id": "org-morrilton-chamber",
+      "name": "Morrilton Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Morrilton",
+      "county": "Conway",
+      "verified": false
+    },
+    {
+      "id": "org-morrilton-vfd",
+      "name": "Morrilton VFD — verify",
+      "org_type": "vfd",
+      "city": "Morrilton",
+      "county": "Conway",
+      "verified": false
+    },
+    {
+      "id": "org-morrilton-rotary",
+      "name": "Morrilton Rotary — verify chapter",
+      "org_type": "rotary",
+      "city": "Morrilton",
+      "county": "Conway",
+      "verified": false
+    },
+    {
+      "id": "org-morrilton-farm-bureau",
+      "name": "Conway Farm Bureau — verify",
+      "org_type": "farm_bureau",
+      "city": "Morrilton",
+      "county": "Conway",
+      "verified": false
+    },
+    {
+      "id": "org-center-ridge-library",
+      "name": "Conway County / Center Ridge library — verify",
+      "org_type": "library",
+      "city": "Center Ridge",
+      "county": "Conway",
+      "verified": false
+    },
+    {
+      "id": "org-center-ridge-chamber",
+      "name": "Center Ridge Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Center Ridge",
+      "county": "Conway",
+      "verified": false
+    },
+    {
+      "id": "org-center-ridge-vfd",
+      "name": "Center Ridge VFD — verify",
+      "org_type": "vfd",
+      "city": "Center Ridge",
+      "county": "Conway",
+      "verified": false
+    },
+    {
+      "id": "org-center-ridge-rotary",
+      "name": "Center Ridge Rotary — verify chapter",
+      "org_type": "rotary",
+      "city": "Center Ridge",
+      "county": "Conway",
+      "verified": false
+    },
+    {
+      "id": "org-center-ridge-farm-bureau",
+      "name": "Conway Farm Bureau — verify",
+      "org_type": "farm_bureau",
+      "city": "Center Ridge",
+      "county": "Conway",
+      "verified": false
+    },
+    {
+      "id": "org-magnolia-library",
+      "name": "Columbia County / Magnolia library — verify",
+      "org_type": "library",
+      "city": "Magnolia",
+      "county": "Columbia",
+      "verified": false
+    },
+    {
+      "id": "org-magnolia-chamber",
+      "name": "Magnolia Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Magnolia",
+      "county": "Columbia",
+      "verified": false
+    },
+    {
+      "id": "org-magnolia-vfd",
+      "name": "Magnolia VFD — verify",
+      "org_type": "vfd",
+      "city": "Magnolia",
+      "county": "Columbia",
+      "verified": false
+    },
+    {
+      "id": "org-magnolia-rotary",
+      "name": "Magnolia Rotary — verify chapter",
+      "org_type": "rotary",
+      "city": "Magnolia",
+      "county": "Columbia",
+      "verified": false
+    },
+    {
+      "id": "org-magnolia-farm-bureau",
+      "name": "Columbia Farm Bureau — verify",
+      "org_type": "farm_bureau",
+      "city": "Magnolia",
+      "county": "Columbia",
+      "verified": false
+    },
+    {
+      "id": "org-mountain-home-library",
+      "name": "Baxter County / Mountain Home library — verify",
+      "org_type": "library",
+      "city": "Mountain Home",
+      "county": "Baxter",
+      "verified": false
+    },
+    {
+      "id": "org-mountain-home-chamber",
+      "name": "Mountain Home Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Mountain Home",
+      "county": "Baxter",
+      "verified": false
+    },
+    {
+      "id": "org-mountain-home-vfd",
+      "name": "Mountain Home VFD — verify",
+      "org_type": "vfd",
+      "city": "Mountain Home",
+      "county": "Baxter",
+      "verified": false
+    },
+    {
+      "id": "org-mountain-home-rotary",
+      "name": "Mountain Home Rotary — verify chapter",
+      "org_type": "rotary",
+      "city": "Mountain Home",
+      "county": "Baxter",
+      "verified": false
+    },
+    {
+      "id": "org-mountain-home-farm-bureau",
+      "name": "Baxter Farm Bureau — verify",
+      "org_type": "farm_bureau",
+      "city": "Mountain Home",
+      "county": "Baxter",
+      "verified": false
+    },
+    {
+      "id": "org-harrison-library",
+      "name": "Boone County / Harrison library — verify",
+      "org_type": "library",
+      "city": "Harrison",
+      "county": "Boone",
+      "verified": false
+    },
+    {
+      "id": "org-harrison-chamber",
+      "name": "Harrison Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Harrison",
+      "county": "Boone",
+      "verified": false
+    },
+    {
+      "id": "org-harrison-vfd",
+      "name": "Harrison VFD — verify",
+      "org_type": "vfd",
+      "city": "Harrison",
+      "county": "Boone",
+      "verified": false
+    },
+    {
+      "id": "org-harrison-rotary",
+      "name": "Harrison Rotary — verify chapter",
+      "org_type": "rotary",
+      "city": "Harrison",
+      "county": "Boone",
+      "verified": false
+    },
+    {
+      "id": "org-harrison-farm-bureau",
+      "name": "Boone Farm Bureau — verify",
+      "org_type": "farm_bureau",
+      "city": "Harrison",
+      "county": "Boone",
+      "verified": false
+    },
+    {
+      "id": "org-blytheville-library",
+      "name": "Mississippi County / Blytheville library — verify",
+      "org_type": "library",
+      "city": "Blytheville",
+      "county": "Mississippi",
+      "verified": false
+    },
+    {
+      "id": "org-blytheville-chamber",
+      "name": "Blytheville Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Blytheville",
+      "county": "Mississippi",
+      "verified": false
+    },
+    {
+      "id": "org-blytheville-vfd",
+      "name": "Blytheville VFD — verify",
+      "org_type": "vfd",
+      "city": "Blytheville",
+      "county": "Mississippi",
+      "verified": false
+    },
+    {
+      "id": "org-forrest-city-library",
+      "name": "St. Francis County / Forrest City library — verify",
+      "org_type": "library",
+      "city": "Forrest City",
+      "county": "St. Francis",
+      "verified": false
+    },
+    {
+      "id": "org-forrest-city-chamber",
+      "name": "Forrest City Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Forrest City",
+      "county": "St. Francis",
+      "verified": false
+    },
+    {
+      "id": "org-forrest-city-vfd",
+      "name": "Forrest City VFD — verify",
+      "org_type": "vfd",
+      "city": "Forrest City",
+      "county": "St. Francis",
+      "verified": false
+    },
+    {
+      "id": "org-camden-library",
+      "name": "Ouachita County / Camden library — verify",
+      "org_type": "library",
+      "city": "Camden",
+      "county": "Ouachita",
+      "verified": false
+    },
+    {
+      "id": "org-camden-chamber",
+      "name": "Camden Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Camden",
+      "county": "Ouachita",
+      "verified": false
+    },
+    {
+      "id": "org-camden-vfd",
+      "name": "Camden VFD — verify",
+      "org_type": "vfd",
+      "city": "Camden",
+      "county": "Ouachita",
+      "verified": false
+    },
+    {
+      "id": "org-arkadelphia-library",
+      "name": "Clark County / Arkadelphia library — verify",
+      "org_type": "library",
+      "city": "Arkadelphia",
+      "county": "Clark",
+      "verified": false
+    },
+    {
+      "id": "org-arkadelphia-chamber",
+      "name": "Arkadelphia Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Arkadelphia",
+      "county": "Clark",
+      "verified": false
+    },
+    {
+      "id": "org-arkadelphia-vfd",
+      "name": "Arkadelphia VFD — verify",
+      "org_type": "vfd",
+      "city": "Arkadelphia",
+      "county": "Clark",
+      "verified": false
+    },
+    {
+      "id": "org-malvern-library",
+      "name": "Hot Spring County / Malvern library — verify",
+      "org_type": "library",
+      "city": "Malvern",
+      "county": "Hot Spring",
+      "verified": false
+    },
+    {
+      "id": "org-malvern-chamber",
+      "name": "Malvern Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Malvern",
+      "county": "Hot Spring",
+      "verified": false
+    },
+    {
+      "id": "org-malvern-vfd",
+      "name": "Malvern VFD — verify",
+      "org_type": "vfd",
+      "city": "Malvern",
+      "county": "Hot Spring",
+      "verified": false
+    },
+    {
+      "id": "org-batesville-library",
+      "name": "Independence County / Batesville library — verify",
+      "org_type": "library",
+      "city": "Batesville",
+      "county": "Independence",
+      "verified": false
+    },
+    {
+      "id": "org-batesville-chamber",
+      "name": "Batesville Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Batesville",
+      "county": "Independence",
+      "verified": false
+    },
+    {
+      "id": "org-batesville-vfd",
+      "name": "Batesville VFD — verify",
+      "org_type": "vfd",
+      "city": "Batesville",
+      "county": "Independence",
+      "verified": false
+    },
+    {
+      "id": "org-helena-west-helena-library",
+      "name": "Phillips County / Helena-West Helena library — verify",
+      "org_type": "library",
+      "city": "Helena-West Helena",
+      "county": "Phillips",
+      "verified": false
+    },
+    {
+      "id": "org-helena-west-helena-chamber",
+      "name": "Helena-West Helena Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Helena-West Helena",
+      "county": "Phillips",
+      "verified": false
+    },
+    {
+      "id": "org-helena-west-helena-vfd",
+      "name": "Helena-West Helena VFD — verify",
+      "org_type": "vfd",
+      "city": "Helena-West Helena",
+      "county": "Phillips",
+      "verified": false
+    },
+    {
+      "id": "org-hope-library",
+      "name": "Hempstead County / Hope library — verify",
+      "org_type": "library",
+      "city": "Hope",
+      "county": "Hempstead",
+      "verified": false
+    },
+    {
+      "id": "org-hope-chamber",
+      "name": "Hope Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Hope",
+      "county": "Hempstead",
+      "verified": false
+    },
+    {
+      "id": "org-hope-vfd",
+      "name": "Hope VFD — verify",
+      "org_type": "vfd",
+      "city": "Hope",
+      "county": "Hempstead",
+      "verified": false
+    },
+    {
+      "id": "org-monticello-library",
+      "name": "Drew County / Monticello library — verify",
+      "org_type": "library",
+      "city": "Monticello",
+      "county": "Drew",
+      "verified": false
+    },
+    {
+      "id": "org-monticello-chamber",
+      "name": "Monticello Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Monticello",
+      "county": "Drew",
+      "verified": false
+    },
+    {
+      "id": "org-monticello-vfd",
+      "name": "Monticello VFD — verify",
+      "org_type": "vfd",
+      "city": "Monticello",
+      "county": "Drew",
+      "verified": false
+    },
+    {
+      "id": "org-stuttgart-library",
+      "name": "Arkansas County / Stuttgart library — verify",
+      "org_type": "library",
+      "city": "Stuttgart",
+      "county": "Arkansas",
+      "verified": false
+    },
+    {
+      "id": "org-stuttgart-chamber",
+      "name": "Stuttgart Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Stuttgart",
+      "county": "Arkansas",
+      "verified": false
+    },
+    {
+      "id": "org-stuttgart-vfd",
+      "name": "Stuttgart VFD — verify",
+      "org_type": "vfd",
+      "city": "Stuttgart",
+      "county": "Arkansas",
+      "verified": false
+    },
+    {
+      "id": "org-west-memphis-library",
+      "name": "Crittenden County / West Memphis library — verify",
+      "org_type": "library",
+      "city": "West Memphis",
+      "county": "Crittenden",
+      "verified": false
+    },
+    {
+      "id": "org-west-memphis-chamber",
+      "name": "West Memphis Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "West Memphis",
+      "county": "Crittenden",
+      "verified": false
+    },
+    {
+      "id": "org-west-memphis-vfd",
+      "name": "West Memphis VFD — verify",
+      "org_type": "vfd",
+      "city": "West Memphis",
+      "county": "Crittenden",
+      "verified": false
+    },
+    {
+      "id": "org-marion-library",
+      "name": "Crittenden County / Marion library — verify",
+      "org_type": "library",
+      "city": "Marion",
+      "county": "Crittenden",
+      "verified": false
+    },
+    {
+      "id": "org-marion-chamber",
+      "name": "Marion Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Marion",
+      "county": "Crittenden",
+      "verified": false
+    },
+    {
+      "id": "org-marion-vfd",
+      "name": "Marion VFD — verify",
+      "org_type": "vfd",
+      "city": "Marion",
+      "county": "Crittenden",
+      "verified": false
+    },
+    {
+      "id": "org-greenwood-library",
+      "name": "Sebastian County / Greenwood library — verify",
+      "org_type": "library",
+      "city": "Greenwood",
+      "county": "Sebastian",
+      "verified": false
+    },
+    {
+      "id": "org-greenwood-chamber",
+      "name": "Greenwood Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Greenwood",
+      "county": "Sebastian",
+      "verified": false
+    },
+    {
+      "id": "org-greenwood-vfd",
+      "name": "Greenwood VFD — verify",
+      "org_type": "vfd",
+      "city": "Greenwood",
+      "county": "Sebastian",
+      "verified": false
+    },
+    {
+      "id": "org-clarksville-library",
+      "name": "Johnson County / Clarksville library — verify",
+      "org_type": "library",
+      "city": "Clarksville",
+      "county": "Johnson",
+      "verified": false
+    },
+    {
+      "id": "org-clarksville-chamber",
+      "name": "Clarksville Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Clarksville",
+      "county": "Johnson",
+      "verified": false
+    },
+    {
+      "id": "org-clarksville-vfd",
+      "name": "Clarksville VFD — verify",
+      "org_type": "vfd",
+      "city": "Clarksville",
+      "county": "Johnson",
+      "verified": false
+    },
+    {
+      "id": "org-ozark-library",
+      "name": "Franklin County / Ozark library — verify",
+      "org_type": "library",
+      "city": "Ozark",
+      "county": "Franklin",
+      "verified": false
+    },
+    {
+      "id": "org-ozark-chamber",
+      "name": "Ozark Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Ozark",
+      "county": "Franklin",
+      "verified": false
+    },
+    {
+      "id": "org-ozark-vfd",
+      "name": "Ozark VFD — verify",
+      "org_type": "vfd",
+      "city": "Ozark",
+      "county": "Franklin",
+      "verified": false
+    },
+    {
+      "id": "org-mountain-view-library",
+      "name": "Stone County / Mountain View library — verify",
+      "org_type": "library",
+      "city": "Mountain View",
+      "county": "Stone",
+      "verified": false
+    },
+    {
+      "id": "org-mountain-view-chamber",
+      "name": "Mountain View Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Mountain View",
+      "county": "Stone",
+      "verified": false
+    },
+    {
+      "id": "org-mountain-view-vfd",
+      "name": "Mountain View VFD — verify",
+      "org_type": "vfd",
+      "city": "Mountain View",
+      "county": "Stone",
+      "verified": false
+    },
+    {
+      "id": "org-wynne-library",
+      "name": "Cross County / Wynne library — verify",
+      "org_type": "library",
+      "city": "Wynne",
+      "county": "Cross",
+      "verified": false
+    },
+    {
+      "id": "org-wynne-chamber",
+      "name": "Wynne Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Wynne",
+      "county": "Cross",
+      "verified": false
+    },
+    {
+      "id": "org-wynne-vfd",
+      "name": "Wynne VFD — verify",
+      "org_type": "vfd",
+      "city": "Wynne",
+      "county": "Cross",
+      "verified": false
+    },
+    {
+      "id": "org-heber-springs-library",
+      "name": "Cleburne County / Heber Springs library — verify",
+      "org_type": "library",
+      "city": "Heber Springs",
+      "county": "Cleburne",
+      "verified": false
+    },
+    {
+      "id": "org-heber-springs-chamber",
+      "name": "Heber Springs Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Heber Springs",
+      "county": "Cleburne",
+      "verified": false
+    },
+    {
+      "id": "org-heber-springs-vfd",
+      "name": "Heber Springs VFD — verify",
+      "org_type": "vfd",
+      "city": "Heber Springs",
+      "county": "Cleburne",
+      "verified": false
+    },
+    {
+      "id": "org-alma-library",
+      "name": "Crawford County / Alma library — verify",
+      "org_type": "library",
+      "city": "Alma",
+      "county": "Crawford",
+      "verified": false
+    },
+    {
+      "id": "org-alma-chamber",
+      "name": "Alma Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Alma",
+      "county": "Crawford",
+      "verified": false
+    },
+    {
+      "id": "org-alma-vfd",
+      "name": "Alma VFD — verify",
+      "org_type": "vfd",
+      "city": "Alma",
+      "county": "Crawford",
+      "verified": false
+    },
+    {
+      "id": "org-beebe-library",
+      "name": "White County / Beebe library — verify",
+      "org_type": "library",
+      "city": "Beebe",
+      "county": "White",
+      "verified": false
+    },
+    {
+      "id": "org-beebe-chamber",
+      "name": "Beebe Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Beebe",
+      "county": "White",
+      "verified": false
+    },
+    {
+      "id": "org-beebe-vfd",
+      "name": "Beebe VFD — verify",
+      "org_type": "vfd",
+      "city": "Beebe",
+      "county": "White",
+      "verified": false
+    },
+    {
+      "id": "org-pea-ridge-library",
+      "name": "Benton County / Pea Ridge library — verify",
+      "org_type": "library",
+      "city": "Pea Ridge",
+      "county": "Benton",
+      "verified": false
+    },
+    {
+      "id": "org-pea-ridge-chamber",
+      "name": "Pea Ridge Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Pea Ridge",
+      "county": "Benton",
+      "verified": false
+    },
+    {
+      "id": "org-pea-ridge-vfd",
+      "name": "Pea Ridge VFD — verify",
+      "org_type": "vfd",
+      "city": "Pea Ridge",
+      "county": "Benton",
+      "verified": false
+    },
+    {
+      "id": "org-farmington-library",
+      "name": "Washington County / Farmington library — verify",
+      "org_type": "library",
+      "city": "Farmington",
+      "county": "Washington",
+      "verified": false
+    },
+    {
+      "id": "org-farmington-chamber",
+      "name": "Farmington Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Farmington",
+      "county": "Washington",
+      "verified": false
+    },
+    {
+      "id": "org-farmington-vfd",
+      "name": "Farmington VFD — verify",
+      "org_type": "vfd",
+      "city": "Farmington",
+      "county": "Washington",
+      "verified": false
+    },
+    {
+      "id": "org-prairie-grove-library",
+      "name": "Washington County / Prairie Grove library — verify",
+      "org_type": "library",
+      "city": "Prairie Grove",
+      "county": "Washington",
+      "verified": false
+    },
+    {
+      "id": "org-prairie-grove-chamber",
+      "name": "Prairie Grove Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Prairie Grove",
+      "county": "Washington",
+      "verified": false
+    },
+    {
+      "id": "org-prairie-grove-vfd",
+      "name": "Prairie Grove VFD — verify",
+      "org_type": "vfd",
+      "city": "Prairie Grove",
+      "county": "Washington",
+      "verified": false
+    },
+    {
+      "id": "org-lowell-library",
+      "name": "Benton County / Lowell library — verify",
+      "org_type": "library",
+      "city": "Lowell",
+      "county": "Benton",
+      "verified": false
+    },
+    {
+      "id": "org-lowell-chamber",
+      "name": "Lowell Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Lowell",
+      "county": "Benton",
+      "verified": false
+    },
+    {
+      "id": "org-lowell-vfd",
+      "name": "Lowell VFD — verify",
+      "org_type": "vfd",
+      "city": "Lowell",
+      "county": "Benton",
+      "verified": false
+    },
+    {
+      "id": "org-centerton-library",
+      "name": "Benton County / Centerton library — verify",
+      "org_type": "library",
+      "city": "Centerton",
+      "county": "Benton",
+      "verified": false
+    },
+    {
+      "id": "org-centerton-chamber",
+      "name": "Centerton Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Centerton",
+      "county": "Benton",
+      "verified": false
+    },
+    {
+      "id": "org-centerton-vfd",
+      "name": "Centerton VFD — verify",
+      "org_type": "vfd",
+      "city": "Centerton",
+      "county": "Benton",
+      "verified": false
+    },
+    {
+      "id": "org-gravette-library",
+      "name": "Benton County / Gravette library — verify",
+      "org_type": "library",
+      "city": "Gravette",
+      "county": "Benton",
+      "verified": false
+    },
+    {
+      "id": "org-gravette-chamber",
+      "name": "Gravette Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Gravette",
+      "county": "Benton",
+      "verified": false
+    },
+    {
+      "id": "org-gravette-vfd",
+      "name": "Gravette VFD — verify",
+      "org_type": "vfd",
+      "city": "Gravette",
+      "county": "Benton",
+      "verified": false
+    },
+    {
+      "id": "org-gentry-library",
+      "name": "Benton County / Gentry library — verify",
+      "org_type": "library",
+      "city": "Gentry",
+      "county": "Benton",
+      "verified": false
+    },
+    {
+      "id": "org-gentry-chamber",
+      "name": "Gentry Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Gentry",
+      "county": "Benton",
+      "verified": false
+    },
+    {
+      "id": "org-gentry-vfd",
+      "name": "Gentry VFD — verify",
+      "org_type": "vfd",
+      "city": "Gentry",
+      "county": "Benton",
+      "verified": false
+    },
+    {
+      "id": "org-berryville-library",
+      "name": "Carroll County / Berryville library — verify",
+      "org_type": "library",
+      "city": "Berryville",
+      "county": "Carroll",
+      "verified": false
+    },
+    {
+      "id": "org-berryville-chamber",
+      "name": "Berryville Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Berryville",
+      "county": "Carroll",
+      "verified": false
+    },
+    {
+      "id": "org-berryville-vfd",
+      "name": "Berryville VFD — verify",
+      "org_type": "vfd",
+      "city": "Berryville",
+      "county": "Carroll",
+      "verified": false
+    },
+    {
+      "id": "org-eureka-springs-library",
+      "name": "Carroll County / Eureka Springs library — verify",
+      "org_type": "library",
+      "city": "Eureka Springs",
+      "county": "Carroll",
+      "verified": false
+    },
+    {
+      "id": "org-eureka-springs-chamber",
+      "name": "Eureka Springs Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Eureka Springs",
+      "county": "Carroll",
+      "verified": false
+    },
+    {
+      "id": "org-eureka-springs-vfd",
+      "name": "Eureka Springs VFD — verify",
+      "org_type": "vfd",
+      "city": "Eureka Springs",
+      "county": "Carroll",
+      "verified": false
+    },
+    {
+      "id": "org-clinton-library",
+      "name": "Van Buren County / Clinton library — verify",
+      "org_type": "library",
+      "city": "Clinton",
+      "county": "Van Buren",
+      "verified": false
+    },
+    {
+      "id": "org-clinton-chamber",
+      "name": "Clinton Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Clinton",
+      "county": "Van Buren",
+      "verified": false
+    },
+    {
+      "id": "org-clinton-vfd",
+      "name": "Clinton VFD — verify",
+      "org_type": "vfd",
+      "city": "Clinton",
+      "county": "Van Buren",
+      "verified": false
+    },
+    {
+      "id": "org-mena-library",
+      "name": "Polk County / Mena library — verify",
+      "org_type": "library",
+      "city": "Mena",
+      "county": "Polk",
+      "verified": false
+    },
+    {
+      "id": "org-mena-chamber",
+      "name": "Mena Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Mena",
+      "county": "Polk",
+      "verified": false
+    },
+    {
+      "id": "org-mena-vfd",
+      "name": "Mena VFD — verify",
+      "org_type": "vfd",
+      "city": "Mena",
+      "county": "Polk",
+      "verified": false
+    },
+    {
+      "id": "org-de-queen-library",
+      "name": "Sevier County / De Queen library — verify",
+      "org_type": "library",
+      "city": "De Queen",
+      "county": "Sevier",
+      "verified": false
+    },
+    {
+      "id": "org-de-queen-chamber",
+      "name": "De Queen Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "De Queen",
+      "county": "Sevier",
+      "verified": false
+    },
+    {
+      "id": "org-de-queen-vfd",
+      "name": "De Queen VFD — verify",
+      "org_type": "vfd",
+      "city": "De Queen",
+      "county": "Sevier",
+      "verified": false
+    },
+    {
+      "id": "org-ashdown-library",
+      "name": "Little River County / Ashdown library — verify",
+      "org_type": "library",
+      "city": "Ashdown",
+      "county": "Little River",
+      "verified": false
+    },
+    {
+      "id": "org-ashdown-chamber",
+      "name": "Ashdown Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Ashdown",
+      "county": "Little River",
+      "verified": false
+    },
+    {
+      "id": "org-ashdown-vfd",
+      "name": "Ashdown VFD — verify",
+      "org_type": "vfd",
+      "city": "Ashdown",
+      "county": "Little River",
+      "verified": false
+    },
+    {
+      "id": "org-nashville-library",
+      "name": "Howard County / Nashville library — verify",
+      "org_type": "library",
+      "city": "Nashville",
+      "county": "Howard",
+      "verified": false
+    },
+    {
+      "id": "org-nashville-chamber",
+      "name": "Nashville Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Nashville",
+      "county": "Howard",
+      "verified": false
+    },
+    {
+      "id": "org-nashville-vfd",
+      "name": "Nashville VFD — verify",
+      "org_type": "vfd",
+      "city": "Nashville",
+      "county": "Howard",
+      "verified": false
+    },
+    {
+      "id": "org-dumas-library",
+      "name": "Desha County / Dumas library — verify",
+      "org_type": "library",
+      "city": "Dumas",
+      "county": "Desha",
+      "verified": false
+    },
+    {
+      "id": "org-dumas-chamber",
+      "name": "Dumas Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Dumas",
+      "county": "Desha",
+      "verified": false
+    },
+    {
+      "id": "org-dumas-vfd",
+      "name": "Dumas VFD — verify",
+      "org_type": "vfd",
+      "city": "Dumas",
+      "county": "Desha",
+      "verified": false
+    },
+    {
+      "id": "org-mcgehee-library",
+      "name": "Desha County / McGehee library — verify",
+      "org_type": "library",
+      "city": "McGehee",
+      "county": "Desha",
+      "verified": false
+    },
+    {
+      "id": "org-mcgehee-chamber",
+      "name": "McGehee Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "McGehee",
+      "county": "Desha",
+      "verified": false
+    },
+    {
+      "id": "org-mcgehee-vfd",
+      "name": "McGehee VFD — verify",
+      "org_type": "vfd",
+      "city": "McGehee",
+      "county": "Desha",
+      "verified": false
+    },
+    {
+      "id": "org-warren-library",
+      "name": "Bradley County / Warren library — verify",
+      "org_type": "library",
+      "city": "Warren",
+      "county": "Bradley",
+      "verified": false
+    },
+    {
+      "id": "org-warren-chamber",
+      "name": "Warren Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Warren",
+      "county": "Bradley",
+      "verified": false
+    },
+    {
+      "id": "org-warren-vfd",
+      "name": "Warren VFD — verify",
+      "org_type": "vfd",
+      "city": "Warren",
+      "county": "Bradley",
+      "verified": false
+    },
+    {
+      "id": "org-crossett-library",
+      "name": "Ashley County / Crossett library — verify",
+      "org_type": "library",
+      "city": "Crossett",
+      "county": "Ashley",
+      "verified": false
+    },
+    {
+      "id": "org-crossett-chamber",
+      "name": "Crossett Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Crossett",
+      "county": "Ashley",
+      "verified": false
+    },
+    {
+      "id": "org-crossett-vfd",
+      "name": "Crossett VFD — verify",
+      "org_type": "vfd",
+      "city": "Crossett",
+      "county": "Ashley",
+      "verified": false
+    },
+    {
+      "id": "org-trumann-library",
+      "name": "Poinsett County / Trumann library — verify",
+      "org_type": "library",
+      "city": "Trumann",
+      "county": "Poinsett",
+      "verified": false
+    },
+    {
+      "id": "org-trumann-chamber",
+      "name": "Trumann Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Trumann",
+      "county": "Poinsett",
+      "verified": false
+    },
+    {
+      "id": "org-trumann-vfd",
+      "name": "Trumann VFD — verify",
+      "org_type": "vfd",
+      "city": "Trumann",
+      "county": "Poinsett",
+      "verified": false
+    },
+    {
+      "id": "org-osceola-library",
+      "name": "Mississippi County / Osceola library — verify",
+      "org_type": "library",
+      "city": "Osceola",
+      "county": "Mississippi",
+      "verified": false
+    },
+    {
+      "id": "org-osceola-chamber",
+      "name": "Osceola Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Osceola",
+      "county": "Mississippi",
+      "verified": false
+    },
+    {
+      "id": "org-osceola-vfd",
+      "name": "Osceola VFD — verify",
+      "org_type": "vfd",
+      "city": "Osceola",
+      "county": "Mississippi",
+      "verified": false
+    },
+    {
+      "id": "org-earle-library",
+      "name": "Crittenden County / Earle library — verify",
+      "org_type": "library",
+      "city": "Earle",
+      "county": "Crittenden",
+      "verified": false
+    },
+    {
+      "id": "org-earle-chamber",
+      "name": "Earle Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Earle",
+      "county": "Crittenden",
+      "verified": false
+    },
+    {
+      "id": "org-earle-vfd",
+      "name": "Earle VFD — verify",
+      "org_type": "vfd",
+      "city": "Earle",
+      "county": "Crittenden",
+      "verified": false
+    },
+    {
+      "id": "org-marked-tree-library",
+      "name": "Poinsett County / Marked Tree library — verify",
+      "org_type": "library",
+      "city": "Marked Tree",
+      "county": "Poinsett",
+      "verified": false
+    },
+    {
+      "id": "org-marked-tree-chamber",
+      "name": "Marked Tree Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Marked Tree",
+      "county": "Poinsett",
+      "verified": false
+    },
+    {
+      "id": "org-marked-tree-vfd",
+      "name": "Marked Tree VFD — verify",
+      "org_type": "vfd",
+      "city": "Marked Tree",
+      "county": "Poinsett",
+      "verified": false
+    },
+    {
+      "id": "org-walnut-ridge-library",
+      "name": "Lawrence County / Walnut Ridge library — verify",
+      "org_type": "library",
+      "city": "Walnut Ridge",
+      "county": "Lawrence",
+      "verified": false
+    },
+    {
+      "id": "org-walnut-ridge-chamber",
+      "name": "Walnut Ridge Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Walnut Ridge",
+      "county": "Lawrence",
+      "verified": false
+    },
+    {
+      "id": "org-walnut-ridge-vfd",
+      "name": "Walnut Ridge VFD — verify",
+      "org_type": "vfd",
+      "city": "Walnut Ridge",
+      "county": "Lawrence",
+      "verified": false
+    },
+    {
+      "id": "org-corning-library",
+      "name": "Clay County / Corning library — verify",
+      "org_type": "library",
+      "city": "Corning",
+      "county": "Clay",
+      "verified": false
+    },
+    {
+      "id": "org-corning-chamber",
+      "name": "Corning Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Corning",
+      "county": "Clay",
+      "verified": false
+    },
+    {
+      "id": "org-corning-vfd",
+      "name": "Corning VFD — verify",
+      "org_type": "vfd",
+      "city": "Corning",
+      "county": "Clay",
+      "verified": false
+    },
+    {
+      "id": "org-piggott-library",
+      "name": "Clay County / Piggott library — verify",
+      "org_type": "library",
+      "city": "Piggott",
+      "county": "Clay",
+      "verified": false
+    },
+    {
+      "id": "org-piggott-chamber",
+      "name": "Piggott Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Piggott",
+      "county": "Clay",
+      "verified": false
+    },
+    {
+      "id": "org-piggott-vfd",
+      "name": "Piggott VFD — verify",
+      "org_type": "vfd",
+      "city": "Piggott",
+      "county": "Clay",
+      "verified": false
+    },
+    {
+      "id": "org-rector-library",
+      "name": "Clay County / Rector library — verify",
+      "org_type": "library",
+      "city": "Rector",
+      "county": "Clay",
+      "verified": false
+    },
+    {
+      "id": "org-rector-chamber",
+      "name": "Rector Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Rector",
+      "county": "Clay",
+      "verified": false
+    },
+    {
+      "id": "org-rector-vfd",
+      "name": "Rector VFD — verify",
+      "org_type": "vfd",
+      "city": "Rector",
+      "county": "Clay",
+      "verified": false
+    },
+    {
+      "id": "org-hardy-library",
+      "name": "Sharp County / Hardy library — verify",
+      "org_type": "library",
+      "city": "Hardy",
+      "county": "Sharp",
+      "verified": false
+    },
+    {
+      "id": "org-hardy-chamber",
+      "name": "Hardy Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Hardy",
+      "county": "Sharp",
+      "verified": false
+    },
+    {
+      "id": "org-hardy-vfd",
+      "name": "Hardy VFD — verify",
+      "org_type": "vfd",
+      "city": "Hardy",
+      "county": "Sharp",
+      "verified": false
+    },
+    {
+      "id": "org-cherokee-village-library",
+      "name": "Sharp County / Cherokee Village library — verify",
+      "org_type": "library",
+      "city": "Cherokee Village",
+      "county": "Sharp",
+      "verified": false
+    },
+    {
+      "id": "org-cherokee-village-chamber",
+      "name": "Cherokee Village Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Cherokee Village",
+      "county": "Sharp",
+      "verified": false
+    },
+    {
+      "id": "org-cherokee-village-vfd",
+      "name": "Cherokee Village VFD — verify",
+      "org_type": "vfd",
+      "city": "Cherokee Village",
+      "county": "Sharp",
+      "verified": false
+    },
+    {
+      "id": "org-horseshoe-bend-library",
+      "name": "Izard County / Horseshoe Bend library — verify",
+      "org_type": "library",
+      "city": "Horseshoe Bend",
+      "county": "Izard",
+      "verified": false
+    },
+    {
+      "id": "org-horseshoe-bend-chamber",
+      "name": "Horseshoe Bend Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Horseshoe Bend",
+      "county": "Izard",
+      "verified": false
+    },
+    {
+      "id": "org-horseshoe-bend-vfd",
+      "name": "Horseshoe Bend VFD — verify",
+      "org_type": "vfd",
+      "city": "Horseshoe Bend",
+      "county": "Izard",
+      "verified": false
+    },
+    {
+      "id": "org-fairfield-bay-library",
+      "name": "Van Buren County / Fairfield Bay library — verify",
+      "org_type": "library",
+      "city": "Fairfield Bay",
+      "county": "Van Buren",
+      "verified": false
+    },
+    {
+      "id": "org-fairfield-bay-chamber",
+      "name": "Fairfield Bay Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Fairfield Bay",
+      "county": "Van Buren",
+      "verified": false
+    },
+    {
+      "id": "org-fairfield-bay-vfd",
+      "name": "Fairfield Bay VFD — verify",
+      "org_type": "vfd",
+      "city": "Fairfield Bay",
+      "county": "Van Buren",
+      "verified": false
+    },
+    {
+      "id": "org-greers-ferry-library",
+      "name": "Cleburne County / Greers Ferry library — verify",
+      "org_type": "library",
+      "city": "Greers Ferry",
+      "county": "Cleburne",
+      "verified": false
+    },
+    {
+      "id": "org-greers-ferry-chamber",
+      "name": "Greers Ferry Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Greers Ferry",
+      "county": "Cleburne",
+      "verified": false
+    },
+    {
+      "id": "org-greers-ferry-vfd",
+      "name": "Greers Ferry VFD — verify",
+      "org_type": "vfd",
+      "city": "Greers Ferry",
+      "county": "Cleburne",
+      "verified": false
+    },
+    {
+      "id": "org-quitman-library",
+      "name": "Cleburne County / Quitman library — verify",
+      "org_type": "library",
+      "city": "Quitman",
+      "county": "Cleburne",
+      "verified": false
+    },
+    {
+      "id": "org-quitman-chamber",
+      "name": "Quitman Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Quitman",
+      "county": "Cleburne",
+      "verified": false
+    },
+    {
+      "id": "org-quitman-vfd",
+      "name": "Quitman VFD — verify",
+      "org_type": "vfd",
+      "city": "Quitman",
+      "county": "Cleburne",
+      "verified": false
+    },
+    {
+      "id": "org-rose-bud-library",
+      "name": "White County / Rose Bud library — verify",
+      "org_type": "library",
+      "city": "Rose Bud",
+      "county": "White",
+      "verified": false
+    },
+    {
+      "id": "org-rose-bud-chamber",
+      "name": "Rose Bud Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Rose Bud",
+      "county": "White",
+      "verified": false
+    },
+    {
+      "id": "org-rose-bud-vfd",
+      "name": "Rose Bud VFD — verify",
+      "org_type": "vfd",
+      "city": "Rose Bud",
+      "county": "White",
+      "verified": false
+    },
+    {
+      "id": "org-vilonia-library",
+      "name": "Faulkner County / Vilonia library — verify",
+      "org_type": "library",
+      "city": "Vilonia",
+      "county": "Faulkner",
+      "verified": false
+    },
+    {
+      "id": "org-vilonia-chamber",
+      "name": "Vilonia Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Vilonia",
+      "county": "Faulkner",
+      "verified": false
+    },
+    {
+      "id": "org-vilonia-vfd",
+      "name": "Vilonia VFD — verify",
+      "org_type": "vfd",
+      "city": "Vilonia",
+      "county": "Faulkner",
+      "verified": false
+    },
+    {
+      "id": "org-england-library",
+      "name": "Lonoke County / England library — verify",
+      "org_type": "library",
+      "city": "England",
+      "county": "Lonoke",
+      "verified": false
+    },
+    {
+      "id": "org-england-chamber",
+      "name": "England Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "England",
+      "county": "Lonoke",
+      "verified": false
+    },
+    {
+      "id": "org-england-vfd",
+      "name": "England VFD — verify",
+      "org_type": "vfd",
+      "city": "England",
+      "county": "Lonoke",
+      "verified": false
+    },
+    {
+      "id": "org-scott-library",
+      "name": "Pulaski County / Scott library — verify",
+      "org_type": "library",
+      "city": "Scott",
+      "county": "Pulaski",
+      "verified": false
+    },
+    {
+      "id": "org-scott-chamber",
+      "name": "Scott Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Scott",
+      "county": "Pulaski",
+      "verified": false
+    },
+    {
+      "id": "org-scott-vfd",
+      "name": "Scott VFD — verify",
+      "org_type": "vfd",
+      "city": "Scott",
+      "county": "Pulaski",
+      "verified": false
+    },
+    {
+      "id": "org-hazen-library",
+      "name": "Prairie County / Hazen library — verify",
+      "org_type": "library",
+      "city": "Hazen",
+      "county": "Prairie",
+      "verified": false
+    },
+    {
+      "id": "org-hazen-chamber",
+      "name": "Hazen Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Hazen",
+      "county": "Prairie",
+      "verified": false
+    },
+    {
+      "id": "org-hazen-vfd",
+      "name": "Hazen VFD — verify",
+      "org_type": "vfd",
+      "city": "Hazen",
+      "county": "Prairie",
+      "verified": false
+    },
+    {
+      "id": "org-des-arc-library",
+      "name": "Prairie County / Des Arc library — verify",
+      "org_type": "library",
+      "city": "Des Arc",
+      "county": "Prairie",
+      "verified": false
+    },
+    {
+      "id": "org-des-arc-chamber",
+      "name": "Des Arc Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Des Arc",
+      "county": "Prairie",
+      "verified": false
+    },
+    {
+      "id": "org-des-arc-vfd",
+      "name": "Des Arc VFD — verify",
+      "org_type": "vfd",
+      "city": "Des Arc",
+      "county": "Prairie",
+      "verified": false
+    },
+    {
+      "id": "org-devalls-bluff-library",
+      "name": "Prairie County / DeValls Bluff library — verify",
+      "org_type": "library",
+      "city": "DeValls Bluff",
+      "county": "Prairie",
+      "verified": false
+    },
+    {
+      "id": "org-devalls-bluff-chamber",
+      "name": "DeValls Bluff Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "DeValls Bluff",
+      "county": "Prairie",
+      "verified": false
+    },
+    {
+      "id": "org-devalls-bluff-vfd",
+      "name": "DeValls Bluff VFD — verify",
+      "org_type": "vfd",
+      "city": "DeValls Bluff",
+      "county": "Prairie",
+      "verified": false
+    },
+    {
+      "id": "org-augusta-library",
+      "name": "Woodruff County / Augusta library — verify",
+      "org_type": "library",
+      "city": "Augusta",
+      "county": "Woodruff",
+      "verified": false
+    },
+    {
+      "id": "org-augusta-chamber",
+      "name": "Augusta Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Augusta",
+      "county": "Woodruff",
+      "verified": false
+    },
+    {
+      "id": "org-augusta-vfd",
+      "name": "Augusta VFD — verify",
+      "org_type": "vfd",
+      "city": "Augusta",
+      "county": "Woodruff",
+      "verified": false
+    },
+    {
+      "id": "org-newport-library",
+      "name": "Jackson County / Newport library — verify",
+      "org_type": "library",
+      "city": "Newport",
+      "county": "Jackson",
+      "verified": false
+    },
+    {
+      "id": "org-newport-chamber",
+      "name": "Newport Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Newport",
+      "county": "Jackson",
+      "verified": false
+    },
+    {
+      "id": "org-newport-vfd",
+      "name": "Newport VFD — verify",
+      "org_type": "vfd",
+      "city": "Newport",
+      "county": "Jackson",
+      "verified": false
+    },
+    {
+      "id": "org-carlisle-library",
+      "name": "Lonoke County / Carlisle library — verify",
+      "org_type": "library",
+      "city": "Carlisle",
+      "county": "Lonoke",
+      "verified": false
+    },
+    {
+      "id": "org-carlisle-chamber",
+      "name": "Carlisle Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Carlisle",
+      "county": "Lonoke",
+      "verified": false
+    },
+    {
+      "id": "org-carlisle-vfd",
+      "name": "Carlisle VFD — verify",
+      "org_type": "vfd",
+      "city": "Carlisle",
+      "county": "Lonoke",
+      "verified": false
+    },
+    {
+      "id": "org-dermott-library",
+      "name": "Chicot County / Dermott library — verify",
+      "org_type": "library",
+      "city": "Dermott",
+      "county": "Chicot",
+      "verified": false
+    },
+    {
+      "id": "org-dermott-chamber",
+      "name": "Dermott Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Dermott",
+      "county": "Chicot",
+      "verified": false
+    },
+    {
+      "id": "org-dermott-vfd",
+      "name": "Dermott VFD — verify",
+      "org_type": "vfd",
+      "city": "Dermott",
+      "county": "Chicot",
+      "verified": false
+    },
+    {
+      "id": "org-lake-village-library",
+      "name": "Chicot County / Lake Village library — verify",
+      "org_type": "library",
+      "city": "Lake Village",
+      "county": "Chicot",
+      "verified": false
+    },
+    {
+      "id": "org-lake-village-chamber",
+      "name": "Lake Village Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Lake Village",
+      "county": "Chicot",
+      "verified": false
+    },
+    {
+      "id": "org-lake-village-vfd",
+      "name": "Lake Village VFD — verify",
+      "org_type": "vfd",
+      "city": "Lake Village",
+      "county": "Chicot",
+      "verified": false
+    },
+    {
+      "id": "org-eudora-library",
+      "name": "Chicot County / Eudora library — verify",
+      "org_type": "library",
+      "city": "Eudora",
+      "county": "Chicot",
+      "verified": false
+    },
+    {
+      "id": "org-eudora-chamber",
+      "name": "Eudora Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Eudora",
+      "county": "Chicot",
+      "verified": false
+    },
+    {
+      "id": "org-eudora-vfd",
+      "name": "Eudora VFD — verify",
+      "org_type": "vfd",
+      "city": "Eudora",
+      "county": "Chicot",
+      "verified": false
+    },
+    {
+      "id": "org-hamburg-library",
+      "name": "Ashley County / Hamburg library — verify",
+      "org_type": "library",
+      "city": "Hamburg",
+      "county": "Ashley",
+      "verified": false
+    },
+    {
+      "id": "org-hamburg-chamber",
+      "name": "Hamburg Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Hamburg",
+      "county": "Ashley",
+      "verified": false
+    },
+    {
+      "id": "org-hamburg-vfd",
+      "name": "Hamburg VFD — verify",
+      "org_type": "vfd",
+      "city": "Hamburg",
+      "county": "Ashley",
+      "verified": false
+    },
+    {
+      "id": "org-hermitage-library",
+      "name": "Bradley County / Hermitage library — verify",
+      "org_type": "library",
+      "city": "Hermitage",
+      "county": "Bradley",
+      "verified": false
+    },
+    {
+      "id": "org-hermitage-chamber",
+      "name": "Hermitage Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Hermitage",
+      "county": "Bradley",
+      "verified": false
+    },
+    {
+      "id": "org-hermitage-vfd",
+      "name": "Hermitage VFD — verify",
+      "org_type": "vfd",
+      "city": "Hermitage",
+      "county": "Bradley",
+      "verified": false
+    },
+    {
+      "id": "org-fordyce-library",
+      "name": "Dallas County / Fordyce library — verify",
+      "org_type": "library",
+      "city": "Fordyce",
+      "county": "Dallas",
+      "verified": false
+    },
+    {
+      "id": "org-fordyce-chamber",
+      "name": "Fordyce Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Fordyce",
+      "county": "Dallas",
+      "verified": false
+    },
+    {
+      "id": "org-fordyce-vfd",
+      "name": "Fordyce VFD — verify",
+      "org_type": "vfd",
+      "city": "Fordyce",
+      "county": "Dallas",
+      "verified": false
+    },
+    {
+      "id": "org-sparkman-library",
+      "name": "Dallas County / Sparkman library — verify",
+      "org_type": "library",
+      "city": "Sparkman",
+      "county": "Dallas",
+      "verified": false
+    },
+    {
+      "id": "org-sparkman-chamber",
+      "name": "Sparkman Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Sparkman",
+      "county": "Dallas",
+      "verified": false
+    },
+    {
+      "id": "org-sparkman-vfd",
+      "name": "Sparkman VFD — verify",
+      "org_type": "vfd",
+      "city": "Sparkman",
+      "county": "Dallas",
+      "verified": false
+    },
+    {
+      "id": "org-prescott-library",
+      "name": "Nevada County / Prescott library — verify",
+      "org_type": "library",
+      "city": "Prescott",
+      "county": "Nevada",
+      "verified": false
+    },
+    {
+      "id": "org-prescott-chamber",
+      "name": "Prescott Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Prescott",
+      "county": "Nevada",
+      "verified": false
+    },
+    {
+      "id": "org-prescott-vfd",
+      "name": "Prescott VFD — verify",
+      "org_type": "vfd",
+      "city": "Prescott",
+      "county": "Nevada",
+      "verified": false
+    },
+    {
+      "id": "org-gurdon-library",
+      "name": "Clark County / Gurdon library — verify",
+      "org_type": "library",
+      "city": "Gurdon",
+      "county": "Clark",
+      "verified": false
+    },
+    {
+      "id": "org-gurdon-chamber",
+      "name": "Gurdon Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Gurdon",
+      "county": "Clark",
+      "verified": false
+    },
+    {
+      "id": "org-gurdon-vfd",
+      "name": "Gurdon VFD — verify",
+      "org_type": "vfd",
+      "city": "Gurdon",
+      "county": "Clark",
+      "verified": false
+    },
+    {
+      "id": "org-glenwood-library",
+      "name": "Pike County / Glenwood library — verify",
+      "org_type": "library",
+      "city": "Glenwood",
+      "county": "Pike",
+      "verified": false
+    },
+    {
+      "id": "org-glenwood-chamber",
+      "name": "Glenwood Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Glenwood",
+      "county": "Pike",
+      "verified": false
+    },
+    {
+      "id": "org-glenwood-vfd",
+      "name": "Glenwood VFD — verify",
+      "org_type": "vfd",
+      "city": "Glenwood",
+      "county": "Pike",
+      "verified": false
+    },
+    {
+      "id": "org-smackover-library",
+      "name": "Union County / Smackover library — verify",
+      "org_type": "library",
+      "city": "Smackover",
+      "county": "Union",
+      "verified": false
+    },
+    {
+      "id": "org-smackover-chamber",
+      "name": "Smackover Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Smackover",
+      "county": "Union",
+      "verified": false
+    },
+    {
+      "id": "org-smackover-vfd",
+      "name": "Smackover VFD — verify",
+      "org_type": "vfd",
+      "city": "Smackover",
+      "county": "Union",
+      "verified": false
+    },
+    {
+      "id": "org-strong-library",
+      "name": "Union County / Strong library — verify",
+      "org_type": "library",
+      "city": "Strong",
+      "county": "Union",
+      "verified": false
+    },
+    {
+      "id": "org-strong-chamber",
+      "name": "Strong Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Strong",
+      "county": "Union",
+      "verified": false
+    },
+    {
+      "id": "org-strong-vfd",
+      "name": "Strong VFD — verify",
+      "org_type": "vfd",
+      "city": "Strong",
+      "county": "Union",
+      "verified": false
+    },
+    {
+      "id": "org-calico-rock-library",
+      "name": "Izard County / Calico Rock library — verify",
+      "org_type": "library",
+      "city": "Calico Rock",
+      "county": "Izard",
+      "verified": false
+    },
+    {
+      "id": "org-calico-rock-chamber",
+      "name": "Calico Rock Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Calico Rock",
+      "county": "Izard",
+      "verified": false
+    },
+    {
+      "id": "org-calico-rock-vfd",
+      "name": "Calico Rock VFD — verify",
+      "org_type": "vfd",
+      "city": "Calico Rock",
+      "county": "Izard",
+      "verified": false
+    },
+    {
+      "id": "org-melbourne-library",
+      "name": "Izard County / Melbourne library — verify",
+      "org_type": "library",
+      "city": "Melbourne",
+      "county": "Izard",
+      "verified": false
+    },
+    {
+      "id": "org-melbourne-chamber",
+      "name": "Melbourne Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Melbourne",
+      "county": "Izard",
+      "verified": false
+    },
+    {
+      "id": "org-melbourne-vfd",
+      "name": "Melbourne VFD — verify",
+      "org_type": "vfd",
+      "city": "Melbourne",
+      "county": "Izard",
+      "verified": false
+    },
+    {
+      "id": "org-ash-flat-library",
+      "name": "Sharp County / Ash Flat library — verify",
+      "org_type": "library",
+      "city": "Ash Flat",
+      "county": "Sharp",
+      "verified": false
+    },
+    {
+      "id": "org-ash-flat-chamber",
+      "name": "Ash Flat Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Ash Flat",
+      "county": "Sharp",
+      "verified": false
+    },
+    {
+      "id": "org-ash-flat-vfd",
+      "name": "Ash Flat VFD — verify",
+      "org_type": "vfd",
+      "city": "Ash Flat",
+      "county": "Sharp",
+      "verified": false
+    },
+    {
+      "id": "org-salem-library",
+      "name": "Fulton County / Salem library — verify",
+      "org_type": "library",
+      "city": "Salem",
+      "county": "Fulton",
+      "verified": false
+    },
+    {
+      "id": "org-salem-chamber",
+      "name": "Salem Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Salem",
+      "county": "Fulton",
+      "verified": false
+    },
+    {
+      "id": "org-salem-vfd",
+      "name": "Salem VFD — verify",
+      "org_type": "vfd",
+      "city": "Salem",
+      "county": "Fulton",
+      "verified": false
+    },
+    {
+      "id": "org-viola-library",
+      "name": "Fulton County / Viola library — verify",
+      "org_type": "library",
+      "city": "Viola",
+      "county": "Fulton",
+      "verified": false
+    },
+    {
+      "id": "org-viola-chamber",
+      "name": "Viola Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Viola",
+      "county": "Fulton",
+      "verified": false
+    },
+    {
+      "id": "org-viola-vfd",
+      "name": "Viola VFD — verify",
+      "org_type": "vfd",
+      "city": "Viola",
+      "county": "Fulton",
+      "verified": false
+    },
+    {
+      "id": "org-yellville-library",
+      "name": "Marion County / Yellville library — verify",
+      "org_type": "library",
+      "city": "Yellville",
+      "county": "Marion",
+      "verified": false
+    },
+    {
+      "id": "org-yellville-chamber",
+      "name": "Yellville Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Yellville",
+      "county": "Marion",
+      "verified": false
+    },
+    {
+      "id": "org-yellville-vfd",
+      "name": "Yellville VFD — verify",
+      "org_type": "vfd",
+      "city": "Yellville",
+      "county": "Marion",
+      "verified": false
+    },
+    {
+      "id": "org-flippin-library",
+      "name": "Marion County / Flippin library — verify",
+      "org_type": "library",
+      "city": "Flippin",
+      "county": "Marion",
+      "verified": false
+    },
+    {
+      "id": "org-flippin-chamber",
+      "name": "Flippin Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Flippin",
+      "county": "Marion",
+      "verified": false
+    },
+    {
+      "id": "org-flippin-vfd",
+      "name": "Flippin VFD — verify",
+      "org_type": "vfd",
+      "city": "Flippin",
+      "county": "Marion",
+      "verified": false
+    },
+    {
+      "id": "org-bull-shoals-library",
+      "name": "Marion County / Bull Shoals library — verify",
+      "org_type": "library",
+      "city": "Bull Shoals",
+      "county": "Marion",
+      "verified": false
+    },
+    {
+      "id": "org-bull-shoals-chamber",
+      "name": "Bull Shoals Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Bull Shoals",
+      "county": "Marion",
+      "verified": false
+    },
+    {
+      "id": "org-bull-shoals-vfd",
+      "name": "Bull Shoals VFD — verify",
+      "org_type": "vfd",
+      "city": "Bull Shoals",
+      "county": "Marion",
+      "verified": false
+    },
+    {
+      "id": "org-lead-hill-library",
+      "name": "Boone County / Lead Hill library — verify",
+      "org_type": "library",
+      "city": "Lead Hill",
+      "county": "Boone",
+      "verified": false
+    },
+    {
+      "id": "org-lead-hill-chamber",
+      "name": "Lead Hill Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Lead Hill",
+      "county": "Boone",
+      "verified": false
+    },
+    {
+      "id": "org-lead-hill-vfd",
+      "name": "Lead Hill VFD — verify",
+      "org_type": "vfd",
+      "city": "Lead Hill",
+      "county": "Boone",
+      "verified": false
+    },
+    {
+      "id": "org-green-forest-library",
+      "name": "Carroll County / Green Forest library — verify",
+      "org_type": "library",
+      "city": "Green Forest",
+      "county": "Carroll",
+      "verified": false
+    },
+    {
+      "id": "org-green-forest-chamber",
+      "name": "Green Forest Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Green Forest",
+      "county": "Carroll",
+      "verified": false
+    },
+    {
+      "id": "org-green-forest-vfd",
+      "name": "Green Forest VFD — verify",
+      "org_type": "vfd",
+      "city": "Green Forest",
+      "county": "Carroll",
+      "verified": false
+    },
+    {
+      "id": "org-alpena-library",
+      "name": "Boone County / Alpena library — verify",
+      "org_type": "library",
+      "city": "Alpena",
+      "county": "Boone",
+      "verified": false
+    },
+    {
+      "id": "org-alpena-chamber",
+      "name": "Alpena Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Alpena",
+      "county": "Boone",
+      "verified": false
+    },
+    {
+      "id": "org-alpena-vfd",
+      "name": "Alpena VFD — verify",
+      "org_type": "vfd",
+      "city": "Alpena",
+      "county": "Boone",
+      "verified": false
+    },
+    {
+      "id": "org-jasper-library",
+      "name": "Newton County / Jasper library — verify",
+      "org_type": "library",
+      "city": "Jasper",
+      "county": "Newton",
+      "verified": false
+    },
+    {
+      "id": "org-jasper-chamber",
+      "name": "Jasper Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Jasper",
+      "county": "Newton",
+      "verified": false
+    },
+    {
+      "id": "org-jasper-vfd",
+      "name": "Jasper VFD — verify",
+      "org_type": "vfd",
+      "city": "Jasper",
+      "county": "Newton",
+      "verified": false
+    },
+    {
+      "id": "org-huntsville-library",
+      "name": "Madison County / Huntsville library — verify",
+      "org_type": "library",
+      "city": "Huntsville",
+      "county": "Madison",
+      "verified": false
+    },
+    {
+      "id": "org-huntsville-chamber",
+      "name": "Huntsville Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Huntsville",
+      "county": "Madison",
+      "verified": false
+    },
+    {
+      "id": "org-huntsville-vfd",
+      "name": "Huntsville VFD — verify",
+      "org_type": "vfd",
+      "city": "Huntsville",
+      "county": "Madison",
+      "verified": false
+    },
+    {
+      "id": "org-greenland-library",
+      "name": "Washington County / Greenland library — verify",
+      "org_type": "library",
+      "city": "Greenland",
+      "county": "Washington",
+      "verified": false
+    },
+    {
+      "id": "org-greenland-chamber",
+      "name": "Greenland Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Greenland",
+      "county": "Washington",
+      "verified": false
+    },
+    {
+      "id": "org-greenland-vfd",
+      "name": "Greenland VFD — verify",
+      "org_type": "vfd",
+      "city": "Greenland",
+      "county": "Washington",
+      "verified": false
+    },
+    {
+      "id": "org-west-fork-library",
+      "name": "Washington County / West Fork library — verify",
+      "org_type": "library",
+      "city": "West Fork",
+      "county": "Washington",
+      "verified": false
+    },
+    {
+      "id": "org-west-fork-chamber",
+      "name": "West Fork Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "West Fork",
+      "county": "Washington",
+      "verified": false
+    },
+    {
+      "id": "org-west-fork-vfd",
+      "name": "West Fork VFD — verify",
+      "org_type": "vfd",
+      "city": "West Fork",
+      "county": "Washington",
+      "verified": false
+    },
+    {
+      "id": "org-lincoln-library",
+      "name": "Washington County / Lincoln library — verify",
+      "org_type": "library",
+      "city": "Lincoln",
+      "county": "Washington",
+      "verified": false
+    },
+    {
+      "id": "org-lincoln-chamber",
+      "name": "Lincoln Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Lincoln",
+      "county": "Washington",
+      "verified": false
+    },
+    {
+      "id": "org-lincoln-vfd",
+      "name": "Lincoln VFD — verify",
+      "org_type": "vfd",
+      "city": "Lincoln",
+      "county": "Washington",
+      "verified": false
+    },
+    {
+      "id": "org-elkins-library",
+      "name": "Washington County / Elkins library — verify",
+      "org_type": "library",
+      "city": "Elkins",
+      "county": "Washington",
+      "verified": false
+    },
+    {
+      "id": "org-elkins-chamber",
+      "name": "Elkins Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Elkins",
+      "county": "Washington",
+      "verified": false
+    },
+    {
+      "id": "org-elkins-vfd",
+      "name": "Elkins VFD — verify",
+      "org_type": "vfd",
+      "city": "Elkins",
+      "county": "Washington",
+      "verified": false
+    },
+    {
+      "id": "org-tontitown-library",
+      "name": "Washington County / Tontitown library — verify",
+      "org_type": "library",
+      "city": "Tontitown",
+      "county": "Washington",
+      "verified": false
+    },
+    {
+      "id": "org-tontitown-chamber",
+      "name": "Tontitown Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Tontitown",
+      "county": "Washington",
+      "verified": false
+    },
+    {
+      "id": "org-tontitown-vfd",
+      "name": "Tontitown VFD — verify",
+      "org_type": "vfd",
+      "city": "Tontitown",
+      "county": "Washington",
+      "verified": false
+    },
+    {
+      "id": "org-johnson-library",
+      "name": "Washington County / Johnson library — verify",
+      "org_type": "library",
+      "city": "Johnson",
+      "county": "Washington",
+      "verified": false
+    },
+    {
+      "id": "org-johnson-chamber",
+      "name": "Johnson Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Johnson",
+      "county": "Washington",
+      "verified": false
+    },
+    {
+      "id": "org-johnson-vfd",
+      "name": "Johnson VFD — verify",
+      "org_type": "vfd",
+      "city": "Johnson",
+      "county": "Washington",
+      "verified": false
+    },
+    {
+      "id": "org-cave-springs-library",
+      "name": "Benton County / Cave Springs library — verify",
+      "org_type": "library",
+      "city": "Cave Springs",
+      "county": "Benton",
+      "verified": false
+    },
+    {
+      "id": "org-cave-springs-chamber",
+      "name": "Cave Springs Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Cave Springs",
+      "county": "Benton",
+      "verified": false
+    },
+    {
+      "id": "org-cave-springs-vfd",
+      "name": "Cave Springs VFD — verify",
+      "org_type": "vfd",
+      "city": "Cave Springs",
+      "county": "Benton",
+      "verified": false
+    },
+    {
+      "id": "org-highfill-library",
+      "name": "Benton County / Highfill library — verify",
+      "org_type": "library",
+      "city": "Highfill",
+      "county": "Benton",
+      "verified": false
+    },
+    {
+      "id": "org-highfill-chamber",
+      "name": "Highfill Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Highfill",
+      "county": "Benton",
+      "verified": false
+    },
+    {
+      "id": "org-highfill-vfd",
+      "name": "Highfill VFD — verify",
+      "org_type": "vfd",
+      "city": "Highfill",
+      "county": "Benton",
+      "verified": false
+    },
+    {
+      "id": "org-decatur-library",
+      "name": "Benton County / Decatur library — verify",
+      "org_type": "library",
+      "city": "Decatur",
+      "county": "Benton",
+      "verified": false
+    },
+    {
+      "id": "org-decatur-chamber",
+      "name": "Decatur Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Decatur",
+      "county": "Benton",
+      "verified": false
+    },
+    {
+      "id": "org-decatur-vfd",
+      "name": "Decatur VFD — verify",
+      "org_type": "vfd",
+      "city": "Decatur",
+      "county": "Benton",
+      "verified": false
+    },
+    {
+      "id": "org-charleston-library",
+      "name": "Franklin County / Charleston library — verify",
+      "org_type": "library",
+      "city": "Charleston",
+      "county": "Franklin",
+      "verified": false
+    },
+    {
+      "id": "org-charleston-chamber",
+      "name": "Charleston Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Charleston",
+      "county": "Franklin",
+      "verified": false
+    },
+    {
+      "id": "org-charleston-vfd",
+      "name": "Charleston VFD — verify",
+      "org_type": "vfd",
+      "city": "Charleston",
+      "county": "Franklin",
+      "verified": false
+    },
+    {
+      "id": "org-paris-library",
+      "name": "Logan County / Paris library — verify",
+      "org_type": "library",
+      "city": "Paris",
+      "county": "Logan",
+      "verified": false
+    },
+    {
+      "id": "org-paris-chamber",
+      "name": "Paris Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Paris",
+      "county": "Logan",
+      "verified": false
+    },
+    {
+      "id": "org-paris-vfd",
+      "name": "Paris VFD — verify",
+      "org_type": "vfd",
+      "city": "Paris",
+      "county": "Logan",
+      "verified": false
+    },
+    {
+      "id": "org-booneville-library",
+      "name": "Logan County / Booneville library — verify",
+      "org_type": "library",
+      "city": "Booneville",
+      "county": "Logan",
+      "verified": false
+    },
+    {
+      "id": "org-booneville-chamber",
+      "name": "Booneville Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Booneville",
+      "county": "Logan",
+      "verified": false
+    },
+    {
+      "id": "org-booneville-vfd",
+      "name": "Booneville VFD — verify",
+      "org_type": "vfd",
+      "city": "Booneville",
+      "county": "Logan",
+      "verified": false
+    },
+    {
+      "id": "org-magazine-library",
+      "name": "Logan County / Magazine library — verify",
+      "org_type": "library",
+      "city": "Magazine",
+      "county": "Logan",
+      "verified": false
+    },
+    {
+      "id": "org-magazine-chamber",
+      "name": "Magazine Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Magazine",
+      "county": "Logan",
+      "verified": false
+    },
+    {
+      "id": "org-magazine-vfd",
+      "name": "Magazine VFD — verify",
+      "org_type": "vfd",
+      "city": "Magazine",
+      "county": "Logan",
+      "verified": false
+    },
+    {
+      "id": "org-danville-library",
+      "name": "Yell County / Danville library — verify",
+      "org_type": "library",
+      "city": "Danville",
+      "county": "Yell",
+      "verified": false
+    },
+    {
+      "id": "org-danville-chamber",
+      "name": "Danville Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Danville",
+      "county": "Yell",
+      "verified": false
+    },
+    {
+      "id": "org-danville-vfd",
+      "name": "Danville VFD — verify",
+      "org_type": "vfd",
+      "city": "Danville",
+      "county": "Yell",
+      "verified": false
+    },
+    {
+      "id": "org-dardanelle-library",
+      "name": "Yell County / Dardanelle library — verify",
+      "org_type": "library",
+      "city": "Dardanelle",
+      "county": "Yell",
+      "verified": false
+    },
+    {
+      "id": "org-dardanelle-chamber",
+      "name": "Dardanelle Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Dardanelle",
+      "county": "Yell",
+      "verified": false
+    },
+    {
+      "id": "org-dardanelle-vfd",
+      "name": "Dardanelle VFD — verify",
+      "org_type": "vfd",
+      "city": "Dardanelle",
+      "county": "Yell",
+      "verified": false
+    },
+    {
+      "id": "org-atkins-library",
+      "name": "Pope County / Atkins library — verify",
+      "org_type": "library",
+      "city": "Atkins",
+      "county": "Pope",
+      "verified": false
+    },
+    {
+      "id": "org-atkins-chamber",
+      "name": "Atkins Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Atkins",
+      "county": "Pope",
+      "verified": false
+    },
+    {
+      "id": "org-atkins-vfd",
+      "name": "Atkins VFD — verify",
+      "org_type": "vfd",
+      "city": "Atkins",
+      "county": "Pope",
+      "verified": false
+    },
+    {
+      "id": "org-pottsville-library",
+      "name": "Pope County / Pottsville library — verify",
+      "org_type": "library",
+      "city": "Pottsville",
+      "county": "Pope",
+      "verified": false
+    },
+    {
+      "id": "org-pottsville-chamber",
+      "name": "Pottsville Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Pottsville",
+      "county": "Pope",
+      "verified": false
+    },
+    {
+      "id": "org-pottsville-vfd",
+      "name": "Pottsville VFD — verify",
+      "org_type": "vfd",
+      "city": "Pottsville",
+      "county": "Pope",
+      "verified": false
+    },
+    {
+      "id": "org-london-library",
+      "name": "Pope County / London library — verify",
+      "org_type": "library",
+      "city": "London",
+      "county": "Pope",
+      "verified": false
+    },
+    {
+      "id": "org-london-chamber",
+      "name": "London Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "London",
+      "county": "Pope",
+      "verified": false
+    },
+    {
+      "id": "org-london-vfd",
+      "name": "London VFD — verify",
+      "org_type": "vfd",
+      "city": "London",
+      "county": "Pope",
+      "verified": false
+    },
+    {
+      "id": "org-perryville-library",
+      "name": "Perry County / Perryville library — verify",
+      "org_type": "library",
+      "city": "Perryville",
+      "county": "Perry",
+      "verified": false
+    },
+    {
+      "id": "org-perryville-chamber",
+      "name": "Perryville Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Perryville",
+      "county": "Perry",
+      "verified": false
+    },
+    {
+      "id": "org-perryville-vfd",
+      "name": "Perryville VFD — verify",
+      "org_type": "vfd",
+      "city": "Perryville",
+      "county": "Perry",
+      "verified": false
+    },
+    {
+      "id": "org-perry-library",
+      "name": "Perry County / Perry library — verify",
+      "org_type": "library",
+      "city": "Perry",
+      "county": "Perry",
+      "verified": false
+    },
+    {
+      "id": "org-perry-chamber",
+      "name": "Perry Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Perry",
+      "county": "Perry",
+      "verified": false
+    },
+    {
+      "id": "org-perry-vfd",
+      "name": "Perry VFD — verify",
+      "org_type": "vfd",
+      "city": "Perry",
+      "county": "Perry",
+      "verified": false
+    },
+    {
+      "id": "org-bigelow-library",
+      "name": "Perry County / Bigelow library — verify",
+      "org_type": "library",
+      "city": "Bigelow",
+      "county": "Perry",
+      "verified": false
+    },
+    {
+      "id": "org-bigelow-chamber",
+      "name": "Bigelow Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Bigelow",
+      "county": "Perry",
+      "verified": false
+    },
+    {
+      "id": "org-bigelow-vfd",
+      "name": "Bigelow VFD — verify",
+      "org_type": "vfd",
+      "city": "Bigelow",
+      "county": "Perry",
+      "verified": false
+    },
+    {
+      "id": "org-houston-library",
+      "name": "Perry County / Houston library — verify",
+      "org_type": "library",
+      "city": "Houston",
+      "county": "Perry",
+      "verified": false
+    },
+    {
+      "id": "org-houston-chamber",
+      "name": "Houston Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Houston",
+      "county": "Perry",
+      "verified": false
+    },
+    {
+      "id": "org-houston-vfd",
+      "name": "Houston VFD — verify",
+      "org_type": "vfd",
+      "city": "Houston",
+      "county": "Perry",
+      "verified": false
+    },
+    {
+      "id": "org-plumerville-library",
+      "name": "Conway County / Plumerville library — verify",
+      "org_type": "library",
+      "city": "Plumerville",
+      "county": "Conway",
+      "verified": false
+    },
+    {
+      "id": "org-plumerville-chamber",
+      "name": "Plumerville Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Plumerville",
+      "county": "Conway",
+      "verified": false
+    },
+    {
+      "id": "org-plumerville-vfd",
+      "name": "Plumerville VFD — verify",
+      "org_type": "vfd",
+      "city": "Plumerville",
+      "county": "Conway",
+      "verified": false
+    },
+    {
+      "id": "org-wooster-library",
+      "name": "Faulkner County / Wooster library — verify",
+      "org_type": "library",
+      "city": "Wooster",
+      "county": "Faulkner",
+      "verified": false
+    },
+    {
+      "id": "org-wooster-chamber",
+      "name": "Wooster Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Wooster",
+      "county": "Faulkner",
+      "verified": false
+    },
+    {
+      "id": "org-wooster-vfd",
+      "name": "Wooster VFD — verify",
+      "org_type": "vfd",
+      "city": "Wooster",
+      "county": "Faulkner",
+      "verified": false
+    },
+    {
+      "id": "org-guy-library",
+      "name": "Faulkner County / Guy library — verify",
+      "org_type": "library",
+      "city": "Guy",
+      "county": "Faulkner",
+      "verified": false
+    },
+    {
+      "id": "org-guy-chamber",
+      "name": "Guy Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Guy",
+      "county": "Faulkner",
+      "verified": false
+    },
+    {
+      "id": "org-guy-vfd",
+      "name": "Guy VFD — verify",
+      "org_type": "vfd",
+      "city": "Guy",
+      "county": "Faulkner",
+      "verified": false
+    },
+    {
+      "id": "org-enola-library",
+      "name": "Faulkner County / Enola library — verify",
+      "org_type": "library",
+      "city": "Enola",
+      "county": "Faulkner",
+      "verified": false
+    },
+    {
+      "id": "org-enola-chamber",
+      "name": "Enola Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Enola",
+      "county": "Faulkner",
+      "verified": false
+    },
+    {
+      "id": "org-enola-vfd",
+      "name": "Enola VFD — verify",
+      "org_type": "vfd",
+      "city": "Enola",
+      "county": "Faulkner",
+      "verified": false
+    },
+    {
+      "id": "org-mayflower-library",
+      "name": "Faulkner County / Mayflower library — verify",
+      "org_type": "library",
+      "city": "Mayflower",
+      "county": "Faulkner",
+      "verified": false
+    },
+    {
+      "id": "org-mayflower-chamber",
+      "name": "Mayflower Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Mayflower",
+      "county": "Faulkner",
+      "verified": false
+    },
+    {
+      "id": "org-mayflower-vfd",
+      "name": "Mayflower VFD — verify",
+      "org_type": "vfd",
+      "city": "Mayflower",
+      "county": "Faulkner",
+      "verified": false
+    },
+    {
+      "id": "org-greenbrier-library",
+      "name": "Faulkner County / Greenbrier library — verify",
+      "org_type": "library",
+      "city": "Greenbrier",
+      "county": "Faulkner",
+      "verified": false
+    },
+    {
+      "id": "org-greenbrier-chamber",
+      "name": "Greenbrier Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Greenbrier",
+      "county": "Faulkner",
+      "verified": false
+    },
+    {
+      "id": "org-greenbrier-vfd",
+      "name": "Greenbrier VFD — verify",
+      "org_type": "vfd",
+      "city": "Greenbrier",
+      "county": "Faulkner",
+      "verified": false
+    },
+    {
+      "id": "org-holland-library",
+      "name": "Faulkner County / Holland library — verify",
+      "org_type": "library",
+      "city": "Holland",
+      "county": "Faulkner",
+      "verified": false
+    },
+    {
+      "id": "org-holland-chamber",
+      "name": "Holland Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Holland",
+      "county": "Faulkner",
+      "verified": false
+    },
+    {
+      "id": "org-holland-vfd",
+      "name": "Holland VFD — verify",
+      "org_type": "vfd",
+      "city": "Holland",
+      "county": "Faulkner",
+      "verified": false
+    },
+    {
+      "id": "org-damascus-library",
+      "name": "Van Buren County / Damascus library — verify",
+      "org_type": "library",
+      "city": "Damascus",
+      "county": "Van Buren",
+      "verified": false
+    },
+    {
+      "id": "org-damascus-chamber",
+      "name": "Damascus Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Damascus",
+      "county": "Van Buren",
+      "verified": false
+    },
+    {
+      "id": "org-damascus-vfd",
+      "name": "Damascus VFD — verify",
+      "org_type": "vfd",
+      "city": "Damascus",
+      "county": "Van Buren",
+      "verified": false
+    },
+    {
+      "id": "org-shirley-library",
+      "name": "Van Buren County / Shirley library — verify",
+      "org_type": "library",
+      "city": "Shirley",
+      "county": "Van Buren",
+      "verified": false
+    },
+    {
+      "id": "org-shirley-chamber",
+      "name": "Shirley Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Shirley",
+      "county": "Van Buren",
+      "verified": false
+    },
+    {
+      "id": "org-shirley-vfd",
+      "name": "Shirley VFD — verify",
+      "org_type": "vfd",
+      "city": "Shirley",
+      "county": "Van Buren",
+      "verified": false
+    },
+    {
+      "id": "org-marshall-library",
+      "name": "Searcy County / Marshall library — verify",
+      "org_type": "library",
+      "city": "Marshall",
+      "county": "Searcy",
+      "verified": false
+    },
+    {
+      "id": "org-marshall-chamber",
+      "name": "Marshall Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Marshall",
+      "county": "Searcy",
+      "verified": false
+    },
+    {
+      "id": "org-marshall-vfd",
+      "name": "Marshall VFD — verify",
+      "org_type": "vfd",
+      "city": "Marshall",
+      "county": "Searcy",
+      "verified": false
+    },
+    {
+      "id": "org-leslie-library",
+      "name": "Searcy County / Leslie library — verify",
+      "org_type": "library",
+      "city": "Leslie",
+      "county": "Searcy",
+      "verified": false
+    },
+    {
+      "id": "org-leslie-chamber",
+      "name": "Leslie Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Leslie",
+      "county": "Searcy",
+      "verified": false
+    },
+    {
+      "id": "org-leslie-vfd",
+      "name": "Leslie VFD — verify",
+      "org_type": "vfd",
+      "city": "Leslie",
+      "county": "Searcy",
+      "verified": false
+    },
+    {
+      "id": "org-fifty-six-library",
+      "name": "Stone County / Fifty-Six library — verify",
+      "org_type": "library",
+      "city": "Fifty-Six",
+      "county": "Stone",
+      "verified": false
+    },
+    {
+      "id": "org-fifty-six-chamber",
+      "name": "Fifty-Six Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Fifty-Six",
+      "county": "Stone",
+      "verified": false
+    },
+    {
+      "id": "org-fifty-six-vfd",
+      "name": "Fifty-Six VFD — verify",
+      "org_type": "vfd",
+      "city": "Fifty-Six",
+      "county": "Stone",
+      "verified": false
+    },
+    {
+      "id": "org-mountain-pine-library",
+      "name": "Garland County / Mountain Pine library — verify",
+      "org_type": "library",
+      "city": "Mountain Pine",
+      "county": "Garland",
+      "verified": false
+    },
+    {
+      "id": "org-mountain-pine-chamber",
+      "name": "Mountain Pine Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Mountain Pine",
+      "county": "Garland",
+      "verified": false
+    },
+    {
+      "id": "org-mountain-pine-vfd",
+      "name": "Mountain Pine VFD — verify",
+      "org_type": "vfd",
+      "city": "Mountain Pine",
+      "county": "Garland",
+      "verified": false
+    },
+    {
+      "id": "org-hot-springs-village-library",
+      "name": "Garland County / Hot Springs Village library — verify",
+      "org_type": "library",
+      "city": "Hot Springs Village",
+      "county": "Garland",
+      "verified": false
+    },
+    {
+      "id": "org-hot-springs-village-chamber",
+      "name": "Hot Springs Village Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Hot Springs Village",
+      "county": "Garland",
+      "verified": false
+    },
+    {
+      "id": "org-hot-springs-village-vfd",
+      "name": "Hot Springs Village VFD — verify",
+      "org_type": "vfd",
+      "city": "Hot Springs Village",
+      "county": "Garland",
+      "verified": false
+    },
+    {
+      "id": "org-royal-library",
+      "name": "Garland County / Royal library — verify",
+      "org_type": "library",
+      "city": "Royal",
+      "county": "Garland",
+      "verified": false
+    },
+    {
+      "id": "org-royal-chamber",
+      "name": "Royal Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Royal",
+      "county": "Garland",
+      "verified": false
+    },
+    {
+      "id": "org-royal-vfd",
+      "name": "Royal VFD — verify",
+      "org_type": "vfd",
+      "city": "Royal",
+      "county": "Garland",
+      "verified": false
+    },
+    {
+      "id": "org-amity-library",
+      "name": "Clark County / Amity library — verify",
+      "org_type": "library",
+      "city": "Amity",
+      "county": "Clark",
+      "verified": false
+    },
+    {
+      "id": "org-amity-chamber",
+      "name": "Amity Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Amity",
+      "county": "Clark",
+      "verified": false
+    },
+    {
+      "id": "org-amity-vfd",
+      "name": "Amity VFD — verify",
+      "org_type": "vfd",
+      "city": "Amity",
+      "county": "Clark",
+      "verified": false
+    },
+    {
+      "id": "org-caddo-valley-library",
+      "name": "Clark County / Caddo Valley library — verify",
+      "org_type": "library",
+      "city": "Caddo Valley",
+      "county": "Clark",
+      "verified": false
+    },
+    {
+      "id": "org-caddo-valley-chamber",
+      "name": "Caddo Valley Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Caddo Valley",
+      "county": "Clark",
+      "verified": false
+    },
+    {
+      "id": "org-caddo-valley-vfd",
+      "name": "Caddo Valley VFD — verify",
+      "org_type": "vfd",
+      "city": "Caddo Valley",
+      "county": "Clark",
+      "verified": false
+    },
+    {
+      "id": "org-okolona-library",
+      "name": "Clark County / Okolona library — verify",
+      "org_type": "library",
+      "city": "Okolona",
+      "county": "Clark",
+      "verified": false
+    },
+    {
+      "id": "org-okolona-chamber",
+      "name": "Okolona Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Okolona",
+      "county": "Clark",
+      "verified": false
+    },
+    {
+      "id": "org-okolona-vfd",
+      "name": "Okolona VFD — verify",
+      "org_type": "vfd",
+      "city": "Okolona",
+      "county": "Clark",
+      "verified": false
+    },
+    {
+      "id": "org-waldo-library",
+      "name": "Columbia County / Waldo library — verify",
+      "org_type": "library",
+      "city": "Waldo",
+      "county": "Columbia",
+      "verified": false
+    },
+    {
+      "id": "org-waldo-chamber",
+      "name": "Waldo Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Waldo",
+      "county": "Columbia",
+      "verified": false
+    },
+    {
+      "id": "org-waldo-vfd",
+      "name": "Waldo VFD — verify",
+      "org_type": "vfd",
+      "city": "Waldo",
+      "county": "Columbia",
+      "verified": false
+    },
+    {
+      "id": "org-taylor-library",
+      "name": "Columbia County / Taylor library — verify",
+      "org_type": "library",
+      "city": "Taylor",
+      "county": "Columbia",
+      "verified": false
+    },
+    {
+      "id": "org-taylor-chamber",
+      "name": "Taylor Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Taylor",
+      "county": "Columbia",
+      "verified": false
+    },
+    {
+      "id": "org-taylor-vfd",
+      "name": "Taylor VFD — verify",
+      "org_type": "vfd",
+      "city": "Taylor",
+      "county": "Columbia",
+      "verified": false
+    },
+    {
+      "id": "org-mcneil-library",
+      "name": "Columbia County / McNeil library — verify",
+      "org_type": "library",
+      "city": "McNeil",
+      "county": "Columbia",
+      "verified": false
+    },
+    {
+      "id": "org-mcneil-chamber",
+      "name": "McNeil Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "McNeil",
+      "county": "Columbia",
+      "verified": false
+    },
+    {
+      "id": "org-mcneil-vfd",
+      "name": "McNeil VFD — verify",
+      "org_type": "vfd",
+      "city": "McNeil",
+      "county": "Columbia",
+      "verified": false
+    },
+    {
+      "id": "org-emerson-library",
+      "name": "Columbia County / Emerson library — verify",
+      "org_type": "library",
+      "city": "Emerson",
+      "county": "Columbia",
+      "verified": false
+    },
+    {
+      "id": "org-emerson-chamber",
+      "name": "Emerson Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Emerson",
+      "county": "Columbia",
+      "verified": false
+    },
+    {
+      "id": "org-emerson-vfd",
+      "name": "Emerson VFD — verify",
+      "org_type": "vfd",
+      "city": "Emerson",
+      "county": "Columbia",
+      "verified": false
+    },
+    {
+      "id": "org-lewisville-library",
+      "name": "Lafayette County / Lewisville library — verify",
+      "org_type": "library",
+      "city": "Lewisville",
+      "county": "Lafayette",
+      "verified": false
+    },
+    {
+      "id": "org-lewisville-chamber",
+      "name": "Lewisville Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Lewisville",
+      "county": "Lafayette",
+      "verified": false
+    },
+    {
+      "id": "org-lewisville-vfd",
+      "name": "Lewisville VFD — verify",
+      "org_type": "vfd",
+      "city": "Lewisville",
+      "county": "Lafayette",
+      "verified": false
+    },
+    {
+      "id": "org-bradley-library",
+      "name": "Lafayette County / Bradley library — verify",
+      "org_type": "library",
+      "city": "Bradley",
+      "county": "Lafayette",
+      "verified": false
+    },
+    {
+      "id": "org-bradley-chamber",
+      "name": "Bradley Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Bradley",
+      "county": "Lafayette",
+      "verified": false
+    },
+    {
+      "id": "org-bradley-vfd",
+      "name": "Bradley VFD — verify",
+      "org_type": "vfd",
+      "city": "Bradley",
+      "county": "Lafayette",
+      "verified": false
+    },
+    {
+      "id": "org-stamps-library",
+      "name": "Lafayette County / Stamps library — verify",
+      "org_type": "library",
+      "city": "Stamps",
+      "county": "Lafayette",
+      "verified": false
+    },
+    {
+      "id": "org-stamps-chamber",
+      "name": "Stamps Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Stamps",
+      "county": "Lafayette",
+      "verified": false
+    },
+    {
+      "id": "org-stamps-vfd",
+      "name": "Stamps VFD — verify",
+      "org_type": "vfd",
+      "city": "Stamps",
+      "county": "Lafayette",
+      "verified": false
+    },
+    {
+      "id": "org-wrightsville-library",
+      "name": "Pulaski County / Wrightsville library — verify",
+      "org_type": "library",
+      "city": "Wrightsville",
+      "county": "Pulaski",
+      "verified": false
+    },
+    {
+      "id": "org-wrightsville-chamber",
+      "name": "Wrightsville Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Wrightsville",
+      "county": "Pulaski",
+      "verified": false
+    },
+    {
+      "id": "org-wrightsville-vfd",
+      "name": "Wrightsville VFD — verify",
+      "org_type": "vfd",
+      "city": "Wrightsville",
+      "county": "Pulaski",
+      "verified": false
+    },
+    {
+      "id": "org-alexander-library",
+      "name": "Pulaski County / Alexander library — verify",
+      "org_type": "library",
+      "city": "Alexander",
+      "county": "Pulaski",
+      "verified": false
+    },
+    {
+      "id": "org-alexander-chamber",
+      "name": "Alexander Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Alexander",
+      "county": "Pulaski",
+      "verified": false
+    },
+    {
+      "id": "org-alexander-vfd",
+      "name": "Alexander VFD — verify",
+      "org_type": "vfd",
+      "city": "Alexander",
+      "county": "Pulaski",
+      "verified": false
+    },
+    {
+      "id": "org-mabelvale-library",
+      "name": "Pulaski County / Mabelvale library — verify",
+      "org_type": "library",
+      "city": "Mabelvale",
+      "county": "Pulaski",
+      "verified": false
+    },
+    {
+      "id": "org-mabelvale-chamber",
+      "name": "Mabelvale Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Mabelvale",
+      "county": "Pulaski",
+      "verified": false
+    },
+    {
+      "id": "org-mabelvale-vfd",
+      "name": "Mabelvale VFD — verify",
+      "org_type": "vfd",
+      "city": "Mabelvale",
+      "county": "Pulaski",
+      "verified": false
+    },
+    {
+      "id": "org-roland-library",
+      "name": "Pulaski County / Roland library — verify",
+      "org_type": "library",
+      "city": "Roland",
+      "county": "Pulaski",
+      "verified": false
+    },
+    {
+      "id": "org-roland-chamber",
+      "name": "Roland Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Roland",
+      "county": "Pulaski",
+      "verified": false
+    },
+    {
+      "id": "org-roland-vfd",
+      "name": "Roland VFD — verify",
+      "org_type": "vfd",
+      "city": "Roland",
+      "county": "Pulaski",
+      "verified": false
+    },
+    {
+      "id": "org-natural-steps-library",
+      "name": "Pulaski County / Natural Steps library — verify",
+      "org_type": "library",
+      "city": "Natural Steps",
+      "county": "Pulaski",
+      "verified": false
+    },
+    {
+      "id": "org-natural-steps-chamber",
+      "name": "Natural Steps Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Natural Steps",
+      "county": "Pulaski",
+      "verified": false
+    },
+    {
+      "id": "org-natural-steps-vfd",
+      "name": "Natural Steps VFD — verify",
+      "org_type": "vfd",
+      "city": "Natural Steps",
+      "county": "Pulaski",
+      "verified": false
+    },
+    {
+      "id": "org-cammack-village-library",
+      "name": "Pulaski County / Cammack Village library — verify",
+      "org_type": "library",
+      "city": "Cammack Village",
+      "county": "Pulaski",
+      "verified": false
+    },
+    {
+      "id": "org-cammack-village-chamber",
+      "name": "Cammack Village Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Cammack Village",
+      "county": "Pulaski",
+      "verified": false
+    },
+    {
+      "id": "org-cammack-village-vfd",
+      "name": "Cammack Village VFD — verify",
+      "org_type": "vfd",
+      "city": "Cammack Village",
+      "county": "Pulaski",
+      "verified": false
+    },
+    {
+      "id": "org-gould-library",
+      "name": "Lincoln County / Gould library — verify",
+      "org_type": "library",
+      "city": "Gould",
+      "county": "Lincoln",
+      "verified": false
+    },
+    {
+      "id": "org-gould-chamber",
+      "name": "Gould Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Gould",
+      "county": "Lincoln",
+      "verified": false
+    },
+    {
+      "id": "org-gould-vfd",
+      "name": "Gould VFD — verify",
+      "org_type": "vfd",
+      "city": "Gould",
+      "county": "Lincoln",
+      "verified": false
+    },
+    {
+      "id": "org-star-city-library",
+      "name": "Lincoln County / Star City library — verify",
+      "org_type": "library",
+      "city": "Star City",
+      "county": "Lincoln",
+      "verified": false
+    },
+    {
+      "id": "org-star-city-chamber",
+      "name": "Star City Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Star City",
+      "county": "Lincoln",
+      "verified": false
+    },
+    {
+      "id": "org-star-city-vfd",
+      "name": "Star City VFD — verify",
+      "org_type": "vfd",
+      "city": "Star City",
+      "county": "Lincoln",
+      "verified": false
+    },
+    {
+      "id": "org-grady-library",
+      "name": "Lincoln County / Grady library — verify",
+      "org_type": "library",
+      "city": "Grady",
+      "county": "Lincoln",
+      "verified": false
+    },
+    {
+      "id": "org-grady-chamber",
+      "name": "Grady Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Grady",
+      "county": "Lincoln",
+      "verified": false
+    },
+    {
+      "id": "org-grady-vfd",
+      "name": "Grady VFD — verify",
+      "org_type": "vfd",
+      "city": "Grady",
+      "county": "Lincoln",
+      "verified": false
+    },
+    {
+      "id": "org-gillett-library",
+      "name": "Arkansas County / Gillett library — verify",
+      "org_type": "library",
+      "city": "Gillett",
+      "county": "Arkansas",
+      "verified": false
+    },
+    {
+      "id": "org-gillett-chamber",
+      "name": "Gillett Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Gillett",
+      "county": "Arkansas",
+      "verified": false
+    },
+    {
+      "id": "org-gillett-vfd",
+      "name": "Gillett VFD — verify",
+      "org_type": "vfd",
+      "city": "Gillett",
+      "county": "Arkansas",
+      "verified": false
+    },
+    {
+      "id": "org-dewitt-library",
+      "name": "Arkansas County / DeWitt library — verify",
+      "org_type": "library",
+      "city": "DeWitt",
+      "county": "Arkansas",
+      "verified": false
+    },
+    {
+      "id": "org-dewitt-chamber",
+      "name": "DeWitt Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "DeWitt",
+      "county": "Arkansas",
+      "verified": false
+    },
+    {
+      "id": "org-dewitt-vfd",
+      "name": "DeWitt VFD — verify",
+      "org_type": "vfd",
+      "city": "DeWitt",
+      "county": "Arkansas",
+      "verified": false
+    },
+    {
+      "id": "org-almyra-library",
+      "name": "Arkansas County / Almyra library — verify",
+      "org_type": "library",
+      "city": "Almyra",
+      "county": "Arkansas",
+      "verified": false
+    },
+    {
+      "id": "org-almyra-chamber",
+      "name": "Almyra Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Almyra",
+      "county": "Arkansas",
+      "verified": false
+    },
+    {
+      "id": "org-almyra-vfd",
+      "name": "Almyra VFD — verify",
+      "org_type": "vfd",
+      "city": "Almyra",
+      "county": "Arkansas",
+      "verified": false
+    },
+    {
+      "id": "org-humphrey-library",
+      "name": "Arkansas County / Humphrey library — verify",
+      "org_type": "library",
+      "city": "Humphrey",
+      "county": "Arkansas",
+      "verified": false
+    },
+    {
+      "id": "org-humphrey-chamber",
+      "name": "Humphrey Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Humphrey",
+      "county": "Arkansas",
+      "verified": false
+    },
+    {
+      "id": "org-humphrey-vfd",
+      "name": "Humphrey VFD — verify",
+      "org_type": "vfd",
+      "city": "Humphrey",
+      "county": "Arkansas",
+      "verified": false
+    },
+    {
+      "id": "org-ulm-library",
+      "name": "Prairie County / Ulm library — verify",
+      "org_type": "library",
+      "city": "Ulm",
+      "county": "Prairie",
+      "verified": false
+    },
+    {
+      "id": "org-ulm-chamber",
+      "name": "Ulm Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Ulm",
+      "county": "Prairie",
+      "verified": false
+    },
+    {
+      "id": "org-ulm-vfd",
+      "name": "Ulm VFD — verify",
+      "org_type": "vfd",
+      "city": "Ulm",
+      "county": "Prairie",
+      "verified": false
+    },
+    {
+      "id": "org-brinkley-library",
+      "name": "Monroe County / Brinkley library — verify",
+      "org_type": "library",
+      "city": "Brinkley",
+      "county": "Monroe",
+      "verified": false
+    },
+    {
+      "id": "org-brinkley-chamber",
+      "name": "Brinkley Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Brinkley",
+      "county": "Monroe",
+      "verified": false
+    },
+    {
+      "id": "org-brinkley-vfd",
+      "name": "Brinkley VFD — verify",
+      "org_type": "vfd",
+      "city": "Brinkley",
+      "county": "Monroe",
+      "verified": false
+    },
+    {
+      "id": "org-clarendon-library",
+      "name": "Monroe County / Clarendon library — verify",
+      "org_type": "library",
+      "city": "Clarendon",
+      "county": "Monroe",
+      "verified": false
+    },
+    {
+      "id": "org-clarendon-chamber",
+      "name": "Clarendon Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Clarendon",
+      "county": "Monroe",
+      "verified": false
+    },
+    {
+      "id": "org-clarendon-vfd",
+      "name": "Clarendon VFD — verify",
+      "org_type": "vfd",
+      "city": "Clarendon",
+      "county": "Monroe",
+      "verified": false
+    },
+    {
+      "id": "org-holly-grove-library",
+      "name": "Monroe County / Holly Grove library — verify",
+      "org_type": "library",
+      "city": "Holly Grove",
+      "county": "Monroe",
+      "verified": false
+    },
+    {
+      "id": "org-holly-grove-chamber",
+      "name": "Holly Grove Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Holly Grove",
+      "county": "Monroe",
+      "verified": false
+    },
+    {
+      "id": "org-holly-grove-vfd",
+      "name": "Holly Grove VFD — verify",
+      "org_type": "vfd",
+      "city": "Holly Grove",
+      "county": "Monroe",
+      "verified": false
+    },
+    {
+      "id": "org-roe-library",
+      "name": "Monroe County / Roe library — verify",
+      "org_type": "library",
+      "city": "Roe",
+      "county": "Monroe",
+      "verified": false
+    },
+    {
+      "id": "org-roe-chamber",
+      "name": "Roe Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Roe",
+      "county": "Monroe",
+      "verified": false
+    },
+    {
+      "id": "org-roe-vfd",
+      "name": "Roe VFD — verify",
+      "org_type": "vfd",
+      "city": "Roe",
+      "county": "Monroe",
+      "verified": false
+    },
+    {
+      "id": "org-palestine-library",
+      "name": "St. Francis County / Palestine library — verify",
+      "org_type": "library",
+      "city": "Palestine",
+      "county": "St. Francis",
+      "verified": false
+    },
+    {
+      "id": "org-palestine-chamber",
+      "name": "Palestine Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Palestine",
+      "county": "St. Francis",
+      "verified": false
+    },
+    {
+      "id": "org-palestine-vfd",
+      "name": "Palestine VFD — verify",
+      "org_type": "vfd",
+      "city": "Palestine",
+      "county": "St. Francis",
+      "verified": false
+    },
+    {
+      "id": "org-colt-library",
+      "name": "St. Francis County / Colt library — verify",
+      "org_type": "library",
+      "city": "Colt",
+      "county": "St. Francis",
+      "verified": false
+    },
+    {
+      "id": "org-colt-chamber",
+      "name": "Colt Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Colt",
+      "county": "St. Francis",
+      "verified": false
+    },
+    {
+      "id": "org-colt-vfd",
+      "name": "Colt VFD — verify",
+      "org_type": "vfd",
+      "city": "Colt",
+      "county": "St. Francis",
+      "verified": false
+    },
+    {
+      "id": "org-widener-library",
+      "name": "St. Francis County / Widener library — verify",
+      "org_type": "library",
+      "city": "Widener",
+      "county": "St. Francis",
+      "verified": false
+    },
+    {
+      "id": "org-widener-chamber",
+      "name": "Widener Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Widener",
+      "county": "St. Francis",
+      "verified": false
+    },
+    {
+      "id": "org-widener-vfd",
+      "name": "Widener VFD — verify",
+      "org_type": "vfd",
+      "city": "Widener",
+      "county": "St. Francis",
+      "verified": false
+    },
+    {
+      "id": "org-parkin-library",
+      "name": "Cross County / Parkin library — verify",
+      "org_type": "library",
+      "city": "Parkin",
+      "county": "Cross",
+      "verified": false
+    },
+    {
+      "id": "org-parkin-chamber",
+      "name": "Parkin Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Parkin",
+      "county": "Cross",
+      "verified": false
+    },
+    {
+      "id": "org-parkin-vfd",
+      "name": "Parkin VFD — verify",
+      "org_type": "vfd",
+      "city": "Parkin",
+      "county": "Cross",
+      "verified": false
+    },
+    {
+      "id": "org-cherry-valley-library",
+      "name": "Cross County / Cherry Valley library — verify",
+      "org_type": "library",
+      "city": "Cherry Valley",
+      "county": "Cross",
+      "verified": false
+    },
+    {
+      "id": "org-cherry-valley-chamber",
+      "name": "Cherry Valley Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Cherry Valley",
+      "county": "Cross",
+      "verified": false
+    },
+    {
+      "id": "org-cherry-valley-vfd",
+      "name": "Cherry Valley VFD — verify",
+      "org_type": "vfd",
+      "city": "Cherry Valley",
+      "county": "Cross",
+      "verified": false
+    },
+    {
+      "id": "org-tuckerman-library",
+      "name": "Jackson County / Tuckerman library — verify",
+      "org_type": "library",
+      "city": "Tuckerman",
+      "county": "Jackson",
+      "verified": false
+    },
+    {
+      "id": "org-tuckerman-chamber",
+      "name": "Tuckerman Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Tuckerman",
+      "county": "Jackson",
+      "verified": false
+    },
+    {
+      "id": "org-tuckerman-vfd",
+      "name": "Tuckerman VFD — verify",
+      "org_type": "vfd",
+      "city": "Tuckerman",
+      "county": "Jackson",
+      "verified": false
+    },
+    {
+      "id": "org-swifton-library",
+      "name": "Jackson County / Swifton library — verify",
+      "org_type": "library",
+      "city": "Swifton",
+      "county": "Jackson",
+      "verified": false
+    },
+    {
+      "id": "org-swifton-chamber",
+      "name": "Swifton Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Swifton",
+      "county": "Jackson",
+      "verified": false
+    },
+    {
+      "id": "org-swifton-vfd",
+      "name": "Swifton VFD — verify",
+      "org_type": "vfd",
+      "city": "Swifton",
+      "county": "Jackson",
+      "verified": false
+    },
+    {
+      "id": "org-turrell-library",
+      "name": "Crittenden County / Turrell library — verify",
+      "org_type": "library",
+      "city": "Turrell",
+      "county": "Crittenden",
+      "verified": false
+    },
+    {
+      "id": "org-turrell-chamber",
+      "name": "Turrell Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Turrell",
+      "county": "Crittenden",
+      "verified": false
+    },
+    {
+      "id": "org-turrell-vfd",
+      "name": "Turrell VFD — verify",
+      "org_type": "vfd",
+      "city": "Turrell",
+      "county": "Crittenden",
+      "verified": false
+    },
+    {
+      "id": "org-gilmore-library",
+      "name": "Crittenden County / Gilmore library — verify",
+      "org_type": "library",
+      "city": "Gilmore",
+      "county": "Crittenden",
+      "verified": false
+    },
+    {
+      "id": "org-gilmore-chamber",
+      "name": "Gilmore Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Gilmore",
+      "county": "Crittenden",
+      "verified": false
+    },
+    {
+      "id": "org-gilmore-vfd",
+      "name": "Gilmore VFD — verify",
+      "org_type": "vfd",
+      "city": "Gilmore",
+      "county": "Crittenden",
+      "verified": false
+    },
+    {
+      "id": "org-joiner-library",
+      "name": "Mississippi County / Joiner library — verify",
+      "org_type": "library",
+      "city": "Joiner",
+      "county": "Mississippi",
+      "verified": false
+    },
+    {
+      "id": "org-joiner-chamber",
+      "name": "Joiner Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Joiner",
+      "county": "Mississippi",
+      "verified": false
+    },
+    {
+      "id": "org-joiner-vfd",
+      "name": "Joiner VFD — verify",
+      "org_type": "vfd",
+      "city": "Joiner",
+      "county": "Mississippi",
+      "verified": false
+    },
+    {
+      "id": "org-luxora-library",
+      "name": "Mississippi County / Luxora library — verify",
+      "org_type": "library",
+      "city": "Luxora",
+      "county": "Mississippi",
+      "verified": false
+    },
+    {
+      "id": "org-luxora-chamber",
+      "name": "Luxora Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Luxora",
+      "county": "Mississippi",
+      "verified": false
+    },
+    {
+      "id": "org-luxora-vfd",
+      "name": "Luxora VFD — verify",
+      "org_type": "vfd",
+      "city": "Luxora",
+      "county": "Mississippi",
+      "verified": false
+    },
+    {
+      "id": "org-wilson-library",
+      "name": "Mississippi County / Wilson library — verify",
+      "org_type": "library",
+      "city": "Wilson",
+      "county": "Mississippi",
+      "verified": false
+    },
+    {
+      "id": "org-wilson-chamber",
+      "name": "Wilson Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Wilson",
+      "county": "Mississippi",
+      "verified": false
+    },
+    {
+      "id": "org-wilson-vfd",
+      "name": "Wilson VFD — verify",
+      "org_type": "vfd",
+      "city": "Wilson",
+      "county": "Mississippi",
+      "verified": false
+    },
+    {
+      "id": "org-leachville-library",
+      "name": "Mississippi County / Leachville library — verify",
+      "org_type": "library",
+      "city": "Leachville",
+      "county": "Mississippi",
+      "verified": false
+    },
+    {
+      "id": "org-leachville-chamber",
+      "name": "Leachville Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Leachville",
+      "county": "Mississippi",
+      "verified": false
+    },
+    {
+      "id": "org-leachville-vfd",
+      "name": "Leachville VFD — verify",
+      "org_type": "vfd",
+      "city": "Leachville",
+      "county": "Mississippi",
+      "verified": false
+    },
+    {
+      "id": "org-manila-library",
+      "name": "Mississippi County / Manila library — verify",
+      "org_type": "library",
+      "city": "Manila",
+      "county": "Mississippi",
+      "verified": false
+    },
+    {
+      "id": "org-manila-chamber",
+      "name": "Manila Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Manila",
+      "county": "Mississippi",
+      "verified": false
+    },
+    {
+      "id": "org-manila-vfd",
+      "name": "Manila VFD — verify",
+      "org_type": "vfd",
+      "city": "Manila",
+      "county": "Mississippi",
+      "verified": false
+    },
+    {
+      "id": "org-gosnell-library",
+      "name": "Mississippi County / Gosnell library — verify",
+      "org_type": "library",
+      "city": "Gosnell",
+      "county": "Mississippi",
+      "verified": false
+    },
+    {
+      "id": "org-gosnell-chamber",
+      "name": "Gosnell Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Gosnell",
+      "county": "Mississippi",
+      "verified": false
+    },
+    {
+      "id": "org-gosnell-vfd",
+      "name": "Gosnell VFD — verify",
+      "org_type": "vfd",
+      "city": "Gosnell",
+      "county": "Mississippi",
+      "verified": false
+    },
+    {
+      "id": "org-keiser-library",
+      "name": "Mississippi County / Keiser library — verify",
+      "org_type": "library",
+      "city": "Keiser",
+      "county": "Mississippi",
+      "verified": false
+    },
+    {
+      "id": "org-keiser-chamber",
+      "name": "Keiser Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Keiser",
+      "county": "Mississippi",
+      "verified": false
+    },
+    {
+      "id": "org-keiser-vfd",
+      "name": "Keiser VFD — verify",
+      "org_type": "vfd",
+      "city": "Keiser",
+      "county": "Mississippi",
+      "verified": false
+    },
+    {
+      "id": "org-etowah-library",
+      "name": "Mississippi County / Etowah library — verify",
+      "org_type": "library",
+      "city": "Etowah",
+      "county": "Mississippi",
+      "verified": false
+    },
+    {
+      "id": "org-etowah-chamber",
+      "name": "Etowah Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Etowah",
+      "county": "Mississippi",
+      "verified": false
+    },
+    {
+      "id": "org-etowah-vfd",
+      "name": "Etowah VFD — verify",
+      "org_type": "vfd",
+      "city": "Etowah",
+      "county": "Mississippi",
+      "verified": false
+    },
+    {
+      "id": "org-caraway-library",
+      "name": "Craighead County / Caraway library — verify",
+      "org_type": "library",
+      "city": "Caraway",
+      "county": "Craighead",
+      "verified": false
+    },
+    {
+      "id": "org-caraway-chamber",
+      "name": "Caraway Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Caraway",
+      "county": "Craighead",
+      "verified": false
+    },
+    {
+      "id": "org-caraway-vfd",
+      "name": "Caraway VFD — verify",
+      "org_type": "vfd",
+      "city": "Caraway",
+      "county": "Craighead",
+      "verified": false
+    },
+    {
+      "id": "org-alma-library",
+      "name": "Crawford County / Alma library — verify",
+      "org_type": "library",
+      "city": "Alma",
+      "county": "Crawford",
+      "verified": false
+    },
+    {
+      "id": "org-alma-chamber",
+      "name": "Alma Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Alma",
+      "county": "Crawford",
+      "verified": false
+    },
+    {
+      "id": "org-alma-vfd",
+      "name": "Alma VFD — verify",
+      "org_type": "vfd",
+      "city": "Alma",
+      "county": "Crawford",
+      "verified": false
+    },
+    {
+      "id": "org-ashdown-library",
+      "name": "Little River County / Ashdown library — verify",
+      "org_type": "library",
+      "city": "Ashdown",
+      "county": "Little River",
+      "verified": false
+    },
+    {
+      "id": "org-ashdown-chamber",
+      "name": "Ashdown Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Ashdown",
+      "county": "Little River",
+      "verified": false
+    },
+    {
+      "id": "org-ashdown-vfd",
+      "name": "Ashdown VFD — verify",
+      "org_type": "vfd",
+      "city": "Ashdown",
+      "county": "Little River",
+      "verified": false
+    },
+    {
+      "id": "org-atkins-library",
+      "name": "Pope County / Atkins library — verify",
+      "org_type": "library",
+      "city": "Atkins",
+      "county": "Pope",
+      "verified": false
+    },
+    {
+      "id": "org-atkins-chamber",
+      "name": "Atkins Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Atkins",
+      "county": "Pope",
+      "verified": false
+    },
+    {
+      "id": "org-atkins-vfd",
+      "name": "Atkins VFD — verify",
+      "org_type": "vfd",
+      "city": "Atkins",
+      "county": "Pope",
+      "verified": false
+    },
+    {
+      "id": "org-augusta-library",
+      "name": "Woodruff County / Augusta library — verify",
+      "org_type": "library",
+      "city": "Augusta",
+      "county": "Woodruff",
+      "verified": false
+    },
+    {
+      "id": "org-augusta-chamber",
+      "name": "Augusta Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Augusta",
+      "county": "Woodruff",
+      "verified": false
+    },
+    {
+      "id": "org-augusta-vfd",
+      "name": "Augusta VFD — verify",
+      "org_type": "vfd",
+      "city": "Augusta",
+      "county": "Woodruff",
+      "verified": false
+    },
+    {
+      "id": "org-barling-library",
+      "name": "Sebastian County / Barling library — verify",
+      "org_type": "library",
+      "city": "Barling",
+      "county": "Sebastian",
+      "verified": false
+    },
+    {
+      "id": "org-barling-chamber",
+      "name": "Barling Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Barling",
+      "county": "Sebastian",
+      "verified": false
+    },
+    {
+      "id": "org-barling-vfd",
+      "name": "Barling VFD — verify",
+      "org_type": "vfd",
+      "city": "Barling",
+      "county": "Sebastian",
+      "verified": false
+    },
+    {
+      "id": "org-batesville-library",
+      "name": "Independence County / Batesville library — verify",
+      "org_type": "library",
+      "city": "Batesville",
+      "county": "Independence",
+      "verified": false
+    },
+    {
+      "id": "org-batesville-chamber",
+      "name": "Batesville Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Batesville",
+      "county": "Independence",
+      "verified": false
+    },
+    {
+      "id": "org-batesville-vfd",
+      "name": "Batesville VFD — verify",
+      "org_type": "vfd",
+      "city": "Batesville",
+      "county": "Independence",
+      "verified": false
+    },
+    {
+      "id": "org-beebe-library",
+      "name": "White County / Beebe library — verify",
+      "org_type": "library",
+      "city": "Beebe",
+      "county": "White",
+      "verified": false
+    },
+    {
+      "id": "org-beebe-chamber",
+      "name": "Beebe Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Beebe",
+      "county": "White",
+      "verified": false
+    },
+    {
+      "id": "org-beebe-vfd",
+      "name": "Beebe VFD — verify",
+      "org_type": "vfd",
+      "city": "Beebe",
+      "county": "White",
+      "verified": false
+    },
+    {
+      "id": "org-berryville-library",
+      "name": "Carroll County / Berryville library — verify",
+      "org_type": "library",
+      "city": "Berryville",
+      "county": "Carroll",
+      "verified": false
+    },
+    {
+      "id": "org-berryville-chamber",
+      "name": "Berryville Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Berryville",
+      "county": "Carroll",
+      "verified": false
+    },
+    {
+      "id": "org-berryville-vfd",
+      "name": "Berryville VFD — verify",
+      "org_type": "vfd",
+      "city": "Berryville",
+      "county": "Carroll",
+      "verified": false
+    },
+    {
+      "id": "org-booneville-library",
+      "name": "Logan County / Booneville library — verify",
+      "org_type": "library",
+      "city": "Booneville",
+      "county": "Logan",
+      "verified": false
+    },
+    {
+      "id": "org-booneville-chamber",
+      "name": "Booneville Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Booneville",
+      "county": "Logan",
+      "verified": false
+    },
+    {
+      "id": "org-booneville-vfd",
+      "name": "Booneville VFD — verify",
+      "org_type": "vfd",
+      "city": "Booneville",
+      "county": "Logan",
+      "verified": false
+    },
+    {
+      "id": "org-brinkley-library",
+      "name": "Monroe County / Brinkley library — verify",
+      "org_type": "library",
+      "city": "Brinkley",
+      "county": "Monroe",
+      "verified": false
+    },
+    {
+      "id": "org-brinkley-chamber",
+      "name": "Brinkley Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Brinkley",
+      "county": "Monroe",
+      "verified": false
+    },
+    {
+      "id": "org-brinkley-vfd",
+      "name": "Brinkley VFD — verify",
+      "org_type": "vfd",
+      "city": "Brinkley",
+      "county": "Monroe",
+      "verified": false
+    },
+    {
+      "id": "org-camden-library",
+      "name": "Ouachita County / Camden library — verify",
+      "org_type": "library",
+      "city": "Camden",
+      "county": "Ouachita",
+      "verified": false
+    },
+    {
+      "id": "org-camden-chamber",
+      "name": "Camden Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Camden",
+      "county": "Ouachita",
+      "verified": false
+    },
+    {
+      "id": "org-camden-vfd",
+      "name": "Camden VFD — verify",
+      "org_type": "vfd",
+      "city": "Camden",
+      "county": "Ouachita",
+      "verified": false
+    },
+    {
+      "id": "org-carlisle-library",
+      "name": "Lonoke County / Carlisle library — verify",
+      "org_type": "library",
+      "city": "Carlisle",
+      "county": "Lonoke",
+      "verified": false
+    },
+    {
+      "id": "org-carlisle-chamber",
+      "name": "Carlisle Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Carlisle",
+      "county": "Lonoke",
+      "verified": false
+    },
+    {
+      "id": "org-carlisle-vfd",
+      "name": "Carlisle VFD — verify",
+      "org_type": "vfd",
+      "city": "Carlisle",
+      "county": "Lonoke",
+      "verified": false
+    },
+    {
+      "id": "org-charleston-library",
+      "name": "Franklin County / Charleston library — verify",
+      "org_type": "library",
+      "city": "Charleston",
+      "county": "Franklin",
+      "verified": false
+    },
+    {
+      "id": "org-charleston-chamber",
+      "name": "Charleston Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Charleston",
+      "county": "Franklin",
+      "verified": false
+    },
+    {
+      "id": "org-charleston-vfd",
+      "name": "Charleston VFD — verify",
+      "org_type": "vfd",
+      "city": "Charleston",
+      "county": "Franklin",
+      "verified": false
+    },
+    {
+      "id": "org-clarksville-library",
+      "name": "Johnson County / Clarksville library — verify",
+      "org_type": "library",
+      "city": "Clarksville",
+      "county": "Johnson",
+      "verified": false
+    },
+    {
+      "id": "org-clarksville-chamber",
+      "name": "Clarksville Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Clarksville",
+      "county": "Johnson",
+      "verified": false
+    },
+    {
+      "id": "org-clarksville-vfd",
+      "name": "Clarksville VFD — verify",
+      "org_type": "vfd",
+      "city": "Clarksville",
+      "county": "Johnson",
+      "verified": false
+    },
+    {
+      "id": "org-corning-library",
+      "name": "Clay County / Corning library — verify",
+      "org_type": "library",
+      "city": "Corning",
+      "county": "Clay",
+      "verified": false
+    },
+    {
+      "id": "org-corning-chamber",
+      "name": "Corning Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Corning",
+      "county": "Clay",
+      "verified": false
+    },
+    {
+      "id": "org-corning-vfd",
+      "name": "Corning VFD — verify",
+      "org_type": "vfd",
+      "city": "Corning",
+      "county": "Clay",
+      "verified": false
+    },
+    {
+      "id": "org-dermott-library",
+      "name": "Chicot County / Dermott library — verify",
+      "org_type": "library",
+      "city": "Dermott",
+      "county": "Chicot",
+      "verified": false
+    },
+    {
+      "id": "org-dermott-chamber",
+      "name": "Dermott Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Dermott",
+      "county": "Chicot",
+      "verified": false
+    },
+    {
+      "id": "org-dermott-vfd",
+      "name": "Dermott VFD — verify",
+      "org_type": "vfd",
+      "city": "Dermott",
+      "county": "Chicot",
+      "verified": false
+    },
+    {
+      "id": "org-de-queen-library",
+      "name": "Sevier County / De Queen library — verify",
+      "org_type": "library",
+      "city": "De Queen",
+      "county": "Sevier",
+      "verified": false
+    },
+    {
+      "id": "org-de-queen-chamber",
+      "name": "De Queen Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "De Queen",
+      "county": "Sevier",
+      "verified": false
+    },
+    {
+      "id": "org-de-queen-vfd",
+      "name": "De Queen VFD — verify",
+      "org_type": "vfd",
+      "city": "De Queen",
+      "county": "Sevier",
+      "verified": false
+    },
+    {
+      "id": "org-dumas-library",
+      "name": "Desha County / Dumas library — verify",
+      "org_type": "library",
+      "city": "Dumas",
+      "county": "Desha",
+      "verified": false
+    },
+    {
+      "id": "org-dumas-chamber",
+      "name": "Dumas Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Dumas",
+      "county": "Desha",
+      "verified": false
+    },
+    {
+      "id": "org-dumas-vfd",
+      "name": "Dumas VFD — verify",
+      "org_type": "vfd",
+      "city": "Dumas",
+      "county": "Desha",
+      "verified": false
+    },
+    {
+      "id": "org-earle-library",
+      "name": "Crittenden County / Earle library — verify",
+      "org_type": "library",
+      "city": "Earle",
+      "county": "Crittenden",
+      "verified": false
+    },
+    {
+      "id": "org-earle-chamber",
+      "name": "Earle Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Earle",
+      "county": "Crittenden",
+      "verified": false
+    },
+    {
+      "id": "org-earle-vfd",
+      "name": "Earle VFD — verify",
+      "org_type": "vfd",
+      "city": "Earle",
+      "county": "Crittenden",
+      "verified": false
+    },
+    {
+      "id": "org-eudora-library",
+      "name": "Chicot County / Eudora library — verify",
+      "org_type": "library",
+      "city": "Eudora",
+      "county": "Chicot",
+      "verified": false
+    },
+    {
+      "id": "org-eudora-chamber",
+      "name": "Eudora Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Eudora",
+      "county": "Chicot",
+      "verified": false
+    },
+    {
+      "id": "org-eudora-vfd",
+      "name": "Eudora VFD — verify",
+      "org_type": "vfd",
+      "city": "Eudora",
+      "county": "Chicot",
+      "verified": false
+    },
+    {
+      "id": "org-fordyce-library",
+      "name": "Dallas County / Fordyce library — verify",
+      "org_type": "library",
+      "city": "Fordyce",
+      "county": "Dallas",
+      "verified": false
+    },
+    {
+      "id": "org-fordyce-chamber",
+      "name": "Fordyce Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Fordyce",
+      "county": "Dallas",
+      "verified": false
+    },
+    {
+      "id": "org-fordyce-vfd",
+      "name": "Fordyce VFD — verify",
+      "org_type": "vfd",
+      "city": "Fordyce",
+      "county": "Dallas",
+      "verified": false
+    },
+    {
+      "id": "org-gentry-library",
+      "name": "Benton County / Gentry library — verify",
+      "org_type": "library",
+      "city": "Gentry",
+      "county": "Benton",
+      "verified": false
+    },
+    {
+      "id": "org-gentry-chamber",
+      "name": "Gentry Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Gentry",
+      "county": "Benton",
+      "verified": false
+    },
+    {
+      "id": "org-gentry-vfd",
+      "name": "Gentry VFD — verify",
+      "org_type": "vfd",
+      "city": "Gentry",
+      "county": "Benton",
+      "verified": false
+    },
+    {
+      "id": "org-gosnell-library",
+      "name": "Mississippi County / Gosnell library — verify",
+      "org_type": "library",
+      "city": "Gosnell",
+      "county": "Mississippi",
+      "verified": false
+    },
+    {
+      "id": "org-gosnell-chamber",
+      "name": "Gosnell Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Gosnell",
+      "county": "Mississippi",
+      "verified": false
+    },
+    {
+      "id": "org-gosnell-vfd",
+      "name": "Gosnell VFD — verify",
+      "org_type": "vfd",
+      "city": "Gosnell",
+      "county": "Mississippi",
+      "verified": false
+    },
+    {
+      "id": "org-gravette-library",
+      "name": "Benton County / Gravette library — verify",
+      "org_type": "library",
+      "city": "Gravette",
+      "county": "Benton",
+      "verified": false
+    },
+    {
+      "id": "org-gravette-chamber",
+      "name": "Gravette Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Gravette",
+      "county": "Benton",
+      "verified": false
+    },
+    {
+      "id": "org-gravette-vfd",
+      "name": "Gravette VFD — verify",
+      "org_type": "vfd",
+      "city": "Gravette",
+      "county": "Benton",
+      "verified": false
+    },
+    {
+      "id": "org-greenwood-library",
+      "name": "Sebastian County / Greenwood library — verify",
+      "org_type": "library",
+      "city": "Greenwood",
+      "county": "Sebastian",
+      "verified": false
+    },
+    {
+      "id": "org-greenwood-chamber",
+      "name": "Greenwood Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Greenwood",
+      "county": "Sebastian",
+      "verified": false
+    },
+    {
+      "id": "org-greenwood-vfd",
+      "name": "Greenwood VFD — verify",
+      "org_type": "vfd",
+      "city": "Greenwood",
+      "county": "Sebastian",
+      "verified": false
+    },
+    {
+      "id": "org-gurdon-library",
+      "name": "Clark County / Gurdon library — verify",
+      "org_type": "library",
+      "city": "Gurdon",
+      "county": "Clark",
+      "verified": false
+    },
+    {
+      "id": "org-gurdon-chamber",
+      "name": "Gurdon Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Gurdon",
+      "county": "Clark",
+      "verified": false
+    },
+    {
+      "id": "org-gurdon-vfd",
+      "name": "Gurdon VFD — verify",
+      "org_type": "vfd",
+      "city": "Gurdon",
+      "county": "Clark",
+      "verified": false
+    },
+    {
+      "id": "org-hamburg-library",
+      "name": "Ashley County / Hamburg library — verify",
+      "org_type": "library",
+      "city": "Hamburg",
+      "county": "Ashley",
+      "verified": false
+    },
+    {
+      "id": "org-hamburg-chamber",
+      "name": "Hamburg Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Hamburg",
+      "county": "Ashley",
+      "verified": false
+    },
+    {
+      "id": "org-hamburg-vfd",
+      "name": "Hamburg VFD — verify",
+      "org_type": "vfd",
+      "city": "Hamburg",
+      "county": "Ashley",
+      "verified": false
+    },
+    {
+      "id": "org-harrisburg-library",
+      "name": "Poinsett County / Harrisburg library — verify",
+      "org_type": "library",
+      "city": "Harrisburg",
+      "county": "Poinsett",
+      "verified": false
+    },
+    {
+      "id": "org-harrisburg-chamber",
+      "name": "Harrisburg Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Harrisburg",
+      "county": "Poinsett",
+      "verified": false
+    },
+    {
+      "id": "org-harrisburg-vfd",
+      "name": "Harrisburg VFD — verify",
+      "org_type": "vfd",
+      "city": "Harrisburg",
+      "county": "Poinsett",
+      "verified": false
+    },
+    {
+      "id": "org-hazen-library",
+      "name": "Prairie County / Hazen library — verify",
+      "org_type": "library",
+      "city": "Hazen",
+      "county": "Prairie",
+      "verified": false
+    },
+    {
+      "id": "org-hazen-chamber",
+      "name": "Hazen Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Hazen",
+      "county": "Prairie",
+      "verified": false
+    },
+    {
+      "id": "org-hazen-vfd",
+      "name": "Hazen VFD — verify",
+      "org_type": "vfd",
+      "city": "Hazen",
+      "county": "Prairie",
+      "verified": false
+    },
+    {
+      "id": "org-heber-springs-library",
+      "name": "Cleburne County / Heber Springs library — verify",
+      "org_type": "library",
+      "city": "Heber Springs",
+      "county": "Cleburne",
+      "verified": false
+    },
+    {
+      "id": "org-heber-springs-chamber",
+      "name": "Heber Springs Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Heber Springs",
+      "county": "Cleburne",
+      "verified": false
+    },
+    {
+      "id": "org-heber-springs-vfd",
+      "name": "Heber Springs VFD — verify",
+      "org_type": "vfd",
+      "city": "Heber Springs",
+      "county": "Cleburne",
+      "verified": false
+    },
+    {
+      "id": "org-helena-west-helena-library",
+      "name": "Phillips County / Helena-West Helena library — verify",
+      "org_type": "library",
+      "city": "Helena-West Helena",
+      "county": "Phillips",
+      "verified": false
+    },
+    {
+      "id": "org-helena-west-helena-chamber",
+      "name": "Helena-West Helena Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Helena-West Helena",
+      "county": "Phillips",
+      "verified": false
+    },
+    {
+      "id": "org-helena-west-helena-vfd",
+      "name": "Helena-West Helena VFD — verify",
+      "org_type": "vfd",
+      "city": "Helena-West Helena",
+      "county": "Phillips",
+      "verified": false
+    },
+    {
+      "id": "org-hope-library",
+      "name": "Hempstead County / Hope library — verify",
+      "org_type": "library",
+      "city": "Hope",
+      "county": "Hempstead",
+      "verified": false
+    },
+    {
+      "id": "org-hope-chamber",
+      "name": "Hope Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Hope",
+      "county": "Hempstead",
+      "verified": false
+    },
+    {
+      "id": "org-hope-vfd",
+      "name": "Hope VFD — verify",
+      "org_type": "vfd",
+      "city": "Hope",
+      "county": "Hempstead",
+      "verified": false
+    },
+    {
+      "id": "org-huntsville-library",
+      "name": "Madison County / Huntsville library — verify",
+      "org_type": "library",
+      "city": "Huntsville",
+      "county": "Madison",
+      "verified": false
+    },
+    {
+      "id": "org-huntsville-chamber",
+      "name": "Huntsville Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Huntsville",
+      "county": "Madison",
+      "verified": false
+    },
+    {
+      "id": "org-huntsville-vfd",
+      "name": "Huntsville VFD — verify",
+      "org_type": "vfd",
+      "city": "Huntsville",
+      "county": "Madison",
+      "verified": false
+    },
+    {
+      "id": "org-lake-village-library",
+      "name": "Chicot County / Lake Village library — verify",
+      "org_type": "library",
+      "city": "Lake Village",
+      "county": "Chicot",
+      "verified": false
+    },
+    {
+      "id": "org-lake-village-chamber",
+      "name": "Lake Village Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Lake Village",
+      "county": "Chicot",
+      "verified": false
+    },
+    {
+      "id": "org-lake-village-vfd",
+      "name": "Lake Village VFD — verify",
+      "org_type": "vfd",
+      "city": "Lake Village",
+      "county": "Chicot",
+      "verified": false
+    },
+    {
+      "id": "org-lincoln-library",
+      "name": "Washington County / Lincoln library — verify",
+      "org_type": "library",
+      "city": "Lincoln",
+      "county": "Washington",
+      "verified": false
+    },
+    {
+      "id": "org-lincoln-chamber",
+      "name": "Lincoln Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Lincoln",
+      "county": "Washington",
+      "verified": false
+    },
+    {
+      "id": "org-lincoln-vfd",
+      "name": "Lincoln VFD — verify",
+      "org_type": "vfd",
+      "city": "Lincoln",
+      "county": "Washington",
+      "verified": false
+    },
+    {
+      "id": "org-magnolia-library",
+      "name": "Columbia County / Magnolia library — verify",
+      "org_type": "library",
+      "city": "Magnolia",
+      "county": "Columbia",
+      "verified": false
+    },
+    {
+      "id": "org-magnolia-chamber",
+      "name": "Magnolia Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Magnolia",
+      "county": "Columbia",
+      "verified": false
+    },
+    {
+      "id": "org-magnolia-vfd",
+      "name": "Magnolia VFD — verify",
+      "org_type": "vfd",
+      "city": "Magnolia",
+      "county": "Columbia",
+      "verified": false
+    },
+    {
+      "id": "org-malvern-library",
+      "name": "Hot Spring County / Malvern library — verify",
+      "org_type": "library",
+      "city": "Malvern",
+      "county": "Hot Spring",
+      "verified": false
+    },
+    {
+      "id": "org-malvern-chamber",
+      "name": "Malvern Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Malvern",
+      "county": "Hot Spring",
+      "verified": false
+    },
+    {
+      "id": "org-malvern-vfd",
+      "name": "Malvern VFD — verify",
+      "org_type": "vfd",
+      "city": "Malvern",
+      "county": "Hot Spring",
+      "verified": false
+    },
+    {
+      "id": "org-marianna-library",
+      "name": "Lee County / Marianna library — verify",
+      "org_type": "library",
+      "city": "Marianna",
+      "county": "Lee",
+      "verified": false
+    },
+    {
+      "id": "org-marianna-chamber",
+      "name": "Marianna Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Marianna",
+      "county": "Lee",
+      "verified": false
+    },
+    {
+      "id": "org-marianna-vfd",
+      "name": "Marianna VFD — verify",
+      "org_type": "vfd",
+      "city": "Marianna",
+      "county": "Lee",
+      "verified": false
+    },
+    {
+      "id": "org-marked-tree-library",
+      "name": "Poinsett County / Marked Tree library — verify",
+      "org_type": "library",
+      "city": "Marked Tree",
+      "county": "Poinsett",
+      "verified": false
+    },
+    {
+      "id": "org-marked-tree-chamber",
+      "name": "Marked Tree Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Marked Tree",
+      "county": "Poinsett",
+      "verified": false
+    },
+    {
+      "id": "org-marked-tree-vfd",
+      "name": "Marked Tree VFD — verify",
+      "org_type": "vfd",
+      "city": "Marked Tree",
+      "county": "Poinsett",
+      "verified": false
+    },
+    {
+      "id": "org-mena-library",
+      "name": "Polk County / Mena library — verify",
+      "org_type": "library",
+      "city": "Mena",
+      "county": "Polk",
+      "verified": false
+    },
+    {
+      "id": "org-mena-chamber",
+      "name": "Mena Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Mena",
+      "county": "Polk",
+      "verified": false
+    },
+    {
+      "id": "org-mena-vfd",
+      "name": "Mena VFD — verify",
+      "org_type": "vfd",
+      "city": "Mena",
+      "county": "Polk",
+      "verified": false
+    },
+    {
+      "id": "org-monticello-library",
+      "name": "Drew County / Monticello library — verify",
+      "org_type": "library",
+      "city": "Monticello",
+      "county": "Drew",
+      "verified": false
+    },
+    {
+      "id": "org-monticello-chamber",
+      "name": "Monticello Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Monticello",
+      "county": "Drew",
+      "verified": false
+    },
+    {
+      "id": "org-monticello-vfd",
+      "name": "Monticello VFD — verify",
+      "org_type": "vfd",
+      "city": "Monticello",
+      "county": "Drew",
+      "verified": false
+    },
+    {
+      "id": "org-morrilton-library",
+      "name": "Conway County / Morrilton library — verify",
+      "org_type": "library",
+      "city": "Morrilton",
+      "county": "Conway",
+      "verified": false
+    },
+    {
+      "id": "org-morrilton-chamber",
+      "name": "Morrilton Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Morrilton",
+      "county": "Conway",
+      "verified": false
+    },
+    {
+      "id": "org-morrilton-vfd",
+      "name": "Morrilton VFD — verify",
+      "org_type": "vfd",
+      "city": "Morrilton",
+      "county": "Conway",
+      "verified": false
+    },
+    {
+      "id": "org-mountain-home-library",
+      "name": "Baxter County / Mountain Home library — verify",
+      "org_type": "library",
+      "city": "Mountain Home",
+      "county": "Baxter",
+      "verified": false
+    },
+    {
+      "id": "org-mountain-home-chamber",
+      "name": "Mountain Home Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Mountain Home",
+      "county": "Baxter",
+      "verified": false
+    },
+    {
+      "id": "org-mountain-home-vfd",
+      "name": "Mountain Home VFD — verify",
+      "org_type": "vfd",
+      "city": "Mountain Home",
+      "county": "Baxter",
+      "verified": false
+    },
+    {
+      "id": "org-nashville-library",
+      "name": "Howard County / Nashville library — verify",
+      "org_type": "library",
+      "city": "Nashville",
+      "county": "Howard",
+      "verified": false
+    },
+    {
+      "id": "org-nashville-chamber",
+      "name": "Nashville Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Nashville",
+      "county": "Howard",
+      "verified": false
+    },
+    {
+      "id": "org-nashville-vfd",
+      "name": "Nashville VFD — verify",
+      "org_type": "vfd",
+      "city": "Nashville",
+      "county": "Howard",
+      "verified": false
+    },
+    {
+      "id": "org-newport-library",
+      "name": "Jackson County / Newport library — verify",
+      "org_type": "library",
+      "city": "Newport",
+      "county": "Jackson",
+      "verified": false
+    },
+    {
+      "id": "org-newport-chamber",
+      "name": "Newport Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Newport",
+      "county": "Jackson",
+      "verified": false
+    },
+    {
+      "id": "org-newport-vfd",
+      "name": "Newport VFD — verify",
+      "org_type": "vfd",
+      "city": "Newport",
+      "county": "Jackson",
+      "verified": false
+    },
+    {
+      "id": "org-osceola-library",
+      "name": "Mississippi County / Osceola library — verify",
+      "org_type": "library",
+      "city": "Osceola",
+      "county": "Mississippi",
+      "verified": false
+    },
+    {
+      "id": "org-osceola-chamber",
+      "name": "Osceola Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Osceola",
+      "county": "Mississippi",
+      "verified": false
+    },
+    {
+      "id": "org-osceola-vfd",
+      "name": "Osceola VFD — verify",
+      "org_type": "vfd",
+      "city": "Osceola",
+      "county": "Mississippi",
+      "verified": false
+    },
+    {
+      "id": "org-paris-library",
+      "name": "Logan County / Paris library — verify",
+      "org_type": "library",
+      "city": "Paris",
+      "county": "Logan",
+      "verified": false
+    },
+    {
+      "id": "org-paris-chamber",
+      "name": "Paris Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Paris",
+      "county": "Logan",
+      "verified": false
+    },
+    {
+      "id": "org-paris-vfd",
+      "name": "Paris VFD — verify",
+      "org_type": "vfd",
+      "city": "Paris",
+      "county": "Logan",
+      "verified": false
+    },
+    {
+      "id": "org-pea-ridge-library",
+      "name": "Benton County / Pea Ridge library — verify",
+      "org_type": "library",
+      "city": "Pea Ridge",
+      "county": "Benton",
+      "verified": false
+    },
+    {
+      "id": "org-pea-ridge-chamber",
+      "name": "Pea Ridge Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Pea Ridge",
+      "county": "Benton",
+      "verified": false
+    },
+    {
+      "id": "org-pea-ridge-vfd",
+      "name": "Pea Ridge VFD — verify",
+      "org_type": "vfd",
+      "city": "Pea Ridge",
+      "county": "Benton",
+      "verified": false
+    },
+    {
+      "id": "org-piggott-library",
+      "name": "Clay County / Piggott library — verify",
+      "org_type": "library",
+      "city": "Piggott",
+      "county": "Clay",
+      "verified": false
+    },
+    {
+      "id": "org-piggott-chamber",
+      "name": "Piggott Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Piggott",
+      "county": "Clay",
+      "verified": false
+    },
+    {
+      "id": "org-piggott-vfd",
+      "name": "Piggott VFD — verify",
+      "org_type": "vfd",
+      "city": "Piggott",
+      "county": "Clay",
+      "verified": false
+    },
+    {
+      "id": "org-pocahontas-library",
+      "name": "Randolph County / Pocahontas library — verify",
+      "org_type": "library",
+      "city": "Pocahontas",
+      "county": "Randolph",
+      "verified": false
+    },
+    {
+      "id": "org-pocahontas-chamber",
+      "name": "Pocahontas Chamber of Commerce — verify",
+      "org_type": "chamber",
+      "city": "Pocahontas",
+      "county": "Randolph",
+      "verified": false
+    },
+    {
+      "id": "org-pocahontas-vfd",
+      "name": "Pocahontas VFD — verify",
+      "org_type": "vfd",
+      "city": "Pocahontas",
+      "county": "Randolph",
+      "verified": false
+    },
+    {
+      "id": "org-pulaski-county-hospital-scaffold",
+      "name": "Pulaski County hospital / clinic — verify",
+      "org_type": "hospital",
+      "city": "Little Rock",
+      "county": "Pulaski",
+      "verified": false
+    },
+    {
+      "id": "org-sebastian-county-hospital-scaffold",
+      "name": "Sebastian County hospital / clinic — verify",
+      "org_type": "hospital",
+      "city": "Fort Smith",
+      "county": "Sebastian",
+      "verified": false
+    },
+    {
+      "id": "org-washington-county-hospital-scaffold",
+      "name": "Washington County hospital / clinic — verify",
+      "org_type": "hospital",
+      "city": "Fayetteville",
+      "county": "Washington",
+      "verified": false
+    },
+    {
+      "id": "org-craighead-county-hospital-scaffold",
+      "name": "Craighead County hospital / clinic — verify",
+      "org_type": "hospital",
+      "city": "Jonesboro",
+      "county": "Craighead",
+      "verified": false
+    },
+    {
+      "id": "org-benton-county-hospital-scaffold",
+      "name": "Benton County hospital / clinic — verify",
+      "org_type": "hospital",
+      "city": "Rogers",
+      "county": "Benton",
+      "verified": false
+    },
+    {
+      "id": "org-faulkner-county-hospital-scaffold",
+      "name": "Faulkner County hospital / clinic — verify",
+      "org_type": "hospital",
+      "city": "Conway",
+      "county": "Faulkner",
+      "verified": false
+    },
+    {
+      "id": "org-jefferson-county-hospital-scaffold",
+      "name": "Jefferson County hospital / clinic — verify",
+      "org_type": "hospital",
+      "city": "Pine Bluff",
+      "county": "Jefferson",
+      "verified": false
+    },
+    {
+      "id": "org-garland-county-hospital-scaffold",
+      "name": "Garland County hospital / clinic — verify",
+      "org_type": "hospital",
+      "city": "Hot Springs",
+      "county": "Garland",
+      "verified": false
+    },
+    {
+      "id": "org-saline-county-hospital-scaffold",
+      "name": "Saline County hospital / clinic — verify",
+      "org_type": "hospital",
+      "city": "Benton",
+      "county": "Saline",
+      "verified": false
+    },
+    {
+      "id": "org-miller-county-hospital-scaffold",
+      "name": "Miller County hospital / clinic — verify",
+      "org_type": "hospital",
+      "city": "Texarkana",
+      "county": "Miller",
+      "verified": false
+    },
+    {
+      "id": "org-pope-county-hospital-scaffold",
+      "name": "Pope County hospital / clinic — verify",
+      "org_type": "hospital",
+      "city": "Russellville",
+      "county": "Pope",
+      "verified": false
+    },
+    {
+      "id": "org-greene-county-hospital-scaffold",
+      "name": "Greene County hospital / clinic — verify",
+      "org_type": "hospital",
+      "city": "Paragould",
+      "county": "Greene",
+      "verified": false
+    },
+    {
+      "id": "org-lonoke-county-hospital-scaffold",
+      "name": "Lonoke County hospital / clinic — verify",
+      "org_type": "hospital",
+      "city": "Cabot",
+      "county": "Lonoke",
+      "verified": false
+    },
+    {
+      "id": "org-white-county-hospital-scaffold",
+      "name": "White County hospital / clinic — verify",
+      "org_type": "hospital",
+      "city": "Searcy",
+      "county": "White",
+      "verified": false
+    },
+    {
+      "id": "org-crawford-county-hospital-scaffold",
+      "name": "Crawford County hospital / clinic — verify",
+      "org_type": "hospital",
+      "city": "Van Buren",
+      "county": "Crawford",
+      "verified": false
+    },
+    {
+      "id": "org-union-county-hospital-scaffold",
+      "name": "Union County hospital / clinic — verify",
+      "org_type": "hospital",
+      "city": "El Dorado",
+      "county": "Union",
+      "verified": false
+    },
+    {
+      "id": "org-conway-county-hospital-scaffold",
+      "name": "Conway County hospital / clinic — verify",
+      "org_type": "hospital",
+      "city": "Morrilton",
+      "county": "Conway",
+      "verified": false
+    },
+    {
+      "id": "org-columbia-county-hospital-scaffold",
+      "name": "Columbia County hospital / clinic — verify",
+      "org_type": "hospital",
+      "city": "Magnolia",
+      "county": "Columbia",
+      "verified": false
+    },
+    {
+      "id": "org-baxter-county-hospital-scaffold",
+      "name": "Baxter County hospital / clinic — verify",
+      "org_type": "hospital",
+      "city": "Mountain Home",
+      "county": "Baxter",
+      "verified": false
+    },
+    {
+      "id": "org-boone-county-hospital-scaffold",
+      "name": "Boone County hospital / clinic — verify",
+      "org_type": "hospital",
+      "city": "Harrison",
+      "county": "Boone",
+      "verified": false
+    },
+    {
+      "id": "org-mississippi-county-hospital-scaffold",
+      "name": "Mississippi County hospital / clinic — verify",
+      "org_type": "hospital",
+      "city": "Blytheville",
+      "county": "Mississippi",
+      "verified": false
+    },
+    {
+      "id": "org-st-francis-county-hospital-scaffold",
+      "name": "St. Francis County hospital / clinic — verify",
+      "org_type": "hospital",
+      "city": "Forrest City",
+      "county": "St. Francis",
+      "verified": false
+    },
+    {
+      "id": "org-ouachita-county-hospital-scaffold",
+      "name": "Ouachita County hospital / clinic — verify",
+      "org_type": "hospital",
+      "city": "Camden",
+      "county": "Ouachita",
+      "verified": false
+    },
+    {
+      "id": "org-clark-county-hospital-scaffold",
+      "name": "Clark County hospital / clinic — verify",
+      "org_type": "hospital",
+      "city": "Arkadelphia",
+      "county": "Clark",
+      "verified": false
+    },
+    {
+      "id": "org-hot-spring-county-hospital-scaffold",
+      "name": "Hot Spring County hospital / clinic — verify",
+      "org_type": "hospital",
+      "city": "Malvern",
+      "county": "Hot Spring",
+      "verified": false
+    },
+    {
+      "id": "org-independence-county-hospital-scaffold",
+      "name": "Independence County hospital / clinic — verify",
+      "org_type": "hospital",
+      "city": "Batesville",
+      "county": "Independence",
+      "verified": false
+    },
+    {
+      "id": "org-phillips-county-hospital-scaffold",
+      "name": "Phillips County hospital / clinic — verify",
+      "org_type": "hospital",
+      "city": "Helena-West Helena",
+      "county": "Phillips",
+      "verified": false
+    },
+    {
+      "id": "org-hempstead-county-hospital-scaffold",
+      "name": "Hempstead County hospital / clinic — verify",
+      "org_type": "hospital",
+      "city": "Hope",
+      "county": "Hempstead",
+      "verified": false
+    },
+    {
+      "id": "org-drew-county-hospital-scaffold",
+      "name": "Drew County hospital / clinic — verify",
+      "org_type": "hospital",
+      "city": "Monticello",
+      "county": "Drew",
+      "verified": false
+    },
+    {
+      "id": "org-arkansas-county-hospital-scaffold",
+      "name": "Arkansas County hospital / clinic — verify",
+      "org_type": "hospital",
+      "city": "Stuttgart",
+      "county": "Arkansas",
+      "verified": false
+    },
+    {
+      "id": "org-crittenden-county-hospital-scaffold",
+      "name": "Crittenden County hospital / clinic — verify",
+      "org_type": "hospital",
+      "city": "West Memphis",
+      "county": "Crittenden",
+      "verified": false
+    },
+    {
+      "id": "org-johnson-county-hospital-scaffold",
+      "name": "Johnson County hospital / clinic — verify",
+      "org_type": "hospital",
+      "city": "Clarksville",
+      "county": "Johnson",
+      "verified": false
+    },
+    {
+      "id": "org-franklin-county-hospital-scaffold",
+      "name": "Franklin County hospital / clinic — verify",
+      "org_type": "hospital",
+      "city": "Ozark",
+      "county": "Franklin",
+      "verified": false
+    },
+    {
+      "id": "org-stone-county-hospital-scaffold",
+      "name": "Stone County hospital / clinic — verify",
+      "org_type": "hospital",
+      "city": "Mountain View",
+      "county": "Stone",
+      "verified": false
+    },
+    {
+      "id": "org-cross-county-hospital-scaffold",
+      "name": "Cross County hospital / clinic — verify",
+      "org_type": "hospital",
+      "city": "Wynne",
+      "county": "Cross",
+      "verified": false
+    },
+    {
+      "id": "org-cleburne-county-hospital-scaffold",
+      "name": "Cleburne County hospital / clinic — verify",
+      "org_type": "hospital",
+      "city": "Heber Springs",
+      "county": "Cleburne",
+      "verified": false
+    },
+    {
+      "id": "org-carroll-county-hospital-scaffold",
+      "name": "Carroll County hospital / clinic — verify",
+      "org_type": "hospital",
+      "city": "Berryville",
+      "county": "Carroll",
+      "verified": false
+    },
+    {
+      "id": "org-van-buren-county-hospital-scaffold",
+      "name": "Van Buren County hospital / clinic — verify",
+      "org_type": "hospital",
+      "city": "Clinton",
+      "county": "Van Buren",
+      "verified": false
+    },
+    {
+      "id": "org-polk-county-hospital-scaffold",
+      "name": "Polk County hospital / clinic — verify",
+      "org_type": "hospital",
+      "city": "Mena",
+      "county": "Polk",
+      "verified": false
+    },
+    {
+      "id": "org-sevier-county-hospital-scaffold",
+      "name": "Sevier County hospital / clinic — verify",
+      "org_type": "hospital",
+      "city": "De Queen",
+      "county": "Sevier",
+      "verified": false
+    },
+    {
+      "id": "org-little-river-county-hospital-scaffold",
+      "name": "Little River County hospital / clinic — verify",
+      "org_type": "hospital",
+      "city": "Ashdown",
+      "county": "Little River",
+      "verified": false
+    },
+    {
+      "id": "org-howard-county-hospital-scaffold",
+      "name": "Howard County hospital / clinic — verify",
+      "org_type": "hospital",
+      "city": "Nashville",
+      "county": "Howard",
+      "verified": false
+    },
+    {
+      "id": "org-desha-county-hospital-scaffold",
+      "name": "Desha County hospital / clinic — verify",
+      "org_type": "hospital",
+      "city": "Dumas",
+      "county": "Desha",
+      "verified": false
+    },
+    {
+      "id": "org-bradley-county-hospital-scaffold",
+      "name": "Bradley County hospital / clinic — verify",
+      "org_type": "hospital",
+      "city": "Warren",
+      "county": "Bradley",
+      "verified": false
+    },
+    {
+      "id": "org-ashley-county-hospital-scaffold",
+      "name": "Ashley County hospital / clinic — verify",
+      "org_type": "hospital",
+      "city": "Crossett",
+      "county": "Ashley",
+      "verified": false
+    },
+    {
+      "id": "org-poinsett-county-hospital-scaffold",
+      "name": "Poinsett County hospital / clinic — verify",
+      "org_type": "hospital",
+      "city": "Trumann",
+      "county": "Poinsett",
+      "verified": false
+    },
+    {
+      "id": "org-lawrence-county-hospital-scaffold",
+      "name": "Lawrence County hospital / clinic — verify",
+      "org_type": "hospital",
+      "city": "Walnut Ridge",
+      "county": "Lawrence",
+      "verified": false
+    },
+    {
+      "id": "org-clay-county-hospital-scaffold",
+      "name": "Clay County hospital / clinic — verify",
+      "org_type": "hospital",
+      "city": "Corning",
+      "county": "Clay",
+      "verified": false
+    },
+    {
+      "id": "org-sharp-county-hospital-scaffold",
+      "name": "Sharp County hospital / clinic — verify",
+      "org_type": "hospital",
+      "city": "Hardy",
+      "county": "Sharp",
+      "verified": false
+    },
+    {
+      "id": "org-izard-county-hospital-scaffold",
+      "name": "Izard County hospital / clinic — verify",
+      "org_type": "hospital",
+      "city": "Horseshoe Bend",
+      "county": "Izard",
+      "verified": false
+    },
+    {
+      "id": "org-prairie-county-hospital-scaffold",
+      "name": "Prairie County hospital / clinic — verify",
+      "org_type": "hospital",
+      "city": "Hazen",
+      "county": "Prairie",
+      "verified": false
+    },
+    {
+      "id": "org-woodruff-county-hospital-scaffold",
+      "name": "Woodruff County hospital / clinic — verify",
+      "org_type": "hospital",
+      "city": "Augusta",
+      "county": "Woodruff",
+      "verified": false
+    },
+    {
+      "id": "org-jackson-county-hospital-scaffold",
+      "name": "Jackson County hospital / clinic — verify",
+      "org_type": "hospital",
+      "city": "Newport",
+      "county": "Jackson",
+      "verified": false
+    },
+    {
+      "id": "org-chicot-county-hospital-scaffold",
+      "name": "Chicot County hospital / clinic — verify",
+      "org_type": "hospital",
+      "city": "Dermott",
+      "county": "Chicot",
+      "verified": false
+    },
+    {
+      "id": "org-dallas-county-hospital-scaffold",
+      "name": "Dallas County hospital / clinic — verify",
+      "org_type": "hospital",
+      "city": "Fordyce",
+      "county": "Dallas",
+      "verified": false
+    },
+    {
+      "id": "org-nevada-county-hospital-scaffold",
+      "name": "Nevada County hospital / clinic — verify",
+      "org_type": "hospital",
+      "city": "Prescott",
+      "county": "Nevada",
+      "verified": false
+    },
+    {
+      "id": "org-pike-county-hospital-scaffold",
+      "name": "Pike County hospital / clinic — verify",
+      "org_type": "hospital",
+      "city": "Glenwood",
+      "county": "Pike",
+      "verified": false
+    },
+    {
+      "id": "org-fulton-county-hospital-scaffold",
+      "name": "Fulton County hospital / clinic — verify",
+      "org_type": "hospital",
+      "city": "Salem",
+      "county": "Fulton",
+      "verified": false
+    },
+    {
+      "id": "org-marion-county-hospital-scaffold",
+      "name": "Marion County hospital / clinic — verify",
+      "org_type": "hospital",
+      "city": "Yellville",
+      "county": "Marion",
+      "verified": false
+    },
+    {
+      "id": "org-newton-county-hospital-scaffold",
+      "name": "Newton County hospital / clinic — verify",
+      "org_type": "hospital",
+      "city": "Jasper",
+      "county": "Newton",
+      "verified": false
+    },
+    {
+      "id": "org-madison-county-hospital-scaffold",
+      "name": "Madison County hospital / clinic — verify",
+      "org_type": "hospital",
+      "city": "Huntsville",
+      "county": "Madison",
+      "verified": false
+    },
+    {
+      "id": "org-logan-county-hospital-scaffold",
+      "name": "Logan County hospital / clinic — verify",
+      "org_type": "hospital",
+      "city": "Paris",
+      "county": "Logan",
+      "verified": false
+    },
+    {
+      "id": "org-yell-county-hospital-scaffold",
+      "name": "Yell County hospital / clinic — verify",
+      "org_type": "hospital",
+      "city": "Danville",
+      "county": "Yell",
+      "verified": false
+    },
+    {
+      "id": "org-perry-county-hospital-scaffold",
+      "name": "Perry County hospital / clinic — verify",
+      "org_type": "hospital",
+      "city": "Perryville",
+      "county": "Perry",
+      "verified": false
+    },
+    {
+      "id": "org-searcy-county-hospital-scaffold",
+      "name": "Searcy County hospital / clinic — verify",
+      "org_type": "hospital",
+      "city": "Marshall",
+      "county": "Searcy",
+      "verified": false
+    },
+    {
+      "id": "org-lafayette-county-hospital-scaffold",
+      "name": "Lafayette County hospital / clinic — verify",
+      "org_type": "hospital",
+      "city": "Lewisville",
+      "county": "Lafayette",
+      "verified": false
+    },
+    {
+      "id": "org-lincoln-county-hospital-scaffold",
+      "name": "Lincoln County hospital / clinic — verify",
+      "org_type": "hospital",
+      "city": "Gould",
+      "county": "Lincoln",
+      "verified": false
+    },
+    {
+      "id": "org-monroe-county-hospital-scaffold",
+      "name": "Monroe County hospital / clinic — verify",
+      "org_type": "hospital",
+      "city": "Brinkley",
+      "county": "Monroe",
+      "verified": false
+    },
+    {
+      "id": "org-lee-county-hospital-scaffold",
+      "name": "Lee County hospital / clinic — verify",
+      "org_type": "hospital",
+      "city": "Marianna",
+      "county": "Lee",
+      "verified": false
+    },
+    {
+      "id": "org-randolph-county-hospital-scaffold",
+      "name": "Randolph County hospital / clinic — verify",
+      "org_type": "hospital",
+      "city": "Pocahontas",
+      "county": "Randolph",
+      "verified": false
+    }
+  ]
+}

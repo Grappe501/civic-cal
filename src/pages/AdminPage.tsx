@@ -10,9 +10,10 @@ import { AdminCampaignWorkspacesPanel } from "../components/admin/AdminCampaignW
 
 import { AdminEventDossiersPanel } from "../components/admin/AdminEventDossiersPanel";
 
+import { AdminVolunteerRecruitmentPanel } from "../components/admin/AdminVolunteerRecruitmentPanel";
 import { AdminLocalIntelligencePanel } from "../components/admin/AdminLocalIntelligencePanel";
 
-type Tab = "pending" | "map" | "intelligence" | "dossiers" | "local_intel" | "campaigns";
+type Tab = "pending" | "map" | "intelligence" | "dossiers" | "local_intel" | "campaigns" | "volunteers";
 
 export function AdminPage() {
   const [token, setToken] = useState(() => sessionStorage.getItem("civic-admin-token") ?? "");
@@ -24,7 +25,7 @@ export function AdminPage() {
 
   async function load(t: string, activeTab: Tab = tab) {
     try {
-      if (activeTab !== "intelligence" && activeTab !== "campaigns" && activeTab !== "dossiers" && activeTab !== "local_intel") {
+      if (activeTab !== "intelligence" && activeTab !== "campaigns" && activeTab !== "dossiers" && activeTab !== "local_intel" && activeTab !== "volunteers") {
         const data =
           activeTab === "map" ? await fetchAdminMapReview(t) : await fetchAdminEvents(t, "pending");
         setEvents(data);
@@ -87,7 +88,7 @@ export function AdminPage() {
   return (
     <div className="mx-auto max-w-4xl px-4 py-10">
       <div className="flex flex-wrap gap-2 mb-6">
-        {(["pending", "map", "intelligence", "dossiers", "local_intel", "campaigns"] as Tab[]).map((t) => (
+        {(["pending", "map", "intelligence", "dossiers", "local_intel", "campaigns", "volunteers"] as Tab[]).map((t) => (
           <button
             key={t}
             type="button"
@@ -104,7 +105,9 @@ export function AdminPage() {
                     ? "Event Dossiers"
                     : t === "local_intel"
                       ? "Local Intelligence"
-                      : "Campaign workspaces"}
+                      : t === "campaigns"
+                        ? "Campaign workspaces"
+                        : "Volunteer recruitment"}
           </button>
         ))}
       </div>
@@ -127,8 +130,10 @@ export function AdminPage() {
                 : tab === "local_intel"
                   ? "Local Intelligence"
                   : tab === "campaigns"
-                  ? "Campaign workspaces"
-                  : `Map review (${events.length})`}
+                    ? "Campaign workspaces"
+                    : tab === "volunteers"
+                      ? "Volunteer recruitment"
+                      : `Map review (${events.length})`}
       </h1>
 
       {tab === "intelligence" ? (
@@ -146,6 +151,10 @@ export function AdminPage() {
       ) : tab === "campaigns" ? (
         <div className="mt-6">
           <AdminCampaignWorkspacesPanel token={token} />
+        </div>
+      ) : tab === "volunteers" ? (
+        <div className="mt-6">
+          <AdminVolunteerRecruitmentPanel token={token} />
         </div>
       ) : (
       <div className="mt-6 space-y-4">

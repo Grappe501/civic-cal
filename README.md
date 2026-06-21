@@ -142,10 +142,54 @@ Reusable campaign workspaces with personalized branding, district scope, and eve
 
 Campaign dashboards can mark events as attending, surrogate, or volunteer-needed — and **choose public visibility** on the live calendar.
 
-### Public vs private plans
+## Volunteer Recruitment Presence Layer (Pass 17)
+
+When a campaign marks **Need volunteers** and toggles **Advertise publicly**, the public calendar shows a volunteer-recruitment badge (icon + text, campaign-branded color).
+
+### Public vs private rules
+
+- Campaign plans stay **private** unless the campaign explicitly enables public visibility per event.
+- Volunteer badges appear only when `advertise_volunteers=true` **and** `needs_volunteers=true`.
+- Candidate-attending badges remain separate (visually distinct corner placement and icon).
+
+### Mobilize / signup URL behavior
+
+Click priority (outbound links only — no Mobilize API in this pass):
+
+1. Event **Mobilize event URL**
+2. Event **volunteer signup URL**
+3. Campaign **default volunteer signup URL**
+4. No URL → modal: “Signup link coming soon” / contact campaign
+
+**Library:** `src/lib/integrations/mobilizeLinks.ts` · `resolveVolunteerDestination()`, `getVolunteerBadgeLabel()`
+
+### Future Mobilize API
+
+- Workspace `mobilize_org_url` placeholder in seed JSON
+- `MOBILIZE_API_KEY` server-side only when integration is approved
+- This pass links outward only; no writes to Mobilize
+
+### Discovery
+
+- Chip: **Campaign volunteer opportunities** — events with at least one public volunteer ask
+- Map/explore **legend:** candidate attending · volunteers needed · surrogate · multiple watching
+
+### Admin
+
+`/admin` → **Volunteer recruitment** tab: campaigns advertising, events with asks, missing signup links.
+
+### Migration
+
+```bash
+# After applying 016_volunteer_recruitment_presence.sql via Supabase
+npm run stack:migrate   # if wired; else apply migration in Supabase dashboard
+```
+
+### Public vs private plans (Pass 9)
 
 - Plans default to **private** (`public_presence_status: private`)
-- Toggle `show_candidate_attending`, `show_volunteers_needed`, or `show_surrogate_attending` to display corner badges
+- Toggle `show_candidate_attending`, `show_surrogate_attending`, or volunteer **Advertise publicly** to display badges
+- Volunteer badges use `advertise_volunteers` (Pass 17); legacy `show_volunteers_needed` maps forward
 - Badges appear on homepage feed, map cards, and event detail pages
 
 ### Badge corners
@@ -406,6 +450,36 @@ Tables: `city_intelligence_dossiers`, `county_intelligence_dossiers`, `campaign_
 - Campaign-entered notes stored in localStorage (demo) until DB sync to `campaign_local_notes`
 - AI summarizer (`local-intelligence-ai` Netlify function): aggregate public data only; never infer individual voter preferences
 
-### Privacy rule
+### County Rollup 2.0 (Pass 12)
 
-Aggregate geography only. Dossiers describe communities, institutions, and election math — not individual voters or household-level targeting.
+County is the **primary intelligence object**; up to **250 city feeders** roll up into county dossiers.
+
+- Model: `State → County → Cities/Events/Institutions`
+- Generator: `npm run generate:local-intelligence` (250 feeders → 75 county rollups)
+- Route: `/campaigns/:slug/county/:countySlug` — full county brief with opportunity analysis
+- Vision & tiers: [`docs/CAMPAIGN_OS_VISION.md`](docs/CAMPAIGN_OS_VISION.md)
+
+## Discovery Layer 1.0 (Pass 13)
+
+Public discovery — personality modes, AI hero, giant chips, Explore map, Event Safari, Race Circuit.
+
+| Route | Experience |
+|-------|------------|
+| `/` | Discover home — "Arkansas is alive" |
+| `/explore` | Explore Arkansas + candidate presence on map |
+| `/safari` | Event Safari wizard |
+| `/races` | Arkansas Race Circuit (5K through triathlon) |
+
+Personality modes shift the whole UI: citizen, candidate, organizer, volunteer seeker.
+AI hero: **Ask Arkansas Everywhere…** with example prompts per mode.
+
+## Community Institutions Layer 1.0 (Pass 14)
+
+County as **community operating system** — not just events.
+
+- Registries: `data/institutions/` (churches, schools, colleges, civic orgs)
+- Generator: `npm run generate:institutions` (250 cities → ~300 churches, 250 schools, 18 colleges, 880 orgs scaffolds)
+- County brief: community strength, coverage %, institution directories, sports hub
+- Church Event Engine wired into harvest query builder
+- Docs: [`docs/COMMUNITY_INSTITUTIONS_LAYER.md`](docs/COMMUNITY_INSTITUTIONS_LAYER.md)
+- Migration: `supabase/migrations/013_community_institutions_layer.sql`

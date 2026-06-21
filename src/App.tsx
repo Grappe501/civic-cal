@@ -1,6 +1,9 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { Layout } from "./components/Layout";
 import { HomePage } from "./pages/HomePage";
+import { ExplorePage } from "./pages/ExplorePage";
+import { SafariPage } from "./pages/SafariPage";
+import { RaceCircuitPage } from "./pages/RaceCircuitPage";
 import { CountyPage, CountiesIndexPage } from "./pages/CountyPage";
 import { EventDetailPage } from "./pages/EventDetailPage";
 import { SubmitPage } from "./pages/SubmitPage";
@@ -23,6 +26,9 @@ export default function App() {
       <Layout>
         <Routes>
           <Route path="/" element={<HomePage />} />
+          <Route path="/explore" element={<ExplorePage />} />
+          <Route path="/safari" element={<SafariPage />} />
+          <Route path="/races" element={<RaceCircuitPage />} />
           <Route path="/submit" element={<SubmitPage />} />
           <Route path="/event/:slug" element={<EventDetailPage />} />
           <Route path="/counties" element={<CountiesIndexPage />} />

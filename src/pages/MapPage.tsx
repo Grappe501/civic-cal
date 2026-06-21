@@ -5,6 +5,7 @@ import { ArkansasEventMap } from "../components/maps/ArkansasEventMap";
 import { MapFilters, type MapFilterState } from "../components/maps/MapFilters";
 import { fetchEvents } from "../lib/api";
 import type { CivicEvent } from "../lib/types";
+import { PresenceLegend } from "../components/campaigns/PresenceLegend";
 import { eventHasMapPin } from "../lib/maps/mapTypes";
 
 function applyMapFilters(events: CivicEvent[], filters: MapFilterState): CivicEvent[] {
@@ -76,6 +77,7 @@ export function MapPage() {
             <Map className="h-3.5 w-3.5" />
             {mappable.length} mapped · {filtered.length - mappable.length} awaiting geocode or address
           </p>
+          <PresenceLegend />
         </div>
       </div>
     </div>

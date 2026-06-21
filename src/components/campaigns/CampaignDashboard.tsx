@@ -20,6 +20,16 @@ import { getCampaignBranding } from "../../lib/campaigns/brandingProfile";
 import { formatEventRange } from "../../lib/format";
 import { GoogleCalendarRail, MobilizeRail } from "../integrations/IntegrationRails";
 import type { IntelligenceLayer } from "../../lib/intelligence/eventLayers";
+import { PublicVolunteerAsksPanel } from "./PublicVolunteerAsksPanel";
+import { CampaignMorningBrief } from "./CampaignMorningBrief";
+import { listCampaignPublicVolunteerAsks } from "../../lib/campaigns/volunteerRecruitment";
+import { CampaignEventsPanel } from "./CampaignEventsPanel";
+import { InstitutionRelationshipPanel } from "./InstitutionRelationshipPanel";
+import { buildMorningCampaignBrief } from "../../lib/ai/morningCampaignBrief";
+import { loadCampaignEvents } from "../../lib/campaigns/campaignEventsStore";
+import { detectScheduleConflicts } from "../../lib/campaigns/campaignConflictDetector";
+import { buildInstitutionRelationships } from "../../lib/institutions/institutionRelationshipEngine";
+import { translateEventToOpportunity } from "../../lib/intelligence/eventImportanceEngine";
 import { CampaignLocalIntelOverview } from "../local-intelligence/CampaignLocalIntelOverview";
 import { LocalGeographyIntelStrip } from "../local-intelligence/LocalGeographyIntelStrip";
 import { LayerBadge, DensityBadge } from "../intelligence/LayerBadge";
@@ -114,6 +124,14 @@ function EventIntelCard({
         <p className="text-[10px] text-muted mt-2 line-clamp-2">{dossierMini.guidance}</p>
       )}
 
+      {!compact && (() => {
+        const opp = translateEventToOpportunity(event);
+        if (opp.influencerRoom || opp.scores.communityImportanceScore >= 75) {
+          return <p className="text-[10px] text-ark-sage mt-1 line-clamp-2">{opp.headline}</p>;
+        }
+        return null;
+      })()}
+
       <LocalGeographyIntelStrip event={event} campaignSlug={workspace.slug} compact={compact} />
 
       <div className="mt-3 flex flex-wrap gap-1">
@@ -154,6 +172,8 @@ function EventIntelCard({
 export function CampaignDashboard({ workspace }: Props) {
   const [events, setEvents] = useState<Awaited<ReturnType<typeof fetchEvents>>>([]);
   const [plans, setPlans] = useState<Record<string, CampaignEventPlan>>(() => loadPlansForCampaign(workspace.slug));
+  const [campaignEvents, setCampaignEvents] = useState(() => loadCampaignEvents(workspace.slug));
+  const [institutionTick, setInstitutionTick] = useState(0);
   const [section, setSection] = useState<SectionId>("summary");
 
   const theme = workspace.dashboardTheme;
@@ -166,6 +186,21 @@ export function CampaignDashboard({ workspace }: Props) {
 
   useEffect(() => {
     setPlans(loadPlansForCampaign(workspace.slug));
+    setCampaignEvents(loadCampaignEvents(workspace.slug));
+  }, [workspace.slug]);
+
+  useEffect(() => {
+    const refresh = () => {
+      setCampaignEvents(loadCampaignEvents(workspace.slug));
+      setPlans(loadPlansForCampaign(workspace.slug));
+      setInstitutionTick((t) => t + 1);
+    };
+    window.addEventListener("civic-campaign-events-updated", refresh);
+    window.addEventListener("civic-institution-touchpoints-updated", refresh);
+    return () => {
+      window.removeEventListener("civic-campaign-events-updated", refresh);
+      window.removeEventListener("civic-institution-touchpoints-updated", refresh);
+    };
   }, [workspace.slug]);
 
   const scopeResult = useMemo(() => applyDistrictScope(events, workspace), [events, workspace]);
@@ -225,6 +260,32 @@ export function CampaignDashboard({ workspace }: Props) {
     const a = analyzeCalendarGaps(allVisible, plans, workspace);
     return a.gaps.map((g) => g.label);
   }, [allVisible, plans, workspace]);
+
+  const morningBrief = useMemo(
+    () => buildMorningCampaignBrief(workspace, allVisible, plans, campaignEvents, events),
+    [workspace, allVisible, plans, campaignEvents, events],
+  );
+
+  const scheduleConflicts = useMemo(
+    () => detectScheduleConflicts(campaignEvents, events),
+    [campaignEvents, events],
+  );
+
+  const institutionStatuses = useMemo(() => {
+    const counties = [...new Set(allVisible.map((c) => c.scored.event.county))];
+    return buildInstitutionRelationships(workspace.slug, counties.length ? counties : workspace.counties, events, plans);
+  }, [workspace, allVisible, events, plans, institutionTick]);
+
+  const publicVolunteerAsks = useMemo(
+    () => listCampaignPublicVolunteerAsks(workspace, events),
+    [workspace, events, plans],
+  );
+
+  useEffect(() => {
+    const onPresence = () => setPlans(loadPlansForCampaign(workspace.slug));
+    window.addEventListener("civic-presence-updated", onPresence);
+    return () => window.removeEventListener("civic-presence-updated", onPresence);
+  }, [workspace.slug]);
 
   const sections: { id: SectionId; label: string; count: number }[] = [
     { id: "summary", label: "Command summary", count: allVisible.length },
@@ -309,6 +370,8 @@ export function CampaignDashboard({ workspace }: Props) {
           </div>
         </div>
       )}
+
+      <CampaignMorningBrief brief={morningBrief} themePrimary={theme.primaryColor} themeAccent={theme.accentColor} />
 
       {section === "summary" && (
         <CampaignLocalIntelOverview
@@ -402,6 +465,24 @@ export function CampaignDashboard({ workspace }: Props) {
             plans={plans}
             themePrimary={theme.primaryColor}
             themeAccent={theme.accentColor}
+          />
+          <CampaignEventsPanel
+            workspace={workspace}
+            events={campaignEvents}
+            conflicts={scheduleConflicts}
+            onChange={() => setCampaignEvents(loadCampaignEvents(workspace.slug))}
+            themePrimary={theme.primaryColor}
+          />
+          <InstitutionRelationshipPanel
+            workspace={workspace}
+            statuses={institutionStatuses}
+            onUpdate={() => setInstitutionTick((t) => t + 1)}
+            themePrimary={theme.primaryColor}
+          />
+          <PublicVolunteerAsksPanel
+            workspace={workspace}
+            asks={publicVolunteerAsks}
+            themePrimary={theme.primaryColor}
           />
           <div className="card" style={{ backgroundColor: theme.surfaceColor }}>
             <h3 className="font-semibold" style={{ color: theme.primaryColor }}>AI & local intelligence</h3>

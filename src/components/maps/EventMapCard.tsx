@@ -18,7 +18,7 @@ export function EventMapCard({ event, onClose, className }: Props) {
 
   return (
     <div className={cn("relative rounded-xl border border-ark-pine/15 bg-white p-4 shadow-lg", className)}>
-      <PresenceBadges presence={presence} />
+      <PresenceBadges presence={presence} eventTitle={event.title} />
       <div className="flex items-start justify-between gap-2">
         <CategoryBadge category={event.category} />
         {onClose && (

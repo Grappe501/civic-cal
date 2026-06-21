@@ -1,7 +1,7 @@
 {
-  "version": 1,
+  "version": 2,
   "office": "Secretary of State",
-  "notes": "Placeholder statewide math — campaign workspaces override via campaign_vote_targets",
+  "notes": "County-primary rollup — cities feed county baselines; workspaces override via campaign_vote_targets",
   "targets": [
     {
       "geographyType": "statewide",
@@ -13,122 +13,452 @@
     {
       "geographyType": "county",
       "geographyName": "Arkansas",
-      "baselineVotes": 28800,
-      "targetVotes": 30816
+      "baselineVotes": 23940,
+      "targetVotes": 25856
     },
     {
       "geographyType": "county",
       "geographyName": "Ashley",
-      "baselineVotes": 28480,
-      "targetVotes": 30474
+      "baselineVotes": 8190,
+      "targetVotes": 8846
     },
     {
       "geographyType": "county",
       "geographyName": "Baxter",
-      "baselineVotes": 28160,
-      "targetVotes": 30131
+      "baselineVotes": 11970,
+      "targetVotes": 12928
     },
     {
       "geographyType": "county",
       "geographyName": "Benton",
-      "baselineVotes": 27840,
-      "targetVotes": 29789
+      "baselineVotes": 123690,
+      "targetVotes": 133588
     },
     {
       "geographyType": "county",
       "geographyName": "Boone",
-      "baselineVotes": 27520,
-      "targetVotes": 29446
+      "baselineVotes": 17220,
+      "targetVotes": 18598
     },
     {
       "geographyType": "county",
       "geographyName": "Bradley",
-      "baselineVotes": 27200,
-      "targetVotes": 29104
+      "baselineVotes": 6720,
+      "targetVotes": 7258
     },
     {
       "geographyType": "county",
       "geographyName": "Calhoun",
-      "baselineVotes": 26880,
-      "targetVotes": 28762
+      "baselineVotes": 0,
+      "targetVotes": 0
     },
     {
       "geographyType": "county",
       "geographyName": "Carroll",
-      "baselineVotes": 26560,
-      "targetVotes": 28419
+      "baselineVotes": 11550,
+      "targetVotes": 12475
     },
     {
       "geographyType": "county",
       "geographyName": "Chicot",
-      "baselineVotes": 26240,
-      "targetVotes": 28077
+      "baselineVotes": 14490,
+      "targetVotes": 15651
     },
     {
       "geographyType": "county",
       "geographyName": "Clark",
-      "baselineVotes": 25920,
-      "targetVotes": 27734
+      "baselineVotes": 25410,
+      "targetVotes": 27444
     },
     {
       "geographyType": "county",
       "geographyName": "Clay",
-      "baselineVotes": 25600,
-      "targetVotes": 27392
+      "baselineVotes": 13020,
+      "targetVotes": 14063
     },
     {
       "geographyType": "county",
       "geographyName": "Cleburne",
-      "baselineVotes": 25280,
-      "targetVotes": 27050
+      "baselineVotes": 11550,
+      "targetVotes": 12475
     },
     {
       "geographyType": "county",
       "geographyName": "Cleveland",
-      "baselineVotes": 24960,
-      "targetVotes": 26707
+      "baselineVotes": 0,
+      "targetVotes": 0
     },
     {
       "geographyType": "county",
       "geographyName": "Columbia",
-      "baselineVotes": 24640,
-      "targetVotes": 26365
+      "baselineVotes": 25410,
+      "targetVotes": 27444
     },
     {
       "geographyType": "county",
       "geographyName": "Conway",
-      "baselineVotes": 24320,
-      "targetVotes": 26022
+      "baselineVotes": 11550,
+      "targetVotes": 12475
     },
     {
       "geographyType": "county",
       "geographyName": "Craighead",
-      "baselineVotes": 24000,
-      "targetVotes": 25680
+      "baselineVotes": 39060,
+      "targetVotes": 42185
     },
     {
       "geographyType": "county",
       "geographyName": "Crawford",
-      "baselineVotes": 23680,
-      "targetVotes": 25338
+      "baselineVotes": 15330,
+      "targetVotes": 16557
     },
     {
       "geographyType": "county",
       "geographyName": "Crittenden",
-      "baselineVotes": 23360,
-      "targetVotes": 24995
+      "baselineVotes": 32550,
+      "targetVotes": 35155
     },
     {
       "geographyType": "county",
       "geographyName": "Cross",
-      "baselineVotes": 23040,
-      "targetVotes": 24653
+      "baselineVotes": 10080,
+      "targetVotes": 10887
     },
     {
       "geographyType": "county",
       "geographyName": "Dallas",
-      "baselineVotes": 22720,
-      "targetVotes": 24310
+      "baselineVotes": 8190,
+      "targetVotes": 8846
+    },
+    {
+      "geographyType": "county",
+      "geographyName": "Desha",
+      "baselineVotes": 8190,
+      "targetVotes": 8846
+    },
+    {
+      "geographyType": "county",
+      "geographyName": "Drew",
+      "baselineVotes": 11970,
+      "targetVotes": 12928
+    },
+    {
+      "geographyType": "county",
+      "geographyName": "Faulkner",
+      "baselineVotes": 59220,
+      "targetVotes": 63959
+    },
+    {
+      "geographyType": "county",
+      "geographyName": "Franklin",
+      "baselineVotes": 8190,
+      "targetVotes": 8846
+    },
+    {
+      "geographyType": "county",
+      "geographyName": "Fulton",
+      "baselineVotes": 6720,
+      "targetVotes": 7258
+    },
+    {
+      "geographyType": "county",
+      "geographyName": "Garland",
+      "baselineVotes": 52920,
+      "targetVotes": 57154
+    },
+    {
+      "geographyType": "county",
+      "geographyName": "Grant",
+      "baselineVotes": 0,
+      "targetVotes": 0
+    },
+    {
+      "geographyType": "county",
+      "geographyName": "Greene",
+      "baselineVotes": 10500,
+      "targetVotes": 11340
+    },
+    {
+      "geographyType": "county",
+      "geographyName": "Hempstead",
+      "baselineVotes": 11970,
+      "targetVotes": 12928
+    },
+    {
+      "geographyType": "county",
+      "geographyName": "Hot Spring",
+      "baselineVotes": 11970,
+      "targetVotes": 12928
+    },
+    {
+      "geographyType": "county",
+      "geographyName": "Howard",
+      "baselineVotes": 4830,
+      "targetVotes": 5217
+    },
+    {
+      "geographyType": "county",
+      "geographyName": "Independence",
+      "baselineVotes": 11970,
+      "targetVotes": 12928
+    },
+    {
+      "geographyType": "county",
+      "geographyName": "Izard",
+      "baselineVotes": 10080,
+      "targetVotes": 10887
+    },
+    {
+      "geographyType": "county",
+      "geographyName": "Jackson",
+      "baselineVotes": 11550,
+      "targetVotes": 12475
+    },
+    {
+      "geographyType": "county",
+      "geographyName": "Jefferson",
+      "baselineVotes": 35700,
+      "targetVotes": 38556
+    },
+    {
+      "geographyType": "county",
+      "geographyName": "Johnson",
+      "baselineVotes": 4830,
+      "targetVotes": 5217
+    },
+    {
+      "geographyType": "county",
+      "geographyName": "Lafayette",
+      "baselineVotes": 10080,
+      "targetVotes": 10887
+    },
+    {
+      "geographyType": "county",
+      "geographyName": "Lawrence",
+      "baselineVotes": 3360,
+      "targetVotes": 3629
+    },
+    {
+      "geographyType": "county",
+      "geographyName": "Lee",
+      "baselineVotes": 1470,
+      "targetVotes": 1588
+    },
+    {
+      "geographyType": "county",
+      "geographyName": "Lincoln",
+      "baselineVotes": 10080,
+      "targetVotes": 10887
+    },
+    {
+      "geographyType": "county",
+      "geographyName": "Little River",
+      "baselineVotes": 4830,
+      "targetVotes": 5217
+    },
+    {
+      "geographyType": "county",
+      "geographyName": "Logan",
+      "baselineVotes": 13020,
+      "targetVotes": 14063
+    },
+    {
+      "geographyType": "county",
+      "geographyName": "Lonoke",
+      "baselineVotes": 18690,
+      "targetVotes": 20186
+    },
+    {
+      "geographyType": "county",
+      "geographyName": "Madison",
+      "baselineVotes": 4830,
+      "targetVotes": 5217
+    },
+    {
+      "geographyType": "county",
+      "geographyName": "Marion",
+      "baselineVotes": 10080,
+      "targetVotes": 10887
+    },
+    {
+      "geographyType": "county",
+      "geographyName": "Miller",
+      "baselineVotes": 35700,
+      "targetVotes": 38556
+    },
+    {
+      "geographyType": "county",
+      "geographyName": "Mississippi",
+      "baselineVotes": 43680,
+      "targetVotes": 47177
+    },
+    {
+      "geographyType": "county",
+      "geographyName": "Monroe",
+      "baselineVotes": 14910,
+      "targetVotes": 16104
+    },
+    {
+      "geographyType": "county",
+      "geographyName": "Montgomery",
+      "baselineVotes": 0,
+      "targetVotes": 0
+    },
+    {
+      "geographyType": "county",
+      "geographyName": "Nevada",
+      "baselineVotes": 3360,
+      "targetVotes": 3629
+    },
+    {
+      "geographyType": "county",
+      "geographyName": "Newton",
+      "baselineVotes": 3360,
+      "targetVotes": 3629
+    },
+    {
+      "geographyType": "county",
+      "geographyName": "Ouachita",
+      "baselineVotes": 11970,
+      "targetVotes": 12928
+    },
+    {
+      "geographyType": "county",
+      "geographyName": "Perry",
+      "baselineVotes": 13440,
+      "targetVotes": 14516
+    },
+    {
+      "geographyType": "county",
+      "geographyName": "Phillips",
+      "baselineVotes": 11970,
+      "targetVotes": 12928
+    },
+    {
+      "geographyType": "county",
+      "geographyName": "Pike",
+      "baselineVotes": 3360,
+      "targetVotes": 3629
+    },
+    {
+      "geographyType": "county",
+      "geographyName": "Poinsett",
+      "baselineVotes": 9660,
+      "targetVotes": 10434
+    },
+    {
+      "geographyType": "county",
+      "geographyName": "Polk",
+      "baselineVotes": 4830,
+      "targetVotes": 5217
+    },
+    {
+      "geographyType": "county",
+      "geographyName": "Pope",
+      "baselineVotes": 22050,
+      "targetVotes": 23815
+    },
+    {
+      "geographyType": "county",
+      "geographyName": "Prairie",
+      "baselineVotes": 14910,
+      "targetVotes": 16104
+    },
+    {
+      "geographyType": "county",
+      "geographyName": "Pulaski",
+      "baselineVotes": 126420,
+      "targetVotes": 136535
+    },
+    {
+      "geographyType": "county",
+      "geographyName": "Randolph",
+      "baselineVotes": 1470,
+      "targetVotes": 1588
+    },
+    {
+      "geographyType": "county",
+      "geographyName": "St. Francis",
+      "baselineVotes": 20580,
+      "targetVotes": 22227
+    },
+    {
+      "geographyType": "county",
+      "geographyName": "Saline",
+      "baselineVotes": 46200,
+      "targetVotes": 49896
+    },
+    {
+      "geographyType": "county",
+      "geographyName": "Scott",
+      "baselineVotes": 0,
+      "targetVotes": 0
+    },
+    {
+      "geographyType": "county",
+      "geographyName": "Searcy",
+      "baselineVotes": 6720,
+      "targetVotes": 7258
+    },
+    {
+      "geographyType": "county",
+      "geographyName": "Sebastian",
+      "baselineVotes": 49140,
+      "targetVotes": 53072
+    },
+    {
+      "geographyType": "county",
+      "geographyName": "Sevier",
+      "baselineVotes": 4830,
+      "targetVotes": 5217
+    },
+    {
+      "geographyType": "county",
+      "geographyName": "Sharp",
+      "baselineVotes": 10080,
+      "targetVotes": 10887
+    },
+    {
+      "geographyType": "county",
+      "geographyName": "Stone",
+      "baselineVotes": 6720,
+      "targetVotes": 7258
+    },
+    {
+      "geographyType": "county",
+      "geographyName": "Union",
+      "baselineVotes": 17220,
+      "targetVotes": 18598
+    },
+    {
+      "geographyType": "county",
+      "geographyName": "Van Buren",
+      "baselineVotes": 13440,
+      "targetVotes": 14516
+    },
+    {
+      "geographyType": "county",
+      "geographyName": "Washington",
+      "baselineVotes": 99750,
+      "targetVotes": 107732
+    },
+    {
+      "geographyType": "county",
+      "geographyName": "White",
+      "baselineVotes": 18690,
+      "targetVotes": 20186
+    },
+    {
+      "geographyType": "county",
+      "geographyName": "Woodruff",
+      "baselineVotes": 4830,
+      "targetVotes": 5217
+    },
+    {
+      "geographyType": "county",
+      "geographyName": "Yell",
+      "baselineVotes": 6720,
+      "targetVotes": 7258
     },
     {
       "geographyType": "city",
@@ -232,6 +562,111 @@
       "geographyType": "city",
       "geographyName": "Jacksonville",
       "county": "Pulaski",
+      "baselineVotes": 10500,
+      "targetVotes": 11340
+    },
+    {
+      "geographyType": "city",
+      "geographyName": "Russellville",
+      "county": "Pope",
+      "baselineVotes": 10500,
+      "targetVotes": 11340
+    },
+    {
+      "geographyType": "city",
+      "geographyName": "Bella Vista",
+      "county": "Benton",
+      "baselineVotes": 10500,
+      "targetVotes": 11340
+    },
+    {
+      "geographyType": "city",
+      "geographyName": "Paragould",
+      "county": "Greene",
+      "baselineVotes": 10500,
+      "targetVotes": 11340
+    },
+    {
+      "geographyType": "city",
+      "geographyName": "Cabot",
+      "county": "Lonoke",
+      "baselineVotes": 10500,
+      "targetVotes": 11340
+    },
+    {
+      "geographyType": "city",
+      "geographyName": "Searcy",
+      "county": "White",
+      "baselineVotes": 10500,
+      "targetVotes": 11340
+    },
+    {
+      "geographyType": "city",
+      "geographyName": "Van Buren",
+      "county": "Crawford",
+      "baselineVotes": 10500,
+      "targetVotes": 11340
+    },
+    {
+      "geographyType": "city",
+      "geographyName": "El Dorado",
+      "county": "Union",
+      "baselineVotes": 10500,
+      "targetVotes": 11340
+    },
+    {
+      "geographyType": "city",
+      "geographyName": "Maumelle",
+      "county": "Pulaski",
+      "baselineVotes": 10500,
+      "targetVotes": 11340
+    },
+    {
+      "geographyType": "city",
+      "geographyName": "Bryant",
+      "county": "Saline",
+      "baselineVotes": 10500,
+      "targetVotes": 11340
+    },
+    {
+      "geographyType": "city",
+      "geographyName": "Siloam Springs",
+      "county": "Benton",
+      "baselineVotes": 10500,
+      "targetVotes": 11340
+    },
+    {
+      "geographyType": "city",
+      "geographyName": "Morrilton",
+      "county": "Conway",
+      "baselineVotes": 3360,
+      "targetVotes": 3629
+    },
+    {
+      "geographyType": "city",
+      "geographyName": "Center Ridge",
+      "county": "Conway",
+      "baselineVotes": 3360,
+      "targetVotes": 3629
+    },
+    {
+      "geographyType": "city",
+      "geographyName": "Magnolia",
+      "county": "Columbia",
+      "baselineVotes": 10500,
+      "targetVotes": 11340
+    },
+    {
+      "geographyType": "city",
+      "geographyName": "Mountain Home",
+      "county": "Baxter",
+      "baselineVotes": 10500,
+      "targetVotes": 11340
+    },
+    {
+      "geographyType": "city",
+      "geographyName": "Harrison",
+      "county": "Boone",
       "baselineVotes": 10500,
       "targetVotes": 11340
     }

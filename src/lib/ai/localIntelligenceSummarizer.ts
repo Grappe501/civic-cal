@@ -28,9 +28,10 @@ export function deterministicLocalSummary(ctx: LocalIntelContext): LocalIntellig
       : "Election math pending for this geography.";
 
   const missingData: string[] = [];
-  if (!cityDossier?.population) missingData.push("Verified population from Census ACS");
+  if (!cityDossier?.population && !countyDossier?.demographics?.population) missingData.push("Verified population from Census ACS");
   if (!cityDossier?.majorEmployers?.length) missingData.push("Major employers list");
   if (missing) missingData.push("Events in calendar for this city/county");
+  if (countyDossier && !countyDossier.institutions?.rotary?.length) missingData.push("Rotary / civic club verification");
 
   return {
     source: "deterministic",

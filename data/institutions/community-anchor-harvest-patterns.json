@@ -1,0 +1,67 @@
+{
+  "version": 1,
+  "extension": {
+    "patterns": [
+      "4-H meeting",
+      "Livestock show",
+      "Food preservation class",
+      "Gardening workshop",
+      "Poultry workshop",
+      "Farm management event",
+      "Master Gardener event",
+      "Extension Homemakers"
+    ],
+    "queryTemplates": [
+      "{county} County Arkansas cooperative extension event",
+      "{city} Arkansas 4-H event",
+      "{county} County Arkansas extension homemakers"
+    ]
+  },
+  "vfd": {
+    "patterns": [
+      "Fish fry",
+      "BBQ fundraiser",
+      "Pancake breakfast",
+      "Volunteer fire department fundraiser",
+      "Fire department open house",
+      "Safety fair"
+    ],
+    "queryTemplates": [
+      "{city} Arkansas volunteer fire department fish fry",
+      "{city} Arkansas fire department pancake breakfast",
+      "{city} Arkansas VFD fundraiser"
+    ]
+  },
+  "parades": {
+    "patterns": [
+      "Christmas parade",
+      "Veterans Day parade",
+      "Homecoming parade",
+      "Independence Day parade",
+      "Festival parade"
+    ],
+    "queryTemplates": [
+      "{city} Arkansas Christmas parade",
+      "{city} Arkansas homecoming parade",
+      "{county} County Arkansas parade"
+    ]
+  },
+  "food_trail": {
+    "patterns": [
+      "Fish fry",
+      "Spaghetti dinner",
+      "Wild game dinner",
+      "Chili cookoff",
+      "BBQ cookoff",
+      "Catfish festival",
+      "Crawfish boil",
+      "Church supper"
+    ],
+    "queryTemplates": [
+      "{city} Arkansas fish fry",
+      "{city} Arkansas spaghetti dinner church",
+      "{county} County Arkansas food festival"
+    ]
+  },
+  "notes": "Community Anchor Intelligence Engine — harvest recurring rural gathering points"
+}

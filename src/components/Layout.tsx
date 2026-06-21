@@ -3,13 +3,14 @@ import { CalendarHeart, MapPin, PlusCircle } from "lucide-react";
 import { cn } from "../lib/cn";
 
 const nav = [
-  { to: "/", label: "Events" },
+  { to: "/", label: "Discover" },
+  { to: "/explore", label: "Explore" },
   { to: "/map", label: "Map" },
-  { to: "/organizers", label: "Organizers" },
+  { to: "/races", label: "Races" },
+  { to: "/safari", label: "Safari" },
   { to: "/campaigns", label: "Campaigns" },
-  { to: "/this-week", label: "This week" },
   { to: "/counties", label: "Counties" },
-  { to: "/civic-watch", label: "Civic watch" },
+  { to: "/submit", label: "Submit", highlight: true as const },
 ];
 
 export function Layout({ children }: { children: React.ReactNode }) {
@@ -28,14 +29,14 @@ export function Layout({ children }: { children: React.ReactNode }) {
               <p className="text-xs text-ark-pine/60">Every town matters</p>
             </div>
           </Link>
-          <nav className="hidden md:flex items-center gap-1">
-            {nav.map((item) => (
+          <nav className="hidden lg:flex items-center gap-1">
+            {nav.filter((item) => !("highlight" in item)).map((item) => (
               <NavLink
                 key={item.to}
                 to={item.to}
                 className={({ isActive }) =>
                   cn(
-                    "rounded-full px-4 py-2 text-sm font-medium transition",
+                    "rounded-full px-3 py-2 text-sm font-medium transition",
                     isActive ? "bg-ark-pine text-white" : "text-ark-pine/70 hover:bg-ark-wheat hover:text-ark-pine",
                   )
                 }
@@ -68,9 +69,10 @@ export function Layout({ children }: { children: React.ReactNode }) {
             <p className="font-semibold mb-2">Quick links</p>
             <ul className="space-y-1 text-ark-wheat/70">
               <li><Link to="/submit" className="hover:text-white">Submit an event</Link></li>
-              <li><Link to="/help-build-the-calendar" className="hover:text-white">Help build the calendar</Link></li>
-              <li><Link to="/opportunity-engine" className="hover:text-white">Opportunity Engine</Link></li>
-              <li><Link to="/counties" className="hover:text-white">Browse by county</Link></li>
+              <li><Link to="/explore" className="hover:text-white">Explore Arkansas</Link></li>
+              <li><Link to="/safari" className="hover:text-white">Event Safari</Link></li>
+              <li><Link to="/races" className="hover:text-white">Race Circuit</Link></li>
+              <li><Link to="/map" className="hover:text-white">Event map</Link></li>
               <li><Link to="/admin" className="hover:text-white">Admin review</Link></li>
             </ul>
           </div>

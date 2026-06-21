@@ -30,7 +30,11 @@
       },
       "notes": "Statewide scope — all 75 counties. Civic access and election integrity focus.",
       "is_active": true,
-      "access_mode": "private_admin"
+      "access_mode": "private_admin",
+      "default_volunteer_signup_url": null,
+      "mobilize_org_url": null,
+      "volunteer_brand_color": null,
+      "volunteer_badge_label": null
     },
     {
       "slug": "chris-jones-ar02",
@@ -61,7 +65,11 @@
       },
       "notes": "Placeholder county scope from statutory district definition.",
       "is_active": true,
-      "access_mode": "private_admin"
+      "access_mode": "private_admin",
+      "default_volunteer_signup_url": null,
+      "mobilize_org_url": null,
+      "volunteer_brand_color": null,
+      "volunteer_badge_label": null
     },
     {
       "slug": "fred-love-governor",
@@ -91,7 +99,11 @@
       },
       "notes": "Statewide scope — all Arkansas communities.",
       "is_active": true,
-      "access_mode": "private_admin"
+      "access_mode": "private_admin",
+      "default_volunteer_signup_url": null,
+      "mobilize_org_url": null,
+      "volunteer_brand_color": null,
+      "volunteer_badge_label": null
     },
     {
       "slug": "eduardo-guzman-senate",
@@ -122,7 +134,11 @@
       },
       "notes": "Fort Smith / Sebastian placeholder until Senate district GIS loaded.",
       "is_active": true,
-      "access_mode": "private_admin"
+      "access_mode": "private_admin",
+      "default_volunteer_signup_url": null,
+      "mobilize_org_url": null,
+      "volunteer_brand_color": null,
+      "volunteer_badge_label": null
     },
     {
       "slug": "joshua-irby-sd16",
@@ -153,7 +169,11 @@
       },
       "notes": "Saline County base (Bryant). Democratic nominee SD-16 2026. Church dinners, school events, Benton/Bryant civic calendar priority.",
       "is_active": true,
-      "access_mode": "private_admin"
+      "access_mode": "private_admin",
+      "default_volunteer_signup_url": null,
+      "mobilize_org_url": null,
+      "volunteer_brand_color": null,
+      "volunteer_badge_label": null
     },
     {
       "slug": "wendy-peer-house",
@@ -183,7 +203,11 @@
       },
       "notes": "Placeholder scope — Sebastian / River Valley until HD district confirmed.",
       "is_active": true,
-      "access_mode": "private_admin"
+      "access_mode": "private_admin",
+      "default_volunteer_signup_url": null,
+      "mobilize_org_url": null,
+      "volunteer_brand_color": null,
+      "volunteer_badge_label": null
     }
   ]
 }

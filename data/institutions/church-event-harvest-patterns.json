@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "patterns": [
+    "Fish Fry",
+    "Spaghetti Dinner",
+    "Wild Game Dinner",
+    "BBQ Fundraiser",
+    "Pancake Breakfast",
+    "Church Picnic",
+    "Homecoming",
+    "Fall Festival",
+    "VBS",
+    "Vacation Bible School",
+    "Trunk or Treat",
+    "Community Thanksgiving Meal",
+    "Community Christmas Meal"
+  ],
+  "queryTemplate": "{city} Arkansas {pattern} church",
+  "notes": "Church Event Engine — highest community-attendance events in Arkansas"
+}

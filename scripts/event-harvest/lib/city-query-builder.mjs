@@ -1,6 +1,9 @@
 /**
- * Expanded search query templates for Arkansas city harvest (Pass 8).
+ * Expanded search query templates for Arkansas city harvest (Pass 8 + Church Event Engine).
  */
+import { buildChurchEventQueries } from "./church-event-queries.mjs";
+import { buildCommunityAnchorQueries } from "./community-anchor-queries.mjs";
+
 export function buildExpandedCityQueries(cityRecord) {
   const { city, county } = cityRecord;
   const queries = [
@@ -19,12 +22,15 @@ export function buildExpandedCityQueries(cityRecord) {
     `${city} Arkansas First Friday`,
     `${city} Arkansas farmers market`,
     `${city} Arkansas homecoming`,
+    `${city} Arkansas football schedule`,
+    `${city} Arkansas high school basketball`,
+    `${city} Arkansas band competition`,
   ];
   if (county) {
     queries.push(`${county} County Arkansas quorum court schedule`);
     queries.push(`${county} County Arkansas fair 2026`);
   }
-  return queries;
+  return [...queries, ...buildChurchEventQueries(cityRecord), ...buildCommunityAnchorQueries(cityRecord)];
 }
 
 export function discoverSourceTemplates(cityRecord) {
@@ -37,6 +43,7 @@ export function discoverSourceTemplates(cityRecord) {
     { source_type: "library", label: `${cityRecord.city} public library events`, url_hint: null, trust: "medium" },
     { source_type: "parks_rec", label: `${cityRecord.city} parks and recreation`, url_hint: null, trust: "medium" },
     { source_type: "school_district", label: `${cityRecord.city} school district calendar`, url_hint: null, trust: "medium" },
+    { source_type: "church_community", label: `${cityRecord.city} church community meals`, url_hint: null, trust: "medium", institution_layer: "church_event_engine" },
     { source_type: "tourism", label: `${cityRecord.city} tourism events`, url_hint: null, trust: "low" },
   ];
 }

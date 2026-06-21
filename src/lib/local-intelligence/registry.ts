@@ -68,11 +68,13 @@ function loadCities(): CityIntelligenceDossier[] {
   return (bundle.cities ?? []).map(mapCity);
 }
 
-function loadCounties(): CountyIntelligenceDossier[] {
-  const bundle = countyBundle as {
-    counties?: Record<string, unknown>[];
-  };
-  return (bundle.counties ?? []).map((raw) => ({
+function mapCountyRaw(raw: Record<string, unknown>): CountyIntelligenceDossier {
+  const demo = raw.demographics as Record<string, unknown> | undefined;
+  const pol = raw.political as Record<string, unknown> | undefined;
+  const inst = raw.institutions as Record<string, unknown> | undefined;
+  const med = raw.media as Record<string, unknown> | undefined;
+
+  return {
     county: String(raw.county),
     region: String(raw.region || "Arkansas"),
     countySeat: (raw.county_seat as string) || null,
@@ -88,7 +90,68 @@ function loadCounties(): CountyIntelligenceDossier[] {
     winPathNotes: (raw.win_path_notes as string) || null,
     confidenceScore: (raw.confidence_score as number) ?? 15,
     sourceLinks: (raw.source_links as { label: string; url: string }[]) ?? [],
-  }));
+    rollupVersion: (raw.rollup_version as number) ?? 1,
+    feederCities: (raw.feeder_cities as string[]) ?? [],
+    demographics: demo
+      ? {
+          population: (demo.population as number) ?? null,
+          growthTrend: (demo.growth_trend as string) ?? null,
+          ageDistribution: (demo.age_distribution as string) ?? null,
+          income: (demo.income as string) ?? null,
+          education: (demo.education as string) ?? null,
+          housing: (demo.housing as string) ?? null,
+          raceEthnicity: (demo.race_ethnicity as string) ?? null,
+          employment: (demo.employment as string) ?? null,
+          industry: (demo.industry as string) ?? null,
+          migration: (demo.migration as string) ?? null,
+        }
+      : undefined,
+    political: pol
+      ? {
+          sosTurnout: (pol.sos_turnout as string) ?? null,
+          historicalTurnout: (pol.historical_turnout as string) ?? null,
+          primaryTurnout: (pol.primary_turnout as string) ?? null,
+          generalTurnout: (pol.general_turnout as string) ?? null,
+          baselineVotes: (pol.baseline_votes as number) ?? null,
+          voteTargets: (pol.vote_targets as number) ?? null,
+          persuasionTargets: (pol.persuasion_targets as number) ?? null,
+          turnoutTargets: (pol.turnout_targets as number) ?? null,
+          voteDeficit: (pol.vote_deficit as number) ?? null,
+          projectedVoteGain: (pol.projected_vote_gain as number) ?? null,
+        }
+      : undefined,
+    institutions: inst
+      ? {
+          churches: (inst.churches as string[]) ?? [],
+          schools: (inst.schools as string[]) ?? [],
+          libraries: (inst.libraries as string[]) ?? [],
+          colleges: (inst.colleges as string[]) ?? [],
+          volunteerFireDepartments: (inst.volunteer_fire_departments as string[]) ?? [],
+          rotary: (inst.rotary as string[]) ?? [],
+          lions: (inst.lions as string[]) ?? [],
+          kiwanis: (inst.kiwanis as string[]) ?? [],
+          farmBureau: (inst.farm_bureau as string[]) ?? [],
+          ffa: (inst.ffa as string[]) ?? [],
+          fourH: (inst.four_h as string[]) ?? [],
+          chambers: (inst.chambers as string[]) ?? [],
+        }
+      : undefined,
+    media: med
+      ? {
+          newspapers: (med.newspapers as string[]) ?? [],
+          radio: (med.radio as string[]) ?? [],
+          facebookPages: (med.facebook_pages as string[]) ?? [],
+          communityGroups: (med.community_groups as string[]) ?? [],
+          newsletters: (med.newsletters as string[]) ?? [],
+          podcasts: (med.podcasts as string[]) ?? [],
+        }
+      : undefined,
+  };
+}
+
+function loadCounties(): CountyIntelligenceDossier[] {
+  const bundle = countyBundle as { counties?: Record<string, unknown>[] };
+  return (bundle.counties ?? []).map(mapCountyRaw);
 }
 
 export function citySlug(city: string): string {

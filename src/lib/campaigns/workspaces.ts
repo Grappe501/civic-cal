@@ -19,6 +19,10 @@ interface RawWorkspace {
   is_active?: boolean;
   access_mode?: string;
   id?: string;
+  default_volunteer_signup_url?: string | null;
+  mobilize_org_url?: string | null;
+  volunteer_brand_color?: string | null;
+  volunteer_badge_label?: string | null;
 }
 
 function mapWorkspace(raw: RawWorkspace): CampaignWorkspace {
@@ -40,6 +44,10 @@ function mapWorkspace(raw: RawWorkspace): CampaignWorkspace {
     accessMode: raw.access_mode ?? "private_admin",
     googleCalendarStatus: "not_connected",
     mobilizeStatus: "not_connected",
+    defaultVolunteerSignupUrl: raw.default_volunteer_signup_url ?? null,
+    mobilizeOrgUrl: raw.mobilize_org_url ?? null,
+    volunteerBrandColor: raw.volunteer_brand_color ?? null,
+    volunteerBadgeLabel: raw.volunteer_badge_label ?? null,
   };
 }
 

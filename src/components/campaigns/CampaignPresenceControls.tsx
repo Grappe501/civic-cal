@@ -1,6 +1,7 @@
 import type { CampaignEventPlan, CampaignWorkspace } from "../../lib/campaigns/types";
 import { savePlanForCampaign } from "../../lib/campaigns/planStore";
 import { notifyPresenceUpdate } from "../../lib/campaigns/presenceLayer";
+import { VolunteerRecruitmentControls } from "./VolunteerRecruitmentControls";
 
 interface Props {
   workspace: CampaignWorkspace;
@@ -10,13 +11,13 @@ interface Props {
 }
 
 export function CampaignPresenceControls({ workspace, eventId, plan, onUpdate }: Props) {
-  if (!plan || ["skip", "needs_research", "considering"].includes(plan.planStatus)) return null;
+  if (!plan || plan.planStatus === "skip" || plan.planStatus === "needs_research") return null;
 
   const theme = workspace.dashboardTheme;
   const canShowCandidate =
     plan.planStatus === "attending" || plan.planStatus === "candidate_should_attend";
   const canShowSurrogate = plan.planStatus === "surrogate_should_attend";
-  const canShowVolunteers = plan.planStatus === "needs_volunteers";
+  const showVisibilityToggles = !["considering"].includes(plan.planStatus);
 
   function patch(partial: Partial<CampaignEventPlan>) {
     const updated: CampaignEventPlan = {
@@ -24,7 +25,10 @@ export function CampaignPresenceControls({ workspace, eventId, plan, onUpdate }:
       eventId,
       ...partial,
       publicPresenceStatus:
-        partial.showCandidateAttending || partial.showVolunteersNeeded || partial.showSurrogateAttending
+        partial.showCandidateAttending ||
+        partial.showSurrogateAttending ||
+        partial.advertiseVolunteers ||
+        plan!.advertiseVolunteers
           ? "public"
           : partial.publicPresenceStatus ?? plan!.publicPresenceStatus ?? "private",
       candidateColor: partial.candidateColor ?? plan!.candidateColor ?? theme.primaryColor,
@@ -37,9 +41,11 @@ export function CampaignPresenceControls({ workspace, eventId, plan, onUpdate }:
 
   return (
     <div className="mt-3 pt-3 border-t border-ark-pine/10 space-y-2">
-      <p className="text-[10px] font-semibold uppercase tracking-wide text-ark-pine/70">Public calendar visibility</p>
+      {showVisibilityToggles && (
+        <p className="text-[10px] font-semibold uppercase tracking-wide text-ark-pine/70">Public calendar visibility</p>
+      )}
 
-      {canShowCandidate && (
+      {showVisibilityToggles && canShowCandidate && (
         <label className="flex items-center gap-2 text-xs text-ark-pine cursor-pointer">
           <input
             type="checkbox"
@@ -50,7 +56,7 @@ export function CampaignPresenceControls({ workspace, eventId, plan, onUpdate }:
         </label>
       )}
 
-      {canShowSurrogate && (
+      {showVisibilityToggles && canShowSurrogate && (
         <label className="flex items-center gap-2 text-xs text-ark-pine cursor-pointer">
           <input
             type="checkbox"
@@ -61,18 +67,7 @@ export function CampaignPresenceControls({ workspace, eventId, plan, onUpdate }:
         </label>
       )}
 
-      {canShowVolunteers && (
-        <label className="flex items-center gap-2 text-xs text-ark-pine cursor-pointer">
-          <input
-            type="checkbox"
-            checked={Boolean(plan.showVolunteersNeeded)}
-            onChange={(e) => patch({ showVolunteersNeeded: e.target.checked })}
-          />
-          Show volunteers needed publicly
-        </label>
-      )}
-
-      {(plan.showCandidateAttending || plan.showSurrogateAttending) && (
+      {showVisibilityToggles && (plan.showCandidateAttending || plan.showSurrogateAttending) && (
         <input
           className="input text-xs py-1.5"
           placeholder={`Public note (e.g. "${workspace.candidateName.split(" ").pop()} attending")`}
@@ -81,14 +76,7 @@ export function CampaignPresenceControls({ workspace, eventId, plan, onUpdate }:
         />
       )}
 
-      {plan.showVolunteersNeeded && (
-        <input
-          className="input text-xs py-1.5"
-          placeholder="Volunteer note (e.g. Volunteers needed — sign up at campaign HQ)"
-          value={plan.volunteerPublicNote || ""}
-          onChange={(e) => patch({ volunteerPublicNote: e.target.value || undefined })}
-        />
-      )}
+      <VolunteerRecruitmentControls workspace={workspace} eventId={eventId} plan={plan} onUpdate={onUpdate} />
 
       <p className="text-[10px] text-muted">Private plans stay off the public calendar until you enable visibility above.</p>
     </div>

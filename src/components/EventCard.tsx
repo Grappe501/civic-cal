@@ -23,7 +23,7 @@ export function EventCard({ event, compact }: { event: CivicEvent; compact?: boo
 
   return (
     <article className={cn("card flex flex-col gap-3 relative", event.featured && "ring-2 ring-ark-rust/30")}>
-      <PresenceBadges presence={presence} />
+      <PresenceBadges presence={presence} eventTitle={event.title} />
       <div className="flex flex-wrap items-start justify-between gap-2">
         <div className="space-y-1">
           {event.featured && (
