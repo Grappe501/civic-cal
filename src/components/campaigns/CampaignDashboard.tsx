@@ -23,6 +23,7 @@ import type { IntelligenceLayer } from "../../lib/intelligence/eventLayers";
 import { PublicVolunteerAsksPanel } from "./PublicVolunteerAsksPanel";
 import { CampaignMorningBrief } from "./CampaignMorningBrief";
 import { CampaignIntelligenceCopilotPanel } from "./CampaignIntelligenceCopilotPanel";
+import { CampaignBrainPanel } from "./CampaignBrainPanel";
 import { CampaignGoalSettingsPanel } from "./CampaignGoalSettingsPanel";
 import { listCampaignPublicVolunteerAsks } from "../../lib/campaigns/volunteerRecruitment";
 import { CampaignEventsPanel } from "./CampaignEventsPanel";
@@ -407,6 +408,8 @@ export function CampaignDashboard({ workspace }: Props) {
       <CampaignMorningBrief brief={morningBrief} themePrimary={theme.primaryColor} themeAccent={theme.accentColor} />
 
       <CampaignGoalSettingsPanel workspace={workspace} />
+      <CampaignBrainPanel workspace={workspace} themeAccent={theme.accentColor} />
+
       <CampaignIntelligenceCopilotPanel
         workspace={workspace}
         events={events}

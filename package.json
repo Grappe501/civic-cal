@@ -67,7 +67,9 @@
     "autogrow:weekly-discovery": "node scripts/run-with-h-drive-env.cjs node scripts/autogrow/run-weekly-feed-discovery.mjs",
     "autogrow:profiles": "node scripts/run-with-h-drive-env.cjs node scripts/autogrow/run-profile-refresh.mjs",
     "autogrow:briefings": "node scripts/run-with-h-drive-env.cjs node scripts/autogrow/run-candidate-briefings.mjs",
-    "autogrow:all": "node scripts/run-with-h-drive-env.cjs node scripts/autogrow/run-daily-feed-scan.mjs && node scripts/run-with-h-drive-env.cjs node scripts/autogrow/run-candidate-briefings.mjs"
+    "autogrow:all": "node scripts/run-with-h-drive-env.cjs node scripts/autogrow/run-daily-feed-scan.mjs && node scripts/run-with-h-drive-env.cjs node scripts/autogrow/run-candidate-briefings.mjs",
+    "ai:build-indexes": "node scripts/run-with-h-drive-env.cjs node scripts/ai-brain/build-ai-indexes.mjs",
+    "ai:research-tasks": "node scripts/run-with-h-drive-env.cjs node scripts/ai-brain/generate-research-tasks.mjs"
   },
   "dependencies": {
     "@react-google-maps/api": "^2.20.6",

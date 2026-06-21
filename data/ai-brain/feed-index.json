@@ -1,0 +1,742 @@
+{
+  "generatedAt": "2026-06-21T16:32:03.397Z",
+  "metrics": {
+    "knownInstitutions": 1673,
+    "feedSlotsTotal": 2500,
+    "institutionFeedsTotal": 0,
+    "totalFeedRecords": 2500,
+    "feedsAttached": 577,
+    "slotFeedsAttached": 577,
+    "institutionFeedsAttached": 0,
+    "feedsMissing": 1923,
+    "feedsSearchOnly": 0,
+    "coveragePercent": 23,
+    "attachmentGoal": 1500,
+    "attachmentGoalProgress": 38,
+    "feedsToGoal": 923,
+    "verifiedEventCount": 255,
+    "stagedPartyMeetings": 279,
+    "attachedProjectedYield": 17457,
+    "potentialProjectedYield": 62260,
+    "densityEngineProjected": 3029,
+    "densityEngineGoal": 5000
+  },
+  "counties": [
+    {
+      "county": "Chicot",
+      "feedsAttached": 8,
+      "feedsMissing": 44,
+      "feedSlotsExpected": 52,
+      "coveragePercent": 15,
+      "institutions": 34,
+      "thin": true
+    },
+    {
+      "county": "Desha",
+      "feedsAttached": 5,
+      "feedsMissing": 26,
+      "feedSlotsExpected": 31,
+      "coveragePercent": 16,
+      "institutions": 19,
+      "thin": true
+    },
+    {
+      "county": "Poinsett",
+      "feedsAttached": 6,
+      "feedsMissing": 32,
+      "feedSlotsExpected": 38,
+      "coveragePercent": 16,
+      "institutions": 24,
+      "thin": true
+    },
+    {
+      "county": "Izard",
+      "feedsAttached": 5,
+      "feedsMissing": 26,
+      "feedSlotsExpected": 31,
+      "coveragePercent": 16,
+      "institutions": 19,
+      "thin": true
+    },
+    {
+      "county": "Ashley",
+      "feedsAttached": 5,
+      "feedsMissing": 26,
+      "feedSlotsExpected": 31,
+      "coveragePercent": 16,
+      "institutions": 19,
+      "thin": true
+    },
+    {
+      "county": "Sharp",
+      "feedsAttached": 5,
+      "feedsMissing": 26,
+      "feedSlotsExpected": 31,
+      "coveragePercent": 16,
+      "institutions": 19,
+      "thin": true
+    },
+    {
+      "county": "Mississippi",
+      "feedsAttached": 15,
+      "feedsMissing": 79,
+      "feedSlotsExpected": 94,
+      "coveragePercent": 16,
+      "institutions": 65,
+      "thin": true
+    },
+    {
+      "county": "Arkansas",
+      "feedsAttached": 7,
+      "feedsMissing": 38,
+      "feedSlotsExpected": 45,
+      "coveragePercent": 16,
+      "institutions": 30,
+      "thin": true
+    },
+    {
+      "county": "Woodruff",
+      "feedsAttached": 4,
+      "feedsMissing": 20,
+      "feedSlotsExpected": 24,
+      "coveragePercent": 17,
+      "institutions": 14,
+      "thin": true
+    },
+    {
+      "county": "Ouachita",
+      "feedsAttached": 4,
+      "feedsMissing": 20,
+      "feedSlotsExpected": 24,
+      "coveragePercent": 17,
+      "institutions": 15,
+      "thin": true
+    },
+    {
+      "county": "Drew",
+      "feedsAttached": 4,
+      "feedsMissing": 20,
+      "feedSlotsExpected": 24,
+      "coveragePercent": 17,
+      "institutions": 16,
+      "thin": true
+    },
+    {
+      "county": "Hot Spring",
+      "feedsAttached": 4,
+      "feedsMissing": 20,
+      "feedSlotsExpected": 24,
+      "coveragePercent": 17,
+      "institutions": 15,
+      "thin": true
+    },
+    {
+      "county": "Phillips",
+      "feedsAttached": 4,
+      "feedsMissing": 20,
+      "feedSlotsExpected": 24,
+      "coveragePercent": 17,
+      "institutions": 16,
+      "thin": true
+    },
+    {
+      "county": "Yell",
+      "feedsAttached": 4,
+      "feedsMissing": 20,
+      "feedSlotsExpected": 24,
+      "coveragePercent": 17,
+      "institutions": 14,
+      "thin": true
+    },
+    {
+      "county": "Jackson",
+      "feedsAttached": 7,
+      "feedsMissing": 31,
+      "feedSlotsExpected": 38,
+      "coveragePercent": 18,
+      "institutions": 24,
+      "thin": true
+    },
+    {
+      "county": "Cleburne",
+      "feedsAttached": 7,
+      "feedsMissing": 31,
+      "feedSlotsExpected": 38,
+      "coveragePercent": 18,
+      "institutions": 25,
+      "thin": true
+    },
+    {
+      "county": "Prairie",
+      "feedsAttached": 8,
+      "feedsMissing": 37,
+      "feedSlotsExpected": 45,
+      "coveragePercent": 18,
+      "institutions": 29,
+      "thin": true
+    },
+    {
+      "county": "Faulkner",
+      "feedsAttached": 12,
+      "feedsMissing": 54,
+      "feedSlotsExpected": 66,
+      "coveragePercent": 18,
+      "institutions": 48,
+      "thin": true
+    },
+    {
+      "county": "Dallas",
+      "feedsAttached": 6,
+      "feedsMissing": 25,
+      "feedSlotsExpected": 31,
+      "coveragePercent": 19,
+      "institutions": 19,
+      "thin": true
+    },
+    {
+      "county": "Monroe",
+      "feedsAttached": 9,
+      "feedsMissing": 36,
+      "feedSlotsExpected": 45,
+      "coveragePercent": 20,
+      "institutions": 29,
+      "thin": true
+    },
+    {
+      "county": "Pope",
+      "feedsAttached": 9,
+      "feedsMissing": 36,
+      "feedSlotsExpected": 45,
+      "coveragePercent": 20,
+      "institutions": 33,
+      "thin": true
+    },
+    {
+      "county": "Little River",
+      "feedsAttached": 5,
+      "feedsMissing": 19,
+      "feedSlotsExpected": 24,
+      "coveragePercent": 21,
+      "institutions": 14,
+      "thin": true
+    },
+    {
+      "county": "Independence",
+      "feedsAttached": 5,
+      "feedsMissing": 19,
+      "feedSlotsExpected": 24,
+      "coveragePercent": 21,
+      "institutions": 16,
+      "thin": true
+    },
+    {
+      "county": "Carroll",
+      "feedsAttached": 8,
+      "feedsMissing": 30,
+      "feedSlotsExpected": 38,
+      "coveragePercent": 21,
+      "institutions": 24,
+      "thin": true
+    },
+    {
+      "county": "Perry",
+      "feedsAttached": 8,
+      "feedsMissing": 30,
+      "feedSlotsExpected": 38,
+      "coveragePercent": 21,
+      "institutions": 24,
+      "thin": true
+    },
+    {
+      "county": "St. Francis",
+      "feedsAttached": 8,
+      "feedsMissing": 30,
+      "feedSlotsExpected": 38,
+      "coveragePercent": 21,
+      "institutions": 25,
+      "thin": true
+    },
+    {
+      "county": "Crittenden",
+      "feedsAttached": 11,
+      "feedsMissing": 41,
+      "feedSlotsExpected": 52,
+      "coveragePercent": 21,
+      "institutions": 36,
+      "thin": true
+    },
+    {
+      "county": "Clark",
+      "feedsAttached": 11,
+      "feedsMissing": 41,
+      "feedSlotsExpected": 52,
+      "coveragePercent": 21,
+      "institutions": 37,
+      "thin": true
+    },
+    {
+      "county": "Van Buren",
+      "feedsAttached": 8,
+      "feedsMissing": 30,
+      "feedSlotsExpected": 38,
+      "coveragePercent": 21,
+      "institutions": 24,
+      "thin": true
+    },
+    {
+      "county": "Craighead",
+      "feedsAttached": 5,
+      "feedsMissing": 19,
+      "feedSlotsExpected": 24,
+      "coveragePercent": 21,
+      "institutions": 18,
+      "thin": true
+    },
+    {
+      "county": "Washington",
+      "feedsAttached": 18,
+      "feedsMissing": 69,
+      "feedSlotsExpected": 87,
+      "coveragePercent": 21,
+      "institutions": 66,
+      "thin": true
+    },
+    {
+      "county": "Benton",
+      "feedsAttached": 24,
+      "feedsMissing": 91,
+      "feedSlotsExpected": 115,
+      "coveragePercent": 21,
+      "institutions": 93,
+      "thin": true
+    },
+    {
+      "county": "White",
+      "feedsAttached": 8,
+      "feedsMissing": 30,
+      "feedSlotsExpected": 38,
+      "coveragePercent": 21,
+      "institutions": 29,
+      "thin": true
+    },
+    {
+      "county": "Logan",
+      "feedsAttached": 10,
+      "feedsMissing": 35,
+      "feedSlotsExpected": 45,
+      "coveragePercent": 22,
+      "institutions": 29,
+      "thin": true
+    },
+    {
+      "county": "Clay",
+      "feedsAttached": 10,
+      "feedsMissing": 35,
+      "feedSlotsExpected": 45,
+      "coveragePercent": 22,
+      "institutions": 29,
+      "thin": true
+    },
+    {
+      "county": "Cross",
+      "feedsAttached": 7,
+      "feedsMissing": 24,
+      "feedSlotsExpected": 31,
+      "coveragePercent": 23,
+      "institutions": 20,
+      "thin": true
+    },
+    {
+      "county": "Boone",
+      "feedsAttached": 7,
+      "feedsMissing": 24,
+      "feedSlotsExpected": 31,
+      "coveragePercent": 23,
+      "institutions": 22,
+      "thin": true
+    },
+    {
+      "county": "Lee",
+      "feedsAttached": 4,
+      "feedsMissing": 13,
+      "feedSlotsExpected": 17,
+      "coveragePercent": 24,
+      "institutions": 9,
+      "thin": true
+    },
+    {
+      "county": "Greene",
+      "feedsAttached": 4,
+      "feedsMissing": 13,
+      "feedSlotsExpected": 17,
+      "coveragePercent": 24,
+      "institutions": 12,
+      "thin": true
+    },
+    {
+      "county": "Madison",
+      "feedsAttached": 6,
+      "feedsMissing": 18,
+      "feedSlotsExpected": 24,
+      "coveragePercent": 25,
+      "institutions": 14,
+      "thin": false
+    },
+    {
+      "county": "Sevier",
+      "feedsAttached": 6,
+      "feedsMissing": 18,
+      "feedSlotsExpected": 24,
+      "coveragePercent": 25,
+      "institutions": 14,
+      "thin": false
+    },
+    {
+      "county": "Howard",
+      "feedsAttached": 6,
+      "feedsMissing": 18,
+      "feedSlotsExpected": 24,
+      "coveragePercent": 25,
+      "institutions": 14,
+      "thin": false
+    },
+    {
+      "county": "Searcy",
+      "feedsAttached": 6,
+      "feedsMissing": 18,
+      "feedSlotsExpected": 24,
+      "coveragePercent": 25,
+      "institutions": 14,
+      "thin": false
+    },
+    {
+      "county": "Hempstead",
+      "feedsAttached": 6,
+      "feedsMissing": 18,
+      "feedSlotsExpected": 24,
+      "coveragePercent": 25,
+      "institutions": 15,
+      "thin": false
+    },
+    {
+      "county": "Franklin",
+      "feedsAttached": 8,
+      "feedsMissing": 23,
+      "feedSlotsExpected": 31,
+      "coveragePercent": 26,
+      "institutions": 20,
+      "thin": false
+    },
+    {
+      "county": "Lincoln",
+      "feedsAttached": 8,
+      "feedsMissing": 23,
+      "feedSlotsExpected": 31,
+      "coveragePercent": 26,
+      "institutions": 19,
+      "thin": false
+    },
+    {
+      "county": "Lafayette",
+      "feedsAttached": 8,
+      "feedsMissing": 23,
+      "feedSlotsExpected": 31,
+      "coveragePercent": 26,
+      "institutions": 19,
+      "thin": false
+    },
+    {
+      "county": "Marion",
+      "feedsAttached": 8,
+      "feedsMissing": 23,
+      "feedSlotsExpected": 31,
+      "coveragePercent": 26,
+      "institutions": 19,
+      "thin": false
+    },
+    {
+      "county": "Conway",
+      "feedsAttached": 10,
+      "feedsMissing": 28,
+      "feedSlotsExpected": 38,
+      "coveragePercent": 26,
+      "institutions": 30,
+      "thin": false
+    },
+    {
+      "county": "Sebastian",
+      "feedsAttached": 10,
+      "feedsMissing": 28,
+      "feedSlotsExpected": 38,
+      "coveragePercent": 26,
+      "institutions": 28,
+      "thin": false
+    },
+    {
+      "county": "Garland",
+      "feedsAttached": 10,
+      "feedsMissing": 28,
+      "feedSlotsExpected": 38,
+      "coveragePercent": 26,
+      "institutions": 28,
+      "thin": false
+    },
+    {
+      "county": "Polk",
+      "feedsAttached": 7,
+      "feedsMissing": 17,
+      "feedSlotsExpected": 24,
+      "coveragePercent": 29,
+      "institutions": 14,
+      "thin": false
+    },
+    {
+      "county": "Miller",
+      "feedsAttached": 5,
+      "feedsMissing": 12,
+      "feedSlotsExpected": 17,
+      "coveragePercent": 29,
+      "institutions": 12,
+      "thin": false
+    },
+    {
+      "county": "Nevada",
+      "feedsAttached": 5,
+      "feedsMissing": 12,
+      "feedSlotsExpected": 17,
+      "coveragePercent": 29,
+      "institutions": 9,
+      "thin": false
+    },
+    {
+      "county": "Pike",
+      "feedsAttached": 5,
+      "feedsMissing": 12,
+      "feedSlotsExpected": 17,
+      "coveragePercent": 29,
+      "institutions": 9,
+      "thin": false
+    },
+    {
+      "county": "Baxter",
+      "feedsAttached": 7,
+      "feedsMissing": 17,
+      "feedSlotsExpected": 24,
+      "coveragePercent": 29,
+      "institutions": 17,
+      "thin": false
+    },
+    {
+      "county": "Lawrence",
+      "feedsAttached": 5,
+      "feedsMissing": 12,
+      "feedSlotsExpected": 17,
+      "coveragePercent": 29,
+      "institutions": 9,
+      "thin": false
+    },
+    {
+      "county": "Stone",
+      "feedsAttached": 7,
+      "feedsMissing": 17,
+      "feedSlotsExpected": 24,
+      "coveragePercent": 29,
+      "institutions": 15,
+      "thin": false
+    },
+    {
+      "county": "Bradley",
+      "feedsAttached": 7,
+      "feedsMissing": 17,
+      "feedSlotsExpected": 24,
+      "coveragePercent": 29,
+      "institutions": 14,
+      "thin": false
+    },
+    {
+      "county": "Fulton",
+      "feedsAttached": 7,
+      "feedsMissing": 17,
+      "feedSlotsExpected": 24,
+      "coveragePercent": 29,
+      "institutions": 14,
+      "thin": false
+    },
+    {
+      "county": "Johnson",
+      "feedsAttached": 7,
+      "feedsMissing": 17,
+      "feedSlotsExpected": 24,
+      "coveragePercent": 29,
+      "institutions": 16,
+      "thin": false
+    },
+    {
+      "county": "Crawford",
+      "feedsAttached": 9,
+      "feedsMissing": 22,
+      "feedSlotsExpected": 31,
+      "coveragePercent": 29,
+      "institutions": 23,
+      "thin": false
+    },
+    {
+      "county": "Union",
+      "feedsAttached": 9,
+      "feedsMissing": 22,
+      "feedSlotsExpected": 31,
+      "coveragePercent": 29,
+      "institutions": 22,
+      "thin": false
+    },
+    {
+      "county": "Lonoke",
+      "feedsAttached": 11,
+      "feedsMissing": 27,
+      "feedSlotsExpected": 38,
+      "coveragePercent": 29,
+      "institutions": 27,
+      "thin": false
+    },
+    {
+      "county": "Pulaski",
+      "feedsAttached": 27,
+      "feedsMissing": 67,
+      "feedSlotsExpected": 94,
+      "coveragePercent": 29,
+      "institutions": 81,
+      "thin": false
+    },
+    {
+      "county": "Montgomery",
+      "feedsAttached": 3,
+      "feedsMissing": 7,
+      "feedSlotsExpected": 10,
+      "coveragePercent": 30,
+      "institutions": 3,
+      "thin": false
+    },
+    {
+      "county": "Columbia",
+      "feedsAttached": 17,
+      "feedsMissing": 35,
+      "feedSlotsExpected": 52,
+      "coveragePercent": 33,
+      "institutions": 38,
+      "thin": false
+    },
+    {
+      "county": "Randolph",
+      "feedsAttached": 6,
+      "feedsMissing": 11,
+      "feedSlotsExpected": 17,
+      "coveragePercent": 35,
+      "institutions": 9,
+      "thin": false
+    },
+    {
+      "county": "Newton",
+      "feedsAttached": 6,
+      "feedsMissing": 11,
+      "feedSlotsExpected": 17,
+      "coveragePercent": 35,
+      "institutions": 9,
+      "thin": false
+    },
+    {
+      "county": "Jefferson",
+      "feedsAttached": 6,
+      "feedsMissing": 11,
+      "feedSlotsExpected": 17,
+      "coveragePercent": 35,
+      "institutions": 13,
+      "thin": false
+    },
+    {
+      "county": "Scott",
+      "feedsAttached": 4,
+      "feedsMissing": 6,
+      "feedSlotsExpected": 10,
+      "coveragePercent": 40,
+      "institutions": 3,
+      "thin": false
+    },
+    {
+      "county": "Saline",
+      "feedsAttached": 11,
+      "feedsMissing": 13,
+      "feedSlotsExpected": 24,
+      "coveragePercent": 46,
+      "institutions": 20,
+      "thin": false
+    },
+    {
+      "county": "Calhoun",
+      "feedsAttached": 5,
+      "feedsMissing": 5,
+      "feedSlotsExpected": 10,
+      "coveragePercent": 50,
+      "institutions": 3,
+      "thin": false
+    },
+    {
+      "county": "Cleveland",
+      "feedsAttached": 5,
+      "feedsMissing": 5,
+      "feedSlotsExpected": 10,
+      "coveragePercent": 50,
+      "institutions": 3,
+      "thin": false
+    },
+    {
+      "county": "Grant",
+      "feedsAttached": 5,
+      "feedsMissing": 5,
+      "feedSlotsExpected": 10,
+      "coveragePercent": 50,
+      "institutions": 3,
+      "thin": false
+    }
+  ],
+  "thinCounties": [
+    "Chicot",
+    "Desha",
+    "Poinsett",
+    "Izard",
+    "Ashley",
+    "Sharp",
+    "Mississippi",
+    "Arkansas",
+    "Woodruff",
+    "Ouachita",
+    "Drew",
+    "Hot Spring",
+    "Phillips",
+    "Yell",
+    "Jackson",
+    "Cleburne",
+    "Prairie",
+    "Faulkner",
+    "Dallas",
+    "Monroe",
+    "Pope",
+    "Little River",
+    "Independence",
+    "Carroll",
+    "Perry",
+    "St. Francis",
+    "Crittenden",
+    "Clark",
+    "Van Buren",
+    "Craighead",
+    "Washington",
+    "Benton",
+    "White",
+    "Logan",
+    "Clay",
+    "Cross",
+    "Boone",
+    "Lee",
+    "Greene"
+  ]
+}

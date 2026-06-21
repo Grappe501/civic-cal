@@ -1,0 +1,871 @@
+{
+  "generatedAt": "2026-06-21T16:32:03.381Z",
+  "countyCount": 75,
+  "thinCounties": [
+    "Arkansas",
+    "Bradley",
+    "Calhoun",
+    "Chicot",
+    "Cross",
+    "Drew",
+    "Franklin",
+    "Jackson",
+    "Lafayette",
+    "Lincoln",
+    "Ouachita",
+    "Pike",
+    "Poinsett",
+    "Polk",
+    "Prairie",
+    "Woodruff"
+  ],
+  "counties": [
+    {
+      "county": "Arkansas",
+      "eventCount": 1,
+      "cityCount": 0,
+      "thin": true
+    },
+    {
+      "county": "Ashley",
+      "eventCount": 3,
+      "cityCount": 1,
+      "thin": false
+    },
+    {
+      "county": "Baxter",
+      "eventCount": 4,
+      "cityCount": 2,
+      "thin": false
+    },
+    {
+      "county": "Benton",
+      "eventCount": 32,
+      "cityCount": 4,
+      "thin": false
+    },
+    {
+      "county": "Boone",
+      "eventCount": 8,
+      "cityCount": 2,
+      "thin": false
+    },
+    {
+      "county": "Bradley",
+      "eventCount": 1,
+      "cityCount": 0,
+      "thin": true
+    },
+    {
+      "county": "Calhoun",
+      "eventCount": 1,
+      "cityCount": 0,
+      "thin": true
+    },
+    {
+      "county": "Carroll",
+      "eventCount": 7,
+      "cityCount": 1,
+      "thin": false
+    },
+    {
+      "county": "Chicot",
+      "eventCount": 1,
+      "cityCount": 0,
+      "thin": true
+    },
+    {
+      "county": "Clark",
+      "eventCount": 4,
+      "cityCount": 1,
+      "thin": false
+    },
+    {
+      "county": "Clay",
+      "eventCount": 7,
+      "cityCount": 2,
+      "thin": false
+    },
+    {
+      "county": "Cleburne",
+      "eventCount": 7,
+      "cityCount": 2,
+      "thin": false
+    },
+    {
+      "county": "Cleveland",
+      "eventCount": 5,
+      "cityCount": 0,
+      "thin": false
+    },
+    {
+      "county": "Columbia",
+      "eventCount": 7,
+      "cityCount": 1,
+      "thin": false
+    },
+    {
+      "county": "Conway",
+      "eventCount": 8,
+      "cityCount": 1,
+      "thin": false
+    },
+    {
+      "county": "Craighead",
+      "eventCount": 10,
+      "cityCount": 1,
+      "thin": false
+    },
+    {
+      "county": "Crawford",
+      "eventCount": 7,
+      "cityCount": 2,
+      "thin": false
+    },
+    {
+      "county": "Crittenden",
+      "eventCount": 7,
+      "cityCount": 1,
+      "thin": false
+    },
+    {
+      "county": "Cross",
+      "eventCount": 1,
+      "cityCount": 0,
+      "thin": true
+    },
+    {
+      "county": "Dallas",
+      "eventCount": 6,
+      "cityCount": 0,
+      "thin": false
+    },
+    {
+      "county": "Desha",
+      "eventCount": 5,
+      "cityCount": 0,
+      "thin": false
+    },
+    {
+      "county": "Drew",
+      "eventCount": 1,
+      "cityCount": 0,
+      "thin": true
+    },
+    {
+      "county": "Faulkner",
+      "eventCount": 23,
+      "cityCount": 3,
+      "thin": false
+    },
+    {
+      "county": "Franklin",
+      "eventCount": 1,
+      "cityCount": 0,
+      "thin": true
+    },
+    {
+      "county": "Fulton",
+      "eventCount": 8,
+      "cityCount": 2,
+      "thin": false
+    },
+    {
+      "county": "Garland",
+      "eventCount": 14,
+      "cityCount": 2,
+      "thin": false
+    },
+    {
+      "county": "Grant",
+      "eventCount": 6,
+      "cityCount": 0,
+      "thin": false
+    },
+    {
+      "county": "Greene",
+      "eventCount": 6,
+      "cityCount": 1,
+      "thin": false
+    },
+    {
+      "county": "Hempstead",
+      "eventCount": 7,
+      "cityCount": 1,
+      "thin": false
+    },
+    {
+      "county": "Hot Spring",
+      "eventCount": 6,
+      "cityCount": 1,
+      "thin": false
+    },
+    {
+      "county": "Howard",
+      "eventCount": 7,
+      "cityCount": 1,
+      "thin": false
+    },
+    {
+      "county": "Independence",
+      "eventCount": 9,
+      "cityCount": 1,
+      "thin": false
+    },
+    {
+      "county": "Izard",
+      "eventCount": 5,
+      "cityCount": 0,
+      "thin": false
+    },
+    {
+      "county": "Jackson",
+      "eventCount": 1,
+      "cityCount": 0,
+      "thin": true
+    },
+    {
+      "county": "Jefferson",
+      "eventCount": 13,
+      "cityCount": 2,
+      "thin": false
+    },
+    {
+      "county": "Johnson",
+      "eventCount": 7,
+      "cityCount": 1,
+      "thin": false
+    },
+    {
+      "county": "Lafayette",
+      "eventCount": 2,
+      "cityCount": 1,
+      "thin": true
+    },
+    {
+      "county": "Lawrence",
+      "eventCount": 3,
+      "cityCount": 1,
+      "thin": false
+    },
+    {
+      "county": "Lee",
+      "eventCount": 5,
+      "cityCount": 0,
+      "thin": false
+    },
+    {
+      "county": "Lincoln",
+      "eventCount": 1,
+      "cityCount": 0,
+      "thin": true
+    },
+    {
+      "county": "Little River",
+      "eventCount": 6,
+      "cityCount": 1,
+      "thin": false
+    },
+    {
+      "county": "Logan",
+      "eventCount": 5,
+      "cityCount": 0,
+      "thin": false
+    },
+    {
+      "county": "Lonoke",
+      "eventCount": 3,
+      "cityCount": 2,
+      "thin": false
+    },
+    {
+      "county": "Madison",
+      "eventCount": 5,
+      "cityCount": 0,
+      "thin": false
+    },
+    {
+      "county": "Marion",
+      "eventCount": 7,
+      "cityCount": 1,
+      "thin": false
+    },
+    {
+      "county": "Miller",
+      "eventCount": 5,
+      "cityCount": 0,
+      "thin": false
+    },
+    {
+      "county": "Mississippi",
+      "eventCount": 6,
+      "cityCount": 0,
+      "thin": false
+    },
+    {
+      "county": "Monroe",
+      "eventCount": 5,
+      "cityCount": 0,
+      "thin": false
+    },
+    {
+      "county": "Montgomery",
+      "eventCount": 7,
+      "cityCount": 2,
+      "thin": false
+    },
+    {
+      "county": "Nevada",
+      "eventCount": 6,
+      "cityCount": 1,
+      "thin": false
+    },
+    {
+      "county": "Newton",
+      "eventCount": 4,
+      "cityCount": 2,
+      "thin": false
+    },
+    {
+      "county": "Ouachita",
+      "eventCount": 1,
+      "cityCount": 0,
+      "thin": true
+    },
+    {
+      "county": "Perry",
+      "eventCount": 5,
+      "cityCount": 0,
+      "thin": false
+    },
+    {
+      "county": "Phillips",
+      "eventCount": 3,
+      "cityCount": 2,
+      "thin": false
+    },
+    {
+      "county": "Pike",
+      "eventCount": 2,
+      "cityCount": 1,
+      "thin": true
+    },
+    {
+      "county": "Poinsett",
+      "eventCount": 1,
+      "cityCount": 0,
+      "thin": true
+    },
+    {
+      "county": "Polk",
+      "eventCount": 1,
+      "cityCount": 0,
+      "thin": true
+    },
+    {
+      "county": "Pope",
+      "eventCount": 3,
+      "cityCount": 1,
+      "thin": false
+    },
+    {
+      "county": "Prairie",
+      "eventCount": 2,
+      "cityCount": 1,
+      "thin": true
+    },
+    {
+      "county": "Pulaski",
+      "eventCount": 29,
+      "cityCount": 5,
+      "thin": false
+    },
+    {
+      "county": "Randolph",
+      "eventCount": 3,
+      "cityCount": 1,
+      "thin": false
+    },
+    {
+      "county": "St. Francis",
+      "eventCount": 6,
+      "cityCount": 1,
+      "thin": false
+    },
+    {
+      "county": "Saline",
+      "eventCount": 11,
+      "cityCount": 2,
+      "thin": false
+    },
+    {
+      "county": "Scott",
+      "eventCount": 5,
+      "cityCount": 0,
+      "thin": false
+    },
+    {
+      "county": "Searcy",
+      "eventCount": 5,
+      "cityCount": 0,
+      "thin": false
+    },
+    {
+      "county": "Sebastian",
+      "eventCount": 15,
+      "cityCount": 2,
+      "thin": false
+    },
+    {
+      "county": "Sevier",
+      "eventCount": 5,
+      "cityCount": 0,
+      "thin": false
+    },
+    {
+      "county": "Sharp",
+      "eventCount": 7,
+      "cityCount": 2,
+      "thin": false
+    },
+    {
+      "county": "Stone",
+      "eventCount": 5,
+      "cityCount": 0,
+      "thin": false
+    },
+    {
+      "county": "Union",
+      "eventCount": 7,
+      "cityCount": 2,
+      "thin": false
+    },
+    {
+      "county": "Van Buren",
+      "eventCount": 12,
+      "cityCount": 2,
+      "thin": false
+    },
+    {
+      "county": "Washington",
+      "eventCount": 102,
+      "cityCount": 2,
+      "thin": false
+    },
+    {
+      "county": "White",
+      "eventCount": 17,
+      "cityCount": 3,
+      "thin": false
+    },
+    {
+      "county": "Woodruff",
+      "eventCount": 1,
+      "cityCount": 0,
+      "thin": true
+    },
+    {
+      "county": "Yell",
+      "eventCount": 7,
+      "cityCount": 2,
+      "thin": false
+    }
+  ],
+  "cities": [
+    {
+      "city": "Fayetteville",
+      "county": "Washington",
+      "eventCount": 94
+    },
+    {
+      "city": "Little Rock",
+      "county": "Pulaski",
+      "eventCount": 18
+    },
+    {
+      "city": "Bella Vista",
+      "county": "Benton",
+      "eventCount": 13
+    },
+    {
+      "city": "Conway",
+      "county": "Faulkner",
+      "eventCount": 8
+    },
+    {
+      "city": "Jonesboro",
+      "county": "Craighead",
+      "eventCount": 8
+    },
+    {
+      "city": "Fort Smith",
+      "county": "Sebastian",
+      "eventCount": 7
+    },
+    {
+      "city": "Hot Springs",
+      "county": "Garland",
+      "eventCount": 7
+    },
+    {
+      "city": "Bentonville",
+      "county": "Benton",
+      "eventCount": 6
+    },
+    {
+      "city": "Searcy",
+      "county": "White",
+      "eventCount": 6
+    },
+    {
+      "city": "Siloam Springs",
+      "county": "Benton",
+      "eventCount": 6
+    },
+    {
+      "city": "Arkansas",
+      "county": "Unknown",
+      "eventCount": 5
+    },
+    {
+      "city": "Pine Bluff",
+      "county": "Jefferson",
+      "eventCount": 5
+    },
+    {
+      "city": "Bryant",
+      "county": "Saline",
+      "eventCount": 5
+    },
+    {
+      "city": "harrison",
+      "county": "Boone",
+      "eventCount": 5
+    },
+    {
+      "city": "Jonesboro",
+      "county": "PM Craighead",
+      "eventCount": 5
+    },
+    {
+      "city": "Morrilton",
+      "county": "Conway",
+      "eventCount": 3
+    },
+    {
+      "city": "Rose Bud",
+      "county": "White",
+      "eventCount": 3
+    },
+    {
+      "city": "Mount Vernon",
+      "county": "Faulkner",
+      "eventCount": 3
+    },
+    {
+      "city": "Batesville",
+      "county": "Independence",
+      "eventCount": 3
+    },
+    {
+      "city": "Mountain Home",
+      "county": "Baxter",
+      "eventCount": 2
+    },
+    {
+      "city": "Springdale",
+      "county": "Washington",
+      "eventCount": 2
+    },
+    {
+      "city": "North Little Rock",
+      "county": "Pulaski",
+      "eventCount": 2
+    },
+    {
+      "city": "Eureka Springs",
+      "county": "Carroll",
+      "eventCount": 2
+    },
+    {
+      "city": "Salem",
+      "county": "Fulton",
+      "eventCount": 2
+    },
+    {
+      "city": "Clarksville",
+      "county": "Johnson",
+      "eventCount": 2
+    },
+    {
+      "city": "Hope",
+      "county": "Hempstead",
+      "eventCount": 2
+    },
+    {
+      "city": "Lawrence",
+      "county": "Lawrence",
+      "eventCount": 2
+    },
+    {
+      "city": "Arkadelphia",
+      "county": "Clark",
+      "eventCount": 2
+    },
+    {
+      "city": "Newton",
+      "county": "Newton",
+      "eventCount": 2
+    },
+    {
+      "city": "Benton",
+      "county": "Benton",
+      "eventCount": 2
+    },
+    {
+      "city": "Randolph",
+      "county": "Randolph",
+      "eventCount": 2
+    },
+    {
+      "city": "Ashley",
+      "county": "Ashley",
+      "eventCount": 2
+    },
+    {
+      "city": "Yellville",
+      "county": "Marion",
+      "eventCount": 2
+    },
+    {
+      "city": "Nashville",
+      "county": "Howard",
+      "eventCount": 2
+    },
+    {
+      "city": "Harrison",
+      "county": "Boone",
+      "eventCount": 2
+    },
+    {
+      "city": "Quitman",
+      "county": "Cleburne",
+      "eventCount": 1
+    },
+    {
+      "city": "Montgomery",
+      "county": "Montgomery",
+      "eventCount": 1
+    },
+    {
+      "city": "Mount Ida",
+      "county": "Montgomery",
+      "eventCount": 1
+    },
+    {
+      "city": "Greenwood",
+      "county": "Sebastian",
+      "eventCount": 1
+    },
+    {
+      "city": "Fairfield Bay",
+      "county": "Van Buren",
+      "eventCount": 1
+    },
+    {
+      "city": "Jasper",
+      "county": "Newton",
+      "eventCount": 1
+    },
+    {
+      "city": "Norfork",
+      "county": "Baxter",
+      "eventCount": 1
+    },
+    {
+      "city": "Sherwood",
+      "county": "Pulaski",
+      "eventCount": 1
+    },
+    {
+      "city": "Piggott",
+      "county": "Clay",
+      "eventCount": 1
+    },
+    {
+      "city": "Heber Springs",
+      "county": "Cleburne",
+      "eventCount": 1
+    },
+    {
+      "city": "Malvern",
+      "county": "Hot Spring",
+      "eventCount": 1
+    },
+    {
+      "city": "Fulton",
+      "county": "Fulton",
+      "eventCount": 1
+    },
+    {
+      "city": "Paragould",
+      "county": "Greene",
+      "eventCount": 1
+    },
+    {
+      "city": "England",
+      "county": "Lonoke",
+      "eventCount": 1
+    },
+    {
+      "city": "Jefferson",
+      "county": "Jefferson",
+      "eventCount": 1
+    },
+    {
+      "city": "Union",
+      "county": "Union",
+      "eventCount": 1
+    },
+    {
+      "city": "El Dorado",
+      "county": "Union",
+      "eventCount": 1
+    },
+    {
+      "city": "Crittenden",
+      "county": "Crittenden",
+      "eventCount": 1
+    },
+    {
+      "city": "Little River",
+      "county": "Little River",
+      "eventCount": 1
+    },
+    {
+      "city": "Hot Springs Village",
+      "county": "Garland",
+      "eventCount": 1
+    },
+    {
+      "city": "Cave City",
+      "county": "Sharp",
+      "eventCount": 1
+    },
+    {
+      "city": "Phillips",
+      "county": "Phillips",
+      "eventCount": 1
+    },
+    {
+      "city": "Dardanelle",
+      "county": "Yell",
+      "eventCount": 1
+    },
+    {
+      "city": "Lafayette",
+      "county": "Lafayette",
+      "eventCount": 1
+    },
+    {
+      "city": "Clinton",
+      "county": "Van Buren",
+      "eventCount": 1
+    },
+    {
+      "city": "Pike",
+      "county": "Pike",
+      "eventCount": 1
+    },
+    {
+      "city": "Yell",
+      "county": "Yell",
+      "eventCount": 1
+    },
+    {
+      "city": "Camden",
+      "county": "Unknown",
+      "eventCount": 1
+    },
+    {
+      "city": "Nevada",
+      "county": "Nevada",
+      "eventCount": 1
+    },
+    {
+      "city": "Clay",
+      "county": "Clay",
+      "eventCount": 1
+    },
+    {
+      "city": "Crawford",
+      "county": "Crawford",
+      "eventCount": 1
+    },
+    {
+      "city": "Van Buren",
+      "county": "Crawford",
+      "eventCount": 1
+    },
+    {
+      "city": "White",
+      "county": "White",
+      "eventCount": 1
+    },
+    {
+      "city": "Russellville",
+      "county": "Pope",
+      "eventCount": 1
+    },
+    {
+      "city": "Jacksonville",
+      "county": "Pulaski",
+      "eventCount": 1
+    },
+    {
+      "city": "Lonoke",
+      "county": "Lonoke",
+      "eventCount": 1
+    },
+    {
+      "city": "Prairie",
+      "county": "Prairie",
+      "eventCount": 1
+    },
+    {
+      "city": "Benton",
+      "county": "Saline",
+      "eventCount": 1
+    },
+    {
+      "city": "Pulaski",
+      "county": "Pulaski",
+      "eventCount": 1
+    },
+    {
+      "city": "Greenbrier",
+      "county": "Faulkner",
+      "eventCount": 1
+    },
+    {
+      "city": "Magnolia",
+      "county": "Columbia",
+      "eventCount": 1
+    },
+    {
+      "city": "Helena-West Helena",
+      "county": "Phillips",
+      "eventCount": 1
+    },
+    {
+      "city": "Forrest City",
+      "county": "St. Francis",
+      "eventCount": 1
+    },
+    {
+      "city": "Ash Flat",
+      "county": "Sharp",
+      "eventCount": 1
+    }
+  ]
+}

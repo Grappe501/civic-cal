@@ -1,0 +1,91 @@
+{
+  "generatedAt": "2026-06-21T16:32:03.397Z",
+  "count": 6,
+  "candidates": [
+    {
+      "slug": "kelly-grappe-sos",
+      "name": "Kelly Grappe",
+      "office": "Arkansas Secretary of State",
+      "districtType": "statewide",
+      "active": true,
+      "counties": [],
+      "cities": []
+    },
+    {
+      "slug": "chris-jones-ar02",
+      "name": "Chris Jones",
+      "office": "U.S. House of Representatives",
+      "districtType": "congressional",
+      "active": true,
+      "counties": [
+        "Cleburne",
+        "Conway",
+        "Faulkner",
+        "Perry",
+        "Saline",
+        "Van Buren",
+        "White",
+        "Pulaski"
+      ],
+      "cities": [
+        "Little Rock",
+        "Conway",
+        "North Little Rock",
+        "Benton",
+        "Malvern"
+      ]
+    },
+    {
+      "slug": "fred-love-governor",
+      "name": "Fred Love",
+      "office": "Governor of Arkansas",
+      "districtType": "statewide",
+      "active": true,
+      "counties": [],
+      "cities": []
+    },
+    {
+      "slug": "eduardo-guzman-senate",
+      "name": "Eduardo Guzman",
+      "office": "Arkansas State Senate",
+      "districtType": "state_senate",
+      "active": true,
+      "counties": [
+        "Sebastian"
+      ],
+      "cities": [
+        "Fort Smith"
+      ]
+    },
+    {
+      "slug": "joshua-irby-sd16",
+      "name": "Joshua Irby",
+      "office": "Arkansas State Senate",
+      "districtType": "state_senate",
+      "active": true,
+      "counties": [
+        "Saline",
+        "Pulaski"
+      ],
+      "cities": [
+        "Benton",
+        "Bryant",
+        "Alexander",
+        "Mabelvale"
+      ]
+    },
+    {
+      "slug": "wendy-peer-house",
+      "name": "Wendy Peer",
+      "office": "Arkansas State Representative",
+      "districtType": "state_house",
+      "active": true,
+      "counties": [
+        "Sebastian"
+      ],
+      "cities": [
+        "Fort Smith"
+      ]
+    }
+  ]
+}

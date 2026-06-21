@@ -173,6 +173,9 @@ export function AdminDataHealthPage() {
             <Link to="/admin/feeds" className="btn-secondary text-xs mt-4 inline-flex">
               Open feed coverage dashboard →
             </Link>
+            <Link to="/admin/ai-brain" className="btn-secondary text-xs mt-4 ml-2 inline-flex">
+              AI Brain console →
+            </Link>
           </section>
 
           {server && (

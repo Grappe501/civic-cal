@@ -39,6 +39,7 @@ import { AdminAutogrowPage } from "./pages/AdminAutogrowPage";
 import { AdminPoliticalInfrastructurePage } from "./pages/AdminPoliticalInfrastructurePage";
 import { AdminSchoolCalendarPage } from "./pages/AdminSchoolCalendarPage";
 import { AdminCandidatesPage } from "./pages/AdminCandidatesPage";
+import { AdminAiBrainPage } from "./pages/AdminAiBrainPage";
 import { CandidateWorkspacePage } from "./pages/CandidateWorkspacePage";
 import { GeoResolverPage } from "./pages/GeoResolverPage";
 import { EntityProfilePage } from "./pages/EntityProfilePage";
@@ -103,6 +104,7 @@ export default function App() {
           <Route path="/admin/political-infrastructure" element={<AdminPoliticalInfrastructurePage />} />
           <Route path="/admin/school-calendars" element={<AdminSchoolCalendarPage />} />
           <Route path="/admin/candidates" element={<AdminCandidatesPage />} />
+          <Route path="/admin/ai-brain" element={<AdminAiBrainPage />} />
           <Route path="/admin" element={<AdminPage />} />
           <Route path="/:slug" element={<GeoResolverPage />} />
         </Routes>
