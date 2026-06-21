@@ -19,7 +19,9 @@ export interface PoliticalPartyOrganization {
   meetingSchedule?: string | null;
   recurrenceRule?: string | null;
   chairPublic?: string | null;
+  electionCommissioner?: string | null;
   venue?: string | null;
+  city?: string | null;
   sourceUrl?: string | null;
   sourceLinks: { label: string; url: string }[];
   confidenceScore: number;

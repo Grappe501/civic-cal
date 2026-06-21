@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updatedAt": "2026-06-21T07:06:54.126Z",
+  "updatedAt": "2026-06-21T17:25:21.231Z",
   "policy": "Public official party pages only. Neutral civic-meetings lane — equal treatment, no endorsements. Admin approval required before publish.",
   "sources": [
     {
@@ -90,600 +90,825 @@
       "url": "https://www.arkdems.org/county/arkansas/",
       "meeting_info": null,
       "chair": null,
+      "election_commissioner": "John Mahfouz",
+      "venue": null,
+      "city": null,
       "fetch_blocked": false,
-      "last_fetched": null
+      "last_fetched": "2026-06-21T17:21:36.507Z"
     },
     {
       "county": "Ashley",
       "url": "https://www.arkdems.org/county/ashley/",
       "meeting_info": null,
       "chair": null,
+      "election_commissioner": null,
+      "venue": null,
+      "city": null,
       "fetch_blocked": false,
-      "last_fetched": null
+      "last_fetched": "2026-06-21T17:21:38.171Z"
     },
     {
       "county": "Baxter",
       "url": "https://www.arkdems.org/county/baxter/",
-      "meeting_info": null,
-      "chair": null,
+      "meeting_info": "Monthly 1st Saturday at 10:00 AM at the Baxter County Library",
+      "chair": "Mary",
+      "election_commissioner": "Bob Bodenhamer",
+      "venue": "10:00 AM at the Baxter County Library",
+      "city": null,
       "fetch_blocked": false,
-      "last_fetched": null
+      "last_fetched": "2026-06-21T17:21:41.119Z"
     },
     {
       "county": "Benton",
       "url": "https://www.arkdems.org/county/benton/",
       "meeting_info": null,
       "chair": null,
-      "fetch_blocked": false,
-      "last_fetched": null
+      "election_commissioner": null,
+      "venue": null,
+      "city": null,
+      "fetch_blocked": true,
+      "last_fetched": "2026-06-21T17:21:43.376Z"
     },
     {
       "county": "Boone",
       "url": "https://www.arkdems.org/county/boone/",
-      "meeting_info": null,
-      "chair": null,
+      "meeting_info": "Monthly 3rd Tuesday",
+      "chair": "Wanda Evans",
+      "election_commissioner": "Sherrill Bishop",
+      "venue": null,
+      "city": null,
       "fetch_blocked": false,
-      "last_fetched": null
+      "last_fetched": "2026-06-21T17:21:43.953Z"
     },
     {
       "county": "Bradley",
       "url": "https://www.arkdems.org/county/bradley/",
       "meeting_info": null,
       "chair": null,
+      "election_commissioner": "Jerry Butler",
+      "venue": null,
+      "city": null,
       "fetch_blocked": false,
-      "last_fetched": null
+      "last_fetched": "2026-06-21T17:21:44.604Z"
     },
     {
       "county": "Calhoun",
       "url": "https://www.arkdems.org/county/calhoun/",
       "meeting_info": null,
       "chair": null,
+      "election_commissioner": null,
+      "venue": null,
+      "city": null,
       "fetch_blocked": false,
-      "last_fetched": null
+      "last_fetched": "2026-06-21T17:21:46.437Z"
     },
     {
       "county": "Carroll",
       "url": "https://www.arkdems.org/county/carroll/",
-      "meeting_info": null,
-      "chair": null,
+      "meeting_info": "Monthly 2nd Tuesday at 6:00 PM at ECHO Clinic Community Room in Eureka Springs",
+      "chair": "Margy Thompson",
+      "election_commissioner": "Cris Yackle",
+      "venue": "6:00 PM at ECHO Clinic Community Room",
+      "city": "Eureka Springs",
       "fetch_blocked": false,
-      "last_fetched": null
+      "last_fetched": "2026-06-21T17:21:47.016Z"
     },
     {
       "county": "Chicot",
       "url": "https://www.arkdems.org/county/chicot/",
       "meeting_info": null,
-      "chair": null,
+      "chair": "Mike Boyd",
+      "election_commissioner": "Joseph Williamson",
+      "venue": null,
+      "city": null,
       "fetch_blocked": false,
-      "last_fetched": null
+      "last_fetched": "2026-06-21T17:21:52.755Z"
     },
     {
       "county": "Clark",
       "url": "https://www.arkdems.org/county/clark/",
-      "meeting_info": null,
-      "chair": null,
+      "meeting_info": "Monthly 3rd Tuesday",
+      "chair": "Leslie Bohn",
+      "election_commissioner": "Lori Stewart",
+      "venue": null,
+      "city": null,
       "fetch_blocked": false,
-      "last_fetched": null
+      "last_fetched": "2026-06-21T17:21:53.443Z"
     },
     {
       "county": "Clay",
       "url": "https://www.arkdems.org/county/clay/",
       "meeting_info": null,
       "chair": null,
-      "fetch_blocked": false,
-      "last_fetched": null
+      "election_commissioner": null,
+      "venue": null,
+      "city": null,
+      "fetch_blocked": true,
+      "last_fetched": "2026-06-21T17:21:55.387Z"
     },
     {
       "county": "Cleburne",
       "url": "https://www.arkdems.org/county/cleburne/",
       "meeting_info": null,
-      "chair": null,
+      "chair": "Lisa Holloway",
+      "election_commissioner": "Larry Crabtree",
+      "venue": null,
+      "city": null,
       "fetch_blocked": false,
-      "last_fetched": null
+      "last_fetched": "2026-06-21T17:21:56.009Z"
     },
     {
       "county": "Cleveland",
       "url": "https://www.arkdems.org/county/cleveland/",
       "meeting_info": null,
-      "chair": null,
+      "chair": "Jametta Harper",
+      "election_commissioner": "Gloria Johnston",
+      "venue": null,
+      "city": null,
       "fetch_blocked": false,
-      "last_fetched": null
+      "last_fetched": "2026-06-21T17:21:56.686Z"
     },
     {
       "county": "Columbia",
       "url": "https://www.arkdems.org/county/columbia/",
       "meeting_info": null,
-      "chair": null,
+      "chair": "Sandra Manning",
+      "election_commissioner": "Shaneka Crockett",
+      "venue": null,
+      "city": null,
       "fetch_blocked": false,
-      "last_fetched": null
+      "last_fetched": "2026-06-21T17:21:57.334Z"
     },
     {
       "county": "Conway",
       "url": "https://www.arkdems.org/county/conway/",
-      "meeting_info": null,
-      "chair": null,
+      "meeting_info": "Monthly 1st Monday at 6:30 PM at Morrilton City Hall",
+      "chair": "Linda Everette-",
+      "election_commissioner": "Delores Brockman",
+      "venue": "6:30 PM at Morrilton City Hall",
+      "city": null,
       "fetch_blocked": false,
-      "last_fetched": null
+      "last_fetched": "2026-06-21T17:21:58.151Z"
     },
     {
       "county": "Craighead",
       "url": "https://www.arkdems.org/county/craighead/",
       "meeting_info": null,
       "chair": null,
-      "fetch_blocked": false,
-      "last_fetched": null
+      "election_commissioner": null,
+      "venue": null,
+      "city": null,
+      "fetch_blocked": true,
+      "last_fetched": "2026-06-21T17:22:01.881Z"
     },
     {
       "county": "Crawford",
       "url": "https://www.arkdems.org/county/crawford/",
-      "meeting_info": null,
-      "chair": null,
+      "meeting_info": "Monthly 2nd Thursday at 6:30 PM at Van Buren Senior Center Senior",
+      "chair": "Karen Robertson",
+      "election_commissioner": "Memory Boucher",
+      "venue": "6:30 PM at Van Buren Senior Center Senior",
+      "city": null,
       "fetch_blocked": false,
-      "last_fetched": null
+      "last_fetched": "2026-06-21T17:22:02.518Z"
     },
     {
       "county": "Crittenden",
       "url": "https://www.arkdems.org/county/crittenden/",
       "meeting_info": null,
       "chair": null,
-      "fetch_blocked": false,
-      "last_fetched": null
+      "election_commissioner": null,
+      "venue": null,
+      "city": null,
+      "fetch_blocked": true,
+      "last_fetched": "2026-06-21T17:22:06.112Z"
     },
     {
       "county": "Cross",
       "url": "https://www.arkdems.org/county/cross/",
       "meeting_info": null,
       "chair": null,
-      "fetch_blocked": false,
-      "last_fetched": null
+      "election_commissioner": null,
+      "venue": null,
+      "city": null,
+      "fetch_blocked": true,
+      "last_fetched": "2026-06-21T17:22:10.396Z"
     },
     {
       "county": "Dallas",
       "url": "https://www.arkdems.org/county/dallas/",
       "meeting_info": null,
       "chair": null,
+      "election_commissioner": null,
+      "venue": null,
+      "city": null,
       "fetch_blocked": false,
-      "last_fetched": null
+      "last_fetched": "2026-06-21T17:22:11.005Z"
     },
     {
       "county": "Desha",
       "url": "https://www.arkdems.org/county/desha/",
       "meeting_info": null,
-      "chair": null,
+      "chair": "Charles Killion",
+      "election_commissioner": "Carsell Mathis",
+      "venue": null,
+      "city": null,
       "fetch_blocked": false,
-      "last_fetched": null
+      "last_fetched": "2026-06-21T17:22:11.558Z"
     },
     {
       "county": "Drew",
       "url": "https://www.arkdems.org/county/drew/",
       "meeting_info": null,
       "chair": null,
-      "fetch_blocked": false,
-      "last_fetched": null
+      "election_commissioner": null,
+      "venue": null,
+      "city": null,
+      "fetch_blocked": true,
+      "last_fetched": "2026-06-21T17:22:13.948Z"
     },
     {
       "county": "Faulkner",
       "url": "https://www.arkdems.org/county/faulkner/",
       "meeting_info": "Monthly 1st Monday at 6:30 PM at McGee Center in Conway",
       "chair": null,
-      "fetch_blocked": false,
-      "last_fetched": null
+      "election_commissioner": null,
+      "venue": null,
+      "city": null,
+      "fetch_blocked": true,
+      "last_fetched": "2026-06-21T17:22:17.360Z"
     },
     {
       "county": "Franklin",
       "url": "https://www.arkdems.org/county/franklin/",
       "meeting_info": null,
       "chair": null,
-      "fetch_blocked": false,
-      "last_fetched": null
+      "election_commissioner": null,
+      "venue": null,
+      "city": null,
+      "fetch_blocked": true,
+      "last_fetched": "2026-06-21T17:22:19.316Z"
     },
     {
       "county": "Fulton",
       "url": "https://www.arkdems.org/county/fulton/",
-      "meeting_info": null,
-      "chair": null,
+      "meeting_info": "Monthly 2nd Saturday mornings at Fulton County Fairgrounds. 9:30am breakfast, 10:00am meeting",
+      "chair": "Heath Shrable",
+      "election_commissioner": "Sonny Brown",
+      "venue": "Fulton County Fairgrounds. 9:30am breakfast, 10:00am meeting",
+      "city": null,
       "fetch_blocked": false,
-      "last_fetched": null
+      "last_fetched": "2026-06-21T17:22:23.702Z"
     },
     {
       "county": "Garland",
       "url": "https://www.arkdems.org/county/garland/",
       "meeting_info": null,
       "chair": null,
-      "fetch_blocked": false,
-      "last_fetched": null
+      "election_commissioner": null,
+      "venue": null,
+      "city": null,
+      "fetch_blocked": true,
+      "last_fetched": "2026-06-21T17:22:27.421Z"
     },
     {
       "county": "Grant",
       "url": "https://www.arkdems.org/county/grant/",
       "meeting_info": null,
       "chair": null,
-      "fetch_blocked": false,
-      "last_fetched": null
+      "election_commissioner": null,
+      "venue": null,
+      "city": null,
+      "fetch_blocked": true,
+      "last_fetched": "2026-06-21T17:22:29.908Z"
     },
     {
       "county": "Greene",
       "url": "https://www.arkdems.org/county/greene/",
-      "meeting_info": null,
-      "chair": null,
+      "meeting_info": "Monthly 2nd Monday at 6:00 PM at Greene Co. Public Library",
+      "chair": "Lisa Birmingham",
+      "election_commissioner": "Faye Parker",
+      "venue": "6:00 PM at Greene Co. Public Library",
+      "city": null,
       "fetch_blocked": false,
-      "last_fetched": null
+      "last_fetched": "2026-06-21T17:22:30.526Z"
     },
     {
       "county": "Hempstead",
       "url": "https://www.arkdems.org/county/hempstead/",
-      "meeting_info": null,
-      "chair": null,
+      "meeting_info": "Monthly last Monday at 6:00 PM at Hempstead County Library",
+      "chair": "Kristaryon Easter",
+      "election_commissioner": null,
+      "venue": "6:00 PM at Hempstead County Library",
+      "city": null,
       "fetch_blocked": false,
-      "last_fetched": null
+      "last_fetched": "2026-06-21T17:22:34.818Z"
     },
     {
       "county": "Hot Spring",
       "url": "https://www.arkdems.org/county/hot-spring/",
       "meeting_info": null,
       "chair": null,
-      "fetch_blocked": false,
-      "last_fetched": null
+      "election_commissioner": null,
+      "venue": null,
+      "city": null,
+      "fetch_blocked": true,
+      "last_fetched": "2026-06-21T17:22:38.185Z"
     },
     {
       "county": "Howard",
       "url": "https://www.arkdems.org/county/howard/",
       "meeting_info": null,
       "chair": null,
-      "fetch_blocked": false,
-      "last_fetched": null
+      "election_commissioner": null,
+      "venue": null,
+      "city": null,
+      "fetch_blocked": true,
+      "last_fetched": "2026-06-21T17:22:40.475Z"
     },
     {
       "county": "Independence",
       "url": "https://www.arkdems.org/county/independence/",
-      "meeting_info": null,
-      "chair": null,
+      "meeting_info": "Monthly 4th Tuesday at US Pizza Batesville",
+      "chair": "Robert Burns",
+      "election_commissioner": "Jennifer Emery",
+      "venue": "US Pizza Batesville",
+      "city": null,
       "fetch_blocked": false,
-      "last_fetched": null
+      "last_fetched": "2026-06-21T17:22:44.225Z"
     },
     {
       "county": "Izard",
       "url": "https://www.arkdems.org/county/izard/",
-      "meeting_info": null,
-      "chair": null,
+      "meeting_info": "Quarterly 3rd Tuesday",
+      "chair": "Sandy Maier",
+      "election_commissioner": "Stephen Williams",
+      "venue": null,
+      "city": null,
       "fetch_blocked": false,
-      "last_fetched": null
+      "last_fetched": "2026-06-21T17:22:49.498Z"
     },
     {
       "county": "Jackson",
       "url": "https://www.arkdems.org/county/jackson/",
       "meeting_info": null,
       "chair": null,
-      "fetch_blocked": false,
-      "last_fetched": null
+      "election_commissioner": null,
+      "venue": null,
+      "city": null,
+      "fetch_blocked": true,
+      "last_fetched": "2026-06-21T17:22:54.087Z"
     },
     {
       "county": "Jefferson",
       "url": "https://www.arkdems.org/county/jefferson/",
       "meeting_info": null,
-      "chair": null,
+      "chair": "Ted Davis",
+      "election_commissioner": "Sharon Hardin",
+      "venue": null,
+      "city": null,
       "fetch_blocked": false,
-      "last_fetched": null
+      "last_fetched": "2026-06-21T17:22:58.167Z"
     },
     {
       "county": "Johnson",
       "url": "https://www.arkdems.org/county/johnson/",
       "meeting_info": null,
       "chair": null,
-      "fetch_blocked": false,
-      "last_fetched": null
+      "election_commissioner": null,
+      "venue": null,
+      "city": null,
+      "fetch_blocked": true,
+      "last_fetched": "2026-06-21T17:23:00.941Z"
     },
     {
       "county": "Lafayette",
       "url": "https://www.arkdems.org/county/lafayette/",
       "meeting_info": null,
-      "chair": null,
+      "chair": "Cheryl Stuart",
+      "election_commissioner": "Rebecca Martin",
+      "venue": null,
+      "city": null,
       "fetch_blocked": false,
-      "last_fetched": null
+      "last_fetched": "2026-06-21T17:23:04.352Z"
     },
     {
       "county": "Lawrence",
       "url": "https://www.arkdems.org/county/lawrence/",
       "meeting_info": null,
       "chair": null,
-      "fetch_blocked": false,
-      "last_fetched": null
+      "election_commissioner": null,
+      "venue": null,
+      "city": null,
+      "fetch_blocked": true,
+      "last_fetched": "2026-06-21T17:23:06.716Z"
     },
     {
       "county": "Lee",
       "url": "https://www.arkdems.org/county/lee/",
       "meeting_info": null,
-      "chair": null,
+      "chair": "Mattie Allison",
+      "election_commissioner": "Clyde Noel",
+      "venue": null,
+      "city": null,
       "fetch_blocked": false,
-      "last_fetched": null
+      "last_fetched": "2026-06-21T17:23:11.325Z"
     },
     {
       "county": "Lincoln",
       "url": "https://www.arkdems.org/county/lincoln/",
       "meeting_info": null,
       "chair": null,
-      "fetch_blocked": false,
-      "last_fetched": null
+      "election_commissioner": null,
+      "venue": null,
+      "city": null,
+      "fetch_blocked": true,
+      "last_fetched": "2026-06-21T17:23:16.365Z"
     },
     {
       "county": "Little River",
       "url": "https://www.arkdems.org/county/little-river/",
       "meeting_info": null,
       "chair": null,
-      "fetch_blocked": false,
-      "last_fetched": null
+      "election_commissioner": null,
+      "venue": null,
+      "city": null,
+      "fetch_blocked": true,
+      "last_fetched": "2026-06-21T17:23:19.288Z"
     },
     {
       "county": "Logan",
       "url": "https://www.arkdems.org/county/logan/",
-      "meeting_info": null,
-      "chair": null,
+      "meeting_info": "Monthly 3rd Tuesday at 5:30 PM",
+      "chair": "Ethan Harbour",
+      "election_commissioner": null,
+      "venue": "5:30 PM",
+      "city": null,
       "fetch_blocked": false,
-      "last_fetched": null
+      "last_fetched": "2026-06-21T17:23:24.297Z"
     },
     {
       "county": "Lonoke",
       "url": "https://www.arkdems.org/county/lonoke/",
-      "meeting_info": null,
-      "chair": null,
+      "meeting_info": "Monthly 4th Thursday at 6:30 PM at Cabot Public Library",
+      "chair": "Corey Spangler",
+      "election_commissioner": "Dan Stowers",
+      "venue": "6:30 PM at Cabot Public Library",
+      "city": null,
       "fetch_blocked": false,
-      "last_fetched": null
+      "last_fetched": "2026-06-21T17:23:28.171Z"
     },
     {
       "county": "Madison",
       "url": "https://www.arkdems.org/county/madison/",
       "meeting_info": null,
-      "chair": null,
+      "chair": "Derek Donahou",
+      "election_commissioner": null,
+      "venue": null,
+      "city": null,
       "fetch_blocked": false,
-      "last_fetched": null
+      "last_fetched": "2026-06-21T17:23:32.427Z"
     },
     {
       "county": "Marion",
       "url": "https://www.arkdems.org/county/marion/",
       "meeting_info": null,
-      "chair": null,
+      "chair": "Carl Mc",
+      "election_commissioner": "Linda Lynch",
+      "venue": null,
+      "city": null,
       "fetch_blocked": false,
-      "last_fetched": null
+      "last_fetched": "2026-06-21T17:23:36.296Z"
     },
     {
       "county": "Miller",
       "url": "https://www.arkdems.org/county/miller/",
       "meeting_info": null,
       "chair": null,
-      "fetch_blocked": false,
-      "last_fetched": null
+      "election_commissioner": null,
+      "venue": null,
+      "city": null,
+      "fetch_blocked": true,
+      "last_fetched": "2026-06-21T17:23:39.153Z"
     },
     {
       "county": "Mississippi",
       "url": "https://www.arkdems.org/county/mississippi/",
       "meeting_info": null,
       "chair": null,
-      "fetch_blocked": false,
-      "last_fetched": null
+      "election_commissioner": null,
+      "venue": null,
+      "city": null,
+      "fetch_blocked": true,
+      "last_fetched": "2026-06-21T17:23:42.728Z"
     },
     {
       "county": "Monroe",
       "url": "https://www.arkdems.org/county/monroe/",
-      "meeting_info": null,
-      "chair": null,
+      "meeting_info": "Monthly 3rd Tuesday at 4:00 PM",
+      "chair": "Oscar Conyears",
+      "election_commissioner": "Charlotte Houston",
+      "venue": "4:00 PM",
+      "city": null,
       "fetch_blocked": false,
-      "last_fetched": null
+      "last_fetched": "2026-06-21T17:23:48.731Z"
     },
     {
       "county": "Montgomery",
       "url": "https://www.arkdems.org/county/montgomery/",
-      "meeting_info": null,
-      "chair": null,
+      "meeting_info": "Monthly 3rd Wednesday at 5:30 PM at County Annex",
+      "chair": "William Bradshaw",
+      "election_commissioner": "Mark Whisenhunt",
+      "venue": "5:30 PM at County Annex",
+      "city": null,
       "fetch_blocked": false,
-      "last_fetched": null
+      "last_fetched": "2026-06-21T17:23:52.609Z"
     },
     {
       "county": "Nevada",
       "url": "https://www.arkdems.org/county/nevada/",
-      "meeting_info": null,
-      "chair": null,
+      "meeting_info": "Quarterly 1st Thursday at 6:00 PM at Nevada County Library",
+      "chair": "Elaine Williams",
+      "election_commissioner": "Edna Adams",
+      "venue": "6:00 PM at Nevada County Library",
+      "city": null,
       "fetch_blocked": false,
-      "last_fetched": null
+      "last_fetched": "2026-06-21T17:23:57.530Z"
     },
     {
       "county": "Newton",
       "url": "https://www.arkdems.org/county/newton/",
       "meeting_info": null,
       "chair": null,
-      "fetch_blocked": false,
-      "last_fetched": null
+      "election_commissioner": null,
+      "venue": null,
+      "city": null,
+      "fetch_blocked": true,
+      "last_fetched": "2026-06-21T17:24:01.075Z"
     },
     {
       "county": "Ouachita",
       "url": "https://www.arkdems.org/county/ouachita/",
-      "meeting_info": null,
-      "chair": null,
-      "fetch_blocked": false,
-      "last_fetched": null
+      "meeting_info": "Monthly 2nd Wednesday at County Courthouse",
+      "chair": "Gregory Nettles\n\n Election Commissioner",
+      "election_commissioner": "Robert White\n\n Meeting Info",
+      "venue": "County Courthouse",
+      "city": null,
+      "fetch_blocked": true,
+      "last_fetched": "2026-06-21T17:24:04.313Z"
     },
     {
       "county": "Perry",
       "url": "https://www.arkdems.org/county/perry/",
       "meeting_info": null,
       "chair": null,
-      "fetch_blocked": false,
-      "last_fetched": null
+      "election_commissioner": null,
+      "venue": null,
+      "city": null,
+      "fetch_blocked": true,
+      "last_fetched": "2026-06-21T17:24:06.628Z"
     },
     {
       "county": "Phillips",
       "url": "https://www.arkdems.org/county/phillips/",
       "meeting_info": null,
-      "chair": null,
+      "chair": "Jerome Turner",
+      "election_commissioner": "Evelyn Schmidt",
+      "venue": null,
+      "city": null,
       "fetch_blocked": false,
-      "last_fetched": null
+      "last_fetched": "2026-06-21T17:24:09.505Z"
     },
     {
       "county": "Pike",
       "url": "https://www.arkdems.org/county/pike/",
       "meeting_info": null,
       "chair": null,
-      "fetch_blocked": false,
-      "last_fetched": null
+      "election_commissioner": null,
+      "venue": null,
+      "city": null,
+      "fetch_blocked": true,
+      "last_fetched": "2026-06-21T17:24:12.992Z"
     },
     {
       "county": "Poinsett",
       "url": "https://www.arkdems.org/county/poinsett/",
       "meeting_info": null,
       "chair": null,
-      "fetch_blocked": false,
-      "last_fetched": null
+      "election_commissioner": null,
+      "venue": null,
+      "city": null,
+      "fetch_blocked": true,
+      "last_fetched": "2026-06-21T17:24:16.190Z"
     },
     {
       "county": "Polk",
       "url": "https://www.arkdems.org/county/polk/",
       "meeting_info": null,
       "chair": null,
+      "election_commissioner": null,
+      "venue": null,
+      "city": null,
       "fetch_blocked": false,
-      "last_fetched": null
+      "last_fetched": "2026-06-21T17:24:17.964Z"
     },
     {
       "county": "Pope",
       "url": "https://www.arkdems.org/county/pope/",
-      "meeting_info": null,
-      "chair": null,
+      "meeting_info": "Monthly 2nd Monday at 7:00 PM at Courthouse",
+      "chair": "Chad Easley",
+      "election_commissioner": "Carol Shoptaw",
+      "venue": "7:00 PM at Courthouse",
+      "city": null,
       "fetch_blocked": false,
-      "last_fetched": null
+      "last_fetched": "2026-06-21T17:24:22.040Z"
     },
     {
       "county": "Prairie",
       "url": "https://www.arkdems.org/county/prairie/",
       "meeting_info": null,
-      "chair": null,
+      "chair": "Joseph",
+      "election_commissioner": null,
+      "venue": null,
+      "city": null,
       "fetch_blocked": false,
-      "last_fetched": null
+      "last_fetched": "2026-06-21T17:24:25.493Z"
     },
     {
       "county": "Pulaski",
       "url": "https://www.arkdems.org/county/pulaski/",
-      "meeting_info": null,
-      "chair": null,
+      "meeting_info": "Monthly last Monday at 6:00 PM at Pulaski County Regional Building",
+      "chair": "Katrina Bishop",
+      "election_commissioner": null,
+      "venue": "6:00 PM at Pulaski County Regional Building",
+      "city": null,
       "fetch_blocked": false,
-      "last_fetched": null
+      "last_fetched": "2026-06-21T17:24:26.052Z"
     },
     {
       "county": "Randolph",
       "url": "https://www.arkdems.org/county/randolph/",
-      "meeting_info": null,
-      "chair": null,
+      "meeting_info": "Monthly 3rd Tuesday at 5:00 PM at Clay County Electric",
+      "chair": "Doris Sharp",
+      "election_commissioner": "Vicki Raglin",
+      "venue": "5:00 PM at Clay County Electric",
+      "city": null,
       "fetch_blocked": false,
-      "last_fetched": null
+      "last_fetched": "2026-06-21T17:24:29.868Z"
     },
     {
       "county": "St. Francis",
       "url": "https://www.arkdems.org/county/st.-francis/",
-      "meeting_info": null,
-      "chair": null,
+      "meeting_info": "Monthly 3rd Thursday at 6:00 PM at St. Francis County Circuit Courtroom",
+      "chair": "Adrian Winfrey",
+      "election_commissioner": "Frederick Freeman",
+      "venue": "6:00 PM at St. Francis County Circuit Courtroom",
+      "city": null,
       "fetch_blocked": false,
-      "last_fetched": null
+      "last_fetched": "2026-06-21T17:24:33.231Z"
     },
     {
       "county": "Saline",
       "url": "https://www.arkdems.org/county/saline/",
       "meeting_info": "Monthly 2nd Tuesday at 6:30 PM",
-      "chair": null,
+      "chair": "Bailey Morgan",
+      "election_commissioner": "Tamme Adams",
+      "venue": "6:30 PM",
+      "city": null,
       "fetch_blocked": false,
-      "last_fetched": null
+      "last_fetched": "2026-06-21T17:24:36.328Z"
     },
     {
       "county": "Scott",
       "url": "https://www.arkdems.org/county/scott/",
       "meeting_info": null,
       "chair": null,
+      "election_commissioner": null,
+      "venue": null,
+      "city": null,
       "fetch_blocked": false,
-      "last_fetched": null
+      "last_fetched": "2026-06-21T17:24:39.461Z"
     },
     {
       "county": "Searcy",
       "url": "https://www.arkdems.org/county/searcy/",
       "meeting_info": null,
       "chair": null,
-      "fetch_blocked": false,
-      "last_fetched": null
+      "election_commissioner": null,
+      "venue": null,
+      "city": null,
+      "fetch_blocked": true,
+      "last_fetched": "2026-06-21T17:24:41.904Z"
     },
     {
       "county": "Sebastian",
       "url": "https://www.arkdems.org/county/sebastian/",
       "meeting_info": null,
       "chair": null,
-      "fetch_blocked": false,
-      "last_fetched": null
+      "election_commissioner": null,
+      "venue": null,
+      "city": null,
+      "fetch_blocked": true,
+      "last_fetched": "2026-06-21T17:24:45.791Z"
     },
     {
       "county": "Sevier",
       "url": "https://www.arkdems.org/county/sevier/",
       "meeting_info": null,
       "chair": null,
+      "election_commissioner": null,
+      "venue": null,
+      "city": null,
       "fetch_blocked": false,
-      "last_fetched": null
+      "last_fetched": "2026-06-21T17:24:47.184Z"
     },
     {
       "county": "Sharp",
       "url": "https://www.arkdems.org/county/sharp/",
       "meeting_info": null,
-      "chair": null,
+      "chair": "Cindy Arnn",
+      "election_commissioner": "Homer Wiles",
+      "venue": null,
+      "city": null,
       "fetch_blocked": false,
-      "last_fetched": null
+      "last_fetched": "2026-06-21T17:24:52.278Z"
     },
     {
       "county": "Stone",
       "url": "https://www.arkdems.org/county/stone/",
-      "meeting_info": null,
-      "chair": null,
+      "meeting_info": "Monthly 3rd Wednesday at 6:00 PM at Stone County Library",
+      "chair": "Jerry Weber",
+      "election_commissioner": "Janice Cavender",
+      "venue": "6:00 PM at Stone County Library",
+      "city": null,
       "fetch_blocked": false,
-      "last_fetched": null
+      "last_fetched": "2026-06-21T17:24:54.901Z"
     },
     {
       "county": "Union",
       "url": "https://www.arkdems.org/county/union/",
       "meeting_info": null,
       "chair": null,
-      "fetch_blocked": false,
-      "last_fetched": null
+      "election_commissioner": null,
+      "venue": null,
+      "city": null,
+      "fetch_blocked": true,
+      "last_fetched": "2026-06-21T17:24:57.697Z"
     },
     {
       "county": "Van Buren",
       "url": "https://www.arkdems.org/county/van-buren/",
       "meeting_info": "Monthly 1st Monday at 6:30 PM at Western Sizzlin' in Clinton",
       "chair": null,
-      "fetch_blocked": false,
-      "last_fetched": null
+      "election_commissioner": null,
+      "venue": null,
+      "city": null,
+      "fetch_blocked": true,
+      "last_fetched": "2026-06-21T17:25:02.909Z"
     },
     {
       "county": "Washington",
       "url": "https://www.arkdems.org/county/washington/",
-      "meeting_info": null,
-      "chair": null,
+      "meeting_info": "Monthly 3rd Monday at 6:00 PM at 1102 S Thompson in Springdale",
+      "chair": "Caitlin Oxford",
+      "election_commissioner": "Alexis Ward",
+      "venue": "6:00 PM at 1102 S Thompson",
+      "city": "Springdale",
       "fetch_blocked": false,
-      "last_fetched": null
+      "last_fetched": "2026-06-21T17:25:08.752Z"
     },
     {
       "county": "White",
       "url": "https://www.arkdems.org/county/white/",
       "meeting_info": null,
       "chair": null,
-      "fetch_blocked": false,
-      "last_fetched": null
+      "election_commissioner": null,
+      "venue": null,
+      "city": null,
+      "fetch_blocked": true,
+      "last_fetched": "2026-06-21T17:25:12.402Z"
     },
     {
       "county": "Woodruff",
       "url": "https://www.arkdems.org/county/woodruff/",
       "meeting_info": null,
       "chair": null,
+      "election_commissioner": "John Bell",
+      "venue": null,
+      "city": null,
       "fetch_blocked": false,
-      "last_fetched": null
+      "last_fetched": "2026-06-21T17:25:16.200Z"
     },
     {
       "county": "Yell",
       "url": "https://www.arkdems.org/county/yell/",
-      "meeting_info": null,
-      "chair": null,
+      "meeting_info": "Monthly last Saturday at 2:00 PM",
+      "chair": "Cathy George",
+      "election_commissioner": "Mike Merritt",
+      "venue": "2:00 PM",
+      "city": null,
       "fetch_blocked": false,
-      "last_fetched": null
+      "last_fetched": "2026-06-21T17:25:19.803Z"
     }
   ]
 }

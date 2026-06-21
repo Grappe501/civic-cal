@@ -1,0 +1,40 @@
+{
+  "version": "1.0",
+  "title": "Master Calendar Lane Map",
+  "updatedAt": "2026-06-21",
+  "objective": "Build the definitive civic, community, cultural, educational, recreational, and political event graph for Arkansas.",
+  "sixMonthPriority": [
+    { "order": 1, "laneId": "festivals", "label": "County fair lane completion", "registryLane": "festivals" },
+    { "order": 2, "laneId": "festivals", "label": "Festival lane (top 250 cities)", "registryLane": "festivals" },
+    { "order": 3, "laneId": "government_civic", "label": "Government meetings", "registryLane": "government_civic" },
+    { "order": 4, "laneId": "schools", "label": "School boards & athletics", "registryLane": "schools" },
+    { "order": 5, "laneId": "community_anchors", "label": "Extension / 4-H / Homemakers", "registryLane": "community_anchors" },
+    { "order": 6, "laneId": "vfds", "label": "Volunteer fire departments", "registryLane": "vfds" },
+    { "order": 7, "laneId": "churches", "label": "Community church events", "registryLane": "churches" },
+    { "order": 8, "laneId": "civic_orgs", "label": "Chambers / Rotary / Lions", "registryLane": "civic_orgs" },
+    { "order": 9, "laneId": "farmers_markets", "label": "Farmers markets", "registryLane": "farmers_markets" },
+    { "order": 10, "laneId": "races", "label": "Race circuit", "registryLane": "races" }
+  ],
+  "postHarvestStandard": [
+    "harvest",
+    "approve source-backed records",
+    "rebuild AI indexes",
+    "regenerate research tasks",
+    "geocode approved bundles when API key present",
+    "build",
+    "push"
+  ],
+  "tier1Foundational": ["government_civic", "schools", "colleges", "festivals", "public_party_meetings"],
+  "tier2RuralGold": ["community_anchors", "vfds"],
+  "tier3Faith": ["churches", "faith_outreach"],
+  "tier4CivicOrgs": ["civic_orgs", "chambers"],
+  "tier5Political": ["public_party_meetings", "historic_political_events"],
+  "aiBrainQuestions": [
+    "Where should I be today?",
+    "What are the highest value events this week?",
+    "What relationships am I neglecting this month?",
+    "What counties am I ignoring long term?",
+    "What event has the highest relationship density?",
+    "What event am I missing that my opponent is attending?"
+  ]
+}

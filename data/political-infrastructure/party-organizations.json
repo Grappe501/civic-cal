@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-06-21T07:06:54.814Z",
+  "generatedAt": "2026-06-21T17:25:21.935Z",
   "pass": "25",
-  "count": 225,
+  "count": 226,
   "organizations": [
     {
       "id": "arkansas-county-democrats",
@@ -15,7 +15,9 @@
       "meetingSchedule": null,
       "recurrenceRule": null,
       "chairPublic": null,
+      "electionCommissioner": "John Mahfouz",
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.arkdems.org/county/arkansas/",
       "sourceLinks": [
         {
@@ -24,7 +26,7 @@
         }
       ],
       "confidenceScore": 20,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "page_discovered",
       "stagedEventCount": 1,
       "fetchBlocked": false,
@@ -42,7 +44,9 @@
       "meetingSchedule": "4th Thursday",
       "recurrenceRule": "4th Thursday",
       "chairPublic": "Jim smith",
+      "electionCommissioner": null,
       "venue": null,
+      "city": "Stuttgart",
       "sourceUrl": "https://www.arkansasgop.org/countygop.html",
       "sourceLinks": [
         {
@@ -51,7 +55,7 @@
         }
       ],
       "confidenceScore": 70,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "meeting_schedule_public",
       "stagedEventCount": 5,
       "fetchBlocked": false,
@@ -69,7 +73,9 @@
       "meetingSchedule": null,
       "recurrenceRule": null,
       "chairPublic": null,
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.lpar.org/events/",
       "sourceLinks": [
         {
@@ -78,7 +84,7 @@
         }
       ],
       "confidenceScore": 0,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "not_found",
       "stagedEventCount": 0,
       "fetchBlocked": false,
@@ -96,7 +102,9 @@
       "meetingSchedule": null,
       "recurrenceRule": null,
       "chairPublic": null,
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.arkdems.org/county/ashley/",
       "sourceLinks": [
         {
@@ -105,7 +113,7 @@
         }
       ],
       "confidenceScore": 20,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "page_discovered",
       "stagedEventCount": 1,
       "fetchBlocked": false,
@@ -120,10 +128,12 @@
       "organization": "Republican Party of Arkansas",
       "county": "Ashley",
       "entityType": "political_party_committee",
-      "meetingSchedule": "AWAITING COMMITTEE",
-      "recurrenceRule": "AWAITING COMMITTEE",
-      "chairPublic": "Gene Barnes",
+      "meetingSchedule": null,
+      "recurrenceRule": null,
+      "chairPublic": null,
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.arkansasgop.org/countygop.html",
       "sourceLinks": [
         {
@@ -131,10 +141,10 @@
           "url": "https://www.arkansasgop.org/countygop.html"
         }
       ],
-      "confidenceScore": 70,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
-      "status": "meeting_schedule_public",
-      "stagedEventCount": 1,
+      "confidenceScore": 0,
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
+      "status": "not_found",
+      "stagedEventCount": 0,
       "fetchBlocked": false,
       "seriesKey": "ashley-republican"
     },
@@ -150,7 +160,9 @@
       "meetingSchedule": null,
       "recurrenceRule": null,
       "chairPublic": null,
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.lpar.org/events/",
       "sourceLinks": [
         {
@@ -159,7 +171,7 @@
         }
       ],
       "confidenceScore": 0,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "not_found",
       "stagedEventCount": 0,
       "fetchBlocked": false,
@@ -174,10 +186,12 @@
       "organization": "Democratic Party of Arkansas",
       "county": "Baxter",
       "entityType": "political_party_committee",
-      "meetingSchedule": null,
-      "recurrenceRule": null,
-      "chairPublic": null,
-      "venue": null,
+      "meetingSchedule": "Monthly 1st Saturday at 10:00 AM at the Baxter County Library",
+      "recurrenceRule": "1st Saturday at 10:00 AM at the Baxter County Library",
+      "chairPublic": "Mary",
+      "electionCommissioner": "Bob Bodenhamer",
+      "venue": "10:00 AM at the Baxter County Library",
+      "city": null,
       "sourceUrl": "https://www.arkdems.org/county/baxter/",
       "sourceLinks": [
         {
@@ -185,10 +199,10 @@
           "url": "https://www.arkdems.org/county/baxter/"
         }
       ],
-      "confidenceScore": 20,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
-      "status": "page_discovered",
-      "stagedEventCount": 1,
+      "confidenceScore": 70,
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
+      "status": "meeting_schedule_public",
+      "stagedEventCount": 4,
       "fetchBlocked": false,
       "seriesKey": "baxter-democratic"
     },
@@ -204,7 +218,9 @@
       "meetingSchedule": "Awaiting committee confirmation",
       "recurrenceRule": "Awaiting committee confirmation",
       "chairPublic": "Chris Chamberlin",
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.arkansasgop.org/countygop.html",
       "sourceLinks": [
         {
@@ -213,7 +229,7 @@
         }
       ],
       "confidenceScore": 25,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "partial",
       "stagedEventCount": 1,
       "fetchBlocked": false,
@@ -231,7 +247,9 @@
       "meetingSchedule": null,
       "recurrenceRule": null,
       "chairPublic": null,
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.lpar.org/events/",
       "sourceLinks": [
         {
@@ -240,7 +258,7 @@
         }
       ],
       "confidenceScore": 0,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "not_found",
       "stagedEventCount": 0,
       "fetchBlocked": false,
@@ -258,7 +276,9 @@
       "meetingSchedule": null,
       "recurrenceRule": null,
       "chairPublic": null,
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.arkdems.org/county/benton/",
       "sourceLinks": [
         {
@@ -267,10 +287,10 @@
         }
       ],
       "confidenceScore": 20,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
-      "status": "page_discovered",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
+      "status": "partial",
       "stagedEventCount": 1,
-      "fetchBlocked": false,
+      "fetchBlocked": true,
       "seriesKey": "benton-democratic"
     },
     {
@@ -285,7 +305,9 @@
       "meetingSchedule": "2nd Thursday",
       "recurrenceRule": "2nd Thursday",
       "chairPublic": "Barbara Tillman",
-      "venue": "6:30 PM Shewmaker Workforce Center Walmart Auditorium Northwest arkansas community college 1000 SE Eagle Way Bentonville, AR 72712",
+      "electionCommissioner": null,
+      "venue": "6:30 PM Shewmaker Workforce Center Walmart Auditorium ​Northwest arkansas community college 1000 SE Eagle Way ​Bentonville, AR 72712",
+      "city": null,
       "sourceUrl": "https://www.arkansasgop.org/countygop.html",
       "sourceLinks": [
         {
@@ -294,7 +316,7 @@
         }
       ],
       "confidenceScore": 70,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "meeting_schedule_public",
       "stagedEventCount": 4,
       "fetchBlocked": false,
@@ -312,7 +334,9 @@
       "meetingSchedule": null,
       "recurrenceRule": null,
       "chairPublic": null,
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.lpar.org/events/",
       "sourceLinks": [
         {
@@ -321,7 +345,7 @@
         }
       ],
       "confidenceScore": 0,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "not_found",
       "stagedEventCount": 0,
       "fetchBlocked": false,
@@ -336,10 +360,12 @@
       "organization": "Democratic Party of Arkansas",
       "county": "Boone",
       "entityType": "political_party_committee",
-      "meetingSchedule": null,
-      "recurrenceRule": null,
-      "chairPublic": null,
+      "meetingSchedule": "Monthly 3rd Tuesday",
+      "recurrenceRule": "3rd Tuesday",
+      "chairPublic": "Wanda Evans",
+      "electionCommissioner": "Sherrill Bishop",
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.arkdems.org/county/boone/",
       "sourceLinks": [
         {
@@ -347,10 +373,10 @@
           "url": "https://www.arkdems.org/county/boone/"
         }
       ],
-      "confidenceScore": 20,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
-      "status": "page_discovered",
-      "stagedEventCount": 1,
+      "confidenceScore": 70,
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
+      "status": "meeting_schedule_public",
+      "stagedEventCount": 4,
       "fetchBlocked": false,
       "seriesKey": "boone-democratic"
     },
@@ -363,10 +389,12 @@
       "organization": "Republican Party of Arkansas",
       "county": "Boone",
       "entityType": "political_party_committee",
-      "meetingSchedule": "4th Monday",
-      "recurrenceRule": "4th Monday",
-      "chairPublic": "Chris Diffey",
+      "meetingSchedule": null,
+      "recurrenceRule": null,
+      "chairPublic": null,
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.arkansasgop.org/countygop.html",
       "sourceLinks": [
         {
@@ -374,10 +402,10 @@
           "url": "https://www.arkansasgop.org/countygop.html"
         }
       ],
-      "confidenceScore": 70,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
-      "status": "meeting_schedule_public",
-      "stagedEventCount": 5,
+      "confidenceScore": 0,
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
+      "status": "not_found",
+      "stagedEventCount": 0,
       "fetchBlocked": false,
       "seriesKey": "boone-republican"
     },
@@ -393,7 +421,9 @@
       "meetingSchedule": null,
       "recurrenceRule": null,
       "chairPublic": null,
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.lpar.org/events/",
       "sourceLinks": [
         {
@@ -402,7 +432,7 @@
         }
       ],
       "confidenceScore": 0,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "not_found",
       "stagedEventCount": 0,
       "fetchBlocked": false,
@@ -420,7 +450,9 @@
       "meetingSchedule": null,
       "recurrenceRule": null,
       "chairPublic": null,
+      "electionCommissioner": "Jerry Butler",
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.arkdems.org/county/bradley/",
       "sourceLinks": [
         {
@@ -429,7 +461,7 @@
         }
       ],
       "confidenceScore": 20,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "page_discovered",
       "stagedEventCount": 1,
       "fetchBlocked": false,
@@ -447,7 +479,9 @@
       "meetingSchedule": null,
       "recurrenceRule": null,
       "chairPublic": null,
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.arkansasgop.org/countygop.html",
       "sourceLinks": [
         {
@@ -456,7 +490,7 @@
         }
       ],
       "confidenceScore": 0,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "not_found",
       "stagedEventCount": 0,
       "fetchBlocked": false,
@@ -474,7 +508,9 @@
       "meetingSchedule": null,
       "recurrenceRule": null,
       "chairPublic": null,
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.lpar.org/events/",
       "sourceLinks": [
         {
@@ -483,7 +519,7 @@
         }
       ],
       "confidenceScore": 0,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "not_found",
       "stagedEventCount": 0,
       "fetchBlocked": false,
@@ -501,7 +537,9 @@
       "meetingSchedule": null,
       "recurrenceRule": null,
       "chairPublic": null,
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.arkdems.org/county/calhoun/",
       "sourceLinks": [
         {
@@ -510,7 +548,7 @@
         }
       ],
       "confidenceScore": 20,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "page_discovered",
       "stagedEventCount": 1,
       "fetchBlocked": false,
@@ -525,10 +563,12 @@
       "organization": "Republican Party of Arkansas",
       "county": "Calhoun",
       "entityType": "political_party_committee",
-      "meetingSchedule": null,
-      "recurrenceRule": null,
-      "chairPublic": null,
+      "meetingSchedule": "Awaiting committee confirmation",
+      "recurrenceRule": "Awaiting committee confirmation",
+      "chairPublic": "melinda stivers",
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.arkansasgop.org/countygop.html",
       "sourceLinks": [
         {
@@ -536,10 +576,10 @@
           "url": "https://www.arkansasgop.org/countygop.html"
         }
       ],
-      "confidenceScore": 0,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
-      "status": "not_found",
-      "stagedEventCount": 0,
+      "confidenceScore": 25,
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
+      "status": "partial",
+      "stagedEventCount": 1,
       "fetchBlocked": false,
       "seriesKey": "calhoun-republican"
     },
@@ -555,7 +595,9 @@
       "meetingSchedule": null,
       "recurrenceRule": null,
       "chairPublic": null,
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.lpar.org/events/",
       "sourceLinks": [
         {
@@ -564,7 +606,7 @@
         }
       ],
       "confidenceScore": 0,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "not_found",
       "stagedEventCount": 0,
       "fetchBlocked": false,
@@ -579,10 +621,12 @@
       "organization": "Democratic Party of Arkansas",
       "county": "Carroll",
       "entityType": "political_party_committee",
-      "meetingSchedule": null,
-      "recurrenceRule": null,
-      "chairPublic": null,
-      "venue": null,
+      "meetingSchedule": "Monthly 2nd Tuesday at 6:00 PM at ECHO Clinic Community Room in Eureka Springs",
+      "recurrenceRule": "2nd Tuesday at 6:00 PM at ECHO Clinic Community Room in Eureka Springs",
+      "chairPublic": "Margy Thompson",
+      "electionCommissioner": "Cris Yackle",
+      "venue": "6:00 PM at ECHO Clinic Community Room",
+      "city": "Eureka Springs",
       "sourceUrl": "https://www.arkdems.org/county/carroll/",
       "sourceLinks": [
         {
@@ -590,10 +634,10 @@
           "url": "https://www.arkdems.org/county/carroll/"
         }
       ],
-      "confidenceScore": 20,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
-      "status": "page_discovered",
-      "stagedEventCount": 1,
+      "confidenceScore": 70,
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
+      "status": "meeting_schedule_public",
+      "stagedEventCount": 4,
       "fetchBlocked": false,
       "seriesKey": "carroll-democratic"
     },
@@ -609,7 +653,9 @@
       "meetingSchedule": "2nd Monday",
       "recurrenceRule": "2nd Monday",
       "chairPublic": "Shawna writer",
+      "electionCommissioner": null,
       "venue": "7:00 PM Carroll Electric 920 US-62 Spur Berryville, AR 72616",
+      "city": null,
       "sourceUrl": "https://www.arkansasgop.org/countygop.html",
       "sourceLinks": [
         {
@@ -618,7 +664,7 @@
         }
       ],
       "confidenceScore": 70,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "meeting_schedule_public",
       "stagedEventCount": 4,
       "fetchBlocked": false,
@@ -636,7 +682,9 @@
       "meetingSchedule": null,
       "recurrenceRule": null,
       "chairPublic": null,
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.lpar.org/events/",
       "sourceLinks": [
         {
@@ -645,7 +693,7 @@
         }
       ],
       "confidenceScore": 0,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "not_found",
       "stagedEventCount": 0,
       "fetchBlocked": false,
@@ -662,8 +710,10 @@
       "entityType": "political_party_committee",
       "meetingSchedule": null,
       "recurrenceRule": null,
-      "chairPublic": null,
+      "chairPublic": "Mike Boyd",
+      "electionCommissioner": "Joseph Williamson",
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.arkdems.org/county/chicot/",
       "sourceLinks": [
         {
@@ -672,7 +722,7 @@
         }
       ],
       "confidenceScore": 20,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "page_discovered",
       "stagedEventCount": 1,
       "fetchBlocked": false,
@@ -687,10 +737,12 @@
       "organization": "Republican Party of Arkansas",
       "county": "Chicot",
       "entityType": "political_party_committee",
-      "meetingSchedule": "Awaiting committee confirmation",
-      "recurrenceRule": "Awaiting committee confirmation",
-      "chairPublic": "Fonda Matthews",
+      "meetingSchedule": null,
+      "recurrenceRule": null,
+      "chairPublic": null,
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.arkansasgop.org/countygop.html",
       "sourceLinks": [
         {
@@ -698,10 +750,10 @@
           "url": "https://www.arkansasgop.org/countygop.html"
         }
       ],
-      "confidenceScore": 25,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
-      "status": "partial",
-      "stagedEventCount": 1,
+      "confidenceScore": 0,
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
+      "status": "not_found",
+      "stagedEventCount": 0,
       "fetchBlocked": false,
       "seriesKey": "chicot-republican"
     },
@@ -717,7 +769,9 @@
       "meetingSchedule": null,
       "recurrenceRule": null,
       "chairPublic": null,
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.lpar.org/events/",
       "sourceLinks": [
         {
@@ -726,7 +780,7 @@
         }
       ],
       "confidenceScore": 0,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "not_found",
       "stagedEventCount": 0,
       "fetchBlocked": false,
@@ -741,10 +795,12 @@
       "organization": "Democratic Party of Arkansas",
       "county": "Clark",
       "entityType": "political_party_committee",
-      "meetingSchedule": null,
-      "recurrenceRule": null,
-      "chairPublic": null,
+      "meetingSchedule": "Monthly 3rd Tuesday",
+      "recurrenceRule": "3rd Tuesday",
+      "chairPublic": "Leslie Bohn",
+      "electionCommissioner": "Lori Stewart",
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.arkdems.org/county/clark/",
       "sourceLinks": [
         {
@@ -752,10 +808,10 @@
           "url": "https://www.arkdems.org/county/clark/"
         }
       ],
-      "confidenceScore": 20,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
-      "status": "page_discovered",
-      "stagedEventCount": 1,
+      "confidenceScore": 70,
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
+      "status": "meeting_schedule_public",
+      "stagedEventCount": 4,
       "fetchBlocked": false,
       "seriesKey": "clark-democratic"
     },
@@ -768,10 +824,12 @@
       "organization": "Republican Party of Arkansas",
       "county": "Clark",
       "entityType": "political_party_committee",
-      "meetingSchedule": null,
-      "recurrenceRule": null,
-      "chairPublic": null,
-      "venue": null,
+      "meetingSchedule": "3rd Monday",
+      "recurrenceRule": "3rd Monday",
+      "chairPublic": "Jenna Scott",
+      "electionCommissioner": null,
+      "venue": "6:30 PM The Plaza at Twin Rivers 3007 Twin Rivers Dr Arkadelphia, AR 71923",
+      "city": null,
       "sourceUrl": "https://www.arkansasgop.org/countygop.html",
       "sourceLinks": [
         {
@@ -779,10 +837,10 @@
           "url": "https://www.arkansasgop.org/countygop.html"
         }
       ],
-      "confidenceScore": 0,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
-      "status": "not_found",
-      "stagedEventCount": 0,
+      "confidenceScore": 70,
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
+      "status": "meeting_schedule_public",
+      "stagedEventCount": 4,
       "fetchBlocked": false,
       "seriesKey": "clark-republican"
     },
@@ -798,7 +856,9 @@
       "meetingSchedule": null,
       "recurrenceRule": null,
       "chairPublic": null,
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.lpar.org/events/",
       "sourceLinks": [
         {
@@ -807,7 +867,7 @@
         }
       ],
       "confidenceScore": 0,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "not_found",
       "stagedEventCount": 0,
       "fetchBlocked": false,
@@ -825,7 +885,9 @@
       "meetingSchedule": null,
       "recurrenceRule": null,
       "chairPublic": null,
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.arkdems.org/county/clay/",
       "sourceLinks": [
         {
@@ -834,10 +896,10 @@
         }
       ],
       "confidenceScore": 20,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
-      "status": "page_discovered",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
+      "status": "partial",
       "stagedEventCount": 1,
-      "fetchBlocked": false,
+      "fetchBlocked": true,
       "seriesKey": "clay-democratic"
     },
     {
@@ -849,10 +911,12 @@
       "organization": "Republican Party of Arkansas",
       "county": "Clay",
       "entityType": "political_party_committee",
-      "meetingSchedule": "2nd Thursday",
-      "recurrenceRule": "2nd Thursday",
-      "chairPublic": "Neal Smith",
-      "venue": "6:00",
+      "meetingSchedule": null,
+      "recurrenceRule": null,
+      "chairPublic": null,
+      "electionCommissioner": null,
+      "venue": null,
+      "city": null,
       "sourceUrl": "https://www.arkansasgop.org/countygop.html",
       "sourceLinks": [
         {
@@ -860,10 +924,10 @@
           "url": "https://www.arkansasgop.org/countygop.html"
         }
       ],
-      "confidenceScore": 70,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
-      "status": "meeting_schedule_public",
-      "stagedEventCount": 4,
+      "confidenceScore": 0,
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
+      "status": "not_found",
+      "stagedEventCount": 0,
       "fetchBlocked": false,
       "seriesKey": "clay-republican"
     },
@@ -879,7 +943,9 @@
       "meetingSchedule": null,
       "recurrenceRule": null,
       "chairPublic": null,
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.lpar.org/events/",
       "sourceLinks": [
         {
@@ -888,7 +954,7 @@
         }
       ],
       "confidenceScore": 0,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "not_found",
       "stagedEventCount": 0,
       "fetchBlocked": false,
@@ -905,8 +971,10 @@
       "entityType": "political_party_committee",
       "meetingSchedule": null,
       "recurrenceRule": null,
-      "chairPublic": null,
+      "chairPublic": "Lisa Holloway",
+      "electionCommissioner": "Larry Crabtree",
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.arkdems.org/county/cleburne/",
       "sourceLinks": [
         {
@@ -915,7 +983,7 @@
         }
       ],
       "confidenceScore": 20,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "page_discovered",
       "stagedEventCount": 1,
       "fetchBlocked": false,
@@ -930,10 +998,12 @@
       "organization": "Republican Party of Arkansas",
       "county": "Cleburne",
       "entityType": "political_party_committee",
-      "meetingSchedule": "1st Tuesday",
-      "recurrenceRule": "1st Tuesday",
-      "chairPublic": "Steve Smith",
-      "venue": "6:00 PM ASU Heber Springs 101 Rivercrest Dr. Heber Springs, AR 72543",
+      "meetingSchedule": null,
+      "recurrenceRule": null,
+      "chairPublic": null,
+      "electionCommissioner": null,
+      "venue": null,
+      "city": null,
       "sourceUrl": "https://www.arkansasgop.org/countygop.html",
       "sourceLinks": [
         {
@@ -941,10 +1011,10 @@
           "url": "https://www.arkansasgop.org/countygop.html"
         }
       ],
-      "confidenceScore": 70,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
-      "status": "meeting_schedule_public",
-      "stagedEventCount": 4,
+      "confidenceScore": 0,
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
+      "status": "not_found",
+      "stagedEventCount": 0,
       "fetchBlocked": false,
       "seriesKey": "cleburne-republican"
     },
@@ -960,7 +1030,9 @@
       "meetingSchedule": null,
       "recurrenceRule": null,
       "chairPublic": null,
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.lpar.org/events/",
       "sourceLinks": [
         {
@@ -969,7 +1041,7 @@
         }
       ],
       "confidenceScore": 0,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "not_found",
       "stagedEventCount": 0,
       "fetchBlocked": false,
@@ -986,8 +1058,10 @@
       "entityType": "political_party_committee",
       "meetingSchedule": null,
       "recurrenceRule": null,
-      "chairPublic": null,
+      "chairPublic": "Jametta Harper",
+      "electionCommissioner": "Gloria Johnston",
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.arkdems.org/county/cleveland/",
       "sourceLinks": [
         {
@@ -996,7 +1070,7 @@
         }
       ],
       "confidenceScore": 20,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "page_discovered",
       "stagedEventCount": 1,
       "fetchBlocked": false,
@@ -1014,7 +1088,9 @@
       "meetingSchedule": "2nd Tuesday",
       "recurrenceRule": "2nd Tuesday",
       "chairPublic": "Patrick Berry",
+      "electionCommissioner": null,
       "venue": "12:00 PM Hall-Morgan Veterans Building 404 Sycamore St Rison, AR 71665",
+      "city": null,
       "sourceUrl": "https://www.arkansasgop.org/countygop.html",
       "sourceLinks": [
         {
@@ -1023,7 +1099,7 @@
         }
       ],
       "confidenceScore": 70,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "meeting_schedule_public",
       "stagedEventCount": 4,
       "fetchBlocked": false,
@@ -1041,7 +1117,9 @@
       "meetingSchedule": null,
       "recurrenceRule": null,
       "chairPublic": null,
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.lpar.org/events/",
       "sourceLinks": [
         {
@@ -1050,7 +1128,7 @@
         }
       ],
       "confidenceScore": 0,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "not_found",
       "stagedEventCount": 0,
       "fetchBlocked": false,
@@ -1067,8 +1145,10 @@
       "entityType": "political_party_committee",
       "meetingSchedule": null,
       "recurrenceRule": null,
-      "chairPublic": null,
+      "chairPublic": "Sandra Manning",
+      "electionCommissioner": "Shaneka Crockett",
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.arkdems.org/county/columbia/",
       "sourceLinks": [
         {
@@ -1077,7 +1157,7 @@
         }
       ],
       "confidenceScore": 20,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "page_discovered",
       "stagedEventCount": 1,
       "fetchBlocked": false,
@@ -1095,7 +1175,9 @@
       "meetingSchedule": "3rd Monday",
       "recurrenceRule": "3rd Monday",
       "chairPublic": "Beth anne rankin",
+      "electionCommissioner": null,
       "venue": "6:30 PM Magnolia Fire Department 206 N Jackson Magnolia, AR 71753",
+      "city": null,
       "sourceUrl": "https://www.arkansasgop.org/countygop.html",
       "sourceLinks": [
         {
@@ -1104,7 +1186,7 @@
         }
       ],
       "confidenceScore": 70,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "meeting_schedule_public",
       "stagedEventCount": 4,
       "fetchBlocked": false,
@@ -1122,7 +1204,9 @@
       "meetingSchedule": null,
       "recurrenceRule": null,
       "chairPublic": null,
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.lpar.org/events/",
       "sourceLinks": [
         {
@@ -1131,7 +1215,7 @@
         }
       ],
       "confidenceScore": 0,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "not_found",
       "stagedEventCount": 0,
       "fetchBlocked": false,
@@ -1146,10 +1230,12 @@
       "organization": "Democratic Party of Arkansas",
       "county": "Conway",
       "entityType": "political_party_committee",
-      "meetingSchedule": null,
-      "recurrenceRule": null,
-      "chairPublic": null,
-      "venue": null,
+      "meetingSchedule": "Monthly 1st Monday at 6:30 PM at Morrilton City Hall",
+      "recurrenceRule": "1st Monday at 6:30 PM at Morrilton City Hall",
+      "chairPublic": "Linda Everette-",
+      "electionCommissioner": "Delores Brockman",
+      "venue": "6:30 PM at Morrilton City Hall",
+      "city": null,
       "sourceUrl": "https://www.arkdems.org/county/conway/",
       "sourceLinks": [
         {
@@ -1157,10 +1243,10 @@
           "url": "https://www.arkdems.org/county/conway/"
         }
       ],
-      "confidenceScore": 20,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
-      "status": "page_discovered",
-      "stagedEventCount": 1,
+      "confidenceScore": 70,
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
+      "status": "meeting_schedule_public",
+      "stagedEventCount": 4,
       "fetchBlocked": false,
       "seriesKey": "conway-democratic"
     },
@@ -1176,7 +1262,9 @@
       "meetingSchedule": "3rd Thursday",
       "recurrenceRule": "3rd Thursday",
       "chairPublic": "Susan dumas",
+      "electionCommissioner": null,
       "venue": "6:00 PM Fire station North 1700 e harding Morrilton, AR 72110",
+      "city": null,
       "sourceUrl": "https://www.arkansasgop.org/countygop.html",
       "sourceLinks": [
         {
@@ -1185,7 +1273,7 @@
         }
       ],
       "confidenceScore": 70,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "meeting_schedule_public",
       "stagedEventCount": 4,
       "fetchBlocked": false,
@@ -1203,7 +1291,9 @@
       "meetingSchedule": null,
       "recurrenceRule": null,
       "chairPublic": null,
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.lpar.org/events/",
       "sourceLinks": [
         {
@@ -1212,7 +1302,7 @@
         }
       ],
       "confidenceScore": 0,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "not_found",
       "stagedEventCount": 0,
       "fetchBlocked": false,
@@ -1230,7 +1320,9 @@
       "meetingSchedule": null,
       "recurrenceRule": null,
       "chairPublic": null,
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.arkdems.org/county/craighead/",
       "sourceLinks": [
         {
@@ -1239,10 +1331,10 @@
         }
       ],
       "confidenceScore": 20,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
-      "status": "page_discovered",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
+      "status": "partial",
       "stagedEventCount": 1,
-      "fetchBlocked": false,
+      "fetchBlocked": true,
       "seriesKey": "craighead-democratic"
     },
     {
@@ -1254,10 +1346,12 @@
       "organization": "Republican Party of Arkansas",
       "county": "Craighead",
       "entityType": "political_party_committee",
-      "meetingSchedule": null,
-      "recurrenceRule": null,
-      "chairPublic": null,
-      "venue": null,
+      "meetingSchedule": "4th Tuesday",
+      "recurrenceRule": "4th Tuesday",
+      "chairPublic": "Jeremy Terrell",
+      "electionCommissioner": null,
+      "venue": "​",
+      "city": "Jonesboro",
       "sourceUrl": "https://www.arkansasgop.org/countygop.html",
       "sourceLinks": [
         {
@@ -1265,10 +1359,10 @@
           "url": "https://www.arkansasgop.org/countygop.html"
         }
       ],
-      "confidenceScore": 0,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
-      "status": "not_found",
-      "stagedEventCount": 0,
+      "confidenceScore": 70,
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
+      "status": "meeting_schedule_public",
+      "stagedEventCount": 5,
       "fetchBlocked": false,
       "seriesKey": "craighead-republican"
     },
@@ -1284,7 +1378,9 @@
       "meetingSchedule": null,
       "recurrenceRule": null,
       "chairPublic": null,
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.lpar.org/events/",
       "sourceLinks": [
         {
@@ -1293,7 +1389,7 @@
         }
       ],
       "confidenceScore": 0,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "not_found",
       "stagedEventCount": 0,
       "fetchBlocked": false,
@@ -1308,10 +1404,12 @@
       "organization": "Democratic Party of Arkansas",
       "county": "Crawford",
       "entityType": "political_party_committee",
-      "meetingSchedule": null,
-      "recurrenceRule": null,
-      "chairPublic": null,
-      "venue": null,
+      "meetingSchedule": "Monthly 2nd Thursday at 6:30 PM at Van Buren Senior Center Senior",
+      "recurrenceRule": "2nd Thursday at 6:30 PM at Van Buren Senior Center Senior",
+      "chairPublic": "Karen Robertson",
+      "electionCommissioner": "Memory Boucher",
+      "venue": "6:30 PM at Van Buren Senior Center Senior",
+      "city": null,
       "sourceUrl": "https://www.arkdems.org/county/crawford/",
       "sourceLinks": [
         {
@@ -1319,10 +1417,10 @@
           "url": "https://www.arkdems.org/county/crawford/"
         }
       ],
-      "confidenceScore": 20,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
-      "status": "page_discovered",
-      "stagedEventCount": 1,
+      "confidenceScore": 70,
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
+      "status": "meeting_schedule_public",
+      "stagedEventCount": 4,
       "fetchBlocked": false,
       "seriesKey": "crawford-democratic"
     },
@@ -1338,7 +1436,9 @@
       "meetingSchedule": "2nd Tuesday",
       "recurrenceRule": "2nd Tuesday",
       "chairPublic": "Mark shaffer",
+      "electionCommissioner": null,
       "venue": "7:00 PM Plesant Valley Church of Christ 6020 Kibler Rd Van Buren, AR 72956",
+      "city": null,
       "sourceUrl": "https://www.arkansasgop.org/countygop.html",
       "sourceLinks": [
         {
@@ -1347,7 +1447,7 @@
         }
       ],
       "confidenceScore": 70,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "meeting_schedule_public",
       "stagedEventCount": 4,
       "fetchBlocked": false,
@@ -1365,7 +1465,9 @@
       "meetingSchedule": null,
       "recurrenceRule": null,
       "chairPublic": null,
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.lpar.org/events/",
       "sourceLinks": [
         {
@@ -1374,7 +1476,7 @@
         }
       ],
       "confidenceScore": 0,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "not_found",
       "stagedEventCount": 0,
       "fetchBlocked": false,
@@ -1392,7 +1494,9 @@
       "meetingSchedule": null,
       "recurrenceRule": null,
       "chairPublic": null,
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.arkdems.org/county/crittenden/",
       "sourceLinks": [
         {
@@ -1401,10 +1505,10 @@
         }
       ],
       "confidenceScore": 20,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
-      "status": "page_discovered",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
+      "status": "partial",
       "stagedEventCount": 1,
-      "fetchBlocked": false,
+      "fetchBlocked": true,
       "seriesKey": "crittenden-democratic"
     },
     {
@@ -1419,7 +1523,9 @@
       "meetingSchedule": "4th thursday",
       "recurrenceRule": "4th thursday",
       "chairPublic": "Wayne Croom",
-      "venue": "6:00 PM WEST MEMPHIS PUBLIC LIBRARY 501 E Broadway Ave, West Memphis",
+      "electionCommissioner": null,
+      "venue": null,
+      "city": "West Memphis",
       "sourceUrl": "https://www.arkansasgop.org/countygop.html",
       "sourceLinks": [
         {
@@ -1428,7 +1534,7 @@
         }
       ],
       "confidenceScore": 70,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "meeting_schedule_public",
       "stagedEventCount": 5,
       "fetchBlocked": false,
@@ -1446,7 +1552,9 @@
       "meetingSchedule": null,
       "recurrenceRule": null,
       "chairPublic": null,
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.lpar.org/events/",
       "sourceLinks": [
         {
@@ -1455,7 +1563,7 @@
         }
       ],
       "confidenceScore": 0,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "not_found",
       "stagedEventCount": 0,
       "fetchBlocked": false,
@@ -1473,7 +1581,9 @@
       "meetingSchedule": null,
       "recurrenceRule": null,
       "chairPublic": null,
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.arkdems.org/county/cross/",
       "sourceLinks": [
         {
@@ -1482,10 +1592,10 @@
         }
       ],
       "confidenceScore": 20,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
-      "status": "page_discovered",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
+      "status": "partial",
       "stagedEventCount": 1,
-      "fetchBlocked": false,
+      "fetchBlocked": true,
       "seriesKey": "cross-democratic"
     },
     {
@@ -1497,10 +1607,12 @@
       "organization": "Republican Party of Arkansas",
       "county": "Cross",
       "entityType": "political_party_committee",
-      "meetingSchedule": null,
-      "recurrenceRule": null,
-      "chairPublic": null,
-      "venue": null,
+      "meetingSchedule": "2nd Thursday",
+      "recurrenceRule": "2nd Thursday",
+      "chairPublic": "Kevin watts",
+      "electionCommissioner": null,
+      "venue": "6:00 PM Bill Thomas Tech Center 1790 Falls Blvd #1 Wynne, AR 72396",
+      "city": null,
       "sourceUrl": "https://www.arkansasgop.org/countygop.html",
       "sourceLinks": [
         {
@@ -1508,10 +1620,10 @@
           "url": "https://www.arkansasgop.org/countygop.html"
         }
       ],
-      "confidenceScore": 0,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
-      "status": "not_found",
-      "stagedEventCount": 0,
+      "confidenceScore": 70,
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
+      "status": "meeting_schedule_public",
+      "stagedEventCount": 4,
       "fetchBlocked": false,
       "seriesKey": "cross-republican"
     },
@@ -1527,7 +1639,9 @@
       "meetingSchedule": null,
       "recurrenceRule": null,
       "chairPublic": null,
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.lpar.org/events/",
       "sourceLinks": [
         {
@@ -1536,7 +1650,7 @@
         }
       ],
       "confidenceScore": 0,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "not_found",
       "stagedEventCount": 0,
       "fetchBlocked": false,
@@ -1554,7 +1668,9 @@
       "meetingSchedule": null,
       "recurrenceRule": null,
       "chairPublic": null,
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.arkdems.org/county/dallas/",
       "sourceLinks": [
         {
@@ -1563,7 +1679,7 @@
         }
       ],
       "confidenceScore": 20,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "page_discovered",
       "stagedEventCount": 1,
       "fetchBlocked": false,
@@ -1581,7 +1697,9 @@
       "meetingSchedule": "Last Tuesday",
       "recurrenceRule": "Last Tuesday",
       "chairPublic": "Brady Harmon",
+      "electionCommissioner": null,
       "venue": "6:30 PM New Hope Baptist Church AR-128 Sparkman, AR 71763",
+      "city": null,
       "sourceUrl": "https://www.arkansasgop.org/countygop.html",
       "sourceLinks": [
         {
@@ -1590,7 +1708,7 @@
         }
       ],
       "confidenceScore": 70,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "meeting_schedule_public",
       "stagedEventCount": 5,
       "fetchBlocked": false,
@@ -1608,7 +1726,9 @@
       "meetingSchedule": null,
       "recurrenceRule": null,
       "chairPublic": null,
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.lpar.org/events/",
       "sourceLinks": [
         {
@@ -1617,7 +1737,7 @@
         }
       ],
       "confidenceScore": 0,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "not_found",
       "stagedEventCount": 0,
       "fetchBlocked": false,
@@ -1634,8 +1754,10 @@
       "entityType": "political_party_committee",
       "meetingSchedule": null,
       "recurrenceRule": null,
-      "chairPublic": null,
+      "chairPublic": "Charles Killion",
+      "electionCommissioner": "Carsell Mathis",
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.arkdems.org/county/desha/",
       "sourceLinks": [
         {
@@ -1644,7 +1766,7 @@
         }
       ],
       "confidenceScore": 20,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "page_discovered",
       "stagedEventCount": 1,
       "fetchBlocked": false,
@@ -1662,7 +1784,9 @@
       "meetingSchedule": "3rd Tuesday",
       "recurrenceRule": "3rd Tuesday",
       "chairPublic": "Jamie Sims",
-      "venue": "5:30 PM Miles farm office 6207 US-65 McGhee, AR 71654",
+      "electionCommissioner": null,
+      "venue": "5:30 PM ​Miles farm office 6207 US-65 McGhee, AR 71654",
+      "city": null,
       "sourceUrl": "https://www.arkansasgop.org/countygop.html",
       "sourceLinks": [
         {
@@ -1671,7 +1795,7 @@
         }
       ],
       "confidenceScore": 70,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "meeting_schedule_public",
       "stagedEventCount": 4,
       "fetchBlocked": false,
@@ -1689,7 +1813,9 @@
       "meetingSchedule": null,
       "recurrenceRule": null,
       "chairPublic": null,
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.lpar.org/events/",
       "sourceLinks": [
         {
@@ -1698,7 +1824,7 @@
         }
       ],
       "confidenceScore": 0,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "not_found",
       "stagedEventCount": 0,
       "fetchBlocked": false,
@@ -1716,7 +1842,9 @@
       "meetingSchedule": null,
       "recurrenceRule": null,
       "chairPublic": null,
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.arkdems.org/county/drew/",
       "sourceLinks": [
         {
@@ -1725,10 +1853,10 @@
         }
       ],
       "confidenceScore": 20,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
-      "status": "page_discovered",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
+      "status": "partial",
       "stagedEventCount": 1,
-      "fetchBlocked": false,
+      "fetchBlocked": true,
       "seriesKey": "drew-democratic"
     },
     {
@@ -1740,10 +1868,12 @@
       "organization": "Republican Party of Arkansas",
       "county": "Drew",
       "entityType": "political_party_committee",
-      "meetingSchedule": "AWAITING COMMITTEE",
-      "recurrenceRule": "AWAITING COMMITTEE",
+      "meetingSchedule": "Awaiting committee confirmation",
+      "recurrenceRule": "Awaiting committee confirmation",
       "chairPublic": "Mike akin",
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.arkansasgop.org/countygop.html",
       "sourceLinks": [
         {
@@ -1751,9 +1881,9 @@
           "url": "https://www.arkansasgop.org/countygop.html"
         }
       ],
-      "confidenceScore": 70,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
-      "status": "meeting_schedule_public",
+      "confidenceScore": 25,
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
+      "status": "partial",
       "stagedEventCount": 1,
       "fetchBlocked": false,
       "seriesKey": "drew-republican"
@@ -1770,7 +1900,9 @@
       "meetingSchedule": null,
       "recurrenceRule": null,
       "chairPublic": null,
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.lpar.org/events/",
       "sourceLinks": [
         {
@@ -1779,7 +1911,7 @@
         }
       ],
       "confidenceScore": 0,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "not_found",
       "stagedEventCount": 0,
       "fetchBlocked": false,
@@ -1797,7 +1929,9 @@
       "meetingSchedule": "Monthly 1st Monday at 6:30 PM at McGee Center in Conway",
       "recurrenceRule": "1st Monday at 6:30 PM at McGee Center in Conway",
       "chairPublic": null,
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.arkdems.org/county/faulkner/",
       "sourceLinks": [
         {
@@ -1806,10 +1940,10 @@
         }
       ],
       "confidenceScore": 70,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "meeting_schedule_public",
       "stagedEventCount": 4,
-      "fetchBlocked": false,
+      "fetchBlocked": true,
       "seriesKey": "faulkner-democratic"
     },
     {
@@ -1824,7 +1958,9 @@
       "meetingSchedule": "4th Monday",
       "recurrenceRule": "4th Monday",
       "chairPublic": "samuel strain",
+      "electionCommissioner": null,
       "venue": "6:00 PM 2850 Prince St. Conway, AR 72034",
+      "city": null,
       "sourceUrl": "https://www.arkansasgop.org/countygop.html",
       "sourceLinks": [
         {
@@ -1833,7 +1969,7 @@
         }
       ],
       "confidenceScore": 70,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "meeting_schedule_public",
       "stagedEventCount": 5,
       "fetchBlocked": false,
@@ -1851,7 +1987,9 @@
       "meetingSchedule": null,
       "recurrenceRule": null,
       "chairPublic": null,
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.lpar.org/events/",
       "sourceLinks": [
         {
@@ -1860,7 +1998,7 @@
         }
       ],
       "confidenceScore": 0,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "not_found",
       "stagedEventCount": 0,
       "fetchBlocked": false,
@@ -1878,7 +2016,9 @@
       "meetingSchedule": null,
       "recurrenceRule": null,
       "chairPublic": null,
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.arkdems.org/county/franklin/",
       "sourceLinks": [
         {
@@ -1887,10 +2027,10 @@
         }
       ],
       "confidenceScore": 20,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
-      "status": "page_discovered",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
+      "status": "partial",
       "stagedEventCount": 1,
-      "fetchBlocked": false,
+      "fetchBlocked": true,
       "seriesKey": "franklin-democratic"
     },
     {
@@ -1902,10 +2042,12 @@
       "organization": "Republican Party of Arkansas",
       "county": "Franklin",
       "entityType": "political_party_committee",
-      "meetingSchedule": null,
-      "recurrenceRule": null,
-      "chairPublic": null,
-      "venue": null,
+      "meetingSchedule": "Last Monday",
+      "recurrenceRule": "Last Monday",
+      "chairPublic": "Preston anderson",
+      "electionCommissioner": null,
+      "venue": "7:00 PM First Presbyterian 204 N 4th St Ozark, AR 72949",
+      "city": null,
       "sourceUrl": "https://www.arkansasgop.org/countygop.html",
       "sourceLinks": [
         {
@@ -1913,10 +2055,10 @@
           "url": "https://www.arkansasgop.org/countygop.html"
         }
       ],
-      "confidenceScore": 0,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
-      "status": "not_found",
-      "stagedEventCount": 0,
+      "confidenceScore": 70,
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
+      "status": "meeting_schedule_public",
+      "stagedEventCount": 5,
       "fetchBlocked": false,
       "seriesKey": "franklin-republican"
     },
@@ -1932,7 +2074,9 @@
       "meetingSchedule": null,
       "recurrenceRule": null,
       "chairPublic": null,
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.lpar.org/events/",
       "sourceLinks": [
         {
@@ -1941,7 +2085,7 @@
         }
       ],
       "confidenceScore": 0,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "not_found",
       "stagedEventCount": 0,
       "fetchBlocked": false,
@@ -1956,10 +2100,12 @@
       "organization": "Democratic Party of Arkansas",
       "county": "Fulton",
       "entityType": "political_party_committee",
-      "meetingSchedule": null,
-      "recurrenceRule": null,
-      "chairPublic": null,
-      "venue": null,
+      "meetingSchedule": "Monthly 2nd Saturday mornings at Fulton County Fairgrounds. 9:30am breakfast, 10:00am meeting",
+      "recurrenceRule": "2nd Saturday mornings at Fulton County Fairgrounds. 9:30am breakfast, 10:00am meeting",
+      "chairPublic": "Heath Shrable",
+      "electionCommissioner": "Sonny Brown",
+      "venue": "Fulton County Fairgrounds. 9:30am breakfast, 10:00am meeting",
+      "city": null,
       "sourceUrl": "https://www.arkdems.org/county/fulton/",
       "sourceLinks": [
         {
@@ -1967,10 +2113,10 @@
           "url": "https://www.arkdems.org/county/fulton/"
         }
       ],
-      "confidenceScore": 20,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
-      "status": "page_discovered",
-      "stagedEventCount": 1,
+      "confidenceScore": 70,
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
+      "status": "meeting_schedule_public",
+      "stagedEventCount": 4,
       "fetchBlocked": false,
       "seriesKey": "fulton-democratic"
     },
@@ -1986,7 +2132,9 @@
       "meetingSchedule": "2nd tuesday",
       "recurrenceRule": "2nd tuesday",
       "chairPublic": "Gary Phillips",
+      "electionCommissioner": null,
       "venue": "6:00 pm",
+      "city": null,
       "sourceUrl": "https://www.arkansasgop.org/countygop.html",
       "sourceLinks": [
         {
@@ -1995,7 +2143,7 @@
         }
       ],
       "confidenceScore": 70,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "meeting_schedule_public",
       "stagedEventCount": 4,
       "fetchBlocked": false,
@@ -2013,7 +2161,9 @@
       "meetingSchedule": null,
       "recurrenceRule": null,
       "chairPublic": null,
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.lpar.org/events/",
       "sourceLinks": [
         {
@@ -2022,7 +2172,7 @@
         }
       ],
       "confidenceScore": 0,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "not_found",
       "stagedEventCount": 0,
       "fetchBlocked": false,
@@ -2040,7 +2190,9 @@
       "meetingSchedule": null,
       "recurrenceRule": null,
       "chairPublic": null,
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.arkdems.org/county/garland/",
       "sourceLinks": [
         {
@@ -2049,10 +2201,10 @@
         }
       ],
       "confidenceScore": 20,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
-      "status": "page_discovered",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
+      "status": "partial",
       "stagedEventCount": 1,
-      "fetchBlocked": false,
+      "fetchBlocked": true,
       "seriesKey": "garland-democratic"
     },
     {
@@ -2067,7 +2219,9 @@
       "meetingSchedule": "1st Thursday",
       "recurrenceRule": "1st Thursday",
       "chairPublic": "Gaylon Boshears",
+      "electionCommissioner": null,
       "venue": "6:00 PM Garland county library 1427 Malvern Ave Hot Springs, AR 71913",
+      "city": null,
       "sourceUrl": "https://www.arkansasgop.org/countygop.html",
       "sourceLinks": [
         {
@@ -2076,7 +2230,7 @@
         }
       ],
       "confidenceScore": 70,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "meeting_schedule_public",
       "stagedEventCount": 4,
       "fetchBlocked": false,
@@ -2094,7 +2248,9 @@
       "meetingSchedule": null,
       "recurrenceRule": null,
       "chairPublic": null,
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.lpar.org/events/",
       "sourceLinks": [
         {
@@ -2103,7 +2259,7 @@
         }
       ],
       "confidenceScore": 0,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "not_found",
       "stagedEventCount": 0,
       "fetchBlocked": false,
@@ -2121,7 +2277,9 @@
       "meetingSchedule": null,
       "recurrenceRule": null,
       "chairPublic": null,
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.arkdems.org/county/grant/",
       "sourceLinks": [
         {
@@ -2130,10 +2288,10 @@
         }
       ],
       "confidenceScore": 20,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
-      "status": "page_discovered",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
+      "status": "partial",
       "stagedEventCount": 1,
-      "fetchBlocked": false,
+      "fetchBlocked": true,
       "seriesKey": "grant-democratic"
     },
     {
@@ -2148,7 +2306,9 @@
       "meetingSchedule": "Last Monday",
       "recurrenceRule": "Last Monday",
       "chairPublic": "Ken Bragg",
+      "electionCommissioner": null,
       "venue": "7:00 PM Sheridan City Hall 106 W Bell St Sheridan, AR 72150",
+      "city": null,
       "sourceUrl": "https://www.arkansasgop.org/countygop.html",
       "sourceLinks": [
         {
@@ -2157,7 +2317,7 @@
         }
       ],
       "confidenceScore": 70,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "meeting_schedule_public",
       "stagedEventCount": 5,
       "fetchBlocked": false,
@@ -2175,7 +2335,9 @@
       "meetingSchedule": null,
       "recurrenceRule": null,
       "chairPublic": null,
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.lpar.org/events/",
       "sourceLinks": [
         {
@@ -2184,7 +2346,7 @@
         }
       ],
       "confidenceScore": 0,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "not_found",
       "stagedEventCount": 0,
       "fetchBlocked": false,
@@ -2199,10 +2361,12 @@
       "organization": "Democratic Party of Arkansas",
       "county": "Greene",
       "entityType": "political_party_committee",
-      "meetingSchedule": null,
-      "recurrenceRule": null,
-      "chairPublic": null,
-      "venue": null,
+      "meetingSchedule": "Monthly 2nd Monday at 6:00 PM at Greene Co. Public Library",
+      "recurrenceRule": "2nd Monday at 6:00 PM at Greene Co. Public Library",
+      "chairPublic": "Lisa Birmingham",
+      "electionCommissioner": "Faye Parker",
+      "venue": "6:00 PM at Greene Co. Public Library",
+      "city": null,
       "sourceUrl": "https://www.arkdems.org/county/greene/",
       "sourceLinks": [
         {
@@ -2210,10 +2374,10 @@
           "url": "https://www.arkdems.org/county/greene/"
         }
       ],
-      "confidenceScore": 20,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
-      "status": "page_discovered",
-      "stagedEventCount": 1,
+      "confidenceScore": 70,
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
+      "status": "meeting_schedule_public",
+      "stagedEventCount": 4,
       "fetchBlocked": false,
       "seriesKey": "greene-democratic"
     },
@@ -2229,7 +2393,9 @@
       "meetingSchedule": "1st Tuesday",
       "recurrenceRule": "1st Tuesday",
       "chairPublic": "Susanna bischof",
+      "electionCommissioner": null,
       "venue": "6:30 PM Grecian Steakhouse 210 Airport Rd Paragould, AR 72450",
+      "city": null,
       "sourceUrl": "https://www.arkansasgop.org/countygop.html",
       "sourceLinks": [
         {
@@ -2238,7 +2404,7 @@
         }
       ],
       "confidenceScore": 70,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "meeting_schedule_public",
       "stagedEventCount": 4,
       "fetchBlocked": false,
@@ -2256,7 +2422,9 @@
       "meetingSchedule": null,
       "recurrenceRule": null,
       "chairPublic": null,
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.lpar.org/events/",
       "sourceLinks": [
         {
@@ -2265,7 +2433,7 @@
         }
       ],
       "confidenceScore": 0,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "not_found",
       "stagedEventCount": 0,
       "fetchBlocked": false,
@@ -2280,10 +2448,12 @@
       "organization": "Democratic Party of Arkansas",
       "county": "Hempstead",
       "entityType": "political_party_committee",
-      "meetingSchedule": null,
-      "recurrenceRule": null,
-      "chairPublic": null,
-      "venue": null,
+      "meetingSchedule": "Monthly last Monday at 6:00 PM at Hempstead County Library",
+      "recurrenceRule": "last Monday at 6:00 PM at Hempstead County Library",
+      "chairPublic": "Kristaryon Easter",
+      "electionCommissioner": null,
+      "venue": "6:00 PM at Hempstead County Library",
+      "city": null,
       "sourceUrl": "https://www.arkdems.org/county/hempstead/",
       "sourceLinks": [
         {
@@ -2291,10 +2461,10 @@
           "url": "https://www.arkdems.org/county/hempstead/"
         }
       ],
-      "confidenceScore": 20,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
-      "status": "page_discovered",
-      "stagedEventCount": 1,
+      "confidenceScore": 70,
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
+      "status": "meeting_schedule_public",
+      "stagedEventCount": 5,
       "fetchBlocked": false,
       "seriesKey": "hempstead-democratic"
     },
@@ -2310,7 +2480,9 @@
       "meetingSchedule": "3rd Thursday",
       "recurrenceRule": "3rd Thursday",
       "chairPublic": "Steve Atchley",
-      "venue": "7:00 PM Amigo Juan Restaurant 1300 N Hervey St Hope, AR 71801",
+      "electionCommissioner": null,
+      "venue": "7:00 PM Amigo Juan Restaurant 1300 N Hervey St Hope, AR 71801 ​",
+      "city": null,
       "sourceUrl": "https://www.arkansasgop.org/countygop.html",
       "sourceLinks": [
         {
@@ -2319,7 +2491,7 @@
         }
       ],
       "confidenceScore": 70,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "meeting_schedule_public",
       "stagedEventCount": 4,
       "fetchBlocked": false,
@@ -2337,7 +2509,9 @@
       "meetingSchedule": null,
       "recurrenceRule": null,
       "chairPublic": null,
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.lpar.org/events/",
       "sourceLinks": [
         {
@@ -2346,7 +2520,7 @@
         }
       ],
       "confidenceScore": 0,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "not_found",
       "stagedEventCount": 0,
       "fetchBlocked": false,
@@ -2364,7 +2538,9 @@
       "meetingSchedule": null,
       "recurrenceRule": null,
       "chairPublic": null,
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.arkdems.org/county/hot-spring/",
       "sourceLinks": [
         {
@@ -2373,10 +2549,10 @@
         }
       ],
       "confidenceScore": 20,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
-      "status": "page_discovered",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
+      "status": "partial",
       "stagedEventCount": 1,
-      "fetchBlocked": false,
+      "fetchBlocked": true,
       "seriesKey": "hot-spring-democratic"
     },
     {
@@ -2391,7 +2567,9 @@
       "meetingSchedule": "1st Tuesday",
       "recurrenceRule": "1st Tuesday",
       "chairPublic": "terry mcdermott",
+      "electionCommissioner": null,
       "venue": "6:30 PM Be our Guest Event Center 115 E Mockingbird Ln Malvern, AR 72104",
+      "city": null,
       "sourceUrl": "https://www.arkansasgop.org/countygop.html",
       "sourceLinks": [
         {
@@ -2400,7 +2578,7 @@
         }
       ],
       "confidenceScore": 70,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "meeting_schedule_public",
       "stagedEventCount": 4,
       "fetchBlocked": false,
@@ -2418,7 +2596,9 @@
       "meetingSchedule": null,
       "recurrenceRule": null,
       "chairPublic": null,
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.lpar.org/events/",
       "sourceLinks": [
         {
@@ -2427,7 +2607,7 @@
         }
       ],
       "confidenceScore": 0,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "not_found",
       "stagedEventCount": 0,
       "fetchBlocked": false,
@@ -2445,7 +2625,9 @@
       "meetingSchedule": null,
       "recurrenceRule": null,
       "chairPublic": null,
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.arkdems.org/county/howard/",
       "sourceLinks": [
         {
@@ -2454,10 +2636,10 @@
         }
       ],
       "confidenceScore": 20,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
-      "status": "page_discovered",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
+      "status": "partial",
       "stagedEventCount": 1,
-      "fetchBlocked": false,
+      "fetchBlocked": true,
       "seriesKey": "howard-democratic"
     },
     {
@@ -2472,7 +2654,9 @@
       "meetingSchedule": "2nd Tuesday",
       "recurrenceRule": "2nd Tuesday",
       "chairPublic": "Darin wood",
+      "electionCommissioner": null,
       "venue": "6:00 PM Sunset Church of Christ, Fellowship Building 1420 W Sunset St Nashville, AR 71852",
+      "city": null,
       "sourceUrl": "https://www.arkansasgop.org/countygop.html",
       "sourceLinks": [
         {
@@ -2481,7 +2665,7 @@
         }
       ],
       "confidenceScore": 70,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "meeting_schedule_public",
       "stagedEventCount": 4,
       "fetchBlocked": false,
@@ -2499,7 +2683,9 @@
       "meetingSchedule": null,
       "recurrenceRule": null,
       "chairPublic": null,
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.lpar.org/events/",
       "sourceLinks": [
         {
@@ -2508,7 +2694,7 @@
         }
       ],
       "confidenceScore": 0,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "not_found",
       "stagedEventCount": 0,
       "fetchBlocked": false,
@@ -2523,10 +2709,12 @@
       "organization": "Democratic Party of Arkansas",
       "county": "Independence",
       "entityType": "political_party_committee",
-      "meetingSchedule": null,
-      "recurrenceRule": null,
-      "chairPublic": null,
-      "venue": null,
+      "meetingSchedule": "Monthly 4th Tuesday at US Pizza Batesville",
+      "recurrenceRule": "4th Tuesday at US Pizza Batesville",
+      "chairPublic": "Robert Burns",
+      "electionCommissioner": "Jennifer Emery",
+      "venue": "US Pizza Batesville",
+      "city": null,
       "sourceUrl": "https://www.arkdems.org/county/independence/",
       "sourceLinks": [
         {
@@ -2534,10 +2722,10 @@
           "url": "https://www.arkdems.org/county/independence/"
         }
       ],
-      "confidenceScore": 20,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
-      "status": "page_discovered",
-      "stagedEventCount": 1,
+      "confidenceScore": 70,
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
+      "status": "meeting_schedule_public",
+      "stagedEventCount": 5,
       "fetchBlocked": false,
       "seriesKey": "independence-democratic"
     },
@@ -2553,7 +2741,9 @@
       "meetingSchedule": "1st Tuesday",
       "recurrenceRule": "1st Tuesday",
       "chairPublic": "Charles jordan",
+      "electionCommissioner": null,
       "venue": "6:00 PM 192 E Main Street Batesville, AR 72501",
+      "city": null,
       "sourceUrl": "https://www.arkansasgop.org/countygop.html",
       "sourceLinks": [
         {
@@ -2562,7 +2752,7 @@
         }
       ],
       "confidenceScore": 70,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "meeting_schedule_public",
       "stagedEventCount": 4,
       "fetchBlocked": false,
@@ -2580,7 +2770,9 @@
       "meetingSchedule": null,
       "recurrenceRule": null,
       "chairPublic": null,
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.lpar.org/events/",
       "sourceLinks": [
         {
@@ -2589,7 +2781,7 @@
         }
       ],
       "confidenceScore": 0,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "not_found",
       "stagedEventCount": 0,
       "fetchBlocked": false,
@@ -2604,10 +2796,12 @@
       "organization": "Democratic Party of Arkansas",
       "county": "Izard",
       "entityType": "political_party_committee",
-      "meetingSchedule": null,
-      "recurrenceRule": null,
-      "chairPublic": null,
+      "meetingSchedule": "Quarterly 3rd Tuesday",
+      "recurrenceRule": "Quarterly 3rd Tuesday",
+      "chairPublic": "Sandy Maier",
+      "electionCommissioner": "Stephen Williams",
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.arkdems.org/county/izard/",
       "sourceLinks": [
         {
@@ -2615,10 +2809,10 @@
           "url": "https://www.arkdems.org/county/izard/"
         }
       ],
-      "confidenceScore": 20,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
-      "status": "page_discovered",
-      "stagedEventCount": 1,
+      "confidenceScore": 70,
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
+      "status": "meeting_schedule_public",
+      "stagedEventCount": 4,
       "fetchBlocked": false,
       "seriesKey": "izard-democratic"
     },
@@ -2634,7 +2828,9 @@
       "meetingSchedule": "3rd monday",
       "recurrenceRule": "3rd monday",
       "chairPublic": "Michelle graetz",
+      "electionCommissioner": null,
       "venue": "6:00 PM Cedar Glaze Resort 900 S 4th St Horseshoe Bend, AR 72512",
+      "city": null,
       "sourceUrl": "https://www.arkansasgop.org/countygop.html",
       "sourceLinks": [
         {
@@ -2643,7 +2839,7 @@
         }
       ],
       "confidenceScore": 70,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "meeting_schedule_public",
       "stagedEventCount": 4,
       "fetchBlocked": false,
@@ -2661,7 +2857,9 @@
       "meetingSchedule": null,
       "recurrenceRule": null,
       "chairPublic": null,
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.lpar.org/events/",
       "sourceLinks": [
         {
@@ -2670,7 +2868,7 @@
         }
       ],
       "confidenceScore": 0,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "not_found",
       "stagedEventCount": 0,
       "fetchBlocked": false,
@@ -2688,7 +2886,9 @@
       "meetingSchedule": null,
       "recurrenceRule": null,
       "chairPublic": null,
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.arkdems.org/county/jackson/",
       "sourceLinks": [
         {
@@ -2697,10 +2897,10 @@
         }
       ],
       "confidenceScore": 20,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
-      "status": "page_discovered",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
+      "status": "partial",
       "stagedEventCount": 1,
-      "fetchBlocked": false,
+      "fetchBlocked": true,
       "seriesKey": "jackson-democratic"
     },
     {
@@ -2712,10 +2912,12 @@
       "organization": "Republican Party of Arkansas",
       "county": "Jackson",
       "entityType": "political_party_committee",
-      "meetingSchedule": "AWAITING COMMITTEE",
-      "recurrenceRule": "AWAITING COMMITTEE",
+      "meetingSchedule": "Awaiting committee confirmation",
+      "recurrenceRule": "Awaiting committee confirmation",
       "chairPublic": "benny malone",
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.arkansasgop.org/countygop.html",
       "sourceLinks": [
         {
@@ -2723,9 +2925,9 @@
           "url": "https://www.arkansasgop.org/countygop.html"
         }
       ],
-      "confidenceScore": 70,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
-      "status": "meeting_schedule_public",
+      "confidenceScore": 25,
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
+      "status": "partial",
       "stagedEventCount": 1,
       "fetchBlocked": false,
       "seriesKey": "jackson-republican"
@@ -2742,7 +2944,9 @@
       "meetingSchedule": null,
       "recurrenceRule": null,
       "chairPublic": null,
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.lpar.org/events/",
       "sourceLinks": [
         {
@@ -2751,7 +2955,7 @@
         }
       ],
       "confidenceScore": 0,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "not_found",
       "stagedEventCount": 0,
       "fetchBlocked": false,
@@ -2768,8 +2972,10 @@
       "entityType": "political_party_committee",
       "meetingSchedule": null,
       "recurrenceRule": null,
-      "chairPublic": null,
+      "chairPublic": "Ted Davis",
+      "electionCommissioner": "Sharon Hardin",
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.arkdems.org/county/jefferson/",
       "sourceLinks": [
         {
@@ -2778,7 +2984,7 @@
         }
       ],
       "confidenceScore": 20,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "page_discovered",
       "stagedEventCount": 1,
       "fetchBlocked": false,
@@ -2796,7 +3002,9 @@
       "meetingSchedule": "4th Thursday",
       "recurrenceRule": "4th Thursday",
       "chairPublic": "David Singer",
+      "electionCommissioner": null,
       "venue": "6:00 PM Larry's Pizza 7401 Dollarway Rd White Hall, AR 71602",
+      "city": null,
       "sourceUrl": "https://www.arkansasgop.org/countygop.html",
       "sourceLinks": [
         {
@@ -2805,7 +3013,7 @@
         }
       ],
       "confidenceScore": 70,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "meeting_schedule_public",
       "stagedEventCount": 5,
       "fetchBlocked": false,
@@ -2823,7 +3031,9 @@
       "meetingSchedule": null,
       "recurrenceRule": null,
       "chairPublic": null,
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.lpar.org/events/",
       "sourceLinks": [
         {
@@ -2832,7 +3042,7 @@
         }
       ],
       "confidenceScore": 0,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "not_found",
       "stagedEventCount": 0,
       "fetchBlocked": false,
@@ -2850,7 +3060,9 @@
       "meetingSchedule": null,
       "recurrenceRule": null,
       "chairPublic": null,
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.arkdems.org/county/johnson/",
       "sourceLinks": [
         {
@@ -2859,10 +3071,10 @@
         }
       ],
       "confidenceScore": 20,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
-      "status": "page_discovered",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
+      "status": "partial",
       "stagedEventCount": 1,
-      "fetchBlocked": false,
+      "fetchBlocked": true,
       "seriesKey": "johnson-democratic"
     },
     {
@@ -2877,7 +3089,9 @@
       "meetingSchedule": "1st Thursday",
       "recurrenceRule": "1st Thursday",
       "chairPublic": "marty claiborne",
-      "venue": "6:00 PM Sweetgrass Hall 115 N Fulton St Clarksville, AR 72830",
+      "electionCommissioner": null,
+      "venue": "6:00 PM Sweetgrass Hall 115 N Fulton St Clarksville, AR 72830 ​",
+      "city": null,
       "sourceUrl": "https://www.arkansasgop.org/countygop.html",
       "sourceLinks": [
         {
@@ -2886,7 +3100,7 @@
         }
       ],
       "confidenceScore": 70,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "meeting_schedule_public",
       "stagedEventCount": 4,
       "fetchBlocked": false,
@@ -2904,7 +3118,9 @@
       "meetingSchedule": null,
       "recurrenceRule": null,
       "chairPublic": null,
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.lpar.org/events/",
       "sourceLinks": [
         {
@@ -2913,7 +3129,7 @@
         }
       ],
       "confidenceScore": 0,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "not_found",
       "stagedEventCount": 0,
       "fetchBlocked": false,
@@ -2930,8 +3146,10 @@
       "entityType": "political_party_committee",
       "meetingSchedule": null,
       "recurrenceRule": null,
-      "chairPublic": null,
+      "chairPublic": "Cheryl Stuart",
+      "electionCommissioner": "Rebecca Martin",
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.arkdems.org/county/lafayette/",
       "sourceLinks": [
         {
@@ -2940,7 +3158,7 @@
         }
       ],
       "confidenceScore": 20,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "page_discovered",
       "stagedEventCount": 1,
       "fetchBlocked": false,
@@ -2958,7 +3176,9 @@
       "meetingSchedule": null,
       "recurrenceRule": null,
       "chairPublic": null,
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.arkansasgop.org/countygop.html",
       "sourceLinks": [
         {
@@ -2967,7 +3187,7 @@
         }
       ],
       "confidenceScore": 0,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "not_found",
       "stagedEventCount": 0,
       "fetchBlocked": false,
@@ -2985,7 +3205,9 @@
       "meetingSchedule": null,
       "recurrenceRule": null,
       "chairPublic": null,
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.lpar.org/events/",
       "sourceLinks": [
         {
@@ -2994,7 +3216,7 @@
         }
       ],
       "confidenceScore": 0,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "not_found",
       "stagedEventCount": 0,
       "fetchBlocked": false,
@@ -3012,7 +3234,9 @@
       "meetingSchedule": null,
       "recurrenceRule": null,
       "chairPublic": null,
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.arkdems.org/county/lawrence/",
       "sourceLinks": [
         {
@@ -3021,10 +3245,10 @@
         }
       ],
       "confidenceScore": 20,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
-      "status": "page_discovered",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
+      "status": "partial",
       "stagedEventCount": 1,
-      "fetchBlocked": false,
+      "fetchBlocked": true,
       "seriesKey": "lawrence-democratic"
     },
     {
@@ -3036,10 +3260,12 @@
       "organization": "Republican Party of Arkansas",
       "county": "Lawrence",
       "entityType": "political_party_committee",
-      "meetingSchedule": null,
-      "recurrenceRule": null,
-      "chairPublic": null,
-      "venue": null,
+      "meetingSchedule": "3rd Tuesday",
+      "recurrenceRule": "3rd Tuesday",
+      "chairPublic": "Erika shields",
+      "electionCommissioner": null,
+      "venue": "6:00 PM Don's Steakhouse 1604 W Main St Walnut Ridge, AR 72476",
+      "city": null,
       "sourceUrl": "https://www.arkansasgop.org/countygop.html",
       "sourceLinks": [
         {
@@ -3047,10 +3273,10 @@
           "url": "https://www.arkansasgop.org/countygop.html"
         }
       ],
-      "confidenceScore": 0,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
-      "status": "not_found",
-      "stagedEventCount": 0,
+      "confidenceScore": 70,
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
+      "status": "meeting_schedule_public",
+      "stagedEventCount": 4,
       "fetchBlocked": false,
       "seriesKey": "lawrence-republican"
     },
@@ -3066,7 +3292,9 @@
       "meetingSchedule": null,
       "recurrenceRule": null,
       "chairPublic": null,
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.lpar.org/events/",
       "sourceLinks": [
         {
@@ -3075,7 +3303,7 @@
         }
       ],
       "confidenceScore": 0,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "not_found",
       "stagedEventCount": 0,
       "fetchBlocked": false,
@@ -3092,8 +3320,10 @@
       "entityType": "political_party_committee",
       "meetingSchedule": null,
       "recurrenceRule": null,
-      "chairPublic": null,
+      "chairPublic": "Mattie Allison",
+      "electionCommissioner": "Clyde Noel",
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.arkdems.org/county/lee/",
       "sourceLinks": [
         {
@@ -3102,7 +3332,7 @@
         }
       ],
       "confidenceScore": 20,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "page_discovered",
       "stagedEventCount": 1,
       "fetchBlocked": false,
@@ -3117,10 +3347,12 @@
       "organization": "Republican Party of Arkansas",
       "county": "Lee",
       "entityType": "political_party_committee",
-      "meetingSchedule": "2nd Tuesday",
-      "recurrenceRule": "2nd Tuesday",
+      "meetingSchedule": "Awaiting committee confirmation",
+      "recurrenceRule": "Awaiting committee confirmation",
       "chairPublic": "Ronni Schwantz",
-      "venue": "6:00 PM Lee County Courthouse 15 E Chestnut St Marianna, AR 72360",
+      "electionCommissioner": null,
+      "venue": null,
+      "city": null,
       "sourceUrl": "https://www.arkansasgop.org/countygop.html",
       "sourceLinks": [
         {
@@ -3128,10 +3360,10 @@
           "url": "https://www.arkansasgop.org/countygop.html"
         }
       ],
-      "confidenceScore": 70,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
-      "status": "meeting_schedule_public",
-      "stagedEventCount": 4,
+      "confidenceScore": 25,
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
+      "status": "partial",
+      "stagedEventCount": 1,
       "fetchBlocked": false,
       "seriesKey": "lee-republican"
     },
@@ -3147,7 +3379,9 @@
       "meetingSchedule": null,
       "recurrenceRule": null,
       "chairPublic": null,
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.lpar.org/events/",
       "sourceLinks": [
         {
@@ -3156,7 +3390,7 @@
         }
       ],
       "confidenceScore": 0,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "not_found",
       "stagedEventCount": 0,
       "fetchBlocked": false,
@@ -3174,7 +3408,9 @@
       "meetingSchedule": null,
       "recurrenceRule": null,
       "chairPublic": null,
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.arkdems.org/county/lincoln/",
       "sourceLinks": [
         {
@@ -3183,10 +3419,10 @@
         }
       ],
       "confidenceScore": 20,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
-      "status": "page_discovered",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
+      "status": "partial",
       "stagedEventCount": 1,
-      "fetchBlocked": false,
+      "fetchBlocked": true,
       "seriesKey": "lincoln-democratic"
     },
     {
@@ -3198,10 +3434,12 @@
       "organization": "Republican Party of Arkansas",
       "county": "Lincoln",
       "entityType": "political_party_committee",
-      "meetingSchedule": "AWAITING COMMITTEE",
-      "recurrenceRule": "AWAITING COMMITTEE",
-      "chairPublic": "Rebekah DeWitt",
+      "meetingSchedule": null,
+      "recurrenceRule": null,
+      "chairPublic": null,
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.arkansasgop.org/countygop.html",
       "sourceLinks": [
         {
@@ -3209,10 +3447,10 @@
           "url": "https://www.arkansasgop.org/countygop.html"
         }
       ],
-      "confidenceScore": 70,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
-      "status": "meeting_schedule_public",
-      "stagedEventCount": 1,
+      "confidenceScore": 0,
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
+      "status": "not_found",
+      "stagedEventCount": 0,
       "fetchBlocked": false,
       "seriesKey": "lincoln-republican"
     },
@@ -3228,7 +3466,9 @@
       "meetingSchedule": null,
       "recurrenceRule": null,
       "chairPublic": null,
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.lpar.org/events/",
       "sourceLinks": [
         {
@@ -3237,7 +3477,7 @@
         }
       ],
       "confidenceScore": 0,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "not_found",
       "stagedEventCount": 0,
       "fetchBlocked": false,
@@ -3255,7 +3495,9 @@
       "meetingSchedule": null,
       "recurrenceRule": null,
       "chairPublic": null,
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.arkdems.org/county/little-river/",
       "sourceLinks": [
         {
@@ -3264,10 +3506,10 @@
         }
       ],
       "confidenceScore": 20,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
-      "status": "page_discovered",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
+      "status": "partial",
       "stagedEventCount": 1,
-      "fetchBlocked": false,
+      "fetchBlocked": true,
       "seriesKey": "little-river-democratic"
     },
     {
@@ -3282,7 +3524,9 @@
       "meetingSchedule": "2nd Thursday",
       "recurrenceRule": "2nd Thursday",
       "chairPublic": "Karen Austin",
+      "electionCommissioner": null,
       "venue": "6:00 PM Big Jakes 170 Constitution Ave Ashdown, AR 71822",
+      "city": null,
       "sourceUrl": "https://www.arkansasgop.org/countygop.html",
       "sourceLinks": [
         {
@@ -3291,7 +3535,7 @@
         }
       ],
       "confidenceScore": 70,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "meeting_schedule_public",
       "stagedEventCount": 4,
       "fetchBlocked": false,
@@ -3309,7 +3553,9 @@
       "meetingSchedule": null,
       "recurrenceRule": null,
       "chairPublic": null,
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.lpar.org/events/",
       "sourceLinks": [
         {
@@ -3318,7 +3564,7 @@
         }
       ],
       "confidenceScore": 0,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "not_found",
       "stagedEventCount": 0,
       "fetchBlocked": false,
@@ -3333,10 +3579,12 @@
       "organization": "Democratic Party of Arkansas",
       "county": "Logan",
       "entityType": "political_party_committee",
-      "meetingSchedule": null,
-      "recurrenceRule": null,
-      "chairPublic": null,
-      "venue": null,
+      "meetingSchedule": "Monthly 3rd Tuesday at 5:30 PM",
+      "recurrenceRule": "3rd Tuesday at 5:30 PM",
+      "chairPublic": "Ethan Harbour",
+      "electionCommissioner": null,
+      "venue": "5:30 PM",
+      "city": null,
       "sourceUrl": "https://www.arkdems.org/county/logan/",
       "sourceLinks": [
         {
@@ -3344,10 +3592,10 @@
           "url": "https://www.arkdems.org/county/logan/"
         }
       ],
-      "confidenceScore": 20,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
-      "status": "page_discovered",
-      "stagedEventCount": 1,
+      "confidenceScore": 70,
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
+      "status": "meeting_schedule_public",
+      "stagedEventCount": 4,
       "fetchBlocked": false,
       "seriesKey": "logan-democratic"
     },
@@ -3363,7 +3611,9 @@
       "meetingSchedule": "2nd Thursday",
       "recurrenceRule": "2nd Thursday",
       "chairPublic": "Aaron Chastain",
+      "electionCommissioner": null,
       "venue": "6:30 PM First National Bank Community Building 23 E Main St Paris, AR 72855",
+      "city": null,
       "sourceUrl": "https://www.arkansasgop.org/countygop.html",
       "sourceLinks": [
         {
@@ -3372,7 +3622,7 @@
         }
       ],
       "confidenceScore": 70,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "meeting_schedule_public",
       "stagedEventCount": 4,
       "fetchBlocked": false,
@@ -3390,7 +3640,9 @@
       "meetingSchedule": null,
       "recurrenceRule": null,
       "chairPublic": null,
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.lpar.org/events/",
       "sourceLinks": [
         {
@@ -3399,7 +3651,7 @@
         }
       ],
       "confidenceScore": 0,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "not_found",
       "stagedEventCount": 0,
       "fetchBlocked": false,
@@ -3414,10 +3666,12 @@
       "organization": "Democratic Party of Arkansas",
       "county": "Lonoke",
       "entityType": "political_party_committee",
-      "meetingSchedule": null,
-      "recurrenceRule": null,
-      "chairPublic": null,
-      "venue": null,
+      "meetingSchedule": "Monthly 4th Thursday at 6:30 PM at Cabot Public Library",
+      "recurrenceRule": "4th Thursday at 6:30 PM at Cabot Public Library",
+      "chairPublic": "Corey Spangler",
+      "electionCommissioner": "Dan Stowers",
+      "venue": "6:30 PM at Cabot Public Library",
+      "city": null,
       "sourceUrl": "https://www.arkdems.org/county/lonoke/",
       "sourceLinks": [
         {
@@ -3425,10 +3679,10 @@
           "url": "https://www.arkdems.org/county/lonoke/"
         }
       ],
-      "confidenceScore": 20,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
-      "status": "page_discovered",
-      "stagedEventCount": 1,
+      "confidenceScore": 70,
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
+      "status": "meeting_schedule_public",
+      "stagedEventCount": 5,
       "fetchBlocked": false,
       "seriesKey": "lonoke-democratic"
     },
@@ -3441,10 +3695,12 @@
       "organization": "Republican Party of Arkansas",
       "county": "Lonoke",
       "entityType": "political_party_committee",
-      "meetingSchedule": null,
-      "recurrenceRule": null,
-      "chairPublic": null,
-      "venue": null,
+      "meetingSchedule": "4th Monday",
+      "recurrenceRule": "4th Monday",
+      "chairPublic": "Jennifer hopper",
+      "electionCommissioner": null,
+      "venue": "7:00 PM Cabot Public Library 909 W Main St Cabot, AR 72023",
+      "city": null,
       "sourceUrl": "https://www.arkansasgop.org/countygop.html",
       "sourceLinks": [
         {
@@ -3452,10 +3708,10 @@
           "url": "https://www.arkansasgop.org/countygop.html"
         }
       ],
-      "confidenceScore": 0,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
-      "status": "not_found",
-      "stagedEventCount": 0,
+      "confidenceScore": 70,
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
+      "status": "meeting_schedule_public",
+      "stagedEventCount": 5,
       "fetchBlocked": false,
       "seriesKey": "lonoke-republican"
     },
@@ -3471,7 +3727,9 @@
       "meetingSchedule": null,
       "recurrenceRule": null,
       "chairPublic": null,
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.lpar.org/events/",
       "sourceLinks": [
         {
@@ -3480,7 +3738,7 @@
         }
       ],
       "confidenceScore": 0,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "not_found",
       "stagedEventCount": 0,
       "fetchBlocked": false,
@@ -3497,8 +3755,10 @@
       "entityType": "political_party_committee",
       "meetingSchedule": null,
       "recurrenceRule": null,
-      "chairPublic": null,
+      "chairPublic": "Derek Donahou",
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.arkdems.org/county/madison/",
       "sourceLinks": [
         {
@@ -3507,7 +3767,7 @@
         }
       ],
       "confidenceScore": 20,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "page_discovered",
       "stagedEventCount": 1,
       "fetchBlocked": false,
@@ -3525,7 +3785,9 @@
       "meetingSchedule": "1st Thursday",
       "recurrenceRule": "1st Thursday",
       "chairPublic": "Wendy Pettz",
+      "electionCommissioner": null,
       "venue": "6:30 PM First Assembly of God 102 Grace Way Huntsville, AR 72740",
+      "city": null,
       "sourceUrl": "https://www.arkansasgop.org/countygop.html",
       "sourceLinks": [
         {
@@ -3534,7 +3796,7 @@
         }
       ],
       "confidenceScore": 70,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "meeting_schedule_public",
       "stagedEventCount": 4,
       "fetchBlocked": false,
@@ -3552,7 +3814,9 @@
       "meetingSchedule": null,
       "recurrenceRule": null,
       "chairPublic": null,
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.lpar.org/events/",
       "sourceLinks": [
         {
@@ -3561,7 +3825,7 @@
         }
       ],
       "confidenceScore": 0,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "not_found",
       "stagedEventCount": 0,
       "fetchBlocked": false,
@@ -3578,8 +3842,10 @@
       "entityType": "political_party_committee",
       "meetingSchedule": null,
       "recurrenceRule": null,
-      "chairPublic": null,
+      "chairPublic": "Carl Mc",
+      "electionCommissioner": "Linda Lynch",
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.arkdems.org/county/marion/",
       "sourceLinks": [
         {
@@ -3588,7 +3854,7 @@
         }
       ],
       "confidenceScore": 20,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "page_discovered",
       "stagedEventCount": 1,
       "fetchBlocked": false,
@@ -3606,7 +3872,9 @@
       "meetingSchedule": "2nd Thursday",
       "recurrenceRule": "2nd Thursday",
       "chairPublic": "Bob Zdora",
-      "venue": "6:00 PM Marion County Courthouse 300 Old Main St Yellville, AR 72687",
+      "electionCommissioner": null,
+      "venue": "6:00 PM Marion County Courthouse 300 Old Main St Yellville, AR 72687 ​",
+      "city": null,
       "sourceUrl": "https://www.arkansasgop.org/countygop.html",
       "sourceLinks": [
         {
@@ -3615,7 +3883,7 @@
         }
       ],
       "confidenceScore": 70,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "meeting_schedule_public",
       "stagedEventCount": 4,
       "fetchBlocked": false,
@@ -3633,7 +3901,9 @@
       "meetingSchedule": null,
       "recurrenceRule": null,
       "chairPublic": null,
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.lpar.org/events/",
       "sourceLinks": [
         {
@@ -3642,7 +3912,7 @@
         }
       ],
       "confidenceScore": 0,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "not_found",
       "stagedEventCount": 0,
       "fetchBlocked": false,
@@ -3660,7 +3930,9 @@
       "meetingSchedule": null,
       "recurrenceRule": null,
       "chairPublic": null,
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.arkdems.org/county/miller/",
       "sourceLinks": [
         {
@@ -3669,10 +3941,10 @@
         }
       ],
       "confidenceScore": 20,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
-      "status": "page_discovered",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
+      "status": "partial",
       "stagedEventCount": 1,
-      "fetchBlocked": false,
+      "fetchBlocked": true,
       "seriesKey": "miller-democratic"
     },
     {
@@ -3687,7 +3959,9 @@
       "meetingSchedule": "2nd Tuesday",
       "recurrenceRule": "2nd Tuesday",
       "chairPublic": "Diana Lowe",
-      "venue": "6:00 PM luna llena 4018 North state line avenue Texarkana, AR 71854",
+      "electionCommissioner": null,
+      "venue": "6:00 PM luna llena ​4018 North state line avenue Texarkana, AR 71854",
+      "city": null,
       "sourceUrl": "https://www.arkansasgop.org/countygop.html",
       "sourceLinks": [
         {
@@ -3696,7 +3970,7 @@
         }
       ],
       "confidenceScore": 70,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "meeting_schedule_public",
       "stagedEventCount": 4,
       "fetchBlocked": false,
@@ -3714,7 +3988,9 @@
       "meetingSchedule": null,
       "recurrenceRule": null,
       "chairPublic": null,
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.lpar.org/events/",
       "sourceLinks": [
         {
@@ -3723,7 +3999,7 @@
         }
       ],
       "confidenceScore": 0,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "not_found",
       "stagedEventCount": 0,
       "fetchBlocked": false,
@@ -3741,7 +4017,9 @@
       "meetingSchedule": null,
       "recurrenceRule": null,
       "chairPublic": null,
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.arkdems.org/county/mississippi/",
       "sourceLinks": [
         {
@@ -3750,10 +4028,10 @@
         }
       ],
       "confidenceScore": 20,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
-      "status": "page_discovered",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
+      "status": "partial",
       "stagedEventCount": 1,
-      "fetchBlocked": false,
+      "fetchBlocked": true,
       "seriesKey": "mississippi-democratic"
     },
     {
@@ -3768,7 +4046,9 @@
       "meetingSchedule": "4th Thursday",
       "recurrenceRule": "4th Thursday",
       "chairPublic": "Kylie Crosskno",
+      "electionCommissioner": null,
       "venue": "7:00 PM Bush & Thornton Building 1594 South Division St Blytheville, AR 72315",
+      "city": null,
       "sourceUrl": "https://www.arkansasgop.org/countygop.html",
       "sourceLinks": [
         {
@@ -3777,7 +4057,7 @@
         }
       ],
       "confidenceScore": 70,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "meeting_schedule_public",
       "stagedEventCount": 5,
       "fetchBlocked": false,
@@ -3795,7 +4075,9 @@
       "meetingSchedule": null,
       "recurrenceRule": null,
       "chairPublic": null,
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.lpar.org/events/",
       "sourceLinks": [
         {
@@ -3804,7 +4086,7 @@
         }
       ],
       "confidenceScore": 0,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "not_found",
       "stagedEventCount": 0,
       "fetchBlocked": false,
@@ -3819,10 +4101,12 @@
       "organization": "Democratic Party of Arkansas",
       "county": "Monroe",
       "entityType": "political_party_committee",
-      "meetingSchedule": null,
-      "recurrenceRule": null,
-      "chairPublic": null,
-      "venue": null,
+      "meetingSchedule": "Monthly 3rd Tuesday at 4:00 PM",
+      "recurrenceRule": "3rd Tuesday at 4:00 PM",
+      "chairPublic": "Oscar Conyears",
+      "electionCommissioner": "Charlotte Houston",
+      "venue": "4:00 PM",
+      "city": null,
       "sourceUrl": "https://www.arkdems.org/county/monroe/",
       "sourceLinks": [
         {
@@ -3830,10 +4114,10 @@
           "url": "https://www.arkdems.org/county/monroe/"
         }
       ],
-      "confidenceScore": 20,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
-      "status": "page_discovered",
-      "stagedEventCount": 1,
+      "confidenceScore": 70,
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
+      "status": "meeting_schedule_public",
+      "stagedEventCount": 4,
       "fetchBlocked": false,
       "seriesKey": "monroe-democratic"
     },
@@ -3849,7 +4133,9 @@
       "meetingSchedule": "3rd Thursday",
       "recurrenceRule": "3rd Thursday",
       "chairPublic": "Linda Nosler",
+      "electionCommissioner": null,
       "venue": "6:00 PM Clarendon City Welcome Center 204 Madison St Clarendon, AR 72029",
+      "city": null,
       "sourceUrl": "https://www.arkansasgop.org/countygop.html",
       "sourceLinks": [
         {
@@ -3858,7 +4144,7 @@
         }
       ],
       "confidenceScore": 70,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "meeting_schedule_public",
       "stagedEventCount": 4,
       "fetchBlocked": false,
@@ -3876,7 +4162,9 @@
       "meetingSchedule": null,
       "recurrenceRule": null,
       "chairPublic": null,
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.lpar.org/events/",
       "sourceLinks": [
         {
@@ -3885,7 +4173,7 @@
         }
       ],
       "confidenceScore": 0,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "not_found",
       "stagedEventCount": 0,
       "fetchBlocked": false,
@@ -3900,10 +4188,12 @@
       "organization": "Democratic Party of Arkansas",
       "county": "Montgomery",
       "entityType": "political_party_committee",
-      "meetingSchedule": null,
-      "recurrenceRule": null,
-      "chairPublic": null,
-      "venue": null,
+      "meetingSchedule": "Monthly 3rd Wednesday at 5:30 PM at County Annex",
+      "recurrenceRule": "3rd Wednesday at 5:30 PM at County Annex",
+      "chairPublic": "William Bradshaw",
+      "electionCommissioner": "Mark Whisenhunt",
+      "venue": "5:30 PM at County Annex",
+      "city": null,
       "sourceUrl": "https://www.arkdems.org/county/montgomery/",
       "sourceLinks": [
         {
@@ -3911,10 +4201,10 @@
           "url": "https://www.arkdems.org/county/montgomery/"
         }
       ],
-      "confidenceScore": 20,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
-      "status": "page_discovered",
-      "stagedEventCount": 1,
+      "confidenceScore": 70,
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
+      "status": "meeting_schedule_public",
+      "stagedEventCount": 4,
       "fetchBlocked": false,
       "seriesKey": "montgomery-democratic"
     },
@@ -3930,7 +4220,9 @@
       "meetingSchedule": "3rd Tuesday",
       "recurrenceRule": "3rd Tuesday",
       "chairPublic": "timothy morren",
+      "electionCommissioner": null,
       "venue": "7:00 PM Montgomery County Republican Headquarters 142 South George St Mount Ida, AR 71957",
+      "city": null,
       "sourceUrl": "https://www.arkansasgop.org/countygop.html",
       "sourceLinks": [
         {
@@ -3939,7 +4231,7 @@
         }
       ],
       "confidenceScore": 70,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "meeting_schedule_public",
       "stagedEventCount": 4,
       "fetchBlocked": false,
@@ -3957,7 +4249,9 @@
       "meetingSchedule": null,
       "recurrenceRule": null,
       "chairPublic": null,
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.lpar.org/events/",
       "sourceLinks": [
         {
@@ -3966,7 +4260,7 @@
         }
       ],
       "confidenceScore": 0,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "not_found",
       "stagedEventCount": 0,
       "fetchBlocked": false,
@@ -3981,10 +4275,12 @@
       "organization": "Democratic Party of Arkansas",
       "county": "Nevada",
       "entityType": "political_party_committee",
-      "meetingSchedule": null,
-      "recurrenceRule": null,
-      "chairPublic": null,
-      "venue": null,
+      "meetingSchedule": "Quarterly 1st Thursday at 6:00 PM at Nevada County Library",
+      "recurrenceRule": "Quarterly 1st Thursday at 6:00 PM at Nevada County Library",
+      "chairPublic": "Elaine Williams",
+      "electionCommissioner": "Edna Adams",
+      "venue": "6:00 PM at Nevada County Library",
+      "city": null,
       "sourceUrl": "https://www.arkdems.org/county/nevada/",
       "sourceLinks": [
         {
@@ -3992,10 +4288,10 @@
           "url": "https://www.arkdems.org/county/nevada/"
         }
       ],
-      "confidenceScore": 20,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
-      "status": "page_discovered",
-      "stagedEventCount": 1,
+      "confidenceScore": 70,
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
+      "status": "meeting_schedule_public",
+      "stagedEventCount": 4,
       "fetchBlocked": false,
       "seriesKey": "nevada-democratic"
     },
@@ -4011,7 +4307,9 @@
       "meetingSchedule": "3rd Tuesday",
       "recurrenceRule": "3rd Tuesday",
       "chairPublic": "Jared silvey",
+      "electionCommissioner": null,
       "venue": "6:00 PM Nevada County Library 121 W Main St Prescott, AR 71857",
+      "city": null,
       "sourceUrl": "https://www.arkansasgop.org/countygop.html",
       "sourceLinks": [
         {
@@ -4020,7 +4318,7 @@
         }
       ],
       "confidenceScore": 70,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "meeting_schedule_public",
       "stagedEventCount": 4,
       "fetchBlocked": false,
@@ -4038,7 +4336,9 @@
       "meetingSchedule": null,
       "recurrenceRule": null,
       "chairPublic": null,
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.lpar.org/events/",
       "sourceLinks": [
         {
@@ -4047,7 +4347,7 @@
         }
       ],
       "confidenceScore": 0,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "not_found",
       "stagedEventCount": 0,
       "fetchBlocked": false,
@@ -4065,7 +4365,9 @@
       "meetingSchedule": null,
       "recurrenceRule": null,
       "chairPublic": null,
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.arkdems.org/county/newton/",
       "sourceLinks": [
         {
@@ -4074,10 +4376,10 @@
         }
       ],
       "confidenceScore": 20,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
-      "status": "page_discovered",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
+      "status": "partial",
       "stagedEventCount": 1,
-      "fetchBlocked": false,
+      "fetchBlocked": true,
       "seriesKey": "newton-democratic"
     },
     {
@@ -4089,10 +4391,12 @@
       "organization": "Republican Party of Arkansas",
       "county": "Newton",
       "entityType": "political_party_committee",
-      "meetingSchedule": "AWAITING COMMITTEE",
-      "recurrenceRule": "AWAITING COMMITTEE",
+      "meetingSchedule": "Awaiting committee confirmation",
+      "recurrenceRule": "Awaiting committee confirmation",
       "chairPublic": "Vanessa Moore",
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.arkansasgop.org/countygop.html",
       "sourceLinks": [
         {
@@ -4100,9 +4404,9 @@
           "url": "https://www.arkansasgop.org/countygop.html"
         }
       ],
-      "confidenceScore": 70,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
-      "status": "meeting_schedule_public",
+      "confidenceScore": 25,
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
+      "status": "partial",
       "stagedEventCount": 1,
       "fetchBlocked": false,
       "seriesKey": "newton-republican"
@@ -4119,7 +4423,9 @@
       "meetingSchedule": null,
       "recurrenceRule": null,
       "chairPublic": null,
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.lpar.org/events/",
       "sourceLinks": [
         {
@@ -4128,7 +4434,7 @@
         }
       ],
       "confidenceScore": 0,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "not_found",
       "stagedEventCount": 0,
       "fetchBlocked": false,
@@ -4143,10 +4449,12 @@
       "organization": "Democratic Party of Arkansas",
       "county": "Ouachita",
       "entityType": "political_party_committee",
-      "meetingSchedule": null,
-      "recurrenceRule": null,
-      "chairPublic": null,
-      "venue": null,
+      "meetingSchedule": "Monthly 2nd Wednesday at County Courthouse",
+      "recurrenceRule": "2nd Wednesday at County Courthouse",
+      "chairPublic": "Gregory Nettles\n\n Election Commissioner",
+      "electionCommissioner": "Robert White\n\n Meeting Info",
+      "venue": "County Courthouse",
+      "city": null,
       "sourceUrl": "https://www.arkdems.org/county/ouachita/",
       "sourceLinks": [
         {
@@ -4154,11 +4462,11 @@
           "url": "https://www.arkdems.org/county/ouachita/"
         }
       ],
-      "confidenceScore": 20,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
-      "status": "page_discovered",
-      "stagedEventCount": 1,
-      "fetchBlocked": false,
+      "confidenceScore": 70,
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
+      "status": "meeting_schedule_public",
+      "stagedEventCount": 4,
+      "fetchBlocked": true,
       "seriesKey": "ouachita-democratic"
     },
     {
@@ -4170,10 +4478,12 @@
       "organization": "Republican Party of Arkansas",
       "county": "Ouachita",
       "entityType": "political_party_committee",
-      "meetingSchedule": null,
-      "recurrenceRule": null,
-      "chairPublic": null,
-      "venue": null,
+      "meetingSchedule": "3rd tuesday",
+      "recurrenceRule": "3rd tuesday",
+      "chairPublic": "Jack Stewart",
+      "electionCommissioner": null,
+      "venue": "6:30 pm ouachita county courthouse 145 jefferson st camden, ar 71701",
+      "city": null,
       "sourceUrl": "https://www.arkansasgop.org/countygop.html",
       "sourceLinks": [
         {
@@ -4181,10 +4491,10 @@
           "url": "https://www.arkansasgop.org/countygop.html"
         }
       ],
-      "confidenceScore": 0,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
-      "status": "not_found",
-      "stagedEventCount": 0,
+      "confidenceScore": 70,
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
+      "status": "meeting_schedule_public",
+      "stagedEventCount": 4,
       "fetchBlocked": false,
       "seriesKey": "ouachita-republican"
     },
@@ -4200,7 +4510,9 @@
       "meetingSchedule": null,
       "recurrenceRule": null,
       "chairPublic": null,
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.lpar.org/events/",
       "sourceLinks": [
         {
@@ -4209,7 +4521,7 @@
         }
       ],
       "confidenceScore": 0,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "not_found",
       "stagedEventCount": 0,
       "fetchBlocked": false,
@@ -4227,7 +4539,9 @@
       "meetingSchedule": null,
       "recurrenceRule": null,
       "chairPublic": null,
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.arkdems.org/county/perry/",
       "sourceLinks": [
         {
@@ -4236,10 +4550,10 @@
         }
       ],
       "confidenceScore": 20,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
-      "status": "page_discovered",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
+      "status": "partial",
       "stagedEventCount": 1,
-      "fetchBlocked": false,
+      "fetchBlocked": true,
       "seriesKey": "perry-democratic"
     },
     {
@@ -4254,7 +4568,9 @@
       "meetingSchedule": "2nd Tuesday",
       "recurrenceRule": "2nd Tuesday",
       "chairPublic": "Alford Drinkwater",
+      "electionCommissioner": null,
       "venue": "7:00 PM Perryville Fire Station 320 W 6th St Perryville, AR 72126",
+      "city": null,
       "sourceUrl": "https://www.arkansasgop.org/countygop.html",
       "sourceLinks": [
         {
@@ -4263,7 +4579,7 @@
         }
       ],
       "confidenceScore": 70,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "meeting_schedule_public",
       "stagedEventCount": 4,
       "fetchBlocked": false,
@@ -4281,7 +4597,9 @@
       "meetingSchedule": null,
       "recurrenceRule": null,
       "chairPublic": null,
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.lpar.org/events/",
       "sourceLinks": [
         {
@@ -4290,7 +4608,7 @@
         }
       ],
       "confidenceScore": 0,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "not_found",
       "stagedEventCount": 0,
       "fetchBlocked": false,
@@ -4307,8 +4625,10 @@
       "entityType": "political_party_committee",
       "meetingSchedule": null,
       "recurrenceRule": null,
-      "chairPublic": null,
+      "chairPublic": "Jerome Turner",
+      "electionCommissioner": "Evelyn Schmidt",
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.arkdems.org/county/phillips/",
       "sourceLinks": [
         {
@@ -4317,7 +4637,7 @@
         }
       ],
       "confidenceScore": 20,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "page_discovered",
       "stagedEventCount": 1,
       "fetchBlocked": false,
@@ -4332,10 +4652,12 @@
       "organization": "Republican Party of Arkansas",
       "county": "Phillips",
       "entityType": "political_party_committee",
-      "meetingSchedule": "AWAITING COMMITTEE",
-      "recurrenceRule": "AWAITING COMMITTEE",
+      "meetingSchedule": "Awaiting committee confirmation",
+      "recurrenceRule": "Awaiting committee confirmation",
       "chairPublic": "Martin Rawls",
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.arkansasgop.org/countygop.html",
       "sourceLinks": [
         {
@@ -4343,9 +4665,9 @@
           "url": "https://www.arkansasgop.org/countygop.html"
         }
       ],
-      "confidenceScore": 70,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
-      "status": "meeting_schedule_public",
+      "confidenceScore": 25,
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
+      "status": "partial",
       "stagedEventCount": 1,
       "fetchBlocked": false,
       "seriesKey": "phillips-republican"
@@ -4362,7 +4684,9 @@
       "meetingSchedule": null,
       "recurrenceRule": null,
       "chairPublic": null,
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.lpar.org/events/",
       "sourceLinks": [
         {
@@ -4371,7 +4695,7 @@
         }
       ],
       "confidenceScore": 0,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "not_found",
       "stagedEventCount": 0,
       "fetchBlocked": false,
@@ -4389,7 +4713,9 @@
       "meetingSchedule": null,
       "recurrenceRule": null,
       "chairPublic": null,
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.arkdems.org/county/pike/",
       "sourceLinks": [
         {
@@ -4398,10 +4724,10 @@
         }
       ],
       "confidenceScore": 20,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
-      "status": "page_discovered",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
+      "status": "partial",
       "stagedEventCount": 1,
-      "fetchBlocked": false,
+      "fetchBlocked": true,
       "seriesKey": "pike-democratic"
     },
     {
@@ -4413,10 +4739,12 @@
       "organization": "Republican Party of Arkansas",
       "county": "Pike",
       "entityType": "political_party_committee",
-      "meetingSchedule": "AWAITING COMMITTEE",
-      "recurrenceRule": "AWAITING COMMITTEE",
+      "meetingSchedule": "Awaiting committee confirmation",
+      "recurrenceRule": "Awaiting committee confirmation",
       "chairPublic": "Randy Bradford",
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.arkansasgop.org/countygop.html",
       "sourceLinks": [
         {
@@ -4424,9 +4752,9 @@
           "url": "https://www.arkansasgop.org/countygop.html"
         }
       ],
-      "confidenceScore": 70,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
-      "status": "meeting_schedule_public",
+      "confidenceScore": 25,
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
+      "status": "partial",
       "stagedEventCount": 1,
       "fetchBlocked": false,
       "seriesKey": "pike-republican"
@@ -4443,7 +4771,9 @@
       "meetingSchedule": null,
       "recurrenceRule": null,
       "chairPublic": null,
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.lpar.org/events/",
       "sourceLinks": [
         {
@@ -4452,7 +4782,7 @@
         }
       ],
       "confidenceScore": 0,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "not_found",
       "stagedEventCount": 0,
       "fetchBlocked": false,
@@ -4470,7 +4800,9 @@
       "meetingSchedule": null,
       "recurrenceRule": null,
       "chairPublic": null,
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.arkdems.org/county/poinsett/",
       "sourceLinks": [
         {
@@ -4479,10 +4811,10 @@
         }
       ],
       "confidenceScore": 20,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
-      "status": "page_discovered",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
+      "status": "partial",
       "stagedEventCount": 1,
-      "fetchBlocked": false,
+      "fetchBlocked": true,
       "seriesKey": "poinsett-democratic"
     },
     {
@@ -4494,10 +4826,12 @@
       "organization": "Republican Party of Arkansas",
       "county": "Poinsett",
       "entityType": "political_party_committee",
-      "meetingSchedule": null,
-      "recurrenceRule": null,
-      "chairPublic": null,
-      "venue": null,
+      "meetingSchedule": "2nd Tuesday",
+      "recurrenceRule": "2nd Tuesday",
+      "chairPublic": "Randy Mills",
+      "electionCommissioner": null,
+      "venue": "5:30 PM Trumann, AR 72472",
+      "city": null,
       "sourceUrl": "https://www.arkansasgop.org/countygop.html",
       "sourceLinks": [
         {
@@ -4505,10 +4839,10 @@
           "url": "https://www.arkansasgop.org/countygop.html"
         }
       ],
-      "confidenceScore": 0,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
-      "status": "not_found",
-      "stagedEventCount": 0,
+      "confidenceScore": 70,
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
+      "status": "meeting_schedule_public",
+      "stagedEventCount": 4,
       "fetchBlocked": false,
       "seriesKey": "poinsett-republican"
     },
@@ -4524,7 +4858,9 @@
       "meetingSchedule": null,
       "recurrenceRule": null,
       "chairPublic": null,
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.lpar.org/events/",
       "sourceLinks": [
         {
@@ -4533,7 +4869,7 @@
         }
       ],
       "confidenceScore": 0,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "not_found",
       "stagedEventCount": 0,
       "fetchBlocked": false,
@@ -4551,7 +4887,9 @@
       "meetingSchedule": null,
       "recurrenceRule": null,
       "chairPublic": null,
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.arkdems.org/county/polk/",
       "sourceLinks": [
         {
@@ -4560,7 +4898,7 @@
         }
       ],
       "confidenceScore": 20,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "page_discovered",
       "stagedEventCount": 1,
       "fetchBlocked": false,
@@ -4575,10 +4913,12 @@
       "organization": "Republican Party of Arkansas",
       "county": "Polk",
       "entityType": "political_party_committee",
-      "meetingSchedule": null,
-      "recurrenceRule": null,
-      "chairPublic": null,
-      "venue": null,
+      "meetingSchedule": "3rd Monday",
+      "recurrenceRule": "3rd Monday",
+      "chairPublic": "kathy hagler",
+      "electionCommissioner": null,
+      "venue": "5:30 PM Polk County Library 410 8th St Mena, AR 71953",
+      "city": null,
       "sourceUrl": "https://www.arkansasgop.org/countygop.html",
       "sourceLinks": [
         {
@@ -4586,10 +4926,10 @@
           "url": "https://www.arkansasgop.org/countygop.html"
         }
       ],
-      "confidenceScore": 0,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
-      "status": "not_found",
-      "stagedEventCount": 0,
+      "confidenceScore": 70,
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
+      "status": "meeting_schedule_public",
+      "stagedEventCount": 4,
       "fetchBlocked": false,
       "seriesKey": "polk-republican"
     },
@@ -4605,7 +4945,9 @@
       "meetingSchedule": null,
       "recurrenceRule": null,
       "chairPublic": null,
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.lpar.org/events/",
       "sourceLinks": [
         {
@@ -4614,7 +4956,7 @@
         }
       ],
       "confidenceScore": 0,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "not_found",
       "stagedEventCount": 0,
       "fetchBlocked": false,
@@ -4629,10 +4971,12 @@
       "organization": "Democratic Party of Arkansas",
       "county": "Pope",
       "entityType": "political_party_committee",
-      "meetingSchedule": null,
-      "recurrenceRule": null,
-      "chairPublic": null,
-      "venue": null,
+      "meetingSchedule": "Monthly 2nd Monday at 7:00 PM at Courthouse",
+      "recurrenceRule": "2nd Monday at 7:00 PM at Courthouse",
+      "chairPublic": "Chad Easley",
+      "electionCommissioner": "Carol Shoptaw",
+      "venue": "7:00 PM at Courthouse",
+      "city": null,
       "sourceUrl": "https://www.arkdems.org/county/pope/",
       "sourceLinks": [
         {
@@ -4640,10 +4984,10 @@
           "url": "https://www.arkdems.org/county/pope/"
         }
       ],
-      "confidenceScore": 20,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
-      "status": "page_discovered",
-      "stagedEventCount": 1,
+      "confidenceScore": 70,
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
+      "status": "meeting_schedule_public",
+      "stagedEventCount": 4,
       "fetchBlocked": false,
       "seriesKey": "pope-democratic"
     },
@@ -4659,7 +5003,9 @@
       "meetingSchedule": "Meal at 5:30 PM, Meeting at 6:00 PM",
       "recurrenceRule": "Meal at 5:30 PM, Meeting at 6:00 PM",
       "chairPublic": "allan george",
+      "electionCommissioner": null,
       "venue": "3rd Tuesday  Pope County Republican Party Headquarters 811 E Main St Russellville, AR 72801",
+      "city": null,
       "sourceUrl": "https://www.arkansasgop.org/countygop.html",
       "sourceLinks": [
         {
@@ -4668,7 +5014,7 @@
         }
       ],
       "confidenceScore": 70,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "meeting_schedule_public",
       "stagedEventCount": 1,
       "fetchBlocked": false,
@@ -4686,7 +5032,9 @@
       "meetingSchedule": null,
       "recurrenceRule": null,
       "chairPublic": null,
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.lpar.org/events/",
       "sourceLinks": [
         {
@@ -4695,7 +5043,7 @@
         }
       ],
       "confidenceScore": 0,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "not_found",
       "stagedEventCount": 0,
       "fetchBlocked": false,
@@ -4712,8 +5060,10 @@
       "entityType": "political_party_committee",
       "meetingSchedule": null,
       "recurrenceRule": null,
-      "chairPublic": null,
+      "chairPublic": "Joseph",
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.arkdems.org/county/prairie/",
       "sourceLinks": [
         {
@@ -4722,7 +5072,7 @@
         }
       ],
       "confidenceScore": 20,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "page_discovered",
       "stagedEventCount": 1,
       "fetchBlocked": false,
@@ -4737,10 +5087,12 @@
       "organization": "Republican Party of Arkansas",
       "county": "Prairie",
       "entityType": "political_party_committee",
-      "meetingSchedule": "AWAITING COMMITTEE",
-      "recurrenceRule": "AWAITING COMMITTEE",
+      "meetingSchedule": "Awaiting committee confirmation",
+      "recurrenceRule": "Awaiting committee confirmation",
       "chairPublic": "John Dobson",
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.arkansasgop.org/countygop.html",
       "sourceLinks": [
         {
@@ -4748,9 +5100,9 @@
           "url": "https://www.arkansasgop.org/countygop.html"
         }
       ],
-      "confidenceScore": 70,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
-      "status": "meeting_schedule_public",
+      "confidenceScore": 25,
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
+      "status": "partial",
       "stagedEventCount": 1,
       "fetchBlocked": false,
       "seriesKey": "prairie-republican"
@@ -4767,7 +5119,9 @@
       "meetingSchedule": null,
       "recurrenceRule": null,
       "chairPublic": null,
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.lpar.org/events/",
       "sourceLinks": [
         {
@@ -4776,7 +5130,7 @@
         }
       ],
       "confidenceScore": 0,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "not_found",
       "stagedEventCount": 0,
       "fetchBlocked": false,
@@ -4791,10 +5145,12 @@
       "organization": "Democratic Party of Arkansas",
       "county": "Pulaski",
       "entityType": "political_party_committee",
-      "meetingSchedule": null,
-      "recurrenceRule": null,
-      "chairPublic": null,
-      "venue": null,
+      "meetingSchedule": "Monthly last Monday at 6:00 PM at Pulaski County Regional Building",
+      "recurrenceRule": "last Monday at 6:00 PM at Pulaski County Regional Building",
+      "chairPublic": "Katrina Bishop",
+      "electionCommissioner": null,
+      "venue": "6:00 PM at Pulaski County Regional Building",
+      "city": null,
       "sourceUrl": "https://www.arkdems.org/county/pulaski/",
       "sourceLinks": [
         {
@@ -4802,10 +5158,10 @@
           "url": "https://www.arkdems.org/county/pulaski/"
         }
       ],
-      "confidenceScore": 20,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
-      "status": "page_discovered",
-      "stagedEventCount": 1,
+      "confidenceScore": 70,
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
+      "status": "meeting_schedule_public",
+      "stagedEventCount": 5,
       "fetchBlocked": false,
       "seriesKey": "pulaski-democratic"
     },
@@ -4821,7 +5177,9 @@
       "meetingSchedule": "3rd Thursday",
       "recurrenceRule": "3rd Thursday",
       "chairPublic": "kenneth wallace",
+      "electionCommissioner": null,
       "venue": "6:00 PM Republican Party of Arkansas 1201 W. 6th Street Little Rock, AR 72201",
+      "city": null,
       "sourceUrl": "https://www.arkansasgop.org/countygop.html",
       "sourceLinks": [
         {
@@ -4830,7 +5188,7 @@
         }
       ],
       "confidenceScore": 70,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "meeting_schedule_public",
       "stagedEventCount": 4,
       "fetchBlocked": false,
@@ -4848,7 +5206,9 @@
       "meetingSchedule": null,
       "recurrenceRule": null,
       "chairPublic": null,
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.lpar.org/events/",
       "sourceLinks": [
         {
@@ -4857,7 +5217,7 @@
         }
       ],
       "confidenceScore": 0,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "not_found",
       "stagedEventCount": 0,
       "fetchBlocked": false,
@@ -4872,10 +5232,12 @@
       "organization": "Democratic Party of Arkansas",
       "county": "Randolph",
       "entityType": "political_party_committee",
-      "meetingSchedule": null,
-      "recurrenceRule": null,
-      "chairPublic": null,
-      "venue": null,
+      "meetingSchedule": "Monthly 3rd Tuesday at 5:00 PM at Clay County Electric",
+      "recurrenceRule": "3rd Tuesday at 5:00 PM at Clay County Electric",
+      "chairPublic": "Doris Sharp",
+      "electionCommissioner": "Vicki Raglin",
+      "venue": "5:00 PM at Clay County Electric",
+      "city": null,
       "sourceUrl": "https://www.arkdems.org/county/randolph/",
       "sourceLinks": [
         {
@@ -4883,10 +5245,10 @@
           "url": "https://www.arkdems.org/county/randolph/"
         }
       ],
-      "confidenceScore": 20,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
-      "status": "page_discovered",
-      "stagedEventCount": 1,
+      "confidenceScore": 70,
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
+      "status": "meeting_schedule_public",
+      "stagedEventCount": 4,
       "fetchBlocked": false,
       "seriesKey": "randolph-democratic"
     },
@@ -4899,10 +5261,12 @@
       "organization": "Republican Party of Arkansas",
       "county": "Randolph",
       "entityType": "political_party_committee",
-      "meetingSchedule": null,
-      "recurrenceRule": null,
-      "chairPublic": null,
-      "venue": null,
+      "meetingSchedule": "2nd Monday",
+      "recurrenceRule": "2nd Monday",
+      "chairPublic": "Billy hallman",
+      "electionCommissioner": null,
+      "venue": "7:00 PM Old Historical Courthouse 212 E Broadway St Pocahontas, AR 72455",
+      "city": null,
       "sourceUrl": "https://www.arkansasgop.org/countygop.html",
       "sourceLinks": [
         {
@@ -4910,10 +5274,10 @@
           "url": "https://www.arkansasgop.org/countygop.html"
         }
       ],
-      "confidenceScore": 0,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
-      "status": "not_found",
-      "stagedEventCount": 0,
+      "confidenceScore": 70,
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
+      "status": "meeting_schedule_public",
+      "stagedEventCount": 4,
       "fetchBlocked": false,
       "seriesKey": "randolph-republican"
     },
@@ -4929,7 +5293,9 @@
       "meetingSchedule": null,
       "recurrenceRule": null,
       "chairPublic": null,
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.lpar.org/events/",
       "sourceLinks": [
         {
@@ -4938,7 +5304,7 @@
         }
       ],
       "confidenceScore": 0,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "not_found",
       "stagedEventCount": 0,
       "fetchBlocked": false,
@@ -4953,10 +5319,12 @@
       "organization": "Democratic Party of Arkansas",
       "county": "St. Francis",
       "entityType": "political_party_committee",
-      "meetingSchedule": null,
-      "recurrenceRule": null,
-      "chairPublic": null,
-      "venue": null,
+      "meetingSchedule": "Monthly 3rd Thursday at 6:00 PM at St. Francis County Circuit Courtroom",
+      "recurrenceRule": "3rd Thursday at 6:00 PM at St. Francis County Circuit Courtroom",
+      "chairPublic": "Adrian Winfrey",
+      "electionCommissioner": "Frederick Freeman",
+      "venue": "6:00 PM at St. Francis County Circuit Courtroom",
+      "city": null,
       "sourceUrl": "https://www.arkdems.org/county/st.-francis/",
       "sourceLinks": [
         {
@@ -4964,10 +5332,10 @@
           "url": "https://www.arkdems.org/county/st.-francis/"
         }
       ],
-      "confidenceScore": 20,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
-      "status": "page_discovered",
-      "stagedEventCount": 1,
+      "confidenceScore": 70,
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
+      "status": "meeting_schedule_public",
+      "stagedEventCount": 4,
       "fetchBlocked": false,
       "seriesKey": "st.-francis-democratic"
     },
@@ -4983,7 +5351,9 @@
       "meetingSchedule": "3rd Monday",
       "recurrenceRule": "3rd Monday",
       "chairPublic": "Jonathan Smith",
+      "electionCommissioner": null,
       "venue": "6:00 PM County Courthouse 313 S Izard St Forrest City, AR 72335",
+      "city": null,
       "sourceUrl": "https://www.arkansasgop.org/countygop.html",
       "sourceLinks": [
         {
@@ -4992,7 +5362,7 @@
         }
       ],
       "confidenceScore": 70,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "meeting_schedule_public",
       "stagedEventCount": 4,
       "fetchBlocked": false,
@@ -5010,7 +5380,9 @@
       "meetingSchedule": null,
       "recurrenceRule": null,
       "chairPublic": null,
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.lpar.org/events/",
       "sourceLinks": [
         {
@@ -5019,7 +5391,7 @@
         }
       ],
       "confidenceScore": 0,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "not_found",
       "stagedEventCount": 0,
       "fetchBlocked": false,
@@ -5036,8 +5408,10 @@
       "entityType": "political_party_committee",
       "meetingSchedule": "Monthly 2nd Tuesday at 6:30 PM",
       "recurrenceRule": "2nd Tuesday at 6:30 PM",
-      "chairPublic": null,
-      "venue": null,
+      "chairPublic": "Bailey Morgan",
+      "electionCommissioner": "Tamme Adams",
+      "venue": "6:30 PM",
+      "city": null,
       "sourceUrl": "https://www.arkdems.org/county/saline/",
       "sourceLinks": [
         {
@@ -5046,7 +5420,7 @@
         }
       ],
       "confidenceScore": 70,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "meeting_schedule_public",
       "stagedEventCount": 4,
       "fetchBlocked": false,
@@ -5064,7 +5438,9 @@
       "meetingSchedule": null,
       "recurrenceRule": null,
       "chairPublic": null,
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.arkansasgop.org/countygop.html",
       "sourceLinks": [
         {
@@ -5073,7 +5449,7 @@
         }
       ],
       "confidenceScore": 0,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "not_found",
       "stagedEventCount": 0,
       "fetchBlocked": false,
@@ -5091,7 +5467,9 @@
       "meetingSchedule": null,
       "recurrenceRule": null,
       "chairPublic": null,
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.lpar.org/events/",
       "sourceLinks": [
         {
@@ -5100,7 +5478,7 @@
         }
       ],
       "confidenceScore": 0,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "not_found",
       "stagedEventCount": 0,
       "fetchBlocked": false,
@@ -5118,7 +5496,9 @@
       "meetingSchedule": null,
       "recurrenceRule": null,
       "chairPublic": null,
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.arkdems.org/county/scott/",
       "sourceLinks": [
         {
@@ -5127,7 +5507,7 @@
         }
       ],
       "confidenceScore": 20,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "page_discovered",
       "stagedEventCount": 1,
       "fetchBlocked": false,
@@ -5145,7 +5525,9 @@
       "meetingSchedule": "1st tuesday",
       "recurrenceRule": "1st tuesday",
       "chairPublic": "Lance stinson",
-      "venue": "6:30 Scott COUNTY courthouse 190 w first street waldron, ar 72958",
+      "electionCommissioner": null,
+      "venue": "6:30 ​Scott COUNTY courthouse 190 w first street waldron, ar 72958",
+      "city": null,
       "sourceUrl": "https://www.arkansasgop.org/countygop.html",
       "sourceLinks": [
         {
@@ -5154,7 +5536,7 @@
         }
       ],
       "confidenceScore": 70,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "meeting_schedule_public",
       "stagedEventCount": 4,
       "fetchBlocked": false,
@@ -5172,7 +5554,9 @@
       "meetingSchedule": null,
       "recurrenceRule": null,
       "chairPublic": null,
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.lpar.org/events/",
       "sourceLinks": [
         {
@@ -5181,7 +5565,7 @@
         }
       ],
       "confidenceScore": 0,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "not_found",
       "stagedEventCount": 0,
       "fetchBlocked": false,
@@ -5199,7 +5583,9 @@
       "meetingSchedule": null,
       "recurrenceRule": null,
       "chairPublic": null,
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.arkdems.org/county/searcy/",
       "sourceLinks": [
         {
@@ -5208,10 +5594,10 @@
         }
       ],
       "confidenceScore": 20,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
-      "status": "page_discovered",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
+      "status": "partial",
       "stagedEventCount": 1,
-      "fetchBlocked": false,
+      "fetchBlocked": true,
       "seriesKey": "searcy-democratic"
     },
     {
@@ -5226,7 +5612,9 @@
       "meetingSchedule": "2nd Thursday",
       "recurrenceRule": "2nd Thursday",
       "chairPublic": "Ellen Griffin",
+      "electionCommissioner": null,
       "venue": "7:00 PM Searcy county fairgrounds 105 armory st Marshall, AR 72650",
+      "city": null,
       "sourceUrl": "https://www.arkansasgop.org/countygop.html",
       "sourceLinks": [
         {
@@ -5235,7 +5623,7 @@
         }
       ],
       "confidenceScore": 70,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "meeting_schedule_public",
       "stagedEventCount": 4,
       "fetchBlocked": false,
@@ -5253,7 +5641,9 @@
       "meetingSchedule": null,
       "recurrenceRule": null,
       "chairPublic": null,
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.lpar.org/events/",
       "sourceLinks": [
         {
@@ -5262,7 +5652,7 @@
         }
       ],
       "confidenceScore": 0,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "not_found",
       "stagedEventCount": 0,
       "fetchBlocked": false,
@@ -5280,7 +5670,9 @@
       "meetingSchedule": null,
       "recurrenceRule": null,
       "chairPublic": null,
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.arkdems.org/county/sebastian/",
       "sourceLinks": [
         {
@@ -5289,10 +5681,10 @@
         }
       ],
       "confidenceScore": 20,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
-      "status": "page_discovered",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
+      "status": "partial",
       "stagedEventCount": 1,
-      "fetchBlocked": false,
+      "fetchBlocked": true,
       "seriesKey": "sebastian-democratic"
     },
     {
@@ -5307,7 +5699,9 @@
       "meetingSchedule": "4th Thursday",
       "recurrenceRule": "4th Thursday",
       "chairPublic": "kelly procter-pierce",
+      "electionCommissioner": null,
       "venue": "6:00 PM Central Mall Community Room (2nd Floor) 5111 Rogers Ave Fort Smith, AR 72908",
+      "city": null,
       "sourceUrl": "https://www.arkansasgop.org/countygop.html",
       "sourceLinks": [
         {
@@ -5316,7 +5710,7 @@
         }
       ],
       "confidenceScore": 70,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "meeting_schedule_public",
       "stagedEventCount": 5,
       "fetchBlocked": false,
@@ -5334,7 +5728,9 @@
       "meetingSchedule": null,
       "recurrenceRule": null,
       "chairPublic": null,
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.lpar.org/events/",
       "sourceLinks": [
         {
@@ -5343,7 +5739,7 @@
         }
       ],
       "confidenceScore": 0,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "not_found",
       "stagedEventCount": 0,
       "fetchBlocked": false,
@@ -5361,7 +5757,9 @@
       "meetingSchedule": null,
       "recurrenceRule": null,
       "chairPublic": null,
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.arkdems.org/county/sevier/",
       "sourceLinks": [
         {
@@ -5370,7 +5768,7 @@
         }
       ],
       "confidenceScore": 20,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "page_discovered",
       "stagedEventCount": 1,
       "fetchBlocked": false,
@@ -5388,7 +5786,9 @@
       "meetingSchedule": "3rd thursday",
       "recurrenceRule": "3rd thursday",
       "chairPublic": "Monte Bartek",
-      "venue": "6:00 PM Sevier County Republican Party - De Queen, Arkansas on Facebook for more info",
+      "electionCommissioner": null,
+      "venue": "6:00 PM on Facebook for more info",
+      "city": null,
       "sourceUrl": "https://www.arkansasgop.org/countygop.html",
       "sourceLinks": [
         {
@@ -5397,7 +5797,7 @@
         }
       ],
       "confidenceScore": 70,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "meeting_schedule_public",
       "stagedEventCount": 4,
       "fetchBlocked": false,
@@ -5415,7 +5815,9 @@
       "meetingSchedule": null,
       "recurrenceRule": null,
       "chairPublic": null,
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.lpar.org/events/",
       "sourceLinks": [
         {
@@ -5424,7 +5826,7 @@
         }
       ],
       "confidenceScore": 0,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "not_found",
       "stagedEventCount": 0,
       "fetchBlocked": false,
@@ -5441,8 +5843,10 @@
       "entityType": "political_party_committee",
       "meetingSchedule": null,
       "recurrenceRule": null,
-      "chairPublic": null,
+      "chairPublic": "Cindy Arnn",
+      "electionCommissioner": "Homer Wiles",
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.arkdems.org/county/sharp/",
       "sourceLinks": [
         {
@@ -5451,7 +5855,7 @@
         }
       ],
       "confidenceScore": 20,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "page_discovered",
       "stagedEventCount": 1,
       "fetchBlocked": false,
@@ -5469,7 +5873,9 @@
       "meetingSchedule": "2nd Thursday",
       "recurrenceRule": "2nd Thursday",
       "chairPublic": "Joseph Barnes",
+      "electionCommissioner": null,
       "venue": "6:00 PM Sharp County Courthouse 718 Ash Flat Drive N Ash Flat, AR 72513",
+      "city": null,
       "sourceUrl": "https://www.arkansasgop.org/countygop.html",
       "sourceLinks": [
         {
@@ -5478,7 +5884,7 @@
         }
       ],
       "confidenceScore": 70,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "meeting_schedule_public",
       "stagedEventCount": 4,
       "fetchBlocked": false,
@@ -5496,7 +5902,9 @@
       "meetingSchedule": null,
       "recurrenceRule": null,
       "chairPublic": null,
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.lpar.org/events/",
       "sourceLinks": [
         {
@@ -5505,7 +5913,7 @@
         }
       ],
       "confidenceScore": 0,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "not_found",
       "stagedEventCount": 0,
       "fetchBlocked": false,
@@ -5520,10 +5928,12 @@
       "organization": "Democratic Party of Arkansas",
       "county": "Stone",
       "entityType": "political_party_committee",
-      "meetingSchedule": null,
-      "recurrenceRule": null,
-      "chairPublic": null,
-      "venue": null,
+      "meetingSchedule": "Monthly 3rd Wednesday at 6:00 PM at Stone County Library",
+      "recurrenceRule": "3rd Wednesday at 6:00 PM at Stone County Library",
+      "chairPublic": "Jerry Weber",
+      "electionCommissioner": "Janice Cavender",
+      "venue": "6:00 PM at Stone County Library",
+      "city": null,
       "sourceUrl": "https://www.arkdems.org/county/stone/",
       "sourceLinks": [
         {
@@ -5531,10 +5941,10 @@
           "url": "https://www.arkdems.org/county/stone/"
         }
       ],
-      "confidenceScore": 20,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
-      "status": "page_discovered",
-      "stagedEventCount": 1,
+      "confidenceScore": 70,
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
+      "status": "meeting_schedule_public",
+      "stagedEventCount": 4,
       "fetchBlocked": false,
       "seriesKey": "stone-democratic"
     },
@@ -5550,7 +5960,9 @@
       "meetingSchedule": "2nd Tuesday",
       "recurrenceRule": "2nd Tuesday",
       "chairPublic": "Darren waddles",
-      "venue": "6:30 PM New Court Complex 211 Blanchard St A Mountain View, AR 72560",
+      "electionCommissioner": null,
+      "venue": "6:30 PM New Court Complex 211 Blanchard St A Mountain View, AR 72560​",
+      "city": null,
       "sourceUrl": "https://www.arkansasgop.org/countygop.html",
       "sourceLinks": [
         {
@@ -5559,7 +5971,7 @@
         }
       ],
       "confidenceScore": 70,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "meeting_schedule_public",
       "stagedEventCount": 4,
       "fetchBlocked": false,
@@ -5577,7 +5989,9 @@
       "meetingSchedule": null,
       "recurrenceRule": null,
       "chairPublic": null,
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.lpar.org/events/",
       "sourceLinks": [
         {
@@ -5586,7 +6000,7 @@
         }
       ],
       "confidenceScore": 0,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "not_found",
       "stagedEventCount": 0,
       "fetchBlocked": false,
@@ -5604,7 +6018,9 @@
       "meetingSchedule": null,
       "recurrenceRule": null,
       "chairPublic": null,
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.arkdems.org/county/union/",
       "sourceLinks": [
         {
@@ -5613,10 +6029,10 @@
         }
       ],
       "confidenceScore": 20,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
-      "status": "page_discovered",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
+      "status": "partial",
       "stagedEventCount": 1,
-      "fetchBlocked": false,
+      "fetchBlocked": true,
       "seriesKey": "union-democratic"
     },
     {
@@ -5631,7 +6047,9 @@
       "meetingSchedule": "1st Monday",
       "recurrenceRule": "1st Monday",
       "chairPublic": "Kent Harrell",
+      "electionCommissioner": null,
       "venue": "6:00 PM Simmons Bank 2nd Floor 100 W Grove St El Dorado, AR 71730",
+      "city": null,
       "sourceUrl": "https://www.arkansasgop.org/countygop.html",
       "sourceLinks": [
         {
@@ -5640,7 +6058,7 @@
         }
       ],
       "confidenceScore": 70,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "meeting_schedule_public",
       "stagedEventCount": 4,
       "fetchBlocked": false,
@@ -5658,7 +6076,9 @@
       "meetingSchedule": null,
       "recurrenceRule": null,
       "chairPublic": null,
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.lpar.org/events/",
       "sourceLinks": [
         {
@@ -5667,7 +6087,7 @@
         }
       ],
       "confidenceScore": 0,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "not_found",
       "stagedEventCount": 0,
       "fetchBlocked": false,
@@ -5685,7 +6105,9 @@
       "meetingSchedule": "Monthly 1st Monday at 6:30 PM at Western Sizzlin' in Clinton",
       "recurrenceRule": "1st Monday at 6:30 PM at Western Sizzlin' in Clinton",
       "chairPublic": null,
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.arkdems.org/county/van-buren/",
       "sourceLinks": [
         {
@@ -5694,10 +6116,10 @@
         }
       ],
       "confidenceScore": 70,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "meeting_schedule_public",
       "stagedEventCount": 4,
-      "fetchBlocked": false,
+      "fetchBlocked": true,
       "seriesKey": "van-buren-democratic"
     },
     {
@@ -5712,7 +6134,9 @@
       "meetingSchedule": "4th Tuesday",
       "recurrenceRule": "4th Tuesday",
       "chairPublic": "kevin johnson",
+      "electionCommissioner": null,
       "venue": "6:00 PM Van buren county library 289 factory rd Clinton, AR 72031",
+      "city": null,
       "sourceUrl": "https://www.arkansasgop.org/countygop.html",
       "sourceLinks": [
         {
@@ -5721,7 +6145,7 @@
         }
       ],
       "confidenceScore": 70,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "meeting_schedule_public",
       "stagedEventCount": 5,
       "fetchBlocked": false,
@@ -5739,7 +6163,9 @@
       "meetingSchedule": null,
       "recurrenceRule": null,
       "chairPublic": null,
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.lpar.org/events/",
       "sourceLinks": [
         {
@@ -5748,7 +6174,7 @@
         }
       ],
       "confidenceScore": 0,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "not_found",
       "stagedEventCount": 0,
       "fetchBlocked": false,
@@ -5763,10 +6189,12 @@
       "organization": "Democratic Party of Arkansas",
       "county": "Washington",
       "entityType": "political_party_committee",
-      "meetingSchedule": null,
-      "recurrenceRule": null,
-      "chairPublic": null,
-      "venue": null,
+      "meetingSchedule": "Monthly 3rd Monday at 6:00 PM at 1102 S Thompson in Springdale",
+      "recurrenceRule": "3rd Monday at 6:00 PM at 1102 S Thompson in Springdale",
+      "chairPublic": "Caitlin Oxford",
+      "electionCommissioner": "Alexis Ward",
+      "venue": "6:00 PM at 1102 S Thompson",
+      "city": "Springdale",
       "sourceUrl": "https://www.arkdems.org/county/washington/",
       "sourceLinks": [
         {
@@ -5774,10 +6202,10 @@
           "url": "https://www.arkdems.org/county/washington/"
         }
       ],
-      "confidenceScore": 20,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
-      "status": "page_discovered",
-      "stagedEventCount": 1,
+      "confidenceScore": 70,
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
+      "status": "meeting_schedule_public",
+      "stagedEventCount": 4,
       "fetchBlocked": false,
       "seriesKey": "washington-democratic"
     },
@@ -5793,7 +6221,9 @@
       "meetingSchedule": "3rd Tuesday",
       "recurrenceRule": "3rd Tuesday",
       "chairPublic": "william little",
-      "venue": "7:00 PM Springdale Country Club 608 W Lakeview Dr Springdale, AR 72764",
+      "electionCommissioner": null,
+      "venue": "7:00 PM Springdale Country Club 608 W Lakeview Dr Springdale, AR 72764​ ​Cleburne County ​Chair: Steve Smith MEETING INFORMATION 1st Tuesday 6:00 PM ASU Heber Springs 101 Rivercres",
+      "city": null,
       "sourceUrl": "https://www.arkansasgop.org/countygop.html",
       "sourceLinks": [
         {
@@ -5802,7 +6232,7 @@
         }
       ],
       "confidenceScore": 70,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "meeting_schedule_public",
       "stagedEventCount": 4,
       "fetchBlocked": false,
@@ -5820,7 +6250,9 @@
       "meetingSchedule": null,
       "recurrenceRule": null,
       "chairPublic": null,
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.lpar.org/events/",
       "sourceLinks": [
         {
@@ -5829,7 +6261,7 @@
         }
       ],
       "confidenceScore": 0,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "not_found",
       "stagedEventCount": 0,
       "fetchBlocked": false,
@@ -5847,7 +6279,9 @@
       "meetingSchedule": null,
       "recurrenceRule": null,
       "chairPublic": null,
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.arkdems.org/county/white/",
       "sourceLinks": [
         {
@@ -5856,10 +6290,10 @@
         }
       ],
       "confidenceScore": 20,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
-      "status": "page_discovered",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
+      "status": "partial",
       "stagedEventCount": 1,
-      "fetchBlocked": false,
+      "fetchBlocked": true,
       "seriesKey": "white-democratic"
     },
     {
@@ -5874,7 +6308,9 @@
       "meetingSchedule": "4th Thursday",
       "recurrenceRule": "4th Thursday",
       "chairPublic": "roger pearson",
+      "electionCommissioner": null,
       "venue": "7:00 PM Carmichael Center 801 S Elm St Searcy, AR 72143",
+      "city": null,
       "sourceUrl": "https://www.arkansasgop.org/countygop.html",
       "sourceLinks": [
         {
@@ -5883,7 +6319,7 @@
         }
       ],
       "confidenceScore": 70,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "meeting_schedule_public",
       "stagedEventCount": 5,
       "fetchBlocked": false,
@@ -5901,7 +6337,9 @@
       "meetingSchedule": null,
       "recurrenceRule": null,
       "chairPublic": null,
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.lpar.org/events/",
       "sourceLinks": [
         {
@@ -5910,7 +6348,7 @@
         }
       ],
       "confidenceScore": 0,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "not_found",
       "stagedEventCount": 0,
       "fetchBlocked": false,
@@ -5928,7 +6366,9 @@
       "meetingSchedule": null,
       "recurrenceRule": null,
       "chairPublic": null,
+      "electionCommissioner": "John Bell",
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.arkdems.org/county/woodruff/",
       "sourceLinks": [
         {
@@ -5937,7 +6377,7 @@
         }
       ],
       "confidenceScore": 20,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "page_discovered",
       "stagedEventCount": 1,
       "fetchBlocked": false,
@@ -5955,7 +6395,9 @@
       "meetingSchedule": "Awaiting committee confirmation",
       "recurrenceRule": "Awaiting committee confirmation",
       "chairPublic": "Tom Kendrick",
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.arkansasgop.org/countygop.html",
       "sourceLinks": [
         {
@@ -5964,7 +6406,7 @@
         }
       ],
       "confidenceScore": 25,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "partial",
       "stagedEventCount": 1,
       "fetchBlocked": false,
@@ -5982,7 +6424,9 @@
       "meetingSchedule": null,
       "recurrenceRule": null,
       "chairPublic": null,
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.lpar.org/events/",
       "sourceLinks": [
         {
@@ -5991,7 +6435,7 @@
         }
       ],
       "confidenceScore": 0,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "not_found",
       "stagedEventCount": 0,
       "fetchBlocked": false,
@@ -6006,10 +6450,12 @@
       "organization": "Democratic Party of Arkansas",
       "county": "Yell",
       "entityType": "political_party_committee",
-      "meetingSchedule": null,
-      "recurrenceRule": null,
-      "chairPublic": null,
-      "venue": null,
+      "meetingSchedule": "Monthly last Saturday at 2:00 PM",
+      "recurrenceRule": "last Saturday at 2:00 PM",
+      "chairPublic": "Cathy George",
+      "electionCommissioner": "Mike Merritt",
+      "venue": "2:00 PM",
+      "city": null,
       "sourceUrl": "https://www.arkdems.org/county/yell/",
       "sourceLinks": [
         {
@@ -6017,10 +6463,10 @@
           "url": "https://www.arkdems.org/county/yell/"
         }
       ],
-      "confidenceScore": 20,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
-      "status": "page_discovered",
-      "stagedEventCount": 1,
+      "confidenceScore": 70,
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
+      "status": "meeting_schedule_public",
+      "stagedEventCount": 5,
       "fetchBlocked": false,
       "seriesKey": "yell-democratic"
     },
@@ -6033,10 +6479,12 @@
       "organization": "Republican Party of Arkansas",
       "county": "Yell",
       "entityType": "political_party_committee",
-      "meetingSchedule": "3rd Tuesday",
-      "recurrenceRule": "3rd Tuesday",
-      "chairPublic": "Clay Hooten",
-      "venue": "6:30 PM Tarascos 217 N Front St. Dardanelle, AR 72834 Home About Contact PAID FOR BY THE REPUBLICAN PARTY OF ARKANSAS AND NOT AUTHORIZED BY ANY CANDIDATE OR CANDIDATE COMMITTEE. Ar",
+      "meetingSchedule": null,
+      "recurrenceRule": null,
+      "chairPublic": null,
+      "electionCommissioner": null,
+      "venue": null,
+      "city": null,
       "sourceUrl": "https://www.arkansasgop.org/countygop.html",
       "sourceLinks": [
         {
@@ -6044,10 +6492,10 @@
           "url": "https://www.arkansasgop.org/countygop.html"
         }
       ],
-      "confidenceScore": 70,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
-      "status": "meeting_schedule_public",
-      "stagedEventCount": 4,
+      "confidenceScore": 0,
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
+      "status": "not_found",
+      "stagedEventCount": 0,
       "fetchBlocked": false,
       "seriesKey": "yell-republican"
     },
@@ -6063,7 +6511,9 @@
       "meetingSchedule": null,
       "recurrenceRule": null,
       "chairPublic": null,
+      "electionCommissioner": null,
       "venue": null,
+      "city": null,
       "sourceUrl": "https://www.lpar.org/events/",
       "sourceLinks": [
         {
@@ -6072,11 +6522,34 @@
         }
       ],
       "confidenceScore": 0,
-      "freshnessDate": "2026-06-21T07:06:54.126Z",
+      "freshnessDate": "2026-06-21T17:25:21.231Z",
       "status": "not_found",
       "stagedEventCount": 0,
       "fetchBlocked": false,
       "seriesKey": "yell-libertarian"
+    },
+    {
+      "id": "arkansas-libertarian-party",
+      "slug": "arkansas-libertarian-party",
+      "name": "Libertarian Party of Arkansas",
+      "partyLabel": "Libertarian",
+      "partySlug": "libertarians",
+      "organization": "Libertarian Party of Arkansas",
+      "county": "Statewide",
+      "entityType": "political_party_state",
+      "meetingSchedule": null,
+      "sourceUrl": "https://www.lpar.org/events/",
+      "sourceLinks": [
+        {
+          "label": "Events calendar",
+          "url": "https://www.lpar.org/events/"
+        }
+      ],
+      "confidenceScore": 45,
+      "freshnessDate": "2026-06-21",
+      "status": "affiliate_indexed",
+      "stagedEventCount": 1,
+      "seriesKey": "statewide-libertarian"
     }
   ]
 }

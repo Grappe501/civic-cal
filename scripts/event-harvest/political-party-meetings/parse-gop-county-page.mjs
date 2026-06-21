@@ -27,10 +27,18 @@ function htmlToText(html) {
 }
 
 const COUNTY_BLOCK_RE =
-  /(?:^|\n)\s*((?:St\.\s+)?[A-Z][A-Za-z]+(?:\s+[A-Z][A-Za-z]+)?)\s+[Cc]ounty(?:\s*\([^)]*\))?(?:\s*\([^)]*\))?\s*\n+\s*Chair:\s*([^\n]+)\s*\n+\s*(?:Meeting Information|MEETING INFORMATION|meeting information)\s*\n+([\s\S]*?)(?=\n\s*(?:St\.\s+)?[A-Z][A-Za-z]+(?:\s+[A-Z][A-Za-z]+)?\s+[Cc]ounty(?:\s*\(|$|\n)|$)/gi;
+  /(?:^|\n)\s*((?:St\.\s+)?[A-Z][A-Za-z]+(?:\s+[A-Z][A-Za-z]+)?)\s+[Cc]ounty(?:\s*\([^)]*\))?(?:\s*\([^)]*\))?\s*\n+\s*Chair:\s*([^\n]+)\s*\n+\s*(?:Meeting Information|MEETING INFORMATION|meeting information)\s*\n+([\s\S]*?)(?=\n\s*(?:\*\*)?(?:St\.\s+)?[A-Z][A-Za-z]+(?:\s+[A-Z][A-Za-z]+)?\s+[Cc]ounty(?:\s*\(|$|\n)|$)/gi;
+
+function normalizeGopSourceText(htmlOrText) {
+  let text = htmlOrText.includes("<") ? htmlToText(htmlOrText) : String(htmlOrText);
+  text = text.replace(/^[\s\S]*?(?:Markdown Content:\s*)?/i, "");
+  text = text.replace(/\*\*/g, "").replace(/_/g, "");
+  text = text.replace(/\[[^\]]+\]\([^)]+\)/g, "");
+  return text;
+}
 
 export function parseGopCountyPageText(htmlOrText) {
-  let text = htmlOrText.includes("<") ? htmlToText(htmlOrText) : String(htmlOrText);
+  let text = normalizeGopSourceText(htmlOrText);
   text = text.replace(/\b(?:FIRST|SECOND|THIRD|FOURTH)\s+DISTRICT\b/gi, "\n");
   const records = [];
 

@@ -1,20 +1,14 @@
 {
-  "generatedAt": "2026-06-21T17:00:18.195Z",
+  "generatedAt": "2026-06-21T17:25:25.368Z",
   "thinCounties": [
-    "Arkansas",
     "Bradley",
     "Calhoun",
     "Chicot",
-    "Cross",
     "Drew",
-    "Franklin",
     "Jackson",
     "Lafayette",
     "Lincoln",
-    "Ouachita",
     "Pike",
-    "Poinsett",
-    "Polk",
     "Woodruff"
   ],
   "thinFeedCounties": [
@@ -58,7 +52,7 @@
     "Lee",
     "Greene"
   ],
-  "eventsNeedingSource": 649,
+  "eventsNeedingSource": 798,
   "eventsNeedingSourceSlugs": [
     "20-week-execution-begins-central-metro-2026-06-15",
     "quitman-fundraiser-2026-06-16",
@@ -261,6 +255,6 @@
     "saline-county-gotv-push-2026-10-12",
     "recovery-story-backlog-early-vote-prep-2026-10-18"
   ],
-  "totalEvents": 649,
+  "totalEvents": 798,
   "totalCounties": 75
 }

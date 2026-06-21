@@ -18,6 +18,7 @@ export function AdminPoliticalInfrastructurePage() {
           <p className="text-muted text-sm mt-1">Neutral county party committees — not ideology, not persuasion.</p>
         </div>
         <Link to="/admin" className="btn-ghost text-sm">← Admin</Link>
+        <Link to="/democratic-county-parties" className="btn-secondary text-sm">Public Dem county directory</Link>
       </div>
 
       <section className="card-readable grid gap-3 sm:grid-cols-2 lg:grid-cols-4 mb-8 text-sm">

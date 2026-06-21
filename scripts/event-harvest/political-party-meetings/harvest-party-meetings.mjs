@@ -6,7 +6,9 @@ import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { parseGopCountyPageText } from "./parse-gop-county-page.mjs";
-import { parseDemCountyPageText, demCountyToRecord } from "./parse-dem-county-page.mjs";
+import { parseDemCountyPageText, demCountyToRecord, cleanMeetingInfo } from "./parse-dem-county-page.mjs";
+import { parseDemCountiesIndex } from "./parse-dem-counties-index.mjs";
+import { fetchTextWithFallback, fetchDemCountyCptList, matchCountyName } from "./fetch-dem-public.mjs";
 import { parseLibertarianEventsPage } from "./parse-libertarian-events.mjs";
 import { normalizeAll } from "./normalize-party-meeting-candidate.mjs";
 import { parseRecurrenceRule } from "./parse-recurring-meetings.mjs";
@@ -19,23 +21,14 @@ const STAGED_OUT = path.join(ROOT, "data/ingestion/political-party-meetings-stag
 const SUMMARY_OUT = path.join(ROOT, "data/ingestion/political-party-meetings-summary.json");
 const GOP_URL = "https://www.arkansasgop.org/countygop.html";
 const LPAR_URL = "https://www.lpar.org/events/";
-const D_FETCH_LIMIT = Number(process.env.DEM_COUNTY_FETCH_LIMIT ?? 0);
-const D_FETCH_DELAY_MS = Number(process.env.DEM_COUNTY_FETCH_DELAY_MS ?? 400);
-const FORCE_DEM_FETCH = process.env.FORCE_DEM_FETCH === "1";
+const D_FETCH_LIMIT = Number(process.env.DEM_COUNTY_FETCH_LIMIT ?? 75);
+const D_FETCH_DELAY_MS = Number(process.env.DEM_COUNTY_FETCH_DELAY_MS ?? 350);
+const SKIP_DEM_FETCH = process.env.SKIP_DEM_FETCH === "1";
+const DEM_COUNTIES_INDEX = "https://www.arkdems.org/counties/";
 
 async function fetchText(url, timeoutMs = 15000) {
-  const controller = new AbortController();
-  const timer = setTimeout(() => controller.abort(), timeoutMs);
-  try {
-    const res = await fetch(url, {
-      signal: controller.signal,
-      headers: { "User-Agent": "ArkansasEverywhere-CivicBot/1.0 (+https://arkansaseverywhere.org)" },
-    });
-    if (!res.ok) throw new Error(`HTTP ${res.status}`);
-    return await res.text();
-  } finally {
-    clearTimeout(timer);
-  }
+  const { text } = await fetchTextWithFallback(url, timeoutMs);
+  return text;
 }
 
 function countySlug(county) {
@@ -50,56 +43,74 @@ function sleep(ms) {
   return new Promise((r) => setTimeout(r, ms));
 }
 
-function buildDemocraticCountyPages(counties, existingByCounty) {
-  return counties.map((county) => {
+
+async function harvestDemocraticCounties(counties, existingPages, indexEntries = []) {
+  const existingByCounty = new Map(existingPages.map((p) => [p.county, p]));
+  const indexByCounty = new Map(indexEntries.map((e) => [e.county, e]));
+  const records = [];
+  const pages = [];
+  let fetched = 0;
+
+  for (const county of counties) {
     const prev = existingByCounty.get(county);
-    return {
+    const indexEntry = indexByCounty.get(county);
+    const url = indexEntry?.url ?? demCountyUrl(county);
+    const page = {
       county,
-      url: demCountyUrl(county),
-      meeting_info: prev?.meeting_info ?? null,
+      url,
+      meeting_info: cleanMeetingInfo(prev?.meeting_info ?? null),
       chair: prev?.chair ?? null,
+      election_commissioner: prev?.election_commissioner ?? null,
+      venue: prev?.venue ?? null,
+      city: prev?.city ?? null,
       fetch_blocked: prev?.fetch_blocked ?? false,
       last_fetched: prev?.last_fetched ?? null,
     };
-  });
-}
+    pages.push(page);
 
-async function harvestDemocraticCounties(counties, existingPages) {
-  const existingByCounty = new Map(existingPages.map((p) => [p.county, p]));
-  const records = [];
-  const pages = buildDemocraticCountyPages(counties, existingByCounty);
-  let fetched = 0;
-
-  for (const page of pages) {
-    const prev = existingByCounty.get(page.county);
-    if (prev?.meeting_info && !FORCE_DEM_FETCH) {
-      records.push(demCountyToRecord({ ...prev, url: page.url, fetch_blocked: false }));
-      continue;
-    }
-
-    const shouldFetch = FORCE_DEM_FETCH || (D_FETCH_LIMIT > 0 && fetched < D_FETCH_LIMIT);
+    const shouldFetch = !SKIP_DEM_FETCH && (D_FETCH_LIMIT <= 0 || fetched < D_FETCH_LIMIT);
     if (!shouldFetch) {
       records.push(
         demCountyToRecord({
           county: page.county,
           url: page.url,
           meeting_info: page.meeting_info,
-          fetch_blocked: !page.meeting_info,
           chair: page.chair,
-          raw_excerpt: page.meeting_info || "County page URL template — live fetch skipped (Cloudflare). Run FORCE_DEM_FETCH=1 to retry.",
+          election_commissioner: page.election_commissioner,
+          venue: page.venue,
+          city: page.city,
+          fetch_blocked: !page.meeting_info,
+          raw_excerpt: page.meeting_info || "County page URL known — live fetch skipped (set SKIP_DEM_FETCH=0).",
         }),
       );
       continue;
     }
 
     try {
-      const html = await fetchText(page.url);
+      const { text: html, via } = await fetchTextWithFallback(page.url);
       const parsed = parseDemCountyPageText(html, page.county, page.url);
       parsed.last_fetched = new Date().toISOString();
+      parsed.fetch_via = via;
       page.meeting_info = parsed.meeting_info ?? page.meeting_info;
       page.chair = parsed.chair ?? page.chair;
+      page.election_commissioner = parsed.election_commissioner ?? page.election_commissioner;
+      page.venue = parsed.venue ?? page.venue;
+      page.city = parsed.city ?? page.city;
       page.fetch_blocked = parsed.fetch_blocked;
-      records.push(demCountyToRecord(parsed));
+      page.last_fetched = parsed.last_fetched;
+      records.push(
+        demCountyToRecord({
+          county: page.county,
+          url: page.url,
+          meeting_info: page.meeting_info,
+          chair: page.chair,
+          election_commissioner: page.election_commissioner,
+          venue: page.venue,
+          city: page.city,
+          fetch_blocked: page.fetch_blocked,
+          raw_excerpt: parsed.raw_excerpt,
+        }),
+      );
       fetched++;
     } catch (e) {
       page.fetch_blocked = true;
@@ -108,8 +119,11 @@ async function harvestDemocraticCounties(counties, existingPages) {
           county: page.county,
           url: page.url,
           meeting_info: page.meeting_info,
-          fetch_blocked: true,
           chair: page.chair,
+          election_commissioner: page.election_commissioner,
+          venue: page.venue,
+          city: page.city,
+          fetch_blocked: true,
           raw_excerpt: `Fetch failed: ${e.message}`,
         }),
       );
@@ -148,9 +162,41 @@ async function main() {
 
   if (gopText) rawRecords.push(...parseGopCountyPageText(gopText));
 
+  let demIndexEntries = [];
+  try {
+    const cptList = await fetchDemCountyCptList();
+    demIndexEntries = cptList
+      .map((row) => {
+        const county = matchCountyName(row.county, counties) || row.county;
+        return county ? { county, slug: row.slug, url: row.url } : null;
+      })
+      .filter(Boolean);
+    console.log(`[harvest:party-meetings] ArkDems WP county CPT: ${demIndexEntries.length} counties`);
+  } catch (e) {
+    console.warn("[harvest:party-meetings] Dem WP county list failed:", e.message);
+  }
+  if (!demIndexEntries.length) {
+    demIndexEntries = counties.map((county) => ({
+      county,
+      slug: countySlug(county),
+      url: demCountyUrl(county),
+    }));
+    console.log(`[harvest:party-meetings] Dem county URLs from AR county list: ${demIndexEntries.length}`);
+  }
+  if (!demIndexEntries.length) {
+    try {
+      const indexHtml = await fetchText(DEM_COUNTIES_INDEX);
+      demIndexEntries = parseDemCountiesIndex(indexHtml, counties);
+      console.log(`[harvest:party-meetings] ArkDems counties index: ${demIndexEntries.length} links`);
+    } catch (e2) {
+      console.warn("[harvest:party-meetings] Dem counties index fetch failed:", e2.message);
+    }
+  }
+
   const { records: demRecords, pages: demPages } = await harvestDemocraticCounties(
     counties,
     registry.democratic_county_pages ?? [],
+    demIndexEntries,
   );
   rawRecords.push(...demRecords);
 

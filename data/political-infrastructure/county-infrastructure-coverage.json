@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T07:06:54.816Z",
+  "generatedAt": "2026-06-21T17:25:21.937Z",
   "pass": "25",
   "counties": [
     {
@@ -91,11 +91,11 @@
         {
           "key": "republican_committee",
           "label": "Republican committee",
-          "found": true,
-          "status": "meeting_schedule_public",
-          "confidence": 70,
+          "found": false,
+          "status": "not_found",
+          "confidence": 0,
           "sourceUrl": "https://www.arkansasgop.org/countygop.html",
-          "meetingSchedule": "AWAITING COMMITTEE",
+          "meetingSchedule": null,
           "organizationSlug": "ashley-county-republicans"
         },
         {
@@ -141,9 +141,9 @@
           "sourceUrl": null
         }
       ],
-      "politicalInfrastructureFound": 2,
+      "politicalInfrastructureFound": 1,
       "politicalInfrastructureTotal": 3,
-      "coveragePercent": 67,
+      "coveragePercent": 33,
       "fullInfrastructureNote": "School board, quorum court, election commission, city council — Pass 26+"
     },
     {
@@ -154,10 +154,10 @@
           "key": "democratic_committee",
           "label": "Democratic committee",
           "found": true,
-          "status": "page_discovered",
-          "confidence": 20,
+          "status": "meeting_schedule_public",
+          "confidence": 70,
           "sourceUrl": "https://www.arkdems.org/county/baxter/",
-          "meetingSchedule": null,
+          "meetingSchedule": "Monthly 1st Saturday at 10:00 AM at the Baxter County Library",
           "organizationSlug": "baxter-county-democrats"
         },
         {
@@ -226,7 +226,7 @@
           "key": "democratic_committee",
           "label": "Democratic committee",
           "found": true,
-          "status": "page_discovered",
+          "status": "partial",
           "confidence": 20,
           "sourceUrl": "https://www.arkdems.org/county/benton/",
           "meetingSchedule": null,
@@ -298,20 +298,20 @@
           "key": "democratic_committee",
           "label": "Democratic committee",
           "found": true,
-          "status": "page_discovered",
-          "confidence": 20,
+          "status": "meeting_schedule_public",
+          "confidence": 70,
           "sourceUrl": "https://www.arkdems.org/county/boone/",
-          "meetingSchedule": null,
+          "meetingSchedule": "Monthly 3rd Tuesday",
           "organizationSlug": "boone-county-democrats"
         },
         {
           "key": "republican_committee",
           "label": "Republican committee",
-          "found": true,
-          "status": "meeting_schedule_public",
-          "confidence": 70,
+          "found": false,
+          "status": "not_found",
+          "confidence": 0,
           "sourceUrl": "https://www.arkansasgop.org/countygop.html",
-          "meetingSchedule": "4th Monday",
+          "meetingSchedule": null,
           "organizationSlug": "boone-county-republicans"
         },
         {
@@ -357,9 +357,9 @@
           "sourceUrl": null
         }
       ],
-      "politicalInfrastructureFound": 2,
+      "politicalInfrastructureFound": 1,
       "politicalInfrastructureTotal": 3,
-      "coveragePercent": 67,
+      "coveragePercent": 33,
       "fullInfrastructureNote": "School board, quorum court, election commission, city council — Pass 26+"
     },
     {
@@ -451,11 +451,11 @@
         {
           "key": "republican_committee",
           "label": "Republican committee",
-          "found": false,
-          "status": "not_found",
-          "confidence": 0,
+          "found": true,
+          "status": "partial",
+          "confidence": 25,
           "sourceUrl": "https://www.arkansasgop.org/countygop.html",
-          "meetingSchedule": null,
+          "meetingSchedule": "Awaiting committee confirmation",
           "organizationSlug": "calhoun-county-republicans"
         },
         {
@@ -501,9 +501,9 @@
           "sourceUrl": null
         }
       ],
-      "politicalInfrastructureFound": 1,
+      "politicalInfrastructureFound": 2,
       "politicalInfrastructureTotal": 3,
-      "coveragePercent": 33,
+      "coveragePercent": 67,
       "fullInfrastructureNote": "School board, quorum court, election commission, city council — Pass 26+"
     },
     {
@@ -514,10 +514,10 @@
           "key": "democratic_committee",
           "label": "Democratic committee",
           "found": true,
-          "status": "page_discovered",
-          "confidence": 20,
+          "status": "meeting_schedule_public",
+          "confidence": 70,
           "sourceUrl": "https://www.arkdems.org/county/carroll/",
-          "meetingSchedule": null,
+          "meetingSchedule": "Monthly 2nd Tuesday at 6:00 PM at ECHO Clinic Community Room in Eureka Springs",
           "organizationSlug": "carroll-county-democrats"
         },
         {
@@ -595,11 +595,11 @@
         {
           "key": "republican_committee",
           "label": "Republican committee",
-          "found": true,
-          "status": "partial",
-          "confidence": 25,
+          "found": false,
+          "status": "not_found",
+          "confidence": 0,
           "sourceUrl": "https://www.arkansasgop.org/countygop.html",
-          "meetingSchedule": "Awaiting committee confirmation",
+          "meetingSchedule": null,
           "organizationSlug": "chicot-county-republicans"
         },
         {
@@ -645,9 +645,9 @@
           "sourceUrl": null
         }
       ],
-      "politicalInfrastructureFound": 2,
+      "politicalInfrastructureFound": 1,
       "politicalInfrastructureTotal": 3,
-      "coveragePercent": 67,
+      "coveragePercent": 33,
       "fullInfrastructureNote": "School board, quorum court, election commission, city council — Pass 26+"
     },
     {
@@ -658,20 +658,20 @@
           "key": "democratic_committee",
           "label": "Democratic committee",
           "found": true,
-          "status": "page_discovered",
-          "confidence": 20,
+          "status": "meeting_schedule_public",
+          "confidence": 70,
           "sourceUrl": "https://www.arkdems.org/county/clark/",
-          "meetingSchedule": null,
+          "meetingSchedule": "Monthly 3rd Tuesday",
           "organizationSlug": "clark-county-democrats"
         },
         {
           "key": "republican_committee",
           "label": "Republican committee",
-          "found": false,
-          "status": "not_found",
-          "confidence": 0,
+          "found": true,
+          "status": "meeting_schedule_public",
+          "confidence": 70,
           "sourceUrl": "https://www.arkansasgop.org/countygop.html",
-          "meetingSchedule": null,
+          "meetingSchedule": "3rd Monday",
           "organizationSlug": "clark-county-republicans"
         },
         {
@@ -717,9 +717,9 @@
           "sourceUrl": null
         }
       ],
-      "politicalInfrastructureFound": 1,
+      "politicalInfrastructureFound": 2,
       "politicalInfrastructureTotal": 3,
-      "coveragePercent": 33,
+      "coveragePercent": 67,
       "fullInfrastructureNote": "School board, quorum court, election commission, city council — Pass 26+"
     },
     {
@@ -730,7 +730,7 @@
           "key": "democratic_committee",
           "label": "Democratic committee",
           "found": true,
-          "status": "page_discovered",
+          "status": "partial",
           "confidence": 20,
           "sourceUrl": "https://www.arkdems.org/county/clay/",
           "meetingSchedule": null,
@@ -739,11 +739,11 @@
         {
           "key": "republican_committee",
           "label": "Republican committee",
-          "found": true,
-          "status": "meeting_schedule_public",
-          "confidence": 70,
+          "found": false,
+          "status": "not_found",
+          "confidence": 0,
           "sourceUrl": "https://www.arkansasgop.org/countygop.html",
-          "meetingSchedule": "2nd Thursday",
+          "meetingSchedule": null,
           "organizationSlug": "clay-county-republicans"
         },
         {
@@ -789,9 +789,9 @@
           "sourceUrl": null
         }
       ],
-      "politicalInfrastructureFound": 2,
+      "politicalInfrastructureFound": 1,
       "politicalInfrastructureTotal": 3,
-      "coveragePercent": 67,
+      "coveragePercent": 33,
       "fullInfrastructureNote": "School board, quorum court, election commission, city council — Pass 26+"
     },
     {
@@ -811,11 +811,11 @@
         {
           "key": "republican_committee",
           "label": "Republican committee",
-          "found": true,
-          "status": "meeting_schedule_public",
-          "confidence": 70,
+          "found": false,
+          "status": "not_found",
+          "confidence": 0,
           "sourceUrl": "https://www.arkansasgop.org/countygop.html",
-          "meetingSchedule": "1st Tuesday",
+          "meetingSchedule": null,
           "organizationSlug": "cleburne-county-republicans"
         },
         {
@@ -861,9 +861,9 @@
           "sourceUrl": null
         }
       ],
-      "politicalInfrastructureFound": 2,
+      "politicalInfrastructureFound": 1,
       "politicalInfrastructureTotal": 3,
-      "coveragePercent": 67,
+      "coveragePercent": 33,
       "fullInfrastructureNote": "School board, quorum court, election commission, city council — Pass 26+"
     },
     {
@@ -1018,10 +1018,10 @@
           "key": "democratic_committee",
           "label": "Democratic committee",
           "found": true,
-          "status": "page_discovered",
-          "confidence": 20,
+          "status": "meeting_schedule_public",
+          "confidence": 70,
           "sourceUrl": "https://www.arkdems.org/county/conway/",
-          "meetingSchedule": null,
+          "meetingSchedule": "Monthly 1st Monday at 6:30 PM at Morrilton City Hall",
           "organizationSlug": "conway-county-democrats"
         },
         {
@@ -1090,7 +1090,7 @@
           "key": "democratic_committee",
           "label": "Democratic committee",
           "found": true,
-          "status": "page_discovered",
+          "status": "partial",
           "confidence": 20,
           "sourceUrl": "https://www.arkdems.org/county/craighead/",
           "meetingSchedule": null,
@@ -1099,11 +1099,11 @@
         {
           "key": "republican_committee",
           "label": "Republican committee",
-          "found": false,
-          "status": "not_found",
-          "confidence": 0,
+          "found": true,
+          "status": "meeting_schedule_public",
+          "confidence": 70,
           "sourceUrl": "https://www.arkansasgop.org/countygop.html",
-          "meetingSchedule": null,
+          "meetingSchedule": "4th Tuesday",
           "organizationSlug": "craighead-county-republicans"
         },
         {
@@ -1149,9 +1149,9 @@
           "sourceUrl": null
         }
       ],
-      "politicalInfrastructureFound": 1,
+      "politicalInfrastructureFound": 2,
       "politicalInfrastructureTotal": 3,
-      "coveragePercent": 33,
+      "coveragePercent": 67,
       "fullInfrastructureNote": "School board, quorum court, election commission, city council — Pass 26+"
     },
     {
@@ -1162,10 +1162,10 @@
           "key": "democratic_committee",
           "label": "Democratic committee",
           "found": true,
-          "status": "page_discovered",
-          "confidence": 20,
+          "status": "meeting_schedule_public",
+          "confidence": 70,
           "sourceUrl": "https://www.arkdems.org/county/crawford/",
-          "meetingSchedule": null,
+          "meetingSchedule": "Monthly 2nd Thursday at 6:30 PM at Van Buren Senior Center Senior",
           "organizationSlug": "crawford-county-democrats"
         },
         {
@@ -1234,7 +1234,7 @@
           "key": "democratic_committee",
           "label": "Democratic committee",
           "found": true,
-          "status": "page_discovered",
+          "status": "partial",
           "confidence": 20,
           "sourceUrl": "https://www.arkdems.org/county/crittenden/",
           "meetingSchedule": null,
@@ -1306,7 +1306,7 @@
           "key": "democratic_committee",
           "label": "Democratic committee",
           "found": true,
-          "status": "page_discovered",
+          "status": "partial",
           "confidence": 20,
           "sourceUrl": "https://www.arkdems.org/county/cross/",
           "meetingSchedule": null,
@@ -1315,11 +1315,11 @@
         {
           "key": "republican_committee",
           "label": "Republican committee",
-          "found": false,
-          "status": "not_found",
-          "confidence": 0,
+          "found": true,
+          "status": "meeting_schedule_public",
+          "confidence": 70,
           "sourceUrl": "https://www.arkansasgop.org/countygop.html",
-          "meetingSchedule": null,
+          "meetingSchedule": "2nd Thursday",
           "organizationSlug": "cross-county-republicans"
         },
         {
@@ -1365,9 +1365,9 @@
           "sourceUrl": null
         }
       ],
-      "politicalInfrastructureFound": 1,
+      "politicalInfrastructureFound": 2,
       "politicalInfrastructureTotal": 3,
-      "coveragePercent": 33,
+      "coveragePercent": 67,
       "fullInfrastructureNote": "School board, quorum court, election commission, city council — Pass 26+"
     },
     {
@@ -1522,7 +1522,7 @@
           "key": "democratic_committee",
           "label": "Democratic committee",
           "found": true,
-          "status": "page_discovered",
+          "status": "partial",
           "confidence": 20,
           "sourceUrl": "https://www.arkdems.org/county/drew/",
           "meetingSchedule": null,
@@ -1532,10 +1532,10 @@
           "key": "republican_committee",
           "label": "Republican committee",
           "found": true,
-          "status": "meeting_schedule_public",
-          "confidence": 70,
+          "status": "partial",
+          "confidence": 25,
           "sourceUrl": "https://www.arkansasgop.org/countygop.html",
-          "meetingSchedule": "AWAITING COMMITTEE",
+          "meetingSchedule": "Awaiting committee confirmation",
           "organizationSlug": "drew-county-republicans"
         },
         {
@@ -1666,7 +1666,7 @@
           "key": "democratic_committee",
           "label": "Democratic committee",
           "found": true,
-          "status": "page_discovered",
+          "status": "partial",
           "confidence": 20,
           "sourceUrl": "https://www.arkdems.org/county/franklin/",
           "meetingSchedule": null,
@@ -1675,11 +1675,11 @@
         {
           "key": "republican_committee",
           "label": "Republican committee",
-          "found": false,
-          "status": "not_found",
-          "confidence": 0,
+          "found": true,
+          "status": "meeting_schedule_public",
+          "confidence": 70,
           "sourceUrl": "https://www.arkansasgop.org/countygop.html",
-          "meetingSchedule": null,
+          "meetingSchedule": "Last Monday",
           "organizationSlug": "franklin-county-republicans"
         },
         {
@@ -1725,9 +1725,9 @@
           "sourceUrl": null
         }
       ],
-      "politicalInfrastructureFound": 1,
+      "politicalInfrastructureFound": 2,
       "politicalInfrastructureTotal": 3,
-      "coveragePercent": 33,
+      "coveragePercent": 67,
       "fullInfrastructureNote": "School board, quorum court, election commission, city council — Pass 26+"
     },
     {
@@ -1738,10 +1738,10 @@
           "key": "democratic_committee",
           "label": "Democratic committee",
           "found": true,
-          "status": "page_discovered",
-          "confidence": 20,
+          "status": "meeting_schedule_public",
+          "confidence": 70,
           "sourceUrl": "https://www.arkdems.org/county/fulton/",
-          "meetingSchedule": null,
+          "meetingSchedule": "Monthly 2nd Saturday mornings at Fulton County Fairgrounds. 9:30am breakfast, 10:00am meeting",
           "organizationSlug": "fulton-county-democrats"
         },
         {
@@ -1810,7 +1810,7 @@
           "key": "democratic_committee",
           "label": "Democratic committee",
           "found": true,
-          "status": "page_discovered",
+          "status": "partial",
           "confidence": 20,
           "sourceUrl": "https://www.arkdems.org/county/garland/",
           "meetingSchedule": null,
@@ -1882,7 +1882,7 @@
           "key": "democratic_committee",
           "label": "Democratic committee",
           "found": true,
-          "status": "page_discovered",
+          "status": "partial",
           "confidence": 20,
           "sourceUrl": "https://www.arkdems.org/county/grant/",
           "meetingSchedule": null,
@@ -1954,10 +1954,10 @@
           "key": "democratic_committee",
           "label": "Democratic committee",
           "found": true,
-          "status": "page_discovered",
-          "confidence": 20,
+          "status": "meeting_schedule_public",
+          "confidence": 70,
           "sourceUrl": "https://www.arkdems.org/county/greene/",
-          "meetingSchedule": null,
+          "meetingSchedule": "Monthly 2nd Monday at 6:00 PM at Greene Co. Public Library",
           "organizationSlug": "greene-county-democrats"
         },
         {
@@ -2026,10 +2026,10 @@
           "key": "democratic_committee",
           "label": "Democratic committee",
           "found": true,
-          "status": "page_discovered",
-          "confidence": 20,
+          "status": "meeting_schedule_public",
+          "confidence": 70,
           "sourceUrl": "https://www.arkdems.org/county/hempstead/",
-          "meetingSchedule": null,
+          "meetingSchedule": "Monthly last Monday at 6:00 PM at Hempstead County Library",
           "organizationSlug": "hempstead-county-democrats"
         },
         {
@@ -2098,7 +2098,7 @@
           "key": "democratic_committee",
           "label": "Democratic committee",
           "found": true,
-          "status": "page_discovered",
+          "status": "partial",
           "confidence": 20,
           "sourceUrl": "https://www.arkdems.org/county/hot-spring/",
           "meetingSchedule": null,
@@ -2170,7 +2170,7 @@
           "key": "democratic_committee",
           "label": "Democratic committee",
           "found": true,
-          "status": "page_discovered",
+          "status": "partial",
           "confidence": 20,
           "sourceUrl": "https://www.arkdems.org/county/howard/",
           "meetingSchedule": null,
@@ -2242,10 +2242,10 @@
           "key": "democratic_committee",
           "label": "Democratic committee",
           "found": true,
-          "status": "page_discovered",
-          "confidence": 20,
+          "status": "meeting_schedule_public",
+          "confidence": 70,
           "sourceUrl": "https://www.arkdems.org/county/independence/",
-          "meetingSchedule": null,
+          "meetingSchedule": "Monthly 4th Tuesday at US Pizza Batesville",
           "organizationSlug": "independence-county-democrats"
         },
         {
@@ -2314,10 +2314,10 @@
           "key": "democratic_committee",
           "label": "Democratic committee",
           "found": true,
-          "status": "page_discovered",
-          "confidence": 20,
+          "status": "meeting_schedule_public",
+          "confidence": 70,
           "sourceUrl": "https://www.arkdems.org/county/izard/",
-          "meetingSchedule": null,
+          "meetingSchedule": "Quarterly 3rd Tuesday",
           "organizationSlug": "izard-county-democrats"
         },
         {
@@ -2386,7 +2386,7 @@
           "key": "democratic_committee",
           "label": "Democratic committee",
           "found": true,
-          "status": "page_discovered",
+          "status": "partial",
           "confidence": 20,
           "sourceUrl": "https://www.arkdems.org/county/jackson/",
           "meetingSchedule": null,
@@ -2396,10 +2396,10 @@
           "key": "republican_committee",
           "label": "Republican committee",
           "found": true,
-          "status": "meeting_schedule_public",
-          "confidence": 70,
+          "status": "partial",
+          "confidence": 25,
           "sourceUrl": "https://www.arkansasgop.org/countygop.html",
-          "meetingSchedule": "AWAITING COMMITTEE",
+          "meetingSchedule": "Awaiting committee confirmation",
           "organizationSlug": "jackson-county-republicans"
         },
         {
@@ -2530,7 +2530,7 @@
           "key": "democratic_committee",
           "label": "Democratic committee",
           "found": true,
-          "status": "page_discovered",
+          "status": "partial",
           "confidence": 20,
           "sourceUrl": "https://www.arkdems.org/county/johnson/",
           "meetingSchedule": null,
@@ -2674,7 +2674,7 @@
           "key": "democratic_committee",
           "label": "Democratic committee",
           "found": true,
-          "status": "page_discovered",
+          "status": "partial",
           "confidence": 20,
           "sourceUrl": "https://www.arkdems.org/county/lawrence/",
           "meetingSchedule": null,
@@ -2683,11 +2683,11 @@
         {
           "key": "republican_committee",
           "label": "Republican committee",
-          "found": false,
-          "status": "not_found",
-          "confidence": 0,
+          "found": true,
+          "status": "meeting_schedule_public",
+          "confidence": 70,
           "sourceUrl": "https://www.arkansasgop.org/countygop.html",
-          "meetingSchedule": null,
+          "meetingSchedule": "3rd Tuesday",
           "organizationSlug": "lawrence-county-republicans"
         },
         {
@@ -2733,9 +2733,9 @@
           "sourceUrl": null
         }
       ],
-      "politicalInfrastructureFound": 1,
+      "politicalInfrastructureFound": 2,
       "politicalInfrastructureTotal": 3,
-      "coveragePercent": 33,
+      "coveragePercent": 67,
       "fullInfrastructureNote": "School board, quorum court, election commission, city council — Pass 26+"
     },
     {
@@ -2756,10 +2756,10 @@
           "key": "republican_committee",
           "label": "Republican committee",
           "found": true,
-          "status": "meeting_schedule_public",
-          "confidence": 70,
+          "status": "partial",
+          "confidence": 25,
           "sourceUrl": "https://www.arkansasgop.org/countygop.html",
-          "meetingSchedule": "2nd Tuesday",
+          "meetingSchedule": "Awaiting committee confirmation",
           "organizationSlug": "lee-county-republicans"
         },
         {
@@ -2818,7 +2818,7 @@
           "key": "democratic_committee",
           "label": "Democratic committee",
           "found": true,
-          "status": "page_discovered",
+          "status": "partial",
           "confidence": 20,
           "sourceUrl": "https://www.arkdems.org/county/lincoln/",
           "meetingSchedule": null,
@@ -2827,11 +2827,11 @@
         {
           "key": "republican_committee",
           "label": "Republican committee",
-          "found": true,
-          "status": "meeting_schedule_public",
-          "confidence": 70,
+          "found": false,
+          "status": "not_found",
+          "confidence": 0,
           "sourceUrl": "https://www.arkansasgop.org/countygop.html",
-          "meetingSchedule": "AWAITING COMMITTEE",
+          "meetingSchedule": null,
           "organizationSlug": "lincoln-county-republicans"
         },
         {
@@ -2877,9 +2877,9 @@
           "sourceUrl": null
         }
       ],
-      "politicalInfrastructureFound": 2,
+      "politicalInfrastructureFound": 1,
       "politicalInfrastructureTotal": 3,
-      "coveragePercent": 67,
+      "coveragePercent": 33,
       "fullInfrastructureNote": "School board, quorum court, election commission, city council — Pass 26+"
     },
     {
@@ -2890,7 +2890,7 @@
           "key": "democratic_committee",
           "label": "Democratic committee",
           "found": true,
-          "status": "page_discovered",
+          "status": "partial",
           "confidence": 20,
           "sourceUrl": "https://www.arkdems.org/county/little-river/",
           "meetingSchedule": null,
@@ -2962,10 +2962,10 @@
           "key": "democratic_committee",
           "label": "Democratic committee",
           "found": true,
-          "status": "page_discovered",
-          "confidence": 20,
+          "status": "meeting_schedule_public",
+          "confidence": 70,
           "sourceUrl": "https://www.arkdems.org/county/logan/",
-          "meetingSchedule": null,
+          "meetingSchedule": "Monthly 3rd Tuesday at 5:30 PM",
           "organizationSlug": "logan-county-democrats"
         },
         {
@@ -3034,20 +3034,20 @@
           "key": "democratic_committee",
           "label": "Democratic committee",
           "found": true,
-          "status": "page_discovered",
-          "confidence": 20,
+          "status": "meeting_schedule_public",
+          "confidence": 70,
           "sourceUrl": "https://www.arkdems.org/county/lonoke/",
-          "meetingSchedule": null,
+          "meetingSchedule": "Monthly 4th Thursday at 6:30 PM at Cabot Public Library",
           "organizationSlug": "lonoke-county-democrats"
         },
         {
           "key": "republican_committee",
           "label": "Republican committee",
-          "found": false,
-          "status": "not_found",
-          "confidence": 0,
+          "found": true,
+          "status": "meeting_schedule_public",
+          "confidence": 70,
           "sourceUrl": "https://www.arkansasgop.org/countygop.html",
-          "meetingSchedule": null,
+          "meetingSchedule": "4th Monday",
           "organizationSlug": "lonoke-county-republicans"
         },
         {
@@ -3093,9 +3093,9 @@
           "sourceUrl": null
         }
       ],
-      "politicalInfrastructureFound": 1,
+      "politicalInfrastructureFound": 2,
       "politicalInfrastructureTotal": 3,
-      "coveragePercent": 33,
+      "coveragePercent": 67,
       "fullInfrastructureNote": "School board, quorum court, election commission, city council — Pass 26+"
     },
     {
@@ -3250,7 +3250,7 @@
           "key": "democratic_committee",
           "label": "Democratic committee",
           "found": true,
-          "status": "page_discovered",
+          "status": "partial",
           "confidence": 20,
           "sourceUrl": "https://www.arkdems.org/county/miller/",
           "meetingSchedule": null,
@@ -3322,7 +3322,7 @@
           "key": "democratic_committee",
           "label": "Democratic committee",
           "found": true,
-          "status": "page_discovered",
+          "status": "partial",
           "confidence": 20,
           "sourceUrl": "https://www.arkdems.org/county/mississippi/",
           "meetingSchedule": null,
@@ -3394,10 +3394,10 @@
           "key": "democratic_committee",
           "label": "Democratic committee",
           "found": true,
-          "status": "page_discovered",
-          "confidence": 20,
+          "status": "meeting_schedule_public",
+          "confidence": 70,
           "sourceUrl": "https://www.arkdems.org/county/monroe/",
-          "meetingSchedule": null,
+          "meetingSchedule": "Monthly 3rd Tuesday at 4:00 PM",
           "organizationSlug": "monroe-county-democrats"
         },
         {
@@ -3466,10 +3466,10 @@
           "key": "democratic_committee",
           "label": "Democratic committee",
           "found": true,
-          "status": "page_discovered",
-          "confidence": 20,
+          "status": "meeting_schedule_public",
+          "confidence": 70,
           "sourceUrl": "https://www.arkdems.org/county/montgomery/",
-          "meetingSchedule": null,
+          "meetingSchedule": "Monthly 3rd Wednesday at 5:30 PM at County Annex",
           "organizationSlug": "montgomery-county-democrats"
         },
         {
@@ -3538,10 +3538,10 @@
           "key": "democratic_committee",
           "label": "Democratic committee",
           "found": true,
-          "status": "page_discovered",
-          "confidence": 20,
+          "status": "meeting_schedule_public",
+          "confidence": 70,
           "sourceUrl": "https://www.arkdems.org/county/nevada/",
-          "meetingSchedule": null,
+          "meetingSchedule": "Quarterly 1st Thursday at 6:00 PM at Nevada County Library",
           "organizationSlug": "nevada-county-democrats"
         },
         {
@@ -3610,7 +3610,7 @@
           "key": "democratic_committee",
           "label": "Democratic committee",
           "found": true,
-          "status": "page_discovered",
+          "status": "partial",
           "confidence": 20,
           "sourceUrl": "https://www.arkdems.org/county/newton/",
           "meetingSchedule": null,
@@ -3620,10 +3620,10 @@
           "key": "republican_committee",
           "label": "Republican committee",
           "found": true,
-          "status": "meeting_schedule_public",
-          "confidence": 70,
+          "status": "partial",
+          "confidence": 25,
           "sourceUrl": "https://www.arkansasgop.org/countygop.html",
-          "meetingSchedule": "AWAITING COMMITTEE",
+          "meetingSchedule": "Awaiting committee confirmation",
           "organizationSlug": "newton-county-republicans"
         },
         {
@@ -3682,20 +3682,20 @@
           "key": "democratic_committee",
           "label": "Democratic committee",
           "found": true,
-          "status": "page_discovered",
-          "confidence": 20,
+          "status": "meeting_schedule_public",
+          "confidence": 70,
           "sourceUrl": "https://www.arkdems.org/county/ouachita/",
-          "meetingSchedule": null,
+          "meetingSchedule": "Monthly 2nd Wednesday at County Courthouse",
           "organizationSlug": "ouachita-county-democrats"
         },
         {
           "key": "republican_committee",
           "label": "Republican committee",
-          "found": false,
-          "status": "not_found",
-          "confidence": 0,
+          "found": true,
+          "status": "meeting_schedule_public",
+          "confidence": 70,
           "sourceUrl": "https://www.arkansasgop.org/countygop.html",
-          "meetingSchedule": null,
+          "meetingSchedule": "3rd tuesday",
           "organizationSlug": "ouachita-county-republicans"
         },
         {
@@ -3741,9 +3741,9 @@
           "sourceUrl": null
         }
       ],
-      "politicalInfrastructureFound": 1,
+      "politicalInfrastructureFound": 2,
       "politicalInfrastructureTotal": 3,
-      "coveragePercent": 33,
+      "coveragePercent": 67,
       "fullInfrastructureNote": "School board, quorum court, election commission, city council — Pass 26+"
     },
     {
@@ -3754,7 +3754,7 @@
           "key": "democratic_committee",
           "label": "Democratic committee",
           "found": true,
-          "status": "page_discovered",
+          "status": "partial",
           "confidence": 20,
           "sourceUrl": "https://www.arkdems.org/county/perry/",
           "meetingSchedule": null,
@@ -3836,10 +3836,10 @@
           "key": "republican_committee",
           "label": "Republican committee",
           "found": true,
-          "status": "meeting_schedule_public",
-          "confidence": 70,
+          "status": "partial",
+          "confidence": 25,
           "sourceUrl": "https://www.arkansasgop.org/countygop.html",
-          "meetingSchedule": "AWAITING COMMITTEE",
+          "meetingSchedule": "Awaiting committee confirmation",
           "organizationSlug": "phillips-county-republicans"
         },
         {
@@ -3898,7 +3898,7 @@
           "key": "democratic_committee",
           "label": "Democratic committee",
           "found": true,
-          "status": "page_discovered",
+          "status": "partial",
           "confidence": 20,
           "sourceUrl": "https://www.arkdems.org/county/pike/",
           "meetingSchedule": null,
@@ -3908,10 +3908,10 @@
           "key": "republican_committee",
           "label": "Republican committee",
           "found": true,
-          "status": "meeting_schedule_public",
-          "confidence": 70,
+          "status": "partial",
+          "confidence": 25,
           "sourceUrl": "https://www.arkansasgop.org/countygop.html",
-          "meetingSchedule": "AWAITING COMMITTEE",
+          "meetingSchedule": "Awaiting committee confirmation",
           "organizationSlug": "pike-county-republicans"
         },
         {
@@ -3970,7 +3970,7 @@
           "key": "democratic_committee",
           "label": "Democratic committee",
           "found": true,
-          "status": "page_discovered",
+          "status": "partial",
           "confidence": 20,
           "sourceUrl": "https://www.arkdems.org/county/poinsett/",
           "meetingSchedule": null,
@@ -3979,11 +3979,11 @@
         {
           "key": "republican_committee",
           "label": "Republican committee",
-          "found": false,
-          "status": "not_found",
-          "confidence": 0,
+          "found": true,
+          "status": "meeting_schedule_public",
+          "confidence": 70,
           "sourceUrl": "https://www.arkansasgop.org/countygop.html",
-          "meetingSchedule": null,
+          "meetingSchedule": "2nd Tuesday",
           "organizationSlug": "poinsett-county-republicans"
         },
         {
@@ -4029,9 +4029,9 @@
           "sourceUrl": null
         }
       ],
-      "politicalInfrastructureFound": 1,
+      "politicalInfrastructureFound": 2,
       "politicalInfrastructureTotal": 3,
-      "coveragePercent": 33,
+      "coveragePercent": 67,
       "fullInfrastructureNote": "School board, quorum court, election commission, city council — Pass 26+"
     },
     {
@@ -4051,11 +4051,11 @@
         {
           "key": "republican_committee",
           "label": "Republican committee",
-          "found": false,
-          "status": "not_found",
-          "confidence": 0,
+          "found": true,
+          "status": "meeting_schedule_public",
+          "confidence": 70,
           "sourceUrl": "https://www.arkansasgop.org/countygop.html",
-          "meetingSchedule": null,
+          "meetingSchedule": "3rd Monday",
           "organizationSlug": "polk-county-republicans"
         },
         {
@@ -4101,9 +4101,9 @@
           "sourceUrl": null
         }
       ],
-      "politicalInfrastructureFound": 1,
+      "politicalInfrastructureFound": 2,
       "politicalInfrastructureTotal": 3,
-      "coveragePercent": 33,
+      "coveragePercent": 67,
       "fullInfrastructureNote": "School board, quorum court, election commission, city council — Pass 26+"
     },
     {
@@ -4114,10 +4114,10 @@
           "key": "democratic_committee",
           "label": "Democratic committee",
           "found": true,
-          "status": "page_discovered",
-          "confidence": 20,
+          "status": "meeting_schedule_public",
+          "confidence": 70,
           "sourceUrl": "https://www.arkdems.org/county/pope/",
-          "meetingSchedule": null,
+          "meetingSchedule": "Monthly 2nd Monday at 7:00 PM at Courthouse",
           "organizationSlug": "pope-county-democrats"
         },
         {
@@ -4196,10 +4196,10 @@
           "key": "republican_committee",
           "label": "Republican committee",
           "found": true,
-          "status": "meeting_schedule_public",
-          "confidence": 70,
+          "status": "partial",
+          "confidence": 25,
           "sourceUrl": "https://www.arkansasgop.org/countygop.html",
-          "meetingSchedule": "AWAITING COMMITTEE",
+          "meetingSchedule": "Awaiting committee confirmation",
           "organizationSlug": "prairie-county-republicans"
         },
         {
@@ -4258,10 +4258,10 @@
           "key": "democratic_committee",
           "label": "Democratic committee",
           "found": true,
-          "status": "page_discovered",
-          "confidence": 20,
+          "status": "meeting_schedule_public",
+          "confidence": 70,
           "sourceUrl": "https://www.arkdems.org/county/pulaski/",
-          "meetingSchedule": null,
+          "meetingSchedule": "Monthly last Monday at 6:00 PM at Pulaski County Regional Building",
           "organizationSlug": "pulaski-county-democrats"
         },
         {
@@ -4330,20 +4330,20 @@
           "key": "democratic_committee",
           "label": "Democratic committee",
           "found": true,
-          "status": "page_discovered",
-          "confidence": 20,
+          "status": "meeting_schedule_public",
+          "confidence": 70,
           "sourceUrl": "https://www.arkdems.org/county/randolph/",
-          "meetingSchedule": null,
+          "meetingSchedule": "Monthly 3rd Tuesday at 5:00 PM at Clay County Electric",
           "organizationSlug": "randolph-county-democrats"
         },
         {
           "key": "republican_committee",
           "label": "Republican committee",
-          "found": false,
-          "status": "not_found",
-          "confidence": 0,
+          "found": true,
+          "status": "meeting_schedule_public",
+          "confidence": 70,
           "sourceUrl": "https://www.arkansasgop.org/countygop.html",
-          "meetingSchedule": null,
+          "meetingSchedule": "2nd Monday",
           "organizationSlug": "randolph-county-republicans"
         },
         {
@@ -4389,9 +4389,9 @@
           "sourceUrl": null
         }
       ],
-      "politicalInfrastructureFound": 1,
+      "politicalInfrastructureFound": 2,
       "politicalInfrastructureTotal": 3,
-      "coveragePercent": 33,
+      "coveragePercent": 67,
       "fullInfrastructureNote": "School board, quorum court, election commission, city council — Pass 26+"
     },
     {
@@ -4402,10 +4402,10 @@
           "key": "democratic_committee",
           "label": "Democratic committee",
           "found": true,
-          "status": "page_discovered",
-          "confidence": 20,
+          "status": "meeting_schedule_public",
+          "confidence": 70,
           "sourceUrl": "https://www.arkdems.org/county/st.-francis/",
-          "meetingSchedule": null,
+          "meetingSchedule": "Monthly 3rd Thursday at 6:00 PM at St. Francis County Circuit Courtroom",
           "organizationSlug": "st.-francis-county-democrats"
         },
         {
@@ -4618,7 +4618,7 @@
           "key": "democratic_committee",
           "label": "Democratic committee",
           "found": true,
-          "status": "page_discovered",
+          "status": "partial",
           "confidence": 20,
           "sourceUrl": "https://www.arkdems.org/county/searcy/",
           "meetingSchedule": null,
@@ -4690,7 +4690,7 @@
           "key": "democratic_committee",
           "label": "Democratic committee",
           "found": true,
-          "status": "page_discovered",
+          "status": "partial",
           "confidence": 20,
           "sourceUrl": "https://www.arkdems.org/county/sebastian/",
           "meetingSchedule": null,
@@ -4906,10 +4906,10 @@
           "key": "democratic_committee",
           "label": "Democratic committee",
           "found": true,
-          "status": "page_discovered",
-          "confidence": 20,
+          "status": "meeting_schedule_public",
+          "confidence": 70,
           "sourceUrl": "https://www.arkdems.org/county/stone/",
-          "meetingSchedule": null,
+          "meetingSchedule": "Monthly 3rd Wednesday at 6:00 PM at Stone County Library",
           "organizationSlug": "stone-county-democrats"
         },
         {
@@ -4978,7 +4978,7 @@
           "key": "democratic_committee",
           "label": "Democratic committee",
           "found": true,
-          "status": "page_discovered",
+          "status": "partial",
           "confidence": 20,
           "sourceUrl": "https://www.arkdems.org/county/union/",
           "meetingSchedule": null,
@@ -5122,10 +5122,10 @@
           "key": "democratic_committee",
           "label": "Democratic committee",
           "found": true,
-          "status": "page_discovered",
-          "confidence": 20,
+          "status": "meeting_schedule_public",
+          "confidence": 70,
           "sourceUrl": "https://www.arkdems.org/county/washington/",
-          "meetingSchedule": null,
+          "meetingSchedule": "Monthly 3rd Monday at 6:00 PM at 1102 S Thompson in Springdale",
           "organizationSlug": "washington-county-democrats"
         },
         {
@@ -5194,7 +5194,7 @@
           "key": "democratic_committee",
           "label": "Democratic committee",
           "found": true,
-          "status": "page_discovered",
+          "status": "partial",
           "confidence": 20,
           "sourceUrl": "https://www.arkdems.org/county/white/",
           "meetingSchedule": null,
@@ -5338,20 +5338,20 @@
           "key": "democratic_committee",
           "label": "Democratic committee",
           "found": true,
-          "status": "page_discovered",
-          "confidence": 20,
+          "status": "meeting_schedule_public",
+          "confidence": 70,
           "sourceUrl": "https://www.arkdems.org/county/yell/",
-          "meetingSchedule": null,
+          "meetingSchedule": "Monthly last Saturday at 2:00 PM",
           "organizationSlug": "yell-county-democrats"
         },
         {
           "key": "republican_committee",
           "label": "Republican committee",
-          "found": true,
-          "status": "meeting_schedule_public",
-          "confidence": 70,
+          "found": false,
+          "status": "not_found",
+          "confidence": 0,
           "sourceUrl": "https://www.arkansasgop.org/countygop.html",
-          "meetingSchedule": "3rd Tuesday",
+          "meetingSchedule": null,
           "organizationSlug": "yell-county-republicans"
         },
         {
@@ -5397,9 +5397,9 @@
           "sourceUrl": null
         }
       ],
-      "politicalInfrastructureFound": 2,
+      "politicalInfrastructureFound": 1,
       "politicalInfrastructureTotal": 3,
-      "coveragePercent": 67,
+      "coveragePercent": 33,
       "fullInfrastructureNote": "School board, quorum court, election commission, city council — Pass 26+"
     }
   ]

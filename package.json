@@ -41,6 +41,8 @@
     "discover:party-sources": "node scripts/run-with-h-drive-env.cjs node scripts/event-harvest/political-party-meetings/party-source-discovery.mjs",
     "build:political-infrastructure": "node scripts/run-with-h-drive-env.cjs node scripts/political-infrastructure/build-profiles.mjs",
     "party:approve-series": "node scripts/run-with-h-drive-env.cjs node scripts/political-infrastructure/approve-recurring-series.mjs",
+    "party:harvest-publish": "node scripts/run-with-h-drive-env.cjs npm run harvest:party-meetings && node scripts/run-with-h-drive-env.cjs npm run build:political-infrastructure && node scripts/run-with-h-drive-env.cjs npm run party:approve-series -- --all-verified && node scripts/run-with-h-drive-env.cjs npm run geocode:approved && node scripts/run-with-h-drive-env.cjs npm run ai:build-indexes && node scripts/run-with-h-drive-env.cjs npm run ai:research-tasks",
+    "geocode:approved": "node scripts/run-with-h-drive-env.cjs node scripts/geocode-approved-events.mjs",
     "audit:political-infrastructure": "node scripts/run-with-h-drive-env.cjs node scripts/audit-political-infrastructure.mjs",
     "candidates:discover": "node scripts/run-with-h-drive-env.cjs node scripts/candidates/discover-candidates.mjs",
     "candidates:build": "node scripts/run-with-h-drive-env.cjs node scripts/candidates/build-candidate-workspaces.mjs",

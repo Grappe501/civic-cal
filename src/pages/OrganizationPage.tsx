@@ -144,6 +144,10 @@ export function OrganizationPage() {
               <h3 className="text-xs font-bold uppercase text-muted mb-2">Meeting schedule</h3>
               <p className="text-sm">{politicalOrg.meetingSchedule ?? "Not published on official page yet."}</p>
               {politicalOrg.chairPublic && <p className="text-sm text-muted mt-2">Chair (public listing): {politicalOrg.chairPublic}</p>}
+              {politicalOrg.electionCommissioner && (
+                <p className="text-sm text-muted mt-1">Election commissioner: {politicalOrg.electionCommissioner}</p>
+              )}
+              {politicalOrg.venue && <p className="text-sm text-muted mt-1">Venue: {politicalOrg.venue}</p>}
               <p className="text-xs text-muted mt-2">Confidence: {politicalOrg.confidenceScore}% · Updated {politicalOrg.freshnessDate}</p>
             </div>
           )}
