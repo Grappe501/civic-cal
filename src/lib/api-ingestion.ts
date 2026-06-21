@@ -5,6 +5,7 @@ import stagedBundle from "../../data/ingestion/staged-event-candidates.json";
 import stagedTop200Bundle from "../../data/ingestion/staged-event-candidates-top-200.json";
 import partyStagedBundle from "../../data/ingestion/political-party-meetings-staged.json";
 import schoolStagedBundle from "../../data/ingestion/school-events-staged.json";
+import fairFestivalStagedBundle from "../../data/ingestion/fair-festival-staged.json";
 import autogrowStagedBundle from "../../data/ingestion/autogrow-staged-candidates.json";
 
 const fnBase = import.meta.env.VITE_FUNCTIONS_BASE ?? "/.netlify/functions";
@@ -53,8 +54,9 @@ function localCandidates(): IngestionCandidate[] {
   const staged = (stagedBundle as { candidates?: Record<string, unknown>[] }).candidates ?? [];
   const party = (partyStagedBundle as { candidates?: Record<string, unknown>[] }).candidates ?? [];
   const school = (schoolStagedBundle as { candidates?: Record<string, unknown>[] }).candidates ?? [];
+  const fairs = (fairFestivalStagedBundle as { candidates?: Record<string, unknown>[] }).candidates ?? [];
   const autogrow = (autogrowStagedBundle as { candidates?: Record<string, unknown>[] }).candidates ?? [];
-  const merged = [...top200, ...staged, ...party, ...school, ...autogrow].filter(
+  const merged = [...top200, ...staged, ...party, ...school, ...fairs, ...autogrow].filter(
     (c) => c.review_status !== "approved" && c.review_status !== "rejected",
   );
   if (merged.length) return merged.map(mapRawCandidate);

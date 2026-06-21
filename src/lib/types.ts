@@ -66,6 +66,8 @@ export interface CivicEvent {
   relationshipDensityScore?: number | null;
   typicalAttendanceBand?: AttendanceBand | null;
   recurringRegistryId?: string | null;
+  harvestBatch?: string | null;
+  festivalCategory?: string | null;
 }
 
 export interface EventFilters {

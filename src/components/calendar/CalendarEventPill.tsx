@@ -8,6 +8,7 @@ import { CALENDAR_TZ } from "../../lib/calendar/calendarUtils";
 import { getEventPresence } from "../../lib/campaigns/presenceLayer";
 import { getEventStudentServiceOpportunity } from "../../lib/student-service/studentServiceEngine";
 import { isDemoSeedEvent } from "../../lib/events/seedCatalog";
+import { isFairFestivalEvent } from "../../lib/events/festivalUtils";
 import { cn } from "../../lib/cn";
 
 interface Props {
@@ -38,8 +39,13 @@ export function CalendarEventPill({ event, compact, className }: Props) {
     >
       <span className="font-semibold line-clamp-2">{event.title}</span>
       {!compact && <span className="block opacity-90 mt-0.5">{time}</span>}
-      {(hasCandidate || hasVolunteer || student || isDemoSeedEvent(event)) && (
+      {(hasCandidate || hasVolunteer || student || isDemoSeedEvent(event) || isFairFestivalEvent(event)) && (
         <span className="flex flex-wrap gap-0.5 mt-1">
+          {isFairFestivalEvent(event) && (
+            <span className="inline-flex rounded bg-emerald-900 text-white px-1 text-[8px]" title="Fair or festival">
+              fest
+            </span>
+          )}
           {isDemoSeedEvent(event) && (
             <span className="badge-warning text-[8px] py-0 px-1" title="Demo seed — not verified">
               demo

@@ -1,5 +1,5 @@
 import traditionsBundle from "../../../data/ingestion/recurring-events-registry.json";
-import seedBundle from "../../../data/seed-events.json";
+import { getBundledSeedEvents } from "../events/seedCatalog";
 import studentBundle from "../../../data/student-service/seed-opportunities.json";
 import { defaultFreshness } from "../freshness/freshnessTypes";
 import { confidenceFromAge } from "../freshness/staleData";
@@ -197,6 +197,34 @@ function buildEventDerivedProfiles(events: CivicEvent[]): CommunityProfile[] {
         sourceEventSlug: e.slug,
       });
     }
+    if (
+      /festival|fair\b|rodeo|watermelon|peach|tomato|grape|crawdad|gumbo|folklife|scotsfest|toad suck|beanfest|picklefest/i.test(text) &&
+      !profiles.some((p) => p.slug === e.slug && p.entityType === "festival")
+    ) {
+      const links = e.websiteUrl || e.source ? [{ label: "Official source", url: String(e.websiteUrl || e.source) }] : [];
+      profiles.push({
+        slug: e.slug,
+        title: e.title,
+        entityType: "festival",
+        city: e.city,
+        county: e.county,
+        canonicalUrl: profileCanonicalUrl("festival", e.slug),
+        summary: e.description ?? `${e.title} — Arkansas fair or festival in ${e.city ?? e.county} County.`,
+        aiSummary: `Festival profile for ${e.title}. Dates sourced from official pages when available.`,
+        relatedLinks: mergeRelated([
+          relatedLink("event", e.slug, "Event details"),
+          ...(e.city ? [relatedLink("city", citySlugify(e.city), e.city)] : []),
+        ]),
+        freshness: defaultFreshness({
+          sourceConfidence: e.id.startsWith("fest-harvest-") ? "high" : "medium",
+          sourceCount: links.length,
+          sourceLinks: links,
+          verificationStatus: e.id.startsWith("fest-harvest-") ? "verified" : "needs_review",
+          refreshNeeded: !e.id.startsWith("fest-harvest-"),
+        }),
+        sourceEventSlug: e.slug,
+      });
+    }
   }
   return profiles;
 }
@@ -291,7 +319,7 @@ function buildVolunteerProfiles(): CommunityProfile[] {
 
 export function buildProfileRegistry(): CommunityProfile[] {
   if (cache) return cache;
-  const events = (seedBundle as { events: CivicEvent[] }).events ?? [];
+  const events = getBundledSeedEvents();
   const all = [
     ...buildOrgProfiles(),
     ...buildGeoProfiles(),

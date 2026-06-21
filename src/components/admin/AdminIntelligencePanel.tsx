@@ -91,7 +91,13 @@ export function AdminIntelligencePanel({ token }: Props) {
         list = list.filter((c) => c.intelligenceLayer === "government" || c.category === "civic_meeting");
         break;
       case "festivals_fairs":
-        list = list.filter((c) => c.intelligenceLayer === "community_identity");
+        list = list.filter(
+          (c) =>
+            c.intelligenceLayer === "community_identity" ||
+            c.discoveredBy === "fair_festival_harvest" ||
+            (c.harvestBatch || "").includes("fair_festival") ||
+            /festival|fair\b|rodeo|watermelon|peach|tomato|grape|crawdad|gumbo|folklife|scotsfest|toad suck/i.test(c.title),
+        );
         break;
       case "school_sports":
         list = list.filter((c) => c.intelligenceLayer === "school_ecosystem");
@@ -227,7 +233,7 @@ export function AdminIntelligencePanel({ token }: Props) {
             <option value="high_rd">High RD (80+)</option>
             <option value="church_community">Church / community</option>
             <option value="gov_meetings">Government meetings</option>
-            <option value="festivals_fairs">Festivals / fairs</option>
+            <option value="festivals_fairs">Fairs &amp; Festivals</option>
             <option value="school_sports">School / sports</option>
             <option value="needs_source">Needs source verification</option>
             <option value="possible_dup">Possible duplicate</option>
