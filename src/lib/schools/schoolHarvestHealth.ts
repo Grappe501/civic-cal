@@ -9,45 +9,39 @@ export type SchoolHarvestFunnel = {
   highSchoolsAthleticsUrl: number;
   collegesCalendarUrl: number;
   collegesAthleticsUrl: number;
-  stagedSchoolEvents: number;
-  stagedPendingReview: number;
+  projectionTargets?: number;
+  datedParsedEvents?: number;
+  datedPendingReview?: number;
+  stagedSchoolEvents?: number;
+  stagedPendingReview?: number;
   approvedPublicEvents: number;
+  pass28TargetMet?: boolean;
 };
 
 export type SchoolHarvestHealth = {
   funnel: SchoolHarvestFunnel;
   lanes: Record<string, number>;
+  platformCounts?: Record<string, number>;
   targetLanes: string[];
 };
 
 export function runSchoolHarvestHealth(): SchoolHarvestHealth {
   const health = healthBundle as SchoolHarvestHealth;
-  const staged = (stagedBundle as { candidates?: { review_status?: string }[] }).candidates ?? [];
+  const staged = stagedBundle as {
+    candidates?: { review_status?: string; event_date?: string }[];
+    dated_events?: { review_status?: string }[];
+  };
   const approved = (approvedBundle as { events?: unknown[] }).events ?? [];
-
-  if (!health.funnel) {
-    return {
-      funnel: {
-        highSchoolsDiscovered: 328,
-        collegesDiscovered: 18,
-        highSchoolsCalendarUrl: 0,
-        highSchoolsAthleticsUrl: 0,
-        collegesCalendarUrl: 0,
-        collegesAthleticsUrl: 0,
-        stagedSchoolEvents: staged.length,
-        stagedPendingReview: staged.filter((c) => c.review_status !== "approved" && c.review_status !== "rejected").length,
-        approvedPublicEvents: approved.length,
-      },
-      lanes: {},
-      targetLanes: [],
-    };
-  }
+  const dated = staged.dated_events ?? staged.candidates?.filter((c) => c.event_date) ?? [];
 
   return {
     ...health,
     funnel: {
       ...health.funnel,
-      stagedSchoolEvents: health.funnel.stagedSchoolEvents || staged.length,
+      datedParsedEvents: health.funnel.datedParsedEvents ?? dated.length,
+      datedPendingReview:
+        health.funnel.datedPendingReview ??
+        dated.filter((c) => c.review_status !== "approved" && c.review_status !== "rejected").length,
       approvedPublicEvents: health.funnel.approvedPublicEvents || approved.length,
     },
   };

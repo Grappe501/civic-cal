@@ -24,6 +24,7 @@ const COLLEGE_URLS = {
     athletics: "https://arkansasrazorbacks.com/",
     calendar: "https://calendar.uark.edu/",
     ics: "http://calendars.uark.edu/calendar/1.ics",
+    ics_urls: Array.from({ length: 8 }, (_, i) => `http://calendars.uark.edu/calendar/${i + 1}.ics`),
   },
   "Arkansas State University": { website: "https://www.astate.edu/", athletics: "https://astateredwolves.com/", calendar: "https://www.astate.edu/events" },
   "University of Central Arkansas": { website: "https://uca.edu/", athletics: "https://ucasports.com/", calendar: "https://uca.edu/events" },
@@ -230,6 +231,7 @@ async function main() {
       c.athletics_url = urls.athletics ?? c.athletics_url;
       c.calendar_url = urls.calendar ?? c.calendar_url;
       c.ics_url = urls.ics ?? c.ics_url;
+      c.ics_urls = urls.ics_urls ?? (urls.ics ? [urls.ics] : c.ics_urls);
       c.harvest_status = "urls_linked";
       c.url_attachment_method = "known_college";
       collegesLinked++;

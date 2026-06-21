@@ -50,6 +50,7 @@
     "schools:harvest-calendars": "node scripts/run-with-h-drive-env.cjs node scripts/schools/harvest-school-calendars.mjs",
     "schools:approve-events": "node scripts/run-with-h-drive-env.cjs node scripts/schools/approve-school-events.mjs",
     "schools:build": "node scripts/run-with-h-drive-env.cjs node scripts/schools/attach-school-urls.mjs && node scripts/run-with-h-drive-env.cjs node scripts/schools/harvest-school-calendars.mjs",
+    "audit:school-events": "node scripts/run-with-h-drive-env.cjs node scripts/audit-school-events.mjs",
     "feeds:generate": "node scripts/run-with-h-drive-env.cjs node scripts/feeds/generate-feed-registries.mjs",
     "feeds:report": "node scripts/run-with-h-drive-env.cjs node scripts/feeds/build-feed-attachment-report.mjs",
     "feeds:build": "node scripts/run-with-h-drive-env.cjs node scripts/feeds/generate-feed-registries.mjs && node scripts/run-with-h-drive-env.cjs node scripts/feeds/build-feed-attachment-report.mjs",

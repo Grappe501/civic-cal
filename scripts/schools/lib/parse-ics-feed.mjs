@@ -76,7 +76,7 @@ export function parseIcsFeed(icsText, sourceUrl) {
 
   const min = "2026-01-01";
   const max = "2027-12-31";
-  return events.filter((e) => e.event_date >= min && e.event_date <= max).slice(0, 120);
+  return events.filter((e) => e.event_date >= min && e.event_date <= max).slice(0, 200);
 }
 
 /**

@@ -1,8 +1,16 @@
 {
-  "generatedAt": "2026-06-21T15:30:36.599Z",
-  "institutionsWithUrls": 107,
-  "urlsFetched": 100,
-  "parsedEventsWithDates": 148,
-  "stagedCandidates": 967,
-  "uniqueLeaGroups": 240
+  "generatedAt": "2026-06-21T15:45:10.770Z",
+  "institutionsWithUrls": 111,
+  "urlsFetched": 150,
+  "parsedEventsWithDates": 153,
+  "projectionTargets": 873,
+  "stagedCandidates": 1026,
+  "platformCounts": {
+    "ics": 3,
+    "google_calendar": 3,
+    "generic_html": 10,
+    "apptegy": 13,
+    "rss": 1,
+    "gofan": 2
+  }
 }

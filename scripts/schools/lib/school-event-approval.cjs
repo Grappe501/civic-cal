@@ -45,6 +45,7 @@ function candidateToEvent(c) {
     intelligenceLayer: c.intelligence_layer || "community",
     relationshipDensityScore: c.relationship_density_score ?? 45,
     eventLane: c.event_lane,
+    parsePlatform: c.platform ?? null,
   };
 }
 
@@ -58,18 +59,34 @@ function saveJson(p, data) {
   fs.writeFileSync(p, JSON.stringify(data, null, 2));
 }
 
+function isValidForApproval(c) {
+  return Boolean(
+    c.title &&
+      c.event_date &&
+      c.source_name &&
+      c.source_url &&
+      (c.confidence_score ?? 0) >= 50,
+  );
+}
+
 function approveSchoolEvents(options = {}) {
   const { minConfidence = 50, requireDate = true, institutionId = null } = options;
-  const staged = loadJson(STAGED, { candidates: [] });
+  const staged = loadJson(STAGED, { candidates: [], dated_events: [] });
   const approved = loadJson(APPROVED, { events: [] });
   const approvedSlugs = new Set(approved.events.map((e) => e.slug));
 
-  let pool = staged.candidates.filter(
-    (c) => c.review_status !== "approved" && c.review_status !== "rejected" && TRUSTED_SOURCE_TYPES.has(c.source_type),
+  const poolSource = [...(staged.dated_events ?? []), ...(staged.candidates ?? [])];
+  let pool = poolSource.filter(
+    (c) =>
+      c.review_status !== "approved" &&
+      c.review_status !== "rejected" &&
+      c.parse_status !== "projection" &&
+      TRUSTED_SOURCE_TYPES.has(c.source_type),
   );
   if (institutionId) pool = pool.filter((c) => c.institution_id === institutionId);
   if (requireDate) pool = pool.filter((c) => c.event_date);
   pool = pool.filter((c) => (c.confidence_score ?? 0) >= minConfidence);
+  pool = pool.filter(isValidForApproval);
 
   let added = 0;
   for (const c of pool) {

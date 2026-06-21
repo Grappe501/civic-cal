@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T15:29:27.635Z",
+  "generatedAt": "2026-06-21T15:43:02.425Z",
   "pass": "26",
   "source": "https://adedata.arkansas.gov/LEA/Home/schools",
   "summary": {
@@ -29360,7 +29360,17 @@
       "harvest_status": "urls_linked",
       "last_harvest_at": "2026-06-21T07:23:07.978Z",
       "url_attachment_method": "known_college",
-      "ics_url": "http://calendars.uark.edu/calendar/1.ics"
+      "ics_url": "http://calendars.uark.edu/calendar/1.ics",
+      "ics_urls": [
+        "http://calendars.uark.edu/calendar/1.ics",
+        "http://calendars.uark.edu/calendar/2.ics",
+        "http://calendars.uark.edu/calendar/3.ics",
+        "http://calendars.uark.edu/calendar/4.ics",
+        "http://calendars.uark.edu/calendar/5.ics",
+        "http://calendars.uark.edu/calendar/6.ics",
+        "http://calendars.uark.edu/calendar/7.ics",
+        "http://calendars.uark.edu/calendar/8.ics"
+      ]
     },
     {
       "id": "college-arkansas-state-university",
@@ -29909,6 +29919,6 @@
       "harvest_status": "seed"
     }
   ],
-  "harvest_pass": "27-url-attach",
-  "last_calendar_harvest_at": "2026-06-21T15:30:36.599Z"
+  "harvest_pass": "28-platform",
+  "last_calendar_harvest_at": "2026-06-21T15:45:10.770Z"
 }
