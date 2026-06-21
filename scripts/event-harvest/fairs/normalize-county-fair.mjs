@@ -2,6 +2,7 @@
  * Normalize county fair harvest records into staged candidate shape.
  */
 import { enrichCandidate } from "../lib/layer-inference.mjs";
+import { PRIORITY_HIGH_YIELD_COUNTIES } from "./lib/county-fair-base.mjs";
 
 const HARVEST_BATCH = "county_fair_lane_pass29";
 
@@ -61,6 +62,7 @@ export function normalizeCountyFair(raw) {
 }
 
 export function normalizeResearchTask(raw, searchQueries = []) {
+  const isPriority = PRIORITY_HIGH_YIELD_COUNTIES.includes(raw.county);
   return {
     id: `research-${raw.id}`,
     fair_id: raw.id,
@@ -68,7 +70,8 @@ export function normalizeResearchTask(raw, searchQueries = []) {
     county: raw.county,
     city: raw.city,
     task_type: "confirm_fair_dates",
-    priority: raw.official_url ? "medium" : "high",
+    priority: isPriority ? "critical" : raw.official_url ? "medium" : "high",
+    priority_high_yield: isPriority,
     status: "open",
     verification_status: raw.verification_status,
     suggested_urls: [raw.official_url, raw.cofairs_url].filter(Boolean),

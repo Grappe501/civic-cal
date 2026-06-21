@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T16:32:03.398Z",
+  "generatedAt": "2026-06-21T17:00:18.195Z",
   "thinCounties": [
     "Arkansas",
     "Bradley",
@@ -15,7 +15,6 @@
     "Pike",
     "Poinsett",
     "Polk",
-    "Prairie",
     "Woodruff"
   ],
   "thinFeedCounties": [
@@ -59,7 +58,7 @@
     "Lee",
     "Greene"
   ],
-  "eventsNeedingSource": 627,
+  "eventsNeedingSource": 649,
   "eventsNeedingSourceSlugs": [
     "20-week-execution-begins-central-metro-2026-06-15",
     "quitman-fundraiser-2026-06-16",
@@ -262,6 +261,6 @@
     "saline-county-gotv-push-2026-10-12",
     "recovery-story-backlog-early-vote-prep-2026-10-18"
   ],
-  "totalEvents": 627,
+  "totalEvents": 649,
   "totalCounties": 75
 }

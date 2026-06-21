@@ -57,6 +57,7 @@
     "harvest:county-fairs": "node scripts/run-with-h-drive-env.cjs node scripts/event-harvest/fairs/harvest-county-fairs.mjs",
     "approve:county-fairs": "node scripts/run-with-h-drive-env.cjs node scripts/event-harvest/fairs/approve-source-backed-county-fairs.mjs",
     "audit:county-fairs": "node scripts/run-with-h-drive-env.cjs node scripts/event-harvest/fairs/audit-county-fairs.mjs",
+    "county-fairs:recover-and-index": "node scripts/run-with-h-drive-env.cjs npm run harvest:county-fairs && node scripts/run-with-h-drive-env.cjs npm run approve:county-fairs && node scripts/run-with-h-drive-env.cjs npm run audit:county-fairs && node scripts/run-with-h-drive-env.cjs npm run ai:build-indexes && node scripts/run-with-h-drive-env.cjs npm run ai:research-tasks",
     "harvest:political-events": "node scripts/run-with-h-drive-env.cjs node scripts/event-harvest/political-events/harvest-historic-political-events.mjs",
     "approve:political-events": "node scripts/run-with-h-drive-env.cjs node scripts/event-harvest/political-events/approve-source-backed-political-events.mjs",
     "audit:political-events": "node scripts/run-with-h-drive-env.cjs node scripts/event-harvest/political-events/audit-political-events.mjs",

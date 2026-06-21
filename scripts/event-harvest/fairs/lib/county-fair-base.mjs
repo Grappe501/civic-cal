@@ -87,6 +87,24 @@ export const COUNTY_FAIR_CITIES = {
   Yell: "Danville",
 };
 
+/** Pass 29C — high-yield counties searched first with full source stack */
+export const PRIORITY_HIGH_YIELD_COUNTIES = [
+  "Benton",
+  "Boone",
+  "Bradley",
+  "Carroll",
+  "Conway",
+  "Faulkner",
+  "Hempstead",
+  "Hot Spring",
+  "Johnson",
+  "Pulaski",
+  "Saline",
+  "Sebastian",
+  "Union",
+  "Washington",
+];
+
 /** Known official county fair site patterns (public URLs only) */
 export const OFFICIAL_FAIR_URLS = {
   Fulton: "https://www.fultoncountyfair.net/",
@@ -96,18 +114,62 @@ export const OFFICIAL_FAIR_URLS = {
   Yell: "https://yellcountyfair.com/",
   Pope: "https://popecountyfair.com/",
   Prairie: "https://www.prairiefaircountyar.com/",
-  Union: "https://www.unioncountyfair.net/",
+  Union: "https://myunioncountyarfair.com/",
   Sebastian: "https://www.sebastiancountyfair.com/",
-  Benton: "https://www.bentoncountyfair.net/",
-  Washington: "https://www.washingtoncountyfair.com/",
-  Saline: "https://www.salinecountyfair.com/",
+  Benton: "https://bentonar.fairwire.com/",
+  Washington: "https://www.mywashcofair.com/",
+  Saline: "https://salinecountyfairgrounds.com/",
   Cleburne: "https://www.cleburnecountyfair.com/",
-  Boone: "https://www.districtfair.com/",
-  Garland: "https://www.garlandcountyfair.com/",
-  Pulaski: "https://www.pulaskicountyfair.com/",
+  Boone: "https://www.boonecounty4h.org/fair",
+  Garland: "https://garlandcountyfair.com/",
+  Pulaski: "https://thepulaskicountyfair.net/home",
+  Faulkner: "http://www.faulknercountyfair.net/",
+  "Hot Spring": "https://www.hotspringcountyfair.com/",
+  Johnson: "https://thejohnsoncountyfair.org/",
+  Carroll: "https://www.carrollcountyfair.com/",
+  Madison: "https://www.madisoncountyfair.net/",
+  "Van Buren": "https://www.vanburencountyarkansasfairgrounds.com/",
+  Newton: "https://www.newtoncountyfair.com/",
+  Searcy: "https://www.searcycountyfair.com/",
+  Conway: "https://www.conwaycountyfair.com/",
+  Bradley: "https://www.bradleycountyfair.net/",
 };
 
-/** Secondary public sources — tourism, extension, chamber (Pass 29B search strategy) */
+/** Extension / 4-H public pages (Pass 29C source tier 3) */
+export const EXTENSION_FAIR_SOURCES = {
+  Boone: [{ url: "https://www.boonecounty4h.org/fair", type: "extension_4h_page", label: "Boone County 4-H Fair" }],
+  Carroll: [
+    {
+      url: "https://www.carrollcountyfair.com/fair-schedule",
+      type: "extension_4h_page",
+      label: "Carroll County 4-H & FFA Fair schedule",
+    },
+  ],
+  Johnson: [{ url: "https://thejohnsoncountyfair.org/livestock/", type: "extension_4h_page", label: "Johnson County Fair livestock" }],
+};
+
+/** Public Facebook pages — fetch only when listed; no login wall assumed (Pass 29C tier 2) */
+export const FACEBOOK_FAIR_SOURCES = {
+  Johnson: [{ url: "https://www.facebook.com/jocofair", type: "facebook_page", label: "Johnson County Fair Facebook" }],
+  Bradley: [{ url: "https://www.facebook.com/BradleyCountyFair", type: "facebook_page", label: "Bradley County Fair Facebook" }],
+};
+
+/** Tourism / CVB / chamber pages (Pass 29C tier 4) */
+export const TOURISM_FAIR_SOURCES = {
+  Columbia: [
+    { url: "https://arksouth.org/events/columbia-county-fair-livestock-show/", type: "tourism_cvb_page", label: "Arkansas South Tourism" },
+  ],
+  Hempstead: [
+    {
+      url: "http://www.southwestarkansasdistrictlivestockshow.com/home.html",
+      type: "tourism_cvb_page",
+      label: "SW Arkansas District Fair (Hope)",
+    },
+  ],
+  Pulaski: [{ url: "https://www.explorepinebluff.com/", type: "tourism_cvb_page", label: "Explore Pine Bluff / regional CVB" }],
+};
+
+/** Secondary public sources — Cofairs cached pages, FairEntry, fair managers (Pass 29C tier 6) */
 export const SECONDARY_FAIR_SOURCES = {
   Columbia: [
     { url: "https://arksouth.org/events/columbia-county-fair-livestock-show/", type: "tourism_cvb_page", label: "Arkansas South Tourism" },
@@ -116,7 +178,38 @@ export const SECONDARY_FAIR_SOURCES = {
   Yell: [{ url: "https://cofairs.com/arkansas/yell-county-fair", type: "fair_guide_page", label: "Cofairs guide" }],
   Pope: [{ url: "https://cofairs.com/arkansas/pope-county-fair", type: "fair_guide_page", label: "Cofairs guide" }],
   Prairie: [{ url: "https://cofairs.com/arkansas/prairie-county-fair", type: "fair_guide_page", label: "Cofairs guide" }],
+  Greene: [{ url: "https://cofairs.com/arkansas/greene-county-fair", type: "fair_guide_page", label: "Cofairs guide" }],
+  Benton: [{ url: "https://cofairs.com/arkansas/benton-county-fair", type: "fair_guide_page", label: "Cofairs guide" }],
+  Washington: [{ url: "https://cofairs.com/arkansas/washington-county-fair", type: "fair_guide_page", label: "Cofairs guide" }],
+  Sebastian: [
+    { url: "https://www.sebastiancountyfair.com/fair-info", type: "county_fair_page", label: "Sebastian County Fair info" },
+    { url: "https://cofairs.com/arkansas/sebastian-county-fair", type: "fair_guide_page", label: "Cofairs guide" },
+  ],
+  Faulkner: [{ url: "https://cofairs.com/arkansas/faulkner-county-fair", type: "fair_guide_page", label: "Cofairs guide" }],
+  Cleburne: [{ url: "https://cofairs.com/arkansas/cleburne-county-fair", type: "fair_guide_page", label: "Cofairs guide" }],
+  Union: [{ url: "https://cofairs.com/arkansas/union-county-fair", type: "fair_guide_page", label: "Cofairs guide" }],
+  Carroll: [{ url: "https://cofairs.com/arkansas/carroll-county-fair", type: "fair_guide_page", label: "Cofairs guide" }],
+  Conway: [{ url: "https://cofairs.com/arkansas/conway-county-fair", type: "fair_guide_page", label: "Cofairs guide" }],
+  Bradley: [{ url: "https://cofairs.com/arkansas/bradley-county-fair", type: "fair_guide_page", label: "Cofairs guide" }],
+  Saline: [{ url: "https://cofairs.com/arkansas/saline-county-fair", type: "fair_guide_page", label: "Cofairs guide" }],
+  Boone: [{ url: "https://cofairs.com/arkansas/northwest-arkansas-district-fair", type: "fair_guide_page", label: "NW AR District Fair guide" }],
 };
+
+export function extraSourcesForCounty(county) {
+  const isPriority = PRIORITY_HIGH_YIELD_COUNTIES.includes(county);
+  const facebook = isPriority ? FACEBOOK_FAIR_SOURCES[county] ?? [] : [];
+  const extension = EXTENSION_FAIR_SOURCES[county] ?? [];
+  const tourism = TOURISM_FAIR_SOURCES[county] ?? [];
+  const secondary = SECONDARY_FAIR_SOURCES[county] ?? [];
+  const seen = new Set();
+  const merged = [];
+  for (const src of [...facebook, ...extension, ...tourism, ...secondary]) {
+    if (seen.has(src.url)) continue;
+    seen.add(src.url);
+    merged.push(src);
+  }
+  return merged;
+}
 
 export function fairSearchPatterns(county) {
   return [
@@ -128,6 +221,8 @@ export function fairSearchPatterns(county) {
     `${county} County Fair Facebook 2026`,
     `${county} County Fair 4-H Arkansas`,
     `${county} County Fair Extension Arkansas`,
+    `${county} County Fair chamber tourism Arkansas 2026`,
+    `${county} County Fair local news calendar 2026`,
   ];
 }
 

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T16:32:03.381Z",
+  "generatedAt": "2026-06-21T17:00:17.457Z",
   "countyCount": 75,
   "thinCounties": [
     "Arkansas",
@@ -16,7 +16,6 @@
     "Pike",
     "Poinsett",
     "Polk",
-    "Prairie",
     "Woodruff"
   ],
   "counties": [
@@ -40,13 +39,13 @@
     },
     {
       "county": "Benton",
-      "eventCount": 32,
+      "eventCount": 33,
       "cityCount": 4,
       "thin": false
     },
     {
       "county": "Boone",
-      "eventCount": 8,
+      "eventCount": 9,
       "cityCount": 2,
       "thin": false
     },
@@ -64,8 +63,8 @@
     },
     {
       "county": "Carroll",
-      "eventCount": 7,
-      "cityCount": 1,
+      "eventCount": 8,
+      "cityCount": 2,
       "thin": false
     },
     {
@@ -88,7 +87,7 @@
     },
     {
       "county": "Cleburne",
-      "eventCount": 7,
+      "eventCount": 8,
       "cityCount": 2,
       "thin": false
     },
@@ -100,7 +99,7 @@
     },
     {
       "county": "Columbia",
-      "eventCount": 7,
+      "eventCount": 8,
       "cityCount": 1,
       "thin": false
     },
@@ -154,7 +153,7 @@
     },
     {
       "county": "Faulkner",
-      "eventCount": 23,
+      "eventCount": 24,
       "cityCount": 3,
       "thin": false
     },
@@ -184,7 +183,7 @@
     },
     {
       "county": "Greene",
-      "eventCount": 6,
+      "eventCount": 7,
       "cityCount": 1,
       "thin": false
     },
@@ -196,7 +195,7 @@
     },
     {
       "county": "Hot Spring",
-      "eventCount": 6,
+      "eventCount": 7,
       "cityCount": 1,
       "thin": false
     },
@@ -232,7 +231,7 @@
     },
     {
       "county": "Johnson",
-      "eventCount": 7,
+      "eventCount": 8,
       "cityCount": 1,
       "thin": false
     },
@@ -274,14 +273,14 @@
     },
     {
       "county": "Lonoke",
-      "eventCount": 3,
+      "eventCount": 4,
       "cityCount": 2,
       "thin": false
     },
     {
       "county": "Madison",
-      "eventCount": 5,
-      "cityCount": 0,
+      "eventCount": 6,
+      "cityCount": 1,
       "thin": false
     },
     {
@@ -322,7 +321,7 @@
     },
     {
       "county": "Newton",
-      "eventCount": 4,
+      "eventCount": 5,
       "cityCount": 2,
       "thin": false
     },
@@ -364,19 +363,19 @@
     },
     {
       "county": "Pope",
-      "eventCount": 3,
+      "eventCount": 4,
       "cityCount": 1,
       "thin": false
     },
     {
       "county": "Prairie",
-      "eventCount": 2,
-      "cityCount": 1,
-      "thin": true
+      "eventCount": 3,
+      "cityCount": 2,
+      "thin": false
     },
     {
       "county": "Pulaski",
-      "eventCount": 29,
+      "eventCount": 30,
       "cityCount": 5,
       "thin": false
     },
@@ -394,7 +393,7 @@
     },
     {
       "county": "Saline",
-      "eventCount": 11,
+      "eventCount": 12,
       "cityCount": 2,
       "thin": false
     },
@@ -406,13 +405,13 @@
     },
     {
       "county": "Searcy",
-      "eventCount": 5,
-      "cityCount": 0,
+      "eventCount": 6,
+      "cityCount": 1,
       "thin": false
     },
     {
       "county": "Sebastian",
-      "eventCount": 15,
+      "eventCount": 16,
       "cityCount": 2,
       "thin": false
     },
@@ -436,19 +435,19 @@
     },
     {
       "county": "Union",
-      "eventCount": 7,
+      "eventCount": 8,
       "cityCount": 2,
       "thin": false
     },
     {
       "county": "Van Buren",
-      "eventCount": 12,
+      "eventCount": 13,
       "cityCount": 2,
       "thin": false
     },
     {
       "county": "Washington",
-      "eventCount": 102,
+      "eventCount": 103,
       "cityCount": 2,
       "thin": false
     },
@@ -466,8 +465,8 @@
     },
     {
       "county": "Yell",
-      "eventCount": 7,
-      "cityCount": 2,
+      "eventCount": 8,
+      "cityCount": 3,
       "thin": false
     }
   ],
@@ -475,7 +474,7 @@
     {
       "city": "Fayetteville",
       "county": "Washington",
-      "eventCount": 94
+      "eventCount": 95
     },
     {
       "city": "Little Rock",
@@ -490,12 +489,17 @@
     {
       "city": "Conway",
       "county": "Faulkner",
-      "eventCount": 8
+      "eventCount": 9
     },
     {
       "city": "Jonesboro",
       "county": "Craighead",
       "eventCount": 8
+    },
+    {
+      "city": "Bentonville",
+      "county": "Benton",
+      "eventCount": 7
     },
     {
       "city": "Fort Smith",
@@ -506,11 +510,6 @@
       "city": "Hot Springs",
       "county": "Garland",
       "eventCount": 7
-    },
-    {
-      "city": "Bentonville",
-      "county": "Benton",
-      "eventCount": 6
     },
     {
       "city": "Searcy",
@@ -558,14 +557,34 @@
       "eventCount": 3
     },
     {
+      "city": "North Little Rock",
+      "county": "Pulaski",
+      "eventCount": 3
+    },
+    {
+      "city": "Clarksville",
+      "county": "Johnson",
+      "eventCount": 3
+    },
+    {
       "city": "Mount Vernon",
       "county": "Faulkner",
+      "eventCount": 3
+    },
+    {
+      "city": "Harrison",
+      "county": "Boone",
       "eventCount": 3
     },
     {
       "city": "Batesville",
       "county": "Independence",
       "eventCount": 3
+    },
+    {
+      "city": "Greenwood",
+      "county": "Sebastian",
+      "eventCount": 2
     },
     {
       "city": "Mountain Home",
@@ -578,8 +597,8 @@
       "eventCount": 2
     },
     {
-      "city": "North Little Rock",
-      "county": "Pulaski",
+      "city": "Jasper",
+      "county": "Newton",
       "eventCount": 2
     },
     {
@@ -593,8 +612,23 @@
       "eventCount": 2
     },
     {
-      "city": "Clarksville",
-      "county": "Johnson",
+      "city": "Heber Springs",
+      "county": "Cleburne",
+      "eventCount": 2
+    },
+    {
+      "city": "Malvern",
+      "county": "Hot Spring",
+      "eventCount": 2
+    },
+    {
+      "city": "Paragould",
+      "county": "Greene",
+      "eventCount": 2
+    },
+    {
+      "city": "El Dorado",
+      "county": "Union",
       "eventCount": 2
     },
     {
@@ -628,6 +662,11 @@
       "eventCount": 2
     },
     {
+      "city": "Clinton",
+      "county": "Van Buren",
+      "eventCount": 2
+    },
+    {
       "city": "Ashley",
       "county": "Ashley",
       "eventCount": 2
@@ -638,13 +677,28 @@
       "eventCount": 2
     },
     {
+      "city": "Russellville",
+      "county": "Pope",
+      "eventCount": 2
+    },
+    {
       "city": "Nashville",
       "county": "Howard",
       "eventCount": 2
     },
     {
-      "city": "Harrison",
-      "county": "Boone",
+      "city": "Lonoke",
+      "county": "Lonoke",
+      "eventCount": 2
+    },
+    {
+      "city": "Benton",
+      "county": "Saline",
+      "eventCount": 2
+    },
+    {
+      "city": "Magnolia",
+      "county": "Columbia",
       "eventCount": 2
     },
     {
@@ -663,18 +717,8 @@
       "eventCount": 1
     },
     {
-      "city": "Greenwood",
-      "county": "Sebastian",
-      "eventCount": 1
-    },
-    {
       "city": "Fairfield Bay",
       "county": "Van Buren",
-      "eventCount": 1
-    },
-    {
-      "city": "Jasper",
-      "county": "Newton",
       "eventCount": 1
     },
     {
@@ -693,23 +737,8 @@
       "eventCount": 1
     },
     {
-      "city": "Heber Springs",
-      "county": "Cleburne",
-      "eventCount": 1
-    },
-    {
-      "city": "Malvern",
-      "county": "Hot Spring",
-      "eventCount": 1
-    },
-    {
       "city": "Fulton",
       "county": "Fulton",
-      "eventCount": 1
-    },
-    {
-      "city": "Paragould",
-      "county": "Greene",
       "eventCount": 1
     },
     {
@@ -724,11 +753,6 @@
     },
     {
       "city": "Union",
-      "county": "Union",
-      "eventCount": 1
-    },
-    {
-      "city": "El Dorado",
       "county": "Union",
       "eventCount": 1
     },
@@ -765,11 +789,6 @@
     {
       "city": "Lafayette",
       "county": "Lafayette",
-      "eventCount": 1
-    },
-    {
-      "city": "Clinton",
-      "county": "Van Buren",
       "eventCount": 1
     },
     {
@@ -813,28 +832,13 @@
       "eventCount": 1
     },
     {
-      "city": "Russellville",
-      "county": "Pope",
-      "eventCount": 1
-    },
-    {
       "city": "Jacksonville",
       "county": "Pulaski",
       "eventCount": 1
     },
     {
-      "city": "Lonoke",
-      "county": "Lonoke",
-      "eventCount": 1
-    },
-    {
       "city": "Prairie",
       "county": "Prairie",
-      "eventCount": 1
-    },
-    {
-      "city": "Benton",
-      "county": "Saline",
       "eventCount": 1
     },
     {
@@ -845,11 +849,6 @@
     {
       "city": "Greenbrier",
       "county": "Faulkner",
-      "eventCount": 1
-    },
-    {
-      "city": "Magnolia",
-      "county": "Columbia",
       "eventCount": 1
     },
     {
@@ -865,6 +864,31 @@
     {
       "city": "Ash Flat",
       "county": "Sharp",
+      "eventCount": 1
+    },
+    {
+      "city": "Hazen",
+      "county": "Prairie",
+      "eventCount": 1
+    },
+    {
+      "city": "Danville",
+      "county": "Yell",
+      "eventCount": 1
+    },
+    {
+      "city": "Huntsville",
+      "county": "Madison",
+      "eventCount": 1
+    },
+    {
+      "city": "Marshall",
+      "county": "Searcy",
+      "eventCount": 1
+    },
+    {
+      "city": "Berryville",
+      "county": "Carroll",
       "eventCount": 1
     }
   ]

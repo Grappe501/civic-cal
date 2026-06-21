@@ -8,8 +8,9 @@ import { fileURLToPath } from "node:url";
 import {
   buildAllCountyFairRecords,
   REGIONAL_FAIRS,
-  SECONDARY_FAIR_SOURCES,
+  extraSourcesForCounty,
   OFFICIAL_FAIR_URLS,
+  PRIORITY_HIGH_YIELD_COUNTIES,
   cofairsSlugForCounty,
   countySlug,
   fairSearchPatterns,
@@ -25,6 +26,7 @@ const STAGED_OUT = path.join(ROOT, "data/ingestion/county-fair-staged.json");
 const RESEARCH_OUT = path.join(ROOT, "data/ingestion/county-fair-research-tasks.json");
 const VERIFIED_SEED_PATH = path.join(ROOT, "data/fairs/cofairs-2026-verified-seed.json");
 const OFFICIAL_VERIFIED_SEED_PATH = path.join(ROOT, "data/fairs/county-fair-official-verified-seed-2026.json");
+const PASS29C_SEED_PATH = path.join(ROOT, "data/fairs/county-fair-recovery-round2-seed-2026.json");
 const COFAIRS_INDEX = "https://cofairs.com/arkansas/";
 const FETCH_DELAY_MS = Number(process.env.COUNTY_FAIR_FETCH_DELAY_MS ?? 300);
 const UA = "ArkansasEverywhere-CivicBot/1.0 (+https://arkansaseverywhere.org)";
@@ -141,9 +143,15 @@ async function harvestFairRecord(base, cofairsByCounty, options = {}) {
   let sourceUrl = base.official_url;
   let sourceConfidence = "placeholder";
 
+  const isPriority = PRIORITY_HIGH_YIELD_COUNTIES.includes(base.county);
   const indexYear = cofairsMeta?.year;
   const shouldFetchDetail = Boolean(
-    isRegional || isStateFair || base.official_url || indexYear === 2026 || SECONDARY_FAIR_SOURCES[base.county]?.length,
+    isRegional ||
+      isStateFair ||
+      isPriority ||
+      base.official_url ||
+      indexYear === 2026 ||
+      extraSourcesForCounty(base.county).length,
   );
 
   if (shouldFetchDetail && base.official_url) {
@@ -158,7 +166,7 @@ async function harvestFairRecord(base, cofairsByCounty, options = {}) {
     }
   }
 
-  for (const secondary of SECONDARY_FAIR_SOURCES[base.county] ?? []) {
+  for (const secondary of extraSourcesForCounty(base.county)) {
     try {
       html += `\n${await fetchText(secondary.url)}`;
       if (!sourceUrl) sourceUrl = secondary.url;
@@ -329,6 +337,28 @@ function applyOfficialVerifiedSeed(rawRecords) {
   }
 }
 
+function applyPass29CSeed(rawRecords) {
+  if (!fs.existsSync(PASS29C_SEED_PATH)) return;
+  const seed = JSON.parse(fs.readFileSync(PASS29C_SEED_PATH, "utf8"));
+  const byCounty = new Map((seed.entries ?? []).map((e) => [e.county, e]));
+  for (const record of rawRecords) {
+    const entry = byCounty.get(record.county);
+    if (!entry) continue;
+    record.fair_name = entry.fair_name || record.fair_name;
+    record.date_start = entry.start;
+    record.date_end = entry.end;
+    record.city = entry.city || record.city;
+    record.venue = entry.venue || record.venue;
+    record.address = entry.address || record.address;
+    record.official_url = entry.official_url || record.official_url;
+    record.source_url = entry.source_url;
+    record.source_confidence = entry.source_confidence || "high";
+    record.source_type = entry.source_type || "county_fair_page";
+    record.verification_status = "verified_dated";
+    record.notes = `Official/public source verified ${seed.verifiedAt ?? "2026"} (Pass 29C).`;
+  }
+}
+
 async function main() {
   const counties = buildAllCountyFairRecords().map((r) => r.county);
   let indexHtml = "";
@@ -372,9 +402,10 @@ async function main() {
   await enrichCofairs2026(rawRecords, indexEntries, counties);
   applyVerifiedSeed(rawRecords);
   applyOfficialVerifiedSeed(rawRecords);
+  applyPass29CSeed(rawRecords);
 
   const registryPayload = {
-    pass: "29",
+    pass: "29C",
     label: "Arkansas county fair lane — 75 counties",
     generatedAt: new Date().toISOString(),
     countyCount: countyRecords.length,
@@ -385,14 +416,16 @@ async function main() {
   };
 
   const sourcePayload = {
-    pass: "29",
+    pass: "29C",
     generatedAt: new Date().toISOString(),
+    priority_counties: PRIORITY_HIGH_YIELD_COUNTIES,
     sources: [
       ...countyRecords.map((r) => ({
         id: r.id,
         county: r.county,
+        priority_high_yield: PRIORITY_HIGH_YIELD_COUNTIES.includes(r.county),
         official_url: OFFICIAL_FAIR_URLS[r.county] ?? r.official_url,
-        secondary_urls: (SECONDARY_FAIR_SOURCES[r.county] ?? []).map((s) => s.url),
+        extra_sources: extraSourcesForCounty(r.county).map((s) => s.url),
         cofairs_url: r.cofairs_url,
         source_type: "county_fair_page",
         search_patterns: fairSearchPatterns(r.county),
@@ -423,7 +456,7 @@ async function main() {
     JSON.stringify(
       {
         generatedAt: new Date().toISOString(),
-        pass: "29",
+        pass: "29C",
         records: rawRecords,
         cofairsIndexEntries: indexEntries.length,
       },
@@ -436,7 +469,7 @@ async function main() {
     JSON.stringify(
       {
         generatedAt: new Date().toISOString(),
-        pass: "29",
+        pass: "29C",
         candidates: stagedCandidates,
         dated_events: dated,
         needs_review: stagedCandidates.filter((c) => !c.event_date),
@@ -450,7 +483,7 @@ async function main() {
     JSON.stringify(
       {
         generatedAt: new Date().toISOString(),
-        pass: "29",
+        pass: "29C",
         tasks: researchTasks,
         openCount: researchTasks.length,
       },

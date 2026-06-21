@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-21T16:45:11.033Z",
-  "pass": "29",
+  "generatedAt": "2026-06-21T16:59:20.600Z",
+  "pass": "29C",
   "tasks": [
     {
       "id": "research-arkansas-county-fair",
@@ -10,6 +10,7 @@
       "city": "DeWitt",
       "task_type": "confirm_fair_dates",
       "priority": "high",
+      "priority_high_yield": false,
       "status": "open",
       "verification_status": "needs_date_confirmation",
       "suggested_urls": [
@@ -23,10 +24,12 @@
         "Arkansas County Fair Association Arkansas",
         "Arkansas County Fair Facebook 2026",
         "Arkansas County Fair 4-H Arkansas",
-        "Arkansas County Fair Extension Arkansas"
+        "Arkansas County Fair Extension Arkansas",
+        "Arkansas County Fair chamber tourism Arkansas 2026",
+        "Arkansas County Fair local news calendar 2026"
       ],
       "notes": "No verified 2026 dates found from public official or guide sources for Arkansas County.",
-      "created_at": "2026-06-21T16:45:11.027Z"
+      "created_at": "2026-06-21T16:59:20.590Z"
     },
     {
       "id": "research-ashley-county-fair",
@@ -36,6 +39,7 @@
       "city": "Hamburg",
       "task_type": "confirm_fair_dates",
       "priority": "high",
+      "priority_high_yield": false,
       "status": "open",
       "verification_status": "needs_date_confirmation",
       "suggested_urls": [
@@ -49,64 +53,12 @@
         "Ashley County Fair Association Arkansas",
         "Ashley County Fair Facebook 2026",
         "Ashley County Fair 4-H Arkansas",
-        "Ashley County Fair Extension Arkansas"
+        "Ashley County Fair Extension Arkansas",
+        "Ashley County Fair chamber tourism Arkansas 2026",
+        "Ashley County Fair local news calendar 2026"
       ],
       "notes": "No verified 2026 dates found from public official or guide sources for Ashley County.",
-      "created_at": "2026-06-21T16:45:11.028Z"
-    },
-    {
-      "id": "research-benton-county-fair",
-      "fair_id": "benton-county-fair",
-      "fair_name": "Benton County Fair",
-      "county": "Benton",
-      "city": "Bentonville",
-      "task_type": "confirm_fair_dates",
-      "priority": "medium",
-      "status": "open",
-      "verification_status": "needs_date_confirmation",
-      "suggested_urls": [
-        "https://www.bentoncountyfair.net/",
-        "https://cofairs.com/arkansas/benton-county-fair"
-      ],
-      "suggested_queries": [
-        "Benton County Fair 2026 Arkansas",
-        "Benton County Fairgrounds 2026",
-        "Benton County Fair livestock show 2026",
-        "Benton County Fair schedule Arkansas",
-        "Benton County Fair Association Arkansas",
-        "Benton County Fair Facebook 2026",
-        "Benton County Fair 4-H Arkansas",
-        "Benton County Fair Extension Arkansas"
-      ],
-      "notes": "No verified 2026 dates found from public official or guide sources for Benton County.",
-      "created_at": "2026-06-21T16:45:11.028Z"
-    },
-    {
-      "id": "research-boone-county-fair",
-      "fair_id": "boone-county-fair",
-      "fair_name": "Boone County Fair",
-      "county": "Boone",
-      "city": "Harrison",
-      "task_type": "confirm_fair_dates",
-      "priority": "medium",
-      "status": "open",
-      "verification_status": "needs_date_confirmation",
-      "suggested_urls": [
-        "https://www.districtfair.com/",
-        "https://cofairs.com/arkansas/boone-county-fair"
-      ],
-      "suggested_queries": [
-        "Boone County Fair 2026 Arkansas",
-        "Boone County Fairgrounds 2026",
-        "Boone County Fair livestock show 2026",
-        "Boone County Fair schedule Arkansas",
-        "Boone County Fair Association Arkansas",
-        "Boone County Fair Facebook 2026",
-        "Boone County Fair 4-H Arkansas",
-        "Boone County Fair Extension Arkansas"
-      ],
-      "notes": "No verified 2026 dates found from public official or guide sources for Boone County.",
-      "created_at": "2026-06-21T16:45:11.028Z"
+      "created_at": "2026-06-21T16:59:20.590Z"
     },
     {
       "id": "research-bradley-county-fair",
@@ -115,10 +67,12 @@
       "county": "Bradley",
       "city": "Warren",
       "task_type": "confirm_fair_dates",
-      "priority": "high",
+      "priority": "critical",
+      "priority_high_yield": true,
       "status": "open",
       "verification_status": "needs_date_confirmation",
       "suggested_urls": [
+        "https://www.bradleycountyfair.net/",
         "https://cofairs.com/arkansas/bradley-county-fair"
       ],
       "suggested_queries": [
@@ -129,10 +83,12 @@
         "Bradley County Fair Association Arkansas",
         "Bradley County Fair Facebook 2026",
         "Bradley County Fair 4-H Arkansas",
-        "Bradley County Fair Extension Arkansas"
+        "Bradley County Fair Extension Arkansas",
+        "Bradley County Fair chamber tourism Arkansas 2026",
+        "Bradley County Fair local news calendar 2026"
       ],
       "notes": "No verified 2026 dates found from public official or guide sources for Bradley County.",
-      "created_at": "2026-06-21T16:45:11.028Z"
+      "created_at": "2026-06-21T16:59:20.590Z"
     },
     {
       "id": "research-calhoun-county-fair",
@@ -142,6 +98,7 @@
       "city": "Hampton",
       "task_type": "confirm_fair_dates",
       "priority": "high",
+      "priority_high_yield": false,
       "status": "open",
       "verification_status": "needs_date_confirmation",
       "suggested_urls": [
@@ -155,36 +112,12 @@
         "Calhoun County Fair Association Arkansas",
         "Calhoun County Fair Facebook 2026",
         "Calhoun County Fair 4-H Arkansas",
-        "Calhoun County Fair Extension Arkansas"
+        "Calhoun County Fair Extension Arkansas",
+        "Calhoun County Fair chamber tourism Arkansas 2026",
+        "Calhoun County Fair local news calendar 2026"
       ],
       "notes": "No verified 2026 dates found from public official or guide sources for Calhoun County.",
-      "created_at": "2026-06-21T16:45:11.028Z"
-    },
-    {
-      "id": "research-carroll-county-fair",
-      "fair_id": "carroll-county-fair",
-      "fair_name": "Carroll County Fair",
-      "county": "Carroll",
-      "city": "Berryville",
-      "task_type": "confirm_fair_dates",
-      "priority": "high",
-      "status": "open",
-      "verification_status": "needs_date_confirmation",
-      "suggested_urls": [
-        "https://cofairs.com/arkansas/carroll-county-fair"
-      ],
-      "suggested_queries": [
-        "Carroll County Fair 2026 Arkansas",
-        "Carroll County Fairgrounds 2026",
-        "Carroll County Fair livestock show 2026",
-        "Carroll County Fair schedule Arkansas",
-        "Carroll County Fair Association Arkansas",
-        "Carroll County Fair Facebook 2026",
-        "Carroll County Fair 4-H Arkansas",
-        "Carroll County Fair Extension Arkansas"
-      ],
-      "notes": "No verified 2026 dates found from public official or guide sources for Carroll County.",
-      "created_at": "2026-06-21T16:45:11.028Z"
+      "created_at": "2026-06-21T16:59:20.592Z"
     },
     {
       "id": "research-chicot-county-fair",
@@ -194,6 +127,7 @@
       "city": "Eudora",
       "task_type": "confirm_fair_dates",
       "priority": "high",
+      "priority_high_yield": false,
       "status": "open",
       "verification_status": "needs_date_confirmation",
       "suggested_urls": [
@@ -207,10 +141,12 @@
         "Chicot County Fair Association Arkansas",
         "Chicot County Fair Facebook 2026",
         "Chicot County Fair 4-H Arkansas",
-        "Chicot County Fair Extension Arkansas"
+        "Chicot County Fair Extension Arkansas",
+        "Chicot County Fair chamber tourism Arkansas 2026",
+        "Chicot County Fair local news calendar 2026"
       ],
       "notes": "No verified 2026 dates found from public official or guide sources for Chicot County.",
-      "created_at": "2026-06-21T16:45:11.028Z"
+      "created_at": "2026-06-21T16:59:20.592Z"
     },
     {
       "id": "research-clark-county-fair",
@@ -220,6 +156,7 @@
       "city": "Arkadelphia",
       "task_type": "confirm_fair_dates",
       "priority": "high",
+      "priority_high_yield": false,
       "status": "open",
       "verification_status": "needs_date_confirmation",
       "suggested_urls": [
@@ -233,10 +170,12 @@
         "Clark County Fair Association Arkansas",
         "Clark County Fair Facebook 2026",
         "Clark County Fair 4-H Arkansas",
-        "Clark County Fair Extension Arkansas"
+        "Clark County Fair Extension Arkansas",
+        "Clark County Fair chamber tourism Arkansas 2026",
+        "Clark County Fair local news calendar 2026"
       ],
       "notes": "No verified 2026 dates found from public official or guide sources for Clark County.",
-      "created_at": "2026-06-21T16:45:11.028Z"
+      "created_at": "2026-06-21T16:59:20.592Z"
     },
     {
       "id": "research-clay-county-fair",
@@ -246,6 +185,7 @@
       "city": "Piggott",
       "task_type": "confirm_fair_dates",
       "priority": "high",
+      "priority_high_yield": false,
       "status": "open",
       "verification_status": "needs_date_confirmation",
       "suggested_urls": [
@@ -259,37 +199,12 @@
         "Clay County Fair Association Arkansas",
         "Clay County Fair Facebook 2026",
         "Clay County Fair 4-H Arkansas",
-        "Clay County Fair Extension Arkansas"
+        "Clay County Fair Extension Arkansas",
+        "Clay County Fair chamber tourism Arkansas 2026",
+        "Clay County Fair local news calendar 2026"
       ],
       "notes": "No verified 2026 dates found from public official or guide sources for Clay County.",
-      "created_at": "2026-06-21T16:45:11.028Z"
-    },
-    {
-      "id": "research-cleburne-county-fair",
-      "fair_id": "cleburne-county-fair",
-      "fair_name": "Cleburne County Fair",
-      "county": "Cleburne",
-      "city": "Heber Springs",
-      "task_type": "confirm_fair_dates",
-      "priority": "medium",
-      "status": "open",
-      "verification_status": "needs_date_confirmation",
-      "suggested_urls": [
-        "https://www.cleburnecountyfair.com/",
-        "https://cofairs.com/arkansas/cleburne-county-fair"
-      ],
-      "suggested_queries": [
-        "Cleburne County Fair 2026 Arkansas",
-        "Cleburne County Fairgrounds 2026",
-        "Cleburne County Fair livestock show 2026",
-        "Cleburne County Fair schedule Arkansas",
-        "Cleburne County Fair Association Arkansas",
-        "Cleburne County Fair Facebook 2026",
-        "Cleburne County Fair 4-H Arkansas",
-        "Cleburne County Fair Extension Arkansas"
-      ],
-      "notes": "No verified 2026 dates found from public official or guide sources for Cleburne County.",
-      "created_at": "2026-06-21T16:45:11.028Z"
+      "created_at": "2026-06-21T16:59:20.592Z"
     },
     {
       "id": "research-cleveland-county-fair",
@@ -299,6 +214,7 @@
       "city": "Rison",
       "task_type": "confirm_fair_dates",
       "priority": "high",
+      "priority_high_yield": false,
       "status": "open",
       "verification_status": "needs_date_confirmation",
       "suggested_urls": [
@@ -312,10 +228,12 @@
         "Cleveland County Fair Association Arkansas",
         "Cleveland County Fair Facebook 2026",
         "Cleveland County Fair 4-H Arkansas",
-        "Cleveland County Fair Extension Arkansas"
+        "Cleveland County Fair Extension Arkansas",
+        "Cleveland County Fair chamber tourism Arkansas 2026",
+        "Cleveland County Fair local news calendar 2026"
       ],
       "notes": "No verified 2026 dates found from public official or guide sources for Cleveland County.",
-      "created_at": "2026-06-21T16:45:11.028Z"
+      "created_at": "2026-06-21T16:59:20.592Z"
     },
     {
       "id": "research-conway-county-fair",
@@ -324,10 +242,12 @@
       "county": "Conway",
       "city": "Morrilton",
       "task_type": "confirm_fair_dates",
-      "priority": "high",
+      "priority": "critical",
+      "priority_high_yield": true,
       "status": "open",
       "verification_status": "needs_date_confirmation",
       "suggested_urls": [
+        "https://www.conwaycountyfair.com/",
         "https://cofairs.com/arkansas/conway-county-fair"
       ],
       "suggested_queries": [
@@ -338,10 +258,12 @@
         "Conway County Fair Association Arkansas",
         "Conway County Fair Facebook 2026",
         "Conway County Fair 4-H Arkansas",
-        "Conway County Fair Extension Arkansas"
+        "Conway County Fair Extension Arkansas",
+        "Conway County Fair chamber tourism Arkansas 2026",
+        "Conway County Fair local news calendar 2026"
       ],
       "notes": "No verified 2026 dates found from public official or guide sources for Conway County.",
-      "created_at": "2026-06-21T16:45:11.028Z"
+      "created_at": "2026-06-21T16:59:20.592Z"
     },
     {
       "id": "research-craighead-county-fair",
@@ -351,6 +273,7 @@
       "city": "Jonesboro",
       "task_type": "confirm_fair_dates",
       "priority": "high",
+      "priority_high_yield": false,
       "status": "open",
       "verification_status": "needs_date_confirmation",
       "suggested_urls": [
@@ -364,10 +287,12 @@
         "Craighead County Fair Association Arkansas",
         "Craighead County Fair Facebook 2026",
         "Craighead County Fair 4-H Arkansas",
-        "Craighead County Fair Extension Arkansas"
+        "Craighead County Fair Extension Arkansas",
+        "Craighead County Fair chamber tourism Arkansas 2026",
+        "Craighead County Fair local news calendar 2026"
       ],
       "notes": "No verified 2026 dates found from public official or guide sources for Craighead County.",
-      "created_at": "2026-06-21T16:45:11.028Z"
+      "created_at": "2026-06-21T16:59:20.592Z"
     },
     {
       "id": "research-crawford-county-fair",
@@ -377,6 +302,7 @@
       "city": "Mulberry",
       "task_type": "confirm_fair_dates",
       "priority": "high",
+      "priority_high_yield": false,
       "status": "open",
       "verification_status": "needs_date_confirmation",
       "suggested_urls": [
@@ -390,10 +316,12 @@
         "Crawford County Fair Association Arkansas",
         "Crawford County Fair Facebook 2026",
         "Crawford County Fair 4-H Arkansas",
-        "Crawford County Fair Extension Arkansas"
+        "Crawford County Fair Extension Arkansas",
+        "Crawford County Fair chamber tourism Arkansas 2026",
+        "Crawford County Fair local news calendar 2026"
       ],
       "notes": "No verified 2026 dates found from public official or guide sources for Crawford County.",
-      "created_at": "2026-06-21T16:45:11.028Z"
+      "created_at": "2026-06-21T16:59:20.592Z"
     },
     {
       "id": "research-crittenden-county-fair",
@@ -403,6 +331,7 @@
       "city": "West Memphis",
       "task_type": "confirm_fair_dates",
       "priority": "high",
+      "priority_high_yield": false,
       "status": "open",
       "verification_status": "needs_date_confirmation",
       "suggested_urls": [
@@ -416,10 +345,12 @@
         "Crittenden County Fair Association Arkansas",
         "Crittenden County Fair Facebook 2026",
         "Crittenden County Fair 4-H Arkansas",
-        "Crittenden County Fair Extension Arkansas"
+        "Crittenden County Fair Extension Arkansas",
+        "Crittenden County Fair chamber tourism Arkansas 2026",
+        "Crittenden County Fair local news calendar 2026"
       ],
       "notes": "No verified 2026 dates found from public official or guide sources for Crittenden County.",
-      "created_at": "2026-06-21T16:45:11.028Z"
+      "created_at": "2026-06-21T16:59:20.592Z"
     },
     {
       "id": "research-cross-county-fair",
@@ -429,6 +360,7 @@
       "city": "Wynne",
       "task_type": "confirm_fair_dates",
       "priority": "high",
+      "priority_high_yield": false,
       "status": "open",
       "verification_status": "needs_date_confirmation",
       "suggested_urls": [
@@ -442,10 +374,12 @@
         "Cross County Fair Association Arkansas",
         "Cross County Fair Facebook 2026",
         "Cross County Fair 4-H Arkansas",
-        "Cross County Fair Extension Arkansas"
+        "Cross County Fair Extension Arkansas",
+        "Cross County Fair chamber tourism Arkansas 2026",
+        "Cross County Fair local news calendar 2026"
       ],
       "notes": "No verified 2026 dates found from public official or guide sources for Cross County.",
-      "created_at": "2026-06-21T16:45:11.028Z"
+      "created_at": "2026-06-21T16:59:20.592Z"
     },
     {
       "id": "research-dallas-county-fair",
@@ -455,6 +389,7 @@
       "city": "Fordyce",
       "task_type": "confirm_fair_dates",
       "priority": "high",
+      "priority_high_yield": false,
       "status": "open",
       "verification_status": "needs_date_confirmation",
       "suggested_urls": [
@@ -468,10 +403,12 @@
         "Dallas County Fair Association Arkansas",
         "Dallas County Fair Facebook 2026",
         "Dallas County Fair 4-H Arkansas",
-        "Dallas County Fair Extension Arkansas"
+        "Dallas County Fair Extension Arkansas",
+        "Dallas County Fair chamber tourism Arkansas 2026",
+        "Dallas County Fair local news calendar 2026"
       ],
       "notes": "No verified 2026 dates found from public official or guide sources for Dallas County.",
-      "created_at": "2026-06-21T16:45:11.028Z"
+      "created_at": "2026-06-21T16:59:20.592Z"
     },
     {
       "id": "research-desha-county-fair",
@@ -481,6 +418,7 @@
       "city": "McGehee",
       "task_type": "confirm_fair_dates",
       "priority": "high",
+      "priority_high_yield": false,
       "status": "open",
       "verification_status": "needs_date_confirmation",
       "suggested_urls": [
@@ -494,10 +432,12 @@
         "Desha County Fair Association Arkansas",
         "Desha County Fair Facebook 2026",
         "Desha County Fair 4-H Arkansas",
-        "Desha County Fair Extension Arkansas"
+        "Desha County Fair Extension Arkansas",
+        "Desha County Fair chamber tourism Arkansas 2026",
+        "Desha County Fair local news calendar 2026"
       ],
       "notes": "No verified 2026 dates found from public official or guide sources for Desha County.",
-      "created_at": "2026-06-21T16:45:11.028Z"
+      "created_at": "2026-06-21T16:59:20.592Z"
     },
     {
       "id": "research-drew-county-fair",
@@ -507,6 +447,7 @@
       "city": "Monticello",
       "task_type": "confirm_fair_dates",
       "priority": "high",
+      "priority_high_yield": false,
       "status": "open",
       "verification_status": "needs_date_confirmation",
       "suggested_urls": [
@@ -520,36 +461,12 @@
         "Drew County Fair Association Arkansas",
         "Drew County Fair Facebook 2026",
         "Drew County Fair 4-H Arkansas",
-        "Drew County Fair Extension Arkansas"
+        "Drew County Fair Extension Arkansas",
+        "Drew County Fair chamber tourism Arkansas 2026",
+        "Drew County Fair local news calendar 2026"
       ],
       "notes": "No verified 2026 dates found from public official or guide sources for Drew County.",
-      "created_at": "2026-06-21T16:45:11.028Z"
-    },
-    {
-      "id": "research-faulkner-county-fair",
-      "fair_id": "faulkner-county-fair",
-      "fair_name": "Faulkner County Fair",
-      "county": "Faulkner",
-      "city": "Conway",
-      "task_type": "confirm_fair_dates",
-      "priority": "high",
-      "status": "open",
-      "verification_status": "needs_date_confirmation",
-      "suggested_urls": [
-        "https://cofairs.com/arkansas/faulkner-county-fair"
-      ],
-      "suggested_queries": [
-        "Faulkner County Fair 2026 Arkansas",
-        "Faulkner County Fairgrounds 2026",
-        "Faulkner County Fair livestock show 2026",
-        "Faulkner County Fair schedule Arkansas",
-        "Faulkner County Fair Association Arkansas",
-        "Faulkner County Fair Facebook 2026",
-        "Faulkner County Fair 4-H Arkansas",
-        "Faulkner County Fair Extension Arkansas"
-      ],
-      "notes": "No verified 2026 dates found from public official or guide sources for Faulkner County.",
-      "created_at": "2026-06-21T16:45:11.028Z"
+      "created_at": "2026-06-21T16:59:20.592Z"
     },
     {
       "id": "research-franklin-county-fair",
@@ -559,6 +476,7 @@
       "city": "Ozark",
       "task_type": "confirm_fair_dates",
       "priority": "high",
+      "priority_high_yield": false,
       "status": "open",
       "verification_status": "needs_date_confirmation",
       "suggested_urls": [
@@ -572,10 +490,12 @@
         "Franklin County Fair Association Arkansas",
         "Franklin County Fair Facebook 2026",
         "Franklin County Fair 4-H Arkansas",
-        "Franklin County Fair Extension Arkansas"
+        "Franklin County Fair Extension Arkansas",
+        "Franklin County Fair chamber tourism Arkansas 2026",
+        "Franklin County Fair local news calendar 2026"
       ],
       "notes": "No verified 2026 dates found from public official or guide sources for Franklin County.",
-      "created_at": "2026-06-21T16:45:11.028Z"
+      "created_at": "2026-06-21T16:59:20.592Z"
     },
     {
       "id": "research-grant-county-fair",
@@ -585,6 +505,7 @@
       "city": "Sheridan",
       "task_type": "confirm_fair_dates",
       "priority": "high",
+      "priority_high_yield": false,
       "status": "open",
       "verification_status": "needs_date_confirmation",
       "suggested_urls": [
@@ -598,36 +519,12 @@
         "Grant County Fair Association Arkansas",
         "Grant County Fair Facebook 2026",
         "Grant County Fair 4-H Arkansas",
-        "Grant County Fair Extension Arkansas"
+        "Grant County Fair Extension Arkansas",
+        "Grant County Fair chamber tourism Arkansas 2026",
+        "Grant County Fair local news calendar 2026"
       ],
       "notes": "No verified 2026 dates found from public official or guide sources for Grant County.",
-      "created_at": "2026-06-21T16:45:11.028Z"
-    },
-    {
-      "id": "research-greene-county-fair",
-      "fair_id": "greene-county-fair",
-      "fair_name": "Greene County Fair",
-      "county": "Greene",
-      "city": "Paragould",
-      "task_type": "confirm_fair_dates",
-      "priority": "high",
-      "status": "open",
-      "verification_status": "needs_date_confirmation",
-      "suggested_urls": [
-        "https://cofairs.com/arkansas/greene-county-fair"
-      ],
-      "suggested_queries": [
-        "Greene County Fair 2026 Arkansas",
-        "Greene County Fairgrounds 2026",
-        "Greene County Fair livestock show 2026",
-        "Greene County Fair schedule Arkansas",
-        "Greene County Fair Association Arkansas",
-        "Greene County Fair Facebook 2026",
-        "Greene County Fair 4-H Arkansas",
-        "Greene County Fair Extension Arkansas"
-      ],
-      "notes": "No verified 2026 dates found from public official or guide sources for Greene County.",
-      "created_at": "2026-06-21T16:45:11.028Z"
+      "created_at": "2026-06-21T16:59:20.592Z"
     },
     {
       "id": "research-hempstead-county-fair",
@@ -636,7 +533,8 @@
       "county": "Hempstead",
       "city": "Hope",
       "task_type": "confirm_fair_dates",
-      "priority": "high",
+      "priority": "critical",
+      "priority_high_yield": true,
       "status": "open",
       "verification_status": "needs_date_confirmation",
       "suggested_urls": [
@@ -650,36 +548,12 @@
         "Hempstead County Fair Association Arkansas",
         "Hempstead County Fair Facebook 2026",
         "Hempstead County Fair 4-H Arkansas",
-        "Hempstead County Fair Extension Arkansas"
+        "Hempstead County Fair Extension Arkansas",
+        "Hempstead County Fair chamber tourism Arkansas 2026",
+        "Hempstead County Fair local news calendar 2026"
       ],
       "notes": "No verified 2026 dates found from public official or guide sources for Hempstead County.",
-      "created_at": "2026-06-21T16:45:11.028Z"
-    },
-    {
-      "id": "research-hot-spring-county-fair",
-      "fair_id": "hot-spring-county-fair",
-      "fair_name": "Hot Spring County Fair",
-      "county": "Hot Spring",
-      "city": "Malvern",
-      "task_type": "confirm_fair_dates",
-      "priority": "high",
-      "status": "open",
-      "verification_status": "needs_date_confirmation",
-      "suggested_urls": [
-        "https://cofairs.com/arkansas/hot-spring-county-fair"
-      ],
-      "suggested_queries": [
-        "Hot Spring County Fair 2026 Arkansas",
-        "Hot Spring County Fairgrounds 2026",
-        "Hot Spring County Fair livestock show 2026",
-        "Hot Spring County Fair schedule Arkansas",
-        "Hot Spring County Fair Association Arkansas",
-        "Hot Spring County Fair Facebook 2026",
-        "Hot Spring County Fair 4-H Arkansas",
-        "Hot Spring County Fair Extension Arkansas"
-      ],
-      "notes": "No verified 2026 dates found from public official or guide sources for Hot Spring County.",
-      "created_at": "2026-06-21T16:45:11.028Z"
+      "created_at": "2026-06-21T16:59:20.592Z"
     },
     {
       "id": "research-izard-county-fair",
@@ -689,6 +563,7 @@
       "city": "Melbourne",
       "task_type": "confirm_fair_dates",
       "priority": "high",
+      "priority_high_yield": false,
       "status": "open",
       "verification_status": "needs_date_confirmation",
       "suggested_urls": [
@@ -702,10 +577,12 @@
         "Izard County Fair Association Arkansas",
         "Izard County Fair Facebook 2026",
         "Izard County Fair 4-H Arkansas",
-        "Izard County Fair Extension Arkansas"
+        "Izard County Fair Extension Arkansas",
+        "Izard County Fair chamber tourism Arkansas 2026",
+        "Izard County Fair local news calendar 2026"
       ],
       "notes": "No verified 2026 dates found from public official or guide sources for Izard County.",
-      "created_at": "2026-06-21T16:45:11.028Z"
+      "created_at": "2026-06-21T16:59:20.592Z"
     },
     {
       "id": "research-jackson-county-fair",
@@ -715,6 +592,7 @@
       "city": "Newport",
       "task_type": "confirm_fair_dates",
       "priority": "high",
+      "priority_high_yield": false,
       "status": "open",
       "verification_status": "needs_date_confirmation",
       "suggested_urls": [
@@ -728,10 +606,12 @@
         "Jackson County Fair Association Arkansas",
         "Jackson County Fair Facebook 2026",
         "Jackson County Fair 4-H Arkansas",
-        "Jackson County Fair Extension Arkansas"
+        "Jackson County Fair Extension Arkansas",
+        "Jackson County Fair chamber tourism Arkansas 2026",
+        "Jackson County Fair local news calendar 2026"
       ],
       "notes": "No verified 2026 dates found from public official or guide sources for Jackson County.",
-      "created_at": "2026-06-21T16:45:11.028Z"
+      "created_at": "2026-06-21T16:59:20.592Z"
     },
     {
       "id": "research-jefferson-county-fair",
@@ -741,6 +621,7 @@
       "city": "Pine Bluff",
       "task_type": "confirm_fair_dates",
       "priority": "high",
+      "priority_high_yield": false,
       "status": "open",
       "verification_status": "needs_date_confirmation",
       "suggested_urls": [
@@ -754,36 +635,12 @@
         "Jefferson County Fair Association Arkansas",
         "Jefferson County Fair Facebook 2026",
         "Jefferson County Fair 4-H Arkansas",
-        "Jefferson County Fair Extension Arkansas"
+        "Jefferson County Fair Extension Arkansas",
+        "Jefferson County Fair chamber tourism Arkansas 2026",
+        "Jefferson County Fair local news calendar 2026"
       ],
       "notes": "No verified 2026 dates found from public official or guide sources for Jefferson County.",
-      "created_at": "2026-06-21T16:45:11.028Z"
-    },
-    {
-      "id": "research-johnson-county-fair",
-      "fair_id": "johnson-county-fair",
-      "fair_name": "Johnson County Fair",
-      "county": "Johnson",
-      "city": "Clarksville",
-      "task_type": "confirm_fair_dates",
-      "priority": "high",
-      "status": "open",
-      "verification_status": "needs_date_confirmation",
-      "suggested_urls": [
-        "https://cofairs.com/arkansas/johnson-county-fair"
-      ],
-      "suggested_queries": [
-        "Johnson County Fair 2026 Arkansas",
-        "Johnson County Fairgrounds 2026",
-        "Johnson County Fair livestock show 2026",
-        "Johnson County Fair schedule Arkansas",
-        "Johnson County Fair Association Arkansas",
-        "Johnson County Fair Facebook 2026",
-        "Johnson County Fair 4-H Arkansas",
-        "Johnson County Fair Extension Arkansas"
-      ],
-      "notes": "No verified 2026 dates found from public official or guide sources for Johnson County.",
-      "created_at": "2026-06-21T16:45:11.028Z"
+      "created_at": "2026-06-21T16:59:20.592Z"
     },
     {
       "id": "research-lafayette-county-fair",
@@ -793,6 +650,7 @@
       "city": "Lewisville",
       "task_type": "confirm_fair_dates",
       "priority": "high",
+      "priority_high_yield": false,
       "status": "open",
       "verification_status": "needs_date_confirmation",
       "suggested_urls": [
@@ -806,10 +664,12 @@
         "Lafayette County Fair Association Arkansas",
         "Lafayette County Fair Facebook 2026",
         "Lafayette County Fair 4-H Arkansas",
-        "Lafayette County Fair Extension Arkansas"
+        "Lafayette County Fair Extension Arkansas",
+        "Lafayette County Fair chamber tourism Arkansas 2026",
+        "Lafayette County Fair local news calendar 2026"
       ],
       "notes": "No verified 2026 dates found from public official or guide sources for Lafayette County.",
-      "created_at": "2026-06-21T16:45:11.028Z"
+      "created_at": "2026-06-21T16:59:20.592Z"
     },
     {
       "id": "research-lawrence-county-fair",
@@ -819,6 +679,7 @@
       "city": "Imboden",
       "task_type": "confirm_fair_dates",
       "priority": "high",
+      "priority_high_yield": false,
       "status": "open",
       "verification_status": "needs_date_confirmation",
       "suggested_urls": [
@@ -832,10 +693,12 @@
         "Lawrence County Fair Association Arkansas",
         "Lawrence County Fair Facebook 2026",
         "Lawrence County Fair 4-H Arkansas",
-        "Lawrence County Fair Extension Arkansas"
+        "Lawrence County Fair Extension Arkansas",
+        "Lawrence County Fair chamber tourism Arkansas 2026",
+        "Lawrence County Fair local news calendar 2026"
       ],
       "notes": "No verified 2026 dates found from public official or guide sources for Lawrence County.",
-      "created_at": "2026-06-21T16:45:11.028Z"
+      "created_at": "2026-06-21T16:59:20.592Z"
     },
     {
       "id": "research-lee-county-fair",
@@ -845,6 +708,7 @@
       "city": "Marianna",
       "task_type": "confirm_fair_dates",
       "priority": "high",
+      "priority_high_yield": false,
       "status": "open",
       "verification_status": "needs_date_confirmation",
       "suggested_urls": [
@@ -858,10 +722,12 @@
         "Lee County Fair Association Arkansas",
         "Lee County Fair Facebook 2026",
         "Lee County Fair 4-H Arkansas",
-        "Lee County Fair Extension Arkansas"
+        "Lee County Fair Extension Arkansas",
+        "Lee County Fair chamber tourism Arkansas 2026",
+        "Lee County Fair local news calendar 2026"
       ],
       "notes": "No verified 2026 dates found from public official or guide sources for Lee County.",
-      "created_at": "2026-06-21T16:45:11.028Z"
+      "created_at": "2026-06-21T16:59:20.592Z"
     },
     {
       "id": "research-lincoln-county-fair",
@@ -871,6 +737,7 @@
       "city": "Star City",
       "task_type": "confirm_fair_dates",
       "priority": "high",
+      "priority_high_yield": false,
       "status": "open",
       "verification_status": "needs_date_confirmation",
       "suggested_urls": [
@@ -884,10 +751,12 @@
         "Lincoln County Fair Association Arkansas",
         "Lincoln County Fair Facebook 2026",
         "Lincoln County Fair 4-H Arkansas",
-        "Lincoln County Fair Extension Arkansas"
+        "Lincoln County Fair Extension Arkansas",
+        "Lincoln County Fair chamber tourism Arkansas 2026",
+        "Lincoln County Fair local news calendar 2026"
       ],
       "notes": "No verified 2026 dates found from public official or guide sources for Lincoln County.",
-      "created_at": "2026-06-21T16:45:11.028Z"
+      "created_at": "2026-06-21T16:59:20.592Z"
     },
     {
       "id": "research-little-river-county-fair",
@@ -897,6 +766,7 @@
       "city": "Ashdown",
       "task_type": "confirm_fair_dates",
       "priority": "high",
+      "priority_high_yield": false,
       "status": "open",
       "verification_status": "needs_date_confirmation",
       "suggested_urls": [
@@ -910,10 +780,12 @@
         "Little River County Fair Association Arkansas",
         "Little River County Fair Facebook 2026",
         "Little River County Fair 4-H Arkansas",
-        "Little River County Fair Extension Arkansas"
+        "Little River County Fair Extension Arkansas",
+        "Little River County Fair chamber tourism Arkansas 2026",
+        "Little River County Fair local news calendar 2026"
       ],
       "notes": "No verified 2026 dates found from public official or guide sources for Little River County.",
-      "created_at": "2026-06-21T16:45:11.028Z"
+      "created_at": "2026-06-21T16:59:20.592Z"
     },
     {
       "id": "research-logan-county-fair",
@@ -923,6 +795,7 @@
       "city": "Paris",
       "task_type": "confirm_fair_dates",
       "priority": "high",
+      "priority_high_yield": false,
       "status": "open",
       "verification_status": "needs_date_confirmation",
       "suggested_urls": [
@@ -936,36 +809,12 @@
         "Logan County Fair Association Arkansas",
         "Logan County Fair Facebook 2026",
         "Logan County Fair 4-H Arkansas",
-        "Logan County Fair Extension Arkansas"
+        "Logan County Fair Extension Arkansas",
+        "Logan County Fair chamber tourism Arkansas 2026",
+        "Logan County Fair local news calendar 2026"
       ],
       "notes": "No verified 2026 dates found from public official or guide sources for Logan County.",
-      "created_at": "2026-06-21T16:45:11.028Z"
-    },
-    {
-      "id": "research-madison-county-fair",
-      "fair_id": "madison-county-fair",
-      "fair_name": "Madison County Fair",
-      "county": "Madison",
-      "city": "Huntsville",
-      "task_type": "confirm_fair_dates",
-      "priority": "high",
-      "status": "open",
-      "verification_status": "needs_date_confirmation",
-      "suggested_urls": [
-        "https://cofairs.com/arkansas/madison-county-fair"
-      ],
-      "suggested_queries": [
-        "Madison County Fair 2026 Arkansas",
-        "Madison County Fairgrounds 2026",
-        "Madison County Fair livestock show 2026",
-        "Madison County Fair schedule Arkansas",
-        "Madison County Fair Association Arkansas",
-        "Madison County Fair Facebook 2026",
-        "Madison County Fair 4-H Arkansas",
-        "Madison County Fair Extension Arkansas"
-      ],
-      "notes": "No verified 2026 dates found from public official or guide sources for Madison County.",
-      "created_at": "2026-06-21T16:45:11.028Z"
+      "created_at": "2026-06-21T16:59:20.593Z"
     },
     {
       "id": "research-marion-county-fair",
@@ -975,6 +824,7 @@
       "city": "Summit",
       "task_type": "confirm_fair_dates",
       "priority": "high",
+      "priority_high_yield": false,
       "status": "open",
       "verification_status": "needs_date_confirmation",
       "suggested_urls": [
@@ -988,10 +838,12 @@
         "Marion County Fair Association Arkansas",
         "Marion County Fair Facebook 2026",
         "Marion County Fair 4-H Arkansas",
-        "Marion County Fair Extension Arkansas"
+        "Marion County Fair Extension Arkansas",
+        "Marion County Fair chamber tourism Arkansas 2026",
+        "Marion County Fair local news calendar 2026"
       ],
       "notes": "No verified 2026 dates found from public official or guide sources for Marion County.",
-      "created_at": "2026-06-21T16:45:11.028Z"
+      "created_at": "2026-06-21T16:59:20.593Z"
     },
     {
       "id": "research-miller-county-fair",
@@ -1001,6 +853,7 @@
       "city": "Fouke",
       "task_type": "confirm_fair_dates",
       "priority": "high",
+      "priority_high_yield": false,
       "status": "open",
       "verification_status": "needs_date_confirmation",
       "suggested_urls": [
@@ -1014,10 +867,12 @@
         "Miller County Fair Association Arkansas",
         "Miller County Fair Facebook 2026",
         "Miller County Fair 4-H Arkansas",
-        "Miller County Fair Extension Arkansas"
+        "Miller County Fair Extension Arkansas",
+        "Miller County Fair chamber tourism Arkansas 2026",
+        "Miller County Fair local news calendar 2026"
       ],
       "notes": "No verified 2026 dates found from public official or guide sources for Miller County.",
-      "created_at": "2026-06-21T16:45:11.028Z"
+      "created_at": "2026-06-21T16:59:20.593Z"
     },
     {
       "id": "research-mississippi-county-fair",
@@ -1027,6 +882,7 @@
       "city": "Osceola",
       "task_type": "confirm_fair_dates",
       "priority": "high",
+      "priority_high_yield": false,
       "status": "open",
       "verification_status": "needs_date_confirmation",
       "suggested_urls": [
@@ -1040,10 +896,12 @@
         "Mississippi County Fair Association Arkansas",
         "Mississippi County Fair Facebook 2026",
         "Mississippi County Fair 4-H Arkansas",
-        "Mississippi County Fair Extension Arkansas"
+        "Mississippi County Fair Extension Arkansas",
+        "Mississippi County Fair chamber tourism Arkansas 2026",
+        "Mississippi County Fair local news calendar 2026"
       ],
       "notes": "No verified 2026 dates found from public official or guide sources for Mississippi County.",
-      "created_at": "2026-06-21T16:45:11.028Z"
+      "created_at": "2026-06-21T16:59:20.593Z"
     },
     {
       "id": "research-monroe-county-fair",
@@ -1053,6 +911,7 @@
       "city": "Clarendon",
       "task_type": "confirm_fair_dates",
       "priority": "high",
+      "priority_high_yield": false,
       "status": "open",
       "verification_status": "needs_date_confirmation",
       "suggested_urls": [
@@ -1066,10 +925,12 @@
         "Monroe County Fair Association Arkansas",
         "Monroe County Fair Facebook 2026",
         "Monroe County Fair 4-H Arkansas",
-        "Monroe County Fair Extension Arkansas"
+        "Monroe County Fair Extension Arkansas",
+        "Monroe County Fair chamber tourism Arkansas 2026",
+        "Monroe County Fair local news calendar 2026"
       ],
       "notes": "No verified 2026 dates found from public official or guide sources for Monroe County.",
-      "created_at": "2026-06-21T16:45:11.028Z"
+      "created_at": "2026-06-21T16:59:20.593Z"
     },
     {
       "id": "research-montgomery-county-fair",
@@ -1079,6 +940,7 @@
       "city": "Mount Ida",
       "task_type": "confirm_fair_dates",
       "priority": "high",
+      "priority_high_yield": false,
       "status": "open",
       "verification_status": "needs_date_confirmation",
       "suggested_urls": [
@@ -1092,10 +954,12 @@
         "Montgomery County Fair Association Arkansas",
         "Montgomery County Fair Facebook 2026",
         "Montgomery County Fair 4-H Arkansas",
-        "Montgomery County Fair Extension Arkansas"
+        "Montgomery County Fair Extension Arkansas",
+        "Montgomery County Fair chamber tourism Arkansas 2026",
+        "Montgomery County Fair local news calendar 2026"
       ],
       "notes": "No verified 2026 dates found from public official or guide sources for Montgomery County.",
-      "created_at": "2026-06-21T16:45:11.028Z"
+      "created_at": "2026-06-21T16:59:20.593Z"
     },
     {
       "id": "research-nevada-county-fair",
@@ -1105,6 +969,7 @@
       "city": "Prescott",
       "task_type": "confirm_fair_dates",
       "priority": "high",
+      "priority_high_yield": false,
       "status": "open",
       "verification_status": "needs_date_confirmation",
       "suggested_urls": [
@@ -1118,36 +983,12 @@
         "Nevada County Fair Association Arkansas",
         "Nevada County Fair Facebook 2026",
         "Nevada County Fair 4-H Arkansas",
-        "Nevada County Fair Extension Arkansas"
+        "Nevada County Fair Extension Arkansas",
+        "Nevada County Fair chamber tourism Arkansas 2026",
+        "Nevada County Fair local news calendar 2026"
       ],
       "notes": "No verified 2026 dates found from public official or guide sources for Nevada County.",
-      "created_at": "2026-06-21T16:45:11.028Z"
-    },
-    {
-      "id": "research-newton-county-fair",
-      "fair_id": "newton-county-fair",
-      "fair_name": "Newton County Fair",
-      "county": "Newton",
-      "city": "Jasper",
-      "task_type": "confirm_fair_dates",
-      "priority": "high",
-      "status": "open",
-      "verification_status": "needs_date_confirmation",
-      "suggested_urls": [
-        "https://cofairs.com/arkansas/newton-county-fair"
-      ],
-      "suggested_queries": [
-        "Newton County Fair 2026 Arkansas",
-        "Newton County Fairgrounds 2026",
-        "Newton County Fair livestock show 2026",
-        "Newton County Fair schedule Arkansas",
-        "Newton County Fair Association Arkansas",
-        "Newton County Fair Facebook 2026",
-        "Newton County Fair 4-H Arkansas",
-        "Newton County Fair Extension Arkansas"
-      ],
-      "notes": "No verified 2026 dates found from public official or guide sources for Newton County.",
-      "created_at": "2026-06-21T16:45:11.028Z"
+      "created_at": "2026-06-21T16:59:20.593Z"
     },
     {
       "id": "research-ouachita-county-fair",
@@ -1157,6 +998,7 @@
       "city": "Camden",
       "task_type": "confirm_fair_dates",
       "priority": "high",
+      "priority_high_yield": false,
       "status": "open",
       "verification_status": "needs_date_confirmation",
       "suggested_urls": [
@@ -1170,10 +1012,12 @@
         "Ouachita County Fair Association Arkansas",
         "Ouachita County Fair Facebook 2026",
         "Ouachita County Fair 4-H Arkansas",
-        "Ouachita County Fair Extension Arkansas"
+        "Ouachita County Fair Extension Arkansas",
+        "Ouachita County Fair chamber tourism Arkansas 2026",
+        "Ouachita County Fair local news calendar 2026"
       ],
       "notes": "No verified 2026 dates found from public official or guide sources for Ouachita County.",
-      "created_at": "2026-06-21T16:45:11.028Z"
+      "created_at": "2026-06-21T16:59:20.593Z"
     },
     {
       "id": "research-perry-county-fair",
@@ -1183,6 +1027,7 @@
       "city": "Perryville",
       "task_type": "confirm_fair_dates",
       "priority": "high",
+      "priority_high_yield": false,
       "status": "open",
       "verification_status": "needs_date_confirmation",
       "suggested_urls": [
@@ -1196,10 +1041,12 @@
         "Perry County Fair Association Arkansas",
         "Perry County Fair Facebook 2026",
         "Perry County Fair 4-H Arkansas",
-        "Perry County Fair Extension Arkansas"
+        "Perry County Fair Extension Arkansas",
+        "Perry County Fair chamber tourism Arkansas 2026",
+        "Perry County Fair local news calendar 2026"
       ],
       "notes": "No verified 2026 dates found from public official or guide sources for Perry County.",
-      "created_at": "2026-06-21T16:45:11.028Z"
+      "created_at": "2026-06-21T16:59:20.593Z"
     },
     {
       "id": "research-phillips-county-fair",
@@ -1209,6 +1056,7 @@
       "city": "Helena-West Helena",
       "task_type": "confirm_fair_dates",
       "priority": "high",
+      "priority_high_yield": false,
       "status": "open",
       "verification_status": "needs_date_confirmation",
       "suggested_urls": [
@@ -1222,10 +1070,12 @@
         "Phillips County Fair Association Arkansas",
         "Phillips County Fair Facebook 2026",
         "Phillips County Fair 4-H Arkansas",
-        "Phillips County Fair Extension Arkansas"
+        "Phillips County Fair Extension Arkansas",
+        "Phillips County Fair chamber tourism Arkansas 2026",
+        "Phillips County Fair local news calendar 2026"
       ],
       "notes": "No verified 2026 dates found from public official or guide sources for Phillips County.",
-      "created_at": "2026-06-21T16:45:11.028Z"
+      "created_at": "2026-06-21T16:59:20.593Z"
     },
     {
       "id": "research-pike-county-fair",
@@ -1235,6 +1085,7 @@
       "city": "Glenwood",
       "task_type": "confirm_fair_dates",
       "priority": "high",
+      "priority_high_yield": false,
       "status": "open",
       "verification_status": "needs_date_confirmation",
       "suggested_urls": [
@@ -1248,10 +1099,12 @@
         "Pike County Fair Association Arkansas",
         "Pike County Fair Facebook 2026",
         "Pike County Fair 4-H Arkansas",
-        "Pike County Fair Extension Arkansas"
+        "Pike County Fair Extension Arkansas",
+        "Pike County Fair chamber tourism Arkansas 2026",
+        "Pike County Fair local news calendar 2026"
       ],
       "notes": "No verified 2026 dates found from public official or guide sources for Pike County.",
-      "created_at": "2026-06-21T16:45:11.028Z"
+      "created_at": "2026-06-21T16:59:20.593Z"
     },
     {
       "id": "research-poinsett-county-fair",
@@ -1261,6 +1114,7 @@
       "city": "Harrisburg",
       "task_type": "confirm_fair_dates",
       "priority": "high",
+      "priority_high_yield": false,
       "status": "open",
       "verification_status": "needs_date_confirmation",
       "suggested_urls": [
@@ -1274,10 +1128,12 @@
         "Poinsett County Fair Association Arkansas",
         "Poinsett County Fair Facebook 2026",
         "Poinsett County Fair 4-H Arkansas",
-        "Poinsett County Fair Extension Arkansas"
+        "Poinsett County Fair Extension Arkansas",
+        "Poinsett County Fair chamber tourism Arkansas 2026",
+        "Poinsett County Fair local news calendar 2026"
       ],
       "notes": "No verified 2026 dates found from public official or guide sources for Poinsett County.",
-      "created_at": "2026-06-21T16:45:11.028Z"
+      "created_at": "2026-06-21T16:59:20.593Z"
     },
     {
       "id": "research-polk-county-fair",
@@ -1287,6 +1143,7 @@
       "city": "Mena",
       "task_type": "confirm_fair_dates",
       "priority": "high",
+      "priority_high_yield": false,
       "status": "open",
       "verification_status": "needs_date_confirmation",
       "suggested_urls": [
@@ -1300,37 +1157,12 @@
         "Polk County Fair Association Arkansas",
         "Polk County Fair Facebook 2026",
         "Polk County Fair 4-H Arkansas",
-        "Polk County Fair Extension Arkansas"
+        "Polk County Fair Extension Arkansas",
+        "Polk County Fair chamber tourism Arkansas 2026",
+        "Polk County Fair local news calendar 2026"
       ],
       "notes": "No verified 2026 dates found from public official or guide sources for Polk County.",
-      "created_at": "2026-06-21T16:45:11.028Z"
-    },
-    {
-      "id": "research-pulaski-county-fair",
-      "fair_id": "pulaski-county-fair",
-      "fair_name": "Pulaski County Fair",
-      "county": "Pulaski",
-      "city": "North Little Rock",
-      "task_type": "confirm_fair_dates",
-      "priority": "medium",
-      "status": "open",
-      "verification_status": "needs_date_confirmation",
-      "suggested_urls": [
-        "https://www.pulaskicountyfair.com/",
-        "https://cofairs.com/arkansas/pulaski-county-fair"
-      ],
-      "suggested_queries": [
-        "Pulaski County Fair 2026 Arkansas",
-        "Pulaski County Fairgrounds 2026",
-        "Pulaski County Fair livestock show 2026",
-        "Pulaski County Fair schedule Arkansas",
-        "Pulaski County Fair Association Arkansas",
-        "Pulaski County Fair Facebook 2026",
-        "Pulaski County Fair 4-H Arkansas",
-        "Pulaski County Fair Extension Arkansas"
-      ],
-      "notes": "No verified 2026 dates found from public official or guide sources for Pulaski County.",
-      "created_at": "2026-06-21T16:45:11.028Z"
+      "created_at": "2026-06-21T16:59:20.593Z"
     },
     {
       "id": "research-randolph-county-fair",
@@ -1340,6 +1172,7 @@
       "city": "Pocahontas",
       "task_type": "confirm_fair_dates",
       "priority": "high",
+      "priority_high_yield": false,
       "status": "open",
       "verification_status": "needs_date_confirmation",
       "suggested_urls": [
@@ -1353,37 +1186,12 @@
         "Randolph County Fair Association Arkansas",
         "Randolph County Fair Facebook 2026",
         "Randolph County Fair 4-H Arkansas",
-        "Randolph County Fair Extension Arkansas"
+        "Randolph County Fair Extension Arkansas",
+        "Randolph County Fair chamber tourism Arkansas 2026",
+        "Randolph County Fair local news calendar 2026"
       ],
       "notes": "No verified 2026 dates found from public official or guide sources for Randolph County.",
-      "created_at": "2026-06-21T16:45:11.028Z"
-    },
-    {
-      "id": "research-saline-county-fair",
-      "fair_id": "saline-county-fair",
-      "fair_name": "Saline County Fair",
-      "county": "Saline",
-      "city": "Benton",
-      "task_type": "confirm_fair_dates",
-      "priority": "medium",
-      "status": "open",
-      "verification_status": "needs_date_confirmation",
-      "suggested_urls": [
-        "https://www.salinecountyfair.com/",
-        "https://cofairs.com/arkansas/saline-county-fair"
-      ],
-      "suggested_queries": [
-        "Saline County Fair 2026 Arkansas",
-        "Saline County Fairgrounds 2026",
-        "Saline County Fair livestock show 2026",
-        "Saline County Fair schedule Arkansas",
-        "Saline County Fair Association Arkansas",
-        "Saline County Fair Facebook 2026",
-        "Saline County Fair 4-H Arkansas",
-        "Saline County Fair Extension Arkansas"
-      ],
-      "notes": "No verified 2026 dates found from public official or guide sources for Saline County.",
-      "created_at": "2026-06-21T16:45:11.028Z"
+      "created_at": "2026-06-21T16:59:20.593Z"
     },
     {
       "id": "research-scott-county-fair",
@@ -1393,6 +1201,7 @@
       "city": "Waldron",
       "task_type": "confirm_fair_dates",
       "priority": "high",
+      "priority_high_yield": false,
       "status": "open",
       "verification_status": "needs_date_confirmation",
       "suggested_urls": [
@@ -1406,63 +1215,12 @@
         "Scott County Fair Association Arkansas",
         "Scott County Fair Facebook 2026",
         "Scott County Fair 4-H Arkansas",
-        "Scott County Fair Extension Arkansas"
+        "Scott County Fair Extension Arkansas",
+        "Scott County Fair chamber tourism Arkansas 2026",
+        "Scott County Fair local news calendar 2026"
       ],
       "notes": "No verified 2026 dates found from public official or guide sources for Scott County.",
-      "created_at": "2026-06-21T16:45:11.028Z"
-    },
-    {
-      "id": "research-searcy-county-fair",
-      "fair_id": "searcy-county-fair",
-      "fair_name": "Searcy County Fair",
-      "county": "Searcy",
-      "city": "Marshall",
-      "task_type": "confirm_fair_dates",
-      "priority": "high",
-      "status": "open",
-      "verification_status": "needs_date_confirmation",
-      "suggested_urls": [
-        "https://cofairs.com/arkansas/searcy-county-fair"
-      ],
-      "suggested_queries": [
-        "Searcy County Fair 2026 Arkansas",
-        "Searcy County Fairgrounds 2026",
-        "Searcy County Fair livestock show 2026",
-        "Searcy County Fair schedule Arkansas",
-        "Searcy County Fair Association Arkansas",
-        "Searcy County Fair Facebook 2026",
-        "Searcy County Fair 4-H Arkansas",
-        "Searcy County Fair Extension Arkansas"
-      ],
-      "notes": "No verified 2026 dates found from public official or guide sources for Searcy County.",
-      "created_at": "2026-06-21T16:45:11.028Z"
-    },
-    {
-      "id": "research-sebastian-county-fair",
-      "fair_id": "sebastian-county-fair",
-      "fair_name": "Sebastian County Fair",
-      "county": "Sebastian",
-      "city": "Greenwood",
-      "task_type": "confirm_fair_dates",
-      "priority": "medium",
-      "status": "open",
-      "verification_status": "needs_date_confirmation",
-      "suggested_urls": [
-        "https://www.sebastiancountyfair.com/",
-        "https://cofairs.com/arkansas/sebastian-county-fair"
-      ],
-      "suggested_queries": [
-        "Sebastian County Fair 2026 Arkansas",
-        "Sebastian County Fairgrounds 2026",
-        "Sebastian County Fair livestock show 2026",
-        "Sebastian County Fair schedule Arkansas",
-        "Sebastian County Fair Association Arkansas",
-        "Sebastian County Fair Facebook 2026",
-        "Sebastian County Fair 4-H Arkansas",
-        "Sebastian County Fair Extension Arkansas"
-      ],
-      "notes": "No verified 2026 dates found from public official or guide sources for Sebastian County.",
-      "created_at": "2026-06-21T16:45:11.028Z"
+      "created_at": "2026-06-21T16:59:20.593Z"
     },
     {
       "id": "research-sevier-county-fair",
@@ -1472,6 +1230,7 @@
       "city": "De Queen",
       "task_type": "confirm_fair_dates",
       "priority": "high",
+      "priority_high_yield": false,
       "status": "open",
       "verification_status": "needs_date_confirmation",
       "suggested_urls": [
@@ -1485,10 +1244,12 @@
         "Sevier County Fair Association Arkansas",
         "Sevier County Fair Facebook 2026",
         "Sevier County Fair 4-H Arkansas",
-        "Sevier County Fair Extension Arkansas"
+        "Sevier County Fair Extension Arkansas",
+        "Sevier County Fair chamber tourism Arkansas 2026",
+        "Sevier County Fair local news calendar 2026"
       ],
       "notes": "No verified 2026 dates found from public official or guide sources for Sevier County.",
-      "created_at": "2026-06-21T16:45:11.028Z"
+      "created_at": "2026-06-21T16:59:20.593Z"
     },
     {
       "id": "research-stone-county-fair",
@@ -1498,6 +1259,7 @@
       "city": "Mountain View",
       "task_type": "confirm_fair_dates",
       "priority": "high",
+      "priority_high_yield": false,
       "status": "open",
       "verification_status": "needs_date_confirmation",
       "suggested_urls": [
@@ -1511,90 +1273,12 @@
         "Stone County Fair Association Arkansas",
         "Stone County Fair Facebook 2026",
         "Stone County Fair 4-H Arkansas",
-        "Stone County Fair Extension Arkansas"
+        "Stone County Fair Extension Arkansas",
+        "Stone County Fair chamber tourism Arkansas 2026",
+        "Stone County Fair local news calendar 2026"
       ],
       "notes": "No verified 2026 dates found from public official or guide sources for Stone County.",
-      "created_at": "2026-06-21T16:45:11.028Z"
-    },
-    {
-      "id": "research-union-county-fair",
-      "fair_id": "union-county-fair",
-      "fair_name": "Union County Fair",
-      "county": "Union",
-      "city": "El Dorado",
-      "task_type": "confirm_fair_dates",
-      "priority": "medium",
-      "status": "open",
-      "verification_status": "needs_date_confirmation",
-      "suggested_urls": [
-        "https://www.unioncountyfair.net/",
-        "https://cofairs.com/arkansas/union-county-fair"
-      ],
-      "suggested_queries": [
-        "Union County Fair 2026 Arkansas",
-        "Union County Fairgrounds 2026",
-        "Union County Fair livestock show 2026",
-        "Union County Fair schedule Arkansas",
-        "Union County Fair Association Arkansas",
-        "Union County Fair Facebook 2026",
-        "Union County Fair 4-H Arkansas",
-        "Union County Fair Extension Arkansas"
-      ],
-      "notes": "No verified 2026 dates found from public official or guide sources for Union County.",
-      "created_at": "2026-06-21T16:45:11.028Z"
-    },
-    {
-      "id": "research-van-buren-county-fair",
-      "fair_id": "van-buren-county-fair",
-      "fair_name": "Van Buren County Fair",
-      "county": "Van Buren",
-      "city": "Clinton",
-      "task_type": "confirm_fair_dates",
-      "priority": "high",
-      "status": "open",
-      "verification_status": "needs_date_confirmation",
-      "suggested_urls": [
-        "https://cofairs.com/arkansas/van-buren-county-fair"
-      ],
-      "suggested_queries": [
-        "Van Buren County Fair 2026 Arkansas",
-        "Van Buren County Fairgrounds 2026",
-        "Van Buren County Fair livestock show 2026",
-        "Van Buren County Fair schedule Arkansas",
-        "Van Buren County Fair Association Arkansas",
-        "Van Buren County Fair Facebook 2026",
-        "Van Buren County Fair 4-H Arkansas",
-        "Van Buren County Fair Extension Arkansas"
-      ],
-      "notes": "No verified 2026 dates found from public official or guide sources for Van Buren County.",
-      "created_at": "2026-06-21T16:45:11.028Z"
-    },
-    {
-      "id": "research-washington-county-fair",
-      "fair_id": "washington-county-fair",
-      "fair_name": "Washington County Fair",
-      "county": "Washington",
-      "city": "Fayetteville",
-      "task_type": "confirm_fair_dates",
-      "priority": "medium",
-      "status": "open",
-      "verification_status": "needs_date_confirmation",
-      "suggested_urls": [
-        "https://www.washingtoncountyfair.com/",
-        "https://cofairs.com/arkansas/washington-county-fair"
-      ],
-      "suggested_queries": [
-        "Washington County Fair 2026 Arkansas",
-        "Washington County Fairgrounds 2026",
-        "Washington County Fair livestock show 2026",
-        "Washington County Fair schedule Arkansas",
-        "Washington County Fair Association Arkansas",
-        "Washington County Fair Facebook 2026",
-        "Washington County Fair 4-H Arkansas",
-        "Washington County Fair Extension Arkansas"
-      ],
-      "notes": "No verified 2026 dates found from public official or guide sources for Washington County.",
-      "created_at": "2026-06-21T16:45:11.028Z"
+      "created_at": "2026-06-21T16:59:20.593Z"
     },
     {
       "id": "research-woodruff-county-fair",
@@ -1604,6 +1288,7 @@
       "city": "McCrory",
       "task_type": "confirm_fair_dates",
       "priority": "high",
+      "priority_high_yield": false,
       "status": "open",
       "verification_status": "needs_date_confirmation",
       "suggested_urls": [
@@ -1617,37 +1302,12 @@
         "Woodruff County Fair Association Arkansas",
         "Woodruff County Fair Facebook 2026",
         "Woodruff County Fair 4-H Arkansas",
-        "Woodruff County Fair Extension Arkansas"
+        "Woodruff County Fair Extension Arkansas",
+        "Woodruff County Fair chamber tourism Arkansas 2026",
+        "Woodruff County Fair local news calendar 2026"
       ],
       "notes": "No verified 2026 dates found from public official or guide sources for Woodruff County.",
-      "created_at": "2026-06-21T16:45:11.028Z"
-    },
-    {
-      "id": "research-arkansas-state-fair",
-      "fair_id": "arkansas-state-fair",
-      "fair_name": "Arkansas State Fair",
-      "county": "Pulaski",
-      "city": "Little Rock",
-      "task_type": "confirm_fair_dates",
-      "priority": "medium",
-      "status": "open",
-      "verification_status": "needs_date_confirmation",
-      "suggested_urls": [
-        "https://www.arkansasstatefair.com/",
-        "https://cofairs.com/arkansas/arkansas-state-fair"
-      ],
-      "suggested_queries": [
-        "Pulaski County Fair 2026 Arkansas",
-        "Pulaski County Fairgrounds 2026",
-        "Pulaski County Fair livestock show 2026",
-        "Pulaski County Fair schedule Arkansas",
-        "Pulaski County Fair Association Arkansas",
-        "Pulaski County Fair Facebook 2026",
-        "Pulaski County Fair 4-H Arkansas",
-        "Pulaski County Fair Extension Arkansas"
-      ],
-      "notes": "No verified 2026 dates found from public official or guide sources for Pulaski County.",
-      "created_at": "2026-06-21T16:45:11.028Z"
+      "created_at": "2026-06-21T16:59:20.593Z"
     },
     {
       "id": "research-nea-district-fair",
@@ -1657,6 +1317,7 @@
       "city": "Jonesboro",
       "task_type": "confirm_fair_dates",
       "priority": "high",
+      "priority_high_yield": false,
       "status": "open",
       "verification_status": "needs_date_confirmation",
       "suggested_urls": [
@@ -1670,37 +1331,12 @@
         "Craighead County Fair Association Arkansas",
         "Craighead County Fair Facebook 2026",
         "Craighead County Fair 4-H Arkansas",
-        "Craighead County Fair Extension Arkansas"
+        "Craighead County Fair Extension Arkansas",
+        "Craighead County Fair chamber tourism Arkansas 2026",
+        "Craighead County Fair local news calendar 2026"
       ],
       "notes": "No verified 2026 dates found from public official or guide sources for Craighead County.",
-      "created_at": "2026-06-21T16:45:11.028Z"
-    },
-    {
-      "id": "research-northwest-arkansas-district-fair",
-      "fair_id": "northwest-arkansas-district-fair",
-      "fair_name": "Northwest Arkansas District Fair",
-      "county": "Boone",
-      "city": "Harrison",
-      "task_type": "confirm_fair_dates",
-      "priority": "medium",
-      "status": "open",
-      "verification_status": "needs_date_confirmation",
-      "suggested_urls": [
-        "https://www.districtfair.com/",
-        "https://cofairs.com/arkansas/northwest-arkansas-district-fair"
-      ],
-      "suggested_queries": [
-        "Boone County Fair 2026 Arkansas",
-        "Boone County Fairgrounds 2026",
-        "Boone County Fair livestock show 2026",
-        "Boone County Fair schedule Arkansas",
-        "Boone County Fair Association Arkansas",
-        "Boone County Fair Facebook 2026",
-        "Boone County Fair 4-H Arkansas",
-        "Boone County Fair Extension Arkansas"
-      ],
-      "notes": "No verified 2026 dates found from public official or guide sources for Boone County.",
-      "created_at": "2026-06-21T16:45:11.028Z"
+      "created_at": "2026-06-21T16:59:20.593Z"
     },
     {
       "id": "research-three-county-fair",
@@ -1710,6 +1346,7 @@
       "city": "McCrory",
       "task_type": "confirm_fair_dates",
       "priority": "high",
+      "priority_high_yield": false,
       "status": "open",
       "verification_status": "needs_date_confirmation",
       "suggested_urls": [
@@ -1723,10 +1360,12 @@
         "Woodruff County Fair Association Arkansas",
         "Woodruff County Fair Facebook 2026",
         "Woodruff County Fair 4-H Arkansas",
-        "Woodruff County Fair Extension Arkansas"
+        "Woodruff County Fair Extension Arkansas",
+        "Woodruff County Fair chamber tourism Arkansas 2026",
+        "Woodruff County Fair local news calendar 2026"
       ],
       "notes": "No verified 2026 dates found from public official or guide sources for Woodruff County.",
-      "created_at": "2026-06-21T16:45:11.028Z"
+      "created_at": "2026-06-21T16:59:20.593Z"
     },
     {
       "id": "research-north-franklin-county-fair",
@@ -1736,6 +1375,7 @@
       "city": "Ozark",
       "task_type": "confirm_fair_dates",
       "priority": "high",
+      "priority_high_yield": false,
       "status": "open",
       "verification_status": "needs_date_confirmation",
       "suggested_urls": [
@@ -1749,36 +1389,12 @@
         "Franklin County Fair Association Arkansas",
         "Franklin County Fair Facebook 2026",
         "Franklin County Fair 4-H Arkansas",
-        "Franklin County Fair Extension Arkansas"
+        "Franklin County Fair Extension Arkansas",
+        "Franklin County Fair chamber tourism Arkansas 2026",
+        "Franklin County Fair local news calendar 2026"
       ],
       "notes": "No verified 2026 dates found from public official or guide sources for Franklin County.",
-      "created_at": "2026-06-21T16:45:11.028Z"
-    },
-    {
-      "id": "research-arkansas-oklahoma-state-fair",
-      "fair_id": "arkansas-oklahoma-state-fair",
-      "fair_name": "Arkansas Oklahoma State Fair",
-      "county": "Sebastian",
-      "city": "Fort Smith",
-      "task_type": "confirm_fair_dates",
-      "priority": "high",
-      "status": "open",
-      "verification_status": "needs_date_confirmation",
-      "suggested_urls": [
-        "https://cofairs.com/arkansas/arkansas-oklahoma-state-fair"
-      ],
-      "suggested_queries": [
-        "Sebastian County Fair 2026 Arkansas",
-        "Sebastian County Fairgrounds 2026",
-        "Sebastian County Fair livestock show 2026",
-        "Sebastian County Fair schedule Arkansas",
-        "Sebastian County Fair Association Arkansas",
-        "Sebastian County Fair Facebook 2026",
-        "Sebastian County Fair 4-H Arkansas",
-        "Sebastian County Fair Extension Arkansas"
-      ],
-      "notes": "No verified 2026 dates found from public official or guide sources for Sebastian County.",
-      "created_at": "2026-06-21T16:45:11.028Z"
+      "created_at": "2026-06-21T16:59:20.593Z"
     },
     {
       "id": "research-south-logan-county-fair",
@@ -1788,6 +1404,7 @@
       "city": "Booneville",
       "task_type": "confirm_fair_dates",
       "priority": "high",
+      "priority_high_yield": false,
       "status": "open",
       "verification_status": "needs_date_confirmation",
       "suggested_urls": [
@@ -1801,11 +1418,13 @@
         "Logan County Fair Association Arkansas",
         "Logan County Fair Facebook 2026",
         "Logan County Fair 4-H Arkansas",
-        "Logan County Fair Extension Arkansas"
+        "Logan County Fair Extension Arkansas",
+        "Logan County Fair chamber tourism Arkansas 2026",
+        "Logan County Fair local news calendar 2026"
       ],
       "notes": "No verified 2026 dates found from public official or guide sources for Logan County.",
-      "created_at": "2026-06-21T16:45:11.028Z"
+      "created_at": "2026-06-21T16:59:20.593Z"
     }
   ],
-  "openCount": 69
+  "openCount": 49
 }

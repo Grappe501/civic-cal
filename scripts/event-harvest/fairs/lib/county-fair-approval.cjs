@@ -13,6 +13,8 @@ const TRUSTED_SOURCE_TYPES = new Set([
   "official_festival_website",
   "fair_guide_page",
   "tourism_cvb_page",
+  "extension_4h_page",
+  "fair_entry_platform",
 ]);
 
 function slugify(text) {
@@ -114,7 +116,7 @@ function approveCountyFairEvents(options = {}) {
   }
 
   approved.generatedAt = new Date().toISOString();
-  approved.pass = "29";
+  approved.pass = "29C";
   saveJson(STAGED, staged);
   saveJson(APPROVED, approved);
   return { ok: true, approved: added, totalApproved: approved.events.length };

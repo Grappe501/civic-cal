@@ -82,6 +82,16 @@
       "venue": "Howard County Fairgrounds",
       "address": "1565 US-371, Nashville, AR",
       "source_url": "https://cofairs.com/arkansas/howard-county-fair"
+    },
+    {
+      "county": "Greene",
+      "fair_name": "Greene County Fair",
+      "start": "2026-09-07",
+      "end": "2026-09-12",
+      "city": "Paragould",
+      "venue": "Greene County Fairgrounds",
+      "address": "1108 Highway 49B, Paragould, AR",
+      "source_url": "https://cofairs.com/arkansas/greene-county-fair"
     }
   ]
 }
