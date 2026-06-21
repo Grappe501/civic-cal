@@ -1,0 +1,20 @@
+{
+  "generatedAt": "2026-06-21T04:13:37.706Z",
+  "harvest_window": {
+    "start": "2026-06-20",
+    "end": "2026-11-01",
+    "label": "2026-06-20 → 2026-11-01"
+  },
+  "harvest_batch": "top200-2026-11",
+  "cities_searched": 200,
+  "sources_discovered": 1400,
+  "candidate_events_staged": 0,
+  "high_value_events": 0,
+  "government_meetings": 0,
+  "church_community_events": 0,
+  "festivals_fairs": 0,
+  "school_sports_events": 0,
+  "needs_review_count": 0,
+  "failed_or_no_result_cities": [],
+  "top_25_high_value": []
+}

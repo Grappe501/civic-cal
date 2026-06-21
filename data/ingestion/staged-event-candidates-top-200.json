@@ -1,0 +1,12 @@
+{
+  "generatedAt": "2026-06-21T04:13:37.705Z",
+  "harvest_window": {
+    "start": "2026-06-20",
+    "end": "2026-11-01",
+    "label": "2026-06-20 → 2026-11-01"
+  },
+  "harvest_batch": "top200-2026-11",
+  "count": 0,
+  "review_policy": "needs_review — never auto-publish",
+  "candidates": []
+}

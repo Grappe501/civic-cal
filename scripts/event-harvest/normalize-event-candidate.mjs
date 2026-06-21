@@ -2,17 +2,19 @@
  * Normalize raw search hits or flagship/registry records into staged candidate shape.
  */
 import { enrichCandidate, inferCategory } from "./lib/layer-inference.mjs";
+import { getHarvestWindow } from "./lib/harvest-window.mjs";
 
 export function normalizeFromSearchHit(hit, ctx = {}) {
   const text = `${hit.title} ${hit.snippet || ""}`;
   const category = inferCategory(text);
-  return enrichCandidate({
+  const window = ctx.harvest_window || getHarvestWindow();
+  const enriched = enrichCandidate({
     title: hit.title?.slice(0, 500) || "Untitled discovery",
     description: hit.snippet || null,
     event_date: extractDate(text),
-    start_time: null,
-    end_time: null,
-    venue_name: null,
+    start_time: extractTime(text, "start"),
+    end_time: extractTime(text, "end"),
+    venue_name: extractVenue(text),
     address: null,
     city: ctx.city || null,
     county: ctx.county || null,
@@ -31,8 +33,11 @@ export function normalizeFromSearchHit(hit, ctx = {}) {
     review_status: "needs_review",
     duplicate_of_event_id: null,
     notes: "Auto-staged from public search — requires human verification.",
-    is_recurring_annual: /annual|yearly|tradition/i.test(text),
+    is_recurring_annual: /annual|yearly|tradition|recurring/i.test(text),
+    harvest_batch: ctx.harvest_batch || null,
+    harvest_window: { start: window.start, end: window.end },
   });
+  return enriched;
 }
 
 export function normalizeFromFlagship(record) {
@@ -126,4 +131,18 @@ function extractDate(text) {
   } catch {
     return null;
   }
+}
+
+function extractTime(text, which) {
+  const range = text.match(/(\d{1,2}(?::\d{2})?\s*(?:am|pm)?)\s*(?:-|to|–)\s*(\d{1,2}(?::\d{2})?\s*(?:am|pm)?)/i);
+  if (range) return which === "start" ? range[1].trim() : range[2].trim();
+  const single = text.match(/\bat\s+(\d{1,2}(?::\d{2})?\s*(?:am|pm))/i);
+  return which === "start" && single ? single[1].trim() : null;
+}
+
+function extractVenue(text) {
+  const at = text.match(/\bat\s+([A-Z][A-Za-z0-9\s&'.-]{3,60})/);
+  if (at) return at[1].trim();
+  const venue = text.match(/(?:venue|location):\s*([^.,\n]{3,60})/i);
+  return venue ? venue[1].trim() : null;
 }

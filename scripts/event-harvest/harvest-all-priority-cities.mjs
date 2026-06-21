@@ -9,7 +9,7 @@ function loadExistingStaged() {
 }
 
 async function main() {
-  const { cities } = loadJson("data/arkansas/top-100-priority-cities.json");
+  const { cities } = loadJson("data/arkansas/top-200-priority-cities.json");
   const queryPlans = cities.map((c) => ({
     city: c.city,
     county: c.county,

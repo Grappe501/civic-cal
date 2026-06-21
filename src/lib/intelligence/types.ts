@@ -43,6 +43,10 @@ export interface IngestionCandidate {
   notes?: string | null;
   isRecurringAnnual?: boolean;
   flagshipId?: string;
+  harvestBatch?: string | null;
+  harvestWindow?: { start: string; end: string } | null;
+  estimatedCrowdMin?: number | null;
+  estimatedCrowdMax?: number | null;
   createdAt?: string;
   updatedAt?: string;
 }

@@ -213,7 +213,68 @@ Without keys, harvest scripts output **query plans** to `data/ingestion/raw-sear
 
 - `data/ingestion/event-source-registry.json`
 - `data/ingestion/flagship-recurring-events.json`
-- `data/arkansas/top-100-priority-cities.json`
+- `data/arkansas/top-100-priority-cities.json` (legacy 40-city seed)
+- `data/arkansas/top-200-priority-cities.json` (Pass 8 — 200 cities with expanded queries)
+
+## Top 200 Statewide Harvest (Pass 8)
+
+Harvest public events across Arkansas's 200 largest cities/towns through **November 1, 2026**. All candidates land in review — **never auto-published**.
+
+### Harvest horizon
+
+| Variable | Default | Purpose |
+|----------|---------|---------|
+| `EVENT_HARVEST_START_DATE` | `2026-06-20` | Earliest event date to stage |
+| `EVENT_HARVEST_END_DATE` | `2026-11-01` | Latest event date to stage |
+| `HARVEST_BATCH_ID` | `top200-2026-11` | Batch tag on staged candidates |
+
+### Commands
+
+```bash
+npm run generate:top200-cities   # rebuild top-200 registry JSON
+npm run discover:sources         # city/county/chamber/library source templates
+npm run harvest:top200           # search + stage (query plan if no API keys)
+npm run harvest:november         # same pipeline, horizon defaults through Nov 1
+```
+
+### Output files
+
+- `data/ingestion/discovered-sources/top-200-city-sources.json`
+- `data/ingestion/staged-event-candidates-top-200.json`
+- `data/ingestion/harvest-summary-top-200.json`
+
+### Optional API keys
+
+| Variable | Purpose |
+|----------|---------|
+| `BING_SEARCH_API_KEY` | Automated web search during harvest |
+| `GOOGLE_CUSTOM_SEARCH_API_KEY` + `GOOGLE_CUSTOM_SEARCH_ENGINE_ID` | Google CSE alternative |
+| `OPENAI_API_KEY` | Admin-only AI scoring (advisory, never auto-publish) |
+
+Without search keys, scripts write **query plans** and source templates — the pass does not fail.
+
+### Review queue policy
+
+1. Harvest → staged JSON with `review_status: needs_review`
+2. Admin **Event Intelligence** → filters by city, county, batch, PO/RD, category
+3. Batch approve/reject — human gate before live calendar
+4. AI scores are advisory overlays only
+
+### Styling audit (Pass 8)
+
+- Global tokens in `src/index.css` — stronger contrast, card elevation, chip variants
+- `.chip-active`, `.chip-muted`, `.card-elevated`, `.text-muted`, `.page-header`
+- Key pages: home, map, organizers, opportunity-engine, help-build-the-calendar, campaigns, admin, submit, event detail
+
+### Candidate branding (Pass 8)
+
+Per-slug profiles in `src/lib/campaigns/brandingProfile.ts`:
+
+- Stronger hero + scope card + priority lane + "where your campaign should be"
+- Kelly Grappe SOS — statewide command / election integrity
+- Chris Jones AR-02 — inside / near / worth the trip
+- Fred Love Governor — all-Arkansas movement map
+- Eduardo Guzman Senate — Fort Smith / River Valley density
 
 ## Lane boundaries
 

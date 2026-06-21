@@ -2,6 +2,7 @@ import type { IngestionCandidate, IntelligenceSection } from "./intelligence/typ
 import type { IntelligenceLayer } from "./intelligence/eventLayers";
 import flagshipBundle from "../../data/ingestion/flagship-recurring-events.json";
 import stagedBundle from "../../data/ingestion/staged-event-candidates.json";
+import stagedTop200Bundle from "../../data/ingestion/staged-event-candidates-top-200.json";
 
 const fnBase = import.meta.env.VITE_FUNCTIONS_BASE ?? "/.netlify/functions";
 
@@ -33,12 +34,18 @@ function mapRawCandidate(c: Record<string, unknown>, i: number): IngestionCandid
     relationshipDensityScore: (c.relationship_density_score as number) ?? null,
     typicalAttendanceBand: (c.typical_attendance_band as IngestionCandidate["typicalAttendanceBand"]) ?? null,
     recurringRegistryId: (c.recurring_registry_id as string) || null,
+    harvestBatch: (c.harvest_batch as string) || null,
+    harvestWindow: (c.harvest_window as { start: string; end: string }) || null,
+    estimatedCrowdMin: (c.estimated_crowd_min as number) ?? null,
+    estimatedCrowdMax: (c.estimated_crowd_max as number) ?? null,
   };
 }
 
 function localCandidates(): IngestionCandidate[] {
+  const top200 = (stagedTop200Bundle as { candidates?: Record<string, unknown>[] }).candidates ?? [];
   const staged = (stagedBundle as { candidates?: Record<string, unknown>[] }).candidates ?? [];
-  if (staged.length) return staged.map(mapRawCandidate);
+  const merged = [...top200, ...staged];
+  if (merged.length) return merged.map(mapRawCandidate);
   const flagship = (flagshipBundle as { events?: Record<string, unknown>[] }).events ?? [];
   return flagship.map(mapRawCandidate);
 }

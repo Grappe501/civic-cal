@@ -10,6 +10,7 @@ import { buildPlan, loadPlansForCampaign, savePlanForCampaign } from "../../lib/
 import type { CampaignEventPlan, CampaignWorkspace, PlanStatus } from "../../lib/campaigns/types";
 import { PLAN_STATUS_LABELS, PLAN_STATUS_SHORT } from "../../lib/campaigns/types";
 import { dashboardThemeVars } from "../../lib/campaigns/workspaces";
+import { getCampaignBranding } from "../../lib/campaigns/brandingProfile";
 import { formatEventRange } from "../../lib/format";
 import { GoogleCalendarRail, MobilizeRail } from "../integrations/IntegrationRails";
 import type { IntelligenceLayer } from "../../lib/intelligence/eventLayers";
@@ -128,6 +129,7 @@ export function CampaignDashboard({ workspace }: Props) {
 
   const theme = workspace.dashboardTheme;
   const vars = dashboardThemeVars(theme);
+  const branding = getCampaignBranding(workspace.slug, workspace);
 
   useEffect(() => {
     fetchEvents({ limit: 500 }).then(setEvents).catch(console.error);
@@ -216,25 +218,47 @@ export function CampaignDashboard({ workspace }: Props) {
   return (
     <div style={vars as React.CSSProperties}>
       <div
-        className="rounded-2xl p-6 md:p-8 text-white mb-8"
-        style={{ background: `linear-gradient(135deg, ${theme.primaryColor} 0%, ${theme.accentColor} 100%)` }}
+        className="rounded-2xl p-6 md:p-10 text-white mb-8 shadow-xl"
+        style={{ background: `linear-gradient(135deg, ${theme.primaryColor} 0%, ${theme.accentColor} 85%)` }}
       >
         <div className="flex flex-wrap items-start justify-between gap-4">
-          <div>
-            <span className="inline-block px-3 py-1 rounded-full text-xs font-medium bg-white/20 mb-3">
+          <div className="max-w-2xl">
+            <span className="inline-block px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wide bg-white/25 text-white mb-3 border border-white/20">
               {theme.badgeLabel}
             </span>
-            <h1 className="font-display text-2xl md:text-3xl font-bold">{workspace.dashboardLabel}</h1>
-            <p className="mt-2 text-white/90 max-w-xl">{theme.heroTagline}</p>
-            <p className="mt-1 text-sm text-white/70">{workspace.candidateName} · {workspace.officeSought}</p>
+            <h1 className="font-display text-2xl md:text-4xl font-bold leading-tight">{workspace.dashboardLabel}</h1>
+            <p className="mt-3 text-base md:text-lg text-white/95 font-medium">{branding.heroSubtitle}</p>
+            <p className="mt-2 text-sm text-white/80">{workspace.candidateName} · {workspace.officeSought}</p>
           </div>
           <div
-            className="flex h-16 w-16 items-center justify-center rounded-2xl text-2xl font-bold shrink-0"
+            className="flex h-20 w-20 items-center justify-center rounded-2xl text-2xl font-bold shrink-0 shadow-lg"
             style={{ backgroundColor: theme.surfaceColor, color: theme.primaryColor }}
           >
             {theme.logoInitials}
           </div>
         </div>
+      </div>
+
+      <div className="grid gap-4 md:grid-cols-2 mb-8">
+        <div className="card card-elevated" style={{ borderTop: `4px solid ${theme.accentColor}` }}>
+          <h3 className="font-display font-semibold text-lg" style={{ color: theme.primaryColor }}>{branding.scopeCardTitle}</h3>
+          <p className="text-sm text-ark-pine/80 mt-2">{branding.scopeCardBody}</p>
+        </div>
+        <div className="card card-elevated" style={{ borderTop: `4px solid ${theme.primaryColor}` }}>
+          <h3 className="font-display font-semibold text-lg" style={{ color: theme.primaryColor }}>{branding.priorityLaneTitle}</h3>
+          <ul className="mt-2 space-y-1.5 text-sm text-ark-pine/80">
+            {branding.priorityLaneItems.map((item) => (
+              <li key={item} className="flex gap-2">
+                <span style={{ color: theme.accentColor }}>▸</span> {item}
+              </li>
+            ))}
+          </ul>
+        </div>
+      </div>
+
+      <div className="card mb-8 border-l-4" style={{ borderLeftColor: theme.accentColor, backgroundColor: theme.surfaceColor }}>
+        <h3 className="font-display font-semibold text-lg" style={{ color: theme.primaryColor }}>{branding.whereToBeTitle}</h3>
+        <p className="text-sm text-ark-pine/85 mt-2 max-w-3xl">{branding.whereToBeBody}</p>
       </div>
 
       {isBoundaryPending(workspace) && (

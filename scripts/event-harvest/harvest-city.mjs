@@ -21,9 +21,15 @@ if (!cityArg) {
 ensureDirs();
 
 function findCity(name) {
-  const data = loadJson("data/arkansas/top-100-priority-cities.json");
-  const norm = name.toLowerCase();
-  return data.cities.find((c) => c.city.toLowerCase() === norm);
+  for (const file of ["data/arkansas/top-200-priority-cities.json", "data/arkansas/top-100-priority-cities.json"]) {
+    try {
+      const data = loadJson(file);
+      const norm = name.toLowerCase();
+      const hit = data.cities.find((c) => c.city.toLowerCase() === norm);
+      if (hit) return hit;
+    } catch (_) {}
+  }
+  return null;
 }
 
 function loadExistingStaged() {

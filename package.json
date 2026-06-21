@@ -18,6 +18,10 @@
     "harvest:flagship": "node scripts/run-with-h-drive-env.cjs node scripts/event-harvest/sources/dolr-events.mjs",
     "harvest:dedupe": "node scripts/run-with-h-drive-env.cjs node scripts/event-harvest/dedupe-event-candidates.mjs",
     "harvest:registry": "node scripts/run-with-h-drive-env.cjs node scripts/event-harvest/sync-recurring-registry.mjs",
+    "harvest:top200": "node scripts/run-with-h-drive-env.cjs node scripts/event-harvest/harvest-top-200.mjs",
+    "harvest:november": "node scripts/run-with-h-drive-env.cjs node scripts/event-harvest/harvest-through-november.mjs",
+    "discover:sources": "node scripts/run-with-h-drive-env.cjs node scripts/event-harvest/discover-city-sources.mjs",
+    "generate:top200-cities": "node scripts/run-with-h-drive-env.cjs node scripts/event-harvest/generate-top-200-cities.mjs",
     "import:candidates": "node scripts/run-with-h-drive-env.cjs node scripts/import-ingestion-candidates.cjs",
     "lint": "eslint src --ext ts,tsx"
   },

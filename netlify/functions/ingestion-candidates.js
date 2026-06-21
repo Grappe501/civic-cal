@@ -3,6 +3,55 @@ const path = require("node:path");
 const { getClient, json } = require("./db");
 
 const STAGED_PATH = path.join(__dirname, "..", "..", "data", "ingestion", "staged-event-candidates.json");
+const STAGED_TOP200_PATH = path.join(__dirname, "..", "..", "data", "ingestion", "staged-event-candidates-top-200.json");
+
+function mapStagedRecord(c, i) {
+  return {
+    id: c.id || `staged-${i}`,
+    title: c.title,
+    description: c.description,
+    eventDate: c.event_date,
+    startTime: c.start_time,
+    endTime: c.end_time,
+    venueName: c.venue_name,
+    address: c.address,
+    city: c.city,
+    county: c.county,
+    state: c.state || "AR",
+    latitude: c.latitude,
+    longitude: c.longitude,
+    category: c.category,
+    civicValue: c.civic_value,
+    politicalOpportunityScore: c.political_opportunity_score,
+    relationshipDensityScore: c.relationship_density_score,
+    intelligenceLayer: c.intelligence_layer,
+    typicalAttendanceBand: c.typical_attendance_band,
+    recurringRegistryId: c.recurring_registry_id,
+    confidenceScore: c.confidence_score,
+    sourceName: c.source_name,
+    sourceUrl: c.source_url,
+    sourceType: c.source_type,
+    discoveredBy: c.discovered_by,
+    rawText: c.raw_text,
+    reviewStatus: c.review_status || "needs_review",
+    duplicateOfEventId: c.duplicate_of_event_id,
+    notes: c.notes,
+    isRecurringAnnual: c.is_recurring_annual,
+    flagshipId: c.flagship_id,
+    harvestBatch: c.harvest_batch,
+    harvestWindow: c.harvest_window,
+  };
+}
+
+function loadStagedFallback() {
+  const lists = [];
+  for (const p of [STAGED_TOP200_PATH, STAGED_PATH]) {
+    if (!fs.existsSync(p)) continue;
+    const data = JSON.parse(fs.readFileSync(p, "utf8"));
+    lists.push(...(data.candidates ?? []));
+  }
+  return lists.map(mapStagedRecord);
+}
 
 function rowToCandidate(row) {
   return {
@@ -36,47 +85,11 @@ function rowToCandidate(row) {
     duplicateOfEventId: row.duplicate_of_event_id,
     notes: row.notes,
     isRecurringAnnual: row.is_recurring_annual,
+    harvestBatch: row.harvest_batch,
+    harvestWindow: row.harvest_window,
     createdAt: row.created_at,
     updatedAt: row.updated_at,
   };
-}
-
-function loadStagedFallback() {
-  if (!fs.existsSync(STAGED_PATH)) return [];
-  const data = JSON.parse(fs.readFileSync(STAGED_PATH, "utf8"));
-  return (data.candidates ?? []).map((c, i) => ({
-    id: c.id || `staged-${i}`,
-    title: c.title,
-    description: c.description,
-    eventDate: c.event_date,
-    startTime: c.start_time,
-    endTime: c.end_time,
-    venueName: c.venue_name,
-    address: c.address,
-    city: c.city,
-    county: c.county,
-    state: c.state || "AR",
-    latitude: c.latitude,
-    longitude: c.longitude,
-    category: c.category,
-    civicValue: c.civic_value,
-    politicalOpportunityScore: c.political_opportunity_score,
-    relationshipDensityScore: c.relationship_density_score,
-    intelligenceLayer: c.intelligence_layer,
-    typicalAttendanceBand: c.typical_attendance_band,
-    recurringRegistryId: c.recurring_registry_id,
-    confidenceScore: c.confidence_score,
-    sourceName: c.source_name,
-    sourceUrl: c.source_url,
-    sourceType: c.source_type,
-    discoveredBy: c.discovered_by,
-    rawText: c.raw_text,
-    reviewStatus: c.review_status || "needs_review",
-    duplicateOfEventId: c.duplicate_of_event_id,
-    notes: c.notes,
-    isRecurringAnnual: c.is_recurring_annual,
-    flagshipId: c.flagship_id,
-  }));
 }
 
 function filterSection(candidates, section) {
