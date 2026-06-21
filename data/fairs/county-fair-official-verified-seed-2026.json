@@ -1,0 +1,68 @@
+{
+  "note": "Pass 29B — Official and tourism-backed 2026 county fair dates verified from public pages.",
+  "verifiedAt": "2026-06-21",
+  "pass": "29B",
+  "entries": [
+    {
+      "county": "Lonoke",
+      "fair_name": "Lonoke County Fair",
+      "start": "2026-09-19",
+      "end": "2026-09-26",
+      "city": "Lonoke",
+      "venue": "Lonoke County Fairgrounds",
+      "address": "1006 W 3rd St, Lonoke, AR",
+      "source_url": "https://www.lonokecountyfair.com/",
+      "official_url": "https://www.lonokecountyfair.com/",
+      "source_type": "county_fair_page",
+      "source_confidence": "high"
+    },
+    {
+      "county": "Columbia",
+      "fair_name": "Columbia County Fair & Livestock Show",
+      "start": "2026-09-21",
+      "end": "2026-09-26",
+      "city": "Magnolia",
+      "venue": "Columbia County Fairgrounds",
+      "source_url": "https://arksouth.org/events/columbia-county-fair-livestock-show/",
+      "official_url": "https://arksouth.org/events/columbia-county-fair-livestock-show/",
+      "source_type": "tourism_cvb_page",
+      "source_confidence": "high"
+    },
+    {
+      "county": "Yell",
+      "fair_name": "Yell County Fair",
+      "start": "2026-09-07",
+      "end": "2026-09-12",
+      "city": "Danville",
+      "venue": "Yell County Fairgrounds",
+      "source_url": "https://yellcountyfair.com/",
+      "official_url": "https://yellcountyfair.com/",
+      "source_type": "county_fair_page",
+      "source_confidence": "high"
+    },
+    {
+      "county": "Pope",
+      "fair_name": "Pope County Fair",
+      "start": "2026-09-15",
+      "end": "2026-09-19",
+      "city": "Russellville",
+      "venue": "Pope County Fairgrounds",
+      "source_url": "https://popecountyfair.com/",
+      "official_url": "https://popecountyfair.com/",
+      "source_type": "county_fair_page",
+      "source_confidence": "high"
+    },
+    {
+      "county": "Prairie",
+      "fair_name": "Prairie County Fair",
+      "start": "2026-09-20",
+      "end": "2026-09-26",
+      "city": "Hazen",
+      "venue": "Prairie County Fairgrounds",
+      "source_url": "https://www.prairiefaircountyar.com/",
+      "official_url": "https://www.prairiefaircountyar.com/",
+      "source_type": "county_fair_page",
+      "source_confidence": "high"
+    }
+  ]
+}

@@ -91,8 +91,11 @@ export const COUNTY_FAIR_CITIES = {
 export const OFFICIAL_FAIR_URLS = {
   Fulton: "https://www.fultoncountyfair.net/",
   Baxter: "https://www.baxtercountyfair.org/",
-  Pope: "https://www.popecountyfair.com/",
-  Prairie: "https://www.prairiecountyfair.com/",
+  Lonoke: "https://www.lonokecountyfair.com/",
+  Columbia: "https://www.columbiacountyfair.com/",
+  Yell: "https://yellcountyfair.com/",
+  Pope: "https://popecountyfair.com/",
+  Prairie: "https://www.prairiefaircountyar.com/",
   Union: "https://www.unioncountyfair.net/",
   Sebastian: "https://www.sebastiancountyfair.com/",
   Benton: "https://www.bentoncountyfair.net/",
@@ -103,6 +106,30 @@ export const OFFICIAL_FAIR_URLS = {
   Garland: "https://www.garlandcountyfair.com/",
   Pulaski: "https://www.pulaskicountyfair.com/",
 };
+
+/** Secondary public sources — tourism, extension, chamber (Pass 29B search strategy) */
+export const SECONDARY_FAIR_SOURCES = {
+  Columbia: [
+    { url: "https://arksouth.org/events/columbia-county-fair-livestock-show/", type: "tourism_cvb_page", label: "Arkansas South Tourism" },
+  ],
+  Lonoke: [{ url: "https://cofairs.com/arkansas/lonoke-county-fair", type: "fair_guide_page", label: "Cofairs guide" }],
+  Yell: [{ url: "https://cofairs.com/arkansas/yell-county-fair", type: "fair_guide_page", label: "Cofairs guide" }],
+  Pope: [{ url: "https://cofairs.com/arkansas/pope-county-fair", type: "fair_guide_page", label: "Cofairs guide" }],
+  Prairie: [{ url: "https://cofairs.com/arkansas/prairie-county-fair", type: "fair_guide_page", label: "Cofairs guide" }],
+};
+
+export function fairSearchPatterns(county) {
+  return [
+    `${county} County Fair 2026 Arkansas`,
+    `${county} County Fairgrounds 2026`,
+    `${county} County Fair livestock show 2026`,
+    `${county} County Fair schedule Arkansas`,
+    `${county} County Fair Association Arkansas`,
+    `${county} County Fair Facebook 2026`,
+    `${county} County Fair 4-H Arkansas`,
+    `${county} County Fair Extension Arkansas`,
+  ];
+}
 
 export function countySlug(county) {
   return county

@@ -31,8 +31,8 @@ function main() {
 
   if (countyCount !== 75) issues.push(`Expected 75 county fair records, got ${countyCount}`);
   if (!staged) issues.push("Missing county-fair-staged.json");
-  if (verifiedDated < 5) issues.push(`Low verified dated county fairs: ${verifiedDated}`);
-  if (approvedCount < 5) issues.push(`Low approved public fair events: ${approvedCount}`);
+  if (verifiedDated < 13) issues.push(`Low verified dated county fairs: ${verifiedDated} (expected >= 13 after Pass 29B)`);
+  if (approvedCount < 13) issues.push(`Low approved public fair events: ${approvedCount} (expected >= 13 after Pass 29B)`);
   if (needsReview + verifiedDated < 70) issues.push(`Registry coverage gap: ${needsReview} research + ${verifiedDated} dated`);
 
   if (issues.length) {

@@ -60,7 +60,7 @@ export function normalizeCountyFair(raw) {
   });
 }
 
-export function normalizeResearchTask(raw) {
+export function normalizeResearchTask(raw, searchQueries = []) {
   return {
     id: `research-${raw.id}`,
     fair_id: raw.id,
@@ -72,9 +72,10 @@ export function normalizeResearchTask(raw) {
     status: "open",
     verification_status: raw.verification_status,
     suggested_urls: [raw.official_url, raw.cofairs_url].filter(Boolean),
+    suggested_queries: searchQueries,
     notes:
       raw.notes ||
-      `No verified 2026 fair dates found for ${raw.county} County. Confirm annually from official fair, extension, or tourism pages.`,
+      `No verified 2026 fair dates found for ${raw.county} County. Search official fair site, chamber/CVB, Arkansas South Tourism, Cofairs, Extension/4-H, then public Facebook.`,
     created_at: new Date().toISOString(),
   };
 }

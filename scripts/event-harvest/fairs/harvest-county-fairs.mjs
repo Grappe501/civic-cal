@@ -8,8 +8,11 @@ import { fileURLToPath } from "node:url";
 import {
   buildAllCountyFairRecords,
   REGIONAL_FAIRS,
+  SECONDARY_FAIR_SOURCES,
+  OFFICIAL_FAIR_URLS,
   cofairsSlugForCounty,
   countySlug,
+  fairSearchPatterns,
 } from "./lib/county-fair-base.mjs";
 import { extractDatesFromHtml, pickBestDateRange } from "../fairs-festivals/lib/date-extract.mjs";
 import { normalizeCountyFair, normalizeResearchTask } from "./normalize-county-fair.mjs";
@@ -21,6 +24,7 @@ const RAW_OUT = path.join(ROOT, "data/ingestion/county-fair-raw.json");
 const STAGED_OUT = path.join(ROOT, "data/ingestion/county-fair-staged.json");
 const RESEARCH_OUT = path.join(ROOT, "data/ingestion/county-fair-research-tasks.json");
 const VERIFIED_SEED_PATH = path.join(ROOT, "data/fairs/cofairs-2026-verified-seed.json");
+const OFFICIAL_VERIFIED_SEED_PATH = path.join(ROOT, "data/fairs/county-fair-official-verified-seed-2026.json");
 const COFAIRS_INDEX = "https://cofairs.com/arkansas/";
 const FETCH_DELAY_MS = Number(process.env.COUNTY_FAIR_FETCH_DELAY_MS ?? 300);
 const UA = "ArkansasEverywhere-CivicBot/1.0 (+https://arkansaseverywhere.org)";
@@ -139,7 +143,7 @@ async function harvestFairRecord(base, cofairsByCounty, options = {}) {
 
   const indexYear = cofairsMeta?.year;
   const shouldFetchDetail = Boolean(
-    isRegional || isStateFair || base.official_url || indexYear === 2026,
+    isRegional || isStateFair || base.official_url || indexYear === 2026 || SECONDARY_FAIR_SOURCES[base.county]?.length,
   );
 
   if (shouldFetchDetail && base.official_url) {
@@ -147,9 +151,26 @@ async function harvestFairRecord(base, cofairsByCounty, options = {}) {
       html += `\n${await fetchText(base.official_url)}`;
       sourceUrl = base.official_url;
       sourceType = "county_fair_page";
+      sourceConfidence = "high";
       await sleep(FETCH_DELAY_MS);
     } catch {
-      /* official fetch optional */
+      /* official fetch optional — verified seed may still apply */
+    }
+  }
+
+  for (const secondary of SECONDARY_FAIR_SOURCES[base.county] ?? []) {
+    try {
+      html += `\n${await fetchText(secondary.url)}`;
+      if (!sourceUrl) sourceUrl = secondary.url;
+      if (sourceType === "county_fair_page" && secondary.type !== "county_fair_page") {
+        /* keep official type when both exist */
+      } else if (!base.official_url) {
+        sourceType = secondary.type;
+        sourceConfidence = secondary.type === "tourism_cvb_page" ? "high" : "medium";
+      }
+      await sleep(FETCH_DELAY_MS);
+    } catch {
+      /* secondary optional */
     }
   }
 
@@ -286,6 +307,28 @@ function applyVerifiedSeed(rawRecords) {
   }
 }
 
+function applyOfficialVerifiedSeed(rawRecords) {
+  if (!fs.existsSync(OFFICIAL_VERIFIED_SEED_PATH)) return;
+  const seed = JSON.parse(fs.readFileSync(OFFICIAL_VERIFIED_SEED_PATH, "utf8"));
+  const byCounty = new Map((seed.entries ?? []).map((e) => [e.county, e]));
+  for (const record of rawRecords) {
+    const entry = byCounty.get(record.county);
+    if (!entry) continue;
+    record.fair_name = entry.fair_name || record.fair_name;
+    record.date_start = entry.start;
+    record.date_end = entry.end;
+    record.city = entry.city || record.city;
+    record.venue = entry.venue || record.venue;
+    record.address = entry.address || record.address;
+    record.official_url = entry.official_url || record.official_url;
+    record.source_url = entry.source_url;
+    record.source_confidence = entry.source_confidence || "high";
+    record.source_type = entry.source_type || "county_fair_page";
+    record.verification_status = "verified_dated";
+    record.notes = `Official/public source verified ${seed.verifiedAt ?? "2026"} (Pass 29B).`;
+  }
+}
+
 async function main() {
   const counties = buildAllCountyFairRecords().map((r) => r.county);
   let indexHtml = "";
@@ -328,6 +371,7 @@ async function main() {
 
   await enrichCofairs2026(rawRecords, indexEntries, counties);
   applyVerifiedSeed(rawRecords);
+  applyOfficialVerifiedSeed(rawRecords);
 
   const registryPayload = {
     pass: "29",
@@ -347,9 +391,11 @@ async function main() {
       ...countyRecords.map((r) => ({
         id: r.id,
         county: r.county,
-        official_url: r.official_url,
+        official_url: OFFICIAL_FAIR_URLS[r.county] ?? r.official_url,
+        secondary_urls: (SECONDARY_FAIR_SOURCES[r.county] ?? []).map((s) => s.url),
         cofairs_url: r.cofairs_url,
         source_type: "county_fair_page",
+        search_patterns: fairSearchPatterns(r.county),
       })),
       ...REGIONAL_FAIRS.map((r) => ({
         id: r.id,
@@ -367,7 +413,7 @@ async function main() {
   const dated = stagedCandidates.filter((c) => c.event_date && c.verification_status === "verified_dated");
   const researchTasks = rawRecords
     .filter((r) => r.verification_status === "needs_date_confirmation")
-    .map(normalizeResearchTask);
+    .map((r) => normalizeResearchTask(r, fairSearchPatterns(r.county)));
 
   fs.mkdirSync(path.dirname(REGISTRY_OUT), { recursive: true });
   fs.writeFileSync(REGISTRY_OUT, JSON.stringify(registryPayload, null, 2));
