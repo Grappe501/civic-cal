@@ -18,6 +18,8 @@ import { CIVIC_GLYPHS } from "../lib/glyphs/civicGlyphs";
 import type { CivicEvent } from "../lib/types";
 import { getCountyDensity } from "../lib/density/densityReport";
 import { CountyDensityStrip } from "../components/density/CountyDensityStrip";
+import { CountyFeedCoverageStrip } from "../components/feeds/CountyFeedCoverageStrip";
+import { getCountyFeedCoverage } from "../lib/feeds/feedAttachmentReport";
 import { buildCountyLaneCoverage } from "../lib/event-lanes/laneCoverageEngine";
 import { EventLaneCoveragePanel } from "../components/event-lanes/EventLaneCoveragePanel";
 import { getProfile, listProfiles } from "../lib/profiles/profileRegistry";
@@ -64,6 +66,7 @@ export function CountyPublicPage({ county, slug }: Props) {
   }, [slug, county, cities]);
 
   const density = useMemo(() => getCountyDensity(county, events), [county, events]);
+  const feedCoverage = useMemo(() => getCountyFeedCoverage(county), [county]);
   const laneCoverage = useMemo(() => buildCountyLaneCoverage(county, events), [county, events]);
 
   async function share() {
@@ -93,6 +96,7 @@ export function CountyPublicPage({ county, slug }: Props) {
       </div>
 
       <CountyDensityStrip density={density} />
+      <CountyFeedCoverageStrip coverage={feedCoverage} />
       <EventLaneCoveragePanel coverage={laneCoverage} compact />
 
       <section className="card bg-ark-wheat/30 mb-8">

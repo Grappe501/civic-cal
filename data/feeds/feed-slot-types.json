@@ -1,0 +1,33 @@
+{
+  "version": "1.0",
+  "updatedAt": "2026-06-21",
+  "countySlots": [
+    { "id": "county_government", "label": "County Government", "source_type": "county_official", "tier": 1, "expected_yield": 30 },
+    { "id": "county_extension", "label": "County Extension", "source_type": "extension", "tier": 2, "expected_yield": 18 },
+    { "id": "county_library", "label": "County Library System", "source_type": "library", "tier": 1, "expected_yield": 12 },
+    { "id": "county_fair", "label": "County Fair", "source_type": "festival", "tier": 2, "expected_yield": 8 },
+    { "id": "county_farm_bureau", "label": "County Farm Bureau", "source_type": "farm_bureau", "tier": 2, "expected_yield": 10 },
+    { "id": "county_chamber", "label": "County Chamber", "source_type": "chamber", "tier": 1, "expected_yield": 15 },
+    { "id": "county_tourism", "label": "County Tourism", "source_type": "tourism", "tier": 3, "expected_yield": 8 },
+    { "id": "county_schools", "label": "County School Districts", "source_type": "school_district", "tier": 1, "expected_yield": 45 },
+    { "id": "county_colleges", "label": "County Colleges", "source_type": "college", "tier": 1, "expected_yield": 25 },
+    { "id": "county_vfd", "label": "County VFD Associations", "source_type": "vfd", "tier": 2, "expected_yield": 7 }
+  ],
+  "citySlots": [
+    { "id": "city_calendar", "label": "City Calendar", "source_type": "city_official", "tier": 1, "expected_yield": 35 },
+    { "id": "city_parks_rec", "label": "Parks & Recreation", "source_type": "parks_rec", "tier": 1, "expected_yield": 20 },
+    { "id": "city_library", "label": "Library", "source_type": "library", "tier": 1, "expected_yield": 12 },
+    { "id": "city_chamber", "label": "Chamber", "source_type": "chamber", "tier": 1, "expected_yield": 15 },
+    { "id": "city_downtown", "label": "Downtown Association", "source_type": "downtown", "tier": 3, "expected_yield": 10 },
+    { "id": "city_tourism", "label": "Tourism Bureau", "source_type": "tourism", "tier": 3, "expected_yield": 8 },
+    { "id": "city_community_center", "label": "Community Center", "source_type": "community_center", "tier": 2, "expected_yield": 11 }
+  ],
+  "institutionYield": {
+    "school": 45,
+    "church": 4,
+    "college": 25,
+    "organization": 7,
+    "extension_office": 18,
+    "homemaker_club": 5
+  }
+}

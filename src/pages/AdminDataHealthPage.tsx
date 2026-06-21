@@ -4,6 +4,7 @@ import { AlertTriangle, CheckCircle2, Database, RefreshCw } from "lucide-react";
 import { runEventDataDiagnostics, type EventDataDiagnostics } from "../lib/events/eventDataDiagnostics";
 import { runProfileHealth } from "../lib/profiles/profileHealth";
 import { runPartyMeetingHealth } from "../lib/party-meetings/partyMeetingHealth";
+import { loadFeedAttachmentReport } from "../lib/feeds/feedAttachmentReport";
 import { formatEventRange } from "../lib/format";
 
 const fnBase = import.meta.env.VITE_FUNCTIONS_BASE ?? "/.netlify/functions";
@@ -14,6 +15,7 @@ export function AdminDataHealthPage() {
   const [loading, setLoading] = useState(true);
   const profileHealth = useMemo(() => runProfileHealth(), []);
   const partyHealth = useMemo(() => runPartyMeetingHealth(), []);
+  const feedReport = useMemo(() => loadFeedAttachmentReport(), []);
 
   async function refresh() {
     setLoading(true);
@@ -120,6 +122,21 @@ export function AdminDataHealthPage() {
             </div>
             <Link to="/admin" className="btn-secondary text-xs mt-4 inline-flex" onClick={() => sessionStorage.setItem("civic-admin-tab", "event_coverage")}>
               Review party meetings →
+            </Link>
+          </section>
+
+          <section className="card-readable">
+            <h2 className="font-semibold text-[var(--text-secondary)]">Feed attachment (Pass 23A)</h2>
+            <div className="mt-3 grid gap-3 sm:grid-cols-2 text-sm">
+              <Stat label="Known institutions" value={String(feedReport.metrics.knownInstitutions)} />
+              <Stat label="Feed slots" value={String(feedReport.metrics.feedSlotsTotal)} />
+              <Stat label="Feeds attached" value={String(feedReport.metrics.feedsAttached)} highlight />
+              <Stat label="Coverage" value={`${feedReport.metrics.coveragePercent}%`} highlight />
+              <Stat label="Attached projected yield" value={String(feedReport.metrics.attachedProjectedYield)} />
+              <Stat label="Potential projected yield" value={String(Math.round(feedReport.metrics.potentialProjectedYield))} />
+            </div>
+            <Link to="/admin/feeds" className="btn-secondary text-xs mt-4 inline-flex">
+              Open feed coverage dashboard →
             </Link>
           </section>
 

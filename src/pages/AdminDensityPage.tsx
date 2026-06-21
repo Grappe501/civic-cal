@@ -33,6 +33,7 @@ export function AdminDensityPage() {
           </p>
         </div>
         <Link to="/admin" className="btn-ghost text-sm">← Admin</Link>
+        <Link to="/admin/feeds" className="btn-secondary text-sm">Feed coverage →</Link>
       </div>
 
       <section className="card-readable grid gap-3 sm:grid-cols-3 mb-8 text-sm">
