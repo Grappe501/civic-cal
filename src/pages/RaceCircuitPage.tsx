@@ -5,6 +5,9 @@ import { RaceCircuitHeader } from "../components/discovery/RaceCircuitHeader";
 import { fetchEvents } from "../lib/api";
 import { filterRaces } from "../lib/discovery/eventDiscovery";
 import type { RaceCategoryId } from "../lib/discovery/types";
+import { listProfiles } from "../lib/profiles/profileRegistry";
+import { profilePath } from "../lib/profiles/profileLinks";
+import { staleLabel } from "../lib/freshness/staleData";
 
 export function RaceCircuitPage() {
   const [events, setEvents] = useState<Awaited<ReturnType<typeof fetchEvents>>>([]);
@@ -17,10 +20,28 @@ export function RaceCircuitPage() {
 
   const races = useMemo(() => filterRaces(events, category ?? undefined), [events, category]);
   const allRaces = useMemo(() => filterRaces(events), [events]);
+  const raceProfiles = useMemo(() => listProfiles("race").slice(0, 12), []);
 
   return (
     <div className="mx-auto max-w-6xl px-4 py-10">
       <RaceCircuitHeader activeCategory={category} onCategoryChange={setCategory} raceCount={allRaces.length} />
+
+      {raceProfiles.length > 0 && (
+        <section className="mt-8">
+          <h2 className="font-display text-lg font-semibold text-ark-pine mb-3">Race profiles</h2>
+          <ul className="grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
+            {raceProfiles.map((p) => (
+              <li key={p.slug}>
+                <Link to={profilePath("race", p.slug)} className="card block py-3 hover:border-ark-sage">
+                  <p className="font-medium text-sm">{p.title}</p>
+                  <p className="text-[10px] text-muted mt-1">{p.city ? `${p.city} · ` : ""}{p.county} County</p>
+                  <span className="text-[10px] badge-info mt-2 inline-block">{staleLabel(p.freshness)}</span>
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
 
       <section className="mt-10">
         <h2 className="font-display text-xl font-semibold text-ark-pine mb-4">

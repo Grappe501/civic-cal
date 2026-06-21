@@ -34,6 +34,8 @@ import {
 } from "./components/calendar/CalendarShell";
 import { AdminDataHealthPage } from "./pages/AdminDataHealthPage";
 import { GeoResolverPage } from "./pages/GeoResolverPage";
+import { EntityProfilePage } from "./pages/EntityProfilePage";
+import { EntityDirectoryPage } from "./pages/EntityDirectoryPage";
 
 export default function App() {
   return (
@@ -71,6 +73,22 @@ export default function App() {
           <Route path="/calendar/week" element={<CalendarWeekPage />} />
           <Route path="/calendar/month" element={<CalendarMonthPage />} />
           <Route path="/calendar" element={<CalendarIndexPage />} />
+          <Route path="/churches" element={<EntityDirectoryPage entityType="church" title="Arkansas churches" description="Church profiles linked to community events, meals, and fundraisers — sourced where verified." canonicalPath="/churches" />} />
+          <Route path="/schools" element={<EntityDirectoryPage entityType="school" title="Arkansas schools" description="Public school profiles with calendar ties, board meeting sources, and student-service opportunities where verified." canonicalPath="/schools" />} />
+          <Route path="/colleges" element={<EntityDirectoryPage entityType="college" title="Arkansas colleges" description="College and university community profiles across Arkansas." canonicalPath="/colleges" />} />
+          <Route path="/festivals" element={<EntityDirectoryPage entityType="festival" title="Arkansas festivals" description="Recurring festival traditions — confirm dates annually from official sources." canonicalPath="/festivals" />} />
+          <Route path="/parades" element={<EntityDirectoryPage entityType="parade" title="Arkansas parades" description="Community parade traditions indexed from calendar and registry sources." canonicalPath="/parades" />} />
+          <Route path="/volunteer-opportunities" element={<EntityDirectoryPage entityType="volunteer_opportunity" title="Volunteer opportunities" description="Student-service eligible and community volunteer roles with verification notes." canonicalPath="/volunteer-opportunities" />} />
+          <Route path="/dates" element={<EntityDirectoryPage entityType="state_date" title="Important Arkansas dates" description="Statewide and regional dates that shape community calendars — elections, tax deadlines, and civic milestones." canonicalPath="/dates" />} />
+          <Route path="/church/:slug" element={<EntityProfilePage entityType="church" />} />
+          <Route path="/school/:slug" element={<EntityProfilePage entityType="school" />} />
+          <Route path="/college/:slug" element={<EntityProfilePage entityType="college" />} />
+          <Route path="/candidate/:slug" element={<EntityProfilePage entityType="candidate" />} />
+          <Route path="/race/:slug" element={<EntityProfilePage entityType="race" />} />
+          <Route path="/festival/:slug" element={<EntityProfilePage entityType="festival" />} />
+          <Route path="/parade/:slug" element={<EntityProfilePage entityType="parade" />} />
+          <Route path="/volunteer/:slug" element={<EntityProfilePage entityType="volunteer_opportunity" />} />
+          <Route path="/date/:slug" element={<EntityProfilePage entityType="state_date" />} />
           <Route path="/admin/data-health" element={<AdminDataHealthPage />} />
           <Route path="/admin" element={<AdminPage />} />
           <Route path="/:slug" element={<GeoResolverPage />} />

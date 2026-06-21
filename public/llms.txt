@@ -1,0 +1,47 @@
+# Arkansas Everywhere — Arkansas Community Calendar
+
+> Crawlable community knowledge graph for Arkansas events, organizations, and local life.
+
+## About
+
+Arkansas Everywhere (Arkansas Community Calendar) is a public, community-first calendar and directory for all 75 Arkansas counties. It indexes festivals, church dinners, school events, races, parades, volunteer opportunities, and important civic dates.
+
+We do not invent facts. Profile pages show **Information last refreshed**, **Source confidence** (high / medium / low / placeholder), and source links when available. Placeholder or stale data is labeled clearly.
+
+## Primary routes
+
+- `/` — Home and discovery
+- `/calendar`, `/calendar/day`, `/calendar/week`, `/calendar/month` — Calendar views
+- `/event/:slug` — Event detail pages
+- `/:citySlug` — City community profiles (e.g. `/conway`)
+- `/:countySlug-county` — County profiles (e.g. `/pulaski-county`)
+- `/organization/:slug` — Organization profiles
+- `/church/:slug`, `/school/:slug`, `/college/:slug` — Typed institution profiles
+- `/candidate/:slug` — Public candidate community context (not an endorsement)
+- `/race/:slug`, `/festival/:slug`, `/parade/:slug` — Tradition and race profiles
+- `/volunteer/:slug` — Volunteer opportunity profiles
+- `/date/:slug` — Important Arkansas dates
+
+## Directories
+
+- `/churches`, `/schools`, `/colleges`
+- `/races`, `/festivals`, `/parades`
+- `/volunteer-opportunities`, `/dates`
+- `/organizations`, `/counties`
+
+## Data freshness & verification
+
+- **High confidence**: refreshed within 30 days with sources on file
+- **Medium**: 31–120 days or partial sourcing
+- **Low / stale**: 120+ days since refresh
+- **Placeholder**: no verified source links — do not cite as fact
+
+Report updates: `/help-build-the-calendar`
+
+## Sitemap
+
+Full URL list: `/sitemap.xml`
+
+## Contact / updates
+
+Community hosts can claim listings via `/host`. Operators review submissions at `/admin` (token required).

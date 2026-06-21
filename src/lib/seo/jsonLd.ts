@@ -1,5 +1,6 @@
 import type { CivicEvent } from "../types";
 import type { PublicOrganizationProfile } from "../organizations/publicOrganizationDirectory";
+import type { CommunityProfile } from "../profiles/profileTypes";
 
 const SITE = "https://arkansaseverywhere.org";
 const SITE_NAME = "Arkansas Everywhere — Community Calendar";
@@ -104,4 +105,59 @@ export function websiteJsonLd() {
       "query-input": "required name=search_term_string",
     },
   };
+}
+
+export function profilePageJsonLd(profile: CommunityProfile) {
+  const url = profile.canonicalUrl;
+  const breadcrumb = {
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: SITE },
+      { "@type": "ListItem", position: 2, name: profile.title, item: url },
+    ],
+  };
+
+  const base = {
+    "@context": "https://schema.org",
+    url,
+    name: profile.title,
+    description: profile.summary,
+    isPartOf: { "@type": "WebSite", name: SITE_NAME, url: SITE },
+    breadcrumb,
+  };
+
+  switch (profile.entityType) {
+    case "church":
+      return { ...base, "@type": "Place", additionalType: "https://schema.org/Church" };
+    case "school":
+    case "college":
+      return {
+        ...base,
+        "@type": "EducationalOrganization",
+        address: profile.city
+          ? { "@type": "PostalAddress", addressLocality: profile.city, addressRegion: "AR", addressCountry: "US" }
+          : undefined,
+      };
+    case "organization":
+      return { ...base, "@type": "LocalBusiness" };
+    case "race":
+      return { ...base, "@type": "SportsEvent", sport: "Running" };
+    case "festival":
+    case "parade":
+      return { ...base, "@type": "Event", eventAttendanceMode: "https://schema.org/OfflineEventAttendanceMode" };
+    case "city":
+      return {
+        ...base,
+        "@type": "WebPage",
+        about: { "@type": "City", name: profile.title, containedInPlace: { "@type": "State", name: "Arkansas" } },
+      };
+    case "county":
+      return {
+        ...base,
+        "@type": "WebPage",
+        about: { "@type": "AdministrativeArea", name: profile.title },
+      };
+    default:
+      return { ...base, "@type": "WebPage", mainEntityOfPage: url };
+  }
 }

@@ -5,7 +5,7 @@ import { EventCard } from "../components/EventCard";
 import { JsonLd } from "../components/seo/JsonLd";
 import { CivicGlyphLegend, CivicGlyph } from "../components/glyphs/CivicGlyph";
 import { fetchEvents } from "../lib/api";
-import { getCountyDossier, citiesInCounty } from "../lib/local-intelligence/registry";
+import { getCountyDossier, citiesInCounty, citySlug } from "../lib/local-intelligence/registry";
 import { buildCountyPageSummary, aiGuidePrompts } from "../lib/seo/pageSummaries";
 import { countyPageJsonLd } from "../lib/seo/jsonLd";
 import { StudentServiceBlock } from "../components/student-service/StudentServiceBadge";
@@ -16,6 +16,10 @@ import { stateDatesForCounty } from "../lib/state-dates/stateDatesRegistry";
 import { formatCountyLabel } from "../lib/counties";
 import { CIVIC_GLYPHS } from "../lib/glyphs/civicGlyphs";
 import type { CivicEvent } from "../lib/types";
+import { getProfile, listProfiles } from "../lib/profiles/profileRegistry";
+import { FreshnessFooter } from "../components/FreshnessFooter";
+import { RelatedCommunityPages } from "../components/profiles/RelatedCommunityPages";
+import { relatedLink } from "../lib/profiles/profileLinks";
 
 interface Props {
   county: string;
@@ -41,6 +45,19 @@ export function CountyPublicPage({ county, slug }: Props) {
   const countyDates = useMemo(() => stateDatesForCounty(county).slice(0, 5), [county]);
   const food = events.filter((e) => /fish fry|spaghetti|dinner|meal/i.test(e.title));
   const festivals = events.filter((e) => /festival|fair|parade/i.test(e.title));
+
+  const geoProfile = useMemo(() => {
+    const base = getProfile(slug, "county");
+    if (!base) return base;
+    const extra = listProfiles()
+      .filter((p) => p.county?.toLowerCase() === county.toLowerCase() && p.entityType !== "county")
+      .slice(0, 10)
+      .map((p) => relatedLink(p.entityType, p.slug, p.title));
+    for (const c of cities.slice(0, 6)) {
+      extra.push(relatedLink("city", citySlug(c.city), c.city));
+    }
+    return { ...base, relatedLinks: [...base.relatedLinks, ...extra] };
+  }, [slug, county, cities]);
 
   async function share() {
     const url = window.location.href;
@@ -156,6 +173,9 @@ export function CountyPublicPage({ county, slug }: Props) {
 
       <StudentServiceBlock county={county} opportunities={serviceOpps} />
       {countyDates.length > 0 && <ImportantArkansasDatesBlock dates={countyDates} title={`Important dates — ${county} County`} compact />}
+
+      {geoProfile && <RelatedCommunityPages links={geoProfile.relatedLinks} />}
+      {geoProfile && <FreshnessFooter freshness={geoProfile.freshness} entityLabel={`${county} County`} />}
 
       <CivicGlyphLegend />
     </div>

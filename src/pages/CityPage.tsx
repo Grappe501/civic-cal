@@ -16,6 +16,10 @@ import { CIVIC_GLYPHS } from "../lib/glyphs/civicGlyphs";
 import { listPublicStudentServiceOpportunities } from "../lib/student-service/studentServiceEngine";
 import { stateDatesForCounty } from "../lib/state-dates/stateDatesRegistry";
 import type { CivicEvent } from "../lib/types";
+import { getProfile, listProfiles } from "../lib/profiles/profileRegistry";
+import { FreshnessFooter } from "../components/FreshnessFooter";
+import { RelatedCommunityPages } from "../components/profiles/RelatedCommunityPages";
+import { relatedLink } from "../lib/profiles/profileLinks";
 
 interface Props {
   slug?: string;
@@ -46,6 +50,22 @@ export function CityPage({ slug: slugProp }: Props = {}) {
   const sports = events.filter((e) => e.category === "school" || /football|basketball|game/i.test(e.title));
   const serviceOpps = useMemo(() => listPublicStudentServiceOpportunities(events), [events]);
   const countyDates = useMemo(() => (dossier ? stateDatesForCounty(dossier.county).slice(0, 4) : []), [dossier]);
+
+  const geoProfile = useMemo(() => {
+    const base = getProfile(slug, "city");
+    if (!base || !dossier) return base;
+    const extra = listProfiles()
+      .filter(
+        (p) =>
+          p.entityType !== "city" &&
+          p.city?.toLowerCase() === dossier.city.toLowerCase() &&
+          ["church", "school", "college", "festival", "race"].includes(p.entityType),
+      )
+      .slice(0, 8)
+      .map((p) => relatedLink(p.entityType, p.slug, p.title));
+    extra.push(relatedLink("county", `${countySlug(dossier.county)}-county`, `${dossier.county} County`));
+    return { ...base, relatedLinks: [...base.relatedLinks, ...extra] };
+  }, [slug, dossier]);
 
   if (!dossier) {
     return (
@@ -193,6 +213,9 @@ export function CityPage({ slug: slugProp }: Props = {}) {
           </Link>
         </section>
       )}
+
+      {geoProfile && <RelatedCommunityPages links={geoProfile.relatedLinks} title="Related community pages" />}
+      {geoProfile && <FreshnessFooter freshness={geoProfile.freshness} entityLabel={dossier.city} />}
 
       <CivicGlyphLegend />
     </div>

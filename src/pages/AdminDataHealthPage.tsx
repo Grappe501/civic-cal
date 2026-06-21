@@ -1,7 +1,8 @@
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { Link } from "react-router-dom";
 import { AlertTriangle, CheckCircle2, Database, RefreshCw } from "lucide-react";
 import { runEventDataDiagnostics, type EventDataDiagnostics } from "../lib/events/eventDataDiagnostics";
+import { runProfileHealth } from "../lib/profiles/profileHealth";
 import { formatEventRange } from "../lib/format";
 
 const fnBase = import.meta.env.VITE_FUNCTIONS_BASE ?? "/.netlify/functions";
@@ -10,6 +11,7 @@ export function AdminDataHealthPage() {
   const [diag, setDiag] = useState<EventDataDiagnostics | null>(null);
   const [server, setServer] = useState<Record<string, unknown> | null>(null);
   const [loading, setLoading] = useState(true);
+  const profileHealth = useMemo(() => runProfileHealth(), []);
 
   async function refresh() {
     setLoading(true);
@@ -81,6 +83,20 @@ export function AdminDataHealthPage() {
             <Stat label="Missing slugs" value={String(diag.missingSlugCount)} />
             <Stat label="VITE_USE_SEED" value={String(diag.viteUseSeed)} />
             <Stat label="API reachable" value={String(diag.apiReachable)} />
+          </section>
+
+          <section className="card-readable">
+            <h2 className="font-semibold text-[var(--text-secondary)]">Community profile graph</h2>
+            <div className="mt-3 grid gap-3 sm:grid-cols-2 text-sm">
+              <Stat label="Total profiles" value={String(profileHealth.totalProfiles)} />
+              <Stat label="Stale profiles" value={String(profileHealth.staleCount)} highlight={profileHealth.staleCount > 0} />
+              <Stat label="Low confidence" value={String(profileHealth.lowConfidenceCount)} />
+              <Stat label="Missing sources" value={String(profileHealth.missingSourceCount)} />
+              <Stat label="Refresh needed" value={String(profileHealth.refreshNeededCount)} />
+            </div>
+            <Link to="/admin" className="btn-secondary text-xs mt-4 inline-flex" onClick={() => sessionStorage.setItem("civic-admin-tab", "profile_refresh")}>
+              Open profile refresh queue →
+            </Link>
           </section>
 
           {server && (

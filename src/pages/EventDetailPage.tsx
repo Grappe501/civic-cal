@@ -10,6 +10,8 @@ import { buildDossierBundle } from "../lib/ai/eventDossierBuilder";
 import { JsonLd } from "../components/seo/JsonLd";
 import { eventJsonLd } from "../lib/seo/jsonLd";
 import { EventIntelligenceDossierView } from "../components/events/EventIntelligenceDossierView";
+import { FreshnessFooter } from "../components/FreshnessFooter";
+import { defaultFreshness } from "../lib/freshness/freshnessTypes";
 
 export function EventDetailPage() {
   const { slug } = useParams<{ slug: string }>();
@@ -67,6 +69,19 @@ export function EventDetailPage() {
       presence={presence}
       onShare={handleShare}
     />
+      <div className="mx-auto max-w-4xl px-4 pb-10">
+        <FreshnessFooter
+          freshness={defaultFreshness({
+            sourceConfidence: event.source === "demo_seed" ? "placeholder" : event.status === "approved" ? "medium" : "low",
+            sourceCount: event.websiteUrl ? 1 : 0,
+            sourceLinks: event.websiteUrl ? [{ label: "Event source", url: event.websiteUrl }] : [],
+            verificationStatus: event.status === "approved" ? "verified" : "needs_review",
+            refreshNeeded: event.source === "demo_seed" || event.status !== "approved",
+            refreshNotes: event.source === "demo_seed" ? "Demo seed event — confirm with host before citing." : undefined,
+          })}
+          entityLabel={event.title}
+        />
+      </div>
     </>
   );
 }

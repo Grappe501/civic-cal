@@ -16,6 +16,10 @@ import { opportunitiesForOrganization } from "../lib/student-service/studentServ
 import { buildOrganizationSummary } from "../lib/seo/pageSummaries";
 import { organizationJsonLd } from "../lib/seo/jsonLd";
 import type { CivicEvent } from "../lib/types";
+import { getProfile } from "../lib/profiles/profileRegistry";
+import { FreshnessFooter } from "../components/FreshnessFooter";
+import { RelatedCommunityPages } from "../components/profiles/RelatedCommunityPages";
+import { relatedLink } from "../lib/profiles/profileLinks";
 
 export function OrganizationPage() {
   const { slug } = useParams<{ slug: string }>();
@@ -46,6 +50,17 @@ export function OrganizationPage() {
     () => (org && slug ? opportunitiesForOrganization(slug, events) : []),
     [org, slug, events],
   );
+
+  const profile = useMemo(() => {
+    if (!org || !slug) return null;
+    const base = getProfile(slug, "organization") ?? getProfile(slug);
+    if (!base) return null;
+    const extra = [];
+    if (org.hostType === "church") extra.push(relatedLink("church", slug, org.name, "Church profile"));
+    if (org.hostType === "school") extra.push(relatedLink("school", slug, org.name, "School profile"));
+    if (org.hostType === "college") extra.push(relatedLink("college", slug, org.name, "College profile"));
+    return { ...base, relatedLinks: [...base.relatedLinks, ...extra] };
+  }, [org, slug]);
 
   if (!org || !glyph) {
     return (
@@ -127,6 +142,9 @@ export function OrganizationPage() {
       </div>
 
       <StudentServiceBlock organizationSlug={slug} county={org.county} city={org.city ?? undefined} opportunities={orgServiceOpps} />
+
+      {profile && <RelatedCommunityPages links={profile.relatedLinks} />}
+      {profile && <FreshnessFooter freshness={profile.freshness} entityLabel={org.name} />}
     </div>
   );
 }

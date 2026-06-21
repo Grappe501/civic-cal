@@ -31,7 +31,8 @@
     "generate:public-demo-seed": "node scripts/generate-public-demo-seed.mjs",
     "import:candidates": "node scripts/run-with-h-drive-env.cjs node scripts/import-ingestion-candidates.cjs",
     "lint": "eslint src --ext ts,tsx",
-    "audit:contrast": "node scripts/run-with-h-drive-env.cjs node scripts/audit-contrast.mjs"
+    "audit:contrast": "node scripts/run-with-h-drive-env.cjs node scripts/audit-contrast.mjs",
+    "generate:sitemap": "node scripts/generate-sitemap.mjs"
   },
   "dependencies": {
     "@react-google-maps/api": "^2.20.6",
