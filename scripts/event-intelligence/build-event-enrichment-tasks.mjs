@@ -18,6 +18,7 @@ const BUNDLES = [
   "data/ingestion/historic-political-events-approved-events.json",
   "data/ingestion/top250-city-festival-approved-events.json",
   "data/agriculture/agriculture-event-approved-events.json",
+  "data/weekly-recurring/weekly-recurring-approved-events.json",
 ];
 
 function loadEvents() {

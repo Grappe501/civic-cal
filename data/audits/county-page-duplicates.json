@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-06-21T20:10:34.239Z",
+  "generatedAt": "2026-06-21T20:22:09.526Z",
   "pass": "emergency-duplicate-audit",
-  "catalogEventsRaw": 2032,
-  "catalogEventsMerged": 2020,
+  "catalogEventsRaw": 10382,
+  "catalogEventsMerged": 10370,
   "duplicateFindingsBeforeMerge": 91,
   "duplicateFindingsAfterCatalogMerge": 74,
   "duplicateFindingsAfterUiFix": 0,

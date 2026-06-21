@@ -8,6 +8,7 @@ import approvedCountyFairBundle from "../../../data/ingestion/county-fair-approv
 import approvedHistoricPoliticalBundle from "../../../data/ingestion/historic-political-events-approved-events.json";
 import approvedTop250CityFestivalBundle from "../../../data/ingestion/top250-city-festival-approved-events.json";
 import approvedAgricultureBundle from "../../../data/agriculture/agriculture-event-approved-events.json";
+import approvedWeeklyRecurringBundle from "../../../data/weekly-recurring/weekly-recurring-approved-events.json";
 import { dedupeCatalogEvents } from "../dedupe/dedupeRecords";
 
 type SeedFile = { events?: CivicEvent[]; label?: string };
@@ -48,6 +49,10 @@ export function loadApprovedAgricultureEvents(): CivicEvent[] {
   return (approvedAgricultureBundle as SeedFile).events ?? [];
 }
 
+export function loadApprovedWeeklyRecurringEvents(): CivicEvent[] {
+  return (approvedWeeklyRecurringBundle as SeedFile).events ?? [];
+}
+
 /** Merged bundled seeds — later approved bundles win on slug and canonical key. */
 export function getBundledSeedEvents(): CivicEvent[] {
   const layers: Array<{ priority: number; source: string; events: CivicEvent[] }> = [
@@ -60,6 +65,7 @@ export function getBundledSeedEvents(): CivicEvent[] {
     { priority: 6, source: "historic_political", events: loadApprovedHistoricPoliticalEvents() },
     { priority: 7, source: "top250_festival", events: loadApprovedTop250CityFestivalEvents() },
     { priority: 8, source: "agriculture", events: loadApprovedAgricultureEvents() },
+    { priority: 9, source: "weekly_recurring", events: loadApprovedWeeklyRecurringEvents() },
   ];
 
   const tagged = layers.flatMap(({ priority, source, events }) =>

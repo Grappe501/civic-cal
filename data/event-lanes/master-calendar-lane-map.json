@@ -98,10 +98,24 @@
     },
     {
       "lane": 9,
-      "id": "farmers_markets",
-      "label": "Farmers Markets / Food Trucks",
-      "coverage": ["weekly_markets", "food_truck_circuit"],
-      "registryLane": "farmers_markets"
+      "id": "weekly_recurring_life",
+      "label": "Arkansas Weekly Recurring Life",
+      "pass": 37,
+      "subLanes": [
+        "37A_farmers_market",
+        "37B_food_truck",
+        "37C_library",
+        "37D_senior_center",
+        "37E_parks_rec",
+        "37F_youth_sports",
+        "37G_service_club",
+        "37H_cruise_car",
+        "37I_bingo_community"
+      ],
+      "goal": { "cities": 200, "recurring_occurrences": 5000 },
+      "coverage": ["weekly_markets", "food_truck_circuit", "library_programs", "senior_center", "parks_rec", "service_clubs", "cruise_nights", "bingo"],
+      "registryLane": "weekly_recurring_life",
+      "note": "Recurrence + official source required — not invented worship or commerce"
     },
     {
       "lane": 10,

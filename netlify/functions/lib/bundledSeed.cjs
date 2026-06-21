@@ -14,21 +14,27 @@ function readEvents(rel) {
 }
 
 function loadBundledSeedEvents() {
-  const bySlug = new Map();
-  for (const file of [
-    "seed-events.json",
-    "seed-events-public-demo.json",
-    "ingestion/political-party-meetings-approved-events.json",
-    "ingestion/school-events-approved-events.json",
-    "ingestion/fair-festival-approved-events.json",
-    "ingestion/county-fair-approved-events.json",
-    "ingestion/historic-political-events-approved-events.json",
-    "ingestion/top250-city-festival-approved-events.json",
-  ]) {
+  const layers = [
+    ["seed-events.json", 0],
+    ["seed-events-public-demo.json", 1],
+    ["ingestion/political-party-meetings-approved-events.json", 2],
+    ["ingestion/school-events-approved-events.json", 3],
+    ["ingestion/fair-festival-approved-events.json", 4],
+    ["ingestion/county-fair-approved-events.json", 5],
+    ["ingestion/historic-political-events-approved-events.json", 6],
+    ["ingestion/top250-city-festival-approved-events.json", 7],
+    ["agriculture/agriculture-event-approved-events.json", 8],
+    ["weekly-recurring/weekly-recurring-approved-events.json", 9],
+  ];
+  const tagged = [];
+  for (const [file, priority] of layers) {
     for (const e of readEvents(file)) {
-      if (e?.slug && !bySlug.has(e.slug)) bySlug.set(e.slug, { ...e, status: e.status || "approved" });
+      if (e?.slug) tagged.push({ event: { ...e, status: e.status || "approved" }, priority });
     }
   }
+  tagged.sort((a, b) => a.priority - b.priority);
+  const bySlug = new Map();
+  for (const { event } of tagged) bySlug.set(event.slug, event);
   return [...bySlug.values()];
 }
 

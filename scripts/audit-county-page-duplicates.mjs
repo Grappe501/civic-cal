@@ -19,6 +19,7 @@ const BUNDLES = [
   { source: "historic_political", path: "data/ingestion/historic-political-events-approved-events.json", priority: 6 },
   { source: "top250_festival", path: "data/ingestion/top250-city-festival-approved-events.json", priority: 7 },
   { source: "agriculture", path: "data/agriculture/agriculture-event-approved-events.json", priority: 8 },
+  { source: "weekly_recurring", path: "data/weekly-recurring/weekly-recurring-approved-events.json", priority: 9 },
 ];
 
 const COUNTIES = JSON.parse(fs.readFileSync(path.join(ROOT, "data/arkansas-counties.json"), "utf8")).counties;

@@ -55,21 +55,25 @@ Every pass from 32 through 38 must deliver **three outcomes**:
 
 ---
 
-## Pass 36 — Church Community Events
+## Pass 36 — Faith Community Ecosystem
 
-**Goal:** Not worship — fish fries, spaghetti dinners, wild game, trunk-or-treat, VBS family nights, fall festivals. Church = community profile with denomination, public events, outreach links.
+**Goal:** Not worship times — community meals, family events, outreach, networks, faith+civic rooms (lanes 36A–36E).
 
----
+**Institution lens:** Church profile + **Community Influence Score** — does this institution produce community activity? (public-safe summary; admin detail).
 
-## Pass 37 — Farmers Markets / Food Trucks / Weekly Recurring
-
-**Goal:** Weekly recurring public-life events — markets, food truck nights, art walks, third Thursday, first Friday, concert series.
+See `docs/PASS_36_FAITH_COMMUNITY_ECOSYSTEM.md`.
 
 ---
 
-## Pass 38 — Narrative Enrichment + AI Search Dominance
+## Pass 37 — Arkansas Weekly Recurring Life
 
-**Goal:** Rich knowledge pages — About, History, Why it matters, Directions, Parking, Cost, Vendors, Volunteer, FAQs, related entities, FAQ JSON-LD, guide pages (“Things to do in [county]”, Arkansas festival guide, fair guide, fish fry guide, farmers market guide).
+**Goal:** Weekly recurring density — markets, food trucks, library/senior/parks programs, service clubs (Rotary/Lions/Kiwanis), sports leagues, cruise nights, bingo, etc.
+
+---
+
+## Pass 38 — Community DNA
+
+**Goal:** City/county dossiers with People · Institutions · Traditions · Economy · Community personality (Census + BLS + sourced AI narrative) + guide pages + FAQ JSON-LD at scale.
 
 ---
 
@@ -81,9 +85,9 @@ Pass 32 → Festival density 31 → 500+
 Pass 33 → County fairs 30 → 75
 Pass 34 → Extension / 4-H / Homemakers
 Pass 35 → VFD network
-Pass 36 → Church community events
-Pass 37 → Farmers markets + food trucks
-Pass 38 → Narrative enrichment at scale
+Pass 36 → Faith Community Ecosystem (36A–36E)
+Pass 37 → Arkansas Weekly Recurring Life
+Pass 38 → Community DNA at scale
 ```
 
 See also: `docs/PRODUCT_PRIORITY_RESET.md`, `docs/PASSES_33_40_ROADMAP.md`, `docs/COMMUNITY_SYSTEMS_NORTH_STAR.md`, `data/event-lanes/master-calendar-lane-map.json`.

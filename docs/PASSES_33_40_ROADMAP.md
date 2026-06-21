@@ -50,11 +50,17 @@ See `docs/PASS_34_ARKANSAS_FOOD_AGRICULTURE_ECOSYSTEM.md`.
 
 ---
 
-## Pass 36 — Church Community Events
+## Pass 36 — Faith Community Ecosystem
 
-**Goal:** Public community events only (fish fries, spaghetti, wild game, trunk-or-treat, VBS family nights, fall festivals).
+**Goal:** Harvest what churches do **besides Sunday worship** — not service times.
 
-**Institution lens:** Church as community profile — denomination, public outreach, annual traditions.
+**Sub-lanes:** 36A Community Meals · 36B Family Events · 36C Service & Outreach · 36D Men's/Women's Networks · 36E Faith + Civic Rooms.
+
+**Institution lens:** Church as community anchor — denomination, outreach, recurring traditions, **Community Influence Score** (activity-producing institution, not political).
+
+**Why it wins:** Highest relationship-density rooms in Arkansas — meals, VBS, drives, forums — touch every county and tie to schools, fairs, VFDs, food trail.
+
+See `docs/PASS_36_FAITH_COMMUNITY_ECOSYSTEM.md`.
 
 ---
 
@@ -75,11 +81,15 @@ See `docs/PASS_34_ARKANSAS_FOOD_AGRICULTURE_ECOSYSTEM.md`.
 
 ---
 
-## Pass 37 — Farmers Markets / Food Trucks / Weekly Recurring
+## Pass 37 — Arkansas Weekly Recurring Life
 
-**Goal:** Weekly recurring public-life events — markets, food truck nights, art walks, third Thursday, first Friday, concert series.
+**Goal:** Weekly recurring public-life events that compound calendar density — not one-off harvests.
 
-**Traffic:** High search volume for regular local life.
+**Harvest:** Farmers markets · food trucks · bingo nights · community center activities · library programs · senior center activities · parks & recreation · youth sports · car shows · cruise nights · pickleball leagues · running clubs · Rotary · Lions · Kiwanis.
+
+**Traffic:** High search volume for “every week” local life — can add **thousands** of recurring entries when source-backed.
+
+**Rule:** Recurrence pattern + official source required; no invented weekly slots.
 
 ---
 
@@ -95,17 +105,25 @@ See `docs/PASS_34_ARKANSAS_FOOD_AGRICULTURE_ECOSYSTEM.md`.
 
 ---
 
-## Pass 38 — Narrative Enrichment + Community DNA
+## Pass 38 — Community DNA
 
-**Goal:** Rich knowledge pages + Census/BLS community intelligence on city/county dossiers.
+**Goal:** Rich knowledge pages + structured community intelligence on every city and county — Census + BLS + sourced narrative.
 
-**Narrative sections:** About, History, Why it matters, Directions, Parking, Cost, Vendors, Volunteer, FAQs, related entities, FAQ JSON-LD.
+**Per city / county dossier:**
 
-**Community DNA:** Population, growth, age, employers, unemployment, education, rural/suburban/urban character (Census ACS + BLS — public sources only).
+| Layer | Fields |
+|-------|--------|
+| **People** | population, age, education, employment |
+| **Institutions** | schools, churches, VFDs, Extension, libraries |
+| **Traditions** | fairs, festivals, food events |
+| **Economy** | major employers, BLS sectors, income, labor force |
+| **Community personality** | AI-generated from sources — agriculture-centered, manufacturing, college town, tourism, military, retirement, etc. |
 
-**Community Calendar DNA Score (pre–Pass 39):** Event · institution · tradition · cultural · youth · volunteer · outdoor · agricultural density per county. Schema: `community-calendar-dna-score-schema.json`.
+**Narrative sections (events + places):** About, History, Why it matters, Directions, Parking, Cost, Vendors, Volunteer, FAQs, related entities, FAQ JSON-LD.
 
-**Guide pages (launch):** Fish fry · Festival · County fair · Parade · Farmers market · Food truck · Rodeo · Livestock show · Hunting events · Fishing tournaments · Concert · This weekend · This month · Things to do in every county.
+**Guide pages (launch):** Fish fry · Festival · County fair · Parade · Farmers market · Food truck · Rodeo · Livestock · Hunting · Fishing · Concert · This weekend · This month · Things to do in every county.
+
+**Community Calendar DNA Score (pre–Pass 40):** Event · institution · tradition · cultural · youth · volunteer · outdoor · agricultural density per county.
 
 ---
 
@@ -160,11 +178,11 @@ Pass 32  Festival density ✅ (107 approved, pipeline live)
 Pass 33  County fair completion
 Pass 34  Arkansas Food & Agriculture Ecosystem (34A–34G)
 Pass 35  VFD network
-Pass 36  Church community events
+Pass 36  Faith Community Ecosystem (36A–36E)
 Pass 36.5 Cultural community layer
-Pass 37  Farmers markets / food trucks
+Pass 37  Arkansas Weekly Recurring Life
 Pass 37.5 Music / concert intelligence
-Pass 38  Narrative enrichment + Community DNA + guide pages
+Pass 38  Community DNA + guide pages
 Pass 39  Community influence graph
 Pass 40  Community health score
 ```

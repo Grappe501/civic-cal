@@ -12,6 +12,7 @@ import { runHistoricPoliticalHealth } from "../lib/political-events/historicPoli
 import { loadFeedAttachmentReport } from "../lib/feeds/feedAttachmentReport";
 import { formatEventRange } from "../lib/format";
 import duplicateAudit from "../../data/audits/county-page-duplicates.json";
+import { runWeeklyRecurringHealth } from "../lib/weekly-recurring/weeklyRecurringHealth";
 
 const fnBase = import.meta.env.VITE_FUNCTIONS_BASE ?? "/.netlify/functions";
 
@@ -27,6 +28,7 @@ export function AdminDataHealthPage() {
   const feedReport = useMemo(() => loadFeedAttachmentReport(), []);
   const eventPageScores = useMemo(() => scoreAllPublicEventPages(), []);
   const eventPageSummary = useMemo(() => eventPageQualitySummary(eventPageScores), [eventPageScores]);
+  const weeklyHealth = useMemo(() => runWeeklyRecurringHealth(), []);
 
   async function refresh() {
     setLoading(true);
@@ -146,6 +148,21 @@ export function AdminDataHealthPage() {
                   ))}
                 </tbody>
               </table>
+            </div>
+          </section>
+
+          <section className="card-readable">
+            <h2 className="font-semibold text-[var(--text-secondary)]">Weekly Recurring Life (Pass 37)</h2>
+            <p className="text-caption mt-1">
+              Farmers markets, food trucks, library/senior/parks programs, service clubs — recurrence + source required.
+            </p>
+            <div className="mt-3 grid gap-3 sm:grid-cols-2 text-sm">
+              <Stat label="Institution slots" value={String(weeklyHealth.institutionCount)} />
+              <Stat label="Recurring series" value={String(weeklyHealth.seriesCount)} highlight />
+              <Stat label="Approved public occurrences" value={String(weeklyHealth.approvedPublicEvents)} highlight />
+              <Stat label="Cities covered" value={String(weeklyHealth.citiesCovered)} />
+              <Stat label="Counties covered" value={String(weeklyHealth.countiesCovered)} />
+              <Stat label="Research tasks open" value={String(weeklyHealth.openResearchTasks)} />
             </div>
           </section>
 
