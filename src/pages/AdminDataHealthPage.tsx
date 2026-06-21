@@ -94,8 +94,11 @@ export function AdminDataHealthPage() {
               <Stat label="Missing sources" value={String(profileHealth.missingSourceCount)} />
               <Stat label="Refresh needed" value={String(profileHealth.refreshNeededCount)} />
             </div>
-            <Link to="/admin" className="btn-secondary text-xs mt-4 inline-flex" onClick={() => sessionStorage.setItem("civic-admin-tab", "profile_refresh")}>
-              Open profile refresh queue →
+            <Link to="/admin/density" className="btn-secondary text-xs mt-4 inline-flex">
+              Open density engine →
+            </Link>
+            <Link to="/admin" className="btn-ghost text-xs mt-4 ml-2 inline-flex" onClick={() => sessionStorage.setItem("civic-admin-tab", "profile_refresh")}>
+              Profile refresh queue →
             </Link>
           </section>
 

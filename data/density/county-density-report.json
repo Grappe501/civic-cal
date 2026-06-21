@@ -1,0 +1,2664 @@
+{
+  "generatedAt": "2026-06-21T06:14:44.136Z",
+  "totalProjectedFutureEvents": 3029,
+  "goalProjectedEvents": 5000,
+  "goalMet": false,
+  "counties": [
+    {
+      "county": "Calhoun",
+      "institutions": {
+        "churches": 0,
+        "schools": 0,
+        "colleges": 0,
+        "organizations": 0,
+        "extensionOffices": 1,
+        "homemakerClubs": 2,
+        "total": 3
+      },
+      "events": {
+        "total": 1,
+        "churchTagged": 0,
+        "schoolTagged": 0
+      },
+      "recurringTraditions": 0,
+      "volunteerOpportunities": 0,
+      "sourceFeedsDiscovered": 0,
+      "citiesInCounty": 0,
+      "projectedFutureEvents": 8,
+      "coverageScore": 9,
+      "gaps": []
+    },
+    {
+      "county": "Cleveland",
+      "institutions": {
+        "churches": 0,
+        "schools": 0,
+        "colleges": 0,
+        "organizations": 0,
+        "extensionOffices": 1,
+        "homemakerClubs": 2,
+        "total": 3
+      },
+      "events": {
+        "total": 1,
+        "churchTagged": 0,
+        "schoolTagged": 0
+      },
+      "recurringTraditions": 0,
+      "volunteerOpportunities": 0,
+      "sourceFeedsDiscovered": 0,
+      "citiesInCounty": 0,
+      "projectedFutureEvents": 8,
+      "coverageScore": 9,
+      "gaps": []
+    },
+    {
+      "county": "Grant",
+      "institutions": {
+        "churches": 0,
+        "schools": 0,
+        "colleges": 0,
+        "organizations": 0,
+        "extensionOffices": 1,
+        "homemakerClubs": 2,
+        "total": 3
+      },
+      "events": {
+        "total": 1,
+        "churchTagged": 0,
+        "schoolTagged": 0
+      },
+      "recurringTraditions": 0,
+      "volunteerOpportunities": 0,
+      "sourceFeedsDiscovered": 0,
+      "citiesInCounty": 0,
+      "projectedFutureEvents": 8,
+      "coverageScore": 9,
+      "gaps": []
+    },
+    {
+      "county": "Scott",
+      "institutions": {
+        "churches": 0,
+        "schools": 0,
+        "colleges": 0,
+        "organizations": 0,
+        "extensionOffices": 1,
+        "homemakerClubs": 2,
+        "total": 3
+      },
+      "events": {
+        "total": 1,
+        "churchTagged": 0,
+        "schoolTagged": 0
+      },
+      "recurringTraditions": 0,
+      "volunteerOpportunities": 0,
+      "sourceFeedsDiscovered": 0,
+      "citiesInCounty": 0,
+      "projectedFutureEvents": 8,
+      "coverageScore": 9,
+      "gaps": []
+    },
+    {
+      "county": "Montgomery",
+      "institutions": {
+        "churches": 0,
+        "schools": 0,
+        "colleges": 0,
+        "organizations": 0,
+        "extensionOffices": 1,
+        "homemakerClubs": 2,
+        "total": 3
+      },
+      "events": {
+        "total": 3,
+        "churchTagged": 0,
+        "schoolTagged": 0
+      },
+      "recurringTraditions": 0,
+      "volunteerOpportunities": 0,
+      "sourceFeedsDiscovered": 0,
+      "citiesInCounty": 0,
+      "projectedFutureEvents": 8,
+      "coverageScore": 14,
+      "gaps": []
+    },
+    {
+      "county": "Lee",
+      "institutions": {
+        "churches": 1,
+        "schools": 1,
+        "colleges": 0,
+        "organizations": 4,
+        "extensionOffices": 1,
+        "homemakerClubs": 2,
+        "total": 9
+      },
+      "events": {
+        "total": 1,
+        "churchTagged": 0,
+        "schoolTagged": 0
+      },
+      "recurringTraditions": 0,
+      "volunteerOpportunities": 0,
+      "sourceFeedsDiscovered": 0,
+      "citiesInCounty": 1,
+      "projectedFutureEvents": 17,
+      "coverageScore": 15,
+      "gaps": []
+    },
+    {
+      "county": "Randolph",
+      "institutions": {
+        "churches": 1,
+        "schools": 1,
+        "colleges": 0,
+        "organizations": 4,
+        "extensionOffices": 1,
+        "homemakerClubs": 2,
+        "total": 9
+      },
+      "events": {
+        "total": 3,
+        "churchTagged": 0,
+        "schoolTagged": 0
+      },
+      "recurringTraditions": 0,
+      "volunteerOpportunities": 0,
+      "sourceFeedsDiscovered": 0,
+      "citiesInCounty": 1,
+      "projectedFutureEvents": 17,
+      "coverageScore": 21,
+      "gaps": []
+    },
+    {
+      "county": "Madison",
+      "institutions": {
+        "churches": 2,
+        "schools": 2,
+        "colleges": 0,
+        "organizations": 7,
+        "extensionOffices": 1,
+        "homemakerClubs": 2,
+        "total": 14
+      },
+      "events": {
+        "total": 1,
+        "churchTagged": 0,
+        "schoolTagged": 0
+      },
+      "recurringTraditions": 0,
+      "volunteerOpportunities": 0,
+      "sourceFeedsDiscovered": 1,
+      "citiesInCounty": 2,
+      "projectedFutureEvents": 26,
+      "coverageScore": 29,
+      "gaps": [
+        {
+          "kind": "overall_sparse",
+          "severity": "critical",
+          "message": "14 institutions, 1 events"
+        }
+      ]
+    },
+    {
+      "county": "Polk",
+      "institutions": {
+        "churches": 2,
+        "schools": 2,
+        "colleges": 0,
+        "organizations": 7,
+        "extensionOffices": 1,
+        "homemakerClubs": 2,
+        "total": 14
+      },
+      "events": {
+        "total": 1,
+        "churchTagged": 0,
+        "schoolTagged": 0
+      },
+      "recurringTraditions": 0,
+      "volunteerOpportunities": 0,
+      "sourceFeedsDiscovered": 1,
+      "citiesInCounty": 2,
+      "projectedFutureEvents": 26,
+      "coverageScore": 29,
+      "gaps": [
+        {
+          "kind": "overall_sparse",
+          "severity": "critical",
+          "message": "14 institutions, 1 events"
+        }
+      ]
+    },
+    {
+      "county": "Sevier",
+      "institutions": {
+        "churches": 2,
+        "schools": 2,
+        "colleges": 0,
+        "organizations": 7,
+        "extensionOffices": 1,
+        "homemakerClubs": 2,
+        "total": 14
+      },
+      "events": {
+        "total": 1,
+        "churchTagged": 0,
+        "schoolTagged": 0
+      },
+      "recurringTraditions": 0,
+      "volunteerOpportunities": 0,
+      "sourceFeedsDiscovered": 1,
+      "citiesInCounty": 2,
+      "projectedFutureEvents": 26,
+      "coverageScore": 29,
+      "gaps": [
+        {
+          "kind": "overall_sparse",
+          "severity": "critical",
+          "message": "14 institutions, 1 events"
+        }
+      ]
+    },
+    {
+      "county": "Woodruff",
+      "institutions": {
+        "churches": 2,
+        "schools": 2,
+        "colleges": 0,
+        "organizations": 7,
+        "extensionOffices": 1,
+        "homemakerClubs": 2,
+        "total": 14
+      },
+      "events": {
+        "total": 1,
+        "churchTagged": 0,
+        "schoolTagged": 0
+      },
+      "recurringTraditions": 0,
+      "volunteerOpportunities": 0,
+      "sourceFeedsDiscovered": 1,
+      "citiesInCounty": 2,
+      "projectedFutureEvents": 26,
+      "coverageScore": 29,
+      "gaps": [
+        {
+          "kind": "overall_sparse",
+          "severity": "critical",
+          "message": "14 institutions, 1 events"
+        }
+      ]
+    },
+    {
+      "county": "Ouachita",
+      "institutions": {
+        "churches": 3,
+        "schools": 2,
+        "colleges": 0,
+        "organizations": 7,
+        "extensionOffices": 1,
+        "homemakerClubs": 2,
+        "total": 15
+      },
+      "events": {
+        "total": 1,
+        "churchTagged": 0,
+        "schoolTagged": 0
+      },
+      "recurringTraditions": 0,
+      "volunteerOpportunities": 0,
+      "sourceFeedsDiscovered": 1,
+      "citiesInCounty": 2,
+      "projectedFutureEvents": 28,
+      "coverageScore": 30,
+      "gaps": [
+        {
+          "kind": "overall_sparse",
+          "severity": "critical",
+          "message": "15 institutions, 1 events"
+        }
+      ]
+    },
+    {
+      "county": "Miller",
+      "institutions": {
+        "churches": 2,
+        "schools": 1,
+        "colleges": 0,
+        "organizations": 6,
+        "extensionOffices": 1,
+        "homemakerClubs": 2,
+        "total": 12
+      },
+      "events": {
+        "total": 1,
+        "churchTagged": 0,
+        "schoolTagged": 0
+      },
+      "recurringTraditions": 0,
+      "volunteerOpportunities": 0,
+      "sourceFeedsDiscovered": 1,
+      "citiesInCounty": 1,
+      "projectedFutureEvents": 19,
+      "coverageScore": 31,
+      "gaps": [
+        {
+          "kind": "overall_sparse",
+          "severity": "critical",
+          "message": "12 institutions, 1 events"
+        }
+      ]
+    },
+    {
+      "county": "Howard",
+      "institutions": {
+        "churches": 2,
+        "schools": 2,
+        "colleges": 0,
+        "organizations": 7,
+        "extensionOffices": 1,
+        "homemakerClubs": 2,
+        "total": 14
+      },
+      "events": {
+        "total": 2,
+        "churchTagged": 0,
+        "schoolTagged": 0
+      },
+      "recurringTraditions": 0,
+      "volunteerOpportunities": 0,
+      "sourceFeedsDiscovered": 1,
+      "citiesInCounty": 2,
+      "projectedFutureEvents": 26,
+      "coverageScore": 32,
+      "gaps": [
+        {
+          "kind": "overall_sparse",
+          "severity": "critical",
+          "message": "14 institutions, 2 events"
+        }
+      ]
+    },
+    {
+      "county": "Little River",
+      "institutions": {
+        "churches": 2,
+        "schools": 2,
+        "colleges": 0,
+        "organizations": 7,
+        "extensionOffices": 1,
+        "homemakerClubs": 2,
+        "total": 14
+      },
+      "events": {
+        "total": 2,
+        "churchTagged": 0,
+        "schoolTagged": 0
+      },
+      "recurringTraditions": 0,
+      "volunteerOpportunities": 0,
+      "sourceFeedsDiscovered": 1,
+      "citiesInCounty": 2,
+      "projectedFutureEvents": 26,
+      "coverageScore": 32,
+      "gaps": [
+        {
+          "kind": "overall_sparse",
+          "severity": "critical",
+          "message": "14 institutions, 2 events"
+        }
+      ]
+    },
+    {
+      "county": "Drew",
+      "institutions": {
+        "churches": 3,
+        "schools": 2,
+        "colleges": 1,
+        "organizations": 7,
+        "extensionOffices": 1,
+        "homemakerClubs": 2,
+        "total": 16
+      },
+      "events": {
+        "total": 1,
+        "churchTagged": 0,
+        "schoolTagged": 0
+      },
+      "recurringTraditions": 0,
+      "volunteerOpportunities": 0,
+      "sourceFeedsDiscovered": 1,
+      "citiesInCounty": 2,
+      "projectedFutureEvents": 32,
+      "coverageScore": 33,
+      "gaps": [
+        {
+          "kind": "overall_sparse",
+          "severity": "critical",
+          "message": "16 institutions, 1 events"
+        }
+      ]
+    },
+    {
+      "county": "Hot Spring",
+      "institutions": {
+        "churches": 3,
+        "schools": 2,
+        "colleges": 0,
+        "organizations": 7,
+        "extensionOffices": 1,
+        "homemakerClubs": 2,
+        "total": 15
+      },
+      "events": {
+        "total": 2,
+        "churchTagged": 0,
+        "schoolTagged": 0
+      },
+      "recurringTraditions": 0,
+      "volunteerOpportunities": 0,
+      "sourceFeedsDiscovered": 1,
+      "citiesInCounty": 2,
+      "projectedFutureEvents": 28,
+      "coverageScore": 33,
+      "gaps": [
+        {
+          "kind": "overall_sparse",
+          "severity": "critical",
+          "message": "15 institutions, 2 events"
+        }
+      ]
+    },
+    {
+      "county": "Nevada",
+      "institutions": {
+        "churches": 1,
+        "schools": 1,
+        "colleges": 0,
+        "organizations": 4,
+        "extensionOffices": 1,
+        "homemakerClubs": 2,
+        "total": 9
+      },
+      "events": {
+        "total": 2,
+        "churchTagged": 0,
+        "schoolTagged": 0
+      },
+      "recurringTraditions": 0,
+      "volunteerOpportunities": 0,
+      "sourceFeedsDiscovered": 1,
+      "citiesInCounty": 1,
+      "projectedFutureEvents": 17,
+      "coverageScore": 33,
+      "gaps": []
+    },
+    {
+      "county": "Pike",
+      "institutions": {
+        "churches": 1,
+        "schools": 1,
+        "colleges": 0,
+        "organizations": 4,
+        "extensionOffices": 1,
+        "homemakerClubs": 2,
+        "total": 9
+      },
+      "events": {
+        "total": 2,
+        "churchTagged": 0,
+        "schoolTagged": 0
+      },
+      "recurringTraditions": 0,
+      "volunteerOpportunities": 0,
+      "sourceFeedsDiscovered": 1,
+      "citiesInCounty": 1,
+      "projectedFutureEvents": 17,
+      "coverageScore": 33,
+      "gaps": []
+    },
+    {
+      "county": "Greene",
+      "institutions": {
+        "churches": 2,
+        "schools": 1,
+        "colleges": 0,
+        "organizations": 6,
+        "extensionOffices": 1,
+        "homemakerClubs": 2,
+        "total": 12
+      },
+      "events": {
+        "total": 2,
+        "churchTagged": 0,
+        "schoolTagged": 0
+      },
+      "recurringTraditions": 0,
+      "volunteerOpportunities": 0,
+      "sourceFeedsDiscovered": 1,
+      "citiesInCounty": 1,
+      "projectedFutureEvents": 19,
+      "coverageScore": 34,
+      "gaps": [
+        {
+          "kind": "overall_sparse",
+          "severity": "critical",
+          "message": "12 institutions, 2 events"
+        }
+      ]
+    },
+    {
+      "county": "Baxter",
+      "institutions": {
+        "churches": 3,
+        "schools": 2,
+        "colleges": 0,
+        "organizations": 9,
+        "extensionOffices": 1,
+        "homemakerClubs": 2,
+        "total": 17
+      },
+      "events": {
+        "total": 3,
+        "churchTagged": 0,
+        "schoolTagged": 0
+      },
+      "recurringTraditions": 0,
+      "volunteerOpportunities": 0,
+      "sourceFeedsDiscovered": 1,
+      "citiesInCounty": 2,
+      "projectedFutureEvents": 28,
+      "coverageScore": 36,
+      "gaps": [
+        {
+          "kind": "overall_sparse",
+          "severity": "critical",
+          "message": "17 institutions, 3 events"
+        }
+      ]
+    },
+    {
+      "county": "Independence",
+      "institutions": {
+        "churches": 3,
+        "schools": 2,
+        "colleges": 1,
+        "organizations": 7,
+        "extensionOffices": 1,
+        "homemakerClubs": 2,
+        "total": 16
+      },
+      "events": {
+        "total": 2,
+        "churchTagged": 0,
+        "schoolTagged": 0
+      },
+      "recurringTraditions": 0,
+      "volunteerOpportunities": 0,
+      "sourceFeedsDiscovered": 1,
+      "citiesInCounty": 2,
+      "projectedFutureEvents": 32,
+      "coverageScore": 36,
+      "gaps": [
+        {
+          "kind": "overall_sparse",
+          "severity": "critical",
+          "message": "16 institutions, 2 events"
+        }
+      ]
+    },
+    {
+      "county": "Lawrence",
+      "institutions": {
+        "churches": 1,
+        "schools": 1,
+        "colleges": 0,
+        "organizations": 4,
+        "extensionOffices": 1,
+        "homemakerClubs": 2,
+        "total": 9
+      },
+      "events": {
+        "total": 3,
+        "churchTagged": 0,
+        "schoolTagged": 0
+      },
+      "recurringTraditions": 0,
+      "volunteerOpportunities": 0,
+      "sourceFeedsDiscovered": 1,
+      "citiesInCounty": 1,
+      "projectedFutureEvents": 17,
+      "coverageScore": 36,
+      "gaps": []
+    },
+    {
+      "county": "Phillips",
+      "institutions": {
+        "churches": 3,
+        "schools": 2,
+        "colleges": 1,
+        "organizations": 7,
+        "extensionOffices": 1,
+        "homemakerClubs": 2,
+        "total": 16
+      },
+      "events": {
+        "total": 2,
+        "churchTagged": 0,
+        "schoolTagged": 0
+      },
+      "recurringTraditions": 0,
+      "volunteerOpportunities": 0,
+      "sourceFeedsDiscovered": 1,
+      "citiesInCounty": 2,
+      "projectedFutureEvents": 32,
+      "coverageScore": 36,
+      "gaps": [
+        {
+          "kind": "overall_sparse",
+          "severity": "critical",
+          "message": "16 institutions, 2 events"
+        }
+      ]
+    },
+    {
+      "county": "Searcy",
+      "institutions": {
+        "churches": 2,
+        "schools": 2,
+        "colleges": 0,
+        "organizations": 7,
+        "extensionOffices": 1,
+        "homemakerClubs": 2,
+        "total": 14
+      },
+      "events": {
+        "total": 1,
+        "churchTagged": 0,
+        "schoolTagged": 0
+      },
+      "recurringTraditions": 0,
+      "volunteerOpportunities": 0,
+      "sourceFeedsDiscovered": 2,
+      "citiesInCounty": 2,
+      "projectedFutureEvents": 26,
+      "coverageScore": 36,
+      "gaps": [
+        {
+          "kind": "overall_sparse",
+          "severity": "critical",
+          "message": "14 institutions, 1 events"
+        }
+      ]
+    },
+    {
+      "county": "Dallas",
+      "institutions": {
+        "churches": 3,
+        "schools": 3,
+        "colleges": 0,
+        "organizations": 10,
+        "extensionOffices": 1,
+        "homemakerClubs": 2,
+        "total": 19
+      },
+      "events": {
+        "total": 1,
+        "churchTagged": 0,
+        "schoolTagged": 0
+      },
+      "recurringTraditions": 0,
+      "volunteerOpportunities": 0,
+      "sourceFeedsDiscovered": 2,
+      "citiesInCounty": 3,
+      "projectedFutureEvents": 35,
+      "coverageScore": 37,
+      "gaps": [
+        {
+          "kind": "overall_sparse",
+          "severity": "critical",
+          "message": "19 institutions, 1 events"
+        }
+      ]
+    },
+    {
+      "county": "Desha",
+      "institutions": {
+        "churches": 3,
+        "schools": 3,
+        "colleges": 0,
+        "organizations": 10,
+        "extensionOffices": 1,
+        "homemakerClubs": 2,
+        "total": 19
+      },
+      "events": {
+        "total": 1,
+        "churchTagged": 0,
+        "schoolTagged": 0
+      },
+      "recurringTraditions": 0,
+      "volunteerOpportunities": 0,
+      "sourceFeedsDiscovered": 2,
+      "citiesInCounty": 3,
+      "projectedFutureEvents": 35,
+      "coverageScore": 37,
+      "gaps": [
+        {
+          "kind": "overall_sparse",
+          "severity": "critical",
+          "message": "19 institutions, 1 events"
+        }
+      ]
+    },
+    {
+      "county": "Hempstead",
+      "institutions": {
+        "churches": 3,
+        "schools": 2,
+        "colleges": 0,
+        "organizations": 7,
+        "extensionOffices": 1,
+        "homemakerClubs": 2,
+        "total": 15
+      },
+      "events": {
+        "total": 2,
+        "churchTagged": 0,
+        "schoolTagged": 0
+      },
+      "recurringTraditions": 1,
+      "volunteerOpportunities": 0,
+      "sourceFeedsDiscovered": 1,
+      "citiesInCounty": 2,
+      "projectedFutureEvents": 29,
+      "coverageScore": 37,
+      "gaps": [
+        {
+          "kind": "overall_sparse",
+          "severity": "critical",
+          "message": "15 institutions, 2 events"
+        }
+      ]
+    },
+    {
+      "county": "Stone",
+      "institutions": {
+        "churches": 3,
+        "schools": 2,
+        "colleges": 0,
+        "organizations": 7,
+        "extensionOffices": 1,
+        "homemakerClubs": 2,
+        "total": 15
+      },
+      "events": {
+        "total": 1,
+        "churchTagged": 0,
+        "schoolTagged": 0
+      },
+      "recurringTraditions": 0,
+      "volunteerOpportunities": 0,
+      "sourceFeedsDiscovered": 2,
+      "citiesInCounty": 2,
+      "projectedFutureEvents": 28,
+      "coverageScore": 38,
+      "gaps": [
+        {
+          "kind": "overall_sparse",
+          "severity": "critical",
+          "message": "15 institutions, 1 events"
+        }
+      ]
+    },
+    {
+      "county": "Franklin",
+      "institutions": {
+        "churches": 4,
+        "schools": 3,
+        "colleges": 0,
+        "organizations": 10,
+        "extensionOffices": 1,
+        "homemakerClubs": 2,
+        "total": 20
+      },
+      "events": {
+        "total": 1,
+        "churchTagged": 0,
+        "schoolTagged": 0
+      },
+      "recurringTraditions": 0,
+      "volunteerOpportunities": 0,
+      "sourceFeedsDiscovered": 2,
+      "citiesInCounty": 3,
+      "projectedFutureEvents": 37,
+      "coverageScore": 39,
+      "gaps": [
+        {
+          "kind": "overall_sparse",
+          "severity": "critical",
+          "message": "20 institutions, 1 events"
+        }
+      ]
+    },
+    {
+      "county": "Newton",
+      "institutions": {
+        "churches": 1,
+        "schools": 1,
+        "colleges": 0,
+        "organizations": 4,
+        "extensionOffices": 1,
+        "homemakerClubs": 2,
+        "total": 9
+      },
+      "events": {
+        "total": 4,
+        "churchTagged": 0,
+        "schoolTagged": 0
+      },
+      "recurringTraditions": 0,
+      "volunteerOpportunities": 0,
+      "sourceFeedsDiscovered": 1,
+      "citiesInCounty": 1,
+      "projectedFutureEvents": 17,
+      "coverageScore": 39,
+      "gaps": []
+    },
+    {
+      "county": "Bradley",
+      "institutions": {
+        "churches": 2,
+        "schools": 2,
+        "colleges": 0,
+        "organizations": 7,
+        "extensionOffices": 1,
+        "homemakerClubs": 2,
+        "total": 14
+      },
+      "events": {
+        "total": 1,
+        "churchTagged": 0,
+        "schoolTagged": 0
+      },
+      "recurringTraditions": 1,
+      "volunteerOpportunities": 0,
+      "sourceFeedsDiscovered": 2,
+      "citiesInCounty": 2,
+      "projectedFutureEvents": 27,
+      "coverageScore": 40,
+      "gaps": [
+        {
+          "kind": "overall_sparse",
+          "severity": "critical",
+          "message": "14 institutions, 1 events"
+        }
+      ]
+    },
+    {
+      "county": "Poinsett",
+      "institutions": {
+        "churches": 4,
+        "schools": 4,
+        "colleges": 0,
+        "organizations": 13,
+        "extensionOffices": 1,
+        "homemakerClubs": 2,
+        "total": 24
+      },
+      "events": {
+        "total": 1,
+        "churchTagged": 0,
+        "schoolTagged": 0
+      },
+      "recurringTraditions": 0,
+      "volunteerOpportunities": 0,
+      "sourceFeedsDiscovered": 2,
+      "citiesInCounty": 4,
+      "projectedFutureEvents": 44,
+      "coverageScore": 41,
+      "gaps": [
+        {
+          "kind": "overall_sparse",
+          "severity": "critical",
+          "message": "24 institutions, 1 events"
+        }
+      ]
+    },
+    {
+      "county": "Fulton",
+      "institutions": {
+        "churches": 2,
+        "schools": 2,
+        "colleges": 0,
+        "organizations": 7,
+        "extensionOffices": 1,
+        "homemakerClubs": 2,
+        "total": 14
+      },
+      "events": {
+        "total": 3,
+        "churchTagged": 0,
+        "schoolTagged": 0
+      },
+      "recurringTraditions": 0,
+      "volunteerOpportunities": 0,
+      "sourceFeedsDiscovered": 2,
+      "citiesInCounty": 2,
+      "projectedFutureEvents": 26,
+      "coverageScore": 42,
+      "gaps": [
+        {
+          "kind": "overall_sparse",
+          "severity": "critical",
+          "message": "14 institutions, 3 events"
+        }
+      ]
+    },
+    {
+      "county": "Izard",
+      "institutions": {
+        "churches": 3,
+        "schools": 3,
+        "colleges": 0,
+        "organizations": 10,
+        "extensionOffices": 1,
+        "homemakerClubs": 2,
+        "total": 19
+      },
+      "events": {
+        "total": 1,
+        "churchTagged": 0,
+        "schoolTagged": 0
+      },
+      "recurringTraditions": 0,
+      "volunteerOpportunities": 0,
+      "sourceFeedsDiscovered": 3,
+      "citiesInCounty": 3,
+      "projectedFutureEvents": 35,
+      "coverageScore": 42,
+      "gaps": [
+        {
+          "kind": "overall_sparse",
+          "severity": "critical",
+          "message": "19 institutions, 1 events"
+        }
+      ]
+    },
+    {
+      "county": "Johnson",
+      "institutions": {
+        "churches": 3,
+        "schools": 2,
+        "colleges": 1,
+        "organizations": 7,
+        "extensionOffices": 1,
+        "homemakerClubs": 2,
+        "total": 16
+      },
+      "events": {
+        "total": 3,
+        "churchTagged": 0,
+        "schoolTagged": 0
+      },
+      "recurringTraditions": 1,
+      "volunteerOpportunities": 0,
+      "sourceFeedsDiscovered": 1,
+      "citiesInCounty": 2,
+      "projectedFutureEvents": 33,
+      "coverageScore": 42,
+      "gaps": [
+        {
+          "kind": "overall_sparse",
+          "severity": "critical",
+          "message": "16 institutions, 3 events"
+        }
+      ]
+    },
+    {
+      "county": "Lincoln",
+      "institutions": {
+        "churches": 3,
+        "schools": 3,
+        "colleges": 0,
+        "organizations": 10,
+        "extensionOffices": 1,
+        "homemakerClubs": 2,
+        "total": 19
+      },
+      "events": {
+        "total": 1,
+        "churchTagged": 0,
+        "schoolTagged": 0
+      },
+      "recurringTraditions": 0,
+      "volunteerOpportunities": 0,
+      "sourceFeedsDiscovered": 3,
+      "citiesInCounty": 3,
+      "projectedFutureEvents": 35,
+      "coverageScore": 42,
+      "gaps": [
+        {
+          "kind": "overall_sparse",
+          "severity": "critical",
+          "message": "19 institutions, 1 events"
+        }
+      ]
+    },
+    {
+      "county": "Yell",
+      "institutions": {
+        "churches": 2,
+        "schools": 2,
+        "colleges": 0,
+        "organizations": 7,
+        "extensionOffices": 1,
+        "homemakerClubs": 2,
+        "total": 14
+      },
+      "events": {
+        "total": 3,
+        "churchTagged": 0,
+        "schoolTagged": 0
+      },
+      "recurringTraditions": 0,
+      "volunteerOpportunities": 0,
+      "sourceFeedsDiscovered": 2,
+      "citiesInCounty": 2,
+      "projectedFutureEvents": 26,
+      "coverageScore": 42,
+      "gaps": [
+        {
+          "kind": "overall_sparse",
+          "severity": "critical",
+          "message": "14 institutions, 3 events"
+        }
+      ]
+    },
+    {
+      "county": "Ashley",
+      "institutions": {
+        "churches": 3,
+        "schools": 3,
+        "colleges": 0,
+        "organizations": 10,
+        "extensionOffices": 1,
+        "homemakerClubs": 2,
+        "total": 19
+      },
+      "events": {
+        "total": 3,
+        "churchTagged": 0,
+        "schoolTagged": 0
+      },
+      "recurringTraditions": 0,
+      "volunteerOpportunities": 0,
+      "sourceFeedsDiscovered": 2,
+      "citiesInCounty": 3,
+      "projectedFutureEvents": 35,
+      "coverageScore": 43,
+      "gaps": [
+        {
+          "kind": "overall_sparse",
+          "severity": "critical",
+          "message": "19 institutions, 3 events"
+        }
+      ]
+    },
+    {
+      "county": "Cross",
+      "institutions": {
+        "churches": 4,
+        "schools": 3,
+        "colleges": 0,
+        "organizations": 10,
+        "extensionOffices": 1,
+        "homemakerClubs": 2,
+        "total": 20
+      },
+      "events": {
+        "total": 1,
+        "churchTagged": 0,
+        "schoolTagged": 0
+      },
+      "recurringTraditions": 0,
+      "volunteerOpportunities": 0,
+      "sourceFeedsDiscovered": 3,
+      "citiesInCounty": 3,
+      "projectedFutureEvents": 37,
+      "coverageScore": 44,
+      "gaps": [
+        {
+          "kind": "overall_sparse",
+          "severity": "critical",
+          "message": "20 institutions, 1 events"
+        }
+      ]
+    },
+    {
+      "county": "Chicot",
+      "institutions": {
+        "churches": 6,
+        "schools": 6,
+        "colleges": 0,
+        "organizations": 19,
+        "extensionOffices": 1,
+        "homemakerClubs": 2,
+        "total": 34
+      },
+      "events": {
+        "total": 1,
+        "churchTagged": 0,
+        "schoolTagged": 0
+      },
+      "recurringTraditions": 0,
+      "volunteerOpportunities": 0,
+      "sourceFeedsDiscovered": 3,
+      "citiesInCounty": 6,
+      "projectedFutureEvents": 62,
+      "coverageScore": 45,
+      "gaps": [
+        {
+          "kind": "church_events",
+          "severity": "critical",
+          "message": "6 churches, 0 church events"
+        },
+        {
+          "kind": "overall_sparse",
+          "severity": "critical",
+          "message": "34 institutions, 1 events"
+        }
+      ]
+    },
+    {
+      "county": "Jackson",
+      "institutions": {
+        "churches": 4,
+        "schools": 4,
+        "colleges": 0,
+        "organizations": 13,
+        "extensionOffices": 1,
+        "homemakerClubs": 2,
+        "total": 24
+      },
+      "events": {
+        "total": 1,
+        "churchTagged": 0,
+        "schoolTagged": 0
+      },
+      "recurringTraditions": 0,
+      "volunteerOpportunities": 0,
+      "sourceFeedsDiscovered": 3,
+      "citiesInCounty": 4,
+      "projectedFutureEvents": 44,
+      "coverageScore": 45,
+      "gaps": [
+        {
+          "kind": "overall_sparse",
+          "severity": "critical",
+          "message": "24 institutions, 1 events"
+        }
+      ]
+    },
+    {
+      "county": "Lafayette",
+      "institutions": {
+        "churches": 3,
+        "schools": 3,
+        "colleges": 0,
+        "organizations": 10,
+        "extensionOffices": 1,
+        "homemakerClubs": 2,
+        "total": 19
+      },
+      "events": {
+        "total": 2,
+        "churchTagged": 0,
+        "schoolTagged": 0
+      },
+      "recurringTraditions": 0,
+      "volunteerOpportunities": 0,
+      "sourceFeedsDiscovered": 3,
+      "citiesInCounty": 3,
+      "projectedFutureEvents": 35,
+      "coverageScore": 45,
+      "gaps": [
+        {
+          "kind": "overall_sparse",
+          "severity": "critical",
+          "message": "19 institutions, 2 events"
+        }
+      ]
+    },
+    {
+      "county": "Sharp",
+      "institutions": {
+        "churches": 3,
+        "schools": 3,
+        "colleges": 0,
+        "organizations": 10,
+        "extensionOffices": 1,
+        "homemakerClubs": 2,
+        "total": 19
+      },
+      "events": {
+        "total": 2,
+        "churchTagged": 0,
+        "schoolTagged": 0
+      },
+      "recurringTraditions": 0,
+      "volunteerOpportunities": 0,
+      "sourceFeedsDiscovered": 3,
+      "citiesInCounty": 3,
+      "projectedFutureEvents": 35,
+      "coverageScore": 45,
+      "gaps": [
+        {
+          "kind": "overall_sparse",
+          "severity": "critical",
+          "message": "19 institutions, 2 events"
+        }
+      ]
+    },
+    {
+      "county": "Crawford",
+      "institutions": {
+        "churches": 5,
+        "schools": 3,
+        "colleges": 0,
+        "organizations": 12,
+        "extensionOffices": 1,
+        "homemakerClubs": 2,
+        "total": 23
+      },
+      "events": {
+        "total": 3,
+        "churchTagged": 0,
+        "schoolTagged": 0
+      },
+      "recurringTraditions": 0,
+      "volunteerOpportunities": 0,
+      "sourceFeedsDiscovered": 2,
+      "citiesInCounty": 3,
+      "projectedFutureEvents": 39,
+      "coverageScore": 46,
+      "gaps": [
+        {
+          "kind": "church_events",
+          "severity": "critical",
+          "message": "5 churches, 0 church events"
+        },
+        {
+          "kind": "overall_sparse",
+          "severity": "critical",
+          "message": "23 institutions, 3 events"
+        }
+      ]
+    },
+    {
+      "county": "Boone",
+      "institutions": {
+        "churches": 4,
+        "schools": 3,
+        "colleges": 0,
+        "organizations": 12,
+        "extensionOffices": 1,
+        "homemakerClubs": 2,
+        "total": 22
+      },
+      "events": {
+        "total": 2,
+        "churchTagged": 0,
+        "schoolTagged": 0
+      },
+      "recurringTraditions": 0,
+      "volunteerOpportunities": 0,
+      "sourceFeedsDiscovered": 3,
+      "citiesInCounty": 3,
+      "projectedFutureEvents": 37,
+      "coverageScore": 47,
+      "gaps": [
+        {
+          "kind": "overall_sparse",
+          "severity": "critical",
+          "message": "22 institutions, 2 events"
+        }
+      ]
+    },
+    {
+      "county": "Logan",
+      "institutions": {
+        "churches": 5,
+        "schools": 5,
+        "colleges": 0,
+        "organizations": 16,
+        "extensionOffices": 1,
+        "homemakerClubs": 2,
+        "total": 29
+      },
+      "events": {
+        "total": 1,
+        "churchTagged": 0,
+        "schoolTagged": 0
+      },
+      "recurringTraditions": 0,
+      "volunteerOpportunities": 0,
+      "sourceFeedsDiscovered": 3,
+      "citiesInCounty": 5,
+      "projectedFutureEvents": 53,
+      "coverageScore": 47,
+      "gaps": [
+        {
+          "kind": "church_events",
+          "severity": "critical",
+          "message": "5 churches, 0 church events"
+        },
+        {
+          "kind": "overall_sparse",
+          "severity": "critical",
+          "message": "29 institutions, 1 events"
+        }
+      ]
+    },
+    {
+      "county": "Carroll",
+      "institutions": {
+        "churches": 4,
+        "schools": 4,
+        "colleges": 0,
+        "organizations": 13,
+        "extensionOffices": 1,
+        "homemakerClubs": 2,
+        "total": 24
+      },
+      "events": {
+        "total": 2,
+        "churchTagged": 0,
+        "schoolTagged": 0
+      },
+      "recurringTraditions": 0,
+      "volunteerOpportunities": 0,
+      "sourceFeedsDiscovered": 3,
+      "citiesInCounty": 4,
+      "projectedFutureEvents": 44,
+      "coverageScore": 48,
+      "gaps": [
+        {
+          "kind": "overall_sparse",
+          "severity": "critical",
+          "message": "24 institutions, 2 events"
+        }
+      ]
+    },
+    {
+      "county": "Marion",
+      "institutions": {
+        "churches": 3,
+        "schools": 3,
+        "colleges": 0,
+        "organizations": 10,
+        "extensionOffices": 1,
+        "homemakerClubs": 2,
+        "total": 19
+      },
+      "events": {
+        "total": 3,
+        "churchTagged": 0,
+        "schoolTagged": 0
+      },
+      "recurringTraditions": 0,
+      "volunteerOpportunities": 0,
+      "sourceFeedsDiscovered": 3,
+      "citiesInCounty": 3,
+      "projectedFutureEvents": 35,
+      "coverageScore": 48,
+      "gaps": [
+        {
+          "kind": "overall_sparse",
+          "severity": "critical",
+          "message": "19 institutions, 3 events"
+        }
+      ]
+    },
+    {
+      "county": "Mississippi",
+      "institutions": {
+        "churches": 13,
+        "schools": 12,
+        "colleges": 0,
+        "organizations": 37,
+        "extensionOffices": 1,
+        "homemakerClubs": 2,
+        "total": 65
+      },
+      "events": {
+        "total": 1,
+        "churchTagged": 0,
+        "schoolTagged": 0
+      },
+      "recurringTraditions": 0,
+      "volunteerOpportunities": 0,
+      "sourceFeedsDiscovered": 10,
+      "citiesInCounty": 12,
+      "projectedFutureEvents": 118,
+      "coverageScore": 49,
+      "gaps": [
+        {
+          "kind": "church_events",
+          "severity": "critical",
+          "message": "13 churches, 0 church events"
+        },
+        {
+          "kind": "overall_sparse",
+          "severity": "critical",
+          "message": "65 institutions, 1 events"
+        }
+      ]
+    },
+    {
+      "county": "Perry",
+      "institutions": {
+        "churches": 4,
+        "schools": 4,
+        "colleges": 0,
+        "organizations": 13,
+        "extensionOffices": 1,
+        "homemakerClubs": 2,
+        "total": 24
+      },
+      "events": {
+        "total": 1,
+        "churchTagged": 0,
+        "schoolTagged": 0
+      },
+      "recurringTraditions": 0,
+      "volunteerOpportunities": 0,
+      "sourceFeedsDiscovered": 4,
+      "citiesInCounty": 4,
+      "projectedFutureEvents": 44,
+      "coverageScore": 49,
+      "gaps": [
+        {
+          "kind": "overall_sparse",
+          "severity": "critical",
+          "message": "24 institutions, 1 events"
+        }
+      ]
+    },
+    {
+      "county": "Monroe",
+      "institutions": {
+        "churches": 5,
+        "schools": 5,
+        "colleges": 0,
+        "organizations": 16,
+        "extensionOffices": 1,
+        "homemakerClubs": 2,
+        "total": 29
+      },
+      "events": {
+        "total": 1,
+        "churchTagged": 0,
+        "schoolTagged": 0
+      },
+      "recurringTraditions": 0,
+      "volunteerOpportunities": 0,
+      "sourceFeedsDiscovered": 4,
+      "citiesInCounty": 5,
+      "projectedFutureEvents": 53,
+      "coverageScore": 50,
+      "gaps": [
+        {
+          "kind": "church_events",
+          "severity": "critical",
+          "message": "5 churches, 0 church events"
+        },
+        {
+          "kind": "overall_sparse",
+          "severity": "critical",
+          "message": "29 institutions, 1 events"
+        }
+      ]
+    },
+    {
+      "county": "St. Francis",
+      "institutions": {
+        "churches": 5,
+        "schools": 4,
+        "colleges": 0,
+        "organizations": 13,
+        "extensionOffices": 1,
+        "homemakerClubs": 2,
+        "total": 25
+      },
+      "events": {
+        "total": 1,
+        "churchTagged": 0,
+        "schoolTagged": 0
+      },
+      "recurringTraditions": 0,
+      "volunteerOpportunities": 0,
+      "sourceFeedsDiscovered": 4,
+      "citiesInCounty": 4,
+      "projectedFutureEvents": 46,
+      "coverageScore": 50,
+      "gaps": [
+        {
+          "kind": "church_events",
+          "severity": "critical",
+          "message": "5 churches, 0 church events"
+        },
+        {
+          "kind": "overall_sparse",
+          "severity": "critical",
+          "message": "25 institutions, 1 events"
+        }
+      ]
+    },
+    {
+      "county": "Union",
+      "institutions": {
+        "churches": 4,
+        "schools": 3,
+        "colleges": 0,
+        "organizations": 12,
+        "extensionOffices": 1,
+        "homemakerClubs": 2,
+        "total": 22
+      },
+      "events": {
+        "total": 3,
+        "churchTagged": 0,
+        "schoolTagged": 0
+      },
+      "recurringTraditions": 0,
+      "volunteerOpportunities": 0,
+      "sourceFeedsDiscovered": 3,
+      "citiesInCounty": 3,
+      "projectedFutureEvents": 37,
+      "coverageScore": 50,
+      "gaps": [
+        {
+          "kind": "overall_sparse",
+          "severity": "critical",
+          "message": "22 institutions, 3 events"
+        }
+      ]
+    },
+    {
+      "county": "Cleburne",
+      "institutions": {
+        "churches": 5,
+        "schools": 4,
+        "colleges": 0,
+        "organizations": 13,
+        "extensionOffices": 1,
+        "homemakerClubs": 2,
+        "total": 25
+      },
+      "events": {
+        "total": 3,
+        "churchTagged": 0,
+        "schoolTagged": 0
+      },
+      "recurringTraditions": 0,
+      "volunteerOpportunities": 0,
+      "sourceFeedsDiscovered": 3,
+      "citiesInCounty": 4,
+      "projectedFutureEvents": 46,
+      "coverageScore": 52,
+      "gaps": [
+        {
+          "kind": "church_events",
+          "severity": "critical",
+          "message": "5 churches, 0 church events"
+        },
+        {
+          "kind": "overall_sparse",
+          "severity": "critical",
+          "message": "25 institutions, 3 events"
+        }
+      ]
+    },
+    {
+      "county": "Columbia",
+      "institutions": {
+        "churches": 7,
+        "schools": 6,
+        "colleges": 1,
+        "organizations": 21,
+        "extensionOffices": 1,
+        "homemakerClubs": 2,
+        "total": 38
+      },
+      "events": {
+        "total": 2,
+        "churchTagged": 0,
+        "schoolTagged": 0
+      },
+      "recurringTraditions": 0,
+      "volunteerOpportunities": 0,
+      "sourceFeedsDiscovered": 5,
+      "citiesInCounty": 6,
+      "projectedFutureEvents": 68,
+      "coverageScore": 52,
+      "gaps": [
+        {
+          "kind": "church_events",
+          "severity": "critical",
+          "message": "7 churches, 0 church events"
+        },
+        {
+          "kind": "overall_sparse",
+          "severity": "critical",
+          "message": "38 institutions, 2 events"
+        }
+      ]
+    },
+    {
+      "county": "Crittenden",
+      "institutions": {
+        "churches": 8,
+        "schools": 6,
+        "colleges": 0,
+        "organizations": 19,
+        "extensionOffices": 1,
+        "homemakerClubs": 2,
+        "total": 36
+      },
+      "events": {
+        "total": 2,
+        "churchTagged": 0,
+        "schoolTagged": 0
+      },
+      "recurringTraditions": 0,
+      "volunteerOpportunities": 0,
+      "sourceFeedsDiscovered": 5,
+      "citiesInCounty": 6,
+      "projectedFutureEvents": 66,
+      "coverageScore": 52,
+      "gaps": [
+        {
+          "kind": "church_events",
+          "severity": "critical",
+          "message": "8 churches, 0 church events"
+        },
+        {
+          "kind": "overall_sparse",
+          "severity": "critical",
+          "message": "36 institutions, 2 events"
+        }
+      ]
+    },
+    {
+      "county": "Lonoke",
+      "institutions": {
+        "churches": 5,
+        "schools": 4,
+        "colleges": 0,
+        "organizations": 15,
+        "extensionOffices": 1,
+        "homemakerClubs": 2,
+        "total": 27
+      },
+      "events": {
+        "total": 3,
+        "churchTagged": 0,
+        "schoolTagged": 0
+      },
+      "recurringTraditions": 0,
+      "volunteerOpportunities": 0,
+      "sourceFeedsDiscovered": 3,
+      "citiesInCounty": 4,
+      "projectedFutureEvents": 46,
+      "coverageScore": 52,
+      "gaps": [
+        {
+          "kind": "church_events",
+          "severity": "critical",
+          "message": "5 churches, 0 church events"
+        },
+        {
+          "kind": "overall_sparse",
+          "severity": "critical",
+          "message": "27 institutions, 3 events"
+        }
+      ]
+    },
+    {
+      "county": "Clay",
+      "institutions": {
+        "churches": 5,
+        "schools": 5,
+        "colleges": 0,
+        "organizations": 16,
+        "extensionOffices": 1,
+        "homemakerClubs": 2,
+        "total": 29
+      },
+      "events": {
+        "total": 3,
+        "churchTagged": 0,
+        "schoolTagged": 0
+      },
+      "recurringTraditions": 0,
+      "volunteerOpportunities": 0,
+      "sourceFeedsDiscovered": 3,
+      "citiesInCounty": 5,
+      "projectedFutureEvents": 53,
+      "coverageScore": 53,
+      "gaps": [
+        {
+          "kind": "church_events",
+          "severity": "critical",
+          "message": "5 churches, 0 church events"
+        },
+        {
+          "kind": "overall_sparse",
+          "severity": "critical",
+          "message": "29 institutions, 3 events"
+        }
+      ]
+    },
+    {
+      "county": "Prairie",
+      "institutions": {
+        "churches": 5,
+        "schools": 5,
+        "colleges": 0,
+        "organizations": 16,
+        "extensionOffices": 1,
+        "homemakerClubs": 2,
+        "total": 29
+      },
+      "events": {
+        "total": 2,
+        "churchTagged": 0,
+        "schoolTagged": 0
+      },
+      "recurringTraditions": 0,
+      "volunteerOpportunities": 0,
+      "sourceFeedsDiscovered": 4,
+      "citiesInCounty": 5,
+      "projectedFutureEvents": 53,
+      "coverageScore": 53,
+      "gaps": [
+        {
+          "kind": "church_events",
+          "severity": "critical",
+          "message": "5 churches, 0 church events"
+        },
+        {
+          "kind": "overall_sparse",
+          "severity": "critical",
+          "message": "29 institutions, 2 events"
+        }
+      ]
+    },
+    {
+      "county": "Jefferson",
+      "institutions": {
+        "churches": 2,
+        "schools": 1,
+        "colleges": 1,
+        "organizations": 6,
+        "extensionOffices": 1,
+        "homemakerClubs": 2,
+        "total": 13
+      },
+      "events": {
+        "total": 8,
+        "churchTagged": 1,
+        "schoolTagged": 0
+      },
+      "recurringTraditions": 0,
+      "volunteerOpportunities": 0,
+      "sourceFeedsDiscovered": 1,
+      "citiesInCounty": 1,
+      "projectedFutureEvents": 23,
+      "coverageScore": 54,
+      "gaps": [
+        {
+          "kind": "overall_sparse",
+          "severity": "critical",
+          "message": "13 institutions, 8 events"
+        }
+      ]
+    },
+    {
+      "county": "Clark",
+      "institutions": {
+        "churches": 7,
+        "schools": 6,
+        "colleges": 2,
+        "organizations": 19,
+        "extensionOffices": 1,
+        "homemakerClubs": 2,
+        "total": 37
+      },
+      "events": {
+        "total": 3,
+        "churchTagged": 0,
+        "schoolTagged": 0
+      },
+      "recurringTraditions": 0,
+      "volunteerOpportunities": 0,
+      "sourceFeedsDiscovered": 5,
+      "citiesInCounty": 6,
+      "projectedFutureEvents": 72,
+      "coverageScore": 55,
+      "gaps": [
+        {
+          "kind": "church_events",
+          "severity": "critical",
+          "message": "7 churches, 0 church events"
+        },
+        {
+          "kind": "overall_sparse",
+          "severity": "critical",
+          "message": "37 institutions, 3 events"
+        }
+      ]
+    },
+    {
+      "county": "Pope",
+      "institutions": {
+        "churches": 6,
+        "schools": 5,
+        "colleges": 1,
+        "organizations": 18,
+        "extensionOffices": 1,
+        "homemakerClubs": 2,
+        "total": 33
+      },
+      "events": {
+        "total": 3,
+        "churchTagged": 0,
+        "schoolTagged": 0
+      },
+      "recurringTraditions": 0,
+      "volunteerOpportunities": 0,
+      "sourceFeedsDiscovered": 4,
+      "citiesInCounty": 5,
+      "projectedFutureEvents": 59,
+      "coverageScore": 55,
+      "gaps": [
+        {
+          "kind": "church_events",
+          "severity": "critical",
+          "message": "6 churches, 0 church events"
+        },
+        {
+          "kind": "overall_sparse",
+          "severity": "critical",
+          "message": "33 institutions, 3 events"
+        }
+      ]
+    },
+    {
+      "county": "Van Buren",
+      "institutions": {
+        "churches": 4,
+        "schools": 4,
+        "colleges": 0,
+        "organizations": 13,
+        "extensionOffices": 1,
+        "homemakerClubs": 2,
+        "total": 24
+      },
+      "events": {
+        "total": 3,
+        "churchTagged": 0,
+        "schoolTagged": 0
+      },
+      "recurringTraditions": 0,
+      "volunteerOpportunities": 0,
+      "sourceFeedsDiscovered": 4,
+      "citiesInCounty": 4,
+      "projectedFutureEvents": 44,
+      "coverageScore": 55,
+      "gaps": [
+        {
+          "kind": "overall_sparse",
+          "severity": "critical",
+          "message": "24 institutions, 3 events"
+        }
+      ]
+    },
+    {
+      "county": "Arkansas",
+      "institutions": {
+        "churches": 6,
+        "schools": 5,
+        "colleges": 0,
+        "organizations": 16,
+        "extensionOffices": 1,
+        "homemakerClubs": 2,
+        "total": 30
+      },
+      "events": {
+        "total": 1,
+        "churchTagged": 0,
+        "schoolTagged": 0
+      },
+      "recurringTraditions": 1,
+      "volunteerOpportunities": 0,
+      "sourceFeedsDiscovered": 5,
+      "citiesInCounty": 5,
+      "projectedFutureEvents": 56,
+      "coverageScore": 56,
+      "gaps": [
+        {
+          "kind": "church_events",
+          "severity": "critical",
+          "message": "6 churches, 0 church events"
+        },
+        {
+          "kind": "overall_sparse",
+          "severity": "critical",
+          "message": "30 institutions, 1 events"
+        }
+      ]
+    },
+    {
+      "county": "Saline",
+      "institutions": {
+        "churches": 4,
+        "schools": 2,
+        "colleges": 0,
+        "organizations": 11,
+        "extensionOffices": 1,
+        "homemakerClubs": 2,
+        "total": 20
+      },
+      "events": {
+        "total": 7,
+        "churchTagged": 0,
+        "schoolTagged": 2
+      },
+      "recurringTraditions": 0,
+      "volunteerOpportunities": 0,
+      "sourceFeedsDiscovered": 2,
+      "citiesInCounty": 2,
+      "projectedFutureEvents": 30,
+      "coverageScore": 56,
+      "gaps": [
+        {
+          "kind": "overall_sparse",
+          "severity": "critical",
+          "message": "20 institutions, 7 events"
+        }
+      ]
+    },
+    {
+      "county": "Craighead",
+      "institutions": {
+        "churches": 3,
+        "schools": 2,
+        "colleges": 1,
+        "organizations": 9,
+        "extensionOffices": 1,
+        "homemakerClubs": 2,
+        "total": 18
+      },
+      "events": {
+        "total": 7,
+        "churchTagged": 0,
+        "schoolTagged": 1
+      },
+      "recurringTraditions": 0,
+      "volunteerOpportunities": 0,
+      "sourceFeedsDiscovered": 2,
+      "citiesInCounty": 2,
+      "projectedFutureEvents": 32,
+      "coverageScore": 58,
+      "gaps": [
+        {
+          "kind": "overall_sparse",
+          "severity": "critical",
+          "message": "18 institutions, 7 events"
+        }
+      ]
+    },
+    {
+      "county": "Washington",
+      "institutions": {
+        "churches": 13,
+        "schools": 11,
+        "colleges": 1,
+        "organizations": 38,
+        "extensionOffices": 1,
+        "homemakerClubs": 2,
+        "total": 66
+      },
+      "events": {
+        "total": 11,
+        "churchTagged": 2,
+        "schoolTagged": 1
+      },
+      "recurringTraditions": 0,
+      "volunteerOpportunities": 1,
+      "sourceFeedsDiscovered": 10,
+      "citiesInCounty": 11,
+      "projectedFutureEvents": 115,
+      "coverageScore": 63,
+      "gaps": []
+    },
+    {
+      "county": "Conway",
+      "institutions": {
+        "churches": 6,
+        "schools": 4,
+        "colleges": 0,
+        "organizations": 17,
+        "extensionOffices": 1,
+        "homemakerClubs": 2,
+        "total": 30
+      },
+      "events": {
+        "total": 4,
+        "churchTagged": 0,
+        "schoolTagged": 0
+      },
+      "recurringTraditions": 2,
+      "volunteerOpportunities": 0,
+      "sourceFeedsDiscovered": 3,
+      "citiesInCounty": 4,
+      "projectedFutureEvents": 50,
+      "coverageScore": 64,
+      "gaps": [
+        {
+          "kind": "church_events",
+          "severity": "critical",
+          "message": "6 churches, 0 church events"
+        },
+        {
+          "kind": "overall_sparse",
+          "severity": "critical",
+          "message": "30 institutions, 4 events"
+        }
+      ]
+    },
+    {
+      "county": "Benton",
+      "institutions": {
+        "churches": 19,
+        "schools": 15,
+        "colleges": 2,
+        "organizations": 54,
+        "extensionOffices": 1,
+        "homemakerClubs": 2,
+        "total": 93
+      },
+      "events": {
+        "total": 22,
+        "churchTagged": 0,
+        "schoolTagged": 2
+      },
+      "recurringTraditions": 0,
+      "volunteerOpportunities": 0,
+      "sourceFeedsDiscovered": 12,
+      "citiesInCounty": 15,
+      "projectedFutureEvents": 159,
+      "coverageScore": 68,
+      "gaps": [
+        {
+          "kind": "church_events",
+          "severity": "critical",
+          "message": "19 churches, 0 church events"
+        }
+      ]
+    },
+    {
+      "county": "Sebastian",
+      "institutions": {
+        "churches": 6,
+        "schools": 4,
+        "colleges": 0,
+        "organizations": 15,
+        "extensionOffices": 1,
+        "homemakerClubs": 2,
+        "total": 28
+      },
+      "events": {
+        "total": 10,
+        "churchTagged": 0,
+        "schoolTagged": 3
+      },
+      "recurringTraditions": 0,
+      "volunteerOpportunities": 0,
+      "sourceFeedsDiscovered": 2,
+      "citiesInCounty": 4,
+      "projectedFutureEvents": 48,
+      "coverageScore": 70,
+      "gaps": [
+        {
+          "kind": "church_events",
+          "severity": "critical",
+          "message": "6 churches, 0 church events"
+        }
+      ]
+    },
+    {
+      "county": "Faulkner",
+      "institutions": {
+        "churches": 9,
+        "schools": 8,
+        "colleges": 1,
+        "organizations": 27,
+        "extensionOffices": 1,
+        "homemakerClubs": 2,
+        "total": 48
+      },
+      "events": {
+        "total": 12,
+        "churchTagged": 2,
+        "schoolTagged": 0
+      },
+      "recurringTraditions": 1,
+      "volunteerOpportunities": 1,
+      "sourceFeedsDiscovered": 8,
+      "citiesInCounty": 8,
+      "projectedFutureEvents": 87,
+      "coverageScore": 75,
+      "gaps": []
+    },
+    {
+      "county": "Garland",
+      "institutions": {
+        "churches": 5,
+        "schools": 4,
+        "colleges": 1,
+        "organizations": 15,
+        "extensionOffices": 1,
+        "homemakerClubs": 2,
+        "total": 28
+      },
+      "events": {
+        "total": 9,
+        "churchTagged": 2,
+        "schoolTagged": 0
+      },
+      "recurringTraditions": 0,
+      "volunteerOpportunities": 1,
+      "sourceFeedsDiscovered": 4,
+      "citiesInCounty": 4,
+      "projectedFutureEvents": 50,
+      "coverageScore": 76,
+      "gaps": [
+        {
+          "kind": "overall_sparse",
+          "severity": "critical",
+          "message": "28 institutions, 9 events"
+        }
+      ]
+    },
+    {
+      "county": "Pulaski",
+      "institutions": {
+        "churches": 17,
+        "schools": 12,
+        "colleges": 2,
+        "organizations": 47,
+        "extensionOffices": 1,
+        "homemakerClubs": 2,
+        "total": 81
+      },
+      "events": {
+        "total": 24,
+        "churchTagged": 2,
+        "schoolTagged": 0
+      },
+      "recurringTraditions": 0,
+      "volunteerOpportunities": 1,
+      "sourceFeedsDiscovered": 12,
+      "citiesInCounty": 12,
+      "projectedFutureEvents": 134,
+      "coverageScore": 76,
+      "gaps": [
+        {
+          "kind": "church_events",
+          "severity": "critical",
+          "message": "17 churches, 2 church events"
+        }
+      ]
+    },
+    {
+      "county": "White",
+      "institutions": {
+        "churches": 6,
+        "schools": 4,
+        "colleges": 1,
+        "organizations": 15,
+        "extensionOffices": 1,
+        "homemakerClubs": 2,
+        "total": 29
+      },
+      "events": {
+        "total": 11,
+        "churchTagged": 2,
+        "schoolTagged": 0
+      },
+      "recurringTraditions": 0,
+      "volunteerOpportunities": 1,
+      "sourceFeedsDiscovered": 3,
+      "citiesInCounty": 4,
+      "projectedFutureEvents": 52,
+      "coverageScore": 78,
+      "gaps": []
+    }
+  ],
+  "bottomCounties": [
+    {
+      "county": "Calhoun",
+      "institutions": {
+        "churches": 0,
+        "schools": 0,
+        "colleges": 0,
+        "organizations": 0,
+        "extensionOffices": 1,
+        "homemakerClubs": 2,
+        "total": 3
+      },
+      "events": {
+        "total": 1,
+        "churchTagged": 0,
+        "schoolTagged": 0
+      },
+      "recurringTraditions": 0,
+      "volunteerOpportunities": 0,
+      "sourceFeedsDiscovered": 0,
+      "citiesInCounty": 0,
+      "projectedFutureEvents": 8,
+      "coverageScore": 9,
+      "gaps": []
+    },
+    {
+      "county": "Cleveland",
+      "institutions": {
+        "churches": 0,
+        "schools": 0,
+        "colleges": 0,
+        "organizations": 0,
+        "extensionOffices": 1,
+        "homemakerClubs": 2,
+        "total": 3
+      },
+      "events": {
+        "total": 1,
+        "churchTagged": 0,
+        "schoolTagged": 0
+      },
+      "recurringTraditions": 0,
+      "volunteerOpportunities": 0,
+      "sourceFeedsDiscovered": 0,
+      "citiesInCounty": 0,
+      "projectedFutureEvents": 8,
+      "coverageScore": 9,
+      "gaps": []
+    },
+    {
+      "county": "Grant",
+      "institutions": {
+        "churches": 0,
+        "schools": 0,
+        "colleges": 0,
+        "organizations": 0,
+        "extensionOffices": 1,
+        "homemakerClubs": 2,
+        "total": 3
+      },
+      "events": {
+        "total": 1,
+        "churchTagged": 0,
+        "schoolTagged": 0
+      },
+      "recurringTraditions": 0,
+      "volunteerOpportunities": 0,
+      "sourceFeedsDiscovered": 0,
+      "citiesInCounty": 0,
+      "projectedFutureEvents": 8,
+      "coverageScore": 9,
+      "gaps": []
+    },
+    {
+      "county": "Scott",
+      "institutions": {
+        "churches": 0,
+        "schools": 0,
+        "colleges": 0,
+        "organizations": 0,
+        "extensionOffices": 1,
+        "homemakerClubs": 2,
+        "total": 3
+      },
+      "events": {
+        "total": 1,
+        "churchTagged": 0,
+        "schoolTagged": 0
+      },
+      "recurringTraditions": 0,
+      "volunteerOpportunities": 0,
+      "sourceFeedsDiscovered": 0,
+      "citiesInCounty": 0,
+      "projectedFutureEvents": 8,
+      "coverageScore": 9,
+      "gaps": []
+    },
+    {
+      "county": "Montgomery",
+      "institutions": {
+        "churches": 0,
+        "schools": 0,
+        "colleges": 0,
+        "organizations": 0,
+        "extensionOffices": 1,
+        "homemakerClubs": 2,
+        "total": 3
+      },
+      "events": {
+        "total": 3,
+        "churchTagged": 0,
+        "schoolTagged": 0
+      },
+      "recurringTraditions": 0,
+      "volunteerOpportunities": 0,
+      "sourceFeedsDiscovered": 0,
+      "citiesInCounty": 0,
+      "projectedFutureEvents": 8,
+      "coverageScore": 14,
+      "gaps": []
+    },
+    {
+      "county": "Lee",
+      "institutions": {
+        "churches": 1,
+        "schools": 1,
+        "colleges": 0,
+        "organizations": 4,
+        "extensionOffices": 1,
+        "homemakerClubs": 2,
+        "total": 9
+      },
+      "events": {
+        "total": 1,
+        "churchTagged": 0,
+        "schoolTagged": 0
+      },
+      "recurringTraditions": 0,
+      "volunteerOpportunities": 0,
+      "sourceFeedsDiscovered": 0,
+      "citiesInCounty": 1,
+      "projectedFutureEvents": 17,
+      "coverageScore": 15,
+      "gaps": []
+    },
+    {
+      "county": "Randolph",
+      "institutions": {
+        "churches": 1,
+        "schools": 1,
+        "colleges": 0,
+        "organizations": 4,
+        "extensionOffices": 1,
+        "homemakerClubs": 2,
+        "total": 9
+      },
+      "events": {
+        "total": 3,
+        "churchTagged": 0,
+        "schoolTagged": 0
+      },
+      "recurringTraditions": 0,
+      "volunteerOpportunities": 0,
+      "sourceFeedsDiscovered": 0,
+      "citiesInCounty": 1,
+      "projectedFutureEvents": 17,
+      "coverageScore": 21,
+      "gaps": []
+    },
+    {
+      "county": "Madison",
+      "institutions": {
+        "churches": 2,
+        "schools": 2,
+        "colleges": 0,
+        "organizations": 7,
+        "extensionOffices": 1,
+        "homemakerClubs": 2,
+        "total": 14
+      },
+      "events": {
+        "total": 1,
+        "churchTagged": 0,
+        "schoolTagged": 0
+      },
+      "recurringTraditions": 0,
+      "volunteerOpportunities": 0,
+      "sourceFeedsDiscovered": 1,
+      "citiesInCounty": 2,
+      "projectedFutureEvents": 26,
+      "coverageScore": 29,
+      "gaps": [
+        {
+          "kind": "overall_sparse",
+          "severity": "critical",
+          "message": "14 institutions, 1 events"
+        }
+      ]
+    },
+    {
+      "county": "Polk",
+      "institutions": {
+        "churches": 2,
+        "schools": 2,
+        "colleges": 0,
+        "organizations": 7,
+        "extensionOffices": 1,
+        "homemakerClubs": 2,
+        "total": 14
+      },
+      "events": {
+        "total": 1,
+        "churchTagged": 0,
+        "schoolTagged": 0
+      },
+      "recurringTraditions": 0,
+      "volunteerOpportunities": 0,
+      "sourceFeedsDiscovered": 1,
+      "citiesInCounty": 2,
+      "projectedFutureEvents": 26,
+      "coverageScore": 29,
+      "gaps": [
+        {
+          "kind": "overall_sparse",
+          "severity": "critical",
+          "message": "14 institutions, 1 events"
+        }
+      ]
+    },
+    {
+      "county": "Sevier",
+      "institutions": {
+        "churches": 2,
+        "schools": 2,
+        "colleges": 0,
+        "organizations": 7,
+        "extensionOffices": 1,
+        "homemakerClubs": 2,
+        "total": 14
+      },
+      "events": {
+        "total": 1,
+        "churchTagged": 0,
+        "schoolTagged": 0
+      },
+      "recurringTraditions": 0,
+      "volunteerOpportunities": 0,
+      "sourceFeedsDiscovered": 1,
+      "citiesInCounty": 2,
+      "projectedFutureEvents": 26,
+      "coverageScore": 29,
+      "gaps": [
+        {
+          "kind": "overall_sparse",
+          "severity": "critical",
+          "message": "14 institutions, 1 events"
+        }
+      ]
+    },
+    {
+      "county": "Woodruff",
+      "institutions": {
+        "churches": 2,
+        "schools": 2,
+        "colleges": 0,
+        "organizations": 7,
+        "extensionOffices": 1,
+        "homemakerClubs": 2,
+        "total": 14
+      },
+      "events": {
+        "total": 1,
+        "churchTagged": 0,
+        "schoolTagged": 0
+      },
+      "recurringTraditions": 0,
+      "volunteerOpportunities": 0,
+      "sourceFeedsDiscovered": 1,
+      "citiesInCounty": 2,
+      "projectedFutureEvents": 26,
+      "coverageScore": 29,
+      "gaps": [
+        {
+          "kind": "overall_sparse",
+          "severity": "critical",
+          "message": "14 institutions, 1 events"
+        }
+      ]
+    },
+    {
+      "county": "Ouachita",
+      "institutions": {
+        "churches": 3,
+        "schools": 2,
+        "colleges": 0,
+        "organizations": 7,
+        "extensionOffices": 1,
+        "homemakerClubs": 2,
+        "total": 15
+      },
+      "events": {
+        "total": 1,
+        "churchTagged": 0,
+        "schoolTagged": 0
+      },
+      "recurringTraditions": 0,
+      "volunteerOpportunities": 0,
+      "sourceFeedsDiscovered": 1,
+      "citiesInCounty": 2,
+      "projectedFutureEvents": 28,
+      "coverageScore": 30,
+      "gaps": [
+        {
+          "kind": "overall_sparse",
+          "severity": "critical",
+          "message": "15 institutions, 1 events"
+        }
+      ]
+    },
+    {
+      "county": "Miller",
+      "institutions": {
+        "churches": 2,
+        "schools": 1,
+        "colleges": 0,
+        "organizations": 6,
+        "extensionOffices": 1,
+        "homemakerClubs": 2,
+        "total": 12
+      },
+      "events": {
+        "total": 1,
+        "churchTagged": 0,
+        "schoolTagged": 0
+      },
+      "recurringTraditions": 0,
+      "volunteerOpportunities": 0,
+      "sourceFeedsDiscovered": 1,
+      "citiesInCounty": 1,
+      "projectedFutureEvents": 19,
+      "coverageScore": 31,
+      "gaps": [
+        {
+          "kind": "overall_sparse",
+          "severity": "critical",
+          "message": "12 institutions, 1 events"
+        }
+      ]
+    },
+    {
+      "county": "Howard",
+      "institutions": {
+        "churches": 2,
+        "schools": 2,
+        "colleges": 0,
+        "organizations": 7,
+        "extensionOffices": 1,
+        "homemakerClubs": 2,
+        "total": 14
+      },
+      "events": {
+        "total": 2,
+        "churchTagged": 0,
+        "schoolTagged": 0
+      },
+      "recurringTraditions": 0,
+      "volunteerOpportunities": 0,
+      "sourceFeedsDiscovered": 1,
+      "citiesInCounty": 2,
+      "projectedFutureEvents": 26,
+      "coverageScore": 32,
+      "gaps": [
+        {
+          "kind": "overall_sparse",
+          "severity": "critical",
+          "message": "14 institutions, 2 events"
+        }
+      ]
+    },
+    {
+      "county": "Little River",
+      "institutions": {
+        "churches": 2,
+        "schools": 2,
+        "colleges": 0,
+        "organizations": 7,
+        "extensionOffices": 1,
+        "homemakerClubs": 2,
+        "total": 14
+      },
+      "events": {
+        "total": 2,
+        "churchTagged": 0,
+        "schoolTagged": 0
+      },
+      "recurringTraditions": 0,
+      "volunteerOpportunities": 0,
+      "sourceFeedsDiscovered": 1,
+      "citiesInCounty": 2,
+      "projectedFutureEvents": 26,
+      "coverageScore": 32,
+      "gaps": [
+        {
+          "kind": "overall_sparse",
+          "severity": "critical",
+          "message": "14 institutions, 2 events"
+        }
+      ]
+    }
+  ]
+}

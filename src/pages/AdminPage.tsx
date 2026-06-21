@@ -120,6 +120,9 @@ export function AdminPage() {
         <Link to="/admin/data-health" className="chip chip-muted text-xs">
           Data health →
         </Link>
+        <Link to="/admin/density" className="chip chip-muted text-xs">
+          Density engine →
+        </Link>
       </div>
 
       {tab === "map" && (

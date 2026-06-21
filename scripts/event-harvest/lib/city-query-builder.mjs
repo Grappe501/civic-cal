@@ -44,6 +44,12 @@ export function discoverSourceTemplates(cityRecord) {
     { source_type: "parks_rec", label: `${cityRecord.city} parks and recreation`, url_hint: null, trust: "medium" },
     { source_type: "school_district", label: `${cityRecord.city} school district calendar`, url_hint: null, trust: "medium" },
     { source_type: "church_community", label: `${cityRecord.city} church community meals`, url_hint: null, trust: "medium", institution_layer: "church_event_engine" },
-    { source_type: "tourism", label: `${cityRecord.city} tourism events`, url_hint: null, trust: "low" },
+    { source_type: "tourism", label: `${cityRecord.city} tourism / CVB events`, url_hint: null, trust: "medium", tier: 1 },
+    { source_type: "extension", label: `${cityRecord.county} County Cooperative Extension`, url_hint: null, trust: "medium", tier: 2, institution_layer: "extension" },
+    { source_type: "four_h", label: `${cityRecord.county} County 4-H events`, url_hint: null, trust: "medium", tier: 2 },
+    { source_type: "farm_bureau", label: `${cityRecord.county} County Farm Bureau`, url_hint: null, trust: "medium", tier: 2 },
+    { source_type: "vfd", label: `${cityRecord.city} volunteer fire department fundraisers`, url_hint: null, trust: "medium", tier: 2, institution_layer: "vfd" },
+    { source_type: "rotary_civic", label: `${cityRecord.city} Rotary / Lions / Kiwanis`, url_hint: null, trust: "medium", tier: 3 },
+    { source_type: "farmers_market", label: `${cityRecord.city} farmers market`, url_hint: null, trust: "medium", tier: 4 },
   ];
 }
