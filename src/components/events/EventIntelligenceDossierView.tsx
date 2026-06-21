@@ -1,41 +1,40 @@
 import { Link } from "react-router-dom";
 import {
   AlertCircle,
-  CalendarPlus,
   Car,
   Clock,
   ExternalLink,
   HelpCircle,
   MapPin,
-  Share2,
   Shield,
+  Sparkles,
   Users,
   Utensils,
 } from "lucide-react";
 import type { CivicEvent } from "../../lib/types";
 import type { EventDossierBundle } from "../../lib/intelligence/eventDossierTypes";
-import { whyEventMatters, whyEventMattersPublic } from "../../lib/ai/eventDossierBuilder";
 import { getNarrativeForEvent } from "../../lib/narratives/narrativeRegistry";
 import { CommunityNarrativePanel } from "../narratives/CommunityNarrativePanel";
-import { scoreEventForCampaign } from "../../lib/campaigns/eventIntel";
 import { countySlug } from "../../lib/counties";
-import { citySlug, getCityDossier, getCountyDossier, voteTargetGap } from "../../lib/local-intelligence/registry";
-import { LocalGeographyIntelStrip } from "../local-intelligence/LocalGeographyIntelStrip";
 import type { EventPresence } from "../../lib/campaigns/presenceLayer";
 import { CategoryBadge } from "../CategoryBadge";
 import { PresenceBadges } from "../campaigns/PresenceBadges";
-import { LayerBadge } from "../intelligence/LayerBadge";
-import { DensityBadge } from "../intelligence/LayerBadge";
 import { EventDetailMap } from "../maps/EventDetailMap";
 import { HostVolunteerControls } from "../hosts/HostVolunteerBadge";
 import { StudentServiceBadge } from "../student-service/StudentServiceBadge";
-import { pickReadableText } from "../../lib/contrast";
 import { getEventStudentServiceOpportunity } from "../../lib/student-service/studentServiceEngine";
 import { EventFeedbackForm } from "../EventFeedbackForm";
-import { downloadIcs, formatEventRange } from "../../lib/format";
-import type { IntelligenceLayer } from "../../lib/intelligence/eventLayers";
+import { formatEventRange } from "../../lib/format";
 import { getHistoricPoliticalEventHistory } from "../../lib/political-events/historicPoliticalEvents";
 import { PoliticalEventHistorySection } from "./PoliticalEventHistorySection";
+import { getPartyMeetingPresentation } from "../../lib/events/partyMeetingStyles";
+import { inferPublicEventPriority } from "../../lib/events/publicEventPriority";
+import { buildEventNarrativeIntelligence, buildEventFaqs } from "../../lib/events/eventNarrativeIntelligence";
+import { EventPageActions } from "./EventPageActions";
+import { EventFaqSection } from "./EventFaqSection";
+import { EventRelatedLinks } from "./EventRelatedLinks";
+import { CampaignEventIntelPanel } from "./CampaignEventIntelPanel";
+import { cn } from "../../lib/cn";
 
 interface Props {
   event: CivicEvent;
@@ -43,6 +42,7 @@ interface Props {
   presence: EventPresence;
   onShare: () => void;
   campaignSlug?: string;
+  relatedEvents?: CivicEvent[];
   /** When true (default), hide campaign intelligence from public visitors. */
   publicMode?: boolean;
 }
@@ -70,43 +70,44 @@ function Section({ id, title, icon: Icon, children }: { id?: string; title: stri
   );
 }
 
-function formatLabel(raw: string | null | undefined): string {
-  if (!raw) return "";
-  return raw.replace(/_/g, " ").replace(/\b\w/g, (c) => c.toUpperCase());
-}
-
-export function EventIntelligenceDossierView({ event, bundle, presence, onShare, campaignSlug, publicMode = true }: Props) {
-  const { dossier, tasks } = bundle;
-  const scored = scoreEventForCampaign(event);
+export function EventIntelligenceDossierView({
+  event,
+  bundle,
+  presence,
+  onShare,
+  campaignSlug,
+  relatedEvents = [],
+  publicMode = true,
+}: Props) {
+  const { dossier } = bundle;
   const showCampaignIntel = !publicMode || Boolean(campaignSlug);
   const narrative = getNarrativeForEvent(event);
-  const cityDossier = event.city ? getCityDossier(event.city) : undefined;
-  const countyDossier = event.county ? getCountyDossier(event.county) : undefined;
-  const countyGap = countyDossier ? voteTargetGap(countyDossier) : null;
-  const traditions = cityDossier?.recurringEvents?.slice(0, 3) ?? countyDossier?.recurringTraditions?.slice(0, 3) ?? [];
-  const localConfidence = cityDossier?.confidenceScore ?? countyDossier?.confidenceScore;
-  const confidenceLabel =
-    dossier.confidenceScore >= 70 ? "High confidence" : dossier.confidenceScore >= 40 ? "Partial" : "Needs research";
+  const intelligence = buildEventNarrativeIntelligence(event, dossier);
+  const priority = inferPublicEventPriority(event);
+  const faqs = buildEventFaqs(event, dossier);
+  const partyStyle = getPartyMeetingPresentation(event);
   const studentServiceOpp = getEventStudentServiceOpportunity(event);
   const politicalHistory = getHistoricPoliticalEventHistory(event);
 
+  const confidenceLabel =
+    dossier.confidenceScore >= 70 ? "Source verified" : dossier.confidenceScore >= 40 ? "Partially verified" : "Needs research";
+
   return (
     <article className="mx-auto max-w-4xl px-4 py-8 pb-16">
-      <Link to="/" className="text-sm text-ark-sage hover:underline font-medium">← All events</Link>
+      <Link to="/calendar/month" className="text-sm text-ark-sage hover:underline font-medium">
+        ← Community calendar
+      </Link>
 
-      {/* Hero */}
       <header className="dossier-hero mt-6 relative">
-        <PresenceBadges presence={presence} eventTitle={event.title} />
         <div className="flex flex-wrap gap-2 items-center mb-3">
           <CategoryBadge category={event.category} />
-          {showCampaignIntel && (
-            <>
-              <LayerBadge layer={scored.layer as IntelligenceLayer} compact />
-              <span className="chip chip-score">PO {scored.politicalOpportunityScore}</span>
-              <DensityBadge score={scored.relationshipDensityScore} />
-            </>
+          {partyStyle && (
+            <span className={cn("text-[10px] font-semibold px-2 py-0.5 rounded", partyStyle.badgeClassName)}>
+              {partyStyle.label}
+            </span>
           )}
-          <span className={`chip ${dossier.verificationStatus === "verified" ? "chip-active" : "chip-muted"}`}>
+          <span className="chip chip-active text-xs">{priority.label}</span>
+          <span className={`chip text-xs ${dossier.verificationStatus === "verified" ? "chip-active" : "chip-muted"}`}>
             {confidenceLabel}
           </span>
         </div>
@@ -116,116 +117,90 @@ export function EventIntelligenceDossierView({ event, bundle, presence, onShare,
           <MapPin className="h-4 w-4 text-ark-sage" />
           {[event.city, `${event.county} County, AR`].filter(Boolean).join(" · ")}
         </p>
-        {showCampaignIntel && campaignSlug ? (
-          <LocalGeographyIntelStrip event={event} campaignSlug={campaignSlug} />
-        ) : showCampaignIntel && (cityDossier || countyDossier) ? (
-          <div className="mt-3 flex flex-wrap gap-2 text-xs">
-            {cityDossier && <span className="chip chip-muted">City priority #{cityDossier.priorityRank}</span>}
-            {countyGap != null && <span className="chip chip-muted">County vote gap {countyGap.toLocaleString()}</span>}
-            {localConfidence != null && <span className="chip chip-muted">Local confidence {localConfidence}%</span>}
-            <Link to="/campaigns" className="chip chip-muted hover:bg-ark-wheat">Candidate dashboards →</Link>
-          </div>
-        ) : null}
+        <p className="text-sm text-[var(--text-primary)] mt-3 max-w-2xl">{priority.summary}</p>
+        <div className="mt-4">
+          <EventPageActions event={event} onShare={onShare} ticketUrl={dossier.officialWebsite} />
+        </div>
       </header>
 
-      {/* Quick facts */}
-      <div className="dossier-quick-facts mt-8 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
-        <Fact label="Cost" value={dossier.ticketCost} />
-        <Fact
-          label="Expected crowd"
-          value={
-            dossier.expectedAttendanceMin != null
-              ? `${dossier.expectedAttendanceMin}–${dossier.expectedAttendanceMax ?? "?"}`
-              : null
-          }
-        />
-        <Fact label="Indoor / outdoor" value={dossier.indoorOutdoor} />
-        <Fact label="Parking" value={dossier.parkingInfo} />
-        <Fact label="Accessibility" value={dossier.accessibilityInfo} />
-        <Fact label="Family friendly" value={dossier.familyFriendly == null ? null : dossier.familyFriendly ? "Yes" : "No"} />
-        <Fact label="Food" value={dossier.foodAvailable} />
-        <Fact label="Best arrival" value={dossier.bestTimeToArrive || dossier.arrivalAdvice} />
-      </div>
+      {/* Priority quick panel */}
+      <section className="mt-8 card-readable border-l-4 border-ark-sage">
+        <h2 className="font-semibold flex items-center gap-2 text-[var(--text-secondary)]">
+          <Sparkles className="h-5 w-5 text-ark-sage" /> At a glance
+        </h2>
+        <div className="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+          <Fact label="What is it?" value={intelligence.blocks.find((b) => b.id === "about")?.body?.slice(0, 120)} />
+          <Fact label="Why go?" value={priority.summary} />
+          <Fact label="Cost" value={dossier.ticketCost ?? (event.isFree ? "Free (listed)" : null)} />
+          <Fact label="Best arrival" value={dossier.bestTimeToArrive || dossier.arrivalAdvice} />
+          <Fact label="Parking" value={dossier.parkingInfo} />
+          <Fact label="Indoor / outdoor" value={dossier.indoorOutdoor} />
+          <Fact label="Food" value={dossier.foodAvailable} />
+          <Fact label="Accessibility" value={dossier.accessibilityInfo} />
+        </div>
+        <div className="mt-4">
+          <p className="text-kicker">Best for</p>
+          <div className="flex flex-wrap gap-1.5 mt-1">
+            {priority.bestFor.map((b) => (
+              <span key={b} className="chip chip-muted text-xs capitalize">
+                {b}
+              </span>
+            ))}
+          </div>
+        </div>
+        {(dossier.officialWebsite || event.websiteUrl) && (
+          <a
+            href={dossier.officialWebsite ?? event.websiteUrl!}
+            target="_blank"
+            rel="noreferrer"
+            className="inline-flex items-center gap-1 text-sm text-ark-rust hover:underline mt-4"
+          >
+            Official website <ExternalLink className="h-3 w-3" />
+          </a>
+        )}
+        {studentServiceOpp && (
+          <div className="mt-3">
+            <StudentServiceBadge opportunity={studentServiceOpp} />
+          </div>
+        )}
+      </section>
 
       <div className="mt-8 grid gap-6 lg:grid-cols-3">
         <div className="lg:col-span-2 space-y-6">
           {politicalHistory?.historyAvailable && <PoliticalEventHistorySection dossier={politicalHistory} />}
 
-          <Section title="About this event" icon={Shield}>
-            <p className="text-[var(--text-primary)] leading-relaxed">
-              {showCampaignIntel ? whyEventMatters(event) : whyEventMattersPublic(event)}
-            </p>
-            {dossier.historicalNotes && (
-              <p className="text-sm text-muted mt-3 border-t border-ark-pine/10 pt-3">{dossier.historicalNotes}</p>
-            )}
-          </Section>
+          {intelligence.blocks
+            .filter((b) => b.id !== "verify" && b.body)
+            .map((b) => (
+              <Section key={b.id} id={b.id} title={b.title} icon={Shield}>
+                <p className="text-[var(--text-primary)] leading-relaxed whitespace-pre-wrap">{b.body}</p>
+              </Section>
+            ))}
+
+          {intelligence.helpCompletePrompt && (
+            <section className="card border-dashed border-ark-sage/50 bg-ark-wheat/40 p-4">
+              <h3 className="font-semibold text-ark-pine">Help us complete this event page</h3>
+              <p className="text-sm text-muted mt-1">{intelligence.helpCompletePrompt}</p>
+              <Link to={`/submit?event=${event.slug}`} className="btn-secondary text-xs mt-3 inline-flex">
+                Submit an update
+              </Link>
+            </section>
+          )}
 
           {narrative && <CommunityNarrativePanel narrative={narrative} compact />}
 
-          {showCampaignIntel && (
-          <Section title="Candidate opportunity" icon={Users}>
-            <p className="text-[var(--text-primary)]">{dossier.candidateGuidance || "Local verification needed before campaign deployment."}</p>
-            {dossier.eventFormat && (
-              <p className="mt-2 text-sm">
-                <span className="font-semibold text-ark-pine">Format:</span>{" "}
-                <span className="chip chip-muted">{formatLabel(dossier.eventFormat)}</span>
-              </p>
-            )}
-            {dossier.campaignRiskNotes && (
-              <p className="mt-2 text-sm text-amber-900 bg-amber-50 rounded-lg px-3 py-2">{dossier.campaignRiskNotes}</p>
-            )}
-          </Section>
-          )}
-
-          {(dossier.localCustoms || dossier.confirmedFacts?.length || dossier.likelyInferences?.length || traditions.length > 0) && (
-            <Section title="Local intelligence" icon={HelpCircle}>
-              {campaignSlug && cityDossier && (
-                <div className="mb-3 flex flex-wrap gap-2">
-                  <Link to={`/campaigns/${campaignSlug}/city/${citySlug(cityDossier.city)}`} className="btn-secondary text-xs py-1.5">
-                    View city intelligence
-                  </Link>
-                  {countyDossier && (
-                    <Link to={`/campaigns/${campaignSlug}/county/${countySlug(countyDossier.county)}`} className="btn-secondary text-xs py-1.5">
-                      View county intelligence
-                    </Link>
-                  )}
-                </div>
-              )}
-              {traditions.length > 0 && (
-                <div className="mb-3">
-                  <p className="text-kicker mb-1">Nearby recurring traditions</p>
-                  <ul className="text-sm space-y-1">{traditions.map((t) => <li key={t}>• {t}</li>)}</ul>
-                </div>
-              )}
-              {dossier.localCustoms && <p className="text-sm text-[var(--text-primary)]">{dossier.localCustoms}</p>}
-              {dossier.confirmedFacts && dossier.confirmedFacts.length > 0 && (
-                <div className="mt-3">
-                  <p className="text-kicker mb-1">Confirmed</p>
-                  <ul className="text-sm space-y-1 text-muted">
-                    {dossier.confirmedFacts.map((f) => (
-                      <li key={f} className="flex gap-2"><span className="text-ark-sage">✓</span>{f}</li>
-                    ))}
-                  </ul>
-                </div>
-              )}
-              {dossier.likelyInferences && dossier.likelyInferences.length > 0 && (
-                <div className="mt-3">
-                  <p className="text-xs font-semibold uppercase text-amber-700 mb-1">Likely (verify locally)</p>
-                  <ul className="text-sm space-y-1 text-muted">
-                    {dossier.likelyInferences.map((f) => (
-                      <li key={f} className="flex gap-2"><span>~</span>{f}</li>
-                    ))}
-                  </ul>
-                </div>
-              )}
-            </Section>
-          )}
+          {showCampaignIntel && <CampaignEventIntelPanel event={event} bundle={bundle} campaignSlug={campaignSlug} />}
 
           <Section title="Location & map" icon={MapPin}>
             <EventDetailMap event={event} />
             <p className="mt-3 text-sm text-muted">
               {[event.locationName, event.address, event.city, `${event.county} County, AR`].filter(Boolean).join(" · ")}
             </p>
+            {event.county && (
+              <Link to={`/county/${countySlug(event.county)}`} className="text-xs text-ark-rust hover:underline mt-2 inline-block">
+                More in {event.county} County →
+              </Link>
+            )}
           </Section>
 
           <Section title="Logistics" icon={Car}>
@@ -252,6 +227,9 @@ export function EventIntelligenceDossierView({ event, bundle, presence, onShare,
               {dossier.recurringPattern && <p className="text-sm mt-1 text-muted">{dossier.recurringPattern}</p>}
             </Section>
           )}
+
+          <EventFaqSection faqs={faqs} />
+          <EventRelatedLinks event={event} relatedEvents={relatedEvents} />
         </div>
 
         <aside className="space-y-6">
@@ -259,103 +237,63 @@ export function EventIntelligenceDossierView({ event, bundle, presence, onShare,
             {presence.attendingCampaigns.length === 0 && presence.surrogatePlans.length === 0 ? (
               <p className="text-sm dossier-fact-unknown">No public campaign presence announced yet.</p>
             ) : (
-              <ul className="text-sm space-y-2">
-                {presence.attendingCampaigns.map((p) => (
-                  <li
-                    key={p.slug}
-                    className="rounded-lg px-3 py-2 text-xs font-semibold border border-black/10"
-                    style={{ backgroundColor: p.candidateColor, color: pickReadableText(p.candidateColor) }}
-                  >
-                    {p.publicNote || `${p.candidateName} attending`}
-                  </li>
-                ))}
-                {presence.surrogatePlans.map((p) => (
-                  <li key={p.slug} className="chip chip-muted">Surrogate — {p.campaignName}</li>
-                ))}
-              </ul>
+              <>
+                <PresenceBadges presence={presence} eventTitle={event.title} />
+                <ul className="text-sm space-y-2 mt-2">
+                  {presence.attendingCampaigns.map((p) => (
+                    <li key={p.slug} className="chip chip-muted text-xs">{p.publicNote || `${p.candidateName} attending`}</li>
+                  ))}
+                </ul>
+              </>
             )}
-          </Section>
-
-          <Section title="Volunteer needs" icon={Users}>
-            {presence.volunteerNeeds.length === 0 ? (
-              <p className="text-sm dossier-fact-unknown">No public volunteer call yet.</p>
-            ) : (
-              <ul className="text-sm space-y-2">
-                {presence.volunteerNeeds.map((p) => (
-                  <li
-                    key={p.slug}
-                    className="rounded-lg px-3 py-2 text-xs font-semibold border border-black/10"
-                    style={{ backgroundColor: p.volunteerColor, color: pickReadableText(p.volunteerColor) }}
-                  >
-                    {p.volunteerPublicNote || `Volunteers needed — ${p.campaignName}`}
-                  </li>
-                ))}
-              </ul>
-            )}
-            {dossier.volunteerGuidance && <p className="text-xs text-muted mt-2">{dossier.volunteerGuidance}</p>}
           </Section>
 
           <Section title="Host & sources" icon={ExternalLink}>
             {dossier.hostOrganization && <p className="text-sm font-medium text-ark-pine">{dossier.hostOrganization}</p>}
-            {dossier.officialWebsite && (
-              <a href={dossier.officialWebsite} target="_blank" rel="noreferrer" className="text-sm text-ark-rust hover:underline flex items-center gap-1 mt-2">
-                Official site <ExternalLink className="h-3 w-3" />
-              </a>
-            )}
             {dossier.sourceLinks && dossier.sourceLinks.length > 0 && (
               <ul className="mt-3 space-y-1.5">
                 {dossier.sourceLinks.map((s) => (
                   <li key={s.url}>
-                    <a href={s.url} target="_blank" rel="noreferrer" className="text-xs text-ark-rust hover:underline flex items-center gap-1">
+                    <a href={s.url} target="_blank" rel="noreferrer" className="text-xs text-ark-rust hover:underline">
                       {s.label}
-                      <span className="chip chip-muted text-[9px] py-0">{s.trust || "source"}</span>
                     </a>
                   </li>
                 ))}
               </ul>
             )}
-            {!dossier.hostOrganization && !dossier.sourceLinks?.length && (
-              <p className="text-sm dossier-fact-unknown">Public sources not linked yet.</p>
-            )}
+            <p className="text-[10px] text-muted mt-3">Source confidence: {dossier.confidenceScore}%</p>
           </Section>
 
           <Section title="Still need to verify" icon={AlertCircle}>
             <ul className="text-xs space-y-1.5 text-muted">
-              {(dossier.unansweredQuestions ?? tasks.map((t) => t.taskLabel)).slice(0, 8).map((q) => (
-                <li key={q} className="flex gap-2"><span className="text-ark-rust">?</span>{q}</li>
+              {(intelligence.missingFields.length ? intelligence.missingFields : ["parking", "cost", "history"]).map((q) => (
+                <li key={q} className="flex gap-2">
+                  <span className="text-ark-rust">?</span>
+                  {q}
+                </li>
               ))}
             </ul>
-            <p className="text-[10px] text-muted mt-3">Source: {bundle.source} · confidence {dossier.confidenceScore}%</p>
           </Section>
 
-          <div className="flex flex-col gap-2">
-            <button type="button" onClick={() => downloadIcs(event)} className="btn-secondary text-sm justify-center">
-              <CalendarPlus className="h-4 w-4" /> Add to calendar
-            </button>
-            <button type="button" onClick={onShare} className="btn-primary text-sm justify-center">
-              <Share2 className="h-4 w-4" /> Share event
-            </button>
-          </div>
+          {dossier.confirmedFacts && dossier.confirmedFacts.length > 0 && (
+            <Section title="Verified facts" icon={HelpCircle}>
+              <ul className="text-sm space-y-1">
+                {dossier.confirmedFacts.map((f) => (
+                  <li key={f} className="flex gap-2"><span className="text-ark-sage">✓</span>{f}</li>
+                ))}
+              </ul>
+            </Section>
+          )}
         </aside>
       </div>
 
       {event.description && (
-        <Section title="Event description">
+        <Section title="Original listing">
           <p className="text-muted whitespace-pre-wrap">{event.description}</p>
         </Section>
       )}
 
       <HostVolunteerControls eventId={event.id} />
-
-      {studentServiceOpp && (
-        <Section title="Student community service">
-          <p className="text-sm text-muted mb-3">
-            Verified organization opportunity — routes through official signup. Parent/guardian documentation required.
-          </p>
-          <StudentServiceBadge opportunity={studentServiceOpp} />
-        </Section>
-      )}
-
       <EventFeedbackForm eventId={event.id} eventSlug={event.slug} eventCounty={event.county} eventCity={event.city} expanded />
     </article>
   );

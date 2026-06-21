@@ -2,6 +2,7 @@ import { useEffect, useMemo, useState } from "react";
 import { Link } from "react-router-dom";
 import { AlertTriangle, CheckCircle2, Database, RefreshCw } from "lucide-react";
 import { runEventDataDiagnostics, type EventDataDiagnostics } from "../lib/events/eventDataDiagnostics";
+import { scoreAllPublicEventPages, eventPageQualitySummary } from "../lib/events/eventPageQuality";
 import { launchFlags, shouldShowHomepageMap } from "../lib/launch/launchFlags";
 import { runProfileHealth } from "../lib/profiles/profileHealth";
 import { runPartyMeetingHealth } from "../lib/party-meetings/partyMeetingHealth";
@@ -23,6 +24,8 @@ export function AdminDataHealthPage() {
   const countyFairHealth = useMemo(() => runCountyFairHealth(), []);
   const politicalHealth = useMemo(() => runHistoricPoliticalHealth(), []);
   const feedReport = useMemo(() => loadFeedAttachmentReport(), []);
+  const eventPageScores = useMemo(() => scoreAllPublicEventPages(), []);
+  const eventPageSummary = useMemo(() => eventPageQualitySummary(eventPageScores), [eventPageScores]);
 
   async function refresh() {
     setLoading(true);
@@ -143,6 +146,22 @@ export function AdminDataHealthPage() {
                 </tbody>
               </table>
             </div>
+          </section>
+
+          <section className="card-readable">
+            <h2 className="font-semibold text-[var(--text-secondary)]">Event page quality (Pass 35)</h2>
+            <p className="text-caption mt-1">
+              Public intelligence completeness — narrative, parking, history, and official links. Campaign scores stay private.
+            </p>
+            <div className="mt-3 grid gap-3 sm:grid-cols-2 text-sm">
+              <Stat label="Public event pages scored" value={String(eventPageSummary.total)} />
+              <Stat label="Thin pages (&lt;45%)" value={String(eventPageSummary.thin)} highlight={eventPageSummary.thin > 0} />
+              <Stat label="High-priority thin" value={String(eventPageSummary.highPriorityThin)} highlight={eventPageSummary.highPriorityThin > 0} />
+              <Stat label="Strong pages (≥70%)" value={String(eventPageSummary.strong)} />
+            </div>
+            <Link to="/admin/event-page-quality" className="btn-secondary text-xs mt-4 inline-flex">
+              Open event page quality dashboard →
+            </Link>
           </section>
 
           <section className="card-readable">

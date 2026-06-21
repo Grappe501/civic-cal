@@ -91,6 +91,20 @@ export function organizationJsonLd(org: PublicOrganizationProfile, eventCount: n
   };
 }
 
+export function eventFaqJsonLd(faqs: { question: string; answer: string }[], eventUrl: string) {
+  if (faqs.length === 0) return null;
+  return {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: faqs.map((f) => ({
+      "@type": "Question",
+      name: f.question,
+      acceptedAnswer: { "@type": "Answer", text: f.answer },
+    })),
+    url: eventUrl,
+  };
+}
+
 export function websiteJsonLd() {
   return {
     "@context": "https://schema.org",

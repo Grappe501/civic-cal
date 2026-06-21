@@ -33,6 +33,7 @@ import {
   CalendarWeekPage,
 } from "./components/calendar/CalendarShell";
 import { AdminDataHealthPage } from "./pages/AdminDataHealthPage";
+import { AdminEventPageQualityPage } from "./pages/AdminEventPageQualityPage";
 import { AdminDensityPage } from "./pages/AdminDensityPage";
 import { AdminFeedCoveragePage } from "./pages/AdminFeedCoveragePage";
 import { AdminAutogrowPage } from "./pages/AdminAutogrowPage";
@@ -105,6 +106,7 @@ export default function App() {
           <Route path="/volunteer/:slug" element={<EntityProfilePage entityType="volunteer_opportunity" />} />
           <Route path="/date/:slug" element={<EntityProfilePage entityType="state_date" />} />
           <Route path="/admin/data-health" element={<AdminDataHealthPage />} />
+          <Route path="/admin/event-page-quality" element={<AdminEventPageQualityPage />} />
           <Route path="/admin/calendar-priority" element={<AdminCalendarPriorityPage />} />
           <Route path="/admin/density" element={<AdminDensityPage />} />
           <Route path="/admin/feeds" element={<AdminFeedCoveragePage />} />
