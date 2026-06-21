@@ -1,0 +1,102 @@
+{
+  "version": 1,
+  "updatedAt": "2026-06-21",
+  "source": "Arkansas Code Title 7 Ch. 2 (congressional) + Arkansas GIS / Ballotpedia (senate seed)",
+  "districts": [
+    {
+      "districtType": "congressional",
+      "districtCode": "AR-01",
+      "name": "Arkansas Congressional District 1",
+      "slug": "congressional-ar-01",
+      "countiesWhole": [
+        "Arkansas", "Baxter", "Boone", "Chicot", "Clay", "Craighead", "Crittenden", "Cross",
+        "Desha", "Fulton", "Greene", "Independence", "Izard", "Jackson", "Lawrence", "Lee",
+        "Lincoln", "Marion", "Mississippi", "Monroe", "Phillips", "Poinsett", "Prairie",
+        "Randolph", "Searcy", "Sharp", "St. Francis", "Stone", "Woodruff"
+      ],
+      "countiesPartial": ["Pulaski"],
+      "nearCounties": ["Lonoke", "White", "Cleburne", "Conway", "Faulkner"],
+      "boundaryPrecision": "partial",
+      "boundarySource": "AR Code § 7-2-102"
+    },
+    {
+      "districtType": "congressional",
+      "districtCode": "AR-02",
+      "name": "Arkansas Congressional District 2",
+      "slug": "congressional-ar-02",
+      "countiesWhole": ["Cleburne", "Conway", "Faulkner", "Perry", "Saline", "Van Buren", "White"],
+      "countiesPartial": ["Pulaski"],
+      "cities": ["Little Rock", "North Little Rock", "Conway", "Benton", "Bryant", "Malvern", "Heber Springs"],
+      "nearCounties": ["Garland", "Hot Spring", "Lonoke", "Jefferson", "Pope", "Grant"],
+      "centroid": { "lat": 34.85, "lng": -92.35 },
+      "nearRadiusMiles": 40,
+      "boundaryPrecision": "partial",
+      "boundarySource": "AR Code § 7-2-103"
+    },
+    {
+      "districtType": "congressional",
+      "districtCode": "AR-03",
+      "name": "Arkansas Congressional District 3",
+      "slug": "congressional-ar-03",
+      "countiesWhole": ["Benton", "Carroll", "Crawford", "Madison", "Washington"],
+      "countiesPartial": ["Sebastian"],
+      "nearCounties": ["Franklin", "Johnson", "Newton", "Boone", "Pope", "Logan"],
+      "boundaryPrecision": "partial",
+      "boundarySource": "AR Code § 7-2-104"
+    },
+    {
+      "districtType": "congressional",
+      "districtCode": "AR-04",
+      "name": "Arkansas Congressional District 4",
+      "slug": "congressional-ar-04",
+      "countiesWhole": [
+        "Ashley", "Bradley", "Calhoun", "Clark", "Cleveland", "Columbia", "Dallas", "Drew",
+        "Garland", "Grant", "Hempstead", "Hot Spring", "Howard", "Jefferson", "Johnson",
+        "Lafayette", "Little River", "Logan", "Miller", "Montgomery", "Nevada", "Newton",
+        "Ouachita", "Pike", "Polk", "Pope", "Scott", "Sevier", "Union", "Yell"
+      ],
+      "countiesPartial": ["Pulaski", "Sebastian"],
+      "nearCounties": ["Saline", "Perry", "Conway", "Faulkner", "Lonoke"],
+      "boundaryPrecision": "partial",
+      "boundarySource": "AR Code § 7-2-105"
+    },
+    {
+      "districtType": "state_senate",
+      "districtCode": "SD-16",
+      "name": "Arkansas Senate District 16",
+      "slug": "state-senate-sd-16",
+      "countiesWhole": ["Saline"],
+      "countiesPartial": ["Pulaski"],
+      "cities": ["Benton", "Bryant", "Alexander", "Mabelvale", "Shannon Hills"],
+      "nearCounties": ["Garland", "Hot Spring", "Perry", "Grant", "Lonoke"],
+      "centroid": { "lat": 34.72, "lng": -92.52 },
+      "nearRadiusMiles": 25,
+      "boundaryPrecision": "partial",
+      "boundarySource": "Arkansas Senate apportionment 2021 — central Saline + west Pulaski"
+    },
+    {
+      "districtType": "state_senate",
+      "districtCode": "SD-27",
+      "name": "Arkansas Senate District 27",
+      "slug": "state-senate-sd-27",
+      "countiesPartial": ["Sebastian"],
+      "cities": ["Fort Smith", "Barling", "Greenwood"],
+      "nearCounties": ["Crawford", "Franklin", "Logan", "Scott"],
+      "centroid": { "lat": 35.39, "lng": -94.4 },
+      "nearRadiusMiles": 30,
+      "boundaryPrecision": "partial",
+      "boundarySource": "SD-27 — Fort Smith / Sebastian (partial county)"
+    },
+    {
+      "districtType": "statewide",
+      "districtCode": "AR-STATEWIDE",
+      "name": "State of Arkansas",
+      "slug": "statewide-arkansas",
+      "countiesWhole": [],
+      "countiesPartial": [],
+      "nearCounties": [],
+      "boundaryPrecision": "full",
+      "boundarySource": "All 75 counties"
+    }
+  ]
+}

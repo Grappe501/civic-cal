@@ -14,6 +14,8 @@
       "cities": [],
       "district_scope": {
         "mode": "statewide",
+        "districtCode": "AR-STATEWIDE",
+        "districtBoundarySlug": "statewide-arkansas",
         "counties": [],
         "cities": [],
         "boundaryPrecision": "full"
@@ -43,10 +45,11 @@
       "district_scope": {
         "mode": "congressional",
         "districtCode": "AR-02",
+        "districtBoundarySlug": "congressional-ar-02",
         "counties": ["Cleburne", "Conway", "Faulkner", "Perry", "Saline", "Van Buren", "White", "Pulaski"],
         "cities": [],
-        "boundaryPrecision": "pending",
-        "boundaryNote": "Pulaski County is partial in AR-02 — GIS pass required"
+        "boundaryPrecision": "partial",
+        "boundaryNote": "Statutory counties + partial Pulaski — precinct GeoJSON next"
       },
       "dashboard_theme": {
         "primaryColor": "#2D6A4F",
@@ -72,6 +75,8 @@
       "cities": [],
       "district_scope": {
         "mode": "statewide",
+        "districtCode": "AR-STATEWIDE",
+        "districtBoundarySlug": "statewide-arkansas",
         "counties": [],
         "cities": [],
         "boundaryPrecision": "full"
@@ -101,10 +106,11 @@
       "district_scope": {
         "mode": "state_senate",
         "districtCode": "SD-27",
+        "districtBoundarySlug": "state-senate-sd-27",
         "counties": ["Sebastian"],
         "cities": ["Fort Smith"],
-        "boundaryPrecision": "pending",
-        "boundaryNote": "SD-27 covers part of Sebastian County — precinct-level GIS pending"
+        "boundaryPrecision": "partial",
+        "boundaryNote": "SD-27 — partial Sebastian; Fort Smith city match inside"
       },
       "dashboard_theme": {
         "primaryColor": "#5C4033",
@@ -131,10 +137,11 @@
       "district_scope": {
         "mode": "state_senate",
         "districtCode": "SD-16",
+        "districtBoundarySlug": "state-senate-sd-16",
         "counties": ["Saline", "Pulaski"],
         "cities": ["Benton", "Bryant"],
-        "boundaryPrecision": "pending",
-        "boundaryNote": "SD-16 is central Saline (Benton, Bryant) plus western Pulaski — precinct GIS pending"
+        "boundaryPrecision": "partial",
+        "boundaryNote": "SD-16 — whole Saline + partial Pulaski (Benton/Bryant inside)"
       },
       "dashboard_theme": {
         "primaryColor": "#1E3A5F",

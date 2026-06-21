@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "note": "County seat approximations for near-radius fallback when event lacks lat/lng",
+  "counties": [
+    { "name": "Saline", "centroid": { "lat": 34.564, "lng": -92.586 } },
+    { "name": "Pulaski", "centroid": { "lat": 34.746, "lng": -92.289 } },
+    { "name": "Sebastian", "centroid": { "lat": 35.386, "lng": -94.398 } },
+    { "name": "Benton", "centroid": { "lat": 36.344, "lng": -94.218 } },
+    { "name": "Faulkner", "centroid": { "lat": 35.089, "lng": -92.442 } },
+    { "name": "Conway", "centroid": { "lat": 35.278, "lng": -92.701 } },
+    { "name": "Garland", "centroid": { "lat": 34.564, "lng": -93.094 } },
+    { "name": "Jefferson", "centroid": { "lat": 34.269, "lng": -92.003 } },
+    { "name": "Lonoke", "centroid": { "lat": 34.784, "lng": -91.899 } },
+    { "name": "White", "centroid": { "lat": 35.251, "lng": -91.736 } },
+    { "name": "Cleburne", "centroid": { "lat": 35.493, "lng": -92.031 } },
+    { "name": "Perry", "centroid": { "lat": 34.913, "lng": -92.932 } },
+    { "name": "Hot Spring", "centroid": { "lat": 34.312, "lng": -92.809 } },
+    { "name": "Grant", "centroid": { "lat": 34.29, "lng": -92.423 } }
+  ]
+}

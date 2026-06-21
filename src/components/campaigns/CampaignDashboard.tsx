@@ -1,12 +1,13 @@
 import { useEffect, useMemo, useState } from "react";
 import { Link } from "react-router-dom";
-import { AlertTriangle, Brain, Calendar, MapPin, MessageSquarePlus, Sparkles, Users } from "lucide-react";
+import { AlertTriangle, Brain, MapPin, MessageSquarePlus, Sparkles, Users } from "lucide-react";
 import { isThisWeek } from "date-fns";
 import { fetchEvents } from "../../lib/api";
-import { applyDistrictScope, isBoundaryPending } from "../../lib/campaigns/districtScope";
-import { scoreEventForCampaign, traditionStrengthEstimate, verificationLabel } from "../../lib/campaigns/eventIntel";
+import { applyDistrictScope, isBoundaryPending, boundaryStatusNote } from "../../lib/campaigns/districtScope";
+import type { ClassifiedCampaignEvent } from "../../lib/campaigns/districtScope";
+import { traditionStrengthEstimate, verificationLabel } from "../../lib/campaigns/eventIntel";
 import { buildPlan, loadPlansForCampaign, savePlanForCampaign } from "../../lib/campaigns/planStore";
-import type { CampaignEventPlan, CampaignWorkspace, PlanStatus, ScoredEvent } from "../../lib/campaigns/types";
+import type { CampaignEventPlan, CampaignWorkspace, PlanStatus } from "../../lib/campaigns/types";
 import { PLAN_STATUS_LABELS, PLAN_STATUS_SHORT } from "../../lib/campaigns/types";
 import { dashboardThemeVars } from "../../lib/campaigns/workspaces";
 import { formatEventRange } from "../../lib/format";
@@ -20,6 +21,9 @@ interface Props {
 
 type SectionId =
   | "summary"
+  | "inside"
+  | "near"
+  | "statewide"
   | "week"
   | "density"
   | "church"
@@ -40,17 +44,18 @@ const PLAN_STATUSES: PlanStatus[] = [
 ];
 
 function EventIntelCard({
-  item,
+  classified,
   plans,
   onPlan,
   compact,
 }: {
-  item: ScoredEvent;
+  classified: ClassifiedCampaignEvent;
   plans: Record<string, CampaignEventPlan>;
   onPlan: (eventId: string, status: PlanStatus) => void;
   compact?: boolean;
 }) {
-  const { event, politicalOpportunityScore, relationshipDensityScore, candidateUsefulness, layer } = item;
+  const { scored, zone, zoneReason } = classified;
+  const { event, politicalOpportunityScore, relationshipDensityScore, candidateUsefulness, layer } = scored;
   const tradition = traditionStrengthEstimate(event);
   const verification = verificationLabel(event);
   const plan = plans[event.id];
@@ -64,6 +69,9 @@ function EventIntelCard({
           </Link>
           <p className="text-xs text-ark-pine/50 mt-1">
             {formatEventRange(event)} · {event.city || event.county} County
+            {zone !== "inside" && (
+              <span className="ml-1 capitalize">· {zone === "near" ? "Near district" : "High-value"}</span>
+            )}
           </p>
         </div>
         <div className="flex flex-wrap gap-1">
@@ -77,6 +85,7 @@ function EventIntelCard({
 
       {!compact && (
         <div className="mt-2 flex flex-wrap gap-2 text-[10px]">
+          {zoneReason && <span className="text-ark-pine/50 w-full">{zoneReason}</span>}
           <span className="chip bg-ark-wheat text-ark-pine">Usefulness: {candidateUsefulness}</span>
           {tradition != null && <span className="chip bg-ark-wheat text-ark-pine">Tradition ~{tradition}</span>}
           <span className="chip bg-ark-wheat text-ark-pine capitalize">{verification.replace("_", " ")}</span>
@@ -129,31 +138,45 @@ export function CampaignDashboard({ workspace }: Props) {
   }, [workspace.slug]);
 
   const scopeResult = useMemo(() => applyDistrictScope(events, workspace), [events, workspace]);
-  const scored = useMemo(() => scopeResult.events.map(scoreEventForCampaign), [scopeResult.events]);
+  const breakdown = scopeResult.breakdown!;
+  const allVisible: ClassifiedCampaignEvent[] = useMemo(
+    () => [...breakdown.inside, ...breakdown.near, ...breakdown.statewideHighValue],
+    [breakdown],
+  );
 
-  const thisWeek = useMemo(() => scored.filter(({ event }) => isThisWeek(new Date(event.startAt), { weekStartsOn: 0 })), [scored]);
+  const pool = useMemo(() => {
+    if (section === "inside") return breakdown.inside;
+    if (section === "near") return breakdown.near;
+    if (section === "statewide") return breakdown.statewideHighValue;
+    return allVisible;
+  }, [section, breakdown, allVisible]);
+
+  const thisWeek = useMemo(
+    () => pool.filter((c) => isThisWeek(new Date(c.scored.event.startAt), { weekStartsOn: 0 })),
+    [pool],
+  );
   const topOpportunity = useMemo(
-    () => [...scored].sort((a, b) => b.politicalOpportunityScore - a.politicalOpportunityScore).slice(0, 8),
-    [scored],
+    () => [...pool].sort((a, b) => b.scored.politicalOpportunityScore - a.scored.politicalOpportunityScore).slice(0, 8),
+    [pool],
   );
   const topDensity = useMemo(
-    () => [...scored].sort((a, b) => b.relationshipDensityScore - a.relationshipDensityScore).slice(0, 8),
-    [scored],
+    () => [...pool].sort((a, b) => b.scored.relationshipDensityScore - a.scored.relationshipDensityScore).slice(0, 8),
+    [pool],
   );
-  const church = useMemo(() => scored.filter(({ layer }) => layer === "community_church").slice(0, 8), [scored]);
+  const church = useMemo(() => pool.filter((c) => c.scored.layer === "community_church").slice(0, 8), [pool]);
   const gov = useMemo(
-    () => scored.filter(({ layer, event }) => layer === "government" || event.category === "civic_meeting").slice(0, 8),
-    [scored],
+    () => pool.filter((c) => c.scored.layer === "government" || c.scored.event.category === "civic_meeting").slice(0, 8),
+    [pool],
   );
-  const festivals = useMemo(() => scored.filter(({ layer }) => layer === "community_identity").slice(0, 8), [scored]);
-  const school = useMemo(() => scored.filter(({ layer }) => layer === "school_ecosystem").slice(0, 8), [scored]);
+  const festivals = useMemo(() => pool.filter((c) => c.scored.layer === "community_identity").slice(0, 8), [pool]);
+  const school = useMemo(() => pool.filter((c) => c.scored.layer === "school_ecosystem").slice(0, 8), [pool]);
   const planned = useMemo(
-    () => scored.filter(({ event }) => plans[event.id] && !["skip", "needs_research"].includes(plans[event.id].planStatus)),
-    [scored, plans],
+    () => pool.filter((c) => plans[c.scored.event.id] && !["skip", "needs_research"].includes(plans[c.scored.event.id].planStatus)),
+    [pool, plans],
   );
   const volunteers = useMemo(
-    () => scored.filter(({ event }) => plans[event.id]?.planStatus === "needs_volunteers"),
-    [scored, plans],
+    () => pool.filter((c) => plans[c.scored.event.id]?.planStatus === "needs_volunteers"),
+    [pool, plans],
   );
 
   function handlePlan(eventId: string, planStatus: PlanStatus) {
@@ -163,7 +186,10 @@ export function CampaignDashboard({ workspace }: Props) {
   }
 
   const sections: { id: SectionId; label: string; count: number }[] = [
-    { id: "summary", label: "Command summary", count: scored.length },
+    { id: "summary", label: "Command summary", count: allVisible.length },
+    { id: "inside", label: "Inside district", count: breakdown.inside.length },
+    { id: "near", label: "Near district", count: breakdown.near.length },
+    { id: "statewide", label: "Worth the trip", count: breakdown.statewideHighValue.length },
     { id: "week", label: "This week", count: thisWeek.length },
     { id: "density", label: "Highest RD", count: topDensity.length },
     { id: "church", label: "Church meals", count: church.length },
@@ -174,8 +200,11 @@ export function CampaignDashboard({ workspace }: Props) {
     { id: "volunteers", label: "Needs volunteers", count: volunteers.length },
   ];
 
-  let list: ScoredEvent[] = topOpportunity;
+  let list: ClassifiedCampaignEvent[] = topOpportunity;
   if (section === "week") list = thisWeek;
+  else if (section === "inside") list = breakdown.inside;
+  else if (section === "near") list = breakdown.near;
+  else if (section === "statewide") list = breakdown.statewideHighValue;
   else if (section === "density") list = topDensity;
   else if (section === "church") list = church;
   else if (section === "gov") list = gov;
@@ -212,7 +241,8 @@ export function CampaignDashboard({ workspace }: Props) {
         <div className="card mb-6 flex gap-3 items-start border-amber-200 bg-amber-50">
           <AlertTriangle className="h-5 w-5 text-amber-700 shrink-0 mt-0.5" />
           <div className="text-sm text-amber-900">
-            <strong>Boundary precision pending.</strong> {workspace.districtScope.boundaryNote}
+            <strong>Boundary engine active.</strong>{" "}
+            {boundaryStatusNote(workspace) ?? workspace.districtScope.boundaryNote ?? "Partial counties use statutory lists until precinct GeoJSON loads."}
           </div>
         </div>
       )}
@@ -220,10 +250,10 @@ export function CampaignDashboard({ workspace }: Props) {
       {section === "summary" && (
         <section className="grid gap-4 md:grid-cols-4 mb-8">
           {[
-            { label: "Events in scope", value: scopeResult.events.length, icon: MapPin },
-            { label: "This week", value: thisWeek.length, icon: Calendar },
-            { label: "Planned", value: planned.length, icon: Sparkles },
-            { label: "Volunteer needs", value: volunteers.length, icon: Users },
+            { label: "Inside district", value: breakdown.inside.length, icon: MapPin },
+            { label: "Near district", value: breakdown.near.length, icon: MapPin },
+            { label: "Worth the trip", value: breakdown.statewideHighValue.length, icon: Sparkles },
+            { label: "Hidden outside", value: breakdown.outsideCount, icon: Users },
           ].map(({ label, value, icon: Icon }) => (
             <div key={label} className="card" style={{ backgroundColor: theme.surfaceColor }}>
               <Icon className="h-5 w-5" style={{ color: theme.accentColor }} />
@@ -258,7 +288,7 @@ export function CampaignDashboard({ workspace }: Props) {
                 </h2>
                 <div className="mt-3 space-y-3">
                   {(thisWeek.length ? thisWeek : topOpportunity).slice(0, 5).map((item) => (
-                    <EventIntelCard key={item.event.id} item={item} plans={plans} onPlan={handlePlan} compact />
+                    <EventIntelCard key={item.scored.event.id} classified={item} plans={plans} onPlan={handlePlan} compact />
                   ))}
                 </div>
               </div>
@@ -268,7 +298,7 @@ export function CampaignDashboard({ workspace }: Props) {
                 </h2>
                 <div className="mt-3 space-y-3">
                   {topDensity.slice(0, 4).map((item) => (
-                    <EventIntelCard key={item.event.id} item={item} plans={plans} onPlan={handlePlan} compact />
+                    <EventIntelCard key={item.scored.event.id} classified={item} plans={plans} onPlan={handlePlan} compact />
                   ))}
                 </div>
               </div>
@@ -276,14 +306,14 @@ export function CampaignDashboard({ workspace }: Props) {
           ) : (
             <div className="space-y-3">
               {list.slice(0, 12).map((item) => (
-                <EventIntelCard key={item.event.id} item={item} plans={plans} onPlan={handlePlan} />
+                <EventIntelCard key={item.scored.event.id} classified={item} plans={plans} onPlan={handlePlan} />
               ))}
               {list.length === 0 && <p className="text-ark-pine/60">No events in this section for current scope.</p>}
             </div>
           )}
 
           <p className="text-xs text-ark-pine/50 mt-4">
-            Scope: {scopeResult.scopeLabel} · {scopeResult.totalBeforeFilter} total events in feed
+            Scope: {scopeResult.scopeLabel} · {scopeResult.totalBeforeFilter} total · {allVisible.length} shown
           </p>
         </div>
 

@@ -13,6 +13,7 @@ import { HelpBuildCalendarPage } from "./pages/HelpBuildCalendarPage";
 import { CampaignsLandingPage } from "./pages/CampaignsLandingPage";
 import { CampaignDemoPage } from "./pages/CampaignDemoPage";
 import { CampaignWorkspacePage } from "./pages/CampaignWorkspacePage";
+import { DistrictEnginePage } from "./pages/DistrictEnginePage";
 
 export default function App() {
   return (
@@ -30,6 +31,7 @@ export default function App() {
           <Route path="/organizers" element={<OrganizersPage />} />
           <Route path="/opportunity-engine" element={<OpportunityEnginePage />} />
           <Route path="/help-build-the-calendar" element={<HelpBuildCalendarPage />} />
+          <Route path="/district-engine" element={<DistrictEnginePage />} />
           <Route path="/campaigns" element={<CampaignsLandingPage />} />
           <Route path="/campaigns/demo" element={<CampaignDemoPage />} />
           <Route path="/campaigns/:slug" element={<CampaignWorkspacePage />} />

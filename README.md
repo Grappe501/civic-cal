@@ -109,6 +109,21 @@ Without `OPENAI_API_KEY`, scoring uses deterministic PO/RD fallback.
 - `/campaigns/demo` — localStorage workspace, district filter, plan statuses
 - Google Calendar & Mobilize — disabled planning rails only
 
+## District Boundary Engine (Pass 7)
+
+Campaign dashboards classify events into **inside**, **near**, and **worth the trip** (statewide high-value exceptions).
+
+- **Data:** `data/districts/arkansas-districts-seed.json` — congressional AR-01–04, SD-16, SD-27, statewide
+- **Engine:** `src/lib/campaigns/districtBoundaryEngine.ts`
+- **API:** `/.netlify/functions/districts`
+- **Explorer:** `/district-engine`
+
+```bash
+psql $DATABASE_URL -f supabase/migrations/008_district_boundaries.sql
+```
+
+Partial counties (e.g. Pulaski in AR-02) use statutory whole-county lists until precinct GeoJSON is imported.
+
 ## Named Campaign Dashboards
 
 Reusable campaign workspaces with personalized branding, district scope, and event planning.
@@ -156,6 +171,7 @@ Set all env vars from [`.github/NETLIFY_ENV.md`](.github/NETLIFY_ENV.md).
 | `/organizers` | Organizer intelligence + five layers |
 | `/opportunity-engine` | Scoring system explainer |
 | `/help-build-the-calendar` | County ambassador signup |
+| `/district-engine` | Boundary engine explainer |
 | `/campaigns` | Campaign selector + named dashboards |
 | `/campaigns/:slug` | Branded campaign command center |
 | `/campaigns/demo` | Generic sandbox dashboard |

@@ -70,6 +70,8 @@ psql $DATABASE_URL -f supabase/migrations/003_event_ingestion_candidates.sql
 psql $DATABASE_URL -f supabase/migrations/004_intelligence_layers.sql
 psql $DATABASE_URL -f supabase/migrations/005_ai_event_network.sql
 psql $DATABASE_URL -f supabase/migrations/006_named_campaign_workspaces.sql
+psql $DATABASE_URL -f supabase/migrations/007_joshua_irby_sd16.sql
+psql $DATABASE_URL -f supabase/migrations/008_district_boundaries.sql
 npm run seed:import
 ```
 

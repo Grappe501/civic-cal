@@ -14,10 +14,12 @@ const DEMO_WORKSPACE: CampaignWorkspace = {
   cities: ["Little Rock", "Morrilton", "Conway"],
   districtScope: {
     mode: "statewide",
+    districtCode: "AR-STATEWIDE",
+    districtBoundarySlug: "statewide-arkansas",
     counties: ["Conway", "Pulaski", "Faulkner", "Garland"],
     cities: [],
     boundaryPrecision: "partial",
-    boundaryNote: "Demo scope — subset of counties for testing",
+    boundaryNote: "Demo subset counties",
   },
   dashboardTheme: {
     primaryColor: "#1B4332",

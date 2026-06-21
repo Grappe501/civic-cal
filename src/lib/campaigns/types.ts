@@ -14,6 +14,7 @@ export type BoundaryPrecision = "full" | "pending" | "partial";
 export interface DistrictScope {
   mode: DistrictType;
   districtCode?: string;
+  districtBoundarySlug?: string;
   counties: string[];
   cities: string[];
   boundaryPrecision: BoundaryPrecision;
