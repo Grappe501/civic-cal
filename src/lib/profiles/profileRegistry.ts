@@ -11,6 +11,7 @@ import {
   organizationPublicSlug,
 } from "../organizations/publicOrganizationDirectory";
 import { listCampaignWorkspaces } from "../campaigns/workspaces";
+import countyFairRegistry from "../../../data/fairs/arkansas-county-fair-registry.json";
 import type { CivicEvent } from "../types";
 import type { CommunityProfile, ProfileEntityType, RelatedProfileLink } from "./profileTypes";
 import {
@@ -285,6 +286,81 @@ function buildCandidateProfiles(): CommunityProfile[] {
   }));
 }
 
+function buildCountyFairProfiles(): CommunityProfile[] {
+  const fairs = (countyFairRegistry as { fairs?: Record<string, unknown>[] }).fairs ?? [];
+  return fairs
+    .filter((f) => !f.is_regional_fair && !f.is_state_fair)
+    .map((f) => {
+      const slug = String(f.id || `${countySlugify(String(f.county))}-county-fair`);
+      const links = [f.official_url, f.cofairs_url, f.source_url].filter(Boolean).map((url) => ({
+        label: String(url).includes("cofairs.com") ? "Fair guide listing" : "Official source",
+        url: String(url),
+      }));
+      const verified = f.verification_status === "verified_dated";
+      return {
+        slug,
+        title: String(f.fair_name ?? `${f.county} County Fair`),
+        entityType: "festival" as const,
+        city: (f.city as string) ?? null,
+        county: String(f.county),
+        canonicalUrl: profileCanonicalUrl("festival", slug),
+        summary:
+          verified && f.date_start
+            ? `${f.fair_name} — ${f.date_start}${f.date_end && f.date_end !== f.date_start ? ` to ${f.date_end}` : ""} (source-backed). Confirm details annually.`
+            : `${f.fair_name} in ${f.county} County, Arkansas — dates need confirmation from official sources.`,
+        aiSummary: `County fair profile for ${f.county} County, Arkansas. ${verified ? "2026 dates sourced from public pages." : "Research task open until official dates verified."}`,
+        relatedLinks: mergeRelated([
+          ...(f.city ? [relatedLink("city", citySlugify(String(f.city)), String(f.city))] : []),
+          relatedLink("county", `${countySlugify(String(f.county))}-county`, `${f.county} County`),
+        ]),
+        freshness: defaultFreshness({
+          dataAsOf: (f.date_start as string) ?? undefined,
+          lastRefreshedAt: (f.information_last_refreshed as string) ?? undefined,
+          sourceConfidence: verified ? "high" : links.length ? "medium" : "placeholder",
+          sourceCount: links.length,
+          sourceLinks: links,
+          verificationStatus: verified ? "verified" : "needs_review",
+          refreshNeeded: !verified,
+          refreshNotes: verified ? null : "Confirm fair dates from official county fair or fairgrounds page.",
+        }),
+      };
+    });
+}
+
+function buildStateAndRegionalFairProfiles(): CommunityProfile[] {
+  const fairs = (countyFairRegistry as { fairs?: Record<string, unknown>[] }).fairs ?? [];
+  return fairs
+    .filter((f) => f.is_regional_fair || f.is_state_fair)
+    .map((f) => {
+      const slug = String(f.id);
+      const verified = f.verification_status === "verified_dated";
+      const links = [f.official_url, f.cofairs_url, f.source_url].filter(Boolean).map((url) => ({
+        label: "Source",
+        url: String(url),
+      }));
+      return {
+        slug,
+        title: String(f.fair_name),
+        entityType: "festival" as const,
+        city: (f.city as string) ?? null,
+        county: String(f.county),
+        canonicalUrl: profileCanonicalUrl("festival", slug),
+        summary: `${f.fair_name} — ${verified ? "dated from public source" : "dates need confirmation"}.`,
+        aiSummary: `Regional or state fair profile for Arkansas.`,
+        relatedLinks: mergeRelated([
+          relatedLink("county", `${countySlugify(String(f.county))}-county`, `${f.county} County`),
+        ]),
+        freshness: defaultFreshness({
+          sourceConfidence: verified ? "high" : "medium",
+          sourceCount: links.length,
+          sourceLinks: links,
+          verificationStatus: verified ? "verified" : "needs_review",
+          refreshNeeded: !verified,
+        }),
+      };
+    });
+}
+
 function buildVolunteerProfiles(): CommunityProfile[] {
   const opps = (studentBundle as { opportunities?: Record<string, unknown>[] }).opportunities ?? [];
   return opps.map((raw) => {
@@ -325,6 +401,8 @@ export function buildProfileRegistry(): CommunityProfile[] {
     ...buildGeoProfiles(),
     ...buildTraditionProfiles(),
     ...buildEventDerivedProfiles(events),
+    ...buildCountyFairProfiles(),
+    ...buildStateAndRegionalFairProfiles(),
     ...buildStateDateProfiles(),
     ...buildCandidateProfiles(),
     ...buildVolunteerProfiles(),

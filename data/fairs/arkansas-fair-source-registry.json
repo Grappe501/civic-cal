@@ -1,0 +1,592 @@
+{
+  "pass": "29",
+  "generatedAt": "2026-06-21T16:25:23.944Z",
+  "sources": [
+    {
+      "id": "arkansas-county-fair",
+      "county": "Arkansas",
+      "official_url": null,
+      "cofairs_url": "https://cofairs.com/arkansas/arkansas-county-fair",
+      "source_type": "county_fair_page"
+    },
+    {
+      "id": "ashley-county-fair",
+      "county": "Ashley",
+      "official_url": null,
+      "cofairs_url": "https://cofairs.com/arkansas/ashley-county-fair",
+      "source_type": "county_fair_page"
+    },
+    {
+      "id": "baxter-county-fair",
+      "county": "Baxter",
+      "official_url": "https://www.baxtercountyfair.org/",
+      "cofairs_url": "https://cofairs.com/arkansas/baxter-county-fair",
+      "source_type": "county_fair_page"
+    },
+    {
+      "id": "benton-county-fair",
+      "county": "Benton",
+      "official_url": "https://www.bentoncountyfair.net/",
+      "cofairs_url": "https://cofairs.com/arkansas/benton-county-fair",
+      "source_type": "county_fair_page"
+    },
+    {
+      "id": "boone-county-fair",
+      "county": "Boone",
+      "official_url": "https://www.districtfair.com/",
+      "cofairs_url": "https://cofairs.com/arkansas/boone-county-fair",
+      "source_type": "county_fair_page"
+    },
+    {
+      "id": "bradley-county-fair",
+      "county": "Bradley",
+      "official_url": null,
+      "cofairs_url": "https://cofairs.com/arkansas/bradley-county-fair",
+      "source_type": "county_fair_page"
+    },
+    {
+      "id": "calhoun-county-fair",
+      "county": "Calhoun",
+      "official_url": null,
+      "cofairs_url": "https://cofairs.com/arkansas/calhoun-county-fair",
+      "source_type": "county_fair_page"
+    },
+    {
+      "id": "carroll-county-fair",
+      "county": "Carroll",
+      "official_url": null,
+      "cofairs_url": "https://cofairs.com/arkansas/carroll-county-fair",
+      "source_type": "county_fair_page"
+    },
+    {
+      "id": "chicot-county-fair",
+      "county": "Chicot",
+      "official_url": null,
+      "cofairs_url": "https://cofairs.com/arkansas/chicot-county-fair",
+      "source_type": "county_fair_page"
+    },
+    {
+      "id": "clark-county-fair",
+      "county": "Clark",
+      "official_url": null,
+      "cofairs_url": "https://cofairs.com/arkansas/clark-county-fair",
+      "source_type": "county_fair_page"
+    },
+    {
+      "id": "clay-county-fair",
+      "county": "Clay",
+      "official_url": null,
+      "cofairs_url": "https://cofairs.com/arkansas/clay-county-fair",
+      "source_type": "county_fair_page"
+    },
+    {
+      "id": "cleburne-county-fair",
+      "county": "Cleburne",
+      "official_url": "https://www.cleburnecountyfair.com/",
+      "cofairs_url": "https://cofairs.com/arkansas/cleburne-county-fair",
+      "source_type": "county_fair_page"
+    },
+    {
+      "id": "cleveland-county-fair",
+      "county": "Cleveland",
+      "official_url": null,
+      "cofairs_url": "https://cofairs.com/arkansas/cleveland-county-fair",
+      "source_type": "county_fair_page"
+    },
+    {
+      "id": "columbia-county-fair",
+      "county": "Columbia",
+      "official_url": null,
+      "cofairs_url": "https://cofairs.com/arkansas/columbia-county-fair",
+      "source_type": "county_fair_page"
+    },
+    {
+      "id": "conway-county-fair",
+      "county": "Conway",
+      "official_url": null,
+      "cofairs_url": "https://cofairs.com/arkansas/conway-county-fair",
+      "source_type": "county_fair_page"
+    },
+    {
+      "id": "craighead-county-fair",
+      "county": "Craighead",
+      "official_url": null,
+      "cofairs_url": "https://cofairs.com/arkansas/craighead-county-fair",
+      "source_type": "county_fair_page"
+    },
+    {
+      "id": "crawford-county-fair",
+      "county": "Crawford",
+      "official_url": null,
+      "cofairs_url": "https://cofairs.com/arkansas/crawford-county-fair",
+      "source_type": "county_fair_page"
+    },
+    {
+      "id": "crittenden-county-fair",
+      "county": "Crittenden",
+      "official_url": null,
+      "cofairs_url": "https://cofairs.com/arkansas/crittenden-county-fair",
+      "source_type": "county_fair_page"
+    },
+    {
+      "id": "cross-county-fair",
+      "county": "Cross",
+      "official_url": null,
+      "cofairs_url": "https://cofairs.com/arkansas/cross-county-fair",
+      "source_type": "county_fair_page"
+    },
+    {
+      "id": "dallas-county-fair",
+      "county": "Dallas",
+      "official_url": null,
+      "cofairs_url": "https://cofairs.com/arkansas/dallas-county-fair",
+      "source_type": "county_fair_page"
+    },
+    {
+      "id": "desha-county-fair",
+      "county": "Desha",
+      "official_url": null,
+      "cofairs_url": "https://cofairs.com/arkansas/desha-county-fair",
+      "source_type": "county_fair_page"
+    },
+    {
+      "id": "drew-county-fair",
+      "county": "Drew",
+      "official_url": null,
+      "cofairs_url": "https://cofairs.com/arkansas/drew-county-fair",
+      "source_type": "county_fair_page"
+    },
+    {
+      "id": "faulkner-county-fair",
+      "county": "Faulkner",
+      "official_url": null,
+      "cofairs_url": "https://cofairs.com/arkansas/faulkner-county-fair",
+      "source_type": "county_fair_page"
+    },
+    {
+      "id": "franklin-county-fair",
+      "county": "Franklin",
+      "official_url": null,
+      "cofairs_url": "https://cofairs.com/arkansas/franklin-county-fair",
+      "source_type": "county_fair_page"
+    },
+    {
+      "id": "fulton-county-fair",
+      "county": "Fulton",
+      "official_url": "https://www.fultoncountyfair.net/",
+      "cofairs_url": "https://cofairs.com/arkansas/fulton-county-fair",
+      "source_type": "county_fair_page"
+    },
+    {
+      "id": "garland-county-fair",
+      "county": "Garland",
+      "official_url": "https://www.garlandcountyfair.com/",
+      "cofairs_url": "https://cofairs.com/arkansas/garland-county-fair",
+      "source_type": "county_fair_page"
+    },
+    {
+      "id": "grant-county-fair",
+      "county": "Grant",
+      "official_url": null,
+      "cofairs_url": "https://cofairs.com/arkansas/grant-county-fair",
+      "source_type": "county_fair_page"
+    },
+    {
+      "id": "greene-county-fair",
+      "county": "Greene",
+      "official_url": null,
+      "cofairs_url": "https://cofairs.com/arkansas/greene-county-fair",
+      "source_type": "county_fair_page"
+    },
+    {
+      "id": "hempstead-county-fair",
+      "county": "Hempstead",
+      "official_url": null,
+      "cofairs_url": "https://cofairs.com/arkansas/hempstead-county-fair",
+      "source_type": "county_fair_page"
+    },
+    {
+      "id": "hot-spring-county-fair",
+      "county": "Hot Spring",
+      "official_url": null,
+      "cofairs_url": "https://cofairs.com/arkansas/hot-spring-county-fair",
+      "source_type": "county_fair_page"
+    },
+    {
+      "id": "howard-county-fair",
+      "county": "Howard",
+      "official_url": null,
+      "cofairs_url": "https://cofairs.com/arkansas/howard-county-fair",
+      "source_type": "county_fair_page"
+    },
+    {
+      "id": "independence-county-fair",
+      "county": "Independence",
+      "official_url": null,
+      "cofairs_url": "https://cofairs.com/arkansas/independence-county-fair",
+      "source_type": "county_fair_page"
+    },
+    {
+      "id": "izard-county-fair",
+      "county": "Izard",
+      "official_url": null,
+      "cofairs_url": "https://cofairs.com/arkansas/izard-county-fair",
+      "source_type": "county_fair_page"
+    },
+    {
+      "id": "jackson-county-fair",
+      "county": "Jackson",
+      "official_url": null,
+      "cofairs_url": "https://cofairs.com/arkansas/jackson-county-fair",
+      "source_type": "county_fair_page"
+    },
+    {
+      "id": "jefferson-county-fair",
+      "county": "Jefferson",
+      "official_url": null,
+      "cofairs_url": "https://cofairs.com/arkansas/jefferson-county-fair",
+      "source_type": "county_fair_page"
+    },
+    {
+      "id": "johnson-county-fair",
+      "county": "Johnson",
+      "official_url": null,
+      "cofairs_url": "https://cofairs.com/arkansas/johnson-county-fair",
+      "source_type": "county_fair_page"
+    },
+    {
+      "id": "lafayette-county-fair",
+      "county": "Lafayette",
+      "official_url": null,
+      "cofairs_url": "https://cofairs.com/arkansas/lafayette-county-fair",
+      "source_type": "county_fair_page"
+    },
+    {
+      "id": "lawrence-county-fair",
+      "county": "Lawrence",
+      "official_url": null,
+      "cofairs_url": "https://cofairs.com/arkansas/lawrence-county-fair",
+      "source_type": "county_fair_page"
+    },
+    {
+      "id": "lee-county-fair",
+      "county": "Lee",
+      "official_url": null,
+      "cofairs_url": "https://cofairs.com/arkansas/lee-county-fair",
+      "source_type": "county_fair_page"
+    },
+    {
+      "id": "lincoln-county-fair",
+      "county": "Lincoln",
+      "official_url": null,
+      "cofairs_url": "https://cofairs.com/arkansas/lincoln-county-fair",
+      "source_type": "county_fair_page"
+    },
+    {
+      "id": "little-river-county-fair",
+      "county": "Little River",
+      "official_url": null,
+      "cofairs_url": "https://cofairs.com/arkansas/little-river-county-fair",
+      "source_type": "county_fair_page"
+    },
+    {
+      "id": "logan-county-fair",
+      "county": "Logan",
+      "official_url": null,
+      "cofairs_url": "https://cofairs.com/arkansas/logan-county-fair",
+      "source_type": "county_fair_page"
+    },
+    {
+      "id": "lonoke-county-fair",
+      "county": "Lonoke",
+      "official_url": null,
+      "cofairs_url": "https://cofairs.com/arkansas/lonoke-county-fair",
+      "source_type": "county_fair_page"
+    },
+    {
+      "id": "madison-county-fair",
+      "county": "Madison",
+      "official_url": null,
+      "cofairs_url": "https://cofairs.com/arkansas/madison-county-fair",
+      "source_type": "county_fair_page"
+    },
+    {
+      "id": "marion-county-fair",
+      "county": "Marion",
+      "official_url": null,
+      "cofairs_url": "https://cofairs.com/arkansas/marion-county-fair",
+      "source_type": "county_fair_page"
+    },
+    {
+      "id": "miller-county-fair",
+      "county": "Miller",
+      "official_url": null,
+      "cofairs_url": "https://cofairs.com/arkansas/miller-county-fair",
+      "source_type": "county_fair_page"
+    },
+    {
+      "id": "mississippi-county-fair",
+      "county": "Mississippi",
+      "official_url": null,
+      "cofairs_url": "https://cofairs.com/arkansas/mississippi-county-fair",
+      "source_type": "county_fair_page"
+    },
+    {
+      "id": "monroe-county-fair",
+      "county": "Monroe",
+      "official_url": null,
+      "cofairs_url": "https://cofairs.com/arkansas/monroe-county-fair",
+      "source_type": "county_fair_page"
+    },
+    {
+      "id": "montgomery-county-fair",
+      "county": "Montgomery",
+      "official_url": null,
+      "cofairs_url": "https://cofairs.com/arkansas/montgomery-county-fair",
+      "source_type": "county_fair_page"
+    },
+    {
+      "id": "nevada-county-fair",
+      "county": "Nevada",
+      "official_url": null,
+      "cofairs_url": "https://cofairs.com/arkansas/nevada-county-fair",
+      "source_type": "county_fair_page"
+    },
+    {
+      "id": "newton-county-fair",
+      "county": "Newton",
+      "official_url": null,
+      "cofairs_url": "https://cofairs.com/arkansas/newton-county-fair",
+      "source_type": "county_fair_page"
+    },
+    {
+      "id": "ouachita-county-fair",
+      "county": "Ouachita",
+      "official_url": null,
+      "cofairs_url": "https://cofairs.com/arkansas/ouachita-county-fair",
+      "source_type": "county_fair_page"
+    },
+    {
+      "id": "perry-county-fair",
+      "county": "Perry",
+      "official_url": null,
+      "cofairs_url": "https://cofairs.com/arkansas/perry-county-fair",
+      "source_type": "county_fair_page"
+    },
+    {
+      "id": "phillips-county-fair",
+      "county": "Phillips",
+      "official_url": null,
+      "cofairs_url": "https://cofairs.com/arkansas/phillips-county-fair",
+      "source_type": "county_fair_page"
+    },
+    {
+      "id": "pike-county-fair",
+      "county": "Pike",
+      "official_url": null,
+      "cofairs_url": "https://cofairs.com/arkansas/pike-county-fair",
+      "source_type": "county_fair_page"
+    },
+    {
+      "id": "poinsett-county-fair",
+      "county": "Poinsett",
+      "official_url": null,
+      "cofairs_url": "https://cofairs.com/arkansas/poinsett-county-fair",
+      "source_type": "county_fair_page"
+    },
+    {
+      "id": "polk-county-fair",
+      "county": "Polk",
+      "official_url": null,
+      "cofairs_url": "https://cofairs.com/arkansas/polk-county-fair",
+      "source_type": "county_fair_page"
+    },
+    {
+      "id": "pope-county-fair",
+      "county": "Pope",
+      "official_url": "https://www.popecountyfair.com/",
+      "cofairs_url": "https://cofairs.com/arkansas/pope-county-fair",
+      "source_type": "county_fair_page"
+    },
+    {
+      "id": "prairie-county-fair",
+      "county": "Prairie",
+      "official_url": "https://www.prairiecountyfair.com/",
+      "cofairs_url": "https://cofairs.com/arkansas/prairie-county-fair",
+      "source_type": "county_fair_page"
+    },
+    {
+      "id": "pulaski-county-fair",
+      "county": "Pulaski",
+      "official_url": "https://www.pulaskicountyfair.com/",
+      "cofairs_url": "https://cofairs.com/arkansas/pulaski-county-fair",
+      "source_type": "county_fair_page"
+    },
+    {
+      "id": "randolph-county-fair",
+      "county": "Randolph",
+      "official_url": null,
+      "cofairs_url": "https://cofairs.com/arkansas/randolph-county-fair",
+      "source_type": "county_fair_page"
+    },
+    {
+      "id": "st-francis-county-fair",
+      "county": "St. Francis",
+      "official_url": null,
+      "cofairs_url": "https://cofairs.com/arkansas/st-francis-county-fair",
+      "source_type": "county_fair_page"
+    },
+    {
+      "id": "saline-county-fair",
+      "county": "Saline",
+      "official_url": "https://www.salinecountyfair.com/",
+      "cofairs_url": "https://cofairs.com/arkansas/saline-county-fair",
+      "source_type": "county_fair_page"
+    },
+    {
+      "id": "scott-county-fair",
+      "county": "Scott",
+      "official_url": null,
+      "cofairs_url": "https://cofairs.com/arkansas/scott-county-fair",
+      "source_type": "county_fair_page"
+    },
+    {
+      "id": "searcy-county-fair",
+      "county": "Searcy",
+      "official_url": null,
+      "cofairs_url": "https://cofairs.com/arkansas/searcy-county-fair",
+      "source_type": "county_fair_page"
+    },
+    {
+      "id": "sebastian-county-fair",
+      "county": "Sebastian",
+      "official_url": "https://www.sebastiancountyfair.com/",
+      "cofairs_url": "https://cofairs.com/arkansas/sebastian-county-fair",
+      "source_type": "county_fair_page"
+    },
+    {
+      "id": "sevier-county-fair",
+      "county": "Sevier",
+      "official_url": null,
+      "cofairs_url": "https://cofairs.com/arkansas/sevier-county-fair",
+      "source_type": "county_fair_page"
+    },
+    {
+      "id": "sharp-county-fair",
+      "county": "Sharp",
+      "official_url": null,
+      "cofairs_url": "https://cofairs.com/arkansas/sharp-county-fair",
+      "source_type": "county_fair_page"
+    },
+    {
+      "id": "stone-county-fair",
+      "county": "Stone",
+      "official_url": null,
+      "cofairs_url": "https://cofairs.com/arkansas/stone-county-fair",
+      "source_type": "county_fair_page"
+    },
+    {
+      "id": "union-county-fair",
+      "county": "Union",
+      "official_url": "https://www.unioncountyfair.net/",
+      "cofairs_url": "https://cofairs.com/arkansas/union-county-fair",
+      "source_type": "county_fair_page"
+    },
+    {
+      "id": "van-buren-county-fair",
+      "county": "Van Buren",
+      "official_url": null,
+      "cofairs_url": "https://cofairs.com/arkansas/van-buren-county-fair",
+      "source_type": "county_fair_page"
+    },
+    {
+      "id": "washington-county-fair",
+      "county": "Washington",
+      "official_url": "https://www.washingtoncountyfair.com/",
+      "cofairs_url": "https://cofairs.com/arkansas/washington-county-fair",
+      "source_type": "county_fair_page"
+    },
+    {
+      "id": "white-county-fair",
+      "county": "White",
+      "official_url": null,
+      "cofairs_url": "https://cofairs.com/arkansas/white-county-fair",
+      "source_type": "county_fair_page"
+    },
+    {
+      "id": "woodruff-county-fair",
+      "county": "Woodruff",
+      "official_url": null,
+      "cofairs_url": "https://cofairs.com/arkansas/woodruff-county-fair",
+      "source_type": "county_fair_page"
+    },
+    {
+      "id": "yell-county-fair",
+      "county": "Yell",
+      "official_url": null,
+      "cofairs_url": "https://cofairs.com/arkansas/yell-county-fair",
+      "source_type": "county_fair_page"
+    },
+    {
+      "id": "arkansas-state-fair",
+      "county": "Pulaski",
+      "official_url": "https://www.arkansasstatefair.com/",
+      "cofairs_url": "https://cofairs.com/arkansas/arkansas-state-fair",
+      "source_type": "official_festival_website",
+      "category": "state_fair"
+    },
+    {
+      "id": "nea-district-fair",
+      "county": "Craighead",
+      "official_url": null,
+      "cofairs_url": "https://cofairs.com/arkansas/nea-district-fair",
+      "source_type": "fair_guide_page",
+      "category": "regional_fair"
+    },
+    {
+      "id": "northwest-arkansas-district-fair",
+      "county": "Boone",
+      "official_url": "https://www.districtfair.com/",
+      "cofairs_url": "https://cofairs.com/arkansas/northwest-arkansas-district-fair",
+      "source_type": "official_festival_website",
+      "category": "regional_fair"
+    },
+    {
+      "id": "three-county-fair",
+      "county": "Woodruff",
+      "official_url": null,
+      "cofairs_url": "https://cofairs.com/arkansas/three-county-fair",
+      "source_type": "fair_guide_page",
+      "category": "regional_fair"
+    },
+    {
+      "id": "north-franklin-county-fair",
+      "county": "Franklin",
+      "official_url": null,
+      "cofairs_url": "https://cofairs.com/arkansas/north-franklin-county-fair",
+      "source_type": "fair_guide_page",
+      "category": "regional_fair"
+    },
+    {
+      "id": "arkansas-oklahoma-state-fair",
+      "county": "Sebastian",
+      "official_url": null,
+      "cofairs_url": "https://cofairs.com/arkansas/arkansas-oklahoma-state-fair",
+      "source_type": "fair_guide_page",
+      "category": "regional_fair"
+    },
+    {
+      "id": "south-logan-county-fair",
+      "county": "Logan",
+      "official_url": null,
+      "cofairs_url": "https://cofairs.com/arkansas/south-logan-county-fair",
+      "source_type": "fair_guide_page",
+      "category": "regional_fair"
+    },
+    {
+      "id": "cofairs-arkansas-index",
+      "url": "https://cofairs.com/arkansas/",
+      "source_type": "fair_guide_page"
+    }
+  ]
+}

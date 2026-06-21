@@ -1,0 +1,1203 @@
+{
+  "generatedAt": "2026-06-21T16:25:23.950Z",
+  "pass": "29",
+  "tasks": [
+    {
+      "id": "research-arkansas-county-fair",
+      "fair_id": "arkansas-county-fair",
+      "fair_name": "Arkansas County Fair",
+      "county": "Arkansas",
+      "city": "DeWitt",
+      "task_type": "confirm_fair_dates",
+      "priority": "high",
+      "status": "open",
+      "verification_status": "needs_date_confirmation",
+      "suggested_urls": [
+        "https://cofairs.com/arkansas/arkansas-county-fair"
+      ],
+      "notes": "No verified 2026 dates found from public official or guide sources for Arkansas County.",
+      "created_at": "2026-06-21T16:25:23.945Z"
+    },
+    {
+      "id": "research-ashley-county-fair",
+      "fair_id": "ashley-county-fair",
+      "fair_name": "Ashley County Fair",
+      "county": "Ashley",
+      "city": "Hamburg",
+      "task_type": "confirm_fair_dates",
+      "priority": "high",
+      "status": "open",
+      "verification_status": "needs_date_confirmation",
+      "suggested_urls": [
+        "https://cofairs.com/arkansas/ashley-county-fair"
+      ],
+      "notes": "No verified 2026 dates found from public official or guide sources for Ashley County.",
+      "created_at": "2026-06-21T16:25:23.945Z"
+    },
+    {
+      "id": "research-benton-county-fair",
+      "fair_id": "benton-county-fair",
+      "fair_name": "Benton County Fair",
+      "county": "Benton",
+      "city": "Bentonville",
+      "task_type": "confirm_fair_dates",
+      "priority": "medium",
+      "status": "open",
+      "verification_status": "needs_date_confirmation",
+      "suggested_urls": [
+        "https://www.bentoncountyfair.net/",
+        "https://cofairs.com/arkansas/benton-county-fair"
+      ],
+      "notes": "No verified 2026 dates found from public official or guide sources for Benton County.",
+      "created_at": "2026-06-21T16:25:23.945Z"
+    },
+    {
+      "id": "research-boone-county-fair",
+      "fair_id": "boone-county-fair",
+      "fair_name": "Boone County Fair",
+      "county": "Boone",
+      "city": "Harrison",
+      "task_type": "confirm_fair_dates",
+      "priority": "medium",
+      "status": "open",
+      "verification_status": "needs_date_confirmation",
+      "suggested_urls": [
+        "https://www.districtfair.com/",
+        "https://cofairs.com/arkansas/boone-county-fair"
+      ],
+      "notes": "No verified 2026 dates found from public official or guide sources for Boone County.",
+      "created_at": "2026-06-21T16:25:23.945Z"
+    },
+    {
+      "id": "research-bradley-county-fair",
+      "fair_id": "bradley-county-fair",
+      "fair_name": "Bradley County Fair",
+      "county": "Bradley",
+      "city": "Warren",
+      "task_type": "confirm_fair_dates",
+      "priority": "high",
+      "status": "open",
+      "verification_status": "needs_date_confirmation",
+      "suggested_urls": [
+        "https://cofairs.com/arkansas/bradley-county-fair"
+      ],
+      "notes": "No verified 2026 dates found from public official or guide sources for Bradley County.",
+      "created_at": "2026-06-21T16:25:23.945Z"
+    },
+    {
+      "id": "research-calhoun-county-fair",
+      "fair_id": "calhoun-county-fair",
+      "fair_name": "Calhoun County Fair",
+      "county": "Calhoun",
+      "city": "Hampton",
+      "task_type": "confirm_fair_dates",
+      "priority": "high",
+      "status": "open",
+      "verification_status": "needs_date_confirmation",
+      "suggested_urls": [
+        "https://cofairs.com/arkansas/calhoun-county-fair"
+      ],
+      "notes": "No verified 2026 dates found from public official or guide sources for Calhoun County.",
+      "created_at": "2026-06-21T16:25:23.945Z"
+    },
+    {
+      "id": "research-carroll-county-fair",
+      "fair_id": "carroll-county-fair",
+      "fair_name": "Carroll County Fair",
+      "county": "Carroll",
+      "city": "Berryville",
+      "task_type": "confirm_fair_dates",
+      "priority": "high",
+      "status": "open",
+      "verification_status": "needs_date_confirmation",
+      "suggested_urls": [
+        "https://cofairs.com/arkansas/carroll-county-fair"
+      ],
+      "notes": "No verified 2026 dates found from public official or guide sources for Carroll County.",
+      "created_at": "2026-06-21T16:25:23.945Z"
+    },
+    {
+      "id": "research-chicot-county-fair",
+      "fair_id": "chicot-county-fair",
+      "fair_name": "Chicot County Fair",
+      "county": "Chicot",
+      "city": "Eudora",
+      "task_type": "confirm_fair_dates",
+      "priority": "high",
+      "status": "open",
+      "verification_status": "needs_date_confirmation",
+      "suggested_urls": [
+        "https://cofairs.com/arkansas/chicot-county-fair"
+      ],
+      "notes": "No verified 2026 dates found from public official or guide sources for Chicot County.",
+      "created_at": "2026-06-21T16:25:23.945Z"
+    },
+    {
+      "id": "research-clark-county-fair",
+      "fair_id": "clark-county-fair",
+      "fair_name": "Clark County Fair",
+      "county": "Clark",
+      "city": "Arkadelphia",
+      "task_type": "confirm_fair_dates",
+      "priority": "high",
+      "status": "open",
+      "verification_status": "needs_date_confirmation",
+      "suggested_urls": [
+        "https://cofairs.com/arkansas/clark-county-fair"
+      ],
+      "notes": "No verified 2026 dates found from public official or guide sources for Clark County.",
+      "created_at": "2026-06-21T16:25:23.945Z"
+    },
+    {
+      "id": "research-clay-county-fair",
+      "fair_id": "clay-county-fair",
+      "fair_name": "Clay County Fair",
+      "county": "Clay",
+      "city": "Piggott",
+      "task_type": "confirm_fair_dates",
+      "priority": "high",
+      "status": "open",
+      "verification_status": "needs_date_confirmation",
+      "suggested_urls": [
+        "https://cofairs.com/arkansas/clay-county-fair"
+      ],
+      "notes": "No verified 2026 dates found from public official or guide sources for Clay County.",
+      "created_at": "2026-06-21T16:25:23.945Z"
+    },
+    {
+      "id": "research-cleburne-county-fair",
+      "fair_id": "cleburne-county-fair",
+      "fair_name": "Cleburne County Fair",
+      "county": "Cleburne",
+      "city": "Heber Springs",
+      "task_type": "confirm_fair_dates",
+      "priority": "medium",
+      "status": "open",
+      "verification_status": "needs_date_confirmation",
+      "suggested_urls": [
+        "https://www.cleburnecountyfair.com/",
+        "https://cofairs.com/arkansas/cleburne-county-fair"
+      ],
+      "notes": "No verified 2026 dates found from public official or guide sources for Cleburne County.",
+      "created_at": "2026-06-21T16:25:23.945Z"
+    },
+    {
+      "id": "research-cleveland-county-fair",
+      "fair_id": "cleveland-county-fair",
+      "fair_name": "Cleveland County Fair",
+      "county": "Cleveland",
+      "city": "Rison",
+      "task_type": "confirm_fair_dates",
+      "priority": "high",
+      "status": "open",
+      "verification_status": "needs_date_confirmation",
+      "suggested_urls": [
+        "https://cofairs.com/arkansas/cleveland-county-fair"
+      ],
+      "notes": "No verified 2026 dates found from public official or guide sources for Cleveland County.",
+      "created_at": "2026-06-21T16:25:23.945Z"
+    },
+    {
+      "id": "research-columbia-county-fair",
+      "fair_id": "columbia-county-fair",
+      "fair_name": "Columbia County Fair",
+      "county": "Columbia",
+      "city": "Magnolia",
+      "task_type": "confirm_fair_dates",
+      "priority": "high",
+      "status": "open",
+      "verification_status": "needs_date_confirmation",
+      "suggested_urls": [
+        "https://cofairs.com/arkansas/columbia-county-fair"
+      ],
+      "notes": "No verified 2026 dates found from public official or guide sources for Columbia County.",
+      "created_at": "2026-06-21T16:25:23.945Z"
+    },
+    {
+      "id": "research-conway-county-fair",
+      "fair_id": "conway-county-fair",
+      "fair_name": "Conway County Fair",
+      "county": "Conway",
+      "city": "Morrilton",
+      "task_type": "confirm_fair_dates",
+      "priority": "high",
+      "status": "open",
+      "verification_status": "needs_date_confirmation",
+      "suggested_urls": [
+        "https://cofairs.com/arkansas/conway-county-fair"
+      ],
+      "notes": "No verified 2026 dates found from public official or guide sources for Conway County.",
+      "created_at": "2026-06-21T16:25:23.945Z"
+    },
+    {
+      "id": "research-craighead-county-fair",
+      "fair_id": "craighead-county-fair",
+      "fair_name": "Craighead County Fair",
+      "county": "Craighead",
+      "city": "Jonesboro",
+      "task_type": "confirm_fair_dates",
+      "priority": "high",
+      "status": "open",
+      "verification_status": "needs_date_confirmation",
+      "suggested_urls": [
+        "https://cofairs.com/arkansas/craighead-county-fair"
+      ],
+      "notes": "No verified 2026 dates found from public official or guide sources for Craighead County.",
+      "created_at": "2026-06-21T16:25:23.945Z"
+    },
+    {
+      "id": "research-crawford-county-fair",
+      "fair_id": "crawford-county-fair",
+      "fair_name": "Crawford County Fair",
+      "county": "Crawford",
+      "city": "Mulberry",
+      "task_type": "confirm_fair_dates",
+      "priority": "high",
+      "status": "open",
+      "verification_status": "needs_date_confirmation",
+      "suggested_urls": [
+        "https://cofairs.com/arkansas/crawford-county-fair"
+      ],
+      "notes": "No verified 2026 dates found from public official or guide sources for Crawford County.",
+      "created_at": "2026-06-21T16:25:23.945Z"
+    },
+    {
+      "id": "research-crittenden-county-fair",
+      "fair_id": "crittenden-county-fair",
+      "fair_name": "Crittenden County Fair",
+      "county": "Crittenden",
+      "city": "West Memphis",
+      "task_type": "confirm_fair_dates",
+      "priority": "high",
+      "status": "open",
+      "verification_status": "needs_date_confirmation",
+      "suggested_urls": [
+        "https://cofairs.com/arkansas/crittenden-county-fair"
+      ],
+      "notes": "No verified 2026 dates found from public official or guide sources for Crittenden County.",
+      "created_at": "2026-06-21T16:25:23.945Z"
+    },
+    {
+      "id": "research-cross-county-fair",
+      "fair_id": "cross-county-fair",
+      "fair_name": "Cross County Fair",
+      "county": "Cross",
+      "city": "Wynne",
+      "task_type": "confirm_fair_dates",
+      "priority": "high",
+      "status": "open",
+      "verification_status": "needs_date_confirmation",
+      "suggested_urls": [
+        "https://cofairs.com/arkansas/cross-county-fair"
+      ],
+      "notes": "No verified 2026 dates found from public official or guide sources for Cross County.",
+      "created_at": "2026-06-21T16:25:23.945Z"
+    },
+    {
+      "id": "research-dallas-county-fair",
+      "fair_id": "dallas-county-fair",
+      "fair_name": "Dallas County Fair",
+      "county": "Dallas",
+      "city": "Fordyce",
+      "task_type": "confirm_fair_dates",
+      "priority": "high",
+      "status": "open",
+      "verification_status": "needs_date_confirmation",
+      "suggested_urls": [
+        "https://cofairs.com/arkansas/dallas-county-fair"
+      ],
+      "notes": "No verified 2026 dates found from public official or guide sources for Dallas County.",
+      "created_at": "2026-06-21T16:25:23.945Z"
+    },
+    {
+      "id": "research-desha-county-fair",
+      "fair_id": "desha-county-fair",
+      "fair_name": "Desha County Fair",
+      "county": "Desha",
+      "city": "McGehee",
+      "task_type": "confirm_fair_dates",
+      "priority": "high",
+      "status": "open",
+      "verification_status": "needs_date_confirmation",
+      "suggested_urls": [
+        "https://cofairs.com/arkansas/desha-county-fair"
+      ],
+      "notes": "No verified 2026 dates found from public official or guide sources for Desha County.",
+      "created_at": "2026-06-21T16:25:23.945Z"
+    },
+    {
+      "id": "research-drew-county-fair",
+      "fair_id": "drew-county-fair",
+      "fair_name": "Drew County Fair",
+      "county": "Drew",
+      "city": "Monticello",
+      "task_type": "confirm_fair_dates",
+      "priority": "high",
+      "status": "open",
+      "verification_status": "needs_date_confirmation",
+      "suggested_urls": [
+        "https://cofairs.com/arkansas/drew-county-fair"
+      ],
+      "notes": "No verified 2026 dates found from public official or guide sources for Drew County.",
+      "created_at": "2026-06-21T16:25:23.945Z"
+    },
+    {
+      "id": "research-faulkner-county-fair",
+      "fair_id": "faulkner-county-fair",
+      "fair_name": "Faulkner County Fair",
+      "county": "Faulkner",
+      "city": "Conway",
+      "task_type": "confirm_fair_dates",
+      "priority": "high",
+      "status": "open",
+      "verification_status": "needs_date_confirmation",
+      "suggested_urls": [
+        "https://cofairs.com/arkansas/faulkner-county-fair"
+      ],
+      "notes": "No verified 2026 dates found from public official or guide sources for Faulkner County.",
+      "created_at": "2026-06-21T16:25:23.945Z"
+    },
+    {
+      "id": "research-franklin-county-fair",
+      "fair_id": "franklin-county-fair",
+      "fair_name": "Franklin County Fair",
+      "county": "Franklin",
+      "city": "Ozark",
+      "task_type": "confirm_fair_dates",
+      "priority": "high",
+      "status": "open",
+      "verification_status": "needs_date_confirmation",
+      "suggested_urls": [
+        "https://cofairs.com/arkansas/franklin-county-fair"
+      ],
+      "notes": "No verified 2026 dates found from public official or guide sources for Franklin County.",
+      "created_at": "2026-06-21T16:25:23.945Z"
+    },
+    {
+      "id": "research-grant-county-fair",
+      "fair_id": "grant-county-fair",
+      "fair_name": "Grant County Fair",
+      "county": "Grant",
+      "city": "Sheridan",
+      "task_type": "confirm_fair_dates",
+      "priority": "high",
+      "status": "open",
+      "verification_status": "needs_date_confirmation",
+      "suggested_urls": [
+        "https://cofairs.com/arkansas/grant-county-fair"
+      ],
+      "notes": "No verified 2026 dates found from public official or guide sources for Grant County.",
+      "created_at": "2026-06-21T16:25:23.945Z"
+    },
+    {
+      "id": "research-greene-county-fair",
+      "fair_id": "greene-county-fair",
+      "fair_name": "Greene County Fair",
+      "county": "Greene",
+      "city": "Paragould",
+      "task_type": "confirm_fair_dates",
+      "priority": "high",
+      "status": "open",
+      "verification_status": "needs_date_confirmation",
+      "suggested_urls": [
+        "https://cofairs.com/arkansas/greene-county-fair"
+      ],
+      "notes": "No verified 2026 dates found from public official or guide sources for Greene County.",
+      "created_at": "2026-06-21T16:25:23.945Z"
+    },
+    {
+      "id": "research-hempstead-county-fair",
+      "fair_id": "hempstead-county-fair",
+      "fair_name": "Hempstead County Fair",
+      "county": "Hempstead",
+      "city": "Hope",
+      "task_type": "confirm_fair_dates",
+      "priority": "high",
+      "status": "open",
+      "verification_status": "needs_date_confirmation",
+      "suggested_urls": [
+        "https://cofairs.com/arkansas/hempstead-county-fair"
+      ],
+      "notes": "No verified 2026 dates found from public official or guide sources for Hempstead County.",
+      "created_at": "2026-06-21T16:25:23.945Z"
+    },
+    {
+      "id": "research-hot-spring-county-fair",
+      "fair_id": "hot-spring-county-fair",
+      "fair_name": "Hot Spring County Fair",
+      "county": "Hot Spring",
+      "city": "Malvern",
+      "task_type": "confirm_fair_dates",
+      "priority": "high",
+      "status": "open",
+      "verification_status": "needs_date_confirmation",
+      "suggested_urls": [
+        "https://cofairs.com/arkansas/hot-spring-county-fair"
+      ],
+      "notes": "No verified 2026 dates found from public official or guide sources for Hot Spring County.",
+      "created_at": "2026-06-21T16:25:23.945Z"
+    },
+    {
+      "id": "research-izard-county-fair",
+      "fair_id": "izard-county-fair",
+      "fair_name": "Izard County Fair",
+      "county": "Izard",
+      "city": "Melbourne",
+      "task_type": "confirm_fair_dates",
+      "priority": "high",
+      "status": "open",
+      "verification_status": "needs_date_confirmation",
+      "suggested_urls": [
+        "https://cofairs.com/arkansas/izard-county-fair"
+      ],
+      "notes": "No verified 2026 dates found from public official or guide sources for Izard County.",
+      "created_at": "2026-06-21T16:25:23.945Z"
+    },
+    {
+      "id": "research-jackson-county-fair",
+      "fair_id": "jackson-county-fair",
+      "fair_name": "Jackson County Fair",
+      "county": "Jackson",
+      "city": "Newport",
+      "task_type": "confirm_fair_dates",
+      "priority": "high",
+      "status": "open",
+      "verification_status": "needs_date_confirmation",
+      "suggested_urls": [
+        "https://cofairs.com/arkansas/jackson-county-fair"
+      ],
+      "notes": "No verified 2026 dates found from public official or guide sources for Jackson County.",
+      "created_at": "2026-06-21T16:25:23.945Z"
+    },
+    {
+      "id": "research-jefferson-county-fair",
+      "fair_id": "jefferson-county-fair",
+      "fair_name": "Jefferson County Fair",
+      "county": "Jefferson",
+      "city": "Pine Bluff",
+      "task_type": "confirm_fair_dates",
+      "priority": "high",
+      "status": "open",
+      "verification_status": "needs_date_confirmation",
+      "suggested_urls": [
+        "https://cofairs.com/arkansas/jefferson-county-fair"
+      ],
+      "notes": "No verified 2026 dates found from public official or guide sources for Jefferson County.",
+      "created_at": "2026-06-21T16:25:23.945Z"
+    },
+    {
+      "id": "research-johnson-county-fair",
+      "fair_id": "johnson-county-fair",
+      "fair_name": "Johnson County Fair",
+      "county": "Johnson",
+      "city": "Clarksville",
+      "task_type": "confirm_fair_dates",
+      "priority": "high",
+      "status": "open",
+      "verification_status": "needs_date_confirmation",
+      "suggested_urls": [
+        "https://cofairs.com/arkansas/johnson-county-fair"
+      ],
+      "notes": "No verified 2026 dates found from public official or guide sources for Johnson County.",
+      "created_at": "2026-06-21T16:25:23.945Z"
+    },
+    {
+      "id": "research-lafayette-county-fair",
+      "fair_id": "lafayette-county-fair",
+      "fair_name": "Lafayette County Fair",
+      "county": "Lafayette",
+      "city": "Lewisville",
+      "task_type": "confirm_fair_dates",
+      "priority": "high",
+      "status": "open",
+      "verification_status": "needs_date_confirmation",
+      "suggested_urls": [
+        "https://cofairs.com/arkansas/lafayette-county-fair"
+      ],
+      "notes": "No verified 2026 dates found from public official or guide sources for Lafayette County.",
+      "created_at": "2026-06-21T16:25:23.945Z"
+    },
+    {
+      "id": "research-lawrence-county-fair",
+      "fair_id": "lawrence-county-fair",
+      "fair_name": "Lawrence County Fair",
+      "county": "Lawrence",
+      "city": "Imboden",
+      "task_type": "confirm_fair_dates",
+      "priority": "high",
+      "status": "open",
+      "verification_status": "needs_date_confirmation",
+      "suggested_urls": [
+        "https://cofairs.com/arkansas/lawrence-county-fair"
+      ],
+      "notes": "No verified 2026 dates found from public official or guide sources for Lawrence County.",
+      "created_at": "2026-06-21T16:25:23.945Z"
+    },
+    {
+      "id": "research-lee-county-fair",
+      "fair_id": "lee-county-fair",
+      "fair_name": "Lee County Fair",
+      "county": "Lee",
+      "city": "Marianna",
+      "task_type": "confirm_fair_dates",
+      "priority": "high",
+      "status": "open",
+      "verification_status": "needs_date_confirmation",
+      "suggested_urls": [
+        "https://cofairs.com/arkansas/lee-county-fair"
+      ],
+      "notes": "No verified 2026 dates found from public official or guide sources for Lee County.",
+      "created_at": "2026-06-21T16:25:23.945Z"
+    },
+    {
+      "id": "research-lincoln-county-fair",
+      "fair_id": "lincoln-county-fair",
+      "fair_name": "Lincoln County Fair",
+      "county": "Lincoln",
+      "city": "Star City",
+      "task_type": "confirm_fair_dates",
+      "priority": "high",
+      "status": "open",
+      "verification_status": "needs_date_confirmation",
+      "suggested_urls": [
+        "https://cofairs.com/arkansas/lincoln-county-fair"
+      ],
+      "notes": "No verified 2026 dates found from public official or guide sources for Lincoln County.",
+      "created_at": "2026-06-21T16:25:23.945Z"
+    },
+    {
+      "id": "research-little-river-county-fair",
+      "fair_id": "little-river-county-fair",
+      "fair_name": "Little River County Fair",
+      "county": "Little River",
+      "city": "Ashdown",
+      "task_type": "confirm_fair_dates",
+      "priority": "high",
+      "status": "open",
+      "verification_status": "needs_date_confirmation",
+      "suggested_urls": [
+        "https://cofairs.com/arkansas/little-river-county-fair"
+      ],
+      "notes": "No verified 2026 dates found from public official or guide sources for Little River County.",
+      "created_at": "2026-06-21T16:25:23.945Z"
+    },
+    {
+      "id": "research-logan-county-fair",
+      "fair_id": "logan-county-fair",
+      "fair_name": "Logan County Fair",
+      "county": "Logan",
+      "city": "Paris",
+      "task_type": "confirm_fair_dates",
+      "priority": "high",
+      "status": "open",
+      "verification_status": "needs_date_confirmation",
+      "suggested_urls": [
+        "https://cofairs.com/arkansas/logan-county-fair"
+      ],
+      "notes": "No verified 2026 dates found from public official or guide sources for Logan County.",
+      "created_at": "2026-06-21T16:25:23.945Z"
+    },
+    {
+      "id": "research-lonoke-county-fair",
+      "fair_id": "lonoke-county-fair",
+      "fair_name": "Lonoke County Fair",
+      "county": "Lonoke",
+      "city": "Lonoke",
+      "task_type": "confirm_fair_dates",
+      "priority": "high",
+      "status": "open",
+      "verification_status": "needs_date_confirmation",
+      "suggested_urls": [
+        "https://cofairs.com/arkansas/lonoke-county-fair"
+      ],
+      "notes": "No verified 2026 dates found from public official or guide sources for Lonoke County.",
+      "created_at": "2026-06-21T16:25:23.945Z"
+    },
+    {
+      "id": "research-madison-county-fair",
+      "fair_id": "madison-county-fair",
+      "fair_name": "Madison County Fair",
+      "county": "Madison",
+      "city": "Huntsville",
+      "task_type": "confirm_fair_dates",
+      "priority": "high",
+      "status": "open",
+      "verification_status": "needs_date_confirmation",
+      "suggested_urls": [
+        "https://cofairs.com/arkansas/madison-county-fair"
+      ],
+      "notes": "No verified 2026 dates found from public official or guide sources for Madison County.",
+      "created_at": "2026-06-21T16:25:23.945Z"
+    },
+    {
+      "id": "research-marion-county-fair",
+      "fair_id": "marion-county-fair",
+      "fair_name": "Marion County Fair",
+      "county": "Marion",
+      "city": "Summit",
+      "task_type": "confirm_fair_dates",
+      "priority": "high",
+      "status": "open",
+      "verification_status": "needs_date_confirmation",
+      "suggested_urls": [
+        "https://cofairs.com/arkansas/marion-county-fair"
+      ],
+      "notes": "No verified 2026 dates found from public official or guide sources for Marion County.",
+      "created_at": "2026-06-21T16:25:23.945Z"
+    },
+    {
+      "id": "research-miller-county-fair",
+      "fair_id": "miller-county-fair",
+      "fair_name": "Miller County Fair",
+      "county": "Miller",
+      "city": "Fouke",
+      "task_type": "confirm_fair_dates",
+      "priority": "high",
+      "status": "open",
+      "verification_status": "needs_date_confirmation",
+      "suggested_urls": [
+        "https://cofairs.com/arkansas/miller-county-fair"
+      ],
+      "notes": "No verified 2026 dates found from public official or guide sources for Miller County.",
+      "created_at": "2026-06-21T16:25:23.945Z"
+    },
+    {
+      "id": "research-mississippi-county-fair",
+      "fair_id": "mississippi-county-fair",
+      "fair_name": "Mississippi County Fair",
+      "county": "Mississippi",
+      "city": "Osceola",
+      "task_type": "confirm_fair_dates",
+      "priority": "high",
+      "status": "open",
+      "verification_status": "needs_date_confirmation",
+      "suggested_urls": [
+        "https://cofairs.com/arkansas/mississippi-county-fair"
+      ],
+      "notes": "No verified 2026 dates found from public official or guide sources for Mississippi County.",
+      "created_at": "2026-06-21T16:25:23.945Z"
+    },
+    {
+      "id": "research-monroe-county-fair",
+      "fair_id": "monroe-county-fair",
+      "fair_name": "Monroe County Fair",
+      "county": "Monroe",
+      "city": "Clarendon",
+      "task_type": "confirm_fair_dates",
+      "priority": "high",
+      "status": "open",
+      "verification_status": "needs_date_confirmation",
+      "suggested_urls": [
+        "https://cofairs.com/arkansas/monroe-county-fair"
+      ],
+      "notes": "No verified 2026 dates found from public official or guide sources for Monroe County.",
+      "created_at": "2026-06-21T16:25:23.945Z"
+    },
+    {
+      "id": "research-montgomery-county-fair",
+      "fair_id": "montgomery-county-fair",
+      "fair_name": "Montgomery County Fair",
+      "county": "Montgomery",
+      "city": "Mount Ida",
+      "task_type": "confirm_fair_dates",
+      "priority": "high",
+      "status": "open",
+      "verification_status": "needs_date_confirmation",
+      "suggested_urls": [
+        "https://cofairs.com/arkansas/montgomery-county-fair"
+      ],
+      "notes": "No verified 2026 dates found from public official or guide sources for Montgomery County.",
+      "created_at": "2026-06-21T16:25:23.945Z"
+    },
+    {
+      "id": "research-nevada-county-fair",
+      "fair_id": "nevada-county-fair",
+      "fair_name": "Nevada County Fair",
+      "county": "Nevada",
+      "city": "Prescott",
+      "task_type": "confirm_fair_dates",
+      "priority": "high",
+      "status": "open",
+      "verification_status": "needs_date_confirmation",
+      "suggested_urls": [
+        "https://cofairs.com/arkansas/nevada-county-fair"
+      ],
+      "notes": "No verified 2026 dates found from public official or guide sources for Nevada County.",
+      "created_at": "2026-06-21T16:25:23.945Z"
+    },
+    {
+      "id": "research-newton-county-fair",
+      "fair_id": "newton-county-fair",
+      "fair_name": "Newton County Fair",
+      "county": "Newton",
+      "city": "Jasper",
+      "task_type": "confirm_fair_dates",
+      "priority": "high",
+      "status": "open",
+      "verification_status": "needs_date_confirmation",
+      "suggested_urls": [
+        "https://cofairs.com/arkansas/newton-county-fair"
+      ],
+      "notes": "No verified 2026 dates found from public official or guide sources for Newton County.",
+      "created_at": "2026-06-21T16:25:23.945Z"
+    },
+    {
+      "id": "research-ouachita-county-fair",
+      "fair_id": "ouachita-county-fair",
+      "fair_name": "Ouachita County Fair",
+      "county": "Ouachita",
+      "city": "Camden",
+      "task_type": "confirm_fair_dates",
+      "priority": "high",
+      "status": "open",
+      "verification_status": "needs_date_confirmation",
+      "suggested_urls": [
+        "https://cofairs.com/arkansas/ouachita-county-fair"
+      ],
+      "notes": "No verified 2026 dates found from public official or guide sources for Ouachita County.",
+      "created_at": "2026-06-21T16:25:23.945Z"
+    },
+    {
+      "id": "research-perry-county-fair",
+      "fair_id": "perry-county-fair",
+      "fair_name": "Perry County Fair",
+      "county": "Perry",
+      "city": "Perryville",
+      "task_type": "confirm_fair_dates",
+      "priority": "high",
+      "status": "open",
+      "verification_status": "needs_date_confirmation",
+      "suggested_urls": [
+        "https://cofairs.com/arkansas/perry-county-fair"
+      ],
+      "notes": "No verified 2026 dates found from public official or guide sources for Perry County.",
+      "created_at": "2026-06-21T16:25:23.945Z"
+    },
+    {
+      "id": "research-phillips-county-fair",
+      "fair_id": "phillips-county-fair",
+      "fair_name": "Phillips County Fair",
+      "county": "Phillips",
+      "city": "Helena-West Helena",
+      "task_type": "confirm_fair_dates",
+      "priority": "high",
+      "status": "open",
+      "verification_status": "needs_date_confirmation",
+      "suggested_urls": [
+        "https://cofairs.com/arkansas/phillips-county-fair"
+      ],
+      "notes": "No verified 2026 dates found from public official or guide sources for Phillips County.",
+      "created_at": "2026-06-21T16:25:23.945Z"
+    },
+    {
+      "id": "research-pike-county-fair",
+      "fair_id": "pike-county-fair",
+      "fair_name": "Pike County Fair",
+      "county": "Pike",
+      "city": "Glenwood",
+      "task_type": "confirm_fair_dates",
+      "priority": "high",
+      "status": "open",
+      "verification_status": "needs_date_confirmation",
+      "suggested_urls": [
+        "https://cofairs.com/arkansas/pike-county-fair"
+      ],
+      "notes": "No verified 2026 dates found from public official or guide sources for Pike County.",
+      "created_at": "2026-06-21T16:25:23.945Z"
+    },
+    {
+      "id": "research-poinsett-county-fair",
+      "fair_id": "poinsett-county-fair",
+      "fair_name": "Poinsett County Fair",
+      "county": "Poinsett",
+      "city": "Harrisburg",
+      "task_type": "confirm_fair_dates",
+      "priority": "high",
+      "status": "open",
+      "verification_status": "needs_date_confirmation",
+      "suggested_urls": [
+        "https://cofairs.com/arkansas/poinsett-county-fair"
+      ],
+      "notes": "No verified 2026 dates found from public official or guide sources for Poinsett County.",
+      "created_at": "2026-06-21T16:25:23.945Z"
+    },
+    {
+      "id": "research-polk-county-fair",
+      "fair_id": "polk-county-fair",
+      "fair_name": "Polk County Fair",
+      "county": "Polk",
+      "city": "Mena",
+      "task_type": "confirm_fair_dates",
+      "priority": "high",
+      "status": "open",
+      "verification_status": "needs_date_confirmation",
+      "suggested_urls": [
+        "https://cofairs.com/arkansas/polk-county-fair"
+      ],
+      "notes": "No verified 2026 dates found from public official or guide sources for Polk County.",
+      "created_at": "2026-06-21T16:25:23.945Z"
+    },
+    {
+      "id": "research-pope-county-fair",
+      "fair_id": "pope-county-fair",
+      "fair_name": "Pope County Fair",
+      "county": "Pope",
+      "city": "Russellville",
+      "task_type": "confirm_fair_dates",
+      "priority": "medium",
+      "status": "open",
+      "verification_status": "needs_date_confirmation",
+      "suggested_urls": [
+        "https://www.popecountyfair.com/",
+        "https://cofairs.com/arkansas/pope-county-fair"
+      ],
+      "notes": "No verified 2026 dates found from public official or guide sources for Pope County.",
+      "created_at": "2026-06-21T16:25:23.945Z"
+    },
+    {
+      "id": "research-prairie-county-fair",
+      "fair_id": "prairie-county-fair",
+      "fair_name": "Prairie County Fair",
+      "county": "Prairie",
+      "city": "Hazen",
+      "task_type": "confirm_fair_dates",
+      "priority": "medium",
+      "status": "open",
+      "verification_status": "needs_date_confirmation",
+      "suggested_urls": [
+        "https://www.prairiecountyfair.com/",
+        "https://cofairs.com/arkansas/prairie-county-fair"
+      ],
+      "notes": "No verified 2026 dates found from public official or guide sources for Prairie County.",
+      "created_at": "2026-06-21T16:25:23.945Z"
+    },
+    {
+      "id": "research-pulaski-county-fair",
+      "fair_id": "pulaski-county-fair",
+      "fair_name": "Pulaski County Fair",
+      "county": "Pulaski",
+      "city": "North Little Rock",
+      "task_type": "confirm_fair_dates",
+      "priority": "medium",
+      "status": "open",
+      "verification_status": "needs_date_confirmation",
+      "suggested_urls": [
+        "https://www.pulaskicountyfair.com/",
+        "https://cofairs.com/arkansas/pulaski-county-fair"
+      ],
+      "notes": "No verified 2026 dates found from public official or guide sources for Pulaski County.",
+      "created_at": "2026-06-21T16:25:23.945Z"
+    },
+    {
+      "id": "research-randolph-county-fair",
+      "fair_id": "randolph-county-fair",
+      "fair_name": "Randolph County Fair",
+      "county": "Randolph",
+      "city": "Pocahontas",
+      "task_type": "confirm_fair_dates",
+      "priority": "high",
+      "status": "open",
+      "verification_status": "needs_date_confirmation",
+      "suggested_urls": [
+        "https://cofairs.com/arkansas/randolph-county-fair"
+      ],
+      "notes": "No verified 2026 dates found from public official or guide sources for Randolph County.",
+      "created_at": "2026-06-21T16:25:23.945Z"
+    },
+    {
+      "id": "research-saline-county-fair",
+      "fair_id": "saline-county-fair",
+      "fair_name": "Saline County Fair",
+      "county": "Saline",
+      "city": "Benton",
+      "task_type": "confirm_fair_dates",
+      "priority": "medium",
+      "status": "open",
+      "verification_status": "needs_date_confirmation",
+      "suggested_urls": [
+        "https://www.salinecountyfair.com/",
+        "https://cofairs.com/arkansas/saline-county-fair"
+      ],
+      "notes": "No verified 2026 dates found from public official or guide sources for Saline County.",
+      "created_at": "2026-06-21T16:25:23.945Z"
+    },
+    {
+      "id": "research-scott-county-fair",
+      "fair_id": "scott-county-fair",
+      "fair_name": "Scott County Fair",
+      "county": "Scott",
+      "city": "Waldron",
+      "task_type": "confirm_fair_dates",
+      "priority": "high",
+      "status": "open",
+      "verification_status": "needs_date_confirmation",
+      "suggested_urls": [
+        "https://cofairs.com/arkansas/scott-county-fair"
+      ],
+      "notes": "No verified 2026 dates found from public official or guide sources for Scott County.",
+      "created_at": "2026-06-21T16:25:23.945Z"
+    },
+    {
+      "id": "research-searcy-county-fair",
+      "fair_id": "searcy-county-fair",
+      "fair_name": "Searcy County Fair",
+      "county": "Searcy",
+      "city": "Marshall",
+      "task_type": "confirm_fair_dates",
+      "priority": "high",
+      "status": "open",
+      "verification_status": "needs_date_confirmation",
+      "suggested_urls": [
+        "https://cofairs.com/arkansas/searcy-county-fair"
+      ],
+      "notes": "No verified 2026 dates found from public official or guide sources for Searcy County.",
+      "created_at": "2026-06-21T16:25:23.945Z"
+    },
+    {
+      "id": "research-sebastian-county-fair",
+      "fair_id": "sebastian-county-fair",
+      "fair_name": "Sebastian County Fair",
+      "county": "Sebastian",
+      "city": "Greenwood",
+      "task_type": "confirm_fair_dates",
+      "priority": "medium",
+      "status": "open",
+      "verification_status": "needs_date_confirmation",
+      "suggested_urls": [
+        "https://www.sebastiancountyfair.com/",
+        "https://cofairs.com/arkansas/sebastian-county-fair"
+      ],
+      "notes": "No verified 2026 dates found from public official or guide sources for Sebastian County.",
+      "created_at": "2026-06-21T16:25:23.945Z"
+    },
+    {
+      "id": "research-sevier-county-fair",
+      "fair_id": "sevier-county-fair",
+      "fair_name": "Sevier County Fair",
+      "county": "Sevier",
+      "city": "De Queen",
+      "task_type": "confirm_fair_dates",
+      "priority": "high",
+      "status": "open",
+      "verification_status": "needs_date_confirmation",
+      "suggested_urls": [
+        "https://cofairs.com/arkansas/sevier-county-fair"
+      ],
+      "notes": "No verified 2026 dates found from public official or guide sources for Sevier County.",
+      "created_at": "2026-06-21T16:25:23.945Z"
+    },
+    {
+      "id": "research-stone-county-fair",
+      "fair_id": "stone-county-fair",
+      "fair_name": "Stone County Fair",
+      "county": "Stone",
+      "city": "Mountain View",
+      "task_type": "confirm_fair_dates",
+      "priority": "high",
+      "status": "open",
+      "verification_status": "needs_date_confirmation",
+      "suggested_urls": [
+        "https://cofairs.com/arkansas/stone-county-fair"
+      ],
+      "notes": "No verified 2026 dates found from public official or guide sources for Stone County.",
+      "created_at": "2026-06-21T16:25:23.945Z"
+    },
+    {
+      "id": "research-union-county-fair",
+      "fair_id": "union-county-fair",
+      "fair_name": "Union County Fair",
+      "county": "Union",
+      "city": "El Dorado",
+      "task_type": "confirm_fair_dates",
+      "priority": "medium",
+      "status": "open",
+      "verification_status": "needs_date_confirmation",
+      "suggested_urls": [
+        "https://www.unioncountyfair.net/",
+        "https://cofairs.com/arkansas/union-county-fair"
+      ],
+      "notes": "No verified 2026 dates found from public official or guide sources for Union County.",
+      "created_at": "2026-06-21T16:25:23.945Z"
+    },
+    {
+      "id": "research-van-buren-county-fair",
+      "fair_id": "van-buren-county-fair",
+      "fair_name": "Van Buren County Fair",
+      "county": "Van Buren",
+      "city": "Clinton",
+      "task_type": "confirm_fair_dates",
+      "priority": "high",
+      "status": "open",
+      "verification_status": "needs_date_confirmation",
+      "suggested_urls": [
+        "https://cofairs.com/arkansas/van-buren-county-fair"
+      ],
+      "notes": "No verified 2026 dates found from public official or guide sources for Van Buren County.",
+      "created_at": "2026-06-21T16:25:23.945Z"
+    },
+    {
+      "id": "research-washington-county-fair",
+      "fair_id": "washington-county-fair",
+      "fair_name": "Washington County Fair",
+      "county": "Washington",
+      "city": "Fayetteville",
+      "task_type": "confirm_fair_dates",
+      "priority": "medium",
+      "status": "open",
+      "verification_status": "needs_date_confirmation",
+      "suggested_urls": [
+        "https://www.washingtoncountyfair.com/",
+        "https://cofairs.com/arkansas/washington-county-fair"
+      ],
+      "notes": "No verified 2026 dates found from public official or guide sources for Washington County.",
+      "created_at": "2026-06-21T16:25:23.945Z"
+    },
+    {
+      "id": "research-woodruff-county-fair",
+      "fair_id": "woodruff-county-fair",
+      "fair_name": "Woodruff County Fair",
+      "county": "Woodruff",
+      "city": "McCrory",
+      "task_type": "confirm_fair_dates",
+      "priority": "high",
+      "status": "open",
+      "verification_status": "needs_date_confirmation",
+      "suggested_urls": [
+        "https://cofairs.com/arkansas/woodruff-county-fair"
+      ],
+      "notes": "No verified 2026 dates found from public official or guide sources for Woodruff County.",
+      "created_at": "2026-06-21T16:25:23.945Z"
+    },
+    {
+      "id": "research-yell-county-fair",
+      "fair_id": "yell-county-fair",
+      "fair_name": "Yell County Fair",
+      "county": "Yell",
+      "city": "Danville",
+      "task_type": "confirm_fair_dates",
+      "priority": "high",
+      "status": "open",
+      "verification_status": "needs_date_confirmation",
+      "suggested_urls": [
+        "https://cofairs.com/arkansas/yell-county-fair"
+      ],
+      "notes": "No verified 2026 dates found from public official or guide sources for Yell County.",
+      "created_at": "2026-06-21T16:25:23.945Z"
+    },
+    {
+      "id": "research-arkansas-state-fair",
+      "fair_id": "arkansas-state-fair",
+      "fair_name": "Arkansas State Fair",
+      "county": "Pulaski",
+      "city": "Little Rock",
+      "task_type": "confirm_fair_dates",
+      "priority": "medium",
+      "status": "open",
+      "verification_status": "needs_date_confirmation",
+      "suggested_urls": [
+        "https://www.arkansasstatefair.com/",
+        "https://cofairs.com/arkansas/arkansas-state-fair"
+      ],
+      "notes": "No verified 2026 dates found from public official or guide sources for Pulaski County.",
+      "created_at": "2026-06-21T16:25:23.945Z"
+    },
+    {
+      "id": "research-nea-district-fair",
+      "fair_id": "nea-district-fair",
+      "fair_name": "NEA District Fair",
+      "county": "Craighead",
+      "city": "Jonesboro",
+      "task_type": "confirm_fair_dates",
+      "priority": "high",
+      "status": "open",
+      "verification_status": "needs_date_confirmation",
+      "suggested_urls": [
+        "https://cofairs.com/arkansas/nea-district-fair"
+      ],
+      "notes": "No verified 2026 dates found from public official or guide sources for Craighead County.",
+      "created_at": "2026-06-21T16:25:23.945Z"
+    },
+    {
+      "id": "research-northwest-arkansas-district-fair",
+      "fair_id": "northwest-arkansas-district-fair",
+      "fair_name": "Northwest Arkansas District Fair",
+      "county": "Boone",
+      "city": "Harrison",
+      "task_type": "confirm_fair_dates",
+      "priority": "medium",
+      "status": "open",
+      "verification_status": "needs_date_confirmation",
+      "suggested_urls": [
+        "https://www.districtfair.com/",
+        "https://cofairs.com/arkansas/northwest-arkansas-district-fair"
+      ],
+      "notes": "No verified 2026 dates found from public official or guide sources for Boone County.",
+      "created_at": "2026-06-21T16:25:23.945Z"
+    },
+    {
+      "id": "research-three-county-fair",
+      "fair_id": "three-county-fair",
+      "fair_name": "Three County Fair",
+      "county": "Woodruff",
+      "city": "McCrory",
+      "task_type": "confirm_fair_dates",
+      "priority": "high",
+      "status": "open",
+      "verification_status": "needs_date_confirmation",
+      "suggested_urls": [
+        "https://cofairs.com/arkansas/three-county-fair"
+      ],
+      "notes": "No verified 2026 dates found from public official or guide sources for Woodruff County.",
+      "created_at": "2026-06-21T16:25:23.945Z"
+    },
+    {
+      "id": "research-north-franklin-county-fair",
+      "fair_id": "north-franklin-county-fair",
+      "fair_name": "North Franklin County Fair",
+      "county": "Franklin",
+      "city": "Ozark",
+      "task_type": "confirm_fair_dates",
+      "priority": "high",
+      "status": "open",
+      "verification_status": "needs_date_confirmation",
+      "suggested_urls": [
+        "https://cofairs.com/arkansas/north-franklin-county-fair"
+      ],
+      "notes": "No verified 2026 dates found from public official or guide sources for Franklin County.",
+      "created_at": "2026-06-21T16:25:23.945Z"
+    },
+    {
+      "id": "research-arkansas-oklahoma-state-fair",
+      "fair_id": "arkansas-oklahoma-state-fair",
+      "fair_name": "Arkansas Oklahoma State Fair",
+      "county": "Sebastian",
+      "city": "Fort Smith",
+      "task_type": "confirm_fair_dates",
+      "priority": "high",
+      "status": "open",
+      "verification_status": "needs_date_confirmation",
+      "suggested_urls": [
+        "https://cofairs.com/arkansas/arkansas-oklahoma-state-fair"
+      ],
+      "notes": "No verified 2026 dates found from public official or guide sources for Sebastian County.",
+      "created_at": "2026-06-21T16:25:23.945Z"
+    },
+    {
+      "id": "research-south-logan-county-fair",
+      "fair_id": "south-logan-county-fair",
+      "fair_name": "South Logan County Fair",
+      "county": "Logan",
+      "city": "Booneville",
+      "task_type": "confirm_fair_dates",
+      "priority": "high",
+      "status": "open",
+      "verification_status": "needs_date_confirmation",
+      "suggested_urls": [
+        "https://cofairs.com/arkansas/south-logan-county-fair"
+      ],
+      "notes": "No verified 2026 dates found from public official or guide sources for Logan County.",
+      "created_at": "2026-06-21T16:25:23.945Z"
+    }
+  ],
+  "openCount": 74
+}

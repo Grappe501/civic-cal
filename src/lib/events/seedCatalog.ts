@@ -4,6 +4,7 @@ import demoBundle from "../../../data/seed-events-public-demo.json";
 import approvedPartyBundle from "../../../data/ingestion/political-party-meetings-approved-events.json";
 import approvedSchoolBundle from "../../../data/ingestion/school-events-approved-events.json";
 import approvedFairFestivalBundle from "../../../data/ingestion/fair-festival-approved-events.json";
+import approvedCountyFairBundle from "../../../data/ingestion/county-fair-approved-events.json";
 
 type SeedFile = { events?: CivicEvent[]; label?: string };
 
@@ -27,6 +28,10 @@ export function loadApprovedFairFestivalEvents(): CivicEvent[] {
   return (approvedFairFestivalBundle as SeedFile).events ?? [];
 }
 
+export function loadApprovedCountyFairEvents(): CivicEvent[] {
+  return (approvedCountyFairBundle as SeedFile).events ?? [];
+}
+
 /** Merged bundled seeds — main first, demo fills unique slugs, approved party meetings last. */
 export function getBundledSeedEvents(): CivicEvent[] {
   const bySlug = new Map<string, CivicEvent>();
@@ -41,6 +46,9 @@ export function getBundledSeedEvents(): CivicEvent[] {
     if (!bySlug.has(e.slug)) bySlug.set(e.slug, e);
   }
   for (const e of loadApprovedFairFestivalEvents()) {
+    if (!bySlug.has(e.slug)) bySlug.set(e.slug, e);
+  }
+  for (const e of loadApprovedCountyFairEvents()) {
     if (!bySlug.has(e.slug)) bySlug.set(e.slug, e);
   }
   return [...bySlug.values()];

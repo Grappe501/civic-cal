@@ -5,6 +5,7 @@ import { runEventDataDiagnostics, type EventDataDiagnostics } from "../lib/event
 import { runProfileHealth } from "../lib/profiles/profileHealth";
 import { runPartyMeetingHealth } from "../lib/party-meetings/partyMeetingHealth";
 import { runSchoolHarvestHealth } from "../lib/schools/schoolHarvestHealth";
+import { runCountyFairHealth } from "../lib/fairs/countyFairHealth";
 import { loadFeedAttachmentReport } from "../lib/feeds/feedAttachmentReport";
 import { formatEventRange } from "../lib/format";
 
@@ -17,6 +18,7 @@ export function AdminDataHealthPage() {
   const profileHealth = useMemo(() => runProfileHealth(), []);
   const partyHealth = useMemo(() => runPartyMeetingHealth(), []);
   const schoolHealth = useMemo(() => runSchoolHarvestHealth(), []);
+  const countyFairHealth = useMemo(() => runCountyFairHealth(), []);
   const feedReport = useMemo(() => loadFeedAttachmentReport(), []);
 
   async function refresh() {
@@ -141,6 +143,20 @@ export function AdminDataHealthPage() {
             <Link to="/admin/school-calendars" className="btn-secondary text-xs mt-4 inline-flex">
               School calendar funnel →
             </Link>
+          </section>
+
+          <section className="card-readable">
+            <h2 className="font-semibold text-[var(--text-secondary)]">County fair lane (Pass 29)</h2>
+            <p className="text-caption mt-1">75 county fair profiles — publish calendar events only when dates are source-backed.</p>
+            <div className="mt-3 grid gap-3 sm:grid-cols-2 text-sm">
+              <Stat label="County fair registry" value={String(countyFairHealth.countyRegistryCount)} highlight />
+              <Stat label="Verified 2026 dated" value={String(countyFairHealth.verifiedDatedCount)} highlight />
+              <Stat label="Needs date confirmation" value={String(countyFairHealth.needsConfirmationCount)} />
+              <Stat label="Approved public fairs" value={String(countyFairHealth.approvedPublicCount)} />
+              <Stat label="Research tasks open" value={String(countyFairHealth.researchTaskCount)} />
+              <Stat label="Regional fairs tracked" value={String(countyFairHealth.regionalFairCount)} />
+              <Stat label="Arkansas State Fair" value={countyFairHealth.stateFairStatus} />
+            </div>
           </section>
 
           <section className="card-readable">

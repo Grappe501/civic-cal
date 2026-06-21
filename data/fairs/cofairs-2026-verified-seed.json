@@ -1,0 +1,87 @@
+{
+  "note": "Public cofairs.com fair guide listings verified 2026-06-21. Applied when live cofairs fetch fails; re-validated when harvest can reach cofairs.com.",
+  "verifiedAt": "2026-06-21",
+  "source_type": "fair_guide_page",
+  "entries": [
+    {
+      "county": "Fulton",
+      "fair_name": "Fulton County Fair",
+      "start": "2026-07-10",
+      "end": "2026-07-18",
+      "city": "Salem",
+      "venue": "Fulton County Fairgrounds",
+      "address": "124 Arena Lane, Salem, AR",
+      "source_url": "https://cofairs.com/arkansas/fulton-county-fair"
+    },
+    {
+      "county": "Baxter",
+      "fair_name": "Baxter County Fair",
+      "start": "2026-09-15",
+      "end": "2026-09-19",
+      "city": "Mountain Home",
+      "venue": "Baxter County Fairgrounds",
+      "address": "1507 Fairgrounds Dr, Mountain Home, AR",
+      "source_url": "https://cofairs.com/arkansas/baxter-county-fair"
+    },
+    {
+      "county": "Garland",
+      "fair_name": "Garland County Fair",
+      "start": "2026-09-10",
+      "end": "2026-09-19",
+      "city": "Hot Springs",
+      "venue": "Garland County Fairgrounds",
+      "address": "4831 Malvern Ave, Hot Springs, AR",
+      "source_url": "https://cofairs.com/arkansas/garland-county-fair"
+    },
+    {
+      "county": "Independence",
+      "fair_name": "Independence County Fair",
+      "start": "2026-06-05",
+      "end": "2026-06-13",
+      "city": "Batesville",
+      "venue": "Independence County Fairgrounds",
+      "address": "55 White Dr, Batesville, AR",
+      "source_url": "https://cofairs.com/arkansas/independence-county-fair"
+    },
+    {
+      "county": "White",
+      "fair_name": "White County Fair",
+      "start": "2026-09-14",
+      "end": "2026-09-19",
+      "city": "Searcy",
+      "venue": "White County Fairgrounds",
+      "address": "802 Davis Dr, Searcy, AR",
+      "source_url": "https://cofairs.com/arkansas/white-county-fair"
+    },
+    {
+      "county": "Sharp",
+      "fair_name": "Sharp County Fair",
+      "start": "2026-07-06",
+      "end": "2026-07-11",
+      "city": "Ash Flat",
+      "venue": "Sharp County Fairgrounds",
+      "address": "Fairgrounds Rd, Ash Flat, AR",
+      "source_url": "https://cofairs.com/arkansas/sharp-county-fair"
+    },
+    {
+      "county": "St. Francis",
+      "fair_name": "St. Francis County Fair",
+      "start": "2026-10-17",
+      "end": "2026-10-24",
+      "city": "Forrest City",
+      "venue": "Wyley T Jones Fairgrounds",
+      "address": "Highway 1 B South, Forrest City, AR",
+      "source_url": "https://cofairs.com/arkansas/st-francis-county-fair"
+    },
+    {
+      "county": "Howard",
+      "fair_name": "Howard County Fair",
+      "start": "2026-08-24",
+      "end": "2026-08-29",
+      "city": "Nashville",
+      "venue": "Howard County Fairgrounds",
+      "address": "1565 US-371, Nashville, AR",
+      "source_url": "https://cofairs.com/arkansas/howard-county-fair"
+    }
+  ]
+}
