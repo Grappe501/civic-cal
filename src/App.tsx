@@ -13,6 +13,8 @@ import { HelpBuildCalendarPage } from "./pages/HelpBuildCalendarPage";
 import { CampaignsLandingPage } from "./pages/CampaignsLandingPage";
 import { CampaignDemoPage } from "./pages/CampaignDemoPage";
 import { CampaignWorkspacePage } from "./pages/CampaignWorkspacePage";
+import { CampaignCityIntelPage } from "./pages/CampaignCityIntelPage";
+import { CampaignCountyIntelPage } from "./pages/CampaignCountyIntelPage";
 import { DistrictEnginePage } from "./pages/DistrictEnginePage";
 
 export default function App() {
@@ -35,6 +37,8 @@ export default function App() {
           <Route path="/campaigns" element={<CampaignsLandingPage />} />
           <Route path="/campaigns/demo" element={<CampaignDemoPage />} />
           <Route path="/campaigns/:slug" element={<CampaignWorkspacePage />} />
+          <Route path="/campaigns/:slug/city/:citySlug" element={<CampaignCityIntelPage />} />
+          <Route path="/campaigns/:slug/county/:countySlug" element={<CampaignCountyIntelPage />} />
           <Route path="/admin" element={<AdminPage />} />
         </Routes>
       </Layout>

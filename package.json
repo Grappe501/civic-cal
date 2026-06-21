@@ -22,6 +22,7 @@
     "harvest:november": "node scripts/run-with-h-drive-env.cjs node scripts/event-harvest/harvest-through-november.mjs",
     "discover:sources": "node scripts/run-with-h-drive-env.cjs node scripts/event-harvest/discover-city-sources.mjs",
     "generate:top200-cities": "node scripts/run-with-h-drive-env.cjs node scripts/event-harvest/generate-top-200-cities.mjs",
+    "generate:local-intelligence": "node scripts/run-with-h-drive-env.cjs node scripts/generate-local-intelligence-registry.mjs",
     "import:candidates": "node scripts/run-with-h-drive-env.cjs node scripts/import-ingestion-candidates.cjs",
     "lint": "eslint src --ext ts,tsx"
   },

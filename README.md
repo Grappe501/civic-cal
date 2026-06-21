@@ -370,3 +370,42 @@ Per-slug profiles in `src/lib/campaigns/brandingProfile.ts`:
 - Do **not** import from `RedDirt/src/**`
 - May **read** `RedDirt/data/calendar-command-center/**` for seed sync only
 - Database: `civic_call` schema only
+
+## Candidate local intelligence dossiers (Pass 11)
+
+Candidate-only city/county intelligence briefs — **not public-facing**. Aggregate geography only; no individual voter targeting.
+
+### Routes
+
+| Route | Purpose |
+|-------|---------|
+| `/campaigns/:slug/city/:citySlug` | City intelligence brief |
+| `/campaigns/:slug/county/:countySlug` | County intelligence brief |
+
+### Data registry
+
+- `data/local-intelligence/top-city-dossiers.json` — top 100 cities (schema supports expansion to 250)
+- `data/local-intelligence/county-dossiers.json` — county playbooks
+- `data/local-intelligence/sos-election-targets.json` — SOS baseline/target vote math
+
+Regenerate: `npm run generate:local-intelligence`
+
+### Migration
+
+```bash
+# Apply via Supabase CLI or project migration workflow
+supabase/migrations/011_city_county_campaign_intelligence.sql
+```
+
+Tables: `city_intelligence_dossiers`, `county_intelligence_dossiers`, `campaign_local_notes`, `campaign_vote_targets`
+
+### Data source policy
+
+- Census ACS / BLS hooks are **placeholder** in generated JSON until full import pass
+- SOS target numbers use estimated baseline math — label confidence on every brief
+- Campaign-entered notes stored in localStorage (demo) until DB sync to `campaign_local_notes`
+- AI summarizer (`local-intelligence-ai` Netlify function): aggregate public data only; never infer individual voter preferences
+
+### Privacy rule
+
+Aggregate geography only. Dossiers describe communities, institutions, and election math — not individual voters or household-level targeting.

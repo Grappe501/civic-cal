@@ -84,4 +84,31 @@
   .dossier-section {
     @apply scroll-mt-24;
   }
+  .intel-brief {
+    @apply space-y-2;
+  }
+  .intel-hero {
+    @apply rounded-2xl border border-ark-pine/10 bg-white p-6 md:p-8 shadow-lg border-t-4;
+  }
+  .intel-exec-summary {
+    @apply rounded-2xl border border-ark-pine/10 p-5 md:p-6;
+  }
+  .intel-section-title {
+    @apply font-display text-base font-semibold text-ark-pine flex items-center gap-2;
+  }
+  .intel-data-card {
+    @apply rounded-lg bg-ark-wheat/40 px-3 py-2;
+  }
+  .intel-data-label {
+    @apply text-[10px] font-bold uppercase tracking-wider text-ark-sage;
+  }
+  .intel-data-value {
+    @apply text-sm font-medium text-ark-pine mt-0.5;
+  }
+  .intel-data-unknown {
+    @apply text-sm italic text-ark-pine/50 mt-0.5;
+  }
+  .intel-election-panel {
+    @apply bg-gradient-to-br from-white to-ark-wheat/30;
+  }
 }

@@ -1,0 +1,2633 @@
+{
+  "version": 1,
+  "generatedAt": "2026-06-21",
+  "count": 75,
+  "counties": [
+    {
+      "county": "Arkansas",
+      "region": "Northwest",
+      "county_seat": null,
+      "population": 72000,
+      "demographics_summary": "County-level aggregate — Census ACS hook pending",
+      "employment_profile": "Agriculture, healthcare, retail, local government",
+      "economic_drivers": [
+        "Healthcare",
+        "Agriculture",
+        "Small business"
+      ],
+      "major_towns": [
+        "Stuttgart"
+      ],
+      "civic_calendar_sources": [
+        "Arkansas County quorum court",
+        "Chamber calendars — verify"
+      ],
+      "recurring_traditions": [
+        "County fair",
+        "Community church dinners"
+      ],
+      "prior_sos_baseline": 28800,
+      "target_votes": 30816,
+      "win_path_notes": null,
+      "confidence_score": 20,
+      "source_links": [
+        {
+          "label": "Census county QuickFacts hook",
+          "url": "https://www.census.gov/data.html",
+          "type": "census_hook"
+        }
+      ]
+    },
+    {
+      "county": "Ashley",
+      "region": "Northwest",
+      "county_seat": null,
+      "population": 71200,
+      "demographics_summary": "County-level aggregate — Census ACS hook pending",
+      "employment_profile": "Agriculture, healthcare, retail, local government",
+      "economic_drivers": [
+        "Healthcare",
+        "Agriculture",
+        "Small business"
+      ],
+      "major_towns": [
+        "Crossett",
+        "Hamburg"
+      ],
+      "civic_calendar_sources": [
+        "Ashley County quorum court",
+        "Chamber calendars — verify"
+      ],
+      "recurring_traditions": [
+        "County fair",
+        "Community church dinners"
+      ],
+      "prior_sos_baseline": 28480,
+      "target_votes": 30474,
+      "win_path_notes": null,
+      "confidence_score": 20,
+      "source_links": [
+        {
+          "label": "Census county QuickFacts hook",
+          "url": "https://www.census.gov/data.html",
+          "type": "census_hook"
+        }
+      ]
+    },
+    {
+      "county": "Baxter",
+      "region": "Northwest",
+      "county_seat": null,
+      "population": 70400,
+      "demographics_summary": "County-level aggregate — Census ACS hook pending",
+      "employment_profile": "Agriculture, healthcare, retail, local government",
+      "economic_drivers": [
+        "Healthcare",
+        "Agriculture",
+        "Small business"
+      ],
+      "major_towns": [
+        "Mountain Home"
+      ],
+      "civic_calendar_sources": [
+        "Baxter County quorum court",
+        "Chamber calendars — verify"
+      ],
+      "recurring_traditions": [
+        "County fair",
+        "Community church dinners"
+      ],
+      "prior_sos_baseline": 28160,
+      "target_votes": 30131,
+      "win_path_notes": null,
+      "confidence_score": 20,
+      "source_links": [
+        {
+          "label": "Census county QuickFacts hook",
+          "url": "https://www.census.gov/data.html",
+          "type": "census_hook"
+        }
+      ]
+    },
+    {
+      "county": "Benton",
+      "region": "Northwest",
+      "county_seat": "Bentonville",
+      "population": 69600,
+      "demographics_summary": "County-level aggregate — Census ACS hook pending",
+      "employment_profile": "Agriculture, healthcare, retail, local government",
+      "economic_drivers": [
+        "Healthcare",
+        "Agriculture",
+        "Small business"
+      ],
+      "major_towns": [
+        "Rogers",
+        "Bentonville",
+        "Bella Vista",
+        "Siloam Springs",
+        "Pea Ridge"
+      ],
+      "civic_calendar_sources": [
+        "Benton County quorum court",
+        "Chamber calendars — verify"
+      ],
+      "recurring_traditions": [
+        "County fair",
+        "Community church dinners"
+      ],
+      "prior_sos_baseline": 27840,
+      "target_votes": 29789,
+      "win_path_notes": null,
+      "confidence_score": 20,
+      "source_links": [
+        {
+          "label": "Census county QuickFacts hook",
+          "url": "https://www.census.gov/data.html",
+          "type": "census_hook"
+        }
+      ]
+    },
+    {
+      "county": "Boone",
+      "region": "Northwest",
+      "county_seat": null,
+      "population": 68800,
+      "demographics_summary": "County-level aggregate — Census ACS hook pending",
+      "employment_profile": "Agriculture, healthcare, retail, local government",
+      "economic_drivers": [
+        "Healthcare",
+        "Agriculture",
+        "Small business"
+      ],
+      "major_towns": [
+        "Harrison"
+      ],
+      "civic_calendar_sources": [
+        "Boone County quorum court",
+        "Chamber calendars — verify"
+      ],
+      "recurring_traditions": [
+        "County fair",
+        "Community church dinners"
+      ],
+      "prior_sos_baseline": 27520,
+      "target_votes": 29446,
+      "win_path_notes": null,
+      "confidence_score": 20,
+      "source_links": [
+        {
+          "label": "Census county QuickFacts hook",
+          "url": "https://www.census.gov/data.html",
+          "type": "census_hook"
+        }
+      ]
+    },
+    {
+      "county": "Bradley",
+      "region": "Northwest",
+      "county_seat": null,
+      "population": 68000,
+      "demographics_summary": "County-level aggregate — Census ACS hook pending",
+      "employment_profile": "Agriculture, healthcare, retail, local government",
+      "economic_drivers": [
+        "Healthcare",
+        "Agriculture",
+        "Small business"
+      ],
+      "major_towns": [
+        "Warren",
+        "Hermitage"
+      ],
+      "civic_calendar_sources": [
+        "Bradley County quorum court",
+        "Chamber calendars — verify"
+      ],
+      "recurring_traditions": [
+        "County fair",
+        "Community church dinners"
+      ],
+      "prior_sos_baseline": 27200,
+      "target_votes": 29104,
+      "win_path_notes": null,
+      "confidence_score": 20,
+      "source_links": [
+        {
+          "label": "Census county QuickFacts hook",
+          "url": "https://www.census.gov/data.html",
+          "type": "census_hook"
+        }
+      ]
+    },
+    {
+      "county": "Calhoun",
+      "region": "Northwest",
+      "county_seat": null,
+      "population": 67200,
+      "demographics_summary": "County-level aggregate — Census ACS hook pending",
+      "employment_profile": "Agriculture, healthcare, retail, local government",
+      "economic_drivers": [
+        "Healthcare",
+        "Agriculture",
+        "Small business"
+      ],
+      "major_towns": [],
+      "civic_calendar_sources": [
+        "Calhoun County quorum court",
+        "Chamber calendars — verify"
+      ],
+      "recurring_traditions": [
+        "County fair",
+        "Community church dinners"
+      ],
+      "prior_sos_baseline": 26880,
+      "target_votes": 28762,
+      "win_path_notes": null,
+      "confidence_score": 20,
+      "source_links": [
+        {
+          "label": "Census county QuickFacts hook",
+          "url": "https://www.census.gov/data.html",
+          "type": "census_hook"
+        }
+      ]
+    },
+    {
+      "county": "Carroll",
+      "region": "Northwest",
+      "county_seat": null,
+      "population": 66400,
+      "demographics_summary": "County-level aggregate — Census ACS hook pending",
+      "employment_profile": "Agriculture, healthcare, retail, local government",
+      "economic_drivers": [
+        "Healthcare",
+        "Agriculture",
+        "Small business"
+      ],
+      "major_towns": [
+        "Berryville",
+        "Eureka Springs"
+      ],
+      "civic_calendar_sources": [
+        "Carroll County quorum court",
+        "Chamber calendars — verify"
+      ],
+      "recurring_traditions": [
+        "County fair",
+        "Community church dinners"
+      ],
+      "prior_sos_baseline": 26560,
+      "target_votes": 28419,
+      "win_path_notes": null,
+      "confidence_score": 20,
+      "source_links": [
+        {
+          "label": "Census county QuickFacts hook",
+          "url": "https://www.census.gov/data.html",
+          "type": "census_hook"
+        }
+      ]
+    },
+    {
+      "county": "Chicot",
+      "region": "Northwest",
+      "county_seat": null,
+      "population": 65600,
+      "demographics_summary": "County-level aggregate — Census ACS hook pending",
+      "employment_profile": "Agriculture, healthcare, retail, local government",
+      "economic_drivers": [
+        "Healthcare",
+        "Agriculture",
+        "Small business"
+      ],
+      "major_towns": [
+        "Dermott",
+        "Lake Village",
+        "Eudora"
+      ],
+      "civic_calendar_sources": [
+        "Chicot County quorum court",
+        "Chamber calendars — verify"
+      ],
+      "recurring_traditions": [
+        "County fair",
+        "Community church dinners"
+      ],
+      "prior_sos_baseline": 26240,
+      "target_votes": 28077,
+      "win_path_notes": null,
+      "confidence_score": 20,
+      "source_links": [
+        {
+          "label": "Census county QuickFacts hook",
+          "url": "https://www.census.gov/data.html",
+          "type": "census_hook"
+        }
+      ]
+    },
+    {
+      "county": "Clark",
+      "region": "Northwest",
+      "county_seat": null,
+      "population": 64800,
+      "demographics_summary": "County-level aggregate — Census ACS hook pending",
+      "employment_profile": "Agriculture, healthcare, retail, local government",
+      "economic_drivers": [
+        "Healthcare",
+        "Agriculture",
+        "Small business"
+      ],
+      "major_towns": [
+        "Arkadelphia"
+      ],
+      "civic_calendar_sources": [
+        "Clark County quorum court",
+        "Chamber calendars — verify"
+      ],
+      "recurring_traditions": [
+        "County fair",
+        "Community church dinners"
+      ],
+      "prior_sos_baseline": 25920,
+      "target_votes": 27734,
+      "win_path_notes": null,
+      "confidence_score": 20,
+      "source_links": [
+        {
+          "label": "Census county QuickFacts hook",
+          "url": "https://www.census.gov/data.html",
+          "type": "census_hook"
+        }
+      ]
+    },
+    {
+      "county": "Clay",
+      "region": "Northwest",
+      "county_seat": null,
+      "population": 64000,
+      "demographics_summary": "County-level aggregate — Census ACS hook pending",
+      "employment_profile": "Agriculture, healthcare, retail, local government",
+      "economic_drivers": [
+        "Healthcare",
+        "Agriculture",
+        "Small business"
+      ],
+      "major_towns": [
+        "Corning",
+        "Piggott",
+        "Rector"
+      ],
+      "civic_calendar_sources": [
+        "Clay County quorum court",
+        "Chamber calendars — verify"
+      ],
+      "recurring_traditions": [
+        "County fair",
+        "Community church dinners"
+      ],
+      "prior_sos_baseline": 25600,
+      "target_votes": 27392,
+      "win_path_notes": null,
+      "confidence_score": 20,
+      "source_links": [
+        {
+          "label": "Census county QuickFacts hook",
+          "url": "https://www.census.gov/data.html",
+          "type": "census_hook"
+        }
+      ]
+    },
+    {
+      "county": "Cleburne",
+      "region": "Northwest",
+      "county_seat": null,
+      "population": 63200,
+      "demographics_summary": "County-level aggregate — Census ACS hook pending",
+      "employment_profile": "Agriculture, healthcare, retail, local government",
+      "economic_drivers": [
+        "Healthcare",
+        "Agriculture",
+        "Small business"
+      ],
+      "major_towns": [
+        "Heber Springs",
+        "Greers Ferry",
+        "Quitman"
+      ],
+      "civic_calendar_sources": [
+        "Cleburne County quorum court",
+        "Chamber calendars — verify"
+      ],
+      "recurring_traditions": [
+        "County fair",
+        "Community church dinners"
+      ],
+      "prior_sos_baseline": 25280,
+      "target_votes": 27050,
+      "win_path_notes": null,
+      "confidence_score": 20,
+      "source_links": [
+        {
+          "label": "Census county QuickFacts hook",
+          "url": "https://www.census.gov/data.html",
+          "type": "census_hook"
+        }
+      ]
+    },
+    {
+      "county": "Cleveland",
+      "region": "Northwest",
+      "county_seat": null,
+      "population": 62400,
+      "demographics_summary": "County-level aggregate — Census ACS hook pending",
+      "employment_profile": "Agriculture, healthcare, retail, local government",
+      "economic_drivers": [
+        "Healthcare",
+        "Agriculture",
+        "Small business"
+      ],
+      "major_towns": [],
+      "civic_calendar_sources": [
+        "Cleveland County quorum court",
+        "Chamber calendars — verify"
+      ],
+      "recurring_traditions": [
+        "County fair",
+        "Community church dinners"
+      ],
+      "prior_sos_baseline": 24960,
+      "target_votes": 26707,
+      "win_path_notes": null,
+      "confidence_score": 20,
+      "source_links": [
+        {
+          "label": "Census county QuickFacts hook",
+          "url": "https://www.census.gov/data.html",
+          "type": "census_hook"
+        }
+      ]
+    },
+    {
+      "county": "Columbia",
+      "region": "Northwest",
+      "county_seat": null,
+      "population": 61600,
+      "demographics_summary": "County-level aggregate — Census ACS hook pending",
+      "employment_profile": "Agriculture, healthcare, retail, local government",
+      "economic_drivers": [
+        "Healthcare",
+        "Agriculture",
+        "Small business"
+      ],
+      "major_towns": [
+        "Magnolia"
+      ],
+      "civic_calendar_sources": [
+        "Columbia County quorum court",
+        "Chamber calendars — verify"
+      ],
+      "recurring_traditions": [
+        "County fair",
+        "Community church dinners"
+      ],
+      "prior_sos_baseline": 24640,
+      "target_votes": 26365,
+      "win_path_notes": null,
+      "confidence_score": 20,
+      "source_links": [
+        {
+          "label": "Census county QuickFacts hook",
+          "url": "https://www.census.gov/data.html",
+          "type": "census_hook"
+        }
+      ]
+    },
+    {
+      "county": "Conway",
+      "region": "Northwest",
+      "county_seat": null,
+      "population": 60800,
+      "demographics_summary": "County-level aggregate — Census ACS hook pending",
+      "employment_profile": "Agriculture, healthcare, retail, local government",
+      "economic_drivers": [
+        "Healthcare",
+        "Agriculture",
+        "Small business"
+      ],
+      "major_towns": [
+        "Morrilton",
+        "Center Ridge"
+      ],
+      "civic_calendar_sources": [
+        "Conway County quorum court",
+        "Chamber calendars — verify"
+      ],
+      "recurring_traditions": [
+        "County fair",
+        "Community church dinners"
+      ],
+      "prior_sos_baseline": 24320,
+      "target_votes": 26022,
+      "win_path_notes": null,
+      "confidence_score": 20,
+      "source_links": [
+        {
+          "label": "Census county QuickFacts hook",
+          "url": "https://www.census.gov/data.html",
+          "type": "census_hook"
+        }
+      ]
+    },
+    {
+      "county": "Craighead",
+      "region": "Central",
+      "county_seat": "Jonesboro",
+      "population": 60000,
+      "demographics_summary": "County-level aggregate — Census ACS hook pending",
+      "employment_profile": "Agriculture, healthcare, retail, local government",
+      "economic_drivers": [
+        "Healthcare",
+        "Agriculture",
+        "Small business"
+      ],
+      "major_towns": [
+        "Jonesboro"
+      ],
+      "civic_calendar_sources": [
+        "Craighead County quorum court",
+        "Chamber calendars — verify"
+      ],
+      "recurring_traditions": [
+        "County fair",
+        "Community church dinners"
+      ],
+      "prior_sos_baseline": 24000,
+      "target_votes": 25680,
+      "win_path_notes": null,
+      "confidence_score": 20,
+      "source_links": [
+        {
+          "label": "Census county QuickFacts hook",
+          "url": "https://www.census.gov/data.html",
+          "type": "census_hook"
+        }
+      ]
+    },
+    {
+      "county": "Crawford",
+      "region": "Central",
+      "county_seat": null,
+      "population": 59200,
+      "demographics_summary": "County-level aggregate — Census ACS hook pending",
+      "employment_profile": "Agriculture, healthcare, retail, local government",
+      "economic_drivers": [
+        "Healthcare",
+        "Agriculture",
+        "Small business"
+      ],
+      "major_towns": [
+        "Van Buren",
+        "Alma"
+      ],
+      "civic_calendar_sources": [
+        "Crawford County quorum court",
+        "Chamber calendars — verify"
+      ],
+      "recurring_traditions": [
+        "County fair",
+        "Community church dinners"
+      ],
+      "prior_sos_baseline": 23680,
+      "target_votes": 25338,
+      "win_path_notes": null,
+      "confidence_score": 20,
+      "source_links": [
+        {
+          "label": "Census county QuickFacts hook",
+          "url": "https://www.census.gov/data.html",
+          "type": "census_hook"
+        }
+      ]
+    },
+    {
+      "county": "Crittenden",
+      "region": "Central",
+      "county_seat": null,
+      "population": 58400,
+      "demographics_summary": "County-level aggregate — Census ACS hook pending",
+      "employment_profile": "Agriculture, healthcare, retail, local government",
+      "economic_drivers": [
+        "Healthcare",
+        "Agriculture",
+        "Small business"
+      ],
+      "major_towns": [
+        "West Memphis",
+        "Marion",
+        "Earle"
+      ],
+      "civic_calendar_sources": [
+        "Crittenden County quorum court",
+        "Chamber calendars — verify"
+      ],
+      "recurring_traditions": [
+        "County fair",
+        "Community church dinners"
+      ],
+      "prior_sos_baseline": 23360,
+      "target_votes": 24995,
+      "win_path_notes": null,
+      "confidence_score": 20,
+      "source_links": [
+        {
+          "label": "Census county QuickFacts hook",
+          "url": "https://www.census.gov/data.html",
+          "type": "census_hook"
+        }
+      ]
+    },
+    {
+      "county": "Cross",
+      "region": "Central",
+      "county_seat": null,
+      "population": 57600,
+      "demographics_summary": "County-level aggregate — Census ACS hook pending",
+      "employment_profile": "Agriculture, healthcare, retail, local government",
+      "economic_drivers": [
+        "Healthcare",
+        "Agriculture",
+        "Small business"
+      ],
+      "major_towns": [
+        "Wynne"
+      ],
+      "civic_calendar_sources": [
+        "Cross County quorum court",
+        "Chamber calendars — verify"
+      ],
+      "recurring_traditions": [
+        "County fair",
+        "Community church dinners"
+      ],
+      "prior_sos_baseline": 23040,
+      "target_votes": 24653,
+      "win_path_notes": null,
+      "confidence_score": 20,
+      "source_links": [
+        {
+          "label": "Census county QuickFacts hook",
+          "url": "https://www.census.gov/data.html",
+          "type": "census_hook"
+        }
+      ]
+    },
+    {
+      "county": "Dallas",
+      "region": "Central",
+      "county_seat": null,
+      "population": 56800,
+      "demographics_summary": "County-level aggregate — Census ACS hook pending",
+      "employment_profile": "Agriculture, healthcare, retail, local government",
+      "economic_drivers": [
+        "Healthcare",
+        "Agriculture",
+        "Small business"
+      ],
+      "major_towns": [
+        "Fordyce",
+        "Sparkman"
+      ],
+      "civic_calendar_sources": [
+        "Dallas County quorum court",
+        "Chamber calendars — verify"
+      ],
+      "recurring_traditions": [
+        "County fair",
+        "Community church dinners"
+      ],
+      "prior_sos_baseline": 22720,
+      "target_votes": 24310,
+      "win_path_notes": null,
+      "confidence_score": 20,
+      "source_links": [
+        {
+          "label": "Census county QuickFacts hook",
+          "url": "https://www.census.gov/data.html",
+          "type": "census_hook"
+        }
+      ]
+    },
+    {
+      "county": "Desha",
+      "region": "Central",
+      "county_seat": null,
+      "population": 56000,
+      "demographics_summary": "County-level aggregate — Census ACS hook pending",
+      "employment_profile": "Agriculture, healthcare, retail, local government",
+      "economic_drivers": [
+        "Healthcare",
+        "Agriculture",
+        "Small business"
+      ],
+      "major_towns": [
+        "Dumas",
+        "McGehee"
+      ],
+      "civic_calendar_sources": [
+        "Desha County quorum court",
+        "Chamber calendars — verify"
+      ],
+      "recurring_traditions": [
+        "County fair",
+        "Community church dinners"
+      ],
+      "prior_sos_baseline": 22400,
+      "target_votes": 23968,
+      "win_path_notes": null,
+      "confidence_score": 20,
+      "source_links": [
+        {
+          "label": "Census county QuickFacts hook",
+          "url": "https://www.census.gov/data.html",
+          "type": "census_hook"
+        }
+      ]
+    },
+    {
+      "county": "Drew",
+      "region": "Central",
+      "county_seat": null,
+      "population": 55200,
+      "demographics_summary": "County-level aggregate — Census ACS hook pending",
+      "employment_profile": "Agriculture, healthcare, retail, local government",
+      "economic_drivers": [
+        "Healthcare",
+        "Agriculture",
+        "Small business"
+      ],
+      "major_towns": [
+        "Monticello"
+      ],
+      "civic_calendar_sources": [
+        "Drew County quorum court",
+        "Chamber calendars — verify"
+      ],
+      "recurring_traditions": [
+        "County fair",
+        "Community church dinners"
+      ],
+      "prior_sos_baseline": 22080,
+      "target_votes": 23626,
+      "win_path_notes": null,
+      "confidence_score": 20,
+      "source_links": [
+        {
+          "label": "Census county QuickFacts hook",
+          "url": "https://www.census.gov/data.html",
+          "type": "census_hook"
+        }
+      ]
+    },
+    {
+      "county": "Faulkner",
+      "region": "Central",
+      "county_seat": "Conway",
+      "population": 54400,
+      "demographics_summary": "County-level aggregate — Census ACS hook pending",
+      "employment_profile": "Agriculture, healthcare, retail, local government",
+      "economic_drivers": [
+        "Healthcare",
+        "Agriculture",
+        "Small business"
+      ],
+      "major_towns": [
+        "Conway",
+        "Vilonia"
+      ],
+      "civic_calendar_sources": [
+        "Faulkner County quorum court",
+        "Chamber calendars — verify"
+      ],
+      "recurring_traditions": [
+        "County fair",
+        "Community church dinners"
+      ],
+      "prior_sos_baseline": 21760,
+      "target_votes": 23283,
+      "win_path_notes": null,
+      "confidence_score": 20,
+      "source_links": [
+        {
+          "label": "Census county QuickFacts hook",
+          "url": "https://www.census.gov/data.html",
+          "type": "census_hook"
+        }
+      ]
+    },
+    {
+      "county": "Franklin",
+      "region": "Central",
+      "county_seat": null,
+      "population": 53600,
+      "demographics_summary": "County-level aggregate — Census ACS hook pending",
+      "employment_profile": "Agriculture, healthcare, retail, local government",
+      "economic_drivers": [
+        "Healthcare",
+        "Agriculture",
+        "Small business"
+      ],
+      "major_towns": [
+        "Ozark"
+      ],
+      "civic_calendar_sources": [
+        "Franklin County quorum court",
+        "Chamber calendars — verify"
+      ],
+      "recurring_traditions": [
+        "County fair",
+        "Community church dinners"
+      ],
+      "prior_sos_baseline": 21440,
+      "target_votes": 22941,
+      "win_path_notes": null,
+      "confidence_score": 20,
+      "source_links": [
+        {
+          "label": "Census county QuickFacts hook",
+          "url": "https://www.census.gov/data.html",
+          "type": "census_hook"
+        }
+      ]
+    },
+    {
+      "county": "Fulton",
+      "region": "Central",
+      "county_seat": null,
+      "population": 52800,
+      "demographics_summary": "County-level aggregate — Census ACS hook pending",
+      "employment_profile": "Agriculture, healthcare, retail, local government",
+      "economic_drivers": [
+        "Healthcare",
+        "Agriculture",
+        "Small business"
+      ],
+      "major_towns": [],
+      "civic_calendar_sources": [
+        "Fulton County quorum court",
+        "Chamber calendars — verify"
+      ],
+      "recurring_traditions": [
+        "County fair",
+        "Community church dinners"
+      ],
+      "prior_sos_baseline": 21120,
+      "target_votes": 22598,
+      "win_path_notes": null,
+      "confidence_score": 20,
+      "source_links": [
+        {
+          "label": "Census county QuickFacts hook",
+          "url": "https://www.census.gov/data.html",
+          "type": "census_hook"
+        }
+      ]
+    },
+    {
+      "county": "Garland",
+      "region": "Central",
+      "county_seat": "Hot Springs",
+      "population": 52000,
+      "demographics_summary": "County-level aggregate — Census ACS hook pending",
+      "employment_profile": "Agriculture, healthcare, retail, local government",
+      "economic_drivers": [
+        "Healthcare",
+        "Agriculture",
+        "Small business"
+      ],
+      "major_towns": [
+        "Hot Springs"
+      ],
+      "civic_calendar_sources": [
+        "Garland County quorum court",
+        "Chamber calendars — verify"
+      ],
+      "recurring_traditions": [
+        "County fair",
+        "Community church dinners"
+      ],
+      "prior_sos_baseline": 20800,
+      "target_votes": 22256,
+      "win_path_notes": null,
+      "confidence_score": 20,
+      "source_links": [
+        {
+          "label": "Census county QuickFacts hook",
+          "url": "https://www.census.gov/data.html",
+          "type": "census_hook"
+        }
+      ]
+    },
+    {
+      "county": "Grant",
+      "region": "Central",
+      "county_seat": null,
+      "population": 51200,
+      "demographics_summary": "County-level aggregate — Census ACS hook pending",
+      "employment_profile": "Agriculture, healthcare, retail, local government",
+      "economic_drivers": [
+        "Healthcare",
+        "Agriculture",
+        "Small business"
+      ],
+      "major_towns": [],
+      "civic_calendar_sources": [
+        "Grant County quorum court",
+        "Chamber calendars — verify"
+      ],
+      "recurring_traditions": [
+        "County fair",
+        "Community church dinners"
+      ],
+      "prior_sos_baseline": 20480,
+      "target_votes": 21914,
+      "win_path_notes": null,
+      "confidence_score": 20,
+      "source_links": [
+        {
+          "label": "Census county QuickFacts hook",
+          "url": "https://www.census.gov/data.html",
+          "type": "census_hook"
+        }
+      ]
+    },
+    {
+      "county": "Greene",
+      "region": "Central",
+      "county_seat": null,
+      "population": 50400,
+      "demographics_summary": "County-level aggregate — Census ACS hook pending",
+      "employment_profile": "Agriculture, healthcare, retail, local government",
+      "economic_drivers": [
+        "Healthcare",
+        "Agriculture",
+        "Small business"
+      ],
+      "major_towns": [
+        "Paragould"
+      ],
+      "civic_calendar_sources": [
+        "Greene County quorum court",
+        "Chamber calendars — verify"
+      ],
+      "recurring_traditions": [
+        "County fair",
+        "Community church dinners"
+      ],
+      "prior_sos_baseline": 20160,
+      "target_votes": 21571,
+      "win_path_notes": null,
+      "confidence_score": 20,
+      "source_links": [
+        {
+          "label": "Census county QuickFacts hook",
+          "url": "https://www.census.gov/data.html",
+          "type": "census_hook"
+        }
+      ]
+    },
+    {
+      "county": "Hempstead",
+      "region": "Central",
+      "county_seat": null,
+      "population": 49600,
+      "demographics_summary": "County-level aggregate — Census ACS hook pending",
+      "employment_profile": "Agriculture, healthcare, retail, local government",
+      "economic_drivers": [
+        "Healthcare",
+        "Agriculture",
+        "Small business"
+      ],
+      "major_towns": [
+        "Hope"
+      ],
+      "civic_calendar_sources": [
+        "Hempstead County quorum court",
+        "Chamber calendars — verify"
+      ],
+      "recurring_traditions": [
+        "County fair",
+        "Community church dinners"
+      ],
+      "prior_sos_baseline": 19840,
+      "target_votes": 21229,
+      "win_path_notes": null,
+      "confidence_score": 20,
+      "source_links": [
+        {
+          "label": "Census county QuickFacts hook",
+          "url": "https://www.census.gov/data.html",
+          "type": "census_hook"
+        }
+      ]
+    },
+    {
+      "county": "Hot Spring",
+      "region": "Central",
+      "county_seat": null,
+      "population": 48800,
+      "demographics_summary": "County-level aggregate — Census ACS hook pending",
+      "employment_profile": "Agriculture, healthcare, retail, local government",
+      "economic_drivers": [
+        "Healthcare",
+        "Agriculture",
+        "Small business"
+      ],
+      "major_towns": [
+        "Malvern"
+      ],
+      "civic_calendar_sources": [
+        "Hot Spring County quorum court",
+        "Chamber calendars — verify"
+      ],
+      "recurring_traditions": [
+        "County fair",
+        "Community church dinners"
+      ],
+      "prior_sos_baseline": 19520,
+      "target_votes": 20886,
+      "win_path_notes": null,
+      "confidence_score": 20,
+      "source_links": [
+        {
+          "label": "Census county QuickFacts hook",
+          "url": "https://www.census.gov/data.html",
+          "type": "census_hook"
+        }
+      ]
+    },
+    {
+      "county": "Howard",
+      "region": "Delta",
+      "county_seat": null,
+      "population": 48000,
+      "demographics_summary": "County-level aggregate — Census ACS hook pending",
+      "employment_profile": "Agriculture, healthcare, retail, local government",
+      "economic_drivers": [
+        "Healthcare",
+        "Agriculture",
+        "Small business"
+      ],
+      "major_towns": [
+        "Nashville"
+      ],
+      "civic_calendar_sources": [
+        "Howard County quorum court",
+        "Chamber calendars — verify"
+      ],
+      "recurring_traditions": [
+        "County fair",
+        "Community church dinners"
+      ],
+      "prior_sos_baseline": 19200,
+      "target_votes": 20544,
+      "win_path_notes": null,
+      "confidence_score": 20,
+      "source_links": [
+        {
+          "label": "Census county QuickFacts hook",
+          "url": "https://www.census.gov/data.html",
+          "type": "census_hook"
+        }
+      ]
+    },
+    {
+      "county": "Independence",
+      "region": "Delta",
+      "county_seat": null,
+      "population": 47200,
+      "demographics_summary": "County-level aggregate — Census ACS hook pending",
+      "employment_profile": "Agriculture, healthcare, retail, local government",
+      "economic_drivers": [
+        "Healthcare",
+        "Agriculture",
+        "Small business"
+      ],
+      "major_towns": [
+        "Batesville"
+      ],
+      "civic_calendar_sources": [
+        "Independence County quorum court",
+        "Chamber calendars — verify"
+      ],
+      "recurring_traditions": [
+        "County fair",
+        "Community church dinners"
+      ],
+      "prior_sos_baseline": 18880,
+      "target_votes": 20202,
+      "win_path_notes": null,
+      "confidence_score": 20,
+      "source_links": [
+        {
+          "label": "Census county QuickFacts hook",
+          "url": "https://www.census.gov/data.html",
+          "type": "census_hook"
+        }
+      ]
+    },
+    {
+      "county": "Izard",
+      "region": "Delta",
+      "county_seat": null,
+      "population": 46400,
+      "demographics_summary": "County-level aggregate — Census ACS hook pending",
+      "employment_profile": "Agriculture, healthcare, retail, local government",
+      "economic_drivers": [
+        "Healthcare",
+        "Agriculture",
+        "Small business"
+      ],
+      "major_towns": [
+        "Horseshoe Bend"
+      ],
+      "civic_calendar_sources": [
+        "Izard County quorum court",
+        "Chamber calendars — verify"
+      ],
+      "recurring_traditions": [
+        "County fair",
+        "Community church dinners"
+      ],
+      "prior_sos_baseline": 18560,
+      "target_votes": 19859,
+      "win_path_notes": null,
+      "confidence_score": 20,
+      "source_links": [
+        {
+          "label": "Census county QuickFacts hook",
+          "url": "https://www.census.gov/data.html",
+          "type": "census_hook"
+        }
+      ]
+    },
+    {
+      "county": "Jackson",
+      "region": "Delta",
+      "county_seat": null,
+      "population": 45600,
+      "demographics_summary": "County-level aggregate — Census ACS hook pending",
+      "employment_profile": "Agriculture, healthcare, retail, local government",
+      "economic_drivers": [
+        "Healthcare",
+        "Agriculture",
+        "Small business"
+      ],
+      "major_towns": [
+        "Newport"
+      ],
+      "civic_calendar_sources": [
+        "Jackson County quorum court",
+        "Chamber calendars — verify"
+      ],
+      "recurring_traditions": [
+        "County fair",
+        "Community church dinners"
+      ],
+      "prior_sos_baseline": 18240,
+      "target_votes": 19517,
+      "win_path_notes": null,
+      "confidence_score": 20,
+      "source_links": [
+        {
+          "label": "Census county QuickFacts hook",
+          "url": "https://www.census.gov/data.html",
+          "type": "census_hook"
+        }
+      ]
+    },
+    {
+      "county": "Jefferson",
+      "region": "Delta",
+      "county_seat": "Pine Bluff",
+      "population": 44800,
+      "demographics_summary": "County-level aggregate — Census ACS hook pending",
+      "employment_profile": "Agriculture, healthcare, retail, local government",
+      "economic_drivers": [
+        "Healthcare",
+        "Agriculture",
+        "Small business"
+      ],
+      "major_towns": [
+        "Pine Bluff"
+      ],
+      "civic_calendar_sources": [
+        "Jefferson County quorum court",
+        "Chamber calendars — verify"
+      ],
+      "recurring_traditions": [
+        "County fair",
+        "Community church dinners"
+      ],
+      "prior_sos_baseline": 17920,
+      "target_votes": 19174,
+      "win_path_notes": null,
+      "confidence_score": 20,
+      "source_links": [
+        {
+          "label": "Census county QuickFacts hook",
+          "url": "https://www.census.gov/data.html",
+          "type": "census_hook"
+        }
+      ]
+    },
+    {
+      "county": "Johnson",
+      "region": "Delta",
+      "county_seat": null,
+      "population": 44000,
+      "demographics_summary": "County-level aggregate — Census ACS hook pending",
+      "employment_profile": "Agriculture, healthcare, retail, local government",
+      "economic_drivers": [
+        "Healthcare",
+        "Agriculture",
+        "Small business"
+      ],
+      "major_towns": [
+        "Clarksville"
+      ],
+      "civic_calendar_sources": [
+        "Johnson County quorum court",
+        "Chamber calendars — verify"
+      ],
+      "recurring_traditions": [
+        "County fair",
+        "Community church dinners"
+      ],
+      "prior_sos_baseline": 17600,
+      "target_votes": 18832,
+      "win_path_notes": null,
+      "confidence_score": 20,
+      "source_links": [
+        {
+          "label": "Census county QuickFacts hook",
+          "url": "https://www.census.gov/data.html",
+          "type": "census_hook"
+        }
+      ]
+    },
+    {
+      "county": "Lafayette",
+      "region": "Delta",
+      "county_seat": null,
+      "population": 43200,
+      "demographics_summary": "County-level aggregate — Census ACS hook pending",
+      "employment_profile": "Agriculture, healthcare, retail, local government",
+      "economic_drivers": [
+        "Healthcare",
+        "Agriculture",
+        "Small business"
+      ],
+      "major_towns": [],
+      "civic_calendar_sources": [
+        "Lafayette County quorum court",
+        "Chamber calendars — verify"
+      ],
+      "recurring_traditions": [
+        "County fair",
+        "Community church dinners"
+      ],
+      "prior_sos_baseline": 17280,
+      "target_votes": 18490,
+      "win_path_notes": null,
+      "confidence_score": 20,
+      "source_links": [
+        {
+          "label": "Census county QuickFacts hook",
+          "url": "https://www.census.gov/data.html",
+          "type": "census_hook"
+        }
+      ]
+    },
+    {
+      "county": "Lawrence",
+      "region": "Delta",
+      "county_seat": null,
+      "population": 42400,
+      "demographics_summary": "County-level aggregate — Census ACS hook pending",
+      "employment_profile": "Agriculture, healthcare, retail, local government",
+      "economic_drivers": [
+        "Healthcare",
+        "Agriculture",
+        "Small business"
+      ],
+      "major_towns": [
+        "Walnut Ridge"
+      ],
+      "civic_calendar_sources": [
+        "Lawrence County quorum court",
+        "Chamber calendars — verify"
+      ],
+      "recurring_traditions": [
+        "County fair",
+        "Community church dinners"
+      ],
+      "prior_sos_baseline": 16960,
+      "target_votes": 18147,
+      "win_path_notes": null,
+      "confidence_score": 20,
+      "source_links": [
+        {
+          "label": "Census county QuickFacts hook",
+          "url": "https://www.census.gov/data.html",
+          "type": "census_hook"
+        }
+      ]
+    },
+    {
+      "county": "Lee",
+      "region": "Delta",
+      "county_seat": null,
+      "population": 41600,
+      "demographics_summary": "County-level aggregate — Census ACS hook pending",
+      "employment_profile": "Agriculture, healthcare, retail, local government",
+      "economic_drivers": [
+        "Healthcare",
+        "Agriculture",
+        "Small business"
+      ],
+      "major_towns": [],
+      "civic_calendar_sources": [
+        "Lee County quorum court",
+        "Chamber calendars — verify"
+      ],
+      "recurring_traditions": [
+        "County fair",
+        "Community church dinners"
+      ],
+      "prior_sos_baseline": 16640,
+      "target_votes": 17805,
+      "win_path_notes": null,
+      "confidence_score": 20,
+      "source_links": [
+        {
+          "label": "Census county QuickFacts hook",
+          "url": "https://www.census.gov/data.html",
+          "type": "census_hook"
+        }
+      ]
+    },
+    {
+      "county": "Lincoln",
+      "region": "Delta",
+      "county_seat": null,
+      "population": 40800,
+      "demographics_summary": "County-level aggregate — Census ACS hook pending",
+      "employment_profile": "Agriculture, healthcare, retail, local government",
+      "economic_drivers": [
+        "Healthcare",
+        "Agriculture",
+        "Small business"
+      ],
+      "major_towns": [],
+      "civic_calendar_sources": [
+        "Lincoln County quorum court",
+        "Chamber calendars — verify"
+      ],
+      "recurring_traditions": [
+        "County fair",
+        "Community church dinners"
+      ],
+      "prior_sos_baseline": 16320,
+      "target_votes": 17462,
+      "win_path_notes": null,
+      "confidence_score": 20,
+      "source_links": [
+        {
+          "label": "Census county QuickFacts hook",
+          "url": "https://www.census.gov/data.html",
+          "type": "census_hook"
+        }
+      ]
+    },
+    {
+      "county": "Little River",
+      "region": "Delta",
+      "county_seat": null,
+      "population": 40000,
+      "demographics_summary": "County-level aggregate — Census ACS hook pending",
+      "employment_profile": "Agriculture, healthcare, retail, local government",
+      "economic_drivers": [
+        "Healthcare",
+        "Agriculture",
+        "Small business"
+      ],
+      "major_towns": [
+        "Ashdown"
+      ],
+      "civic_calendar_sources": [
+        "Little River County quorum court",
+        "Chamber calendars — verify"
+      ],
+      "recurring_traditions": [
+        "County fair",
+        "Community church dinners"
+      ],
+      "prior_sos_baseline": 16000,
+      "target_votes": 17120,
+      "win_path_notes": null,
+      "confidence_score": 20,
+      "source_links": [
+        {
+          "label": "Census county QuickFacts hook",
+          "url": "https://www.census.gov/data.html",
+          "type": "census_hook"
+        }
+      ]
+    },
+    {
+      "county": "Logan",
+      "region": "Delta",
+      "county_seat": null,
+      "population": 39200,
+      "demographics_summary": "County-level aggregate — Census ACS hook pending",
+      "employment_profile": "Agriculture, healthcare, retail, local government",
+      "economic_drivers": [
+        "Healthcare",
+        "Agriculture",
+        "Small business"
+      ],
+      "major_towns": [],
+      "civic_calendar_sources": [
+        "Logan County quorum court",
+        "Chamber calendars — verify"
+      ],
+      "recurring_traditions": [
+        "County fair",
+        "Community church dinners"
+      ],
+      "prior_sos_baseline": 15680,
+      "target_votes": 16778,
+      "win_path_notes": null,
+      "confidence_score": 20,
+      "source_links": [
+        {
+          "label": "Census county QuickFacts hook",
+          "url": "https://www.census.gov/data.html",
+          "type": "census_hook"
+        }
+      ]
+    },
+    {
+      "county": "Lonoke",
+      "region": "Delta",
+      "county_seat": "Lonoke",
+      "population": 38400,
+      "demographics_summary": "County-level aggregate — Census ACS hook pending",
+      "employment_profile": "Agriculture, healthcare, retail, local government",
+      "economic_drivers": [
+        "Healthcare",
+        "Agriculture",
+        "Small business"
+      ],
+      "major_towns": [
+        "Cabot",
+        "England",
+        "Carlisle"
+      ],
+      "civic_calendar_sources": [
+        "Lonoke County quorum court",
+        "Chamber calendars — verify"
+      ],
+      "recurring_traditions": [
+        "County fair",
+        "Community church dinners"
+      ],
+      "prior_sos_baseline": 15360,
+      "target_votes": 16435,
+      "win_path_notes": null,
+      "confidence_score": 20,
+      "source_links": [
+        {
+          "label": "Census county QuickFacts hook",
+          "url": "https://www.census.gov/data.html",
+          "type": "census_hook"
+        }
+      ]
+    },
+    {
+      "county": "Madison",
+      "region": "Delta",
+      "county_seat": null,
+      "population": 37600,
+      "demographics_summary": "County-level aggregate — Census ACS hook pending",
+      "employment_profile": "Agriculture, healthcare, retail, local government",
+      "economic_drivers": [
+        "Healthcare",
+        "Agriculture",
+        "Small business"
+      ],
+      "major_towns": [],
+      "civic_calendar_sources": [
+        "Madison County quorum court",
+        "Chamber calendars — verify"
+      ],
+      "recurring_traditions": [
+        "County fair",
+        "Community church dinners"
+      ],
+      "prior_sos_baseline": 15040,
+      "target_votes": 16093,
+      "win_path_notes": null,
+      "confidence_score": 20,
+      "source_links": [
+        {
+          "label": "Census county QuickFacts hook",
+          "url": "https://www.census.gov/data.html",
+          "type": "census_hook"
+        }
+      ]
+    },
+    {
+      "county": "Marion",
+      "region": "Delta",
+      "county_seat": null,
+      "population": 36800,
+      "demographics_summary": "County-level aggregate — Census ACS hook pending",
+      "employment_profile": "Agriculture, healthcare, retail, local government",
+      "economic_drivers": [
+        "Healthcare",
+        "Agriculture",
+        "Small business"
+      ],
+      "major_towns": [],
+      "civic_calendar_sources": [
+        "Marion County quorum court",
+        "Chamber calendars — verify"
+      ],
+      "recurring_traditions": [
+        "County fair",
+        "Community church dinners"
+      ],
+      "prior_sos_baseline": 14720,
+      "target_votes": 15750,
+      "win_path_notes": null,
+      "confidence_score": 20,
+      "source_links": [
+        {
+          "label": "Census county QuickFacts hook",
+          "url": "https://www.census.gov/data.html",
+          "type": "census_hook"
+        }
+      ]
+    },
+    {
+      "county": "Miller",
+      "region": "South",
+      "county_seat": null,
+      "population": 36000,
+      "demographics_summary": "County-level aggregate — Census ACS hook pending",
+      "employment_profile": "Agriculture, healthcare, retail, local government",
+      "economic_drivers": [
+        "Healthcare",
+        "Agriculture",
+        "Small business"
+      ],
+      "major_towns": [
+        "Texarkana"
+      ],
+      "civic_calendar_sources": [
+        "Miller County quorum court",
+        "Chamber calendars — verify"
+      ],
+      "recurring_traditions": [
+        "County fair",
+        "Community church dinners"
+      ],
+      "prior_sos_baseline": 14400,
+      "target_votes": 15408,
+      "win_path_notes": null,
+      "confidence_score": 20,
+      "source_links": [
+        {
+          "label": "Census county QuickFacts hook",
+          "url": "https://www.census.gov/data.html",
+          "type": "census_hook"
+        }
+      ]
+    },
+    {
+      "county": "Mississippi",
+      "region": "South",
+      "county_seat": null,
+      "population": 35200,
+      "demographics_summary": "County-level aggregate — Census ACS hook pending",
+      "employment_profile": "Agriculture, healthcare, retail, local government",
+      "economic_drivers": [
+        "Healthcare",
+        "Agriculture",
+        "Small business"
+      ],
+      "major_towns": [
+        "Blytheville",
+        "Osceola"
+      ],
+      "civic_calendar_sources": [
+        "Mississippi County quorum court",
+        "Chamber calendars — verify"
+      ],
+      "recurring_traditions": [
+        "County fair",
+        "Community church dinners"
+      ],
+      "prior_sos_baseline": 14080,
+      "target_votes": 15066,
+      "win_path_notes": null,
+      "confidence_score": 20,
+      "source_links": [
+        {
+          "label": "Census county QuickFacts hook",
+          "url": "https://www.census.gov/data.html",
+          "type": "census_hook"
+        }
+      ]
+    },
+    {
+      "county": "Monroe",
+      "region": "South",
+      "county_seat": null,
+      "population": 34400,
+      "demographics_summary": "County-level aggregate — Census ACS hook pending",
+      "employment_profile": "Agriculture, healthcare, retail, local government",
+      "economic_drivers": [
+        "Healthcare",
+        "Agriculture",
+        "Small business"
+      ],
+      "major_towns": [],
+      "civic_calendar_sources": [
+        "Monroe County quorum court",
+        "Chamber calendars — verify"
+      ],
+      "recurring_traditions": [
+        "County fair",
+        "Community church dinners"
+      ],
+      "prior_sos_baseline": 13760,
+      "target_votes": 14723,
+      "win_path_notes": null,
+      "confidence_score": 20,
+      "source_links": [
+        {
+          "label": "Census county QuickFacts hook",
+          "url": "https://www.census.gov/data.html",
+          "type": "census_hook"
+        }
+      ]
+    },
+    {
+      "county": "Montgomery",
+      "region": "South",
+      "county_seat": null,
+      "population": 33600,
+      "demographics_summary": "County-level aggregate — Census ACS hook pending",
+      "employment_profile": "Agriculture, healthcare, retail, local government",
+      "economic_drivers": [
+        "Healthcare",
+        "Agriculture",
+        "Small business"
+      ],
+      "major_towns": [],
+      "civic_calendar_sources": [
+        "Montgomery County quorum court",
+        "Chamber calendars — verify"
+      ],
+      "recurring_traditions": [
+        "County fair",
+        "Community church dinners"
+      ],
+      "prior_sos_baseline": 13440,
+      "target_votes": 14381,
+      "win_path_notes": null,
+      "confidence_score": 20,
+      "source_links": [
+        {
+          "label": "Census county QuickFacts hook",
+          "url": "https://www.census.gov/data.html",
+          "type": "census_hook"
+        }
+      ]
+    },
+    {
+      "county": "Nevada",
+      "region": "South",
+      "county_seat": null,
+      "population": 32800,
+      "demographics_summary": "County-level aggregate — Census ACS hook pending",
+      "employment_profile": "Agriculture, healthcare, retail, local government",
+      "economic_drivers": [
+        "Healthcare",
+        "Agriculture",
+        "Small business"
+      ],
+      "major_towns": [
+        "Prescott"
+      ],
+      "civic_calendar_sources": [
+        "Nevada County quorum court",
+        "Chamber calendars — verify"
+      ],
+      "recurring_traditions": [
+        "County fair",
+        "Community church dinners"
+      ],
+      "prior_sos_baseline": 13120,
+      "target_votes": 14038,
+      "win_path_notes": null,
+      "confidence_score": 20,
+      "source_links": [
+        {
+          "label": "Census county QuickFacts hook",
+          "url": "https://www.census.gov/data.html",
+          "type": "census_hook"
+        }
+      ]
+    },
+    {
+      "county": "Newton",
+      "region": "South",
+      "county_seat": null,
+      "population": 32000,
+      "demographics_summary": "County-level aggregate — Census ACS hook pending",
+      "employment_profile": "Agriculture, healthcare, retail, local government",
+      "economic_drivers": [
+        "Healthcare",
+        "Agriculture",
+        "Small business"
+      ],
+      "major_towns": [],
+      "civic_calendar_sources": [
+        "Newton County quorum court",
+        "Chamber calendars — verify"
+      ],
+      "recurring_traditions": [
+        "County fair",
+        "Community church dinners"
+      ],
+      "prior_sos_baseline": 12800,
+      "target_votes": 13696,
+      "win_path_notes": null,
+      "confidence_score": 20,
+      "source_links": [
+        {
+          "label": "Census county QuickFacts hook",
+          "url": "https://www.census.gov/data.html",
+          "type": "census_hook"
+        }
+      ]
+    },
+    {
+      "county": "Ouachita",
+      "region": "South",
+      "county_seat": null,
+      "population": 31200,
+      "demographics_summary": "County-level aggregate — Census ACS hook pending",
+      "employment_profile": "Agriculture, healthcare, retail, local government",
+      "economic_drivers": [
+        "Healthcare",
+        "Agriculture",
+        "Small business"
+      ],
+      "major_towns": [
+        "Camden"
+      ],
+      "civic_calendar_sources": [
+        "Ouachita County quorum court",
+        "Chamber calendars — verify"
+      ],
+      "recurring_traditions": [
+        "County fair",
+        "Community church dinners"
+      ],
+      "prior_sos_baseline": 12480,
+      "target_votes": 13354,
+      "win_path_notes": null,
+      "confidence_score": 20,
+      "source_links": [
+        {
+          "label": "Census county QuickFacts hook",
+          "url": "https://www.census.gov/data.html",
+          "type": "census_hook"
+        }
+      ]
+    },
+    {
+      "county": "Perry",
+      "region": "South",
+      "county_seat": null,
+      "population": 30400,
+      "demographics_summary": "County-level aggregate — Census ACS hook pending",
+      "employment_profile": "Agriculture, healthcare, retail, local government",
+      "economic_drivers": [
+        "Healthcare",
+        "Agriculture",
+        "Small business"
+      ],
+      "major_towns": [],
+      "civic_calendar_sources": [
+        "Perry County quorum court",
+        "Chamber calendars — verify"
+      ],
+      "recurring_traditions": [
+        "County fair",
+        "Community church dinners"
+      ],
+      "prior_sos_baseline": 12160,
+      "target_votes": 13011,
+      "win_path_notes": null,
+      "confidence_score": 20,
+      "source_links": [
+        {
+          "label": "Census county QuickFacts hook",
+          "url": "https://www.census.gov/data.html",
+          "type": "census_hook"
+        }
+      ]
+    },
+    {
+      "county": "Phillips",
+      "region": "South",
+      "county_seat": null,
+      "population": 29600,
+      "demographics_summary": "County-level aggregate — Census ACS hook pending",
+      "employment_profile": "Agriculture, healthcare, retail, local government",
+      "economic_drivers": [
+        "Healthcare",
+        "Agriculture",
+        "Small business"
+      ],
+      "major_towns": [
+        "Helena-West Helena"
+      ],
+      "civic_calendar_sources": [
+        "Phillips County quorum court",
+        "Chamber calendars — verify"
+      ],
+      "recurring_traditions": [
+        "County fair",
+        "Community church dinners"
+      ],
+      "prior_sos_baseline": 11840,
+      "target_votes": 12669,
+      "win_path_notes": null,
+      "confidence_score": 20,
+      "source_links": [
+        {
+          "label": "Census county QuickFacts hook",
+          "url": "https://www.census.gov/data.html",
+          "type": "census_hook"
+        }
+      ]
+    },
+    {
+      "county": "Pike",
+      "region": "South",
+      "county_seat": null,
+      "population": 28800,
+      "demographics_summary": "County-level aggregate — Census ACS hook pending",
+      "employment_profile": "Agriculture, healthcare, retail, local government",
+      "economic_drivers": [
+        "Healthcare",
+        "Agriculture",
+        "Small business"
+      ],
+      "major_towns": [],
+      "civic_calendar_sources": [
+        "Pike County quorum court",
+        "Chamber calendars — verify"
+      ],
+      "recurring_traditions": [
+        "County fair",
+        "Community church dinners"
+      ],
+      "prior_sos_baseline": 11520,
+      "target_votes": 12326,
+      "win_path_notes": null,
+      "confidence_score": 20,
+      "source_links": [
+        {
+          "label": "Census county QuickFacts hook",
+          "url": "https://www.census.gov/data.html",
+          "type": "census_hook"
+        }
+      ]
+    },
+    {
+      "county": "Poinsett",
+      "region": "South",
+      "county_seat": null,
+      "population": 28000,
+      "demographics_summary": "County-level aggregate — Census ACS hook pending",
+      "employment_profile": "Agriculture, healthcare, retail, local government",
+      "economic_drivers": [
+        "Healthcare",
+        "Agriculture",
+        "Small business"
+      ],
+      "major_towns": [
+        "Trumann",
+        "Marked Tree"
+      ],
+      "civic_calendar_sources": [
+        "Poinsett County quorum court",
+        "Chamber calendars — verify"
+      ],
+      "recurring_traditions": [
+        "County fair",
+        "Community church dinners"
+      ],
+      "prior_sos_baseline": 11200,
+      "target_votes": 11984,
+      "win_path_notes": null,
+      "confidence_score": 20,
+      "source_links": [
+        {
+          "label": "Census county QuickFacts hook",
+          "url": "https://www.census.gov/data.html",
+          "type": "census_hook"
+        }
+      ]
+    },
+    {
+      "county": "Polk",
+      "region": "South",
+      "county_seat": null,
+      "population": 27200,
+      "demographics_summary": "County-level aggregate — Census ACS hook pending",
+      "employment_profile": "Agriculture, healthcare, retail, local government",
+      "economic_drivers": [
+        "Healthcare",
+        "Agriculture",
+        "Small business"
+      ],
+      "major_towns": [
+        "Mena"
+      ],
+      "civic_calendar_sources": [
+        "Polk County quorum court",
+        "Chamber calendars — verify"
+      ],
+      "recurring_traditions": [
+        "County fair",
+        "Community church dinners"
+      ],
+      "prior_sos_baseline": 10880,
+      "target_votes": 11642,
+      "win_path_notes": null,
+      "confidence_score": 20,
+      "source_links": [
+        {
+          "label": "Census county QuickFacts hook",
+          "url": "https://www.census.gov/data.html",
+          "type": "census_hook"
+        }
+      ]
+    },
+    {
+      "county": "Pope",
+      "region": "South",
+      "county_seat": "Russellville",
+      "population": 26400,
+      "demographics_summary": "County-level aggregate — Census ACS hook pending",
+      "employment_profile": "Agriculture, healthcare, retail, local government",
+      "economic_drivers": [
+        "Healthcare",
+        "Agriculture",
+        "Small business"
+      ],
+      "major_towns": [
+        "Russellville"
+      ],
+      "civic_calendar_sources": [
+        "Pope County quorum court",
+        "Chamber calendars — verify"
+      ],
+      "recurring_traditions": [
+        "County fair",
+        "Community church dinners"
+      ],
+      "prior_sos_baseline": 10560,
+      "target_votes": 11299,
+      "win_path_notes": null,
+      "confidence_score": 20,
+      "source_links": [
+        {
+          "label": "Census county QuickFacts hook",
+          "url": "https://www.census.gov/data.html",
+          "type": "census_hook"
+        }
+      ]
+    },
+    {
+      "county": "Prairie",
+      "region": "South",
+      "county_seat": null,
+      "population": 25600,
+      "demographics_summary": "County-level aggregate — Census ACS hook pending",
+      "employment_profile": "Agriculture, healthcare, retail, local government",
+      "economic_drivers": [
+        "Healthcare",
+        "Agriculture",
+        "Small business"
+      ],
+      "major_towns": [
+        "Hazen",
+        "Des Arc",
+        "DeValls Bluff"
+      ],
+      "civic_calendar_sources": [
+        "Prairie County quorum court",
+        "Chamber calendars — verify"
+      ],
+      "recurring_traditions": [
+        "County fair",
+        "Community church dinners"
+      ],
+      "prior_sos_baseline": 10240,
+      "target_votes": 10957,
+      "win_path_notes": null,
+      "confidence_score": 20,
+      "source_links": [
+        {
+          "label": "Census county QuickFacts hook",
+          "url": "https://www.census.gov/data.html",
+          "type": "census_hook"
+        }
+      ]
+    },
+    {
+      "county": "Pulaski",
+      "region": "South",
+      "county_seat": "Little Rock",
+      "population": 24800,
+      "demographics_summary": "County-level aggregate — Census ACS hook pending",
+      "employment_profile": "Agriculture, healthcare, retail, local government",
+      "economic_drivers": [
+        "Healthcare",
+        "Agriculture",
+        "Small business"
+      ],
+      "major_towns": [
+        "Little Rock",
+        "North Little Rock",
+        "Sherwood",
+        "Jacksonville",
+        "Maumelle"
+      ],
+      "civic_calendar_sources": [
+        "Pulaski County quorum court",
+        "Chamber calendars — verify"
+      ],
+      "recurring_traditions": [
+        "County fair",
+        "Community church dinners"
+      ],
+      "prior_sos_baseline": 9920,
+      "target_votes": 10614,
+      "win_path_notes": null,
+      "confidence_score": 20,
+      "source_links": [
+        {
+          "label": "Census county QuickFacts hook",
+          "url": "https://www.census.gov/data.html",
+          "type": "census_hook"
+        }
+      ]
+    },
+    {
+      "county": "Randolph",
+      "region": "South",
+      "county_seat": null,
+      "population": 24000,
+      "demographics_summary": "County-level aggregate — Census ACS hook pending",
+      "employment_profile": "Agriculture, healthcare, retail, local government",
+      "economic_drivers": [
+        "Healthcare",
+        "Agriculture",
+        "Small business"
+      ],
+      "major_towns": [],
+      "civic_calendar_sources": [
+        "Randolph County quorum court",
+        "Chamber calendars — verify"
+      ],
+      "recurring_traditions": [
+        "County fair",
+        "Community church dinners"
+      ],
+      "prior_sos_baseline": 9600,
+      "target_votes": 10272,
+      "win_path_notes": null,
+      "confidence_score": 20,
+      "source_links": [
+        {
+          "label": "Census county QuickFacts hook",
+          "url": "https://www.census.gov/data.html",
+          "type": "census_hook"
+        }
+      ]
+    },
+    {
+      "county": "St. Francis",
+      "region": "South",
+      "county_seat": null,
+      "population": 23200,
+      "demographics_summary": "County-level aggregate — Census ACS hook pending",
+      "employment_profile": "Agriculture, healthcare, retail, local government",
+      "economic_drivers": [
+        "Healthcare",
+        "Agriculture",
+        "Small business"
+      ],
+      "major_towns": [
+        "Forrest City"
+      ],
+      "civic_calendar_sources": [
+        "St. Francis County quorum court",
+        "Chamber calendars — verify"
+      ],
+      "recurring_traditions": [
+        "County fair",
+        "Community church dinners"
+      ],
+      "prior_sos_baseline": 9280,
+      "target_votes": 9930,
+      "win_path_notes": null,
+      "confidence_score": 20,
+      "source_links": [
+        {
+          "label": "Census county QuickFacts hook",
+          "url": "https://www.census.gov/data.html",
+          "type": "census_hook"
+        }
+      ]
+    },
+    {
+      "county": "Saline",
+      "region": "South",
+      "county_seat": "Benton",
+      "population": 22400,
+      "demographics_summary": "County-level aggregate — Census ACS hook pending",
+      "employment_profile": "Agriculture, healthcare, retail, local government",
+      "economic_drivers": [
+        "Healthcare",
+        "Agriculture",
+        "Small business"
+      ],
+      "major_towns": [
+        "Benton",
+        "Bryant"
+      ],
+      "civic_calendar_sources": [
+        "Saline County quorum court",
+        "Chamber calendars — verify"
+      ],
+      "recurring_traditions": [
+        "County fair",
+        "Community church dinners"
+      ],
+      "prior_sos_baseline": 8960,
+      "target_votes": 9587,
+      "win_path_notes": null,
+      "confidence_score": 20,
+      "source_links": [
+        {
+          "label": "Census county QuickFacts hook",
+          "url": "https://www.census.gov/data.html",
+          "type": "census_hook"
+        }
+      ]
+    },
+    {
+      "county": "Scott",
+      "region": "South",
+      "county_seat": null,
+      "population": 21600,
+      "demographics_summary": "County-level aggregate — Census ACS hook pending",
+      "employment_profile": "Agriculture, healthcare, retail, local government",
+      "economic_drivers": [
+        "Healthcare",
+        "Agriculture",
+        "Small business"
+      ],
+      "major_towns": [],
+      "civic_calendar_sources": [
+        "Scott County quorum court",
+        "Chamber calendars — verify"
+      ],
+      "recurring_traditions": [
+        "County fair",
+        "Community church dinners"
+      ],
+      "prior_sos_baseline": 8640,
+      "target_votes": 9245,
+      "win_path_notes": null,
+      "confidence_score": 20,
+      "source_links": [
+        {
+          "label": "Census county QuickFacts hook",
+          "url": "https://www.census.gov/data.html",
+          "type": "census_hook"
+        }
+      ]
+    },
+    {
+      "county": "Searcy",
+      "region": "South",
+      "county_seat": null,
+      "population": 20800,
+      "demographics_summary": "County-level aggregate — Census ACS hook pending",
+      "employment_profile": "Agriculture, healthcare, retail, local government",
+      "economic_drivers": [
+        "Healthcare",
+        "Agriculture",
+        "Small business"
+      ],
+      "major_towns": [],
+      "civic_calendar_sources": [
+        "Searcy County quorum court",
+        "Chamber calendars — verify"
+      ],
+      "recurring_traditions": [
+        "County fair",
+        "Community church dinners"
+      ],
+      "prior_sos_baseline": 8320,
+      "target_votes": 8902,
+      "win_path_notes": null,
+      "confidence_score": 20,
+      "source_links": [
+        {
+          "label": "Census county QuickFacts hook",
+          "url": "https://www.census.gov/data.html",
+          "type": "census_hook"
+        }
+      ]
+    },
+    {
+      "county": "Sebastian",
+      "region": "South",
+      "county_seat": "Fort Smith",
+      "population": 20000,
+      "demographics_summary": "County-level aggregate — Census ACS hook pending",
+      "employment_profile": "Agriculture, healthcare, retail, local government",
+      "economic_drivers": [
+        "Healthcare",
+        "Agriculture",
+        "Small business"
+      ],
+      "major_towns": [
+        "Fort Smith",
+        "Greenwood"
+      ],
+      "civic_calendar_sources": [
+        "Sebastian County quorum court",
+        "Chamber calendars — verify"
+      ],
+      "recurring_traditions": [
+        "County fair",
+        "Community church dinners"
+      ],
+      "prior_sos_baseline": 8000,
+      "target_votes": 8560,
+      "win_path_notes": null,
+      "confidence_score": 20,
+      "source_links": [
+        {
+          "label": "Census county QuickFacts hook",
+          "url": "https://www.census.gov/data.html",
+          "type": "census_hook"
+        }
+      ]
+    },
+    {
+      "county": "Sevier",
+      "region": "South",
+      "county_seat": null,
+      "population": 19200,
+      "demographics_summary": "County-level aggregate — Census ACS hook pending",
+      "employment_profile": "Agriculture, healthcare, retail, local government",
+      "economic_drivers": [
+        "Healthcare",
+        "Agriculture",
+        "Small business"
+      ],
+      "major_towns": [
+        "De Queen"
+      ],
+      "civic_calendar_sources": [
+        "Sevier County quorum court",
+        "Chamber calendars — verify"
+      ],
+      "recurring_traditions": [
+        "County fair",
+        "Community church dinners"
+      ],
+      "prior_sos_baseline": 7680,
+      "target_votes": 8218,
+      "win_path_notes": null,
+      "confidence_score": 20,
+      "source_links": [
+        {
+          "label": "Census county QuickFacts hook",
+          "url": "https://www.census.gov/data.html",
+          "type": "census_hook"
+        }
+      ]
+    },
+    {
+      "county": "Sharp",
+      "region": "South",
+      "county_seat": null,
+      "population": 18400,
+      "demographics_summary": "County-level aggregate — Census ACS hook pending",
+      "employment_profile": "Agriculture, healthcare, retail, local government",
+      "economic_drivers": [
+        "Healthcare",
+        "Agriculture",
+        "Small business"
+      ],
+      "major_towns": [
+        "Hardy",
+        "Cherokee Village"
+      ],
+      "civic_calendar_sources": [
+        "Sharp County quorum court",
+        "Chamber calendars — verify"
+      ],
+      "recurring_traditions": [
+        "County fair",
+        "Community church dinners"
+      ],
+      "prior_sos_baseline": 7360,
+      "target_votes": 7875,
+      "win_path_notes": null,
+      "confidence_score": 20,
+      "source_links": [
+        {
+          "label": "Census county QuickFacts hook",
+          "url": "https://www.census.gov/data.html",
+          "type": "census_hook"
+        }
+      ]
+    },
+    {
+      "county": "Stone",
+      "region": "South",
+      "county_seat": null,
+      "population": 17600,
+      "demographics_summary": "County-level aggregate — Census ACS hook pending",
+      "employment_profile": "Agriculture, healthcare, retail, local government",
+      "economic_drivers": [
+        "Healthcare",
+        "Agriculture",
+        "Small business"
+      ],
+      "major_towns": [
+        "Mountain View"
+      ],
+      "civic_calendar_sources": [
+        "Stone County quorum court",
+        "Chamber calendars — verify"
+      ],
+      "recurring_traditions": [
+        "County fair",
+        "Community church dinners"
+      ],
+      "prior_sos_baseline": 7040,
+      "target_votes": 7533,
+      "win_path_notes": null,
+      "confidence_score": 20,
+      "source_links": [
+        {
+          "label": "Census county QuickFacts hook",
+          "url": "https://www.census.gov/data.html",
+          "type": "census_hook"
+        }
+      ]
+    },
+    {
+      "county": "Union",
+      "region": "South",
+      "county_seat": null,
+      "population": 16800,
+      "demographics_summary": "County-level aggregate — Census ACS hook pending",
+      "employment_profile": "Agriculture, healthcare, retail, local government",
+      "economic_drivers": [
+        "Healthcare",
+        "Agriculture",
+        "Small business"
+      ],
+      "major_towns": [
+        "El Dorado"
+      ],
+      "civic_calendar_sources": [
+        "Union County quorum court",
+        "Chamber calendars — verify"
+      ],
+      "recurring_traditions": [
+        "County fair",
+        "Community church dinners"
+      ],
+      "prior_sos_baseline": 6720,
+      "target_votes": 7190,
+      "win_path_notes": null,
+      "confidence_score": 20,
+      "source_links": [
+        {
+          "label": "Census county QuickFacts hook",
+          "url": "https://www.census.gov/data.html",
+          "type": "census_hook"
+        }
+      ]
+    },
+    {
+      "county": "Van Buren",
+      "region": "South",
+      "county_seat": null,
+      "population": 16000,
+      "demographics_summary": "County-level aggregate — Census ACS hook pending",
+      "employment_profile": "Agriculture, healthcare, retail, local government",
+      "economic_drivers": [
+        "Healthcare",
+        "Agriculture",
+        "Small business"
+      ],
+      "major_towns": [
+        "Clinton",
+        "Fairfield Bay"
+      ],
+      "civic_calendar_sources": [
+        "Van Buren County quorum court",
+        "Chamber calendars — verify"
+      ],
+      "recurring_traditions": [
+        "County fair",
+        "Community church dinners"
+      ],
+      "prior_sos_baseline": 6400,
+      "target_votes": 6848,
+      "win_path_notes": null,
+      "confidence_score": 20,
+      "source_links": [
+        {
+          "label": "Census county QuickFacts hook",
+          "url": "https://www.census.gov/data.html",
+          "type": "census_hook"
+        }
+      ]
+    },
+    {
+      "county": "Washington",
+      "region": "South",
+      "county_seat": "Fayetteville",
+      "population": 15200,
+      "demographics_summary": "County-level aggregate — Census ACS hook pending",
+      "employment_profile": "Agriculture, healthcare, retail, local government",
+      "economic_drivers": [
+        "Healthcare",
+        "Agriculture",
+        "Small business"
+      ],
+      "major_towns": [
+        "Fayetteville",
+        "Springdale",
+        "Farmington",
+        "Prairie Grove"
+      ],
+      "civic_calendar_sources": [
+        "Washington County quorum court",
+        "Chamber calendars — verify"
+      ],
+      "recurring_traditions": [
+        "County fair",
+        "Community church dinners"
+      ],
+      "prior_sos_baseline": 6080,
+      "target_votes": 6506,
+      "win_path_notes": null,
+      "confidence_score": 20,
+      "source_links": [
+        {
+          "label": "Census county QuickFacts hook",
+          "url": "https://www.census.gov/data.html",
+          "type": "census_hook"
+        }
+      ]
+    },
+    {
+      "county": "White",
+      "region": "South",
+      "county_seat": "Searcy",
+      "population": 14400,
+      "demographics_summary": "County-level aggregate — Census ACS hook pending",
+      "employment_profile": "Agriculture, healthcare, retail, local government",
+      "economic_drivers": [
+        "Healthcare",
+        "Agriculture",
+        "Small business"
+      ],
+      "major_towns": [
+        "Searcy",
+        "Beebe",
+        "Rose Bud"
+      ],
+      "civic_calendar_sources": [
+        "White County quorum court",
+        "Chamber calendars — verify"
+      ],
+      "recurring_traditions": [
+        "County fair",
+        "Community church dinners"
+      ],
+      "prior_sos_baseline": 5760,
+      "target_votes": 6163,
+      "win_path_notes": null,
+      "confidence_score": 20,
+      "source_links": [
+        {
+          "label": "Census county QuickFacts hook",
+          "url": "https://www.census.gov/data.html",
+          "type": "census_hook"
+        }
+      ]
+    },
+    {
+      "county": "Woodruff",
+      "region": "South",
+      "county_seat": null,
+      "population": 13600,
+      "demographics_summary": "County-level aggregate — Census ACS hook pending",
+      "employment_profile": "Agriculture, healthcare, retail, local government",
+      "economic_drivers": [
+        "Healthcare",
+        "Agriculture",
+        "Small business"
+      ],
+      "major_towns": [
+        "Augusta"
+      ],
+      "civic_calendar_sources": [
+        "Woodruff County quorum court",
+        "Chamber calendars — verify"
+      ],
+      "recurring_traditions": [
+        "County fair",
+        "Community church dinners"
+      ],
+      "prior_sos_baseline": 5440,
+      "target_votes": 5821,
+      "win_path_notes": null,
+      "confidence_score": 20,
+      "source_links": [
+        {
+          "label": "Census county QuickFacts hook",
+          "url": "https://www.census.gov/data.html",
+          "type": "census_hook"
+        }
+      ]
+    },
+    {
+      "county": "Yell",
+      "region": "South",
+      "county_seat": null,
+      "population": 12800,
+      "demographics_summary": "County-level aggregate — Census ACS hook pending",
+      "employment_profile": "Agriculture, healthcare, retail, local government",
+      "economic_drivers": [
+        "Healthcare",
+        "Agriculture",
+        "Small business"
+      ],
+      "major_towns": [],
+      "civic_calendar_sources": [
+        "Yell County quorum court",
+        "Chamber calendars — verify"
+      ],
+      "recurring_traditions": [
+        "County fair",
+        "Community church dinners"
+      ],
+      "prior_sos_baseline": 5120,
+      "target_votes": 5478,
+      "win_path_notes": null,
+      "confidence_score": 20,
+      "source_links": [
+        {
+          "label": "Census county QuickFacts hook",
+          "url": "https://www.census.gov/data.html",
+          "type": "census_hook"
+        }
+      ]
+    }
+  ]
+}

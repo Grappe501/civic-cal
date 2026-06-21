@@ -20,6 +20,8 @@ import { getCampaignBranding } from "../../lib/campaigns/brandingProfile";
 import { formatEventRange } from "../../lib/format";
 import { GoogleCalendarRail, MobilizeRail } from "../integrations/IntegrationRails";
 import type { IntelligenceLayer } from "../../lib/intelligence/eventLayers";
+import { CampaignLocalIntelOverview } from "../local-intelligence/CampaignLocalIntelOverview";
+import { LocalGeographyIntelStrip } from "../local-intelligence/LocalGeographyIntelStrip";
 import { LayerBadge, DensityBadge } from "../intelligence/LayerBadge";
 
 interface Props {
@@ -111,6 +113,8 @@ function EventIntelCard({
       {!compact && dossierMini.guidance && (
         <p className="text-[10px] text-muted mt-2 line-clamp-2">{dossierMini.guidance}</p>
       )}
+
+      <LocalGeographyIntelStrip event={event} campaignSlug={workspace.slug} compact={compact} />
 
       <div className="mt-3 flex flex-wrap gap-1">
         {PLAN_STATUSES.map((status) => (
@@ -304,6 +308,15 @@ export function CampaignDashboard({ workspace }: Props) {
             {boundaryStatusNote(workspace) ?? workspace.districtScope.boundaryNote ?? "Partial counties use statutory lists until precinct GeoJSON loads."}
           </div>
         </div>
+      )}
+
+      {section === "summary" && (
+        <CampaignLocalIntelOverview
+          workspace={workspace}
+          classified={allVisible}
+          themePrimary={theme.primaryColor}
+          themeAccent={theme.accentColor}
+        />
       )}
 
       {section === "summary" && (

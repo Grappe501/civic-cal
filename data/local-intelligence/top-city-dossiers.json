@@ -1,0 +1,5508 @@
+{
+  "version": 1,
+  "generatedAt": "2026-06-21",
+  "count": 100,
+  "maxExpand": 250,
+  "cities": [
+    {
+      "city": "Little Rock",
+      "county": "Pulaski",
+      "region": "Central",
+      "priority_rank": 1,
+      "population": 85000,
+      "demographics_summary": "Central Arkansas community — aggregate ACS/Census hook pending full import",
+      "age_profile": "Mixed urban/suburban age spread",
+      "income_profile": "Median household income — Census ACS 5-year (placeholder)",
+      "employment_profile": "State government, healthcare, logistics, education",
+      "education_profile": "Public schools + community college access varies by hub size",
+      "major_employers": [
+        "Local healthcare",
+        "School district",
+        "Municipal government"
+      ],
+      "civic_institutions": [
+        "Chamber of commerce",
+        "County extension office",
+        "Public library"
+      ],
+      "churches": [
+        "Community churches — local verification needed"
+      ],
+      "schools": [
+        "Public school district — verify boundary"
+      ],
+      "recurring_events": [
+        "County fair",
+        "Community church dinners",
+        "City council meetings"
+      ],
+      "local_media": [
+        "Local newspaper / radio — verify outlet list"
+      ],
+      "political_notes": null,
+      "sos_baseline_votes": 35700,
+      "sos_target_votes": 38556,
+      "persuasion_gap": 1542,
+      "turnout_gap": 2142,
+      "opportunity_notes": "Priority rank 1 — relationship-density events drive local trust",
+      "confidence_score": 25,
+      "source_links": [
+        {
+          "label": "Census QuickFacts (hook)",
+          "url": "https://www.census.gov/quickfacts/fact/table/US/PST045224",
+          "type": "census_hook"
+        },
+        {
+          "label": "BLS QCEW (hook)",
+          "url": "https://www.bls.gov/cew/",
+          "type": "bls_hook"
+        }
+      ]
+    },
+    {
+      "city": "Fort Smith",
+      "county": "Sebastian",
+      "region": "West",
+      "priority_rank": 2,
+      "population": 85000,
+      "demographics_summary": "West Arkansas community — aggregate ACS/Census hook pending full import",
+      "age_profile": "Mixed urban/suburban age spread",
+      "income_profile": "Median household income — Census ACS 5-year (placeholder)",
+      "employment_profile": "Manufacturing, military-adjacent, healthcare",
+      "education_profile": "Public schools + community college access varies by hub size",
+      "major_employers": [
+        "Local healthcare",
+        "School district",
+        "Municipal government"
+      ],
+      "civic_institutions": [
+        "Chamber of commerce",
+        "County extension office",
+        "Public library"
+      ],
+      "churches": [
+        "Community churches — local verification needed"
+      ],
+      "schools": [
+        "Public school district — verify boundary"
+      ],
+      "recurring_events": [
+        "County fair",
+        "Community church dinners",
+        "City council meetings"
+      ],
+      "local_media": [
+        "Local newspaper / radio — verify outlet list"
+      ],
+      "political_notes": null,
+      "sos_baseline_votes": 35700,
+      "sos_target_votes": 38556,
+      "persuasion_gap": 1542,
+      "turnout_gap": 2142,
+      "opportunity_notes": "Priority rank 2 — relationship-density events drive local trust",
+      "confidence_score": 25,
+      "source_links": [
+        {
+          "label": "Census QuickFacts (hook)",
+          "url": "https://www.census.gov/quickfacts/fact/table/US/PST045224",
+          "type": "census_hook"
+        },
+        {
+          "label": "BLS QCEW (hook)",
+          "url": "https://www.bls.gov/cew/",
+          "type": "bls_hook"
+        }
+      ]
+    },
+    {
+      "city": "Fayetteville",
+      "county": "Washington",
+      "region": "Northwest",
+      "priority_rank": 3,
+      "population": 85000,
+      "demographics_summary": "Northwest Arkansas community — aggregate ACS/Census hook pending full import",
+      "age_profile": "Mixed urban/suburban age spread",
+      "income_profile": "Median household income — Census ACS 5-year (placeholder)",
+      "employment_profile": "Retail, poultry, university, construction",
+      "education_profile": "Public schools + community college access varies by hub size",
+      "major_employers": [
+        "Local healthcare",
+        "School district",
+        "Municipal government"
+      ],
+      "civic_institutions": [
+        "Chamber of commerce",
+        "County extension office",
+        "Public library"
+      ],
+      "churches": [
+        "Community churches — local verification needed"
+      ],
+      "schools": [
+        "Public school district — verify boundary"
+      ],
+      "recurring_events": [
+        "County fair",
+        "Community church dinners",
+        "City council meetings"
+      ],
+      "local_media": [
+        "Local newspaper / radio — verify outlet list"
+      ],
+      "political_notes": null,
+      "sos_baseline_votes": 35700,
+      "sos_target_votes": 38556,
+      "persuasion_gap": 1542,
+      "turnout_gap": 2142,
+      "opportunity_notes": "Priority rank 3 — relationship-density events drive local trust",
+      "confidence_score": 25,
+      "source_links": [
+        {
+          "label": "Census QuickFacts (hook)",
+          "url": "https://www.census.gov/quickfacts/fact/table/US/PST045224",
+          "type": "census_hook"
+        },
+        {
+          "label": "BLS QCEW (hook)",
+          "url": "https://www.bls.gov/cew/",
+          "type": "bls_hook"
+        }
+      ]
+    },
+    {
+      "city": "Springdale",
+      "county": "Washington",
+      "region": "Northwest",
+      "priority_rank": 4,
+      "population": 85000,
+      "demographics_summary": "Northwest Arkansas community — aggregate ACS/Census hook pending full import",
+      "age_profile": "Mixed urban/suburban age spread",
+      "income_profile": "Median household income — Census ACS 5-year (placeholder)",
+      "employment_profile": "Retail, poultry, university, construction",
+      "education_profile": "Public schools + community college access varies by hub size",
+      "major_employers": [
+        "Local healthcare",
+        "School district",
+        "Municipal government"
+      ],
+      "civic_institutions": [
+        "Chamber of commerce",
+        "County extension office",
+        "Public library"
+      ],
+      "churches": [
+        "Community churches — local verification needed"
+      ],
+      "schools": [
+        "Public school district — verify boundary"
+      ],
+      "recurring_events": [
+        "County fair",
+        "Community church dinners",
+        "City council meetings"
+      ],
+      "local_media": [
+        "Local newspaper / radio — verify outlet list"
+      ],
+      "political_notes": null,
+      "sos_baseline_votes": 35700,
+      "sos_target_votes": 38556,
+      "persuasion_gap": 1542,
+      "turnout_gap": 2142,
+      "opportunity_notes": "Priority rank 4 — relationship-density events drive local trust",
+      "confidence_score": 25,
+      "source_links": [
+        {
+          "label": "Census QuickFacts (hook)",
+          "url": "https://www.census.gov/quickfacts/fact/table/US/PST045224",
+          "type": "census_hook"
+        },
+        {
+          "label": "BLS QCEW (hook)",
+          "url": "https://www.bls.gov/cew/",
+          "type": "bls_hook"
+        }
+      ]
+    },
+    {
+      "city": "Jonesboro",
+      "county": "Craighead",
+      "region": "Northeast",
+      "priority_rank": 5,
+      "population": 85000,
+      "demographics_summary": "Northeast Arkansas community — aggregate ACS/Census hook pending full import",
+      "age_profile": "Mixed urban/suburban age spread",
+      "income_profile": "Median household income — Census ACS 5-year (placeholder)",
+      "employment_profile": "Agriculture, food processing, education",
+      "education_profile": "Public schools + community college access varies by hub size",
+      "major_employers": [
+        "Local healthcare",
+        "School district",
+        "Municipal government"
+      ],
+      "civic_institutions": [
+        "Chamber of commerce",
+        "County extension office",
+        "Public library"
+      ],
+      "churches": [
+        "Community churches — local verification needed"
+      ],
+      "schools": [
+        "Public school district — verify boundary"
+      ],
+      "recurring_events": [
+        "County fair",
+        "Community church dinners",
+        "City council meetings"
+      ],
+      "local_media": [
+        "Local newspaper / radio — verify outlet list"
+      ],
+      "political_notes": null,
+      "sos_baseline_votes": 35700,
+      "sos_target_votes": 38556,
+      "persuasion_gap": 1542,
+      "turnout_gap": 2142,
+      "opportunity_notes": "Priority rank 5 — relationship-density events drive local trust",
+      "confidence_score": 25,
+      "source_links": [
+        {
+          "label": "Census QuickFacts (hook)",
+          "url": "https://www.census.gov/quickfacts/fact/table/US/PST045224",
+          "type": "census_hook"
+        },
+        {
+          "label": "BLS QCEW (hook)",
+          "url": "https://www.bls.gov/cew/",
+          "type": "bls_hook"
+        }
+      ]
+    },
+    {
+      "city": "Rogers",
+      "county": "Benton",
+      "region": "Northwest",
+      "priority_rank": 6,
+      "population": 85000,
+      "demographics_summary": "Northwest Arkansas community — aggregate ACS/Census hook pending full import",
+      "age_profile": "Mixed urban/suburban age spread",
+      "income_profile": "Median household income — Census ACS 5-year (placeholder)",
+      "employment_profile": "Retail, poultry, university, construction",
+      "education_profile": "Public schools + community college access varies by hub size",
+      "major_employers": [
+        "Local healthcare",
+        "School district",
+        "Municipal government"
+      ],
+      "civic_institutions": [
+        "Chamber of commerce",
+        "County extension office",
+        "Public library"
+      ],
+      "churches": [
+        "Community churches — local verification needed"
+      ],
+      "schools": [
+        "Public school district — verify boundary"
+      ],
+      "recurring_events": [
+        "County fair",
+        "Community church dinners",
+        "City council meetings"
+      ],
+      "local_media": [
+        "Local newspaper / radio — verify outlet list"
+      ],
+      "political_notes": null,
+      "sos_baseline_votes": 35700,
+      "sos_target_votes": 38556,
+      "persuasion_gap": 1542,
+      "turnout_gap": 2142,
+      "opportunity_notes": "Priority rank 6 — relationship-density events drive local trust",
+      "confidence_score": 25,
+      "source_links": [
+        {
+          "label": "Census QuickFacts (hook)",
+          "url": "https://www.census.gov/quickfacts/fact/table/US/PST045224",
+          "type": "census_hook"
+        },
+        {
+          "label": "BLS QCEW (hook)",
+          "url": "https://www.bls.gov/cew/",
+          "type": "bls_hook"
+        }
+      ]
+    },
+    {
+      "city": "Conway",
+      "county": "Faulkner",
+      "region": "Central",
+      "priority_rank": 7,
+      "population": 85000,
+      "demographics_summary": "Central Arkansas community — aggregate ACS/Census hook pending full import",
+      "age_profile": "Mixed urban/suburban age spread",
+      "income_profile": "Median household income — Census ACS 5-year (placeholder)",
+      "employment_profile": "State government, healthcare, logistics, education",
+      "education_profile": "Public schools + community college access varies by hub size",
+      "major_employers": [
+        "Local healthcare",
+        "School district",
+        "Municipal government"
+      ],
+      "civic_institutions": [
+        "Chamber of commerce",
+        "County extension office",
+        "Public library"
+      ],
+      "churches": [
+        "Community churches — local verification needed"
+      ],
+      "schools": [
+        "Public school district — verify boundary"
+      ],
+      "recurring_events": [
+        "County fair",
+        "Community church dinners",
+        "City council meetings"
+      ],
+      "local_media": [
+        "Local newspaper / radio — verify outlet list"
+      ],
+      "political_notes": null,
+      "sos_baseline_votes": 35700,
+      "sos_target_votes": 38556,
+      "persuasion_gap": 1542,
+      "turnout_gap": 2142,
+      "opportunity_notes": "Priority rank 7 — relationship-density events drive local trust",
+      "confidence_score": 25,
+      "source_links": [
+        {
+          "label": "Census QuickFacts (hook)",
+          "url": "https://www.census.gov/quickfacts/fact/table/US/PST045224",
+          "type": "census_hook"
+        },
+        {
+          "label": "BLS QCEW (hook)",
+          "url": "https://www.bls.gov/cew/",
+          "type": "bls_hook"
+        }
+      ]
+    },
+    {
+      "city": "North Little Rock",
+      "county": "Pulaski",
+      "region": "Central",
+      "priority_rank": 8,
+      "population": 85000,
+      "demographics_summary": "Central Arkansas community — aggregate ACS/Census hook pending full import",
+      "age_profile": "Mixed urban/suburban age spread",
+      "income_profile": "Median household income — Census ACS 5-year (placeholder)",
+      "employment_profile": "State government, healthcare, logistics, education",
+      "education_profile": "Public schools + community college access varies by hub size",
+      "major_employers": [
+        "Local healthcare",
+        "School district",
+        "Municipal government"
+      ],
+      "civic_institutions": [
+        "Chamber of commerce",
+        "County extension office",
+        "Public library"
+      ],
+      "churches": [
+        "Community churches — local verification needed"
+      ],
+      "schools": [
+        "Public school district — verify boundary"
+      ],
+      "recurring_events": [
+        "County fair",
+        "Community church dinners",
+        "City council meetings"
+      ],
+      "local_media": [
+        "Local newspaper / radio — verify outlet list"
+      ],
+      "political_notes": null,
+      "sos_baseline_votes": 35700,
+      "sos_target_votes": 38556,
+      "persuasion_gap": 1542,
+      "turnout_gap": 2142,
+      "opportunity_notes": "Priority rank 8 — relationship-density events drive local trust",
+      "confidence_score": 25,
+      "source_links": [
+        {
+          "label": "Census QuickFacts (hook)",
+          "url": "https://www.census.gov/quickfacts/fact/table/US/PST045224",
+          "type": "census_hook"
+        },
+        {
+          "label": "BLS QCEW (hook)",
+          "url": "https://www.bls.gov/cew/",
+          "type": "bls_hook"
+        }
+      ]
+    },
+    {
+      "city": "Bentonville",
+      "county": "Benton",
+      "region": "Northwest",
+      "priority_rank": 9,
+      "population": 85000,
+      "demographics_summary": "Northwest Arkansas community — aggregate ACS/Census hook pending full import",
+      "age_profile": "Mixed urban/suburban age spread",
+      "income_profile": "Median household income — Census ACS 5-year (placeholder)",
+      "employment_profile": "Retail, poultry, university, construction",
+      "education_profile": "Public schools + community college access varies by hub size",
+      "major_employers": [
+        "Local healthcare",
+        "School district",
+        "Municipal government"
+      ],
+      "civic_institutions": [
+        "Chamber of commerce",
+        "County extension office",
+        "Public library"
+      ],
+      "churches": [
+        "Community churches — local verification needed"
+      ],
+      "schools": [
+        "Public school district — verify boundary"
+      ],
+      "recurring_events": [
+        "County fair",
+        "Community church dinners",
+        "City council meetings"
+      ],
+      "local_media": [
+        "Local newspaper / radio — verify outlet list"
+      ],
+      "political_notes": null,
+      "sos_baseline_votes": 35700,
+      "sos_target_votes": 38556,
+      "persuasion_gap": 1542,
+      "turnout_gap": 2142,
+      "opportunity_notes": "Priority rank 9 — relationship-density events drive local trust",
+      "confidence_score": 25,
+      "source_links": [
+        {
+          "label": "Census QuickFacts (hook)",
+          "url": "https://www.census.gov/quickfacts/fact/table/US/PST045224",
+          "type": "census_hook"
+        },
+        {
+          "label": "BLS QCEW (hook)",
+          "url": "https://www.bls.gov/cew/",
+          "type": "bls_hook"
+        }
+      ]
+    },
+    {
+      "city": "Pine Bluff",
+      "county": "Jefferson",
+      "region": "Southeast",
+      "priority_rank": 10,
+      "population": 85000,
+      "demographics_summary": "Southeast Arkansas community — aggregate ACS/Census hook pending full import",
+      "age_profile": "Mixed urban/suburban age spread",
+      "income_profile": "Median household income — Census ACS 5-year (placeholder)",
+      "employment_profile": "Agriculture, paper/ timber, healthcare",
+      "education_profile": "Public schools + community college access varies by hub size",
+      "major_employers": [
+        "Local healthcare",
+        "School district",
+        "Municipal government"
+      ],
+      "civic_institutions": [
+        "Chamber of commerce",
+        "County extension office",
+        "Public library"
+      ],
+      "churches": [
+        "Community churches — local verification needed"
+      ],
+      "schools": [
+        "Public school district — verify boundary"
+      ],
+      "recurring_events": [
+        "County fair",
+        "Community church dinners",
+        "City council meetings"
+      ],
+      "local_media": [
+        "Local newspaper / radio — verify outlet list"
+      ],
+      "political_notes": null,
+      "sos_baseline_votes": 35700,
+      "sos_target_votes": 38556,
+      "persuasion_gap": 1542,
+      "turnout_gap": 2142,
+      "opportunity_notes": "Priority rank 10 — relationship-density events drive local trust",
+      "confidence_score": 25,
+      "source_links": [
+        {
+          "label": "Census QuickFacts (hook)",
+          "url": "https://www.census.gov/quickfacts/fact/table/US/PST045224",
+          "type": "census_hook"
+        },
+        {
+          "label": "BLS QCEW (hook)",
+          "url": "https://www.bls.gov/cew/",
+          "type": "bls_hook"
+        }
+      ]
+    },
+    {
+      "city": "Hot Springs",
+      "county": "Garland",
+      "region": "Central",
+      "priority_rank": 11,
+      "population": 85000,
+      "demographics_summary": "Central Arkansas community — aggregate ACS/Census hook pending full import",
+      "age_profile": "Mixed urban/suburban age spread",
+      "income_profile": "Median household income — Census ACS 5-year (placeholder)",
+      "employment_profile": "State government, healthcare, logistics, education",
+      "education_profile": "Public schools + community college access varies by hub size",
+      "major_employers": [
+        "Local healthcare",
+        "School district",
+        "Municipal government"
+      ],
+      "civic_institutions": [
+        "Chamber of commerce",
+        "County extension office",
+        "Public library"
+      ],
+      "churches": [
+        "Community churches — local verification needed"
+      ],
+      "schools": [
+        "Public school district — verify boundary"
+      ],
+      "recurring_events": [
+        "County fair",
+        "Community church dinners",
+        "City council meetings"
+      ],
+      "local_media": [
+        "Local newspaper / radio — verify outlet list"
+      ],
+      "political_notes": null,
+      "sos_baseline_votes": 35700,
+      "sos_target_votes": 38556,
+      "persuasion_gap": 1542,
+      "turnout_gap": 2142,
+      "opportunity_notes": "Priority rank 11 — relationship-density events drive local trust",
+      "confidence_score": 25,
+      "source_links": [
+        {
+          "label": "Census QuickFacts (hook)",
+          "url": "https://www.census.gov/quickfacts/fact/table/US/PST045224",
+          "type": "census_hook"
+        },
+        {
+          "label": "BLS QCEW (hook)",
+          "url": "https://www.bls.gov/cew/",
+          "type": "bls_hook"
+        }
+      ]
+    },
+    {
+      "city": "Benton",
+      "county": "Saline",
+      "region": "Central",
+      "priority_rank": 12,
+      "population": 85000,
+      "demographics_summary": "Central Arkansas community — aggregate ACS/Census hook pending full import",
+      "age_profile": "Mixed urban/suburban age spread",
+      "income_profile": "Median household income — Census ACS 5-year (placeholder)",
+      "employment_profile": "State government, healthcare, logistics, education",
+      "education_profile": "Public schools + community college access varies by hub size",
+      "major_employers": [
+        "Local healthcare",
+        "School district",
+        "Municipal government"
+      ],
+      "civic_institutions": [
+        "Chamber of commerce",
+        "County extension office",
+        "Public library"
+      ],
+      "churches": [
+        "Community churches — local verification needed"
+      ],
+      "schools": [
+        "Public school district — verify boundary"
+      ],
+      "recurring_events": [
+        "County fair",
+        "Community church dinners",
+        "City council meetings"
+      ],
+      "local_media": [
+        "Local newspaper / radio — verify outlet list"
+      ],
+      "political_notes": null,
+      "sos_baseline_votes": 35700,
+      "sos_target_votes": 38556,
+      "persuasion_gap": 1542,
+      "turnout_gap": 2142,
+      "opportunity_notes": "Priority rank 12 — relationship-density events drive local trust",
+      "confidence_score": 25,
+      "source_links": [
+        {
+          "label": "Census QuickFacts (hook)",
+          "url": "https://www.census.gov/quickfacts/fact/table/US/PST045224",
+          "type": "census_hook"
+        },
+        {
+          "label": "BLS QCEW (hook)",
+          "url": "https://www.bls.gov/cew/",
+          "type": "bls_hook"
+        }
+      ]
+    },
+    {
+      "city": "Texarkana",
+      "county": "Miller",
+      "region": "Southwest",
+      "priority_rank": 13,
+      "population": 85000,
+      "demographics_summary": "Southwest Arkansas community — aggregate ACS/Census hook pending full import",
+      "age_profile": "Mixed urban/suburban age spread",
+      "income_profile": "Median household income — Census ACS 5-year (placeholder)",
+      "employment_profile": "Timber, poultry, small manufacturing",
+      "education_profile": "Public schools + community college access varies by hub size",
+      "major_employers": [
+        "Local healthcare",
+        "School district",
+        "Municipal government"
+      ],
+      "civic_institutions": [
+        "Chamber of commerce",
+        "County extension office",
+        "Public library"
+      ],
+      "churches": [
+        "Community churches — local verification needed"
+      ],
+      "schools": [
+        "Public school district — verify boundary"
+      ],
+      "recurring_events": [
+        "County fair",
+        "Community church dinners",
+        "City council meetings"
+      ],
+      "local_media": [
+        "Local newspaper / radio — verify outlet list"
+      ],
+      "political_notes": null,
+      "sos_baseline_votes": 35700,
+      "sos_target_votes": 38556,
+      "persuasion_gap": 1542,
+      "turnout_gap": 2142,
+      "opportunity_notes": "Priority rank 13 — relationship-density events drive local trust",
+      "confidence_score": 25,
+      "source_links": [
+        {
+          "label": "Census QuickFacts (hook)",
+          "url": "https://www.census.gov/quickfacts/fact/table/US/PST045224",
+          "type": "census_hook"
+        },
+        {
+          "label": "BLS QCEW (hook)",
+          "url": "https://www.bls.gov/cew/",
+          "type": "bls_hook"
+        }
+      ]
+    },
+    {
+      "city": "Sherwood",
+      "county": "Pulaski",
+      "region": "Central",
+      "priority_rank": 14,
+      "population": 25000,
+      "demographics_summary": "Central Arkansas community — aggregate ACS/Census hook pending full import",
+      "age_profile": "Small-town aging + school-age cohort",
+      "income_profile": "Median household income — Census ACS 5-year (placeholder)",
+      "employment_profile": "State government, healthcare, logistics, education",
+      "education_profile": "Public schools + community college access varies by hub size",
+      "major_employers": [
+        "Local healthcare",
+        "School district",
+        "Municipal government"
+      ],
+      "civic_institutions": [
+        "Chamber of commerce",
+        "County extension office",
+        "Public library"
+      ],
+      "churches": [
+        "Community churches — local verification needed"
+      ],
+      "schools": [
+        "Public school district — verify boundary"
+      ],
+      "recurring_events": [
+        "County fair",
+        "Community church dinners",
+        "City council meetings"
+      ],
+      "local_media": [
+        "Local newspaper / radio — verify outlet list"
+      ],
+      "political_notes": null,
+      "sos_baseline_votes": 10500,
+      "sos_target_votes": 11340,
+      "persuasion_gap": 454,
+      "turnout_gap": 630,
+      "opportunity_notes": "Priority rank 14 — relationship-density events drive local trust",
+      "confidence_score": 25,
+      "source_links": [
+        {
+          "label": "Census QuickFacts (hook)",
+          "url": "https://www.census.gov/quickfacts/fact/table/US/PST045224",
+          "type": "census_hook"
+        },
+        {
+          "label": "BLS QCEW (hook)",
+          "url": "https://www.bls.gov/cew/",
+          "type": "bls_hook"
+        }
+      ]
+    },
+    {
+      "city": "Jacksonville",
+      "county": "Pulaski",
+      "region": "Central",
+      "priority_rank": 15,
+      "population": 25000,
+      "demographics_summary": "Central Arkansas community — aggregate ACS/Census hook pending full import",
+      "age_profile": "Small-town aging + school-age cohort",
+      "income_profile": "Median household income — Census ACS 5-year (placeholder)",
+      "employment_profile": "State government, healthcare, logistics, education",
+      "education_profile": "Public schools + community college access varies by hub size",
+      "major_employers": [
+        "Local healthcare",
+        "School district",
+        "Municipal government"
+      ],
+      "civic_institutions": [
+        "Chamber of commerce",
+        "County extension office",
+        "Public library"
+      ],
+      "churches": [
+        "Community churches — local verification needed"
+      ],
+      "schools": [
+        "Public school district — verify boundary"
+      ],
+      "recurring_events": [
+        "County fair",
+        "Community church dinners",
+        "City council meetings"
+      ],
+      "local_media": [
+        "Local newspaper / radio — verify outlet list"
+      ],
+      "political_notes": null,
+      "sos_baseline_votes": 10500,
+      "sos_target_votes": 11340,
+      "persuasion_gap": 454,
+      "turnout_gap": 630,
+      "opportunity_notes": "Priority rank 15 — relationship-density events drive local trust",
+      "confidence_score": 25,
+      "source_links": [
+        {
+          "label": "Census QuickFacts (hook)",
+          "url": "https://www.census.gov/quickfacts/fact/table/US/PST045224",
+          "type": "census_hook"
+        },
+        {
+          "label": "BLS QCEW (hook)",
+          "url": "https://www.bls.gov/cew/",
+          "type": "bls_hook"
+        }
+      ]
+    },
+    {
+      "city": "Russellville",
+      "county": "Pope",
+      "region": "River Valley",
+      "priority_rank": 16,
+      "population": 25000,
+      "demographics_summary": "River Valley Arkansas community — aggregate ACS/Census hook pending full import",
+      "age_profile": "Small-town aging + school-age cohort",
+      "income_profile": "Median household income — Census ACS 5-year (placeholder)",
+      "employment_profile": "Manufacturing, agriculture, Fort Smith metro spillover",
+      "education_profile": "Public schools + community college access varies by hub size",
+      "major_employers": [
+        "Local healthcare",
+        "School district",
+        "Municipal government"
+      ],
+      "civic_institutions": [
+        "Chamber of commerce",
+        "County extension office",
+        "Public library"
+      ],
+      "churches": [
+        "Community churches — local verification needed"
+      ],
+      "schools": [
+        "Public school district — verify boundary"
+      ],
+      "recurring_events": [
+        "County fair",
+        "Community church dinners",
+        "City council meetings"
+      ],
+      "local_media": [
+        "Local newspaper / radio — verify outlet list"
+      ],
+      "political_notes": null,
+      "sos_baseline_votes": 10500,
+      "sos_target_votes": 11340,
+      "persuasion_gap": 454,
+      "turnout_gap": 630,
+      "opportunity_notes": "Priority rank 16 — relationship-density events drive local trust",
+      "confidence_score": 25,
+      "source_links": [
+        {
+          "label": "Census QuickFacts (hook)",
+          "url": "https://www.census.gov/quickfacts/fact/table/US/PST045224",
+          "type": "census_hook"
+        },
+        {
+          "label": "BLS QCEW (hook)",
+          "url": "https://www.bls.gov/cew/",
+          "type": "bls_hook"
+        }
+      ]
+    },
+    {
+      "city": "Bella Vista",
+      "county": "Benton",
+      "region": "Northwest",
+      "priority_rank": 17,
+      "population": 25000,
+      "demographics_summary": "Northwest Arkansas community — aggregate ACS/Census hook pending full import",
+      "age_profile": "Small-town aging + school-age cohort",
+      "income_profile": "Median household income — Census ACS 5-year (placeholder)",
+      "employment_profile": "Retail, poultry, university, construction",
+      "education_profile": "Public schools + community college access varies by hub size",
+      "major_employers": [
+        "Local healthcare",
+        "School district",
+        "Municipal government"
+      ],
+      "civic_institutions": [
+        "Chamber of commerce",
+        "County extension office",
+        "Public library"
+      ],
+      "churches": [
+        "Community churches — local verification needed"
+      ],
+      "schools": [
+        "Public school district — verify boundary"
+      ],
+      "recurring_events": [
+        "County fair",
+        "Community church dinners",
+        "City council meetings"
+      ],
+      "local_media": [
+        "Local newspaper / radio — verify outlet list"
+      ],
+      "political_notes": null,
+      "sos_baseline_votes": 10500,
+      "sos_target_votes": 11340,
+      "persuasion_gap": 454,
+      "turnout_gap": 630,
+      "opportunity_notes": "Priority rank 17 — relationship-density events drive local trust",
+      "confidence_score": 25,
+      "source_links": [
+        {
+          "label": "Census QuickFacts (hook)",
+          "url": "https://www.census.gov/quickfacts/fact/table/US/PST045224",
+          "type": "census_hook"
+        },
+        {
+          "label": "BLS QCEW (hook)",
+          "url": "https://www.bls.gov/cew/",
+          "type": "bls_hook"
+        }
+      ]
+    },
+    {
+      "city": "Paragould",
+      "county": "Greene",
+      "region": "Northeast",
+      "priority_rank": 18,
+      "population": 25000,
+      "demographics_summary": "Northeast Arkansas community — aggregate ACS/Census hook pending full import",
+      "age_profile": "Small-town aging + school-age cohort",
+      "income_profile": "Median household income — Census ACS 5-year (placeholder)",
+      "employment_profile": "Agriculture, food processing, education",
+      "education_profile": "Public schools + community college access varies by hub size",
+      "major_employers": [
+        "Local healthcare",
+        "School district",
+        "Municipal government"
+      ],
+      "civic_institutions": [
+        "Chamber of commerce",
+        "County extension office",
+        "Public library"
+      ],
+      "churches": [
+        "Community churches — local verification needed"
+      ],
+      "schools": [
+        "Public school district — verify boundary"
+      ],
+      "recurring_events": [
+        "County fair",
+        "Community church dinners",
+        "City council meetings"
+      ],
+      "local_media": [
+        "Local newspaper / radio — verify outlet list"
+      ],
+      "political_notes": null,
+      "sos_baseline_votes": 10500,
+      "sos_target_votes": 11340,
+      "persuasion_gap": 454,
+      "turnout_gap": 630,
+      "opportunity_notes": "Priority rank 18 — relationship-density events drive local trust",
+      "confidence_score": 25,
+      "source_links": [
+        {
+          "label": "Census QuickFacts (hook)",
+          "url": "https://www.census.gov/quickfacts/fact/table/US/PST045224",
+          "type": "census_hook"
+        },
+        {
+          "label": "BLS QCEW (hook)",
+          "url": "https://www.bls.gov/cew/",
+          "type": "bls_hook"
+        }
+      ]
+    },
+    {
+      "city": "Cabot",
+      "county": "Lonoke",
+      "region": "Central",
+      "priority_rank": 19,
+      "population": 25000,
+      "demographics_summary": "Central Arkansas community — aggregate ACS/Census hook pending full import",
+      "age_profile": "Small-town aging + school-age cohort",
+      "income_profile": "Median household income — Census ACS 5-year (placeholder)",
+      "employment_profile": "State government, healthcare, logistics, education",
+      "education_profile": "Public schools + community college access varies by hub size",
+      "major_employers": [
+        "Local healthcare",
+        "School district",
+        "Municipal government"
+      ],
+      "civic_institutions": [
+        "Chamber of commerce",
+        "County extension office",
+        "Public library"
+      ],
+      "churches": [
+        "Community churches — local verification needed"
+      ],
+      "schools": [
+        "Public school district — verify boundary"
+      ],
+      "recurring_events": [
+        "County fair",
+        "Community church dinners",
+        "City council meetings"
+      ],
+      "local_media": [
+        "Local newspaper / radio — verify outlet list"
+      ],
+      "political_notes": null,
+      "sos_baseline_votes": 10500,
+      "sos_target_votes": 11340,
+      "persuasion_gap": 454,
+      "turnout_gap": 630,
+      "opportunity_notes": "Priority rank 19 — relationship-density events drive local trust",
+      "confidence_score": 25,
+      "source_links": [
+        {
+          "label": "Census QuickFacts (hook)",
+          "url": "https://www.census.gov/quickfacts/fact/table/US/PST045224",
+          "type": "census_hook"
+        },
+        {
+          "label": "BLS QCEW (hook)",
+          "url": "https://www.bls.gov/cew/",
+          "type": "bls_hook"
+        }
+      ]
+    },
+    {
+      "city": "Searcy",
+      "county": "White",
+      "region": "Central",
+      "priority_rank": 20,
+      "population": 25000,
+      "demographics_summary": "Central Arkansas community — aggregate ACS/Census hook pending full import",
+      "age_profile": "Small-town aging + school-age cohort",
+      "income_profile": "Median household income — Census ACS 5-year (placeholder)",
+      "employment_profile": "State government, healthcare, logistics, education",
+      "education_profile": "Public schools + community college access varies by hub size",
+      "major_employers": [
+        "Local healthcare",
+        "School district",
+        "Municipal government"
+      ],
+      "civic_institutions": [
+        "Chamber of commerce",
+        "County extension office",
+        "Public library"
+      ],
+      "churches": [
+        "Community churches — local verification needed"
+      ],
+      "schools": [
+        "Public school district — verify boundary"
+      ],
+      "recurring_events": [
+        "County fair",
+        "Community church dinners",
+        "City council meetings"
+      ],
+      "local_media": [
+        "Local newspaper / radio — verify outlet list"
+      ],
+      "political_notes": null,
+      "sos_baseline_votes": 10500,
+      "sos_target_votes": 11340,
+      "persuasion_gap": 454,
+      "turnout_gap": 630,
+      "opportunity_notes": "Priority rank 20 — relationship-density events drive local trust",
+      "confidence_score": 25,
+      "source_links": [
+        {
+          "label": "Census QuickFacts (hook)",
+          "url": "https://www.census.gov/quickfacts/fact/table/US/PST045224",
+          "type": "census_hook"
+        },
+        {
+          "label": "BLS QCEW (hook)",
+          "url": "https://www.bls.gov/cew/",
+          "type": "bls_hook"
+        }
+      ]
+    },
+    {
+      "city": "Van Buren",
+      "county": "Crawford",
+      "region": "West",
+      "priority_rank": 21,
+      "population": 25000,
+      "demographics_summary": "West Arkansas community — aggregate ACS/Census hook pending full import",
+      "age_profile": "Small-town aging + school-age cohort",
+      "income_profile": "Median household income — Census ACS 5-year (placeholder)",
+      "employment_profile": "Manufacturing, military-adjacent, healthcare",
+      "education_profile": "Public schools + community college access varies by hub size",
+      "major_employers": [
+        "Local healthcare",
+        "School district",
+        "Municipal government"
+      ],
+      "civic_institutions": [
+        "Chamber of commerce",
+        "County extension office",
+        "Public library"
+      ],
+      "churches": [
+        "Community churches — local verification needed"
+      ],
+      "schools": [
+        "Public school district — verify boundary"
+      ],
+      "recurring_events": [
+        "County fair",
+        "Community church dinners",
+        "City council meetings"
+      ],
+      "local_media": [
+        "Local newspaper / radio — verify outlet list"
+      ],
+      "political_notes": null,
+      "sos_baseline_votes": 10500,
+      "sos_target_votes": 11340,
+      "persuasion_gap": 454,
+      "turnout_gap": 630,
+      "opportunity_notes": "Priority rank 21 — relationship-density events drive local trust",
+      "confidence_score": 25,
+      "source_links": [
+        {
+          "label": "Census QuickFacts (hook)",
+          "url": "https://www.census.gov/quickfacts/fact/table/US/PST045224",
+          "type": "census_hook"
+        },
+        {
+          "label": "BLS QCEW (hook)",
+          "url": "https://www.bls.gov/cew/",
+          "type": "bls_hook"
+        }
+      ]
+    },
+    {
+      "city": "El Dorado",
+      "county": "Union",
+      "region": "South",
+      "priority_rank": 22,
+      "population": 25000,
+      "demographics_summary": "South Arkansas community — aggregate ACS/Census hook pending full import",
+      "age_profile": "Small-town aging + school-age cohort",
+      "income_profile": "Median household income — Census ACS 5-year (placeholder)",
+      "employment_profile": "Timber, oil/gas legacy, healthcare",
+      "education_profile": "Public schools + community college access varies by hub size",
+      "major_employers": [
+        "Local healthcare",
+        "School district",
+        "Municipal government"
+      ],
+      "civic_institutions": [
+        "Chamber of commerce",
+        "County extension office",
+        "Public library"
+      ],
+      "churches": [
+        "Community churches — local verification needed"
+      ],
+      "schools": [
+        "Public school district — verify boundary"
+      ],
+      "recurring_events": [
+        "County fair",
+        "Community church dinners",
+        "City council meetings"
+      ],
+      "local_media": [
+        "Local newspaper / radio — verify outlet list"
+      ],
+      "political_notes": null,
+      "sos_baseline_votes": 10500,
+      "sos_target_votes": 11340,
+      "persuasion_gap": 454,
+      "turnout_gap": 630,
+      "opportunity_notes": "Priority rank 22 — relationship-density events drive local trust",
+      "confidence_score": 25,
+      "source_links": [
+        {
+          "label": "Census QuickFacts (hook)",
+          "url": "https://www.census.gov/quickfacts/fact/table/US/PST045224",
+          "type": "census_hook"
+        },
+        {
+          "label": "BLS QCEW (hook)",
+          "url": "https://www.bls.gov/cew/",
+          "type": "bls_hook"
+        }
+      ]
+    },
+    {
+      "city": "Maumelle",
+      "county": "Pulaski",
+      "region": "Central",
+      "priority_rank": 23,
+      "population": 25000,
+      "demographics_summary": "Central Arkansas community — aggregate ACS/Census hook pending full import",
+      "age_profile": "Small-town aging + school-age cohort",
+      "income_profile": "Median household income — Census ACS 5-year (placeholder)",
+      "employment_profile": "State government, healthcare, logistics, education",
+      "education_profile": "Public schools + community college access varies by hub size",
+      "major_employers": [
+        "Local healthcare",
+        "School district",
+        "Municipal government"
+      ],
+      "civic_institutions": [
+        "Chamber of commerce",
+        "County extension office",
+        "Public library"
+      ],
+      "churches": [
+        "Community churches — local verification needed"
+      ],
+      "schools": [
+        "Public school district — verify boundary"
+      ],
+      "recurring_events": [
+        "County fair",
+        "Community church dinners",
+        "City council meetings"
+      ],
+      "local_media": [
+        "Local newspaper / radio — verify outlet list"
+      ],
+      "political_notes": null,
+      "sos_baseline_votes": 10500,
+      "sos_target_votes": 11340,
+      "persuasion_gap": 454,
+      "turnout_gap": 630,
+      "opportunity_notes": "Priority rank 23 — relationship-density events drive local trust",
+      "confidence_score": 25,
+      "source_links": [
+        {
+          "label": "Census QuickFacts (hook)",
+          "url": "https://www.census.gov/quickfacts/fact/table/US/PST045224",
+          "type": "census_hook"
+        },
+        {
+          "label": "BLS QCEW (hook)",
+          "url": "https://www.bls.gov/cew/",
+          "type": "bls_hook"
+        }
+      ]
+    },
+    {
+      "city": "Bryant",
+      "county": "Saline",
+      "region": "Central",
+      "priority_rank": 24,
+      "population": 25000,
+      "demographics_summary": "Central Arkansas community — aggregate ACS/Census hook pending full import",
+      "age_profile": "Small-town aging + school-age cohort",
+      "income_profile": "Median household income — Census ACS 5-year (placeholder)",
+      "employment_profile": "State government, healthcare, logistics, education",
+      "education_profile": "Public schools + community college access varies by hub size",
+      "major_employers": [
+        "Local healthcare",
+        "School district",
+        "Municipal government"
+      ],
+      "civic_institutions": [
+        "Chamber of commerce",
+        "County extension office",
+        "Public library"
+      ],
+      "churches": [
+        "Community churches — local verification needed"
+      ],
+      "schools": [
+        "Public school district — verify boundary"
+      ],
+      "recurring_events": [
+        "County fair",
+        "Community church dinners",
+        "City council meetings"
+      ],
+      "local_media": [
+        "Local newspaper / radio — verify outlet list"
+      ],
+      "political_notes": null,
+      "sos_baseline_votes": 10500,
+      "sos_target_votes": 11340,
+      "persuasion_gap": 454,
+      "turnout_gap": 630,
+      "opportunity_notes": "Priority rank 24 — relationship-density events drive local trust",
+      "confidence_score": 25,
+      "source_links": [
+        {
+          "label": "Census QuickFacts (hook)",
+          "url": "https://www.census.gov/quickfacts/fact/table/US/PST045224",
+          "type": "census_hook"
+        },
+        {
+          "label": "BLS QCEW (hook)",
+          "url": "https://www.bls.gov/cew/",
+          "type": "bls_hook"
+        }
+      ]
+    },
+    {
+      "city": "Siloam Springs",
+      "county": "Benton",
+      "region": "Northwest",
+      "priority_rank": 25,
+      "population": 25000,
+      "demographics_summary": "Northwest Arkansas community — aggregate ACS/Census hook pending full import",
+      "age_profile": "Small-town aging + school-age cohort",
+      "income_profile": "Median household income — Census ACS 5-year (placeholder)",
+      "employment_profile": "Retail, poultry, university, construction",
+      "education_profile": "Public schools + community college access varies by hub size",
+      "major_employers": [
+        "Local healthcare",
+        "School district",
+        "Municipal government"
+      ],
+      "civic_institutions": [
+        "Chamber of commerce",
+        "County extension office",
+        "Public library"
+      ],
+      "churches": [
+        "Community churches — local verification needed"
+      ],
+      "schools": [
+        "Public school district — verify boundary"
+      ],
+      "recurring_events": [
+        "County fair",
+        "Community church dinners",
+        "City council meetings"
+      ],
+      "local_media": [
+        "Local newspaper / radio — verify outlet list"
+      ],
+      "political_notes": null,
+      "sos_baseline_votes": 10500,
+      "sos_target_votes": 11340,
+      "persuasion_gap": 454,
+      "turnout_gap": 630,
+      "opportunity_notes": "Priority rank 25 — relationship-density events drive local trust",
+      "confidence_score": 25,
+      "source_links": [
+        {
+          "label": "Census QuickFacts (hook)",
+          "url": "https://www.census.gov/quickfacts/fact/table/US/PST045224",
+          "type": "census_hook"
+        },
+        {
+          "label": "BLS QCEW (hook)",
+          "url": "https://www.bls.gov/cew/",
+          "type": "bls_hook"
+        }
+      ]
+    },
+    {
+      "city": "Morrilton",
+      "county": "Conway",
+      "region": "River Valley",
+      "priority_rank": 26,
+      "population": 8000,
+      "demographics_summary": "River Valley Arkansas community — aggregate ACS/Census hook pending full import",
+      "age_profile": "Small-town aging + school-age cohort",
+      "income_profile": "Median household income — Census ACS 5-year (placeholder)",
+      "employment_profile": "Manufacturing, agriculture, Fort Smith metro spillover",
+      "education_profile": "Public schools + community college access varies by hub size",
+      "major_employers": [
+        "Local healthcare",
+        "School district",
+        "Municipal government"
+      ],
+      "civic_institutions": [
+        "Chamber of commerce",
+        "County extension office",
+        "Public library"
+      ],
+      "churches": [
+        "Community churches — local verification needed"
+      ],
+      "schools": [
+        "Public school district — verify boundary"
+      ],
+      "recurring_events": [
+        "County fair",
+        "Community church dinners",
+        "City council meetings"
+      ],
+      "local_media": [
+        "Local newspaper / radio — verify outlet list"
+      ],
+      "political_notes": null,
+      "sos_baseline_votes": 3360,
+      "sos_target_votes": 3629,
+      "persuasion_gap": 145,
+      "turnout_gap": 202,
+      "opportunity_notes": "Priority rank 26 — relationship-density events drive local trust",
+      "confidence_score": 25,
+      "source_links": [
+        {
+          "label": "Census QuickFacts (hook)",
+          "url": "https://www.census.gov/quickfacts/fact/table/US/PST045224",
+          "type": "census_hook"
+        },
+        {
+          "label": "BLS QCEW (hook)",
+          "url": "https://www.bls.gov/cew/",
+          "type": "bls_hook"
+        }
+      ]
+    },
+    {
+      "city": "Center Ridge",
+      "county": "Conway",
+      "region": "River Valley",
+      "priority_rank": 27,
+      "population": 8000,
+      "demographics_summary": "River Valley Arkansas community — aggregate ACS/Census hook pending full import",
+      "age_profile": "Small-town aging + school-age cohort",
+      "income_profile": "Median household income — Census ACS 5-year (placeholder)",
+      "employment_profile": "Manufacturing, agriculture, Fort Smith metro spillover",
+      "education_profile": "Public schools + community college access varies by hub size",
+      "major_employers": [
+        "Local healthcare",
+        "School district",
+        "Municipal government"
+      ],
+      "civic_institutions": [
+        "Chamber of commerce",
+        "County extension office",
+        "Public library"
+      ],
+      "churches": [
+        "Community churches — local verification needed"
+      ],
+      "schools": [
+        "Public school district — verify boundary"
+      ],
+      "recurring_events": [
+        "County fair",
+        "Community church dinners",
+        "City council meetings"
+      ],
+      "local_media": [
+        "Local newspaper / radio — verify outlet list"
+      ],
+      "political_notes": null,
+      "sos_baseline_votes": 3360,
+      "sos_target_votes": 3629,
+      "persuasion_gap": 145,
+      "turnout_gap": 202,
+      "opportunity_notes": "Priority rank 27 — relationship-density events drive local trust",
+      "confidence_score": 25,
+      "source_links": [
+        {
+          "label": "Census QuickFacts (hook)",
+          "url": "https://www.census.gov/quickfacts/fact/table/US/PST045224",
+          "type": "census_hook"
+        },
+        {
+          "label": "BLS QCEW (hook)",
+          "url": "https://www.bls.gov/cew/",
+          "type": "bls_hook"
+        }
+      ]
+    },
+    {
+      "city": "Magnolia",
+      "county": "Columbia",
+      "region": "South",
+      "priority_rank": 28,
+      "population": 25000,
+      "demographics_summary": "South Arkansas community — aggregate ACS/Census hook pending full import",
+      "age_profile": "Small-town aging + school-age cohort",
+      "income_profile": "Median household income — Census ACS 5-year (placeholder)",
+      "employment_profile": "Timber, oil/gas legacy, healthcare",
+      "education_profile": "Public schools + community college access varies by hub size",
+      "major_employers": [
+        "Local healthcare",
+        "School district",
+        "Municipal government"
+      ],
+      "civic_institutions": [
+        "Chamber of commerce",
+        "County extension office",
+        "Public library"
+      ],
+      "churches": [
+        "Community churches — local verification needed"
+      ],
+      "schools": [
+        "Public school district — verify boundary"
+      ],
+      "recurring_events": [
+        "County fair",
+        "Community church dinners",
+        "City council meetings"
+      ],
+      "local_media": [
+        "Local newspaper / radio — verify outlet list"
+      ],
+      "political_notes": null,
+      "sos_baseline_votes": 10500,
+      "sos_target_votes": 11340,
+      "persuasion_gap": 454,
+      "turnout_gap": 630,
+      "opportunity_notes": "Priority rank 28 — relationship-density events drive local trust",
+      "confidence_score": 25,
+      "source_links": [
+        {
+          "label": "Census QuickFacts (hook)",
+          "url": "https://www.census.gov/quickfacts/fact/table/US/PST045224",
+          "type": "census_hook"
+        },
+        {
+          "label": "BLS QCEW (hook)",
+          "url": "https://www.bls.gov/cew/",
+          "type": "bls_hook"
+        }
+      ]
+    },
+    {
+      "city": "Mountain Home",
+      "county": "Baxter",
+      "region": "North Central",
+      "priority_rank": 29,
+      "population": 25000,
+      "demographics_summary": "North Central Arkansas community — aggregate ACS/Census hook pending full import",
+      "age_profile": "Small-town aging + school-age cohort",
+      "income_profile": "Median household income — Census ACS 5-year (placeholder)",
+      "employment_profile": "Tourism, retirement, small manufacturing",
+      "education_profile": "Public schools + community college access varies by hub size",
+      "major_employers": [
+        "Local healthcare",
+        "School district",
+        "Municipal government"
+      ],
+      "civic_institutions": [
+        "Chamber of commerce",
+        "County extension office",
+        "Public library"
+      ],
+      "churches": [
+        "Community churches — local verification needed"
+      ],
+      "schools": [
+        "Public school district — verify boundary"
+      ],
+      "recurring_events": [
+        "County fair",
+        "Community church dinners",
+        "City council meetings"
+      ],
+      "local_media": [
+        "Local newspaper / radio — verify outlet list"
+      ],
+      "political_notes": null,
+      "sos_baseline_votes": 10500,
+      "sos_target_votes": 11340,
+      "persuasion_gap": 454,
+      "turnout_gap": 630,
+      "opportunity_notes": "Priority rank 29 — relationship-density events drive local trust",
+      "confidence_score": 25,
+      "source_links": [
+        {
+          "label": "Census QuickFacts (hook)",
+          "url": "https://www.census.gov/quickfacts/fact/table/US/PST045224",
+          "type": "census_hook"
+        },
+        {
+          "label": "BLS QCEW (hook)",
+          "url": "https://www.bls.gov/cew/",
+          "type": "bls_hook"
+        }
+      ]
+    },
+    {
+      "city": "Harrison",
+      "county": "Boone",
+      "region": "North",
+      "priority_rank": 30,
+      "population": 25000,
+      "demographics_summary": "North Arkansas community — aggregate ACS/Census hook pending full import",
+      "age_profile": "Small-town aging + school-age cohort",
+      "income_profile": "Median household income — Census ACS 5-year (placeholder)",
+      "employment_profile": "Tourism, retirement, agriculture",
+      "education_profile": "Public schools + community college access varies by hub size",
+      "major_employers": [
+        "Local healthcare",
+        "School district",
+        "Municipal government"
+      ],
+      "civic_institutions": [
+        "Chamber of commerce",
+        "County extension office",
+        "Public library"
+      ],
+      "churches": [
+        "Community churches — local verification needed"
+      ],
+      "schools": [
+        "Public school district — verify boundary"
+      ],
+      "recurring_events": [
+        "County fair",
+        "Community church dinners",
+        "City council meetings"
+      ],
+      "local_media": [
+        "Local newspaper / radio — verify outlet list"
+      ],
+      "political_notes": null,
+      "sos_baseline_votes": 10500,
+      "sos_target_votes": 11340,
+      "persuasion_gap": 454,
+      "turnout_gap": 630,
+      "opportunity_notes": "Priority rank 30 — relationship-density events drive local trust",
+      "confidence_score": 25,
+      "source_links": [
+        {
+          "label": "Census QuickFacts (hook)",
+          "url": "https://www.census.gov/quickfacts/fact/table/US/PST045224",
+          "type": "census_hook"
+        },
+        {
+          "label": "BLS QCEW (hook)",
+          "url": "https://www.bls.gov/cew/",
+          "type": "bls_hook"
+        }
+      ]
+    },
+    {
+      "city": "Blytheville",
+      "county": "Mississippi",
+      "region": "Delta",
+      "priority_rank": 31,
+      "population": 25000,
+      "demographics_summary": "Delta Arkansas community — aggregate ACS/Census hook pending full import",
+      "age_profile": "Small-town aging + school-age cohort",
+      "income_profile": "Median household income — Census ACS 5-year (placeholder)",
+      "employment_profile": "Agriculture, manufacturing, healthcare",
+      "education_profile": "Public schools + community college access varies by hub size",
+      "major_employers": [
+        "Local healthcare",
+        "School district",
+        "Municipal government"
+      ],
+      "civic_institutions": [
+        "Chamber of commerce",
+        "County extension office",
+        "Public library"
+      ],
+      "churches": [
+        "Community churches — local verification needed"
+      ],
+      "schools": [
+        "Public school district — verify boundary"
+      ],
+      "recurring_events": [
+        "County fair",
+        "Community church dinners",
+        "City council meetings"
+      ],
+      "local_media": [
+        "Local newspaper / radio — verify outlet list"
+      ],
+      "political_notes": null,
+      "sos_baseline_votes": 10500,
+      "sos_target_votes": 11340,
+      "persuasion_gap": 454,
+      "turnout_gap": 630,
+      "opportunity_notes": "Priority rank 31 — relationship-density events drive local trust",
+      "confidence_score": 25,
+      "source_links": [
+        {
+          "label": "Census QuickFacts (hook)",
+          "url": "https://www.census.gov/quickfacts/fact/table/US/PST045224",
+          "type": "census_hook"
+        },
+        {
+          "label": "BLS QCEW (hook)",
+          "url": "https://www.bls.gov/cew/",
+          "type": "bls_hook"
+        }
+      ]
+    },
+    {
+      "city": "Forrest City",
+      "county": "St. Francis",
+      "region": "Delta",
+      "priority_rank": 32,
+      "population": 25000,
+      "demographics_summary": "Delta Arkansas community — aggregate ACS/Census hook pending full import",
+      "age_profile": "Small-town aging + school-age cohort",
+      "income_profile": "Median household income — Census ACS 5-year (placeholder)",
+      "employment_profile": "Agriculture, manufacturing, healthcare",
+      "education_profile": "Public schools + community college access varies by hub size",
+      "major_employers": [
+        "Local healthcare",
+        "School district",
+        "Municipal government"
+      ],
+      "civic_institutions": [
+        "Chamber of commerce",
+        "County extension office",
+        "Public library"
+      ],
+      "churches": [
+        "Community churches — local verification needed"
+      ],
+      "schools": [
+        "Public school district — verify boundary"
+      ],
+      "recurring_events": [
+        "County fair",
+        "Community church dinners",
+        "City council meetings"
+      ],
+      "local_media": [
+        "Local newspaper / radio — verify outlet list"
+      ],
+      "political_notes": null,
+      "sos_baseline_votes": 10500,
+      "sos_target_votes": 11340,
+      "persuasion_gap": 454,
+      "turnout_gap": 630,
+      "opportunity_notes": "Priority rank 32 — relationship-density events drive local trust",
+      "confidence_score": 25,
+      "source_links": [
+        {
+          "label": "Census QuickFacts (hook)",
+          "url": "https://www.census.gov/quickfacts/fact/table/US/PST045224",
+          "type": "census_hook"
+        },
+        {
+          "label": "BLS QCEW (hook)",
+          "url": "https://www.bls.gov/cew/",
+          "type": "bls_hook"
+        }
+      ]
+    },
+    {
+      "city": "Camden",
+      "county": "Ouachita",
+      "region": "South",
+      "priority_rank": 33,
+      "population": 25000,
+      "demographics_summary": "South Arkansas community — aggregate ACS/Census hook pending full import",
+      "age_profile": "Small-town aging + school-age cohort",
+      "income_profile": "Median household income — Census ACS 5-year (placeholder)",
+      "employment_profile": "Timber, oil/gas legacy, healthcare",
+      "education_profile": "Public schools + community college access varies by hub size",
+      "major_employers": [
+        "Local healthcare",
+        "School district",
+        "Municipal government"
+      ],
+      "civic_institutions": [
+        "Chamber of commerce",
+        "County extension office",
+        "Public library"
+      ],
+      "churches": [
+        "Community churches — local verification needed"
+      ],
+      "schools": [
+        "Public school district — verify boundary"
+      ],
+      "recurring_events": [
+        "County fair",
+        "Community church dinners",
+        "City council meetings"
+      ],
+      "local_media": [
+        "Local newspaper / radio — verify outlet list"
+      ],
+      "political_notes": null,
+      "sos_baseline_votes": 10500,
+      "sos_target_votes": 11340,
+      "persuasion_gap": 454,
+      "turnout_gap": 630,
+      "opportunity_notes": "Priority rank 33 — relationship-density events drive local trust",
+      "confidence_score": 25,
+      "source_links": [
+        {
+          "label": "Census QuickFacts (hook)",
+          "url": "https://www.census.gov/quickfacts/fact/table/US/PST045224",
+          "type": "census_hook"
+        },
+        {
+          "label": "BLS QCEW (hook)",
+          "url": "https://www.bls.gov/cew/",
+          "type": "bls_hook"
+        }
+      ]
+    },
+    {
+      "city": "Arkadelphia",
+      "county": "Clark",
+      "region": "South Central",
+      "priority_rank": 34,
+      "population": 25000,
+      "demographics_summary": "South Central Arkansas community — aggregate ACS/Census hook pending full import",
+      "age_profile": "Small-town aging + school-age cohort",
+      "income_profile": "Median household income — Census ACS 5-year (placeholder)",
+      "employment_profile": "Local services, agriculture, healthcare",
+      "education_profile": "Public schools + community college access varies by hub size",
+      "major_employers": [
+        "Local healthcare",
+        "School district",
+        "Municipal government"
+      ],
+      "civic_institutions": [
+        "Chamber of commerce",
+        "County extension office",
+        "Public library"
+      ],
+      "churches": [
+        "Community churches — local verification needed"
+      ],
+      "schools": [
+        "Public school district — verify boundary"
+      ],
+      "recurring_events": [
+        "County fair",
+        "Community church dinners",
+        "City council meetings"
+      ],
+      "local_media": [
+        "Local newspaper / radio — verify outlet list"
+      ],
+      "political_notes": null,
+      "sos_baseline_votes": 10500,
+      "sos_target_votes": 11340,
+      "persuasion_gap": 454,
+      "turnout_gap": 630,
+      "opportunity_notes": "Priority rank 34 — relationship-density events drive local trust",
+      "confidence_score": 25,
+      "source_links": [
+        {
+          "label": "Census QuickFacts (hook)",
+          "url": "https://www.census.gov/quickfacts/fact/table/US/PST045224",
+          "type": "census_hook"
+        },
+        {
+          "label": "BLS QCEW (hook)",
+          "url": "https://www.bls.gov/cew/",
+          "type": "bls_hook"
+        }
+      ]
+    },
+    {
+      "city": "Malvern",
+      "county": "Hot Spring",
+      "region": "Central",
+      "priority_rank": 35,
+      "population": 25000,
+      "demographics_summary": "Central Arkansas community — aggregate ACS/Census hook pending full import",
+      "age_profile": "Small-town aging + school-age cohort",
+      "income_profile": "Median household income — Census ACS 5-year (placeholder)",
+      "employment_profile": "State government, healthcare, logistics, education",
+      "education_profile": "Public schools + community college access varies by hub size",
+      "major_employers": [
+        "Local healthcare",
+        "School district",
+        "Municipal government"
+      ],
+      "civic_institutions": [
+        "Chamber of commerce",
+        "County extension office",
+        "Public library"
+      ],
+      "churches": [
+        "Community churches — local verification needed"
+      ],
+      "schools": [
+        "Public school district — verify boundary"
+      ],
+      "recurring_events": [
+        "County fair",
+        "Community church dinners",
+        "City council meetings"
+      ],
+      "local_media": [
+        "Local newspaper / radio — verify outlet list"
+      ],
+      "political_notes": null,
+      "sos_baseline_votes": 10500,
+      "sos_target_votes": 11340,
+      "persuasion_gap": 454,
+      "turnout_gap": 630,
+      "opportunity_notes": "Priority rank 35 — relationship-density events drive local trust",
+      "confidence_score": 25,
+      "source_links": [
+        {
+          "label": "Census QuickFacts (hook)",
+          "url": "https://www.census.gov/quickfacts/fact/table/US/PST045224",
+          "type": "census_hook"
+        },
+        {
+          "label": "BLS QCEW (hook)",
+          "url": "https://www.bls.gov/cew/",
+          "type": "bls_hook"
+        }
+      ]
+    },
+    {
+      "city": "Batesville",
+      "county": "Independence",
+      "region": "North Central",
+      "priority_rank": 36,
+      "population": 25000,
+      "demographics_summary": "North Central Arkansas community — aggregate ACS/Census hook pending full import",
+      "age_profile": "Small-town aging + school-age cohort",
+      "income_profile": "Median household income — Census ACS 5-year (placeholder)",
+      "employment_profile": "Tourism, retirement, small manufacturing",
+      "education_profile": "Public schools + community college access varies by hub size",
+      "major_employers": [
+        "Local healthcare",
+        "School district",
+        "Municipal government"
+      ],
+      "civic_institutions": [
+        "Chamber of commerce",
+        "County extension office",
+        "Public library"
+      ],
+      "churches": [
+        "Community churches — local verification needed"
+      ],
+      "schools": [
+        "Public school district — verify boundary"
+      ],
+      "recurring_events": [
+        "County fair",
+        "Community church dinners",
+        "City council meetings"
+      ],
+      "local_media": [
+        "Local newspaper / radio — verify outlet list"
+      ],
+      "political_notes": null,
+      "sos_baseline_votes": 10500,
+      "sos_target_votes": 11340,
+      "persuasion_gap": 454,
+      "turnout_gap": 630,
+      "opportunity_notes": "Priority rank 36 — relationship-density events drive local trust",
+      "confidence_score": 25,
+      "source_links": [
+        {
+          "label": "Census QuickFacts (hook)",
+          "url": "https://www.census.gov/quickfacts/fact/table/US/PST045224",
+          "type": "census_hook"
+        },
+        {
+          "label": "BLS QCEW (hook)",
+          "url": "https://www.bls.gov/cew/",
+          "type": "bls_hook"
+        }
+      ]
+    },
+    {
+      "city": "Helena-West Helena",
+      "county": "Phillips",
+      "region": "Delta",
+      "priority_rank": 37,
+      "population": 25000,
+      "demographics_summary": "Delta Arkansas community — aggregate ACS/Census hook pending full import",
+      "age_profile": "Small-town aging + school-age cohort",
+      "income_profile": "Median household income — Census ACS 5-year (placeholder)",
+      "employment_profile": "Agriculture, manufacturing, healthcare",
+      "education_profile": "Public schools + community college access varies by hub size",
+      "major_employers": [
+        "Local healthcare",
+        "School district",
+        "Municipal government"
+      ],
+      "civic_institutions": [
+        "Chamber of commerce",
+        "County extension office",
+        "Public library"
+      ],
+      "churches": [
+        "Community churches — local verification needed"
+      ],
+      "schools": [
+        "Public school district — verify boundary"
+      ],
+      "recurring_events": [
+        "County fair",
+        "Community church dinners",
+        "City council meetings"
+      ],
+      "local_media": [
+        "Local newspaper / radio — verify outlet list"
+      ],
+      "political_notes": null,
+      "sos_baseline_votes": 10500,
+      "sos_target_votes": 11340,
+      "persuasion_gap": 454,
+      "turnout_gap": 630,
+      "opportunity_notes": "Priority rank 37 — relationship-density events drive local trust",
+      "confidence_score": 25,
+      "source_links": [
+        {
+          "label": "Census QuickFacts (hook)",
+          "url": "https://www.census.gov/quickfacts/fact/table/US/PST045224",
+          "type": "census_hook"
+        },
+        {
+          "label": "BLS QCEW (hook)",
+          "url": "https://www.bls.gov/cew/",
+          "type": "bls_hook"
+        }
+      ]
+    },
+    {
+      "city": "Hope",
+      "county": "Hempstead",
+      "region": "Southwest",
+      "priority_rank": 38,
+      "population": 25000,
+      "demographics_summary": "Southwest Arkansas community — aggregate ACS/Census hook pending full import",
+      "age_profile": "Small-town aging + school-age cohort",
+      "income_profile": "Median household income — Census ACS 5-year (placeholder)",
+      "employment_profile": "Timber, poultry, small manufacturing",
+      "education_profile": "Public schools + community college access varies by hub size",
+      "major_employers": [
+        "Local healthcare",
+        "School district",
+        "Municipal government"
+      ],
+      "civic_institutions": [
+        "Chamber of commerce",
+        "County extension office",
+        "Public library"
+      ],
+      "churches": [
+        "Community churches — local verification needed"
+      ],
+      "schools": [
+        "Public school district — verify boundary"
+      ],
+      "recurring_events": [
+        "County fair",
+        "Community church dinners",
+        "City council meetings"
+      ],
+      "local_media": [
+        "Local newspaper / radio — verify outlet list"
+      ],
+      "political_notes": null,
+      "sos_baseline_votes": 10500,
+      "sos_target_votes": 11340,
+      "persuasion_gap": 454,
+      "turnout_gap": 630,
+      "opportunity_notes": "Priority rank 38 — relationship-density events drive local trust",
+      "confidence_score": 25,
+      "source_links": [
+        {
+          "label": "Census QuickFacts (hook)",
+          "url": "https://www.census.gov/quickfacts/fact/table/US/PST045224",
+          "type": "census_hook"
+        },
+        {
+          "label": "BLS QCEW (hook)",
+          "url": "https://www.bls.gov/cew/",
+          "type": "bls_hook"
+        }
+      ]
+    },
+    {
+      "city": "Monticello",
+      "county": "Drew",
+      "region": "Southeast",
+      "priority_rank": 39,
+      "population": 25000,
+      "demographics_summary": "Southeast Arkansas community — aggregate ACS/Census hook pending full import",
+      "age_profile": "Small-town aging + school-age cohort",
+      "income_profile": "Median household income — Census ACS 5-year (placeholder)",
+      "employment_profile": "Agriculture, paper/ timber, healthcare",
+      "education_profile": "Public schools + community college access varies by hub size",
+      "major_employers": [
+        "Local healthcare",
+        "School district",
+        "Municipal government"
+      ],
+      "civic_institutions": [
+        "Chamber of commerce",
+        "County extension office",
+        "Public library"
+      ],
+      "churches": [
+        "Community churches — local verification needed"
+      ],
+      "schools": [
+        "Public school district — verify boundary"
+      ],
+      "recurring_events": [
+        "County fair",
+        "Community church dinners",
+        "City council meetings"
+      ],
+      "local_media": [
+        "Local newspaper / radio — verify outlet list"
+      ],
+      "political_notes": null,
+      "sos_baseline_votes": 10500,
+      "sos_target_votes": 11340,
+      "persuasion_gap": 454,
+      "turnout_gap": 630,
+      "opportunity_notes": "Priority rank 39 — relationship-density events drive local trust",
+      "confidence_score": 25,
+      "source_links": [
+        {
+          "label": "Census QuickFacts (hook)",
+          "url": "https://www.census.gov/quickfacts/fact/table/US/PST045224",
+          "type": "census_hook"
+        },
+        {
+          "label": "BLS QCEW (hook)",
+          "url": "https://www.bls.gov/cew/",
+          "type": "bls_hook"
+        }
+      ]
+    },
+    {
+      "city": "Stuttgart",
+      "county": "Arkansas",
+      "region": "Delta",
+      "priority_rank": 40,
+      "population": 25000,
+      "demographics_summary": "Delta Arkansas community — aggregate ACS/Census hook pending full import",
+      "age_profile": "Small-town aging + school-age cohort",
+      "income_profile": "Median household income — Census ACS 5-year (placeholder)",
+      "employment_profile": "Agriculture, manufacturing, healthcare",
+      "education_profile": "Public schools + community college access varies by hub size",
+      "major_employers": [
+        "Local healthcare",
+        "School district",
+        "Municipal government"
+      ],
+      "civic_institutions": [
+        "Chamber of commerce",
+        "County extension office",
+        "Public library"
+      ],
+      "churches": [
+        "Community churches — local verification needed"
+      ],
+      "schools": [
+        "Public school district — verify boundary"
+      ],
+      "recurring_events": [
+        "County fair",
+        "Community church dinners",
+        "City council meetings"
+      ],
+      "local_media": [
+        "Local newspaper / radio — verify outlet list"
+      ],
+      "political_notes": null,
+      "sos_baseline_votes": 10500,
+      "sos_target_votes": 11340,
+      "persuasion_gap": 454,
+      "turnout_gap": 630,
+      "opportunity_notes": "Priority rank 40 — relationship-density events drive local trust",
+      "confidence_score": 25,
+      "source_links": [
+        {
+          "label": "Census QuickFacts (hook)",
+          "url": "https://www.census.gov/quickfacts/fact/table/US/PST045224",
+          "type": "census_hook"
+        },
+        {
+          "label": "BLS QCEW (hook)",
+          "url": "https://www.bls.gov/cew/",
+          "type": "bls_hook"
+        }
+      ]
+    },
+    {
+      "city": "West Memphis",
+      "county": "Crittenden",
+      "region": "Delta",
+      "priority_rank": 41,
+      "population": 25000,
+      "demographics_summary": "Delta Arkansas community — aggregate ACS/Census hook pending full import",
+      "age_profile": "Small-town aging + school-age cohort",
+      "income_profile": "Median household income — Census ACS 5-year (placeholder)",
+      "employment_profile": "Agriculture, manufacturing, healthcare",
+      "education_profile": "Public schools + community college access varies by hub size",
+      "major_employers": [
+        "Local healthcare",
+        "School district",
+        "Municipal government"
+      ],
+      "civic_institutions": [
+        "Chamber of commerce",
+        "County extension office",
+        "Public library"
+      ],
+      "churches": [
+        "Community churches — local verification needed"
+      ],
+      "schools": [
+        "Public school district — verify boundary"
+      ],
+      "recurring_events": [
+        "County fair",
+        "Community church dinners",
+        "City council meetings"
+      ],
+      "local_media": [
+        "Local newspaper / radio — verify outlet list"
+      ],
+      "political_notes": null,
+      "sos_baseline_votes": 10500,
+      "sos_target_votes": 11340,
+      "persuasion_gap": 454,
+      "turnout_gap": 630,
+      "opportunity_notes": "Priority rank 41 — relationship-density events drive local trust",
+      "confidence_score": 25,
+      "source_links": [
+        {
+          "label": "Census QuickFacts (hook)",
+          "url": "https://www.census.gov/quickfacts/fact/table/US/PST045224",
+          "type": "census_hook"
+        },
+        {
+          "label": "BLS QCEW (hook)",
+          "url": "https://www.bls.gov/cew/",
+          "type": "bls_hook"
+        }
+      ]
+    },
+    {
+      "city": "Marion",
+      "county": "Crittenden",
+      "region": "Delta",
+      "priority_rank": 42,
+      "population": 25000,
+      "demographics_summary": "Delta Arkansas community — aggregate ACS/Census hook pending full import",
+      "age_profile": "Small-town aging + school-age cohort",
+      "income_profile": "Median household income — Census ACS 5-year (placeholder)",
+      "employment_profile": "Agriculture, manufacturing, healthcare",
+      "education_profile": "Public schools + community college access varies by hub size",
+      "major_employers": [
+        "Local healthcare",
+        "School district",
+        "Municipal government"
+      ],
+      "civic_institutions": [
+        "Chamber of commerce",
+        "County extension office",
+        "Public library"
+      ],
+      "churches": [
+        "Community churches — local verification needed"
+      ],
+      "schools": [
+        "Public school district — verify boundary"
+      ],
+      "recurring_events": [
+        "County fair",
+        "Community church dinners",
+        "City council meetings"
+      ],
+      "local_media": [
+        "Local newspaper / radio — verify outlet list"
+      ],
+      "political_notes": null,
+      "sos_baseline_votes": 10500,
+      "sos_target_votes": 11340,
+      "persuasion_gap": 454,
+      "turnout_gap": 630,
+      "opportunity_notes": "Priority rank 42 — relationship-density events drive local trust",
+      "confidence_score": 25,
+      "source_links": [
+        {
+          "label": "Census QuickFacts (hook)",
+          "url": "https://www.census.gov/quickfacts/fact/table/US/PST045224",
+          "type": "census_hook"
+        },
+        {
+          "label": "BLS QCEW (hook)",
+          "url": "https://www.bls.gov/cew/",
+          "type": "bls_hook"
+        }
+      ]
+    },
+    {
+      "city": "Greenwood",
+      "county": "Sebastian",
+      "region": "West",
+      "priority_rank": 43,
+      "population": 25000,
+      "demographics_summary": "West Arkansas community — aggregate ACS/Census hook pending full import",
+      "age_profile": "Small-town aging + school-age cohort",
+      "income_profile": "Median household income — Census ACS 5-year (placeholder)",
+      "employment_profile": "Manufacturing, military-adjacent, healthcare",
+      "education_profile": "Public schools + community college access varies by hub size",
+      "major_employers": [
+        "Local healthcare",
+        "School district",
+        "Municipal government"
+      ],
+      "civic_institutions": [
+        "Chamber of commerce",
+        "County extension office",
+        "Public library"
+      ],
+      "churches": [
+        "Community churches — local verification needed"
+      ],
+      "schools": [
+        "Public school district — verify boundary"
+      ],
+      "recurring_events": [
+        "County fair",
+        "Community church dinners",
+        "City council meetings"
+      ],
+      "local_media": [
+        "Local newspaper / radio — verify outlet list"
+      ],
+      "political_notes": null,
+      "sos_baseline_votes": 10500,
+      "sos_target_votes": 11340,
+      "persuasion_gap": 454,
+      "turnout_gap": 630,
+      "opportunity_notes": "Priority rank 43 — relationship-density events drive local trust",
+      "confidence_score": 25,
+      "source_links": [
+        {
+          "label": "Census QuickFacts (hook)",
+          "url": "https://www.census.gov/quickfacts/fact/table/US/PST045224",
+          "type": "census_hook"
+        },
+        {
+          "label": "BLS QCEW (hook)",
+          "url": "https://www.bls.gov/cew/",
+          "type": "bls_hook"
+        }
+      ]
+    },
+    {
+      "city": "Clarksville",
+      "county": "Johnson",
+      "region": "River Valley",
+      "priority_rank": 44,
+      "population": 8000,
+      "demographics_summary": "River Valley Arkansas community — aggregate ACS/Census hook pending full import",
+      "age_profile": "Small-town aging + school-age cohort",
+      "income_profile": "Median household income — Census ACS 5-year (placeholder)",
+      "employment_profile": "Manufacturing, agriculture, Fort Smith metro spillover",
+      "education_profile": "Public schools + community college access varies by hub size",
+      "major_employers": [
+        "Local healthcare",
+        "School district",
+        "Municipal government"
+      ],
+      "civic_institutions": [
+        "Chamber of commerce",
+        "County extension office",
+        "Public library"
+      ],
+      "churches": [
+        "Community churches — local verification needed"
+      ],
+      "schools": [
+        "Public school district — verify boundary"
+      ],
+      "recurring_events": [
+        "County fair",
+        "Community church dinners",
+        "City council meetings"
+      ],
+      "local_media": [
+        "Local newspaper / radio — verify outlet list"
+      ],
+      "political_notes": null,
+      "sos_baseline_votes": 3360,
+      "sos_target_votes": 3629,
+      "persuasion_gap": 145,
+      "turnout_gap": 202,
+      "opportunity_notes": "Priority rank 44 — relationship-density events drive local trust",
+      "confidence_score": 25,
+      "source_links": [
+        {
+          "label": "Census QuickFacts (hook)",
+          "url": "https://www.census.gov/quickfacts/fact/table/US/PST045224",
+          "type": "census_hook"
+        },
+        {
+          "label": "BLS QCEW (hook)",
+          "url": "https://www.bls.gov/cew/",
+          "type": "bls_hook"
+        }
+      ]
+    },
+    {
+      "city": "Ozark",
+      "county": "Franklin",
+      "region": "River Valley",
+      "priority_rank": 45,
+      "population": 8000,
+      "demographics_summary": "River Valley Arkansas community — aggregate ACS/Census hook pending full import",
+      "age_profile": "Small-town aging + school-age cohort",
+      "income_profile": "Median household income — Census ACS 5-year (placeholder)",
+      "employment_profile": "Manufacturing, agriculture, Fort Smith metro spillover",
+      "education_profile": "Public schools + community college access varies by hub size",
+      "major_employers": [
+        "Local healthcare",
+        "School district",
+        "Municipal government"
+      ],
+      "civic_institutions": [
+        "Chamber of commerce",
+        "County extension office",
+        "Public library"
+      ],
+      "churches": [
+        "Community churches — local verification needed"
+      ],
+      "schools": [
+        "Public school district — verify boundary"
+      ],
+      "recurring_events": [
+        "County fair",
+        "Community church dinners",
+        "City council meetings"
+      ],
+      "local_media": [
+        "Local newspaper / radio — verify outlet list"
+      ],
+      "political_notes": null,
+      "sos_baseline_votes": 3360,
+      "sos_target_votes": 3629,
+      "persuasion_gap": 145,
+      "turnout_gap": 202,
+      "opportunity_notes": "Priority rank 45 — relationship-density events drive local trust",
+      "confidence_score": 25,
+      "source_links": [
+        {
+          "label": "Census QuickFacts (hook)",
+          "url": "https://www.census.gov/quickfacts/fact/table/US/PST045224",
+          "type": "census_hook"
+        },
+        {
+          "label": "BLS QCEW (hook)",
+          "url": "https://www.bls.gov/cew/",
+          "type": "bls_hook"
+        }
+      ]
+    },
+    {
+      "city": "Mountain View",
+      "county": "Stone",
+      "region": "North Central",
+      "priority_rank": 46,
+      "population": 8000,
+      "demographics_summary": "North Central Arkansas community — aggregate ACS/Census hook pending full import",
+      "age_profile": "Small-town aging + school-age cohort",
+      "income_profile": "Median household income — Census ACS 5-year (placeholder)",
+      "employment_profile": "Tourism, retirement, small manufacturing",
+      "education_profile": "Public schools + community college access varies by hub size",
+      "major_employers": [
+        "Local healthcare",
+        "School district",
+        "Municipal government"
+      ],
+      "civic_institutions": [
+        "Chamber of commerce",
+        "County extension office",
+        "Public library"
+      ],
+      "churches": [
+        "Community churches — local verification needed"
+      ],
+      "schools": [
+        "Public school district — verify boundary"
+      ],
+      "recurring_events": [
+        "County fair",
+        "Community church dinners",
+        "City council meetings"
+      ],
+      "local_media": [
+        "Local newspaper / radio — verify outlet list"
+      ],
+      "political_notes": null,
+      "sos_baseline_votes": 3360,
+      "sos_target_votes": 3629,
+      "persuasion_gap": 145,
+      "turnout_gap": 202,
+      "opportunity_notes": "Priority rank 46 — relationship-density events drive local trust",
+      "confidence_score": 25,
+      "source_links": [
+        {
+          "label": "Census QuickFacts (hook)",
+          "url": "https://www.census.gov/quickfacts/fact/table/US/PST045224",
+          "type": "census_hook"
+        },
+        {
+          "label": "BLS QCEW (hook)",
+          "url": "https://www.bls.gov/cew/",
+          "type": "bls_hook"
+        }
+      ]
+    },
+    {
+      "city": "Wynne",
+      "county": "Cross",
+      "region": "Delta",
+      "priority_rank": 47,
+      "population": 8000,
+      "demographics_summary": "Delta Arkansas community — aggregate ACS/Census hook pending full import",
+      "age_profile": "Small-town aging + school-age cohort",
+      "income_profile": "Median household income — Census ACS 5-year (placeholder)",
+      "employment_profile": "Agriculture, manufacturing, healthcare",
+      "education_profile": "Public schools + community college access varies by hub size",
+      "major_employers": [
+        "Local healthcare",
+        "School district",
+        "Municipal government"
+      ],
+      "civic_institutions": [
+        "Chamber of commerce",
+        "County extension office",
+        "Public library"
+      ],
+      "churches": [
+        "Community churches — local verification needed"
+      ],
+      "schools": [
+        "Public school district — verify boundary"
+      ],
+      "recurring_events": [
+        "County fair",
+        "Community church dinners",
+        "City council meetings"
+      ],
+      "local_media": [
+        "Local newspaper / radio — verify outlet list"
+      ],
+      "political_notes": null,
+      "sos_baseline_votes": 3360,
+      "sos_target_votes": 3629,
+      "persuasion_gap": 145,
+      "turnout_gap": 202,
+      "opportunity_notes": "Priority rank 47 — relationship-density events drive local trust",
+      "confidence_score": 25,
+      "source_links": [
+        {
+          "label": "Census QuickFacts (hook)",
+          "url": "https://www.census.gov/quickfacts/fact/table/US/PST045224",
+          "type": "census_hook"
+        },
+        {
+          "label": "BLS QCEW (hook)",
+          "url": "https://www.bls.gov/cew/",
+          "type": "bls_hook"
+        }
+      ]
+    },
+    {
+      "city": "Heber Springs",
+      "county": "Cleburne",
+      "region": "North Central",
+      "priority_rank": 48,
+      "population": 8000,
+      "demographics_summary": "North Central Arkansas community — aggregate ACS/Census hook pending full import",
+      "age_profile": "Small-town aging + school-age cohort",
+      "income_profile": "Median household income — Census ACS 5-year (placeholder)",
+      "employment_profile": "Tourism, retirement, small manufacturing",
+      "education_profile": "Public schools + community college access varies by hub size",
+      "major_employers": [
+        "Local healthcare",
+        "School district",
+        "Municipal government"
+      ],
+      "civic_institutions": [
+        "Chamber of commerce",
+        "County extension office",
+        "Public library"
+      ],
+      "churches": [
+        "Community churches — local verification needed"
+      ],
+      "schools": [
+        "Public school district — verify boundary"
+      ],
+      "recurring_events": [
+        "County fair",
+        "Community church dinners",
+        "City council meetings"
+      ],
+      "local_media": [
+        "Local newspaper / radio — verify outlet list"
+      ],
+      "political_notes": null,
+      "sos_baseline_votes": 3360,
+      "sos_target_votes": 3629,
+      "persuasion_gap": 145,
+      "turnout_gap": 202,
+      "opportunity_notes": "Priority rank 48 — relationship-density events drive local trust",
+      "confidence_score": 25,
+      "source_links": [
+        {
+          "label": "Census QuickFacts (hook)",
+          "url": "https://www.census.gov/quickfacts/fact/table/US/PST045224",
+          "type": "census_hook"
+        },
+        {
+          "label": "BLS QCEW (hook)",
+          "url": "https://www.bls.gov/cew/",
+          "type": "bls_hook"
+        }
+      ]
+    },
+    {
+      "city": "Alma",
+      "county": "Crawford",
+      "region": "West",
+      "priority_rank": 49,
+      "population": 8000,
+      "demographics_summary": "West Arkansas community — aggregate ACS/Census hook pending full import",
+      "age_profile": "Small-town aging + school-age cohort",
+      "income_profile": "Median household income — Census ACS 5-year (placeholder)",
+      "employment_profile": "Manufacturing, military-adjacent, healthcare",
+      "education_profile": "Public schools + community college access varies by hub size",
+      "major_employers": [
+        "Local healthcare",
+        "School district",
+        "Municipal government"
+      ],
+      "civic_institutions": [
+        "Chamber of commerce",
+        "County extension office",
+        "Public library"
+      ],
+      "churches": [
+        "Community churches — local verification needed"
+      ],
+      "schools": [
+        "Public school district — verify boundary"
+      ],
+      "recurring_events": [
+        "County fair",
+        "Community church dinners",
+        "City council meetings"
+      ],
+      "local_media": [
+        "Local newspaper / radio — verify outlet list"
+      ],
+      "political_notes": null,
+      "sos_baseline_votes": 3360,
+      "sos_target_votes": 3629,
+      "persuasion_gap": 145,
+      "turnout_gap": 202,
+      "opportunity_notes": "Priority rank 49 — relationship-density events drive local trust",
+      "confidence_score": 25,
+      "source_links": [
+        {
+          "label": "Census QuickFacts (hook)",
+          "url": "https://www.census.gov/quickfacts/fact/table/US/PST045224",
+          "type": "census_hook"
+        },
+        {
+          "label": "BLS QCEW (hook)",
+          "url": "https://www.bls.gov/cew/",
+          "type": "bls_hook"
+        }
+      ]
+    },
+    {
+      "city": "Beebe",
+      "county": "White",
+      "region": "Central",
+      "priority_rank": 50,
+      "population": 8000,
+      "demographics_summary": "Central Arkansas community — aggregate ACS/Census hook pending full import",
+      "age_profile": "Small-town aging + school-age cohort",
+      "income_profile": "Median household income — Census ACS 5-year (placeholder)",
+      "employment_profile": "State government, healthcare, logistics, education",
+      "education_profile": "Public schools + community college access varies by hub size",
+      "major_employers": [
+        "Local healthcare",
+        "School district",
+        "Municipal government"
+      ],
+      "civic_institutions": [
+        "Chamber of commerce",
+        "County extension office",
+        "Public library"
+      ],
+      "churches": [
+        "Community churches — local verification needed"
+      ],
+      "schools": [
+        "Public school district — verify boundary"
+      ],
+      "recurring_events": [
+        "County fair",
+        "Community church dinners",
+        "City council meetings"
+      ],
+      "local_media": [
+        "Local newspaper / radio — verify outlet list"
+      ],
+      "political_notes": null,
+      "sos_baseline_votes": 3360,
+      "sos_target_votes": 3629,
+      "persuasion_gap": 145,
+      "turnout_gap": 202,
+      "opportunity_notes": "Priority rank 50 — relationship-density events drive local trust",
+      "confidence_score": 25,
+      "source_links": [
+        {
+          "label": "Census QuickFacts (hook)",
+          "url": "https://www.census.gov/quickfacts/fact/table/US/PST045224",
+          "type": "census_hook"
+        },
+        {
+          "label": "BLS QCEW (hook)",
+          "url": "https://www.bls.gov/cew/",
+          "type": "bls_hook"
+        }
+      ]
+    },
+    {
+      "city": "Pea Ridge",
+      "county": "Benton",
+      "region": "Northwest",
+      "priority_rank": 51,
+      "population": 8000,
+      "demographics_summary": "Northwest Arkansas community — aggregate ACS/Census hook pending full import",
+      "age_profile": "Small-town aging + school-age cohort",
+      "income_profile": "Median household income — Census ACS 5-year (placeholder)",
+      "employment_profile": "Retail, poultry, university, construction",
+      "education_profile": "Public schools + community college access varies by hub size",
+      "major_employers": [
+        "Local healthcare",
+        "School district",
+        "Municipal government"
+      ],
+      "civic_institutions": [
+        "Chamber of commerce",
+        "County extension office",
+        "Public library"
+      ],
+      "churches": [
+        "Community churches — local verification needed"
+      ],
+      "schools": [
+        "Public school district — verify boundary"
+      ],
+      "recurring_events": [
+        "County fair",
+        "Community church dinners",
+        "City council meetings"
+      ],
+      "local_media": [
+        "Local newspaper / radio — verify outlet list"
+      ],
+      "political_notes": null,
+      "sos_baseline_votes": 3360,
+      "sos_target_votes": 3629,
+      "persuasion_gap": 145,
+      "turnout_gap": 202,
+      "opportunity_notes": "Priority rank 51 — relationship-density events drive local trust",
+      "confidence_score": 25,
+      "source_links": [
+        {
+          "label": "Census QuickFacts (hook)",
+          "url": "https://www.census.gov/quickfacts/fact/table/US/PST045224",
+          "type": "census_hook"
+        },
+        {
+          "label": "BLS QCEW (hook)",
+          "url": "https://www.bls.gov/cew/",
+          "type": "bls_hook"
+        }
+      ]
+    },
+    {
+      "city": "Farmington",
+      "county": "Washington",
+      "region": "Northwest",
+      "priority_rank": 52,
+      "population": 8000,
+      "demographics_summary": "Northwest Arkansas community — aggregate ACS/Census hook pending full import",
+      "age_profile": "Small-town aging + school-age cohort",
+      "income_profile": "Median household income — Census ACS 5-year (placeholder)",
+      "employment_profile": "Retail, poultry, university, construction",
+      "education_profile": "Public schools + community college access varies by hub size",
+      "major_employers": [
+        "Local healthcare",
+        "School district",
+        "Municipal government"
+      ],
+      "civic_institutions": [
+        "Chamber of commerce",
+        "County extension office",
+        "Public library"
+      ],
+      "churches": [
+        "Community churches — local verification needed"
+      ],
+      "schools": [
+        "Public school district — verify boundary"
+      ],
+      "recurring_events": [
+        "County fair",
+        "Community church dinners",
+        "City council meetings"
+      ],
+      "local_media": [
+        "Local newspaper / radio — verify outlet list"
+      ],
+      "political_notes": null,
+      "sos_baseline_votes": 3360,
+      "sos_target_votes": 3629,
+      "persuasion_gap": 145,
+      "turnout_gap": 202,
+      "opportunity_notes": "Priority rank 52 — relationship-density events drive local trust",
+      "confidence_score": 25,
+      "source_links": [
+        {
+          "label": "Census QuickFacts (hook)",
+          "url": "https://www.census.gov/quickfacts/fact/table/US/PST045224",
+          "type": "census_hook"
+        },
+        {
+          "label": "BLS QCEW (hook)",
+          "url": "https://www.bls.gov/cew/",
+          "type": "bls_hook"
+        }
+      ]
+    },
+    {
+      "city": "Prairie Grove",
+      "county": "Washington",
+      "region": "Northwest",
+      "priority_rank": 53,
+      "population": 8000,
+      "demographics_summary": "Northwest Arkansas community — aggregate ACS/Census hook pending full import",
+      "age_profile": "Small-town aging + school-age cohort",
+      "income_profile": "Median household income — Census ACS 5-year (placeholder)",
+      "employment_profile": "Retail, poultry, university, construction",
+      "education_profile": "Public schools + community college access varies by hub size",
+      "major_employers": [
+        "Local healthcare",
+        "School district",
+        "Municipal government"
+      ],
+      "civic_institutions": [
+        "Chamber of commerce",
+        "County extension office",
+        "Public library"
+      ],
+      "churches": [
+        "Community churches — local verification needed"
+      ],
+      "schools": [
+        "Public school district — verify boundary"
+      ],
+      "recurring_events": [
+        "County fair",
+        "Community church dinners",
+        "City council meetings"
+      ],
+      "local_media": [
+        "Local newspaper / radio — verify outlet list"
+      ],
+      "political_notes": null,
+      "sos_baseline_votes": 3360,
+      "sos_target_votes": 3629,
+      "persuasion_gap": 145,
+      "turnout_gap": 202,
+      "opportunity_notes": "Priority rank 53 — relationship-density events drive local trust",
+      "confidence_score": 25,
+      "source_links": [
+        {
+          "label": "Census QuickFacts (hook)",
+          "url": "https://www.census.gov/quickfacts/fact/table/US/PST045224",
+          "type": "census_hook"
+        },
+        {
+          "label": "BLS QCEW (hook)",
+          "url": "https://www.bls.gov/cew/",
+          "type": "bls_hook"
+        }
+      ]
+    },
+    {
+      "city": "Lowell",
+      "county": "Benton",
+      "region": "Northwest",
+      "priority_rank": 54,
+      "population": 8000,
+      "demographics_summary": "Northwest Arkansas community — aggregate ACS/Census hook pending full import",
+      "age_profile": "Small-town aging + school-age cohort",
+      "income_profile": "Median household income — Census ACS 5-year (placeholder)",
+      "employment_profile": "Retail, poultry, university, construction",
+      "education_profile": "Public schools + community college access varies by hub size",
+      "major_employers": [
+        "Local healthcare",
+        "School district",
+        "Municipal government"
+      ],
+      "civic_institutions": [
+        "Chamber of commerce",
+        "County extension office",
+        "Public library"
+      ],
+      "churches": [
+        "Community churches — local verification needed"
+      ],
+      "schools": [
+        "Public school district — verify boundary"
+      ],
+      "recurring_events": [
+        "County fair",
+        "Community church dinners",
+        "City council meetings"
+      ],
+      "local_media": [
+        "Local newspaper / radio — verify outlet list"
+      ],
+      "political_notes": null,
+      "sos_baseline_votes": 3360,
+      "sos_target_votes": 3629,
+      "persuasion_gap": 145,
+      "turnout_gap": 202,
+      "opportunity_notes": "Priority rank 54 — relationship-density events drive local trust",
+      "confidence_score": 25,
+      "source_links": [
+        {
+          "label": "Census QuickFacts (hook)",
+          "url": "https://www.census.gov/quickfacts/fact/table/US/PST045224",
+          "type": "census_hook"
+        },
+        {
+          "label": "BLS QCEW (hook)",
+          "url": "https://www.bls.gov/cew/",
+          "type": "bls_hook"
+        }
+      ]
+    },
+    {
+      "city": "Centerton",
+      "county": "Benton",
+      "region": "Northwest",
+      "priority_rank": 55,
+      "population": 8000,
+      "demographics_summary": "Northwest Arkansas community — aggregate ACS/Census hook pending full import",
+      "age_profile": "Small-town aging + school-age cohort",
+      "income_profile": "Median household income — Census ACS 5-year (placeholder)",
+      "employment_profile": "Retail, poultry, university, construction",
+      "education_profile": "Public schools + community college access varies by hub size",
+      "major_employers": [
+        "Local healthcare",
+        "School district",
+        "Municipal government"
+      ],
+      "civic_institutions": [
+        "Chamber of commerce",
+        "County extension office",
+        "Public library"
+      ],
+      "churches": [
+        "Community churches — local verification needed"
+      ],
+      "schools": [
+        "Public school district — verify boundary"
+      ],
+      "recurring_events": [
+        "County fair",
+        "Community church dinners",
+        "City council meetings"
+      ],
+      "local_media": [
+        "Local newspaper / radio — verify outlet list"
+      ],
+      "political_notes": null,
+      "sos_baseline_votes": 3360,
+      "sos_target_votes": 3629,
+      "persuasion_gap": 145,
+      "turnout_gap": 202,
+      "opportunity_notes": "Priority rank 55 — relationship-density events drive local trust",
+      "confidence_score": 25,
+      "source_links": [
+        {
+          "label": "Census QuickFacts (hook)",
+          "url": "https://www.census.gov/quickfacts/fact/table/US/PST045224",
+          "type": "census_hook"
+        },
+        {
+          "label": "BLS QCEW (hook)",
+          "url": "https://www.bls.gov/cew/",
+          "type": "bls_hook"
+        }
+      ]
+    },
+    {
+      "city": "Gravette",
+      "county": "Benton",
+      "region": "Northwest",
+      "priority_rank": 56,
+      "population": 8000,
+      "demographics_summary": "Northwest Arkansas community — aggregate ACS/Census hook pending full import",
+      "age_profile": "Small-town aging + school-age cohort",
+      "income_profile": "Median household income — Census ACS 5-year (placeholder)",
+      "employment_profile": "Retail, poultry, university, construction",
+      "education_profile": "Public schools + community college access varies by hub size",
+      "major_employers": [
+        "Local healthcare",
+        "School district",
+        "Municipal government"
+      ],
+      "civic_institutions": [
+        "Chamber of commerce",
+        "County extension office",
+        "Public library"
+      ],
+      "churches": [
+        "Community churches — local verification needed"
+      ],
+      "schools": [
+        "Public school district — verify boundary"
+      ],
+      "recurring_events": [
+        "County fair",
+        "Community church dinners",
+        "City council meetings"
+      ],
+      "local_media": [
+        "Local newspaper / radio — verify outlet list"
+      ],
+      "political_notes": null,
+      "sos_baseline_votes": 3360,
+      "sos_target_votes": 3629,
+      "persuasion_gap": 145,
+      "turnout_gap": 202,
+      "opportunity_notes": "Priority rank 56 — relationship-density events drive local trust",
+      "confidence_score": 25,
+      "source_links": [
+        {
+          "label": "Census QuickFacts (hook)",
+          "url": "https://www.census.gov/quickfacts/fact/table/US/PST045224",
+          "type": "census_hook"
+        },
+        {
+          "label": "BLS QCEW (hook)",
+          "url": "https://www.bls.gov/cew/",
+          "type": "bls_hook"
+        }
+      ]
+    },
+    {
+      "city": "Gentry",
+      "county": "Benton",
+      "region": "Northwest",
+      "priority_rank": 57,
+      "population": 8000,
+      "demographics_summary": "Northwest Arkansas community — aggregate ACS/Census hook pending full import",
+      "age_profile": "Small-town aging + school-age cohort",
+      "income_profile": "Median household income — Census ACS 5-year (placeholder)",
+      "employment_profile": "Retail, poultry, university, construction",
+      "education_profile": "Public schools + community college access varies by hub size",
+      "major_employers": [
+        "Local healthcare",
+        "School district",
+        "Municipal government"
+      ],
+      "civic_institutions": [
+        "Chamber of commerce",
+        "County extension office",
+        "Public library"
+      ],
+      "churches": [
+        "Community churches — local verification needed"
+      ],
+      "schools": [
+        "Public school district — verify boundary"
+      ],
+      "recurring_events": [
+        "County fair",
+        "Community church dinners",
+        "City council meetings"
+      ],
+      "local_media": [
+        "Local newspaper / radio — verify outlet list"
+      ],
+      "political_notes": null,
+      "sos_baseline_votes": 3360,
+      "sos_target_votes": 3629,
+      "persuasion_gap": 145,
+      "turnout_gap": 202,
+      "opportunity_notes": "Priority rank 57 — relationship-density events drive local trust",
+      "confidence_score": 25,
+      "source_links": [
+        {
+          "label": "Census QuickFacts (hook)",
+          "url": "https://www.census.gov/quickfacts/fact/table/US/PST045224",
+          "type": "census_hook"
+        },
+        {
+          "label": "BLS QCEW (hook)",
+          "url": "https://www.bls.gov/cew/",
+          "type": "bls_hook"
+        }
+      ]
+    },
+    {
+      "city": "Berryville",
+      "county": "Carroll",
+      "region": "Northwest",
+      "priority_rank": 58,
+      "population": 8000,
+      "demographics_summary": "Northwest Arkansas community — aggregate ACS/Census hook pending full import",
+      "age_profile": "Small-town aging + school-age cohort",
+      "income_profile": "Median household income — Census ACS 5-year (placeholder)",
+      "employment_profile": "Retail, poultry, university, construction",
+      "education_profile": "Public schools + community college access varies by hub size",
+      "major_employers": [
+        "Local healthcare",
+        "School district",
+        "Municipal government"
+      ],
+      "civic_institutions": [
+        "Chamber of commerce",
+        "County extension office",
+        "Public library"
+      ],
+      "churches": [
+        "Community churches — local verification needed"
+      ],
+      "schools": [
+        "Public school district — verify boundary"
+      ],
+      "recurring_events": [
+        "County fair",
+        "Community church dinners",
+        "City council meetings"
+      ],
+      "local_media": [
+        "Local newspaper / radio — verify outlet list"
+      ],
+      "political_notes": null,
+      "sos_baseline_votes": 3360,
+      "sos_target_votes": 3629,
+      "persuasion_gap": 145,
+      "turnout_gap": 202,
+      "opportunity_notes": "Priority rank 58 — relationship-density events drive local trust",
+      "confidence_score": 25,
+      "source_links": [
+        {
+          "label": "Census QuickFacts (hook)",
+          "url": "https://www.census.gov/quickfacts/fact/table/US/PST045224",
+          "type": "census_hook"
+        },
+        {
+          "label": "BLS QCEW (hook)",
+          "url": "https://www.bls.gov/cew/",
+          "type": "bls_hook"
+        }
+      ]
+    },
+    {
+      "city": "Eureka Springs",
+      "county": "Carroll",
+      "region": "Northwest",
+      "priority_rank": 59,
+      "population": 8000,
+      "demographics_summary": "Northwest Arkansas community — aggregate ACS/Census hook pending full import",
+      "age_profile": "Small-town aging + school-age cohort",
+      "income_profile": "Median household income — Census ACS 5-year (placeholder)",
+      "employment_profile": "Retail, poultry, university, construction",
+      "education_profile": "Public schools + community college access varies by hub size",
+      "major_employers": [
+        "Local healthcare",
+        "School district",
+        "Municipal government"
+      ],
+      "civic_institutions": [
+        "Chamber of commerce",
+        "County extension office",
+        "Public library"
+      ],
+      "churches": [
+        "Community churches — local verification needed"
+      ],
+      "schools": [
+        "Public school district — verify boundary"
+      ],
+      "recurring_events": [
+        "County fair",
+        "Community church dinners",
+        "City council meetings"
+      ],
+      "local_media": [
+        "Local newspaper / radio — verify outlet list"
+      ],
+      "political_notes": null,
+      "sos_baseline_votes": 3360,
+      "sos_target_votes": 3629,
+      "persuasion_gap": 145,
+      "turnout_gap": 202,
+      "opportunity_notes": "Priority rank 59 — relationship-density events drive local trust",
+      "confidence_score": 25,
+      "source_links": [
+        {
+          "label": "Census QuickFacts (hook)",
+          "url": "https://www.census.gov/quickfacts/fact/table/US/PST045224",
+          "type": "census_hook"
+        },
+        {
+          "label": "BLS QCEW (hook)",
+          "url": "https://www.bls.gov/cew/",
+          "type": "bls_hook"
+        }
+      ]
+    },
+    {
+      "city": "Clinton",
+      "county": "Van Buren",
+      "region": "North Central",
+      "priority_rank": 60,
+      "population": 8000,
+      "demographics_summary": "North Central Arkansas community — aggregate ACS/Census hook pending full import",
+      "age_profile": "Small-town aging + school-age cohort",
+      "income_profile": "Median household income — Census ACS 5-year (placeholder)",
+      "employment_profile": "Tourism, retirement, small manufacturing",
+      "education_profile": "Public schools + community college access varies by hub size",
+      "major_employers": [
+        "Local healthcare",
+        "School district",
+        "Municipal government"
+      ],
+      "civic_institutions": [
+        "Chamber of commerce",
+        "County extension office",
+        "Public library"
+      ],
+      "churches": [
+        "Community churches — local verification needed"
+      ],
+      "schools": [
+        "Public school district — verify boundary"
+      ],
+      "recurring_events": [
+        "County fair",
+        "Community church dinners",
+        "City council meetings"
+      ],
+      "local_media": [
+        "Local newspaper / radio — verify outlet list"
+      ],
+      "political_notes": null,
+      "sos_baseline_votes": 3360,
+      "sos_target_votes": 3629,
+      "persuasion_gap": 145,
+      "turnout_gap": 202,
+      "opportunity_notes": "Priority rank 60 — relationship-density events drive local trust",
+      "confidence_score": 25,
+      "source_links": [
+        {
+          "label": "Census QuickFacts (hook)",
+          "url": "https://www.census.gov/quickfacts/fact/table/US/PST045224",
+          "type": "census_hook"
+        },
+        {
+          "label": "BLS QCEW (hook)",
+          "url": "https://www.bls.gov/cew/",
+          "type": "bls_hook"
+        }
+      ]
+    },
+    {
+      "city": "Mena",
+      "county": "Polk",
+      "region": "West",
+      "priority_rank": 61,
+      "population": 8000,
+      "demographics_summary": "West Arkansas community — aggregate ACS/Census hook pending full import",
+      "age_profile": "Small-town aging + school-age cohort",
+      "income_profile": "Median household income — Census ACS 5-year (placeholder)",
+      "employment_profile": "Manufacturing, military-adjacent, healthcare",
+      "education_profile": "Public schools + community college access varies by hub size",
+      "major_employers": [
+        "Local healthcare",
+        "School district",
+        "Municipal government"
+      ],
+      "civic_institutions": [
+        "Chamber of commerce",
+        "County extension office",
+        "Public library"
+      ],
+      "churches": [
+        "Community churches — local verification needed"
+      ],
+      "schools": [
+        "Public school district — verify boundary"
+      ],
+      "recurring_events": [
+        "County fair",
+        "Community church dinners",
+        "City council meetings"
+      ],
+      "local_media": [
+        "Local newspaper / radio — verify outlet list"
+      ],
+      "political_notes": null,
+      "sos_baseline_votes": 3360,
+      "sos_target_votes": 3629,
+      "persuasion_gap": 145,
+      "turnout_gap": 202,
+      "opportunity_notes": "Priority rank 61 — relationship-density events drive local trust",
+      "confidence_score": 25,
+      "source_links": [
+        {
+          "label": "Census QuickFacts (hook)",
+          "url": "https://www.census.gov/quickfacts/fact/table/US/PST045224",
+          "type": "census_hook"
+        },
+        {
+          "label": "BLS QCEW (hook)",
+          "url": "https://www.bls.gov/cew/",
+          "type": "bls_hook"
+        }
+      ]
+    },
+    {
+      "city": "De Queen",
+      "county": "Sevier",
+      "region": "Southwest",
+      "priority_rank": 62,
+      "population": 8000,
+      "demographics_summary": "Southwest Arkansas community — aggregate ACS/Census hook pending full import",
+      "age_profile": "Small-town aging + school-age cohort",
+      "income_profile": "Median household income — Census ACS 5-year (placeholder)",
+      "employment_profile": "Timber, poultry, small manufacturing",
+      "education_profile": "Public schools + community college access varies by hub size",
+      "major_employers": [
+        "Local healthcare",
+        "School district",
+        "Municipal government"
+      ],
+      "civic_institutions": [
+        "Chamber of commerce",
+        "County extension office",
+        "Public library"
+      ],
+      "churches": [
+        "Community churches — local verification needed"
+      ],
+      "schools": [
+        "Public school district — verify boundary"
+      ],
+      "recurring_events": [
+        "County fair",
+        "Community church dinners",
+        "City council meetings"
+      ],
+      "local_media": [
+        "Local newspaper / radio — verify outlet list"
+      ],
+      "political_notes": null,
+      "sos_baseline_votes": 3360,
+      "sos_target_votes": 3629,
+      "persuasion_gap": 145,
+      "turnout_gap": 202,
+      "opportunity_notes": "Priority rank 62 — relationship-density events drive local trust",
+      "confidence_score": 25,
+      "source_links": [
+        {
+          "label": "Census QuickFacts (hook)",
+          "url": "https://www.census.gov/quickfacts/fact/table/US/PST045224",
+          "type": "census_hook"
+        },
+        {
+          "label": "BLS QCEW (hook)",
+          "url": "https://www.bls.gov/cew/",
+          "type": "bls_hook"
+        }
+      ]
+    },
+    {
+      "city": "Ashdown",
+      "county": "Little River",
+      "region": "Southwest",
+      "priority_rank": 63,
+      "population": 8000,
+      "demographics_summary": "Southwest Arkansas community — aggregate ACS/Census hook pending full import",
+      "age_profile": "Small-town aging + school-age cohort",
+      "income_profile": "Median household income — Census ACS 5-year (placeholder)",
+      "employment_profile": "Timber, poultry, small manufacturing",
+      "education_profile": "Public schools + community college access varies by hub size",
+      "major_employers": [
+        "Local healthcare",
+        "School district",
+        "Municipal government"
+      ],
+      "civic_institutions": [
+        "Chamber of commerce",
+        "County extension office",
+        "Public library"
+      ],
+      "churches": [
+        "Community churches — local verification needed"
+      ],
+      "schools": [
+        "Public school district — verify boundary"
+      ],
+      "recurring_events": [
+        "County fair",
+        "Community church dinners",
+        "City council meetings"
+      ],
+      "local_media": [
+        "Local newspaper / radio — verify outlet list"
+      ],
+      "political_notes": null,
+      "sos_baseline_votes": 3360,
+      "sos_target_votes": 3629,
+      "persuasion_gap": 145,
+      "turnout_gap": 202,
+      "opportunity_notes": "Priority rank 63 — relationship-density events drive local trust",
+      "confidence_score": 25,
+      "source_links": [
+        {
+          "label": "Census QuickFacts (hook)",
+          "url": "https://www.census.gov/quickfacts/fact/table/US/PST045224",
+          "type": "census_hook"
+        },
+        {
+          "label": "BLS QCEW (hook)",
+          "url": "https://www.bls.gov/cew/",
+          "type": "bls_hook"
+        }
+      ]
+    },
+    {
+      "city": "Nashville",
+      "county": "Howard",
+      "region": "Southwest",
+      "priority_rank": 64,
+      "population": 8000,
+      "demographics_summary": "Southwest Arkansas community — aggregate ACS/Census hook pending full import",
+      "age_profile": "Small-town aging + school-age cohort",
+      "income_profile": "Median household income — Census ACS 5-year (placeholder)",
+      "employment_profile": "Timber, poultry, small manufacturing",
+      "education_profile": "Public schools + community college access varies by hub size",
+      "major_employers": [
+        "Local healthcare",
+        "School district",
+        "Municipal government"
+      ],
+      "civic_institutions": [
+        "Chamber of commerce",
+        "County extension office",
+        "Public library"
+      ],
+      "churches": [
+        "Community churches — local verification needed"
+      ],
+      "schools": [
+        "Public school district — verify boundary"
+      ],
+      "recurring_events": [
+        "County fair",
+        "Community church dinners",
+        "City council meetings"
+      ],
+      "local_media": [
+        "Local newspaper / radio — verify outlet list"
+      ],
+      "political_notes": null,
+      "sos_baseline_votes": 3360,
+      "sos_target_votes": 3629,
+      "persuasion_gap": 145,
+      "turnout_gap": 202,
+      "opportunity_notes": "Priority rank 64 — relationship-density events drive local trust",
+      "confidence_score": 25,
+      "source_links": [
+        {
+          "label": "Census QuickFacts (hook)",
+          "url": "https://www.census.gov/quickfacts/fact/table/US/PST045224",
+          "type": "census_hook"
+        },
+        {
+          "label": "BLS QCEW (hook)",
+          "url": "https://www.bls.gov/cew/",
+          "type": "bls_hook"
+        }
+      ]
+    },
+    {
+      "city": "Dumas",
+      "county": "Desha",
+      "region": "Delta",
+      "priority_rank": 65,
+      "population": 8000,
+      "demographics_summary": "Delta Arkansas community — aggregate ACS/Census hook pending full import",
+      "age_profile": "Small-town aging + school-age cohort",
+      "income_profile": "Median household income — Census ACS 5-year (placeholder)",
+      "employment_profile": "Agriculture, manufacturing, healthcare",
+      "education_profile": "Public schools + community college access varies by hub size",
+      "major_employers": [
+        "Local healthcare",
+        "School district",
+        "Municipal government"
+      ],
+      "civic_institutions": [
+        "Chamber of commerce",
+        "County extension office",
+        "Public library"
+      ],
+      "churches": [
+        "Community churches — local verification needed"
+      ],
+      "schools": [
+        "Public school district — verify boundary"
+      ],
+      "recurring_events": [
+        "County fair",
+        "Community church dinners",
+        "City council meetings"
+      ],
+      "local_media": [
+        "Local newspaper / radio — verify outlet list"
+      ],
+      "political_notes": null,
+      "sos_baseline_votes": 3360,
+      "sos_target_votes": 3629,
+      "persuasion_gap": 145,
+      "turnout_gap": 202,
+      "opportunity_notes": "Priority rank 65 — relationship-density events drive local trust",
+      "confidence_score": 25,
+      "source_links": [
+        {
+          "label": "Census QuickFacts (hook)",
+          "url": "https://www.census.gov/quickfacts/fact/table/US/PST045224",
+          "type": "census_hook"
+        },
+        {
+          "label": "BLS QCEW (hook)",
+          "url": "https://www.bls.gov/cew/",
+          "type": "bls_hook"
+        }
+      ]
+    },
+    {
+      "city": "McGehee",
+      "county": "Desha",
+      "region": "Delta",
+      "priority_rank": 66,
+      "population": 8000,
+      "demographics_summary": "Delta Arkansas community — aggregate ACS/Census hook pending full import",
+      "age_profile": "Small-town aging + school-age cohort",
+      "income_profile": "Median household income — Census ACS 5-year (placeholder)",
+      "employment_profile": "Agriculture, manufacturing, healthcare",
+      "education_profile": "Public schools + community college access varies by hub size",
+      "major_employers": [
+        "Local healthcare",
+        "School district",
+        "Municipal government"
+      ],
+      "civic_institutions": [
+        "Chamber of commerce",
+        "County extension office",
+        "Public library"
+      ],
+      "churches": [
+        "Community churches — local verification needed"
+      ],
+      "schools": [
+        "Public school district — verify boundary"
+      ],
+      "recurring_events": [
+        "County fair",
+        "Community church dinners",
+        "City council meetings"
+      ],
+      "local_media": [
+        "Local newspaper / radio — verify outlet list"
+      ],
+      "political_notes": null,
+      "sos_baseline_votes": 3360,
+      "sos_target_votes": 3629,
+      "persuasion_gap": 145,
+      "turnout_gap": 202,
+      "opportunity_notes": "Priority rank 66 — relationship-density events drive local trust",
+      "confidence_score": 25,
+      "source_links": [
+        {
+          "label": "Census QuickFacts (hook)",
+          "url": "https://www.census.gov/quickfacts/fact/table/US/PST045224",
+          "type": "census_hook"
+        },
+        {
+          "label": "BLS QCEW (hook)",
+          "url": "https://www.bls.gov/cew/",
+          "type": "bls_hook"
+        }
+      ]
+    },
+    {
+      "city": "Warren",
+      "county": "Bradley",
+      "region": "South",
+      "priority_rank": 67,
+      "population": 8000,
+      "demographics_summary": "South Arkansas community — aggregate ACS/Census hook pending full import",
+      "age_profile": "Small-town aging + school-age cohort",
+      "income_profile": "Median household income — Census ACS 5-year (placeholder)",
+      "employment_profile": "Timber, oil/gas legacy, healthcare",
+      "education_profile": "Public schools + community college access varies by hub size",
+      "major_employers": [
+        "Local healthcare",
+        "School district",
+        "Municipal government"
+      ],
+      "civic_institutions": [
+        "Chamber of commerce",
+        "County extension office",
+        "Public library"
+      ],
+      "churches": [
+        "Community churches — local verification needed"
+      ],
+      "schools": [
+        "Public school district — verify boundary"
+      ],
+      "recurring_events": [
+        "County fair",
+        "Community church dinners",
+        "City council meetings"
+      ],
+      "local_media": [
+        "Local newspaper / radio — verify outlet list"
+      ],
+      "political_notes": null,
+      "sos_baseline_votes": 3360,
+      "sos_target_votes": 3629,
+      "persuasion_gap": 145,
+      "turnout_gap": 202,
+      "opportunity_notes": "Priority rank 67 — relationship-density events drive local trust",
+      "confidence_score": 25,
+      "source_links": [
+        {
+          "label": "Census QuickFacts (hook)",
+          "url": "https://www.census.gov/quickfacts/fact/table/US/PST045224",
+          "type": "census_hook"
+        },
+        {
+          "label": "BLS QCEW (hook)",
+          "url": "https://www.bls.gov/cew/",
+          "type": "bls_hook"
+        }
+      ]
+    },
+    {
+      "city": "Crossett",
+      "county": "Ashley",
+      "region": "South",
+      "priority_rank": 68,
+      "population": 8000,
+      "demographics_summary": "South Arkansas community — aggregate ACS/Census hook pending full import",
+      "age_profile": "Small-town aging + school-age cohort",
+      "income_profile": "Median household income — Census ACS 5-year (placeholder)",
+      "employment_profile": "Timber, oil/gas legacy, healthcare",
+      "education_profile": "Public schools + community college access varies by hub size",
+      "major_employers": [
+        "Local healthcare",
+        "School district",
+        "Municipal government"
+      ],
+      "civic_institutions": [
+        "Chamber of commerce",
+        "County extension office",
+        "Public library"
+      ],
+      "churches": [
+        "Community churches — local verification needed"
+      ],
+      "schools": [
+        "Public school district — verify boundary"
+      ],
+      "recurring_events": [
+        "County fair",
+        "Community church dinners",
+        "City council meetings"
+      ],
+      "local_media": [
+        "Local newspaper / radio — verify outlet list"
+      ],
+      "political_notes": null,
+      "sos_baseline_votes": 3360,
+      "sos_target_votes": 3629,
+      "persuasion_gap": 145,
+      "turnout_gap": 202,
+      "opportunity_notes": "Priority rank 68 — relationship-density events drive local trust",
+      "confidence_score": 25,
+      "source_links": [
+        {
+          "label": "Census QuickFacts (hook)",
+          "url": "https://www.census.gov/quickfacts/fact/table/US/PST045224",
+          "type": "census_hook"
+        },
+        {
+          "label": "BLS QCEW (hook)",
+          "url": "https://www.bls.gov/cew/",
+          "type": "bls_hook"
+        }
+      ]
+    },
+    {
+      "city": "Trumann",
+      "county": "Poinsett",
+      "region": "Northeast",
+      "priority_rank": 69,
+      "population": 8000,
+      "demographics_summary": "Northeast Arkansas community — aggregate ACS/Census hook pending full import",
+      "age_profile": "Small-town aging + school-age cohort",
+      "income_profile": "Median household income — Census ACS 5-year (placeholder)",
+      "employment_profile": "Agriculture, food processing, education",
+      "education_profile": "Public schools + community college access varies by hub size",
+      "major_employers": [
+        "Local healthcare",
+        "School district",
+        "Municipal government"
+      ],
+      "civic_institutions": [
+        "Chamber of commerce",
+        "County extension office",
+        "Public library"
+      ],
+      "churches": [
+        "Community churches — local verification needed"
+      ],
+      "schools": [
+        "Public school district — verify boundary"
+      ],
+      "recurring_events": [
+        "County fair",
+        "Community church dinners",
+        "City council meetings"
+      ],
+      "local_media": [
+        "Local newspaper / radio — verify outlet list"
+      ],
+      "political_notes": null,
+      "sos_baseline_votes": 3360,
+      "sos_target_votes": 3629,
+      "persuasion_gap": 145,
+      "turnout_gap": 202,
+      "opportunity_notes": "Priority rank 69 — relationship-density events drive local trust",
+      "confidence_score": 25,
+      "source_links": [
+        {
+          "label": "Census QuickFacts (hook)",
+          "url": "https://www.census.gov/quickfacts/fact/table/US/PST045224",
+          "type": "census_hook"
+        },
+        {
+          "label": "BLS QCEW (hook)",
+          "url": "https://www.bls.gov/cew/",
+          "type": "bls_hook"
+        }
+      ]
+    },
+    {
+      "city": "Osceola",
+      "county": "Mississippi",
+      "region": "Delta",
+      "priority_rank": 70,
+      "population": 8000,
+      "demographics_summary": "Delta Arkansas community — aggregate ACS/Census hook pending full import",
+      "age_profile": "Small-town aging + school-age cohort",
+      "income_profile": "Median household income — Census ACS 5-year (placeholder)",
+      "employment_profile": "Agriculture, manufacturing, healthcare",
+      "education_profile": "Public schools + community college access varies by hub size",
+      "major_employers": [
+        "Local healthcare",
+        "School district",
+        "Municipal government"
+      ],
+      "civic_institutions": [
+        "Chamber of commerce",
+        "County extension office",
+        "Public library"
+      ],
+      "churches": [
+        "Community churches — local verification needed"
+      ],
+      "schools": [
+        "Public school district — verify boundary"
+      ],
+      "recurring_events": [
+        "County fair",
+        "Community church dinners",
+        "City council meetings"
+      ],
+      "local_media": [
+        "Local newspaper / radio — verify outlet list"
+      ],
+      "political_notes": null,
+      "sos_baseline_votes": 3360,
+      "sos_target_votes": 3629,
+      "persuasion_gap": 145,
+      "turnout_gap": 202,
+      "opportunity_notes": "Priority rank 70 — relationship-density events drive local trust",
+      "confidence_score": 25,
+      "source_links": [
+        {
+          "label": "Census QuickFacts (hook)",
+          "url": "https://www.census.gov/quickfacts/fact/table/US/PST045224",
+          "type": "census_hook"
+        },
+        {
+          "label": "BLS QCEW (hook)",
+          "url": "https://www.bls.gov/cew/",
+          "type": "bls_hook"
+        }
+      ]
+    },
+    {
+      "city": "Earle",
+      "county": "Crittenden",
+      "region": "Delta",
+      "priority_rank": 71,
+      "population": 8000,
+      "demographics_summary": "Delta Arkansas community — aggregate ACS/Census hook pending full import",
+      "age_profile": "Small-town aging + school-age cohort",
+      "income_profile": "Median household income — Census ACS 5-year (placeholder)",
+      "employment_profile": "Agriculture, manufacturing, healthcare",
+      "education_profile": "Public schools + community college access varies by hub size",
+      "major_employers": [
+        "Local healthcare",
+        "School district",
+        "Municipal government"
+      ],
+      "civic_institutions": [
+        "Chamber of commerce",
+        "County extension office",
+        "Public library"
+      ],
+      "churches": [
+        "Community churches — local verification needed"
+      ],
+      "schools": [
+        "Public school district — verify boundary"
+      ],
+      "recurring_events": [
+        "County fair",
+        "Community church dinners",
+        "City council meetings"
+      ],
+      "local_media": [
+        "Local newspaper / radio — verify outlet list"
+      ],
+      "political_notes": null,
+      "sos_baseline_votes": 3360,
+      "sos_target_votes": 3629,
+      "persuasion_gap": 145,
+      "turnout_gap": 202,
+      "opportunity_notes": "Priority rank 71 — relationship-density events drive local trust",
+      "confidence_score": 25,
+      "source_links": [
+        {
+          "label": "Census QuickFacts (hook)",
+          "url": "https://www.census.gov/quickfacts/fact/table/US/PST045224",
+          "type": "census_hook"
+        },
+        {
+          "label": "BLS QCEW (hook)",
+          "url": "https://www.bls.gov/cew/",
+          "type": "bls_hook"
+        }
+      ]
+    },
+    {
+      "city": "Marked Tree",
+      "county": "Poinsett",
+      "region": "Delta",
+      "priority_rank": 72,
+      "population": 8000,
+      "demographics_summary": "Delta Arkansas community — aggregate ACS/Census hook pending full import",
+      "age_profile": "Small-town aging + school-age cohort",
+      "income_profile": "Median household income — Census ACS 5-year (placeholder)",
+      "employment_profile": "Agriculture, manufacturing, healthcare",
+      "education_profile": "Public schools + community college access varies by hub size",
+      "major_employers": [
+        "Local healthcare",
+        "School district",
+        "Municipal government"
+      ],
+      "civic_institutions": [
+        "Chamber of commerce",
+        "County extension office",
+        "Public library"
+      ],
+      "churches": [
+        "Community churches — local verification needed"
+      ],
+      "schools": [
+        "Public school district — verify boundary"
+      ],
+      "recurring_events": [
+        "County fair",
+        "Community church dinners",
+        "City council meetings"
+      ],
+      "local_media": [
+        "Local newspaper / radio — verify outlet list"
+      ],
+      "political_notes": null,
+      "sos_baseline_votes": 3360,
+      "sos_target_votes": 3629,
+      "persuasion_gap": 145,
+      "turnout_gap": 202,
+      "opportunity_notes": "Priority rank 72 — relationship-density events drive local trust",
+      "confidence_score": 25,
+      "source_links": [
+        {
+          "label": "Census QuickFacts (hook)",
+          "url": "https://www.census.gov/quickfacts/fact/table/US/PST045224",
+          "type": "census_hook"
+        },
+        {
+          "label": "BLS QCEW (hook)",
+          "url": "https://www.bls.gov/cew/",
+          "type": "bls_hook"
+        }
+      ]
+    },
+    {
+      "city": "Walnut Ridge",
+      "county": "Lawrence",
+      "region": "Northeast",
+      "priority_rank": 73,
+      "population": 8000,
+      "demographics_summary": "Northeast Arkansas community — aggregate ACS/Census hook pending full import",
+      "age_profile": "Small-town aging + school-age cohort",
+      "income_profile": "Median household income — Census ACS 5-year (placeholder)",
+      "employment_profile": "Agriculture, food processing, education",
+      "education_profile": "Public schools + community college access varies by hub size",
+      "major_employers": [
+        "Local healthcare",
+        "School district",
+        "Municipal government"
+      ],
+      "civic_institutions": [
+        "Chamber of commerce",
+        "County extension office",
+        "Public library"
+      ],
+      "churches": [
+        "Community churches — local verification needed"
+      ],
+      "schools": [
+        "Public school district — verify boundary"
+      ],
+      "recurring_events": [
+        "County fair",
+        "Community church dinners",
+        "City council meetings"
+      ],
+      "local_media": [
+        "Local newspaper / radio — verify outlet list"
+      ],
+      "political_notes": null,
+      "sos_baseline_votes": 3360,
+      "sos_target_votes": 3629,
+      "persuasion_gap": 145,
+      "turnout_gap": 202,
+      "opportunity_notes": "Priority rank 73 — relationship-density events drive local trust",
+      "confidence_score": 25,
+      "source_links": [
+        {
+          "label": "Census QuickFacts (hook)",
+          "url": "https://www.census.gov/quickfacts/fact/table/US/PST045224",
+          "type": "census_hook"
+        },
+        {
+          "label": "BLS QCEW (hook)",
+          "url": "https://www.bls.gov/cew/",
+          "type": "bls_hook"
+        }
+      ]
+    },
+    {
+      "city": "Corning",
+      "county": "Clay",
+      "region": "Northeast",
+      "priority_rank": 74,
+      "population": 8000,
+      "demographics_summary": "Northeast Arkansas community — aggregate ACS/Census hook pending full import",
+      "age_profile": "Small-town aging + school-age cohort",
+      "income_profile": "Median household income — Census ACS 5-year (placeholder)",
+      "employment_profile": "Agriculture, food processing, education",
+      "education_profile": "Public schools + community college access varies by hub size",
+      "major_employers": [
+        "Local healthcare",
+        "School district",
+        "Municipal government"
+      ],
+      "civic_institutions": [
+        "Chamber of commerce",
+        "County extension office",
+        "Public library"
+      ],
+      "churches": [
+        "Community churches — local verification needed"
+      ],
+      "schools": [
+        "Public school district — verify boundary"
+      ],
+      "recurring_events": [
+        "County fair",
+        "Community church dinners",
+        "City council meetings"
+      ],
+      "local_media": [
+        "Local newspaper / radio — verify outlet list"
+      ],
+      "political_notes": null,
+      "sos_baseline_votes": 3360,
+      "sos_target_votes": 3629,
+      "persuasion_gap": 145,
+      "turnout_gap": 202,
+      "opportunity_notes": "Priority rank 74 — relationship-density events drive local trust",
+      "confidence_score": 25,
+      "source_links": [
+        {
+          "label": "Census QuickFacts (hook)",
+          "url": "https://www.census.gov/quickfacts/fact/table/US/PST045224",
+          "type": "census_hook"
+        },
+        {
+          "label": "BLS QCEW (hook)",
+          "url": "https://www.bls.gov/cew/",
+          "type": "bls_hook"
+        }
+      ]
+    },
+    {
+      "city": "Piggott",
+      "county": "Clay",
+      "region": "Northeast",
+      "priority_rank": 75,
+      "population": 8000,
+      "demographics_summary": "Northeast Arkansas community — aggregate ACS/Census hook pending full import",
+      "age_profile": "Small-town aging + school-age cohort",
+      "income_profile": "Median household income — Census ACS 5-year (placeholder)",
+      "employment_profile": "Agriculture, food processing, education",
+      "education_profile": "Public schools + community college access varies by hub size",
+      "major_employers": [
+        "Local healthcare",
+        "School district",
+        "Municipal government"
+      ],
+      "civic_institutions": [
+        "Chamber of commerce",
+        "County extension office",
+        "Public library"
+      ],
+      "churches": [
+        "Community churches — local verification needed"
+      ],
+      "schools": [
+        "Public school district — verify boundary"
+      ],
+      "recurring_events": [
+        "County fair",
+        "Community church dinners",
+        "City council meetings"
+      ],
+      "local_media": [
+        "Local newspaper / radio — verify outlet list"
+      ],
+      "political_notes": null,
+      "sos_baseline_votes": 3360,
+      "sos_target_votes": 3629,
+      "persuasion_gap": 145,
+      "turnout_gap": 202,
+      "opportunity_notes": "Priority rank 75 — relationship-density events drive local trust",
+      "confidence_score": 25,
+      "source_links": [
+        {
+          "label": "Census QuickFacts (hook)",
+          "url": "https://www.census.gov/quickfacts/fact/table/US/PST045224",
+          "type": "census_hook"
+        },
+        {
+          "label": "BLS QCEW (hook)",
+          "url": "https://www.bls.gov/cew/",
+          "type": "bls_hook"
+        }
+      ]
+    },
+    {
+      "city": "Rector",
+      "county": "Clay",
+      "region": "Northeast",
+      "priority_rank": 76,
+      "population": 8000,
+      "demographics_summary": "Northeast Arkansas community — aggregate ACS/Census hook pending full import",
+      "age_profile": "Small-town aging + school-age cohort",
+      "income_profile": "Median household income — Census ACS 5-year (placeholder)",
+      "employment_profile": "Agriculture, food processing, education",
+      "education_profile": "Public schools + community college access varies by hub size",
+      "major_employers": [
+        "Local healthcare",
+        "School district",
+        "Municipal government"
+      ],
+      "civic_institutions": [
+        "Chamber of commerce",
+        "County extension office",
+        "Public library"
+      ],
+      "churches": [
+        "Community churches — local verification needed"
+      ],
+      "schools": [
+        "Public school district — verify boundary"
+      ],
+      "recurring_events": [
+        "County fair",
+        "Community church dinners",
+        "City council meetings"
+      ],
+      "local_media": [
+        "Local newspaper / radio — verify outlet list"
+      ],
+      "political_notes": null,
+      "sos_baseline_votes": 3360,
+      "sos_target_votes": 3629,
+      "persuasion_gap": 145,
+      "turnout_gap": 202,
+      "opportunity_notes": "Priority rank 76 — relationship-density events drive local trust",
+      "confidence_score": 25,
+      "source_links": [
+        {
+          "label": "Census QuickFacts (hook)",
+          "url": "https://www.census.gov/quickfacts/fact/table/US/PST045224",
+          "type": "census_hook"
+        },
+        {
+          "label": "BLS QCEW (hook)",
+          "url": "https://www.bls.gov/cew/",
+          "type": "bls_hook"
+        }
+      ]
+    },
+    {
+      "city": "Hardy",
+      "county": "Sharp",
+      "region": "North",
+      "priority_rank": 77,
+      "population": 8000,
+      "demographics_summary": "North Arkansas community — aggregate ACS/Census hook pending full import",
+      "age_profile": "Small-town aging + school-age cohort",
+      "income_profile": "Median household income — Census ACS 5-year (placeholder)",
+      "employment_profile": "Tourism, retirement, agriculture",
+      "education_profile": "Public schools + community college access varies by hub size",
+      "major_employers": [
+        "Local healthcare",
+        "School district",
+        "Municipal government"
+      ],
+      "civic_institutions": [
+        "Chamber of commerce",
+        "County extension office",
+        "Public library"
+      ],
+      "churches": [
+        "Community churches — local verification needed"
+      ],
+      "schools": [
+        "Public school district — verify boundary"
+      ],
+      "recurring_events": [
+        "County fair",
+        "Community church dinners",
+        "City council meetings"
+      ],
+      "local_media": [
+        "Local newspaper / radio — verify outlet list"
+      ],
+      "political_notes": null,
+      "sos_baseline_votes": 3360,
+      "sos_target_votes": 3629,
+      "persuasion_gap": 145,
+      "turnout_gap": 202,
+      "opportunity_notes": "Priority rank 77 — relationship-density events drive local trust",
+      "confidence_score": 25,
+      "source_links": [
+        {
+          "label": "Census QuickFacts (hook)",
+          "url": "https://www.census.gov/quickfacts/fact/table/US/PST045224",
+          "type": "census_hook"
+        },
+        {
+          "label": "BLS QCEW (hook)",
+          "url": "https://www.bls.gov/cew/",
+          "type": "bls_hook"
+        }
+      ]
+    },
+    {
+      "city": "Cherokee Village",
+      "county": "Sharp",
+      "region": "North",
+      "priority_rank": 78,
+      "population": 8000,
+      "demographics_summary": "North Arkansas community — aggregate ACS/Census hook pending full import",
+      "age_profile": "Small-town aging + school-age cohort",
+      "income_profile": "Median household income — Census ACS 5-year (placeholder)",
+      "employment_profile": "Tourism, retirement, agriculture",
+      "education_profile": "Public schools + community college access varies by hub size",
+      "major_employers": [
+        "Local healthcare",
+        "School district",
+        "Municipal government"
+      ],
+      "civic_institutions": [
+        "Chamber of commerce",
+        "County extension office",
+        "Public library"
+      ],
+      "churches": [
+        "Community churches — local verification needed"
+      ],
+      "schools": [
+        "Public school district — verify boundary"
+      ],
+      "recurring_events": [
+        "County fair",
+        "Community church dinners",
+        "City council meetings"
+      ],
+      "local_media": [
+        "Local newspaper / radio — verify outlet list"
+      ],
+      "political_notes": null,
+      "sos_baseline_votes": 3360,
+      "sos_target_votes": 3629,
+      "persuasion_gap": 145,
+      "turnout_gap": 202,
+      "opportunity_notes": "Priority rank 78 — relationship-density events drive local trust",
+      "confidence_score": 25,
+      "source_links": [
+        {
+          "label": "Census QuickFacts (hook)",
+          "url": "https://www.census.gov/quickfacts/fact/table/US/PST045224",
+          "type": "census_hook"
+        },
+        {
+          "label": "BLS QCEW (hook)",
+          "url": "https://www.bls.gov/cew/",
+          "type": "bls_hook"
+        }
+      ]
+    },
+    {
+      "city": "Horseshoe Bend",
+      "county": "Izard",
+      "region": "North Central",
+      "priority_rank": 79,
+      "population": 8000,
+      "demographics_summary": "North Central Arkansas community — aggregate ACS/Census hook pending full import",
+      "age_profile": "Small-town aging + school-age cohort",
+      "income_profile": "Median household income — Census ACS 5-year (placeholder)",
+      "employment_profile": "Tourism, retirement, small manufacturing",
+      "education_profile": "Public schools + community college access varies by hub size",
+      "major_employers": [
+        "Local healthcare",
+        "School district",
+        "Municipal government"
+      ],
+      "civic_institutions": [
+        "Chamber of commerce",
+        "County extension office",
+        "Public library"
+      ],
+      "churches": [
+        "Community churches — local verification needed"
+      ],
+      "schools": [
+        "Public school district — verify boundary"
+      ],
+      "recurring_events": [
+        "County fair",
+        "Community church dinners",
+        "City council meetings"
+      ],
+      "local_media": [
+        "Local newspaper / radio — verify outlet list"
+      ],
+      "political_notes": null,
+      "sos_baseline_votes": 3360,
+      "sos_target_votes": 3629,
+      "persuasion_gap": 145,
+      "turnout_gap": 202,
+      "opportunity_notes": "Priority rank 79 — relationship-density events drive local trust",
+      "confidence_score": 25,
+      "source_links": [
+        {
+          "label": "Census QuickFacts (hook)",
+          "url": "https://www.census.gov/quickfacts/fact/table/US/PST045224",
+          "type": "census_hook"
+        },
+        {
+          "label": "BLS QCEW (hook)",
+          "url": "https://www.bls.gov/cew/",
+          "type": "bls_hook"
+        }
+      ]
+    },
+    {
+      "city": "Fairfield Bay",
+      "county": "Van Buren",
+      "region": "North Central",
+      "priority_rank": 80,
+      "population": 8000,
+      "demographics_summary": "North Central Arkansas community — aggregate ACS/Census hook pending full import",
+      "age_profile": "Small-town aging + school-age cohort",
+      "income_profile": "Median household income — Census ACS 5-year (placeholder)",
+      "employment_profile": "Tourism, retirement, small manufacturing",
+      "education_profile": "Public schools + community college access varies by hub size",
+      "major_employers": [
+        "Local healthcare",
+        "School district",
+        "Municipal government"
+      ],
+      "civic_institutions": [
+        "Chamber of commerce",
+        "County extension office",
+        "Public library"
+      ],
+      "churches": [
+        "Community churches — local verification needed"
+      ],
+      "schools": [
+        "Public school district — verify boundary"
+      ],
+      "recurring_events": [
+        "County fair",
+        "Community church dinners",
+        "City council meetings"
+      ],
+      "local_media": [
+        "Local newspaper / radio — verify outlet list"
+      ],
+      "political_notes": null,
+      "sos_baseline_votes": 3360,
+      "sos_target_votes": 3629,
+      "persuasion_gap": 145,
+      "turnout_gap": 202,
+      "opportunity_notes": "Priority rank 80 — relationship-density events drive local trust",
+      "confidence_score": 25,
+      "source_links": [
+        {
+          "label": "Census QuickFacts (hook)",
+          "url": "https://www.census.gov/quickfacts/fact/table/US/PST045224",
+          "type": "census_hook"
+        },
+        {
+          "label": "BLS QCEW (hook)",
+          "url": "https://www.bls.gov/cew/",
+          "type": "bls_hook"
+        }
+      ]
+    },
+    {
+      "city": "Greers Ferry",
+      "county": "Cleburne",
+      "region": "North Central",
+      "priority_rank": 81,
+      "population": 8000,
+      "demographics_summary": "North Central Arkansas community — aggregate ACS/Census hook pending full import",
+      "age_profile": "Small-town aging + school-age cohort",
+      "income_profile": "Median household income — Census ACS 5-year (placeholder)",
+      "employment_profile": "Tourism, retirement, small manufacturing",
+      "education_profile": "Public schools + community college access varies by hub size",
+      "major_employers": [
+        "Local healthcare",
+        "School district",
+        "Municipal government"
+      ],
+      "civic_institutions": [
+        "Chamber of commerce",
+        "County extension office",
+        "Public library"
+      ],
+      "churches": [
+        "Community churches — local verification needed"
+      ],
+      "schools": [
+        "Public school district — verify boundary"
+      ],
+      "recurring_events": [
+        "County fair",
+        "Community church dinners",
+        "City council meetings"
+      ],
+      "local_media": [
+        "Local newspaper / radio — verify outlet list"
+      ],
+      "political_notes": null,
+      "sos_baseline_votes": 3360,
+      "sos_target_votes": 3629,
+      "persuasion_gap": 145,
+      "turnout_gap": 202,
+      "opportunity_notes": "Priority rank 81 — relationship-density events drive local trust",
+      "confidence_score": 25,
+      "source_links": [
+        {
+          "label": "Census QuickFacts (hook)",
+          "url": "https://www.census.gov/quickfacts/fact/table/US/PST045224",
+          "type": "census_hook"
+        },
+        {
+          "label": "BLS QCEW (hook)",
+          "url": "https://www.bls.gov/cew/",
+          "type": "bls_hook"
+        }
+      ]
+    },
+    {
+      "city": "Quitman",
+      "county": "Cleburne",
+      "region": "North Central",
+      "priority_rank": 82,
+      "population": 8000,
+      "demographics_summary": "North Central Arkansas community — aggregate ACS/Census hook pending full import",
+      "age_profile": "Small-town aging + school-age cohort",
+      "income_profile": "Median household income — Census ACS 5-year (placeholder)",
+      "employment_profile": "Tourism, retirement, small manufacturing",
+      "education_profile": "Public schools + community college access varies by hub size",
+      "major_employers": [
+        "Local healthcare",
+        "School district",
+        "Municipal government"
+      ],
+      "civic_institutions": [
+        "Chamber of commerce",
+        "County extension office",
+        "Public library"
+      ],
+      "churches": [
+        "Community churches — local verification needed"
+      ],
+      "schools": [
+        "Public school district — verify boundary"
+      ],
+      "recurring_events": [
+        "County fair",
+        "Community church dinners",
+        "City council meetings"
+      ],
+      "local_media": [
+        "Local newspaper / radio — verify outlet list"
+      ],
+      "political_notes": null,
+      "sos_baseline_votes": 3360,
+      "sos_target_votes": 3629,
+      "persuasion_gap": 145,
+      "turnout_gap": 202,
+      "opportunity_notes": "Priority rank 82 — relationship-density events drive local trust",
+      "confidence_score": 25,
+      "source_links": [
+        {
+          "label": "Census QuickFacts (hook)",
+          "url": "https://www.census.gov/quickfacts/fact/table/US/PST045224",
+          "type": "census_hook"
+        },
+        {
+          "label": "BLS QCEW (hook)",
+          "url": "https://www.bls.gov/cew/",
+          "type": "bls_hook"
+        }
+      ]
+    },
+    {
+      "city": "Rose Bud",
+      "county": "White",
+      "region": "Central",
+      "priority_rank": 83,
+      "population": 8000,
+      "demographics_summary": "Central Arkansas community — aggregate ACS/Census hook pending full import",
+      "age_profile": "Small-town aging + school-age cohort",
+      "income_profile": "Median household income — Census ACS 5-year (placeholder)",
+      "employment_profile": "State government, healthcare, logistics, education",
+      "education_profile": "Public schools + community college access varies by hub size",
+      "major_employers": [
+        "Local healthcare",
+        "School district",
+        "Municipal government"
+      ],
+      "civic_institutions": [
+        "Chamber of commerce",
+        "County extension office",
+        "Public library"
+      ],
+      "churches": [
+        "Community churches — local verification needed"
+      ],
+      "schools": [
+        "Public school district — verify boundary"
+      ],
+      "recurring_events": [
+        "County fair",
+        "Community church dinners",
+        "City council meetings"
+      ],
+      "local_media": [
+        "Local newspaper / radio — verify outlet list"
+      ],
+      "political_notes": null,
+      "sos_baseline_votes": 3360,
+      "sos_target_votes": 3629,
+      "persuasion_gap": 145,
+      "turnout_gap": 202,
+      "opportunity_notes": "Priority rank 83 — relationship-density events drive local trust",
+      "confidence_score": 25,
+      "source_links": [
+        {
+          "label": "Census QuickFacts (hook)",
+          "url": "https://www.census.gov/quickfacts/fact/table/US/PST045224",
+          "type": "census_hook"
+        },
+        {
+          "label": "BLS QCEW (hook)",
+          "url": "https://www.bls.gov/cew/",
+          "type": "bls_hook"
+        }
+      ]
+    },
+    {
+      "city": "Vilonia",
+      "county": "Faulkner",
+      "region": "Central",
+      "priority_rank": 84,
+      "population": 8000,
+      "demographics_summary": "Central Arkansas community — aggregate ACS/Census hook pending full import",
+      "age_profile": "Small-town aging + school-age cohort",
+      "income_profile": "Median household income — Census ACS 5-year (placeholder)",
+      "employment_profile": "State government, healthcare, logistics, education",
+      "education_profile": "Public schools + community college access varies by hub size",
+      "major_employers": [
+        "Local healthcare",
+        "School district",
+        "Municipal government"
+      ],
+      "civic_institutions": [
+        "Chamber of commerce",
+        "County extension office",
+        "Public library"
+      ],
+      "churches": [
+        "Community churches — local verification needed"
+      ],
+      "schools": [
+        "Public school district — verify boundary"
+      ],
+      "recurring_events": [
+        "County fair",
+        "Community church dinners",
+        "City council meetings"
+      ],
+      "local_media": [
+        "Local newspaper / radio — verify outlet list"
+      ],
+      "political_notes": null,
+      "sos_baseline_votes": 3360,
+      "sos_target_votes": 3629,
+      "persuasion_gap": 145,
+      "turnout_gap": 202,
+      "opportunity_notes": "Priority rank 84 — relationship-density events drive local trust",
+      "confidence_score": 25,
+      "source_links": [
+        {
+          "label": "Census QuickFacts (hook)",
+          "url": "https://www.census.gov/quickfacts/fact/table/US/PST045224",
+          "type": "census_hook"
+        },
+        {
+          "label": "BLS QCEW (hook)",
+          "url": "https://www.bls.gov/cew/",
+          "type": "bls_hook"
+        }
+      ]
+    },
+    {
+      "city": "England",
+      "county": "Lonoke",
+      "region": "Central",
+      "priority_rank": 85,
+      "population": 8000,
+      "demographics_summary": "Central Arkansas community — aggregate ACS/Census hook pending full import",
+      "age_profile": "Small-town aging + school-age cohort",
+      "income_profile": "Median household income — Census ACS 5-year (placeholder)",
+      "employment_profile": "State government, healthcare, logistics, education",
+      "education_profile": "Public schools + community college access varies by hub size",
+      "major_employers": [
+        "Local healthcare",
+        "School district",
+        "Municipal government"
+      ],
+      "civic_institutions": [
+        "Chamber of commerce",
+        "County extension office",
+        "Public library"
+      ],
+      "churches": [
+        "Community churches — local verification needed"
+      ],
+      "schools": [
+        "Public school district — verify boundary"
+      ],
+      "recurring_events": [
+        "County fair",
+        "Community church dinners",
+        "City council meetings"
+      ],
+      "local_media": [
+        "Local newspaper / radio — verify outlet list"
+      ],
+      "political_notes": null,
+      "sos_baseline_votes": 3360,
+      "sos_target_votes": 3629,
+      "persuasion_gap": 145,
+      "turnout_gap": 202,
+      "opportunity_notes": "Priority rank 85 — relationship-density events drive local trust",
+      "confidence_score": 25,
+      "source_links": [
+        {
+          "label": "Census QuickFacts (hook)",
+          "url": "https://www.census.gov/quickfacts/fact/table/US/PST045224",
+          "type": "census_hook"
+        },
+        {
+          "label": "BLS QCEW (hook)",
+          "url": "https://www.bls.gov/cew/",
+          "type": "bls_hook"
+        }
+      ]
+    },
+    {
+      "city": "Scott",
+      "county": "Pulaski",
+      "region": "Central",
+      "priority_rank": 86,
+      "population": 8000,
+      "demographics_summary": "Central Arkansas community — aggregate ACS/Census hook pending full import",
+      "age_profile": "Small-town aging + school-age cohort",
+      "income_profile": "Median household income — Census ACS 5-year (placeholder)",
+      "employment_profile": "State government, healthcare, logistics, education",
+      "education_profile": "Public schools + community college access varies by hub size",
+      "major_employers": [
+        "Local healthcare",
+        "School district",
+        "Municipal government"
+      ],
+      "civic_institutions": [
+        "Chamber of commerce",
+        "County extension office",
+        "Public library"
+      ],
+      "churches": [
+        "Community churches — local verification needed"
+      ],
+      "schools": [
+        "Public school district — verify boundary"
+      ],
+      "recurring_events": [
+        "County fair",
+        "Community church dinners",
+        "City council meetings"
+      ],
+      "local_media": [
+        "Local newspaper / radio — verify outlet list"
+      ],
+      "political_notes": null,
+      "sos_baseline_votes": 3360,
+      "sos_target_votes": 3629,
+      "persuasion_gap": 145,
+      "turnout_gap": 202,
+      "opportunity_notes": "Priority rank 86 — relationship-density events drive local trust",
+      "confidence_score": 25,
+      "source_links": [
+        {
+          "label": "Census QuickFacts (hook)",
+          "url": "https://www.census.gov/quickfacts/fact/table/US/PST045224",
+          "type": "census_hook"
+        },
+        {
+          "label": "BLS QCEW (hook)",
+          "url": "https://www.bls.gov/cew/",
+          "type": "bls_hook"
+        }
+      ]
+    },
+    {
+      "city": "Hazen",
+      "county": "Prairie",
+      "region": "Delta",
+      "priority_rank": 87,
+      "population": 8000,
+      "demographics_summary": "Delta Arkansas community — aggregate ACS/Census hook pending full import",
+      "age_profile": "Small-town aging + school-age cohort",
+      "income_profile": "Median household income — Census ACS 5-year (placeholder)",
+      "employment_profile": "Agriculture, manufacturing, healthcare",
+      "education_profile": "Public schools + community college access varies by hub size",
+      "major_employers": [
+        "Local healthcare",
+        "School district",
+        "Municipal government"
+      ],
+      "civic_institutions": [
+        "Chamber of commerce",
+        "County extension office",
+        "Public library"
+      ],
+      "churches": [
+        "Community churches — local verification needed"
+      ],
+      "schools": [
+        "Public school district — verify boundary"
+      ],
+      "recurring_events": [
+        "County fair",
+        "Community church dinners",
+        "City council meetings"
+      ],
+      "local_media": [
+        "Local newspaper / radio — verify outlet list"
+      ],
+      "political_notes": null,
+      "sos_baseline_votes": 3360,
+      "sos_target_votes": 3629,
+      "persuasion_gap": 145,
+      "turnout_gap": 202,
+      "opportunity_notes": "Priority rank 87 — relationship-density events drive local trust",
+      "confidence_score": 25,
+      "source_links": [
+        {
+          "label": "Census QuickFacts (hook)",
+          "url": "https://www.census.gov/quickfacts/fact/table/US/PST045224",
+          "type": "census_hook"
+        },
+        {
+          "label": "BLS QCEW (hook)",
+          "url": "https://www.bls.gov/cew/",
+          "type": "bls_hook"
+        }
+      ]
+    },
+    {
+      "city": "Des Arc",
+      "county": "Prairie",
+      "region": "Delta",
+      "priority_rank": 88,
+      "population": 8000,
+      "demographics_summary": "Delta Arkansas community — aggregate ACS/Census hook pending full import",
+      "age_profile": "Small-town aging + school-age cohort",
+      "income_profile": "Median household income — Census ACS 5-year (placeholder)",
+      "employment_profile": "Agriculture, manufacturing, healthcare",
+      "education_profile": "Public schools + community college access varies by hub size",
+      "major_employers": [
+        "Local healthcare",
+        "School district",
+        "Municipal government"
+      ],
+      "civic_institutions": [
+        "Chamber of commerce",
+        "County extension office",
+        "Public library"
+      ],
+      "churches": [
+        "Community churches — local verification needed"
+      ],
+      "schools": [
+        "Public school district — verify boundary"
+      ],
+      "recurring_events": [
+        "County fair",
+        "Community church dinners",
+        "City council meetings"
+      ],
+      "local_media": [
+        "Local newspaper / radio — verify outlet list"
+      ],
+      "political_notes": null,
+      "sos_baseline_votes": 3360,
+      "sos_target_votes": 3629,
+      "persuasion_gap": 145,
+      "turnout_gap": 202,
+      "opportunity_notes": "Priority rank 88 — relationship-density events drive local trust",
+      "confidence_score": 25,
+      "source_links": [
+        {
+          "label": "Census QuickFacts (hook)",
+          "url": "https://www.census.gov/quickfacts/fact/table/US/PST045224",
+          "type": "census_hook"
+        },
+        {
+          "label": "BLS QCEW (hook)",
+          "url": "https://www.bls.gov/cew/",
+          "type": "bls_hook"
+        }
+      ]
+    },
+    {
+      "city": "DeValls Bluff",
+      "county": "Prairie",
+      "region": "Delta",
+      "priority_rank": 89,
+      "population": 8000,
+      "demographics_summary": "Delta Arkansas community — aggregate ACS/Census hook pending full import",
+      "age_profile": "Small-town aging + school-age cohort",
+      "income_profile": "Median household income — Census ACS 5-year (placeholder)",
+      "employment_profile": "Agriculture, manufacturing, healthcare",
+      "education_profile": "Public schools + community college access varies by hub size",
+      "major_employers": [
+        "Local healthcare",
+        "School district",
+        "Municipal government"
+      ],
+      "civic_institutions": [
+        "Chamber of commerce",
+        "County extension office",
+        "Public library"
+      ],
+      "churches": [
+        "Community churches — local verification needed"
+      ],
+      "schools": [
+        "Public school district — verify boundary"
+      ],
+      "recurring_events": [
+        "County fair",
+        "Community church dinners",
+        "City council meetings"
+      ],
+      "local_media": [
+        "Local newspaper / radio — verify outlet list"
+      ],
+      "political_notes": null,
+      "sos_baseline_votes": 3360,
+      "sos_target_votes": 3629,
+      "persuasion_gap": 145,
+      "turnout_gap": 202,
+      "opportunity_notes": "Priority rank 89 — relationship-density events drive local trust",
+      "confidence_score": 25,
+      "source_links": [
+        {
+          "label": "Census QuickFacts (hook)",
+          "url": "https://www.census.gov/quickfacts/fact/table/US/PST045224",
+          "type": "census_hook"
+        },
+        {
+          "label": "BLS QCEW (hook)",
+          "url": "https://www.bls.gov/cew/",
+          "type": "bls_hook"
+        }
+      ]
+    },
+    {
+      "city": "Augusta",
+      "county": "Woodruff",
+      "region": "Delta",
+      "priority_rank": 90,
+      "population": 8000,
+      "demographics_summary": "Delta Arkansas community — aggregate ACS/Census hook pending full import",
+      "age_profile": "Small-town aging + school-age cohort",
+      "income_profile": "Median household income — Census ACS 5-year (placeholder)",
+      "employment_profile": "Agriculture, manufacturing, healthcare",
+      "education_profile": "Public schools + community college access varies by hub size",
+      "major_employers": [
+        "Local healthcare",
+        "School district",
+        "Municipal government"
+      ],
+      "civic_institutions": [
+        "Chamber of commerce",
+        "County extension office",
+        "Public library"
+      ],
+      "churches": [
+        "Community churches — local verification needed"
+      ],
+      "schools": [
+        "Public school district — verify boundary"
+      ],
+      "recurring_events": [
+        "County fair",
+        "Community church dinners",
+        "City council meetings"
+      ],
+      "local_media": [
+        "Local newspaper / radio — verify outlet list"
+      ],
+      "political_notes": null,
+      "sos_baseline_votes": 3360,
+      "sos_target_votes": 3629,
+      "persuasion_gap": 145,
+      "turnout_gap": 202,
+      "opportunity_notes": "Priority rank 90 — relationship-density events drive local trust",
+      "confidence_score": 25,
+      "source_links": [
+        {
+          "label": "Census QuickFacts (hook)",
+          "url": "https://www.census.gov/quickfacts/fact/table/US/PST045224",
+          "type": "census_hook"
+        },
+        {
+          "label": "BLS QCEW (hook)",
+          "url": "https://www.bls.gov/cew/",
+          "type": "bls_hook"
+        }
+      ]
+    },
+    {
+      "city": "Newport",
+      "county": "Jackson",
+      "region": "Northeast",
+      "priority_rank": 91,
+      "population": 8000,
+      "demographics_summary": "Northeast Arkansas community — aggregate ACS/Census hook pending full import",
+      "age_profile": "Small-town aging + school-age cohort",
+      "income_profile": "Median household income — Census ACS 5-year (placeholder)",
+      "employment_profile": "Agriculture, food processing, education",
+      "education_profile": "Public schools + community college access varies by hub size",
+      "major_employers": [
+        "Local healthcare",
+        "School district",
+        "Municipal government"
+      ],
+      "civic_institutions": [
+        "Chamber of commerce",
+        "County extension office",
+        "Public library"
+      ],
+      "churches": [
+        "Community churches — local verification needed"
+      ],
+      "schools": [
+        "Public school district — verify boundary"
+      ],
+      "recurring_events": [
+        "County fair",
+        "Community church dinners",
+        "City council meetings"
+      ],
+      "local_media": [
+        "Local newspaper / radio — verify outlet list"
+      ],
+      "political_notes": null,
+      "sos_baseline_votes": 3360,
+      "sos_target_votes": 3629,
+      "persuasion_gap": 145,
+      "turnout_gap": 202,
+      "opportunity_notes": "Priority rank 91 — relationship-density events drive local trust",
+      "confidence_score": 25,
+      "source_links": [
+        {
+          "label": "Census QuickFacts (hook)",
+          "url": "https://www.census.gov/quickfacts/fact/table/US/PST045224",
+          "type": "census_hook"
+        },
+        {
+          "label": "BLS QCEW (hook)",
+          "url": "https://www.bls.gov/cew/",
+          "type": "bls_hook"
+        }
+      ]
+    },
+    {
+      "city": "Carlisle",
+      "county": "Lonoke",
+      "region": "Central",
+      "priority_rank": 92,
+      "population": 8000,
+      "demographics_summary": "Central Arkansas community — aggregate ACS/Census hook pending full import",
+      "age_profile": "Small-town aging + school-age cohort",
+      "income_profile": "Median household income — Census ACS 5-year (placeholder)",
+      "employment_profile": "State government, healthcare, logistics, education",
+      "education_profile": "Public schools + community college access varies by hub size",
+      "major_employers": [
+        "Local healthcare",
+        "School district",
+        "Municipal government"
+      ],
+      "civic_institutions": [
+        "Chamber of commerce",
+        "County extension office",
+        "Public library"
+      ],
+      "churches": [
+        "Community churches — local verification needed"
+      ],
+      "schools": [
+        "Public school district — verify boundary"
+      ],
+      "recurring_events": [
+        "County fair",
+        "Community church dinners",
+        "City council meetings"
+      ],
+      "local_media": [
+        "Local newspaper / radio — verify outlet list"
+      ],
+      "political_notes": null,
+      "sos_baseline_votes": 3360,
+      "sos_target_votes": 3629,
+      "persuasion_gap": 145,
+      "turnout_gap": 202,
+      "opportunity_notes": "Priority rank 92 — relationship-density events drive local trust",
+      "confidence_score": 25,
+      "source_links": [
+        {
+          "label": "Census QuickFacts (hook)",
+          "url": "https://www.census.gov/quickfacts/fact/table/US/PST045224",
+          "type": "census_hook"
+        },
+        {
+          "label": "BLS QCEW (hook)",
+          "url": "https://www.bls.gov/cew/",
+          "type": "bls_hook"
+        }
+      ]
+    },
+    {
+      "city": "Dermott",
+      "county": "Chicot",
+      "region": "Delta",
+      "priority_rank": 93,
+      "population": 8000,
+      "demographics_summary": "Delta Arkansas community — aggregate ACS/Census hook pending full import",
+      "age_profile": "Small-town aging + school-age cohort",
+      "income_profile": "Median household income — Census ACS 5-year (placeholder)",
+      "employment_profile": "Agriculture, manufacturing, healthcare",
+      "education_profile": "Public schools + community college access varies by hub size",
+      "major_employers": [
+        "Local healthcare",
+        "School district",
+        "Municipal government"
+      ],
+      "civic_institutions": [
+        "Chamber of commerce",
+        "County extension office",
+        "Public library"
+      ],
+      "churches": [
+        "Community churches — local verification needed"
+      ],
+      "schools": [
+        "Public school district — verify boundary"
+      ],
+      "recurring_events": [
+        "County fair",
+        "Community church dinners",
+        "City council meetings"
+      ],
+      "local_media": [
+        "Local newspaper / radio — verify outlet list"
+      ],
+      "political_notes": null,
+      "sos_baseline_votes": 3360,
+      "sos_target_votes": 3629,
+      "persuasion_gap": 145,
+      "turnout_gap": 202,
+      "opportunity_notes": "Priority rank 93 — relationship-density events drive local trust",
+      "confidence_score": 25,
+      "source_links": [
+        {
+          "label": "Census QuickFacts (hook)",
+          "url": "https://www.census.gov/quickfacts/fact/table/US/PST045224",
+          "type": "census_hook"
+        },
+        {
+          "label": "BLS QCEW (hook)",
+          "url": "https://www.bls.gov/cew/",
+          "type": "bls_hook"
+        }
+      ]
+    },
+    {
+      "city": "Lake Village",
+      "county": "Chicot",
+      "region": "Delta",
+      "priority_rank": 94,
+      "population": 8000,
+      "demographics_summary": "Delta Arkansas community — aggregate ACS/Census hook pending full import",
+      "age_profile": "Small-town aging + school-age cohort",
+      "income_profile": "Median household income — Census ACS 5-year (placeholder)",
+      "employment_profile": "Agriculture, manufacturing, healthcare",
+      "education_profile": "Public schools + community college access varies by hub size",
+      "major_employers": [
+        "Local healthcare",
+        "School district",
+        "Municipal government"
+      ],
+      "civic_institutions": [
+        "Chamber of commerce",
+        "County extension office",
+        "Public library"
+      ],
+      "churches": [
+        "Community churches — local verification needed"
+      ],
+      "schools": [
+        "Public school district — verify boundary"
+      ],
+      "recurring_events": [
+        "County fair",
+        "Community church dinners",
+        "City council meetings"
+      ],
+      "local_media": [
+        "Local newspaper / radio — verify outlet list"
+      ],
+      "political_notes": null,
+      "sos_baseline_votes": 3360,
+      "sos_target_votes": 3629,
+      "persuasion_gap": 145,
+      "turnout_gap": 202,
+      "opportunity_notes": "Priority rank 94 — relationship-density events drive local trust",
+      "confidence_score": 25,
+      "source_links": [
+        {
+          "label": "Census QuickFacts (hook)",
+          "url": "https://www.census.gov/quickfacts/fact/table/US/PST045224",
+          "type": "census_hook"
+        },
+        {
+          "label": "BLS QCEW (hook)",
+          "url": "https://www.bls.gov/cew/",
+          "type": "bls_hook"
+        }
+      ]
+    },
+    {
+      "city": "Eudora",
+      "county": "Chicot",
+      "region": "Delta",
+      "priority_rank": 95,
+      "population": 8000,
+      "demographics_summary": "Delta Arkansas community — aggregate ACS/Census hook pending full import",
+      "age_profile": "Small-town aging + school-age cohort",
+      "income_profile": "Median household income — Census ACS 5-year (placeholder)",
+      "employment_profile": "Agriculture, manufacturing, healthcare",
+      "education_profile": "Public schools + community college access varies by hub size",
+      "major_employers": [
+        "Local healthcare",
+        "School district",
+        "Municipal government"
+      ],
+      "civic_institutions": [
+        "Chamber of commerce",
+        "County extension office",
+        "Public library"
+      ],
+      "churches": [
+        "Community churches — local verification needed"
+      ],
+      "schools": [
+        "Public school district — verify boundary"
+      ],
+      "recurring_events": [
+        "County fair",
+        "Community church dinners",
+        "City council meetings"
+      ],
+      "local_media": [
+        "Local newspaper / radio — verify outlet list"
+      ],
+      "political_notes": null,
+      "sos_baseline_votes": 3360,
+      "sos_target_votes": 3629,
+      "persuasion_gap": 145,
+      "turnout_gap": 202,
+      "opportunity_notes": "Priority rank 95 — relationship-density events drive local trust",
+      "confidence_score": 25,
+      "source_links": [
+        {
+          "label": "Census QuickFacts (hook)",
+          "url": "https://www.census.gov/quickfacts/fact/table/US/PST045224",
+          "type": "census_hook"
+        },
+        {
+          "label": "BLS QCEW (hook)",
+          "url": "https://www.bls.gov/cew/",
+          "type": "bls_hook"
+        }
+      ]
+    },
+    {
+      "city": "Hamburg",
+      "county": "Ashley",
+      "region": "South",
+      "priority_rank": 96,
+      "population": 8000,
+      "demographics_summary": "South Arkansas community — aggregate ACS/Census hook pending full import",
+      "age_profile": "Small-town aging + school-age cohort",
+      "income_profile": "Median household income — Census ACS 5-year (placeholder)",
+      "employment_profile": "Timber, oil/gas legacy, healthcare",
+      "education_profile": "Public schools + community college access varies by hub size",
+      "major_employers": [
+        "Local healthcare",
+        "School district",
+        "Municipal government"
+      ],
+      "civic_institutions": [
+        "Chamber of commerce",
+        "County extension office",
+        "Public library"
+      ],
+      "churches": [
+        "Community churches — local verification needed"
+      ],
+      "schools": [
+        "Public school district — verify boundary"
+      ],
+      "recurring_events": [
+        "County fair",
+        "Community church dinners",
+        "City council meetings"
+      ],
+      "local_media": [
+        "Local newspaper / radio — verify outlet list"
+      ],
+      "political_notes": null,
+      "sos_baseline_votes": 3360,
+      "sos_target_votes": 3629,
+      "persuasion_gap": 145,
+      "turnout_gap": 202,
+      "opportunity_notes": "Priority rank 96 — relationship-density events drive local trust",
+      "confidence_score": 25,
+      "source_links": [
+        {
+          "label": "Census QuickFacts (hook)",
+          "url": "https://www.census.gov/quickfacts/fact/table/US/PST045224",
+          "type": "census_hook"
+        },
+        {
+          "label": "BLS QCEW (hook)",
+          "url": "https://www.bls.gov/cew/",
+          "type": "bls_hook"
+        }
+      ]
+    },
+    {
+      "city": "Hermitage",
+      "county": "Bradley",
+      "region": "South",
+      "priority_rank": 97,
+      "population": 8000,
+      "demographics_summary": "South Arkansas community — aggregate ACS/Census hook pending full import",
+      "age_profile": "Small-town aging + school-age cohort",
+      "income_profile": "Median household income — Census ACS 5-year (placeholder)",
+      "employment_profile": "Timber, oil/gas legacy, healthcare",
+      "education_profile": "Public schools + community college access varies by hub size",
+      "major_employers": [
+        "Local healthcare",
+        "School district",
+        "Municipal government"
+      ],
+      "civic_institutions": [
+        "Chamber of commerce",
+        "County extension office",
+        "Public library"
+      ],
+      "churches": [
+        "Community churches — local verification needed"
+      ],
+      "schools": [
+        "Public school district — verify boundary"
+      ],
+      "recurring_events": [
+        "County fair",
+        "Community church dinners",
+        "City council meetings"
+      ],
+      "local_media": [
+        "Local newspaper / radio — verify outlet list"
+      ],
+      "political_notes": null,
+      "sos_baseline_votes": 3360,
+      "sos_target_votes": 3629,
+      "persuasion_gap": 145,
+      "turnout_gap": 202,
+      "opportunity_notes": "Priority rank 97 — relationship-density events drive local trust",
+      "confidence_score": 25,
+      "source_links": [
+        {
+          "label": "Census QuickFacts (hook)",
+          "url": "https://www.census.gov/quickfacts/fact/table/US/PST045224",
+          "type": "census_hook"
+        },
+        {
+          "label": "BLS QCEW (hook)",
+          "url": "https://www.bls.gov/cew/",
+          "type": "bls_hook"
+        }
+      ]
+    },
+    {
+      "city": "Fordyce",
+      "county": "Dallas",
+      "region": "South",
+      "priority_rank": 98,
+      "population": 8000,
+      "demographics_summary": "South Arkansas community — aggregate ACS/Census hook pending full import",
+      "age_profile": "Small-town aging + school-age cohort",
+      "income_profile": "Median household income — Census ACS 5-year (placeholder)",
+      "employment_profile": "Timber, oil/gas legacy, healthcare",
+      "education_profile": "Public schools + community college access varies by hub size",
+      "major_employers": [
+        "Local healthcare",
+        "School district",
+        "Municipal government"
+      ],
+      "civic_institutions": [
+        "Chamber of commerce",
+        "County extension office",
+        "Public library"
+      ],
+      "churches": [
+        "Community churches — local verification needed"
+      ],
+      "schools": [
+        "Public school district — verify boundary"
+      ],
+      "recurring_events": [
+        "County fair",
+        "Community church dinners",
+        "City council meetings"
+      ],
+      "local_media": [
+        "Local newspaper / radio — verify outlet list"
+      ],
+      "political_notes": null,
+      "sos_baseline_votes": 3360,
+      "sos_target_votes": 3629,
+      "persuasion_gap": 145,
+      "turnout_gap": 202,
+      "opportunity_notes": "Priority rank 98 — relationship-density events drive local trust",
+      "confidence_score": 25,
+      "source_links": [
+        {
+          "label": "Census QuickFacts (hook)",
+          "url": "https://www.census.gov/quickfacts/fact/table/US/PST045224",
+          "type": "census_hook"
+        },
+        {
+          "label": "BLS QCEW (hook)",
+          "url": "https://www.bls.gov/cew/",
+          "type": "bls_hook"
+        }
+      ]
+    },
+    {
+      "city": "Sparkman",
+      "county": "Dallas",
+      "region": "South",
+      "priority_rank": 99,
+      "population": 8000,
+      "demographics_summary": "South Arkansas community — aggregate ACS/Census hook pending full import",
+      "age_profile": "Small-town aging + school-age cohort",
+      "income_profile": "Median household income — Census ACS 5-year (placeholder)",
+      "employment_profile": "Timber, oil/gas legacy, healthcare",
+      "education_profile": "Public schools + community college access varies by hub size",
+      "major_employers": [
+        "Local healthcare",
+        "School district",
+        "Municipal government"
+      ],
+      "civic_institutions": [
+        "Chamber of commerce",
+        "County extension office",
+        "Public library"
+      ],
+      "churches": [
+        "Community churches — local verification needed"
+      ],
+      "schools": [
+        "Public school district — verify boundary"
+      ],
+      "recurring_events": [
+        "County fair",
+        "Community church dinners",
+        "City council meetings"
+      ],
+      "local_media": [
+        "Local newspaper / radio — verify outlet list"
+      ],
+      "political_notes": null,
+      "sos_baseline_votes": 3360,
+      "sos_target_votes": 3629,
+      "persuasion_gap": 145,
+      "turnout_gap": 202,
+      "opportunity_notes": "Priority rank 99 — relationship-density events drive local trust",
+      "confidence_score": 25,
+      "source_links": [
+        {
+          "label": "Census QuickFacts (hook)",
+          "url": "https://www.census.gov/quickfacts/fact/table/US/PST045224",
+          "type": "census_hook"
+        },
+        {
+          "label": "BLS QCEW (hook)",
+          "url": "https://www.bls.gov/cew/",
+          "type": "bls_hook"
+        }
+      ]
+    },
+    {
+      "city": "Prescott",
+      "county": "Nevada",
+      "region": "Southwest",
+      "priority_rank": 100,
+      "population": 8000,
+      "demographics_summary": "Southwest Arkansas community — aggregate ACS/Census hook pending full import",
+      "age_profile": "Small-town aging + school-age cohort",
+      "income_profile": "Median household income — Census ACS 5-year (placeholder)",
+      "employment_profile": "Timber, poultry, small manufacturing",
+      "education_profile": "Public schools + community college access varies by hub size",
+      "major_employers": [
+        "Local healthcare",
+        "School district",
+        "Municipal government"
+      ],
+      "civic_institutions": [
+        "Chamber of commerce",
+        "County extension office",
+        "Public library"
+      ],
+      "churches": [
+        "Community churches — local verification needed"
+      ],
+      "schools": [
+        "Public school district — verify boundary"
+      ],
+      "recurring_events": [
+        "County fair",
+        "Community church dinners",
+        "City council meetings"
+      ],
+      "local_media": [
+        "Local newspaper / radio — verify outlet list"
+      ],
+      "political_notes": null,
+      "sos_baseline_votes": 3360,
+      "sos_target_votes": 3629,
+      "persuasion_gap": 145,
+      "turnout_gap": 202,
+      "opportunity_notes": "Priority rank 100 — relationship-density events drive local trust",
+      "confidence_score": 25,
+      "source_links": [
+        {
+          "label": "Census QuickFacts (hook)",
+          "url": "https://www.census.gov/quickfacts/fact/table/US/PST045224",
+          "type": "census_hook"
+        },
+        {
+          "label": "BLS QCEW (hook)",
+          "url": "https://www.bls.gov/cew/",
+          "type": "bls_hook"
+        }
+      ]
+    }
+  ]
+}

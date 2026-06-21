@@ -16,6 +16,9 @@ import type { CivicEvent } from "../../lib/types";
 import type { EventDossierBundle } from "../../lib/intelligence/eventDossierTypes";
 import { whyEventMatters } from "../../lib/ai/eventDossierBuilder";
 import { scoreEventForCampaign } from "../../lib/campaigns/eventIntel";
+import { countySlug } from "../../lib/counties";
+import { citySlug, getCityDossier, getCountyDossier, voteTargetGap } from "../../lib/local-intelligence/registry";
+import { LocalGeographyIntelStrip } from "../local-intelligence/LocalGeographyIntelStrip";
 import type { EventPresence } from "../../lib/campaigns/presenceLayer";
 import { CategoryBadge } from "../CategoryBadge";
 import { PresenceBadges } from "../campaigns/PresenceBadges";
@@ -31,6 +34,7 @@ interface Props {
   bundle: EventDossierBundle;
   presence: EventPresence;
   onShare: () => void;
+  campaignSlug?: string;
 }
 
 function Fact({ label, value, unknown = "Not yet verified" }: { label: string; value?: string | null; unknown?: string }) {
@@ -61,10 +65,15 @@ function formatLabel(raw: string | null | undefined): string {
   return raw.replace(/_/g, " ").replace(/\b\w/g, (c) => c.toUpperCase());
 }
 
-export function EventIntelligenceDossierView({ event, bundle, presence, onShare }: Props) {
+export function EventIntelligenceDossierView({ event, bundle, presence, onShare, campaignSlug }: Props) {
   const { dossier, tasks } = bundle;
   const scored = scoreEventForCampaign(event);
   const maps = mapsUrl(event);
+  const cityDossier = event.city ? getCityDossier(event.city) : undefined;
+  const countyDossier = event.county ? getCountyDossier(event.county) : undefined;
+  const countyGap = countyDossier ? voteTargetGap(countyDossier) : null;
+  const traditions = cityDossier?.recurringEvents?.slice(0, 3) ?? countyDossier?.recurringTraditions?.slice(0, 3) ?? [];
+  const localConfidence = cityDossier?.confidenceScore ?? countyDossier?.confidenceScore;
   const confidenceLabel =
     dossier.confidenceScore >= 70 ? "High confidence" : dossier.confidenceScore >= 40 ? "Partial" : "Needs research";
 
@@ -90,6 +99,16 @@ export function EventIntelligenceDossierView({ event, bundle, presence, onShare 
           <MapPin className="h-4 w-4 text-ark-sage" />
           {[event.city, `${event.county} County, AR`].filter(Boolean).join(" · ")}
         </p>
+        {campaignSlug ? (
+          <LocalGeographyIntelStrip event={event} campaignSlug={campaignSlug} />
+        ) : (cityDossier || countyDossier) && (
+          <div className="mt-3 flex flex-wrap gap-2 text-xs">
+            {cityDossier && <span className="chip chip-muted">City priority #{cityDossier.priorityRank}</span>}
+            {countyGap != null && <span className="chip chip-muted">County vote gap {countyGap.toLocaleString()}</span>}
+            {localConfidence != null && <span className="chip chip-muted">Local confidence {localConfidence}%</span>}
+            <Link to="/campaigns" className="chip chip-muted hover:bg-ark-wheat">Candidate dashboards →</Link>
+          </div>
+        )}
       </header>
 
       {/* Quick facts */}
@@ -133,8 +152,26 @@ export function EventIntelligenceDossierView({ event, bundle, presence, onShare 
             )}
           </Section>
 
-          {(dossier.localCustoms || dossier.confirmedFacts?.length || dossier.likelyInferences?.length) && (
+          {(dossier.localCustoms || dossier.confirmedFacts?.length || dossier.likelyInferences?.length || traditions.length > 0) && (
             <Section title="Local intelligence" icon={HelpCircle}>
+              {campaignSlug && cityDossier && (
+                <div className="mb-3 flex flex-wrap gap-2">
+                  <Link to={`/campaigns/${campaignSlug}/city/${citySlug(cityDossier.city)}`} className="btn-secondary text-xs py-1.5">
+                    View city intelligence
+                  </Link>
+                  {countyDossier && (
+                    <Link to={`/campaigns/${campaignSlug}/county/${countySlug(countyDossier.county)}`} className="btn-secondary text-xs py-1.5">
+                      View county intelligence
+                    </Link>
+                  )}
+                </div>
+              )}
+              {traditions.length > 0 && (
+                <div className="mb-3">
+                  <p className="text-xs font-semibold uppercase text-ark-sage mb-1">Nearby recurring traditions</p>
+                  <ul className="text-sm space-y-1">{traditions.map((t) => <li key={t}>• {t}</li>)}</ul>
+                </div>
+              )}
               {dossier.localCustoms && <p className="text-sm text-ark-pine/90">{dossier.localCustoms}</p>}
               {dossier.confirmedFacts && dossier.confirmedFacts.length > 0 && (
                 <div className="mt-3">

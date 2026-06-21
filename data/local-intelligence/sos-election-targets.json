@@ -1,0 +1,239 @@
+{
+  "version": 1,
+  "office": "Secretary of State",
+  "notes": "Placeholder statewide math — campaign workspaces override via campaign_vote_targets",
+  "targets": [
+    {
+      "geographyType": "statewide",
+      "geographyName": "Arkansas",
+      "baselineVotes": 580000,
+      "targetVotes": 620000,
+      "notes": "Statewide SOS baseline placeholder"
+    },
+    {
+      "geographyType": "county",
+      "geographyName": "Arkansas",
+      "baselineVotes": 28800,
+      "targetVotes": 30816
+    },
+    {
+      "geographyType": "county",
+      "geographyName": "Ashley",
+      "baselineVotes": 28480,
+      "targetVotes": 30474
+    },
+    {
+      "geographyType": "county",
+      "geographyName": "Baxter",
+      "baselineVotes": 28160,
+      "targetVotes": 30131
+    },
+    {
+      "geographyType": "county",
+      "geographyName": "Benton",
+      "baselineVotes": 27840,
+      "targetVotes": 29789
+    },
+    {
+      "geographyType": "county",
+      "geographyName": "Boone",
+      "baselineVotes": 27520,
+      "targetVotes": 29446
+    },
+    {
+      "geographyType": "county",
+      "geographyName": "Bradley",
+      "baselineVotes": 27200,
+      "targetVotes": 29104
+    },
+    {
+      "geographyType": "county",
+      "geographyName": "Calhoun",
+      "baselineVotes": 26880,
+      "targetVotes": 28762
+    },
+    {
+      "geographyType": "county",
+      "geographyName": "Carroll",
+      "baselineVotes": 26560,
+      "targetVotes": 28419
+    },
+    {
+      "geographyType": "county",
+      "geographyName": "Chicot",
+      "baselineVotes": 26240,
+      "targetVotes": 28077
+    },
+    {
+      "geographyType": "county",
+      "geographyName": "Clark",
+      "baselineVotes": 25920,
+      "targetVotes": 27734
+    },
+    {
+      "geographyType": "county",
+      "geographyName": "Clay",
+      "baselineVotes": 25600,
+      "targetVotes": 27392
+    },
+    {
+      "geographyType": "county",
+      "geographyName": "Cleburne",
+      "baselineVotes": 25280,
+      "targetVotes": 27050
+    },
+    {
+      "geographyType": "county",
+      "geographyName": "Cleveland",
+      "baselineVotes": 24960,
+      "targetVotes": 26707
+    },
+    {
+      "geographyType": "county",
+      "geographyName": "Columbia",
+      "baselineVotes": 24640,
+      "targetVotes": 26365
+    },
+    {
+      "geographyType": "county",
+      "geographyName": "Conway",
+      "baselineVotes": 24320,
+      "targetVotes": 26022
+    },
+    {
+      "geographyType": "county",
+      "geographyName": "Craighead",
+      "baselineVotes": 24000,
+      "targetVotes": 25680
+    },
+    {
+      "geographyType": "county",
+      "geographyName": "Crawford",
+      "baselineVotes": 23680,
+      "targetVotes": 25338
+    },
+    {
+      "geographyType": "county",
+      "geographyName": "Crittenden",
+      "baselineVotes": 23360,
+      "targetVotes": 24995
+    },
+    {
+      "geographyType": "county",
+      "geographyName": "Cross",
+      "baselineVotes": 23040,
+      "targetVotes": 24653
+    },
+    {
+      "geographyType": "county",
+      "geographyName": "Dallas",
+      "baselineVotes": 22720,
+      "targetVotes": 24310
+    },
+    {
+      "geographyType": "city",
+      "geographyName": "Little Rock",
+      "county": "Pulaski",
+      "baselineVotes": 35700,
+      "targetVotes": 38556
+    },
+    {
+      "geographyType": "city",
+      "geographyName": "Fort Smith",
+      "county": "Sebastian",
+      "baselineVotes": 35700,
+      "targetVotes": 38556
+    },
+    {
+      "geographyType": "city",
+      "geographyName": "Fayetteville",
+      "county": "Washington",
+      "baselineVotes": 35700,
+      "targetVotes": 38556
+    },
+    {
+      "geographyType": "city",
+      "geographyName": "Springdale",
+      "county": "Washington",
+      "baselineVotes": 35700,
+      "targetVotes": 38556
+    },
+    {
+      "geographyType": "city",
+      "geographyName": "Jonesboro",
+      "county": "Craighead",
+      "baselineVotes": 35700,
+      "targetVotes": 38556
+    },
+    {
+      "geographyType": "city",
+      "geographyName": "Rogers",
+      "county": "Benton",
+      "baselineVotes": 35700,
+      "targetVotes": 38556
+    },
+    {
+      "geographyType": "city",
+      "geographyName": "Conway",
+      "county": "Faulkner",
+      "baselineVotes": 35700,
+      "targetVotes": 38556
+    },
+    {
+      "geographyType": "city",
+      "geographyName": "North Little Rock",
+      "county": "Pulaski",
+      "baselineVotes": 35700,
+      "targetVotes": 38556
+    },
+    {
+      "geographyType": "city",
+      "geographyName": "Bentonville",
+      "county": "Benton",
+      "baselineVotes": 35700,
+      "targetVotes": 38556
+    },
+    {
+      "geographyType": "city",
+      "geographyName": "Pine Bluff",
+      "county": "Jefferson",
+      "baselineVotes": 35700,
+      "targetVotes": 38556
+    },
+    {
+      "geographyType": "city",
+      "geographyName": "Hot Springs",
+      "county": "Garland",
+      "baselineVotes": 35700,
+      "targetVotes": 38556
+    },
+    {
+      "geographyType": "city",
+      "geographyName": "Benton",
+      "county": "Saline",
+      "baselineVotes": 35700,
+      "targetVotes": 38556
+    },
+    {
+      "geographyType": "city",
+      "geographyName": "Texarkana",
+      "county": "Miller",
+      "baselineVotes": 35700,
+      "targetVotes": 38556
+    },
+    {
+      "geographyType": "city",
+      "geographyName": "Sherwood",
+      "county": "Pulaski",
+      "baselineVotes": 10500,
+      "targetVotes": 11340
+    },
+    {
+      "geographyType": "city",
+      "geographyName": "Jacksonville",
+      "county": "Pulaski",
+      "baselineVotes": 10500,
+      "targetVotes": 11340
+    }
+  ]
+}
