@@ -20,6 +20,8 @@ import { getProfile, listProfiles } from "../lib/profiles/profileRegistry";
 import { FreshnessFooter } from "../components/FreshnessFooter";
 import { RelatedCommunityPages } from "../components/profiles/RelatedCommunityPages";
 import { relatedLink } from "../lib/profiles/profileLinks";
+import { buildCityLaneCoverage } from "../lib/event-lanes/laneCoverageEngine";
+import { EventLaneCoveragePanel } from "../components/event-lanes/EventLaneCoveragePanel";
 
 interface Props {
   slug?: string;
@@ -67,6 +69,11 @@ export function CityPage({ slug: slugProp }: Props = {}) {
     return { ...base, relatedLinks: [...base.relatedLinks, ...extra] };
   }, [slug, dossier]);
 
+  const laneCoverage = useMemo(
+    () => (dossier ? buildCityLaneCoverage(dossier.city, dossier.county, events) : null),
+    [dossier, events],
+  );
+
   if (!dossier) {
     return (
       <div className="mx-auto max-w-6xl px-4 py-16 text-center">
@@ -109,6 +116,8 @@ export function CityPage({ slug: slugProp }: Props = {}) {
           <Link to="/host" className="btn-primary text-sm">Host an event here</Link>
         </div>
       </div>
+
+      {laneCoverage && <EventLaneCoveragePanel coverage={laneCoverage} compact />}
 
       <section className="card bg-ark-wheat/30 mb-8">
         <h2 className="font-semibold text-ark-pine">What is happening in {dossier.city}?</h2>

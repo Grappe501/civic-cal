@@ -15,8 +15,9 @@ import { AdminVolunteerRecruitmentPanel } from "../components/admin/AdminVolunte
 import { AdminStudentServicePanel } from "../components/admin/AdminStudentServicePanel";
 import { AdminLocalIntelligencePanel } from "../components/admin/AdminLocalIntelligencePanel";
 import { AdminProfileRefreshPanel } from "../components/admin/AdminProfileRefreshPanel";
+import { AdminEventCoveragePanel } from "../components/admin/AdminEventCoveragePanel";
 
-type Tab = "pending" | "map" | "intelligence" | "dossiers" | "local_intel" | "campaigns" | "volunteers" | "student_service" | "profile_refresh" | "data_health";
+type Tab = "pending" | "map" | "intelligence" | "dossiers" | "local_intel" | "campaigns" | "volunteers" | "student_service" | "profile_refresh" | "event_coverage" | "data_health";
 
 export function AdminPage() {
   const [token, setToken] = useState(() => sessionStorage.getItem("civic-admin-token") ?? "");
@@ -28,7 +29,7 @@ export function AdminPage() {
 
   async function load(t: string, activeTab: Tab = tab) {
     try {
-      if (activeTab !== "intelligence" && activeTab !== "campaigns" && activeTab !== "dossiers" && activeTab !== "local_intel" && activeTab !== "volunteers" && activeTab !== "student_service" && activeTab !== "profile_refresh" && activeTab !== "data_health") {
+      if (activeTab !== "intelligence" && activeTab !== "campaigns" && activeTab !== "dossiers" && activeTab !== "local_intel" && activeTab !== "volunteers" && activeTab !== "student_service" && activeTab !== "profile_refresh" && activeTab !== "event_coverage" && activeTab !== "data_health") {
         const data =
           activeTab === "map" ? await fetchAdminMapReview(t) : await fetchAdminEvents(t, "pending");
         setEvents(data);
@@ -91,7 +92,7 @@ export function AdminPage() {
   return (
     <div className="mx-auto max-w-4xl px-4 py-10">
       <div className="flex flex-wrap gap-2 mb-6">
-        {(["pending", "map", "intelligence", "dossiers", "local_intel", "campaigns", "volunteers", "student_service", "profile_refresh"] as Tab[]).map((t) => (
+        {(["pending", "map", "intelligence", "dossiers", "local_intel", "campaigns", "volunteers", "student_service", "profile_refresh", "event_coverage"] as Tab[]).map((t) => (
           <button
             key={t}
             type="button"
@@ -114,6 +115,8 @@ export function AdminPage() {
                           ? "Volunteer recruitment"
                           : t === "profile_refresh"
                             ? "Profile refresh"
+                            : t === "event_coverage"
+                              ? "Event coverage"
                           : "Student service"}
           </button>
         ))}
@@ -148,6 +151,8 @@ export function AdminPage() {
                       ? "Volunteer recruitment"
                       : tab === "profile_refresh"
                         ? "Profile refresh queue"
+                        : tab === "event_coverage"
+                          ? "Event lane coverage"
                       : tab === "student_service"
                         ? "Student service"
                       : `Map review (${events.length})`}
@@ -180,6 +185,10 @@ export function AdminPage() {
       ) : tab === "profile_refresh" ? (
         <div className="mt-6">
           <AdminProfileRefreshPanel />
+        </div>
+      ) : tab === "event_coverage" ? (
+        <div className="mt-6">
+          <AdminEventCoveragePanel />
         </div>
       ) : (
       <div className="mt-6 space-y-4">

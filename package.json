@@ -34,7 +34,9 @@
     "audit:contrast": "node scripts/run-with-h-drive-env.cjs node scripts/audit-contrast.mjs",
     "generate:sitemap": "node scripts/generate-sitemap.mjs",
     "density:build": "node scripts/density/build-density-engine.mjs",
-    "density:project": "node scripts/run-with-h-drive-env.cjs node scripts/density/project-institution-events.mjs"
+    "density:project": "node scripts/run-with-h-drive-env.cjs node scripts/density/project-institution-events.mjs",
+    "lanes:generate": "node scripts/event-lanes/generate-lane-coverage.mjs",
+    "lanes:plan": "node scripts/event-lanes/plan-next-lane-harvest.mjs"
   },
   "dependencies": {
     "@react-google-maps/api": "^2.20.6",

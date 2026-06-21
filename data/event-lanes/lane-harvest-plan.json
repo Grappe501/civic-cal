@@ -1,0 +1,485 @@
+{
+  "generatedAt": "2026-06-21T06:17:55.035Z",
+  "plan": [
+    {
+      "laneId": "government_civic",
+      "laneName": "Government & Civic",
+      "county": "Calhoun",
+      "priority": "critical",
+      "coveragePercent": 0,
+      "reason": "Government at 0% — 0/6 events",
+      "suggestedCommands": [
+        "npm run discover:sources",
+        "npm run harvest:top200"
+      ]
+    },
+    {
+      "laneId": "churches",
+      "laneName": "Churches",
+      "county": "Calhoun",
+      "priority": "critical",
+      "coveragePercent": 0,
+      "reason": "Churches at 0% — 0/1 events",
+      "suggestedCommands": [
+        "npm run harvest:registry",
+        "npm run density:project"
+      ]
+    },
+    {
+      "laneId": "government_civic",
+      "laneName": "Government & Civic",
+      "county": "Cleveland",
+      "priority": "critical",
+      "coveragePercent": 0,
+      "reason": "Government at 0% — 0/6 events",
+      "suggestedCommands": [
+        "npm run discover:sources",
+        "npm run harvest:top200"
+      ]
+    },
+    {
+      "laneId": "churches",
+      "laneName": "Churches",
+      "county": "Cleveland",
+      "priority": "critical",
+      "coveragePercent": 0,
+      "reason": "Churches at 0% — 0/1 events",
+      "suggestedCommands": [
+        "npm run harvest:registry",
+        "npm run density:project"
+      ]
+    },
+    {
+      "laneId": "government_civic",
+      "laneName": "Government & Civic",
+      "county": "Grant",
+      "priority": "critical",
+      "coveragePercent": 0,
+      "reason": "Government at 0% — 0/6 events",
+      "suggestedCommands": [
+        "npm run discover:sources",
+        "npm run harvest:top200"
+      ]
+    },
+    {
+      "laneId": "churches",
+      "laneName": "Churches",
+      "county": "Grant",
+      "priority": "critical",
+      "coveragePercent": 0,
+      "reason": "Churches at 0% — 0/1 events",
+      "suggestedCommands": [
+        "npm run harvest:registry",
+        "npm run density:project"
+      ]
+    },
+    {
+      "laneId": "government_civic",
+      "laneName": "Government & Civic",
+      "county": "Montgomery",
+      "priority": "critical",
+      "coveragePercent": 0,
+      "reason": "Government at 0% — 0/6 events",
+      "suggestedCommands": [
+        "npm run discover:sources",
+        "npm run harvest:top200"
+      ]
+    },
+    {
+      "laneId": "churches",
+      "laneName": "Churches",
+      "county": "Montgomery",
+      "priority": "critical",
+      "coveragePercent": 0,
+      "reason": "Churches at 0% — 0/1 events",
+      "suggestedCommands": [
+        "npm run harvest:registry",
+        "npm run density:project"
+      ]
+    },
+    {
+      "laneId": "government_civic",
+      "laneName": "Government & Civic",
+      "county": "Scott",
+      "priority": "critical",
+      "coveragePercent": 0,
+      "reason": "Government at 0% — 0/6 events",
+      "suggestedCommands": [
+        "npm run discover:sources",
+        "npm run harvest:top200"
+      ]
+    },
+    {
+      "laneId": "churches",
+      "laneName": "Churches",
+      "county": "Scott",
+      "priority": "critical",
+      "coveragePercent": 0,
+      "reason": "Churches at 0% — 0/1 events",
+      "suggestedCommands": [
+        "npm run harvest:registry",
+        "npm run density:project"
+      ]
+    },
+    {
+      "laneId": "government_civic",
+      "laneName": "Government & Civic",
+      "county": "Lee",
+      "priority": "critical",
+      "coveragePercent": 13,
+      "reason": "Government at 13% — 0/6 events",
+      "suggestedCommands": [
+        "npm run discover:sources",
+        "npm run harvest:top200"
+      ]
+    },
+    {
+      "laneId": "government_civic",
+      "laneName": "Government & Civic",
+      "county": "Randolph",
+      "priority": "critical",
+      "coveragePercent": 13,
+      "reason": "Government at 13% — 0/6 events",
+      "suggestedCommands": [
+        "npm run discover:sources",
+        "npm run harvest:top200"
+      ]
+    },
+    {
+      "laneId": "schools",
+      "laneName": "Schools",
+      "county": "Chicot",
+      "priority": "critical",
+      "coveragePercent": 22,
+      "reason": "Schools at 22% — 1/30 events",
+      "suggestedCommands": [
+        "npm run harvest:top200",
+        "npm run density:project"
+      ]
+    },
+    {
+      "laneId": "schools",
+      "laneName": "Schools",
+      "county": "Clay",
+      "priority": "critical",
+      "coveragePercent": 23,
+      "reason": "Schools at 23% — 1/25 events",
+      "suggestedCommands": [
+        "npm run harvest:top200",
+        "npm run density:project"
+      ]
+    },
+    {
+      "laneId": "schools",
+      "laneName": "Schools",
+      "county": "Logan",
+      "priority": "critical",
+      "coveragePercent": 23,
+      "reason": "Schools at 23% — 1/25 events",
+      "suggestedCommands": [
+        "npm run harvest:top200",
+        "npm run density:project"
+      ]
+    },
+    {
+      "laneId": "schools",
+      "laneName": "Schools",
+      "county": "Poinsett",
+      "priority": "critical",
+      "coveragePercent": 23,
+      "reason": "Schools at 23% — 1/20 events",
+      "suggestedCommands": [
+        "npm run harvest:top200",
+        "npm run density:project"
+      ]
+    },
+    {
+      "laneId": "schools",
+      "laneName": "Schools",
+      "county": "Mississippi",
+      "priority": "critical",
+      "coveragePercent": 24,
+      "reason": "Schools at 24% — 1/60 events",
+      "suggestedCommands": [
+        "npm run harvest:top200",
+        "npm run density:project"
+      ]
+    },
+    {
+      "laneId": "churches",
+      "laneName": "Churches",
+      "county": "Arkansas",
+      "priority": "critical",
+      "coveragePercent": 25,
+      "reason": "Churches at 25% — 0/12 events",
+      "suggestedCommands": [
+        "npm run harvest:registry",
+        "npm run density:project"
+      ]
+    },
+    {
+      "laneId": "schools",
+      "laneName": "Schools",
+      "county": "Ashley",
+      "priority": "critical",
+      "coveragePercent": 25,
+      "reason": "Schools at 25% — 1/15 events",
+      "suggestedCommands": [
+        "npm run harvest:top200",
+        "npm run density:project"
+      ]
+    },
+    {
+      "laneId": "churches",
+      "laneName": "Churches",
+      "county": "Ashley",
+      "priority": "critical",
+      "coveragePercent": 25,
+      "reason": "Churches at 25% — 0/6 events",
+      "suggestedCommands": [
+        "npm run harvest:registry",
+        "npm run density:project"
+      ]
+    },
+    {
+      "laneId": "schools",
+      "laneName": "Schools",
+      "county": "Baxter",
+      "priority": "critical",
+      "coveragePercent": 25,
+      "reason": "Schools at 25% — 1/10 events",
+      "suggestedCommands": [
+        "npm run harvest:top200",
+        "npm run density:project"
+      ]
+    },
+    {
+      "laneId": "churches",
+      "laneName": "Churches",
+      "county": "Baxter",
+      "priority": "critical",
+      "coveragePercent": 25,
+      "reason": "Churches at 25% — 0/6 events",
+      "suggestedCommands": [
+        "npm run harvest:registry",
+        "npm run density:project"
+      ]
+    },
+    {
+      "laneId": "schools",
+      "laneName": "Schools",
+      "county": "Benton",
+      "priority": "critical",
+      "coveragePercent": 25,
+      "reason": "Schools at 25% — 3/75 events",
+      "suggestedCommands": [
+        "npm run harvest:top200",
+        "npm run density:project"
+      ]
+    },
+    {
+      "laneId": "churches",
+      "laneName": "Churches",
+      "county": "Benton",
+      "priority": "critical",
+      "coveragePercent": 25,
+      "reason": "Churches at 25% — 0/38 events",
+      "suggestedCommands": [
+        "npm run harvest:registry",
+        "npm run density:project"
+      ]
+    },
+    {
+      "laneId": "churches",
+      "laneName": "Churches",
+      "county": "Boone",
+      "priority": "critical",
+      "coveragePercent": 25,
+      "reason": "Churches at 25% — 0/8 events",
+      "suggestedCommands": [
+        "npm run harvest:registry",
+        "npm run density:project"
+      ]
+    },
+    {
+      "laneId": "churches",
+      "laneName": "Churches",
+      "county": "Bradley",
+      "priority": "critical",
+      "coveragePercent": 25,
+      "reason": "Churches at 25% — 0/4 events",
+      "suggestedCommands": [
+        "npm run harvest:registry",
+        "npm run density:project"
+      ]
+    },
+    {
+      "laneId": "schools",
+      "laneName": "Schools",
+      "county": "Carroll",
+      "priority": "critical",
+      "coveragePercent": 25,
+      "reason": "Schools at 25% — 1/20 events",
+      "suggestedCommands": [
+        "npm run harvest:top200",
+        "npm run density:project"
+      ]
+    },
+    {
+      "laneId": "churches",
+      "laneName": "Churches",
+      "county": "Carroll",
+      "priority": "critical",
+      "coveragePercent": 25,
+      "reason": "Churches at 25% — 0/8 events",
+      "suggestedCommands": [
+        "npm run harvest:registry",
+        "npm run density:project"
+      ]
+    },
+    {
+      "laneId": "churches",
+      "laneName": "Churches",
+      "county": "Chicot",
+      "priority": "critical",
+      "coveragePercent": 25,
+      "reason": "Churches at 25% — 0/12 events",
+      "suggestedCommands": [
+        "npm run harvest:registry",
+        "npm run density:project"
+      ]
+    },
+    {
+      "laneId": "schools",
+      "laneName": "Schools",
+      "county": "Clark",
+      "priority": "critical",
+      "coveragePercent": 25,
+      "reason": "Schools at 25% — 1/30 events",
+      "suggestedCommands": [
+        "npm run harvest:top200",
+        "npm run density:project"
+      ]
+    },
+    {
+      "laneId": "churches",
+      "laneName": "Churches",
+      "county": "Clark",
+      "priority": "critical",
+      "coveragePercent": 25,
+      "reason": "Churches at 25% — 0/14 events",
+      "suggestedCommands": [
+        "npm run harvest:registry",
+        "npm run density:project"
+      ]
+    },
+    {
+      "laneId": "churches",
+      "laneName": "Churches",
+      "county": "Clay",
+      "priority": "critical",
+      "coveragePercent": 25,
+      "reason": "Churches at 25% — 0/10 events",
+      "suggestedCommands": [
+        "npm run harvest:registry",
+        "npm run density:project"
+      ]
+    },
+    {
+      "laneId": "schools",
+      "laneName": "Schools",
+      "county": "Cleburne",
+      "priority": "critical",
+      "coveragePercent": 25,
+      "reason": "Schools at 25% — 1/20 events",
+      "suggestedCommands": [
+        "npm run harvest:top200",
+        "npm run density:project"
+      ]
+    },
+    {
+      "laneId": "churches",
+      "laneName": "Churches",
+      "county": "Cleburne",
+      "priority": "critical",
+      "coveragePercent": 25,
+      "reason": "Churches at 25% — 0/10 events",
+      "suggestedCommands": [
+        "npm run harvest:registry",
+        "npm run density:project"
+      ]
+    },
+    {
+      "laneId": "schools",
+      "laneName": "Schools",
+      "county": "Columbia",
+      "priority": "critical",
+      "coveragePercent": 25,
+      "reason": "Schools at 25% — 1/30 events",
+      "suggestedCommands": [
+        "npm run harvest:top200",
+        "npm run density:project"
+      ]
+    },
+    {
+      "laneId": "churches",
+      "laneName": "Churches",
+      "county": "Columbia",
+      "priority": "critical",
+      "coveragePercent": 25,
+      "reason": "Churches at 25% — 0/14 events",
+      "suggestedCommands": [
+        "npm run harvest:registry",
+        "npm run density:project"
+      ]
+    },
+    {
+      "laneId": "schools",
+      "laneName": "Schools",
+      "county": "Conway",
+      "priority": "critical",
+      "coveragePercent": 25,
+      "reason": "Schools at 25% — 1/20 events",
+      "suggestedCommands": [
+        "npm run harvest:top200",
+        "npm run density:project"
+      ]
+    },
+    {
+      "laneId": "churches",
+      "laneName": "Churches",
+      "county": "Conway",
+      "priority": "critical",
+      "coveragePercent": 25,
+      "reason": "Churches at 25% — 0/12 events",
+      "suggestedCommands": [
+        "npm run harvest:registry",
+        "npm run density:project"
+      ]
+    },
+    {
+      "laneId": "churches",
+      "laneName": "Churches",
+      "county": "Craighead",
+      "priority": "critical",
+      "coveragePercent": 25,
+      "reason": "Churches at 25% — 0/6 events",
+      "suggestedCommands": [
+        "npm run harvest:registry",
+        "npm run density:project"
+      ]
+    },
+    {
+      "laneId": "schools",
+      "laneName": "Schools",
+      "county": "Crawford",
+      "priority": "critical",
+      "coveragePercent": 25,
+      "reason": "Schools at 25% — 1/15 events",
+      "suggestedCommands": [
+        "npm run harvest:top200",
+        "npm run density:project"
+      ]
+    }
+  ]
+}

@@ -18,6 +18,8 @@ import { CIVIC_GLYPHS } from "../lib/glyphs/civicGlyphs";
 import type { CivicEvent } from "../lib/types";
 import { getCountyDensity } from "../lib/density/densityReport";
 import { CountyDensityStrip } from "../components/density/CountyDensityStrip";
+import { buildCountyLaneCoverage } from "../lib/event-lanes/laneCoverageEngine";
+import { EventLaneCoveragePanel } from "../components/event-lanes/EventLaneCoveragePanel";
 import { getProfile, listProfiles } from "../lib/profiles/profileRegistry";
 import { FreshnessFooter } from "../components/FreshnessFooter";
 import { RelatedCommunityPages } from "../components/profiles/RelatedCommunityPages";
@@ -62,6 +64,7 @@ export function CountyPublicPage({ county, slug }: Props) {
   }, [slug, county, cities]);
 
   const density = useMemo(() => getCountyDensity(county, events), [county, events]);
+  const laneCoverage = useMemo(() => buildCountyLaneCoverage(county, events), [county, events]);
 
   async function share() {
     const url = window.location.href;
@@ -90,6 +93,7 @@ export function CountyPublicPage({ county, slug }: Props) {
       </div>
 
       <CountyDensityStrip density={density} />
+      <EventLaneCoveragePanel coverage={laneCoverage} compact />
 
       <section className="card bg-ark-wheat/30 mb-8">
         <h2 className="font-semibold">What is happening in {county} County this month?</h2>
