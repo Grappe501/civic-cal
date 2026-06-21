@@ -13,6 +13,7 @@ import { loadFeedAttachmentReport } from "../lib/feeds/feedAttachmentReport";
 import { formatEventRange } from "../lib/format";
 import duplicateAudit from "../../data/audits/county-page-duplicates.json";
 import { runWeeklyRecurringHealth } from "../lib/weekly-recurring/weeklyRecurringHealth";
+import { runCommunityDnaHealth } from "../lib/community-dna/communityDnaEngine";
 
 const fnBase = import.meta.env.VITE_FUNCTIONS_BASE ?? "/.netlify/functions";
 
@@ -29,6 +30,7 @@ export function AdminDataHealthPage() {
   const eventPageScores = useMemo(() => scoreAllPublicEventPages(), []);
   const eventPageSummary = useMemo(() => eventPageQualitySummary(eventPageScores), [eventPageScores]);
   const weeklyHealth = useMemo(() => runWeeklyRecurringHealth(), []);
+  const communityDnaHealth = useMemo(() => runCommunityDnaHealth(), []);
 
   async function refresh() {
     setLoading(true);
@@ -149,6 +151,22 @@ export function AdminDataHealthPage() {
                 </tbody>
               </table>
             </div>
+          </section>
+
+          <section className="card-readable">
+            <h2 className="font-semibold text-[var(--text-secondary)]">Community DNA (Pass 38)</h2>
+            <p className="text-caption mt-1">People · institutions · traditions · economy · personality — Census + BLS scaffolds.</p>
+            <div className="mt-3 grid gap-3 sm:grid-cols-2 text-sm">
+              <Stat label="City DNA profiles" value={String(communityDnaHealth.cityCount)} />
+              <Stat label="County DNA profiles" value={String(communityDnaHealth.countyCount)} />
+              <Stat label="Avg calendar DNA score" value={`${communityDnaHealth.avgScore}%`} highlight />
+              <Stat label="Discovery guides" value={String(communityDnaHealth.guideCount)} />
+              <Stat label="Thin counties" value={String(communityDnaHealth.thinCounties)} highlight={communityDnaHealth.thinCounties > 0} />
+              <Stat label="Strong counties" value={String(communityDnaHealth.strongCounties)} />
+            </div>
+            <Link to="/admin/community-dna" className="btn-secondary text-xs mt-4 inline-flex">
+              Open Community DNA dashboard →
+            </Link>
           </section>
 
           <section className="card-readable">

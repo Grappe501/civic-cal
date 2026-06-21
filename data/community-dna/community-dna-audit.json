@@ -1,0 +1,94 @@
+{
+  "pass": 38,
+  "generatedAt": "2026-06-21T20:30:45.118Z",
+  "cityDnaCount": 250,
+  "countyDnaCount": 75,
+  "countyScores": 75,
+  "thinCounties": 50,
+  "strongCounties": 0,
+  "discoveryGuides": 15,
+  "weakestCounties": [
+    {
+      "county": "Calhoun",
+      "score": 13
+    },
+    {
+      "county": "Cleveland",
+      "score": 13
+    },
+    {
+      "county": "Grant",
+      "score": 13
+    },
+    {
+      "county": "Montgomery",
+      "score": 13
+    },
+    {
+      "county": "Scott",
+      "score": 13
+    },
+    {
+      "county": "Lee",
+      "score": 19
+    },
+    {
+      "county": "Pike",
+      "score": 20
+    },
+    {
+      "county": "Lincoln",
+      "score": 21
+    },
+    {
+      "county": "Lafayette",
+      "score": 22
+    },
+    {
+      "county": "Perry",
+      "score": 28
+    }
+  ],
+  "strongestCounties": [
+    {
+      "county": "Washington",
+      "score": 66
+    },
+    {
+      "county": "Pulaski",
+      "score": 64
+    },
+    {
+      "county": "Benton",
+      "score": 59
+    },
+    {
+      "county": "Faulkner",
+      "score": 58
+    },
+    {
+      "county": "White",
+      "score": 57
+    },
+    {
+      "county": "Van Buren",
+      "score": 55
+    },
+    {
+      "county": "Sebastian",
+      "score": 52
+    },
+    {
+      "county": "Saline",
+      "score": 51
+    },
+    {
+      "county": "Conway",
+      "score": 50
+    },
+    {
+      "county": "Lonoke",
+      "score": 50
+    }
+  ]
+}

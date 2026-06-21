@@ -23,6 +23,8 @@ import { RelatedCommunityPages } from "../components/profiles/RelatedCommunityPa
 import { relatedLink } from "../lib/profiles/profileLinks";
 import { buildCityLaneCoverage } from "../lib/event-lanes/laneCoverageEngine";
 import { EventLaneCoveragePanel } from "../components/event-lanes/EventLaneCoveragePanel";
+import { getCityCommunityDna } from "../lib/community-dna/communityDnaEngine";
+import { CommunityDnaPanel } from "../components/community-dna/CommunityDnaPanel";
 
 interface Props {
   slug?: string;
@@ -92,6 +94,7 @@ export function CityPage({ slug: slugProp }: Props = {}) {
     () => (dossier ? buildCityLaneCoverage(dossier.city, dossier.county, events) : null),
     [dossier, events],
   );
+  const communityDna = useMemo(() => (dossier ? getCityCommunityDna(dossier.city) : null), [dossier]);
 
   if (!dossier) {
     return (
@@ -137,6 +140,8 @@ export function CityPage({ slug: slugProp }: Props = {}) {
       </div>
 
       {laneCoverage && <EventLaneCoveragePanel coverage={laneCoverage} compact />}
+
+      {communityDna && <CommunityDnaPanel dna={communityDna} title={`Community DNA — ${dossier?.city}`} />}
 
       <section className="card bg-ark-wheat/30 mb-8">
         <h2 className="font-semibold text-ark-pine">What is happening in {dossier.city}?</h2>

@@ -1,0 +1,4101 @@
+{
+  "pass": 38,
+  "generatedAt": "2026-06-21T20:30:44.295Z",
+  "count": 75,
+  "scores": [
+    {
+      "county": "Calhoun",
+      "population": 0,
+      "public_events": 1,
+      "total_score": 13,
+      "dimensions": {
+        "event_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "institution_density": {
+          "score": 20,
+          "band": "thin",
+          "thin": true
+        },
+        "tradition_density": {
+          "score": 25,
+          "band": "thin",
+          "thin": true
+        },
+        "cultural_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "youth_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "volunteer_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "outdoor_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "agricultural_density": {
+          "score": 63,
+          "band": "moderate",
+          "thin": false
+        }
+      },
+      "thin_dimensions": [
+        "event density",
+        "institution density",
+        "tradition density",
+        "cultural density",
+        "youth density",
+        "volunteer density",
+        "outdoor density"
+      ]
+    },
+    {
+      "county": "Cleveland",
+      "population": 0,
+      "public_events": 19,
+      "total_score": 13,
+      "dimensions": {
+        "event_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "institution_density": {
+          "score": 20,
+          "band": "thin",
+          "thin": true
+        },
+        "tradition_density": {
+          "score": 25,
+          "band": "thin",
+          "thin": true
+        },
+        "cultural_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "youth_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "volunteer_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "outdoor_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "agricultural_density": {
+          "score": 63,
+          "band": "moderate",
+          "thin": false
+        }
+      },
+      "thin_dimensions": [
+        "event density",
+        "institution density",
+        "tradition density",
+        "cultural density",
+        "youth density",
+        "volunteer density",
+        "outdoor density"
+      ]
+    },
+    {
+      "county": "Grant",
+      "population": 0,
+      "public_events": 20,
+      "total_score": 13,
+      "dimensions": {
+        "event_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "institution_density": {
+          "score": 20,
+          "band": "thin",
+          "thin": true
+        },
+        "tradition_density": {
+          "score": 25,
+          "band": "thin",
+          "thin": true
+        },
+        "cultural_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "youth_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "volunteer_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "outdoor_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "agricultural_density": {
+          "score": 63,
+          "band": "moderate",
+          "thin": false
+        }
+      },
+      "thin_dimensions": [
+        "event density",
+        "institution density",
+        "tradition density",
+        "cultural density",
+        "youth density",
+        "volunteer density",
+        "outdoor density"
+      ]
+    },
+    {
+      "county": "Montgomery",
+      "population": 0,
+      "public_events": 39,
+      "total_score": 13,
+      "dimensions": {
+        "event_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "institution_density": {
+          "score": 20,
+          "band": "thin",
+          "thin": true
+        },
+        "tradition_density": {
+          "score": 25,
+          "band": "thin",
+          "thin": true
+        },
+        "cultural_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "youth_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "volunteer_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "outdoor_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "agricultural_density": {
+          "score": 63,
+          "band": "moderate",
+          "thin": false
+        }
+      },
+      "thin_dimensions": [
+        "event density",
+        "institution density",
+        "tradition density",
+        "cultural density",
+        "youth density",
+        "volunteer density",
+        "outdoor density"
+      ]
+    },
+    {
+      "county": "Scott",
+      "population": 0,
+      "public_events": 19,
+      "total_score": 13,
+      "dimensions": {
+        "event_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "institution_density": {
+          "score": 20,
+          "band": "thin",
+          "thin": true
+        },
+        "tradition_density": {
+          "score": 25,
+          "band": "thin",
+          "thin": true
+        },
+        "cultural_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "youth_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "volunteer_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "outdoor_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "agricultural_density": {
+          "score": 63,
+          "band": "moderate",
+          "thin": false
+        }
+      },
+      "thin_dimensions": [
+        "event density",
+        "institution density",
+        "tradition density",
+        "cultural density",
+        "youth density",
+        "volunteer density",
+        "outdoor density"
+      ]
+    },
+    {
+      "county": "Lee",
+      "population": 4725,
+      "public_events": 1,
+      "total_score": 19,
+      "dimensions": {
+        "event_density": {
+          "score": 14,
+          "band": "thin",
+          "thin": true
+        },
+        "institution_density": {
+          "score": 36,
+          "band": "thin",
+          "thin": false
+        },
+        "tradition_density": {
+          "score": 33,
+          "band": "thin",
+          "thin": true
+        },
+        "cultural_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "youth_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "volunteer_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "outdoor_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "agricultural_density": {
+          "score": 63,
+          "band": "moderate",
+          "thin": false
+        }
+      },
+      "thin_dimensions": [
+        "event density",
+        "tradition density",
+        "cultural density",
+        "youth density",
+        "volunteer density",
+        "outdoor density"
+      ]
+    },
+    {
+      "county": "Pike",
+      "population": 10800,
+      "public_events": 2,
+      "total_score": 20,
+      "dimensions": {
+        "event_density": {
+          "score": 12,
+          "band": "thin",
+          "thin": true
+        },
+        "institution_density": {
+          "score": 36,
+          "band": "thin",
+          "thin": false
+        },
+        "tradition_density": {
+          "score": 42,
+          "band": "thin",
+          "thin": false
+        },
+        "cultural_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "youth_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "volunteer_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "outdoor_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "agricultural_density": {
+          "score": 63,
+          "band": "moderate",
+          "thin": false
+        }
+      },
+      "thin_dimensions": [
+        "event density",
+        "cultural density",
+        "youth density",
+        "volunteer density",
+        "outdoor density"
+      ]
+    },
+    {
+      "county": "Lincoln",
+      "population": 32400,
+      "public_events": 1,
+      "total_score": 21,
+      "dimensions": {
+        "event_density": {
+          "score": 2,
+          "band": "thin",
+          "thin": true
+        },
+        "institution_density": {
+          "score": 60,
+          "band": "moderate",
+          "thin": false
+        },
+        "tradition_density": {
+          "score": 33,
+          "band": "thin",
+          "thin": true
+        },
+        "cultural_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "youth_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "volunteer_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "outdoor_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "agricultural_density": {
+          "score": 63,
+          "band": "moderate",
+          "thin": false
+        }
+      },
+      "thin_dimensions": [
+        "event density",
+        "tradition density",
+        "cultural density",
+        "youth density",
+        "volunteer density",
+        "outdoor density"
+      ]
+    },
+    {
+      "county": "Lafayette",
+      "population": 32400,
+      "public_events": 2,
+      "total_score": 22,
+      "dimensions": {
+        "event_density": {
+          "score": 4,
+          "band": "thin",
+          "thin": true
+        },
+        "institution_density": {
+          "score": 60,
+          "band": "moderate",
+          "thin": false
+        },
+        "tradition_density": {
+          "score": 42,
+          "band": "thin",
+          "thin": false
+        },
+        "cultural_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "youth_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "volunteer_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "outdoor_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "agricultural_density": {
+          "score": 63,
+          "band": "moderate",
+          "thin": false
+        }
+      },
+      "thin_dimensions": [
+        "event density",
+        "cultural density",
+        "youth density",
+        "volunteer density",
+        "outdoor density"
+      ]
+    },
+    {
+      "county": "Perry",
+      "population": 43200,
+      "public_events": 19,
+      "total_score": 28,
+      "dimensions": {
+        "event_density": {
+          "score": 29,
+          "band": "thin",
+          "thin": true
+        },
+        "institution_density": {
+          "score": 72,
+          "band": "strong",
+          "thin": false
+        },
+        "tradition_density": {
+          "score": 33,
+          "band": "thin",
+          "thin": true
+        },
+        "cultural_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "youth_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "volunteer_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "outdoor_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "agricultural_density": {
+          "score": 63,
+          "band": "moderate",
+          "thin": false
+        }
+      },
+      "thin_dimensions": [
+        "event density",
+        "tradition density",
+        "cultural density",
+        "youth density",
+        "volunteer density",
+        "outdoor density"
+      ]
+    },
+    {
+      "county": "Marion",
+      "population": 32400,
+      "public_events": 21,
+      "total_score": 29,
+      "dimensions": {
+        "event_density": {
+          "score": 43,
+          "band": "thin",
+          "thin": false
+        },
+        "institution_density": {
+          "score": 60,
+          "band": "moderate",
+          "thin": false
+        },
+        "tradition_density": {
+          "score": 33,
+          "band": "thin",
+          "thin": true
+        },
+        "cultural_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "youth_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "volunteer_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "outdoor_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "agricultural_density": {
+          "score": 63,
+          "band": "moderate",
+          "thin": false
+        }
+      },
+      "thin_dimensions": [
+        "tradition density",
+        "cultural density",
+        "youth density",
+        "volunteer density",
+        "outdoor density"
+      ]
+    },
+    {
+      "county": "Newton",
+      "population": 10800,
+      "public_events": 6,
+      "total_score": 29,
+      "dimensions": {
+        "event_density": {
+          "score": 37,
+          "band": "thin",
+          "thin": false
+        },
+        "institution_density": {
+          "score": 36,
+          "band": "thin",
+          "thin": false
+        },
+        "tradition_density": {
+          "score": 67,
+          "band": "moderate",
+          "thin": false
+        },
+        "cultural_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "youth_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "volunteer_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "outdoor_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "agricultural_density": {
+          "score": 63,
+          "band": "moderate",
+          "thin": false
+        }
+      },
+      "thin_dimensions": [
+        "cultural density",
+        "youth density",
+        "volunteer density",
+        "outdoor density"
+      ]
+    },
+    {
+      "county": "Searcy",
+      "population": 21600,
+      "public_events": 20,
+      "total_score": 32,
+      "dimensions": {
+        "event_density": {
+          "score": 62,
+          "band": "moderate",
+          "thin": false
+        },
+        "institution_density": {
+          "score": 48,
+          "band": "moderate",
+          "thin": false
+        },
+        "tradition_density": {
+          "score": 42,
+          "band": "thin",
+          "thin": false
+        },
+        "cultural_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "youth_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "volunteer_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "outdoor_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "agricultural_density": {
+          "score": 63,
+          "band": "moderate",
+          "thin": false
+        }
+      },
+      "thin_dimensions": [
+        "cultural density",
+        "youth density",
+        "volunteer density",
+        "outdoor density"
+      ]
+    },
+    {
+      "county": "Monroe",
+      "population": 47925,
+      "public_events": 37,
+      "total_score": 34,
+      "dimensions": {
+        "event_density": {
+          "score": 51,
+          "band": "moderate",
+          "thin": false
+        },
+        "institution_density": {
+          "score": 84,
+          "band": "strong",
+          "thin": false
+        },
+        "tradition_density": {
+          "score": 33,
+          "band": "thin",
+          "thin": true
+        },
+        "cultural_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "youth_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "volunteer_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "outdoor_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "agricultural_density": {
+          "score": 63,
+          "band": "moderate",
+          "thin": false
+        }
+      },
+      "thin_dimensions": [
+        "tradition density",
+        "cultural density",
+        "youth density",
+        "volunteer density",
+        "outdoor density"
+      ]
+    },
+    {
+      "county": "Logan",
+      "population": 41850,
+      "public_events": 37,
+      "total_score": 36,
+      "dimensions": {
+        "event_density": {
+          "score": 59,
+          "band": "moderate",
+          "thin": false
+        },
+        "institution_density": {
+          "score": 84,
+          "band": "strong",
+          "thin": false
+        },
+        "tradition_density": {
+          "score": 33,
+          "band": "thin",
+          "thin": true
+        },
+        "cultural_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "youth_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "volunteer_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "outdoor_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "agricultural_density": {
+          "score": 63,
+          "band": "moderate",
+          "thin": false
+        }
+      },
+      "thin_dimensions": [
+        "tradition density",
+        "cultural density",
+        "youth density",
+        "volunteer density",
+        "outdoor density"
+      ]
+    },
+    {
+      "county": "Yell",
+      "population": 21600,
+      "public_events": 24,
+      "total_score": 36,
+      "dimensions": {
+        "event_density": {
+          "score": 74,
+          "band": "strong",
+          "thin": false
+        },
+        "institution_density": {
+          "score": 48,
+          "band": "moderate",
+          "thin": false
+        },
+        "tradition_density": {
+          "score": 50,
+          "band": "moderate",
+          "thin": false
+        },
+        "cultural_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "youth_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "volunteer_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "outdoor_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "agricultural_density": {
+          "score": 63,
+          "band": "moderate",
+          "thin": false
+        }
+      },
+      "thin_dimensions": [
+        "cultural density",
+        "youth density",
+        "volunteer density",
+        "outdoor density"
+      ]
+    },
+    {
+      "county": "Jackson",
+      "population": 37125,
+      "public_events": 40,
+      "total_score": 37,
+      "dimensions": {
+        "event_density": {
+          "score": 72,
+          "band": "strong",
+          "thin": false
+        },
+        "institution_density": {
+          "score": 72,
+          "band": "strong",
+          "thin": false
+        },
+        "tradition_density": {
+          "score": 33,
+          "band": "thin",
+          "thin": true
+        },
+        "cultural_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "youth_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "volunteer_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "outdoor_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "agricultural_density": {
+          "score": 73,
+          "band": "strong",
+          "thin": false
+        }
+      },
+      "thin_dimensions": [
+        "tradition density",
+        "cultural density",
+        "youth density",
+        "volunteer density",
+        "outdoor density"
+      ]
+    },
+    {
+      "county": "Madison",
+      "population": 15525,
+      "public_events": 20,
+      "total_score": 37,
+      "dimensions": {
+        "event_density": {
+          "score": 86,
+          "band": "strong",
+          "thin": false
+        },
+        "institution_density": {
+          "score": 48,
+          "band": "moderate",
+          "thin": false
+        },
+        "tradition_density": {
+          "score": 42,
+          "band": "thin",
+          "thin": false
+        },
+        "cultural_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "youth_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "volunteer_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "outdoor_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "agricultural_density": {
+          "score": 63,
+          "band": "moderate",
+          "thin": false
+        }
+      },
+      "thin_dimensions": [
+        "cultural density",
+        "youth density",
+        "volunteer density",
+        "outdoor density"
+      ]
+    },
+    {
+      "county": "Randolph",
+      "population": 4725,
+      "public_events": 39,
+      "total_score": 38,
+      "dimensions": {
+        "event_density": {
+          "score": 100,
+          "band": "strong",
+          "thin": false
+        },
+        "institution_density": {
+          "score": 36,
+          "band": "thin",
+          "thin": false
+        },
+        "tradition_density": {
+          "score": 42,
+          "band": "thin",
+          "thin": false
+        },
+        "cultural_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "youth_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "volunteer_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "outdoor_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "agricultural_density": {
+          "score": 63,
+          "band": "moderate",
+          "thin": false
+        }
+      },
+      "thin_dimensions": [
+        "cultural density",
+        "youth density",
+        "volunteer density",
+        "outdoor density"
+      ]
+    },
+    {
+      "county": "Lawrence",
+      "population": 10800,
+      "public_events": 79,
+      "total_score": 39,
+      "dimensions": {
+        "event_density": {
+          "score": 100,
+          "band": "strong",
+          "thin": false
+        },
+        "institution_density": {
+          "score": 36,
+          "band": "thin",
+          "thin": false
+        },
+        "tradition_density": {
+          "score": 42,
+          "band": "thin",
+          "thin": false
+        },
+        "cultural_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "youth_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "volunteer_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "outdoor_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "agricultural_density": {
+          "score": 75,
+          "band": "strong",
+          "thin": false
+        }
+      },
+      "thin_dimensions": [
+        "cultural density",
+        "youth density",
+        "volunteer density",
+        "outdoor density"
+      ]
+    },
+    {
+      "county": "Nevada",
+      "population": 10800,
+      "public_events": 78,
+      "total_score": 39,
+      "dimensions": {
+        "event_density": {
+          "score": 100,
+          "band": "strong",
+          "thin": false
+        },
+        "institution_density": {
+          "score": 36,
+          "band": "thin",
+          "thin": false
+        },
+        "tradition_density": {
+          "score": 42,
+          "band": "thin",
+          "thin": false
+        },
+        "cultural_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "youth_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "volunteer_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "outdoor_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "agricultural_density": {
+          "score": 73,
+          "band": "strong",
+          "thin": false
+        }
+      },
+      "thin_dimensions": [
+        "cultural density",
+        "youth density",
+        "volunteer density",
+        "outdoor density"
+      ]
+    },
+    {
+      "county": "Woodruff",
+      "population": 15525,
+      "public_events": 40,
+      "total_score": 39,
+      "dimensions": {
+        "event_density": {
+          "score": 100,
+          "band": "strong",
+          "thin": false
+        },
+        "institution_density": {
+          "score": 48,
+          "band": "moderate",
+          "thin": false
+        },
+        "tradition_density": {
+          "score": 33,
+          "band": "thin",
+          "thin": true
+        },
+        "cultural_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "youth_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "volunteer_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "outdoor_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "agricultural_density": {
+          "score": 73,
+          "band": "strong",
+          "thin": false
+        }
+      },
+      "thin_dimensions": [
+        "tradition density",
+        "cultural density",
+        "youth density",
+        "volunteer density",
+        "outdoor density"
+      ]
+    },
+    {
+      "county": "Drew",
+      "population": 38475,
+      "public_events": 78,
+      "total_score": 40,
+      "dimensions": {
+        "event_density": {
+          "score": 100,
+          "band": "strong",
+          "thin": false
+        },
+        "institution_density": {
+          "score": 48,
+          "band": "moderate",
+          "thin": false
+        },
+        "tradition_density": {
+          "score": 33,
+          "band": "thin",
+          "thin": true
+        },
+        "cultural_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "youth_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "volunteer_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "outdoor_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "agricultural_density": {
+          "score": 80,
+          "band": "strong",
+          "thin": false
+        }
+      },
+      "thin_dimensions": [
+        "tradition density",
+        "cultural density",
+        "youth density",
+        "volunteer density",
+        "outdoor density"
+      ]
+    },
+    {
+      "county": "Jefferson",
+      "population": 114750,
+      "public_events": 183,
+      "total_score": 40,
+      "dimensions": {
+        "event_density": {
+          "score": 100,
+          "band": "strong",
+          "thin": false
+        },
+        "institution_density": {
+          "score": 44,
+          "band": "thin",
+          "thin": false
+        },
+        "tradition_density": {
+          "score": 33,
+          "band": "thin",
+          "thin": true
+        },
+        "cultural_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "youth_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "volunteer_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "outdoor_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "agricultural_density": {
+          "score": 83,
+          "band": "strong",
+          "thin": false
+        }
+      },
+      "thin_dimensions": [
+        "tradition density",
+        "cultural density",
+        "youth density",
+        "volunteer density",
+        "outdoor density"
+      ]
+    },
+    {
+      "county": "Miller",
+      "population": 114750,
+      "public_events": 194,
+      "total_score": 40,
+      "dimensions": {
+        "event_density": {
+          "score": 100,
+          "band": "strong",
+          "thin": false
+        },
+        "institution_density": {
+          "score": 44,
+          "band": "thin",
+          "thin": false
+        },
+        "tradition_density": {
+          "score": 33,
+          "band": "thin",
+          "thin": true
+        },
+        "cultural_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "youth_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "volunteer_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "outdoor_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "agricultural_density": {
+          "score": 83,
+          "band": "strong",
+          "thin": false
+        }
+      },
+      "thin_dimensions": [
+        "tradition density",
+        "cultural density",
+        "youth density",
+        "volunteer density",
+        "outdoor density"
+      ]
+    },
+    {
+      "county": "Ouachita",
+      "population": 38475,
+      "public_events": 114,
+      "total_score": 40,
+      "dimensions": {
+        "event_density": {
+          "score": 100,
+          "band": "strong",
+          "thin": false
+        },
+        "institution_density": {
+          "score": 48,
+          "band": "moderate",
+          "thin": false
+        },
+        "tradition_density": {
+          "score": 33,
+          "band": "thin",
+          "thin": true
+        },
+        "cultural_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "youth_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "volunteer_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "outdoor_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "agricultural_density": {
+          "score": 80,
+          "band": "strong",
+          "thin": false
+        }
+      },
+      "thin_dimensions": [
+        "tradition density",
+        "cultural density",
+        "youth density",
+        "volunteer density",
+        "outdoor density"
+      ]
+    },
+    {
+      "county": "Polk",
+      "population": 15525,
+      "public_events": 77,
+      "total_score": 40,
+      "dimensions": {
+        "event_density": {
+          "score": 100,
+          "band": "strong",
+          "thin": false
+        },
+        "institution_density": {
+          "score": 48,
+          "band": "moderate",
+          "thin": false
+        },
+        "tradition_density": {
+          "score": 33,
+          "band": "thin",
+          "thin": true
+        },
+        "cultural_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "youth_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "volunteer_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "outdoor_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "agricultural_density": {
+          "score": 75,
+          "band": "strong",
+          "thin": false
+        }
+      },
+      "thin_dimensions": [
+        "tradition density",
+        "cultural density",
+        "youth density",
+        "volunteer density",
+        "outdoor density"
+      ]
+    },
+    {
+      "county": "Sevier",
+      "population": 15525,
+      "public_events": 77,
+      "total_score": 40,
+      "dimensions": {
+        "event_density": {
+          "score": 100,
+          "band": "strong",
+          "thin": false
+        },
+        "institution_density": {
+          "score": 48,
+          "band": "moderate",
+          "thin": false
+        },
+        "tradition_density": {
+          "score": 33,
+          "band": "thin",
+          "thin": true
+        },
+        "cultural_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "youth_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "volunteer_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "outdoor_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "agricultural_density": {
+          "score": 75,
+          "band": "strong",
+          "thin": false
+        }
+      },
+      "thin_dimensions": [
+        "tradition density",
+        "cultural density",
+        "youth density",
+        "volunteer density",
+        "outdoor density"
+      ]
+    },
+    {
+      "county": "Stone",
+      "population": 21600,
+      "public_events": 114,
+      "total_score": 40,
+      "dimensions": {
+        "event_density": {
+          "score": 100,
+          "band": "strong",
+          "thin": false
+        },
+        "institution_density": {
+          "score": 48,
+          "band": "moderate",
+          "thin": false
+        },
+        "tradition_density": {
+          "score": 33,
+          "band": "thin",
+          "thin": true
+        },
+        "cultural_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "youth_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "volunteer_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "outdoor_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "agricultural_density": {
+          "score": 78,
+          "band": "strong",
+          "thin": false
+        }
+      },
+      "thin_dimensions": [
+        "tradition density",
+        "cultural density",
+        "youth density",
+        "volunteer density",
+        "outdoor density"
+      ]
+    },
+    {
+      "county": "Bradley",
+      "population": 21600,
+      "public_events": 98,
+      "total_score": 41,
+      "dimensions": {
+        "event_density": {
+          "score": 100,
+          "band": "strong",
+          "thin": false
+        },
+        "institution_density": {
+          "score": 48,
+          "band": "moderate",
+          "thin": false
+        },
+        "tradition_density": {
+          "score": 33,
+          "band": "thin",
+          "thin": true
+        },
+        "cultural_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "youth_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "volunteer_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "outdoor_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "agricultural_density": {
+          "score": 85,
+          "band": "strong",
+          "thin": false
+        }
+      },
+      "thin_dimensions": [
+        "tradition density",
+        "cultural density",
+        "youth density",
+        "volunteer density",
+        "outdoor density"
+      ]
+    },
+    {
+      "county": "Greene",
+      "population": 33750,
+      "public_events": 195,
+      "total_score": 41,
+      "dimensions": {
+        "event_density": {
+          "score": 100,
+          "band": "strong",
+          "thin": false
+        },
+        "institution_density": {
+          "score": 44,
+          "band": "thin",
+          "thin": false
+        },
+        "tradition_density": {
+          "score": 42,
+          "band": "thin",
+          "thin": false
+        },
+        "cultural_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "youth_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "volunteer_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "outdoor_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "agricultural_density": {
+          "score": 83,
+          "band": "strong",
+          "thin": false
+        }
+      },
+      "thin_dimensions": [
+        "cultural density",
+        "youth density",
+        "volunteer density",
+        "outdoor density"
+      ]
+    },
+    {
+      "county": "Howard",
+      "population": 15525,
+      "public_events": 79,
+      "total_score": 41,
+      "dimensions": {
+        "event_density": {
+          "score": 100,
+          "band": "strong",
+          "thin": false
+        },
+        "institution_density": {
+          "score": 48,
+          "band": "moderate",
+          "thin": false
+        },
+        "tradition_density": {
+          "score": 42,
+          "band": "thin",
+          "thin": false
+        },
+        "cultural_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "youth_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "volunteer_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "outdoor_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "agricultural_density": {
+          "score": 75,
+          "band": "strong",
+          "thin": false
+        }
+      },
+      "thin_dimensions": [
+        "cultural density",
+        "youth density",
+        "volunteer density",
+        "outdoor density"
+      ]
+    },
+    {
+      "county": "Izard",
+      "population": 32400,
+      "public_events": 76,
+      "total_score": 41,
+      "dimensions": {
+        "event_density": {
+          "score": 100,
+          "band": "strong",
+          "thin": false
+        },
+        "institution_density": {
+          "score": 60,
+          "band": "moderate",
+          "thin": false
+        },
+        "tradition_density": {
+          "score": 33,
+          "band": "thin",
+          "thin": true
+        },
+        "cultural_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "youth_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "volunteer_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "outdoor_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "agricultural_density": {
+          "score": 73,
+          "band": "strong",
+          "thin": false
+        }
+      },
+      "thin_dimensions": [
+        "tradition density",
+        "cultural density",
+        "youth density",
+        "volunteer density",
+        "outdoor density"
+      ]
+    },
+    {
+      "county": "Little River",
+      "population": 15525,
+      "public_events": 78,
+      "total_score": 41,
+      "dimensions": {
+        "event_density": {
+          "score": 100,
+          "band": "strong",
+          "thin": false
+        },
+        "institution_density": {
+          "score": 48,
+          "band": "moderate",
+          "thin": false
+        },
+        "tradition_density": {
+          "score": 42,
+          "band": "thin",
+          "thin": false
+        },
+        "cultural_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "youth_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "volunteer_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "outdoor_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "agricultural_density": {
+          "score": 75,
+          "band": "strong",
+          "thin": false
+        }
+      },
+      "thin_dimensions": [
+        "cultural density",
+        "youth density",
+        "volunteer density",
+        "outdoor density"
+      ]
+    },
+    {
+      "county": "Arkansas",
+      "population": 76950,
+      "public_events": 97,
+      "total_score": 42,
+      "dimensions": {
+        "event_density": {
+          "score": 84,
+          "band": "strong",
+          "thin": false
+        },
+        "institution_density": {
+          "score": 84,
+          "band": "strong",
+          "thin": false
+        },
+        "tradition_density": {
+          "score": 33,
+          "band": "thin",
+          "thin": true
+        },
+        "cultural_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "youth_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "volunteer_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "outdoor_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "agricultural_density": {
+          "score": 80,
+          "band": "strong",
+          "thin": false
+        }
+      },
+      "thin_dimensions": [
+        "tradition density",
+        "cultural density",
+        "youth density",
+        "volunteer density",
+        "outdoor density"
+      ]
+    },
+    {
+      "county": "Craighead",
+      "population": 125550,
+      "public_events": 185,
+      "total_score": 42,
+      "dimensions": {
+        "event_density": {
+          "score": 98,
+          "band": "strong",
+          "thin": false
+        },
+        "institution_density": {
+          "score": 56,
+          "band": "moderate",
+          "thin": false
+        },
+        "tradition_density": {
+          "score": 33,
+          "band": "thin",
+          "thin": true
+        },
+        "cultural_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "youth_density": {
+          "score": 5,
+          "band": "thin",
+          "thin": true
+        },
+        "volunteer_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "outdoor_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "agricultural_density": {
+          "score": 83,
+          "band": "strong",
+          "thin": false
+        }
+      },
+      "thin_dimensions": [
+        "tradition density",
+        "cultural density",
+        "youth density",
+        "volunteer density",
+        "outdoor density"
+      ]
+    },
+    {
+      "county": "Cross",
+      "population": 32400,
+      "public_events": 96,
+      "total_score": 42,
+      "dimensions": {
+        "event_density": {
+          "score": 100,
+          "band": "strong",
+          "thin": false
+        },
+        "institution_density": {
+          "score": 60,
+          "band": "moderate",
+          "thin": false
+        },
+        "tradition_density": {
+          "score": 33,
+          "band": "thin",
+          "thin": true
+        },
+        "cultural_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "youth_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "volunteer_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "outdoor_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "agricultural_density": {
+          "score": 78,
+          "band": "strong",
+          "thin": false
+        }
+      },
+      "thin_dimensions": [
+        "tradition density",
+        "cultural density",
+        "youth density",
+        "volunteer density",
+        "outdoor density"
+      ]
+    },
+    {
+      "county": "Dallas",
+      "population": 26325,
+      "public_events": 98,
+      "total_score": 42,
+      "dimensions": {
+        "event_density": {
+          "score": 100,
+          "band": "strong",
+          "thin": false
+        },
+        "institution_density": {
+          "score": 60,
+          "band": "moderate",
+          "thin": false
+        },
+        "tradition_density": {
+          "score": 33,
+          "band": "thin",
+          "thin": true
+        },
+        "cultural_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "youth_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "volunteer_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "outdoor_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "agricultural_density": {
+          "score": 83,
+          "band": "strong",
+          "thin": false
+        }
+      },
+      "thin_dimensions": [
+        "tradition density",
+        "cultural density",
+        "youth density",
+        "volunteer density",
+        "outdoor density"
+      ]
+    },
+    {
+      "county": "Franklin",
+      "population": 26325,
+      "public_events": 97,
+      "total_score": 42,
+      "dimensions": {
+        "event_density": {
+          "score": 100,
+          "band": "strong",
+          "thin": false
+        },
+        "institution_density": {
+          "score": 60,
+          "band": "moderate",
+          "thin": false
+        },
+        "tradition_density": {
+          "score": 33,
+          "band": "thin",
+          "thin": true
+        },
+        "cultural_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "youth_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "volunteer_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "outdoor_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "agricultural_density": {
+          "score": 78,
+          "band": "strong",
+          "thin": false
+        }
+      },
+      "thin_dimensions": [
+        "tradition density",
+        "cultural density",
+        "youth density",
+        "volunteer density",
+        "outdoor density"
+      ]
+    },
+    {
+      "county": "Fulton",
+      "population": 21600,
+      "public_events": 40,
+      "total_score": 42,
+      "dimensions": {
+        "event_density": {
+          "score": 100,
+          "band": "strong",
+          "thin": false
+        },
+        "institution_density": {
+          "score": 48,
+          "band": "moderate",
+          "thin": false
+        },
+        "tradition_density": {
+          "score": 58,
+          "band": "moderate",
+          "thin": false
+        },
+        "cultural_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "youth_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "volunteer_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "outdoor_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "agricultural_density": {
+          "score": 63,
+          "band": "moderate",
+          "thin": false
+        }
+      },
+      "thin_dimensions": [
+        "cultural density",
+        "youth density",
+        "volunteer density",
+        "outdoor density"
+      ]
+    },
+    {
+      "county": "Hot Spring",
+      "population": 38475,
+      "public_events": 98,
+      "total_score": 42,
+      "dimensions": {
+        "event_density": {
+          "score": 100,
+          "band": "strong",
+          "thin": false
+        },
+        "institution_density": {
+          "score": 48,
+          "band": "moderate",
+          "thin": false
+        },
+        "tradition_density": {
+          "score": 42,
+          "band": "thin",
+          "thin": false
+        },
+        "cultural_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "youth_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "volunteer_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "outdoor_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "agricultural_density": {
+          "score": 80,
+          "band": "strong",
+          "thin": false
+        }
+      },
+      "thin_dimensions": [
+        "cultural density",
+        "youth density",
+        "volunteer density",
+        "outdoor density"
+      ]
+    },
+    {
+      "county": "Phillips",
+      "population": 38475,
+      "public_events": 80,
+      "total_score": 42,
+      "dimensions": {
+        "event_density": {
+          "score": 100,
+          "band": "strong",
+          "thin": false
+        },
+        "institution_density": {
+          "score": 48,
+          "band": "moderate",
+          "thin": false
+        },
+        "tradition_density": {
+          "score": 42,
+          "band": "thin",
+          "thin": false
+        },
+        "cultural_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "youth_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "volunteer_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "outdoor_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "agricultural_density": {
+          "score": 80,
+          "band": "strong",
+          "thin": false
+        }
+      },
+      "thin_dimensions": [
+        "cultural density",
+        "youth density",
+        "volunteer density",
+        "outdoor density"
+      ]
+    },
+    {
+      "county": "Desha",
+      "population": 26325,
+      "public_events": 135,
+      "total_score": 43,
+      "dimensions": {
+        "event_density": {
+          "score": 100,
+          "band": "strong",
+          "thin": false
+        },
+        "institution_density": {
+          "score": 60,
+          "band": "moderate",
+          "thin": false
+        },
+        "tradition_density": {
+          "score": 33,
+          "band": "thin",
+          "thin": true
+        },
+        "cultural_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "youth_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "volunteer_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "outdoor_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "agricultural_density": {
+          "score": 88,
+          "band": "strong",
+          "thin": false
+        }
+      },
+      "thin_dimensions": [
+        "tradition density",
+        "cultural density",
+        "youth density",
+        "volunteer density",
+        "outdoor density"
+      ]
+    },
+    {
+      "county": "Hempstead",
+      "population": 38475,
+      "public_events": 117,
+      "total_score": 43,
+      "dimensions": {
+        "event_density": {
+          "score": 100,
+          "band": "strong",
+          "thin": false
+        },
+        "institution_density": {
+          "score": 48,
+          "band": "moderate",
+          "thin": false
+        },
+        "tradition_density": {
+          "score": 50,
+          "band": "moderate",
+          "thin": false
+        },
+        "cultural_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "youth_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "volunteer_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "outdoor_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "agricultural_density": {
+          "score": 80,
+          "band": "strong",
+          "thin": false
+        }
+      },
+      "thin_dimensions": [
+        "cultural density",
+        "youth density",
+        "volunteer density",
+        "outdoor density"
+      ]
+    },
+    {
+      "county": "Independence",
+      "population": 38475,
+      "public_events": 120,
+      "total_score": 43,
+      "dimensions": {
+        "event_density": {
+          "score": 100,
+          "band": "strong",
+          "thin": false
+        },
+        "institution_density": {
+          "score": 48,
+          "band": "moderate",
+          "thin": false
+        },
+        "tradition_density": {
+          "score": 50,
+          "band": "moderate",
+          "thin": false
+        },
+        "cultural_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "youth_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "volunteer_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "outdoor_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "agricultural_density": {
+          "score": 80,
+          "band": "strong",
+          "thin": false
+        }
+      },
+      "thin_dimensions": [
+        "cultural density",
+        "youth density",
+        "volunteer density",
+        "outdoor density"
+      ]
+    },
+    {
+      "county": "Johnson",
+      "population": 15525,
+      "public_events": 99,
+      "total_score": 43,
+      "dimensions": {
+        "event_density": {
+          "score": 100,
+          "band": "strong",
+          "thin": false
+        },
+        "institution_density": {
+          "score": 48,
+          "band": "moderate",
+          "thin": false
+        },
+        "tradition_density": {
+          "score": 50,
+          "band": "moderate",
+          "thin": false
+        },
+        "cultural_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "youth_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "volunteer_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "outdoor_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "agricultural_density": {
+          "score": 78,
+          "band": "strong",
+          "thin": false
+        }
+      },
+      "thin_dimensions": [
+        "cultural density",
+        "youth density",
+        "volunteer density",
+        "outdoor density"
+      ]
+    },
+    {
+      "county": "Ashley",
+      "population": 26325,
+      "public_events": 100,
+      "total_score": 44,
+      "dimensions": {
+        "event_density": {
+          "score": 100,
+          "band": "strong",
+          "thin": false
+        },
+        "institution_density": {
+          "score": 60,
+          "band": "moderate",
+          "thin": false
+        },
+        "tradition_density": {
+          "score": 42,
+          "band": "thin",
+          "thin": false
+        },
+        "cultural_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "youth_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "volunteer_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "outdoor_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "agricultural_density": {
+          "score": 85,
+          "band": "strong",
+          "thin": false
+        }
+      },
+      "thin_dimensions": [
+        "cultural density",
+        "youth density",
+        "volunteer density",
+        "outdoor density"
+      ]
+    },
+    {
+      "county": "Baxter",
+      "population": 38475,
+      "public_events": 119,
+      "total_score": 44,
+      "dimensions": {
+        "event_density": {
+          "score": 100,
+          "band": "strong",
+          "thin": false
+        },
+        "institution_density": {
+          "score": 56,
+          "band": "moderate",
+          "thin": false
+        },
+        "tradition_density": {
+          "score": 50,
+          "band": "moderate",
+          "thin": false
+        },
+        "cultural_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "youth_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "volunteer_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "outdoor_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "agricultural_density": {
+          "score": 83,
+          "band": "strong",
+          "thin": false
+        }
+      },
+      "thin_dimensions": [
+        "cultural density",
+        "youth density",
+        "volunteer density",
+        "outdoor density"
+      ]
+    },
+    {
+      "county": "Mississippi",
+      "population": 140400,
+      "public_events": 155,
+      "total_score": 44,
+      "dimensions": {
+        "event_density": {
+          "score": 74,
+          "band": "strong",
+          "thin": false
+        },
+        "institution_density": {
+          "score": 100,
+          "band": "strong",
+          "thin": false
+        },
+        "tradition_density": {
+          "score": 33,
+          "band": "thin",
+          "thin": true
+        },
+        "cultural_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "youth_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "volunteer_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "outdoor_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "agricultural_density": {
+          "score": 93,
+          "band": "strong",
+          "thin": false
+        }
+      },
+      "thin_dimensions": [
+        "tradition density",
+        "cultural density",
+        "youth density",
+        "volunteer density",
+        "outdoor density"
+      ]
+    },
+    {
+      "county": "Sharp",
+      "population": 32400,
+      "public_events": 99,
+      "total_score": 44,
+      "dimensions": {
+        "event_density": {
+          "score": 100,
+          "band": "strong",
+          "thin": false
+        },
+        "institution_density": {
+          "score": 60,
+          "band": "moderate",
+          "thin": false
+        },
+        "tradition_density": {
+          "score": 42,
+          "band": "thin",
+          "thin": false
+        },
+        "cultural_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "youth_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "volunteer_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "outdoor_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "agricultural_density": {
+          "score": 83,
+          "band": "strong",
+          "thin": false
+        }
+      },
+      "thin_dimensions": [
+        "cultural density",
+        "youth density",
+        "volunteer density",
+        "outdoor density"
+      ]
+    },
+    {
+      "county": "Poinsett",
+      "population": 31050,
+      "public_events": 135,
+      "total_score": 45,
+      "dimensions": {
+        "event_density": {
+          "score": 100,
+          "band": "strong",
+          "thin": false
+        },
+        "institution_density": {
+          "score": 72,
+          "band": "strong",
+          "thin": false
+        },
+        "tradition_density": {
+          "score": 33,
+          "band": "thin",
+          "thin": true
+        },
+        "cultural_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "youth_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "volunteer_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "outdoor_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "agricultural_density": {
+          "score": 88,
+          "band": "strong",
+          "thin": false
+        }
+      },
+      "thin_dimensions": [
+        "tradition density",
+        "cultural density",
+        "youth density",
+        "volunteer density",
+        "outdoor density"
+      ]
+    },
+    {
+      "county": "St. Francis",
+      "population": 66150,
+      "public_events": 115,
+      "total_score": 45,
+      "dimensions": {
+        "event_density": {
+          "score": 100,
+          "band": "strong",
+          "thin": false
+        },
+        "institution_density": {
+          "score": 72,
+          "band": "strong",
+          "thin": false
+        },
+        "tradition_density": {
+          "score": 42,
+          "band": "thin",
+          "thin": false
+        },
+        "cultural_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "youth_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "volunteer_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "outdoor_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "agricultural_density": {
+          "score": 80,
+          "band": "strong",
+          "thin": false
+        }
+      },
+      "thin_dimensions": [
+        "cultural density",
+        "youth density",
+        "volunteer density",
+        "outdoor density"
+      ]
+    },
+    {
+      "county": "Boone",
+      "population": 55350,
+      "public_events": 119,
+      "total_score": 46,
+      "dimensions": {
+        "event_density": {
+          "score": 100,
+          "band": "strong",
+          "thin": false
+        },
+        "institution_density": {
+          "score": 68,
+          "band": "moderate",
+          "thin": false
+        },
+        "tradition_density": {
+          "score": 50,
+          "band": "moderate",
+          "thin": false
+        },
+        "cultural_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "youth_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "volunteer_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "outdoor_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "agricultural_density": {
+          "score": 83,
+          "band": "strong",
+          "thin": false
+        }
+      },
+      "thin_dimensions": [
+        "cultural density",
+        "youth density",
+        "volunteer density",
+        "outdoor density"
+      ]
+    },
+    {
+      "county": "Crawford",
+      "population": 49275,
+      "public_events": 272,
+      "total_score": 46,
+      "dimensions": {
+        "event_density": {
+          "score": 100,
+          "band": "strong",
+          "thin": false
+        },
+        "institution_density": {
+          "score": 68,
+          "band": "moderate",
+          "thin": false
+        },
+        "tradition_density": {
+          "score": 42,
+          "band": "thin",
+          "thin": false
+        },
+        "cultural_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "youth_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "volunteer_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "outdoor_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "agricultural_density": {
+          "score": 98,
+          "band": "strong",
+          "thin": false
+        }
+      },
+      "thin_dimensions": [
+        "cultural density",
+        "youth density",
+        "volunteer density",
+        "outdoor density"
+      ]
+    },
+    {
+      "county": "Union",
+      "population": 55350,
+      "public_events": 180,
+      "total_score": 46,
+      "dimensions": {
+        "event_density": {
+          "score": 100,
+          "band": "strong",
+          "thin": false
+        },
+        "institution_density": {
+          "score": 68,
+          "band": "moderate",
+          "thin": false
+        },
+        "tradition_density": {
+          "score": 50,
+          "band": "moderate",
+          "thin": false
+        },
+        "cultural_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "youth_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "volunteer_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "outdoor_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "agricultural_density": {
+          "score": 83,
+          "band": "strong",
+          "thin": false
+        }
+      },
+      "thin_dimensions": [
+        "cultural density",
+        "youth density",
+        "volunteer density",
+        "outdoor density"
+      ]
+    },
+    {
+      "county": "Clark",
+      "population": 81675,
+      "public_events": 117,
+      "total_score": 47,
+      "dimensions": {
+        "event_density": {
+          "score": 96,
+          "band": "strong",
+          "thin": false
+        },
+        "institution_density": {
+          "score": 96,
+          "band": "strong",
+          "thin": false
+        },
+        "tradition_density": {
+          "score": 33,
+          "band": "thin",
+          "thin": true
+        },
+        "cultural_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "youth_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "volunteer_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "outdoor_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "agricultural_density": {
+          "score": 80,
+          "band": "strong",
+          "thin": false
+        }
+      },
+      "thin_dimensions": [
+        "tradition density",
+        "cultural density",
+        "youth density",
+        "volunteer density",
+        "outdoor density"
+      ]
+    },
+    {
+      "county": "Cleburne",
+      "population": 37125,
+      "public_events": 159,
+      "total_score": 47,
+      "dimensions": {
+        "event_density": {
+          "score": 100,
+          "band": "strong",
+          "thin": false
+        },
+        "institution_density": {
+          "score": 72,
+          "band": "strong",
+          "thin": false
+        },
+        "tradition_density": {
+          "score": 42,
+          "band": "thin",
+          "thin": false
+        },
+        "cultural_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "youth_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "volunteer_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "outdoor_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "agricultural_density": {
+          "score": 98,
+          "band": "strong",
+          "thin": false
+        }
+      },
+      "thin_dimensions": [
+        "cultural density",
+        "youth density",
+        "volunteer density",
+        "outdoor density"
+      ]
+    },
+    {
+      "county": "Carroll",
+      "population": 37125,
+      "public_events": 202,
+      "total_score": 48,
+      "dimensions": {
+        "event_density": {
+          "score": 100,
+          "band": "strong",
+          "thin": false
+        },
+        "institution_density": {
+          "score": 72,
+          "band": "strong",
+          "thin": false
+        },
+        "tradition_density": {
+          "score": 50,
+          "band": "moderate",
+          "thin": false
+        },
+        "cultural_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "youth_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "volunteer_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "outdoor_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "agricultural_density": {
+          "score": 93,
+          "band": "strong",
+          "thin": false
+        }
+      },
+      "thin_dimensions": [
+        "cultural density",
+        "youth density",
+        "volunteer density",
+        "outdoor density"
+      ]
+    },
+    {
+      "county": "Garland",
+      "population": 170100,
+      "public_events": 203,
+      "total_score": 48,
+      "dimensions": {
+        "event_density": {
+          "score": 80,
+          "band": "strong",
+          "thin": false
+        },
+        "institution_density": {
+          "score": 80,
+          "band": "strong",
+          "thin": false
+        },
+        "tradition_density": {
+          "score": 50,
+          "band": "moderate",
+          "thin": false
+        },
+        "cultural_density": {
+          "score": 20,
+          "band": "thin",
+          "thin": true
+        },
+        "youth_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "volunteer_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "outdoor_density": {
+          "score": 20,
+          "band": "thin",
+          "thin": true
+        },
+        "agricultural_density": {
+          "score": 83,
+          "band": "strong",
+          "thin": false
+        }
+      },
+      "thin_dimensions": [
+        "cultural density",
+        "youth density",
+        "volunteer density",
+        "outdoor density"
+      ]
+    },
+    {
+      "county": "Prairie",
+      "population": 47925,
+      "public_events": 120,
+      "total_score": 48,
+      "dimensions": {
+        "event_density": {
+          "score": 100,
+          "band": "strong",
+          "thin": false
+        },
+        "institution_density": {
+          "score": 84,
+          "band": "strong",
+          "thin": false
+        },
+        "tradition_density": {
+          "score": 42,
+          "band": "thin",
+          "thin": false
+        },
+        "cultural_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "youth_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "volunteer_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "outdoor_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "agricultural_density": {
+          "score": 93,
+          "band": "strong",
+          "thin": false
+        }
+      },
+      "thin_dimensions": [
+        "cultural density",
+        "youth density",
+        "volunteer density",
+        "outdoor density"
+      ]
+    },
+    {
+      "county": "Chicot",
+      "population": 46575,
+      "public_events": 118,
+      "total_score": 49,
+      "dimensions": {
+        "event_density": {
+          "score": 100,
+          "band": "strong",
+          "thin": false
+        },
+        "institution_density": {
+          "score": 96,
+          "band": "strong",
+          "thin": false
+        },
+        "tradition_density": {
+          "score": 33,
+          "band": "thin",
+          "thin": true
+        },
+        "cultural_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "youth_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "volunteer_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "outdoor_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "agricultural_density": {
+          "score": 93,
+          "band": "strong",
+          "thin": false
+        }
+      },
+      "thin_dimensions": [
+        "tradition density",
+        "cultural density",
+        "youth density",
+        "volunteer density",
+        "outdoor density"
+      ]
+    },
+    {
+      "county": "Clay",
+      "population": 41850,
+      "public_events": 158,
+      "total_score": 49,
+      "dimensions": {
+        "event_density": {
+          "score": 100,
+          "band": "strong",
+          "thin": false
+        },
+        "institution_density": {
+          "score": 84,
+          "band": "strong",
+          "thin": false
+        },
+        "tradition_density": {
+          "score": 42,
+          "band": "thin",
+          "thin": false
+        },
+        "cultural_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "youth_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "volunteer_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "outdoor_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "agricultural_density": {
+          "score": 98,
+          "band": "strong",
+          "thin": false
+        }
+      },
+      "thin_dimensions": [
+        "cultural density",
+        "youth density",
+        "volunteer density",
+        "outdoor density"
+      ]
+    },
+    {
+      "county": "Columbia",
+      "population": 81675,
+      "public_events": 119,
+      "total_score": 49,
+      "dimensions": {
+        "event_density": {
+          "score": 97,
+          "band": "strong",
+          "thin": false
+        },
+        "institution_density": {
+          "score": 100,
+          "band": "strong",
+          "thin": false
+        },
+        "tradition_density": {
+          "score": 42,
+          "band": "thin",
+          "thin": false
+        },
+        "cultural_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "youth_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "volunteer_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "outdoor_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "agricultural_density": {
+          "score": 83,
+          "band": "strong",
+          "thin": false
+        }
+      },
+      "thin_dimensions": [
+        "cultural density",
+        "youth density",
+        "volunteer density",
+        "outdoor density"
+      ]
+    },
+    {
+      "county": "Crittenden",
+      "population": 104625,
+      "public_events": 251,
+      "total_score": 49,
+      "dimensions": {
+        "event_density": {
+          "score": 100,
+          "band": "strong",
+          "thin": false
+        },
+        "institution_density": {
+          "score": 96,
+          "band": "strong",
+          "thin": false
+        },
+        "tradition_density": {
+          "score": 33,
+          "band": "thin",
+          "thin": true
+        },
+        "cultural_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "youth_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "volunteer_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "outdoor_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "agricultural_density": {
+          "score": 100,
+          "band": "strong",
+          "thin": false
+        }
+      },
+      "thin_dimensions": [
+        "tradition density",
+        "cultural density",
+        "youth density",
+        "volunteer density",
+        "outdoor density"
+      ]
+    },
+    {
+      "county": "Conway",
+      "population": 37125,
+      "public_events": 235,
+      "total_score": 50,
+      "dimensions": {
+        "event_density": {
+          "score": 100,
+          "band": "strong",
+          "thin": false
+        },
+        "institution_density": {
+          "score": 88,
+          "band": "strong",
+          "thin": false
+        },
+        "tradition_density": {
+          "score": 42,
+          "band": "thin",
+          "thin": false
+        },
+        "cultural_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "youth_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "volunteer_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "outdoor_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "agricultural_density": {
+          "score": 100,
+          "band": "strong",
+          "thin": false
+        }
+      },
+      "thin_dimensions": [
+        "cultural density",
+        "youth density",
+        "volunteer density",
+        "outdoor density"
+      ]
+    },
+    {
+      "county": "Lonoke",
+      "population": 60075,
+      "public_events": 276,
+      "total_score": 50,
+      "dimensions": {
+        "event_density": {
+          "score": 100,
+          "band": "strong",
+          "thin": false
+        },
+        "institution_density": {
+          "score": 80,
+          "band": "strong",
+          "thin": false
+        },
+        "tradition_density": {
+          "score": 50,
+          "band": "moderate",
+          "thin": false
+        },
+        "cultural_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "youth_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "volunteer_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "outdoor_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "agricultural_density": {
+          "score": 100,
+          "band": "strong",
+          "thin": false
+        }
+      },
+      "thin_dimensions": [
+        "cultural density",
+        "youth density",
+        "volunteer density",
+        "outdoor density"
+      ]
+    },
+    {
+      "county": "Pope",
+      "population": 70875,
+      "public_events": 178,
+      "total_score": 50,
+      "dimensions": {
+        "event_density": {
+          "score": 100,
+          "band": "strong",
+          "thin": false
+        },
+        "institution_density": {
+          "score": 92,
+          "band": "strong",
+          "thin": false
+        },
+        "tradition_density": {
+          "score": 50,
+          "band": "moderate",
+          "thin": false
+        },
+        "cultural_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "youth_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "volunteer_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "outdoor_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "agricultural_density": {
+          "score": 83,
+          "band": "strong",
+          "thin": false
+        }
+      },
+      "thin_dimensions": [
+        "cultural density",
+        "youth density",
+        "volunteer density",
+        "outdoor density"
+      ]
+    },
+    {
+      "county": "Saline",
+      "population": 148500,
+      "public_events": 338,
+      "total_score": 51,
+      "dimensions": {
+        "event_density": {
+          "score": 100,
+          "band": "strong",
+          "thin": false
+        },
+        "institution_density": {
+          "score": 64,
+          "band": "moderate",
+          "thin": false
+        },
+        "tradition_density": {
+          "score": 67,
+          "band": "moderate",
+          "thin": false
+        },
+        "cultural_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "youth_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "volunteer_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "outdoor_density": {
+          "score": 10,
+          "band": "thin",
+          "thin": true
+        },
+        "agricultural_density": {
+          "score": 100,
+          "band": "strong",
+          "thin": false
+        }
+      },
+      "thin_dimensions": [
+        "cultural density",
+        "youth density",
+        "volunteer density",
+        "outdoor density"
+      ]
+    },
+    {
+      "county": "Sebastian",
+      "population": 157950,
+      "public_events": 263,
+      "total_score": 52,
+      "dimensions": {
+        "event_density": {
+          "score": 100,
+          "band": "strong",
+          "thin": false
+        },
+        "institution_density": {
+          "score": 80,
+          "band": "strong",
+          "thin": false
+        },
+        "tradition_density": {
+          "score": 50,
+          "band": "moderate",
+          "thin": false
+        },
+        "cultural_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "youth_density": {
+          "score": 15,
+          "band": "thin",
+          "thin": true
+        },
+        "volunteer_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "outdoor_density": {
+          "score": 10,
+          "band": "thin",
+          "thin": true
+        },
+        "agricultural_density": {
+          "score": 98,
+          "band": "strong",
+          "thin": false
+        }
+      },
+      "thin_dimensions": [
+        "cultural density",
+        "youth density",
+        "volunteer density",
+        "outdoor density"
+      ]
+    },
+    {
+      "county": "Van Buren",
+      "population": 43200,
+      "public_events": 138,
+      "total_score": 55,
+      "dimensions": {
+        "event_density": {
+          "score": 100,
+          "band": "strong",
+          "thin": false
+        },
+        "institution_density": {
+          "score": 72,
+          "band": "strong",
+          "thin": false
+        },
+        "tradition_density": {
+          "score": 100,
+          "band": "strong",
+          "thin": false
+        },
+        "cultural_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "youth_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "volunteer_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "outdoor_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "agricultural_density": {
+          "score": 88,
+          "band": "strong",
+          "thin": false
+        }
+      },
+      "thin_dimensions": [
+        "cultural density",
+        "youth density",
+        "volunteer density",
+        "outdoor density"
+      ]
+    },
+    {
+      "county": "White",
+      "population": 60075,
+      "public_events": 304,
+      "total_score": 57,
+      "dimensions": {
+        "event_density": {
+          "score": 100,
+          "band": "strong",
+          "thin": false
+        },
+        "institution_density": {
+          "score": 80,
+          "band": "strong",
+          "thin": false
+        },
+        "tradition_density": {
+          "score": 50,
+          "band": "moderate",
+          "thin": false
+        },
+        "cultural_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "youth_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "volunteer_density": {
+          "score": 50,
+          "band": "moderate",
+          "thin": false
+        },
+        "outdoor_density": {
+          "score": 20,
+          "band": "thin",
+          "thin": true
+        },
+        "agricultural_density": {
+          "score": 100,
+          "band": "strong",
+          "thin": false
+        }
+      },
+      "thin_dimensions": [
+        "cultural density",
+        "youth density",
+        "outdoor density"
+      ]
+    },
+    {
+      "county": "Faulkner",
+      "population": 190350,
+      "public_events": 247,
+      "total_score": 58,
+      "dimensions": {
+        "event_density": {
+          "score": 87,
+          "band": "strong",
+          "thin": false
+        },
+        "institution_density": {
+          "score": 100,
+          "band": "strong",
+          "thin": false
+        },
+        "tradition_density": {
+          "score": 67,
+          "band": "moderate",
+          "thin": false
+        },
+        "cultural_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "youth_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "volunteer_density": {
+          "score": 38,
+          "band": "thin",
+          "thin": false
+        },
+        "outdoor_density": {
+          "score": 20,
+          "band": "thin",
+          "thin": true
+        },
+        "agricultural_density": {
+          "score": 93,
+          "band": "strong",
+          "thin": false
+        }
+      },
+      "thin_dimensions": [
+        "cultural density",
+        "youth density",
+        "outdoor density"
+      ]
+    },
+    {
+      "county": "Benton",
+      "population": 397575,
+      "public_events": 961,
+      "total_score": 59,
+      "dimensions": {
+        "event_density": {
+          "score": 100,
+          "band": "strong",
+          "thin": false
+        },
+        "institution_density": {
+          "score": 100,
+          "band": "strong",
+          "thin": false
+        },
+        "tradition_density": {
+          "score": 75,
+          "band": "strong",
+          "thin": false
+        },
+        "cultural_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "youth_density": {
+          "score": 30,
+          "band": "thin",
+          "thin": true
+        },
+        "volunteer_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "outdoor_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "agricultural_density": {
+          "score": 100,
+          "band": "strong",
+          "thin": false
+        }
+      },
+      "thin_dimensions": [
+        "cultural density",
+        "youth density",
+        "volunteer density",
+        "outdoor density"
+      ]
+    },
+    {
+      "county": "Pulaski",
+      "population": 406350,
+      "public_events": 922,
+      "total_score": 64,
+      "dimensions": {
+        "event_density": {
+          "score": 100,
+          "band": "strong",
+          "thin": false
+        },
+        "institution_density": {
+          "score": 100,
+          "band": "strong",
+          "thin": false
+        },
+        "tradition_density": {
+          "score": 67,
+          "band": "moderate",
+          "thin": false
+        },
+        "cultural_density": {
+          "score": 60,
+          "band": "moderate",
+          "thin": false
+        },
+        "youth_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "volunteer_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "outdoor_density": {
+          "score": 30,
+          "band": "thin",
+          "thin": true
+        },
+        "agricultural_density": {
+          "score": 100,
+          "band": "strong",
+          "thin": false
+        }
+      },
+      "thin_dimensions": [
+        "youth density",
+        "volunteer density",
+        "outdoor density"
+      ]
+    },
+    {
+      "county": "Washington",
+      "population": 320625,
+      "public_events": 563,
+      "total_score": 66,
+      "dimensions": {
+        "event_density": {
+          "score": 100,
+          "band": "strong",
+          "thin": false
+        },
+        "institution_density": {
+          "score": 100,
+          "band": "strong",
+          "thin": false
+        },
+        "tradition_density": {
+          "score": 50,
+          "band": "moderate",
+          "thin": false
+        },
+        "cultural_density": {
+          "score": 20,
+          "band": "thin",
+          "thin": true
+        },
+        "youth_density": {
+          "score": 100,
+          "band": "strong",
+          "thin": false
+        },
+        "volunteer_density": {
+          "score": 0,
+          "band": "thin",
+          "thin": true
+        },
+        "outdoor_density": {
+          "score": 10,
+          "band": "thin",
+          "thin": true
+        },
+        "agricultural_density": {
+          "score": 100,
+          "band": "strong",
+          "thin": false
+        }
+      },
+      "thin_dimensions": [
+        "cultural density",
+        "volunteer density",
+        "outdoor density"
+      ]
+    }
+  ]
+}

@@ -27,6 +27,8 @@ import { getProfile, listProfiles } from "../lib/profiles/profileRegistry";
 import { FreshnessFooter } from "../components/FreshnessFooter";
 import { RelatedCommunityPages } from "../components/profiles/RelatedCommunityPages";
 import { relatedLink } from "../lib/profiles/profileLinks";
+import { getCountyCommunityDna, getCountyCalendarDnaScore } from "../lib/community-dna/communityDnaEngine";
+import { CommunityDnaPanel } from "../components/community-dna/CommunityDnaPanel";
 
 interface Props {
   county: string;
@@ -74,6 +76,8 @@ export function CountyPublicPage({ county, slug }: Props) {
   const density = useMemo(() => getCountyDensity(county, events), [county, events]);
   const feedCoverage = useMemo(() => getCountyFeedCoverage(county), [county]);
   const laneCoverage = useMemo(() => buildCountyLaneCoverage(county, events), [county, events]);
+  const communityDna = useMemo(() => getCountyCommunityDna(county), [county]);
+  const calendarDna = useMemo(() => getCountyCalendarDnaScore(county), [county]);
 
   async function share() {
     const url = window.location.href;
@@ -93,6 +97,9 @@ export function CountyPublicPage({ county, slug }: Props) {
           <p className="text-sm text-ark-sage font-medium uppercase tracking-wide">Arkansas Community Intelligence</p>
           <h1 className="font-display text-3xl md:text-4xl font-bold text-ark-pine">{formatCountyLabel(county)}</h1>
           <p className="mt-2 text-muted max-w-2xl ai-readable-summary">{summary}</p>
+          {calendarDna && (
+            <p className="text-xs text-ark-sage mt-2">Calendar DNA score: {calendarDna.total_score}% · {calendarDna.public_events} public events</p>
+          )}
         </div>
         <div className="flex flex-wrap gap-2">
           <Link to={`/county/${slug.replace(/-county$/, "")}`} className="btn-secondary text-sm">Classic county view</Link>
@@ -104,6 +111,8 @@ export function CountyPublicPage({ county, slug }: Props) {
       <CountyDensityStrip density={density} />
       <CountyFeedCoverageStrip coverage={feedCoverage} />
       <EventLaneCoveragePanel coverage={laneCoverage} compact />
+
+      {communityDna && <CommunityDnaPanel dna={communityDna} title={`Community DNA — ${county} County`} />}
 
       <section className="card bg-ark-wheat/30 mb-8">
         <h2 className="font-semibold">What is happening in {county} County this month?</h2>
