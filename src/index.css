@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+  body {
+    @apply bg-ark-porch text-ark-night font-sans antialiased;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 rounded-full bg-ark-rust px-6 py-3 text-sm font-semibold text-white shadow-lg shadow-ark-rust/25 transition hover:bg-ark-clay focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ark-rust;
+  }
+  .btn-secondary {
+    @apply inline-flex items-center justify-center gap-2 rounded-full border border-ark-pine/20 bg-white px-5 py-2.5 text-sm font-medium text-ark-pine transition hover:border-ark-pine/40 hover:bg-ark-wheat/50;
+  }
+  .card {
+    @apply rounded-2xl border border-ark-pine/10 bg-white/90 p-5 shadow-sm backdrop-blur-sm transition hover:border-ark-sage/30 hover:shadow-md;
+  }
+  .chip {
+    @apply inline-flex items-center rounded-full px-3 py-1 text-xs font-medium;
+  }
+  .input {
+    @apply w-full rounded-xl border border-ark-pine/15 bg-white px-4 py-2.5 text-sm outline-none transition focus:border-ark-sage focus:ring-2 focus:ring-ark-sage/20;
+  }
+  .label {
+    @apply mb-1.5 block text-sm font-medium text-ark-pine;
+  }
+}
