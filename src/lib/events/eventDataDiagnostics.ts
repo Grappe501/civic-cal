@@ -4,6 +4,13 @@ import {
   isEventPastForPublic,
   isPubliclyVisibleEvent,
 } from "./eventArchive";
+import {
+  ELECTION_CALENDAR_LAST_DAY,
+  isEventHeldForPostElectionRelease,
+  isPostElectionCalendarHoldActive,
+  summarizeCountyEventHorizon,
+  type CountyHorizonCounts,
+} from "./publicCalendarHorizon";
 import { getBundledSeedEvents, loadDemoSeedEvents, loadMainSeedEvents } from "./seedCatalog";
 
 export type EventDataSource =
@@ -21,7 +28,8 @@ export type HiddenReason =
   | "not-approved"
   | "archived-status"
   | "missing-start-date"
-  | "missing-slug";
+  | "missing-slug"
+  | "post-election-hold";
 
 export interface HiddenEventSample {
   event: CivicEvent;
@@ -47,6 +55,10 @@ export interface EventDataDiagnostics {
   visibleSamples: CivicEvent[];
   hiddenSamples: HiddenEventSample[];
   dataMode: "live-db" | "seed-demo" | "mixed" | "empty";
+  postElectionHeldCount: number;
+  electionCalendarLastDay: string;
+  postElectionReleaseActive: boolean;
+  countyHorizonSummary: CountyHorizonCounts[];
 }
 
 function classifyHidden(event: CivicEvent, now: Date): HiddenEventSample | null {
@@ -62,6 +74,13 @@ function classifyHidden(event: CivicEvent, now: Date): HiddenEventSample | null 
   }
   if (isEventPastForPublic(event, now)) {
     return { event, reason: "past-archived", detail: "Past public visibility cutoff" };
+  }
+  if (isEventHeldForPostElectionRelease(event, now)) {
+    return {
+      event,
+      reason: "post-election-hold",
+      detail: `Held until September release — starts after ${ELECTION_CALENDAR_LAST_DAY}`,
+    };
   }
   return null;
 }
@@ -80,12 +99,14 @@ export function analyzeEventCatalog(events: CivicEvent[], now = new Date()): {
   missingSlugCount: number;
   pastHidden: number;
   unapprovedHidden: number;
+  postElectionHeld: number;
 } {
   const hidden: HiddenEventSample[] = [];
   let missingDateCount = 0;
   let missingSlugCount = 0;
   let pastHidden = 0;
   let unapprovedHidden = 0;
+  let postElectionHeld = 0;
 
   for (const e of events) {
     if (!e.startAt) missingDateCount++;
@@ -95,6 +116,7 @@ export function analyzeEventCatalog(events: CivicEvent[], now = new Date()): {
       hidden.push(h);
       if (h.reason === "past-archived") pastHidden++;
       if (h.reason === "not-approved" || h.reason === "archived-status") unapprovedHidden++;
+      if (h.reason === "post-election-hold") postElectionHeld++;
     }
   }
 
@@ -106,6 +128,7 @@ export function analyzeEventCatalog(events: CivicEvent[], now = new Date()): {
     missingSlugCount,
     pastHidden,
     unapprovedHidden,
+    postElectionHeld,
   };
 }
 
@@ -194,6 +217,10 @@ export async function runEventDataDiagnostics(): Promise<EventDataDiagnostics> {
     visibleSamples: analysis.visible.slice(0, 20),
     hiddenSamples: analysis.hidden.slice(0, 20),
     dataMode: resolveDataMode(currentSource, analysis.visible.length),
+    postElectionHeldCount: analysis.postElectionHeld,
+    electionCalendarLastDay: ELECTION_CALENDAR_LAST_DAY,
+    postElectionReleaseActive: !isPostElectionCalendarHoldActive(now),
+    countyHorizonSummary: summarizeCountyEventHorizon(workingSet, now),
   };
 }
 

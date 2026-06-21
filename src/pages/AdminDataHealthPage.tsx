@@ -96,6 +96,41 @@ export function AdminDataHealthPage() {
           </section>
 
           <section className="card-readable">
+            <h2 className="font-semibold text-[var(--text-secondary)]">Election calendar horizon</h2>
+            <p className="text-caption mt-1">
+              Public calendar shows events through {diag.electionCalendarLastDay}. Post-election events compile but stay
+              hidden until September release ({diag.postElectionReleaseActive ? "release active" : "hold active"}).
+            </p>
+            <div className="mt-3 grid gap-3 sm:grid-cols-3 text-sm">
+              <Stat label="Held post-election" value={String(diag.postElectionHeldCount)} highlight={diag.postElectionHeldCount > 0} />
+              <Stat label="Last public day" value={diag.electionCalendarLastDay} />
+              <Stat label="Counties w/ events in window" value={String(diag.countyHorizonSummary.filter((c) => c.visibleWindow > 0).length)} />
+            </div>
+            <div className="mt-4 overflow-x-auto max-h-72 overflow-y-auto">
+              <table className="w-full text-xs text-left">
+                <thead>
+                  <tr className="text-caption border-b border-[var(--border)]">
+                    <th className="py-1 pr-2">County</th>
+                    <th className="py-1 pr-2">Now → Nov 3</th>
+                    <th className="py-1 pr-2">Held after</th>
+                    <th className="py-1 pr-2">Total</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {diag.countyHorizonSummary.map((row) => (
+                    <tr key={row.county} className="border-b border-[var(--border)]">
+                      <td className="py-1 pr-2">{row.county}</td>
+                      <td className="py-1 pr-2 font-semibold">{row.visibleWindow}</td>
+                      <td className="py-1 pr-2">{row.heldPostElection}</td>
+                      <td className="py-1 pr-2 text-muted">{row.totalApproved}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </section>
+
+          <section className="card-readable">
             <h2 className="font-semibold text-[var(--text-secondary)]">Calendar display priority</h2>
             <p className="text-caption mt-1">
               Compact month/week cells — Dem meetings, fairs, and festivals visible before &quot;+ more&quot;.

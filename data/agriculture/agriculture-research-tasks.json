@@ -1,0 +1,1807 @@
+{
+  "generatedAt": "2026-06-21T19:25:04.391Z",
+  "pass": "34",
+  "openCount": 150,
+  "tasks": [
+    {
+      "id": "ag-research-arkansas-farm-bureau",
+      "county": "Arkansas",
+      "lane": "agriculture_pass34",
+      "topic": "Farm Bureau county chapter public page",
+      "priority": "medium",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.arfb.com/county-offices/?s=Arkansas%20County"
+      ],
+      "created_at": "2026-06-21T19:18:30.426Z"
+    },
+    {
+      "id": "ag-research-arkansas-extension-events",
+      "county": "Arkansas",
+      "lane": "agriculture_pass34",
+      "topic": "Extension calendar events with source-backed dates",
+      "priority": "low",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.uaex.uada.edu/counties/arkansas/"
+      ],
+      "created_at": "2026-06-21T19:18:32.687Z"
+    },
+    {
+      "id": "ag-research-ashley-farm-bureau",
+      "county": "Ashley",
+      "lane": "agriculture_pass34",
+      "topic": "Farm Bureau county chapter public page",
+      "priority": "medium",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.arfb.com/county-offices/?s=Ashley%20County"
+      ],
+      "created_at": "2026-06-21T19:18:33.001Z"
+    },
+    {
+      "id": "ag-research-ashley-extension-events",
+      "county": "Ashley",
+      "lane": "agriculture_pass34",
+      "topic": "Extension calendar events with source-backed dates",
+      "priority": "low",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.uaex.uada.edu/counties/ashley/"
+      ],
+      "created_at": "2026-06-21T19:18:35.044Z"
+    },
+    {
+      "id": "ag-research-baxter-farm-bureau",
+      "county": "Baxter",
+      "lane": "agriculture_pass34",
+      "topic": "Farm Bureau county chapter public page",
+      "priority": "medium",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.arfb.com/county-offices/?s=Baxter%20County"
+      ],
+      "created_at": "2026-06-21T19:18:35.345Z"
+    },
+    {
+      "id": "ag-research-baxter-extension-events",
+      "county": "Baxter",
+      "lane": "agriculture_pass34",
+      "topic": "Extension calendar events with source-backed dates",
+      "priority": "low",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.uaex.uada.edu/counties/baxter/"
+      ],
+      "created_at": "2026-06-21T19:18:37.240Z"
+    },
+    {
+      "id": "ag-research-benton-farm-bureau",
+      "county": "Benton",
+      "lane": "agriculture_pass34",
+      "topic": "Farm Bureau county chapter public page",
+      "priority": "medium",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.arfb.com/county-offices/?s=Benton%20County"
+      ],
+      "created_at": "2026-06-21T19:18:37.555Z"
+    },
+    {
+      "id": "ag-research-benton-extension-events",
+      "county": "Benton",
+      "lane": "agriculture_pass34",
+      "topic": "Extension calendar events with source-backed dates",
+      "priority": "low",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.uaex.uada.edu/counties/benton/"
+      ],
+      "created_at": "2026-06-21T19:18:41.914Z"
+    },
+    {
+      "id": "ag-research-boone-farm-bureau",
+      "county": "Boone",
+      "lane": "agriculture_pass34",
+      "topic": "Farm Bureau county chapter public page",
+      "priority": "medium",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.arfb.com/county-offices/?s=Boone%20County"
+      ],
+      "created_at": "2026-06-21T19:18:42.229Z"
+    },
+    {
+      "id": "ag-research-boone-extension-events",
+      "county": "Boone",
+      "lane": "agriculture_pass34",
+      "topic": "Extension calendar events with source-backed dates",
+      "priority": "low",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.uaex.uada.edu/counties/boone/"
+      ],
+      "created_at": "2026-06-21T19:18:44.258Z"
+    },
+    {
+      "id": "ag-research-bradley-farm-bureau",
+      "county": "Bradley",
+      "lane": "agriculture_pass34",
+      "topic": "Farm Bureau county chapter public page",
+      "priority": "medium",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.arfb.com/county-offices/?s=Bradley%20County"
+      ],
+      "created_at": "2026-06-21T19:18:44.565Z"
+    },
+    {
+      "id": "ag-research-bradley-extension-events",
+      "county": "Bradley",
+      "lane": "agriculture_pass34",
+      "topic": "Extension calendar events with source-backed dates",
+      "priority": "low",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.uaex.uada.edu/counties/bradley/"
+      ],
+      "created_at": "2026-06-21T19:19:00.096Z"
+    },
+    {
+      "id": "ag-research-calhoun-farm-bureau",
+      "county": "Calhoun",
+      "lane": "agriculture_pass34",
+      "topic": "Farm Bureau county chapter public page",
+      "priority": "medium",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.arfb.com/county-offices/?s=Calhoun%20County"
+      ],
+      "created_at": "2026-06-21T19:19:00.405Z"
+    },
+    {
+      "id": "ag-research-calhoun-extension-events",
+      "county": "Calhoun",
+      "lane": "agriculture_pass34",
+      "topic": "Extension calendar events with source-backed dates",
+      "priority": "low",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.uaex.uada.edu/counties/calhoun/"
+      ],
+      "created_at": "2026-06-21T19:19:02.224Z"
+    },
+    {
+      "id": "ag-research-carroll-farm-bureau",
+      "county": "Carroll",
+      "lane": "agriculture_pass34",
+      "topic": "Farm Bureau county chapter public page",
+      "priority": "medium",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.arfb.com/county-offices/?s=Carroll%20County"
+      ],
+      "created_at": "2026-06-21T19:19:02.536Z"
+    },
+    {
+      "id": "ag-research-carroll-extension-events",
+      "county": "Carroll",
+      "lane": "agriculture_pass34",
+      "topic": "Extension calendar events with source-backed dates",
+      "priority": "low",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.uaex.uada.edu/counties/carroll/"
+      ],
+      "created_at": "2026-06-21T19:19:17.858Z"
+    },
+    {
+      "id": "ag-research-chicot-farm-bureau",
+      "county": "Chicot",
+      "lane": "agriculture_pass34",
+      "topic": "Farm Bureau county chapter public page",
+      "priority": "medium",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.arfb.com/county-offices/?s=Chicot%20County"
+      ],
+      "created_at": "2026-06-21T19:19:18.162Z"
+    },
+    {
+      "id": "ag-research-chicot-extension-events",
+      "county": "Chicot",
+      "lane": "agriculture_pass34",
+      "topic": "Extension calendar events with source-backed dates",
+      "priority": "low",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.uaex.uada.edu/counties/chicot/"
+      ],
+      "created_at": "2026-06-21T19:19:21.667Z"
+    },
+    {
+      "id": "ag-research-clark-farm-bureau",
+      "county": "Clark",
+      "lane": "agriculture_pass34",
+      "topic": "Farm Bureau county chapter public page",
+      "priority": "medium",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.arfb.com/county-offices/?s=Clark%20County"
+      ],
+      "created_at": "2026-06-21T19:19:21.967Z"
+    },
+    {
+      "id": "ag-research-clark-extension-events",
+      "county": "Clark",
+      "lane": "agriculture_pass34",
+      "topic": "Extension calendar events with source-backed dates",
+      "priority": "low",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.uaex.uada.edu/counties/clark/"
+      ],
+      "created_at": "2026-06-21T19:19:37.414Z"
+    },
+    {
+      "id": "ag-research-clay-farm-bureau",
+      "county": "Clay",
+      "lane": "agriculture_pass34",
+      "topic": "Farm Bureau county chapter public page",
+      "priority": "medium",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.arfb.com/county-offices/?s=Clay%20County"
+      ],
+      "created_at": "2026-06-21T19:19:37.720Z"
+    },
+    {
+      "id": "ag-research-clay-extension-events",
+      "county": "Clay",
+      "lane": "agriculture_pass34",
+      "topic": "Extension calendar events with source-backed dates",
+      "priority": "low",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.uaex.uada.edu/counties/clay/"
+      ],
+      "created_at": "2026-06-21T19:19:39.893Z"
+    },
+    {
+      "id": "ag-research-cleburne-farm-bureau",
+      "county": "Cleburne",
+      "lane": "agriculture_pass34",
+      "topic": "Farm Bureau county chapter public page",
+      "priority": "medium",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.arfb.com/county-offices/?s=Cleburne%20County"
+      ],
+      "created_at": "2026-06-21T19:19:40.204Z"
+    },
+    {
+      "id": "ag-research-cleburne-extension-events",
+      "county": "Cleburne",
+      "lane": "agriculture_pass34",
+      "topic": "Extension calendar events with source-backed dates",
+      "priority": "low",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.uaex.uada.edu/counties/cleburne/"
+      ],
+      "created_at": "2026-06-21T19:19:55.624Z"
+    },
+    {
+      "id": "ag-research-cleveland-farm-bureau",
+      "county": "Cleveland",
+      "lane": "agriculture_pass34",
+      "topic": "Farm Bureau county chapter public page",
+      "priority": "medium",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.arfb.com/county-offices/?s=Cleveland%20County"
+      ],
+      "created_at": "2026-06-21T19:19:55.924Z"
+    },
+    {
+      "id": "ag-research-cleveland-extension-events",
+      "county": "Cleveland",
+      "lane": "agriculture_pass34",
+      "topic": "Extension calendar events with source-backed dates",
+      "priority": "low",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.uaex.uada.edu/counties/cleveland/"
+      ],
+      "created_at": "2026-06-21T19:19:58.059Z"
+    },
+    {
+      "id": "ag-research-columbia-farm-bureau",
+      "county": "Columbia",
+      "lane": "agriculture_pass34",
+      "topic": "Farm Bureau county chapter public page",
+      "priority": "medium",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.arfb.com/county-offices/?s=Columbia%20County"
+      ],
+      "created_at": "2026-06-21T19:19:58.362Z"
+    },
+    {
+      "id": "ag-research-columbia-extension-events",
+      "county": "Columbia",
+      "lane": "agriculture_pass34",
+      "topic": "Extension calendar events with source-backed dates",
+      "priority": "low",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.uaex.uada.edu/counties/columbia/"
+      ],
+      "created_at": "2026-06-21T19:20:00.102Z"
+    },
+    {
+      "id": "ag-research-conway-farm-bureau",
+      "county": "Conway",
+      "lane": "agriculture_pass34",
+      "topic": "Farm Bureau county chapter public page",
+      "priority": "medium",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.arfb.com/county-offices/?s=Conway%20County"
+      ],
+      "created_at": "2026-06-21T19:20:00.407Z"
+    },
+    {
+      "id": "ag-research-conway-extension-events",
+      "county": "Conway",
+      "lane": "agriculture_pass34",
+      "topic": "Extension calendar events with source-backed dates",
+      "priority": "low",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.uaex.uada.edu/counties/conway/"
+      ],
+      "created_at": "2026-06-21T19:20:15.829Z"
+    },
+    {
+      "id": "ag-research-craighead-farm-bureau",
+      "county": "Craighead",
+      "lane": "agriculture_pass34",
+      "topic": "Farm Bureau county chapter public page",
+      "priority": "medium",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.arfb.com/county-offices/?s=Craighead%20County"
+      ],
+      "created_at": "2026-06-21T19:20:16.139Z"
+    },
+    {
+      "id": "ag-research-craighead-extension-events",
+      "county": "Craighead",
+      "lane": "agriculture_pass34",
+      "topic": "Extension calendar events with source-backed dates",
+      "priority": "low",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.uaex.uada.edu/counties/craighead/"
+      ],
+      "created_at": "2026-06-21T19:20:17.866Z"
+    },
+    {
+      "id": "ag-research-crawford-farm-bureau",
+      "county": "Crawford",
+      "lane": "agriculture_pass34",
+      "topic": "Farm Bureau county chapter public page",
+      "priority": "medium",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.arfb.com/county-offices/?s=Crawford%20County"
+      ],
+      "created_at": "2026-06-21T19:20:18.171Z"
+    },
+    {
+      "id": "ag-research-crawford-extension-events",
+      "county": "Crawford",
+      "lane": "agriculture_pass34",
+      "topic": "Extension calendar events with source-backed dates",
+      "priority": "low",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.uaex.uada.edu/counties/crawford/"
+      ],
+      "created_at": "2026-06-21T19:20:21.151Z"
+    },
+    {
+      "id": "ag-research-crittenden-farm-bureau",
+      "county": "Crittenden",
+      "lane": "agriculture_pass34",
+      "topic": "Farm Bureau county chapter public page",
+      "priority": "medium",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.arfb.com/county-offices/?s=Crittenden%20County"
+      ],
+      "created_at": "2026-06-21T19:20:21.460Z"
+    },
+    {
+      "id": "ag-research-crittenden-extension-events",
+      "county": "Crittenden",
+      "lane": "agriculture_pass34",
+      "topic": "Extension calendar events with source-backed dates",
+      "priority": "low",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.uaex.uada.edu/counties/crittenden/"
+      ],
+      "created_at": "2026-06-21T19:20:23.408Z"
+    },
+    {
+      "id": "ag-research-cross-farm-bureau",
+      "county": "Cross",
+      "lane": "agriculture_pass34",
+      "topic": "Farm Bureau county chapter public page",
+      "priority": "medium",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.arfb.com/county-offices/?s=Cross%20County"
+      ],
+      "created_at": "2026-06-21T19:20:23.721Z"
+    },
+    {
+      "id": "ag-research-cross-fetch",
+      "county": "Cross",
+      "lane": "agriculture_pass34",
+      "topic": "UAEX page fetch failed: This operation was aborted",
+      "priority": "high",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.uaex.uada.edu/counties/cross/"
+      ],
+      "created_at": "2026-06-21T19:20:45.741Z"
+    },
+    {
+      "id": "ag-research-dallas-farm-bureau",
+      "county": "Dallas",
+      "lane": "agriculture_pass34",
+      "topic": "Farm Bureau county chapter public page",
+      "priority": "medium",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.arfb.com/county-offices/?s=Dallas%20County"
+      ],
+      "created_at": "2026-06-21T19:20:46.048Z"
+    },
+    {
+      "id": "ag-research-dallas-extension-events",
+      "county": "Dallas",
+      "lane": "agriculture_pass34",
+      "topic": "Extension calendar events with source-backed dates",
+      "priority": "low",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.uaex.uada.edu/counties/dallas/"
+      ],
+      "created_at": "2026-06-21T19:20:48.039Z"
+    },
+    {
+      "id": "ag-research-desha-farm-bureau",
+      "county": "Desha",
+      "lane": "agriculture_pass34",
+      "topic": "Farm Bureau county chapter public page",
+      "priority": "medium",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.arfb.com/county-offices/?s=Desha%20County"
+      ],
+      "created_at": "2026-06-21T19:20:48.346Z"
+    },
+    {
+      "id": "ag-research-desha-extension-events",
+      "county": "Desha",
+      "lane": "agriculture_pass34",
+      "topic": "Extension calendar events with source-backed dates",
+      "priority": "low",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.uaex.uada.edu/counties/desha/"
+      ],
+      "created_at": "2026-06-21T19:20:50.818Z"
+    },
+    {
+      "id": "ag-research-drew-farm-bureau",
+      "county": "Drew",
+      "lane": "agriculture_pass34",
+      "topic": "Farm Bureau county chapter public page",
+      "priority": "medium",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.arfb.com/county-offices/?s=Drew%20County"
+      ],
+      "created_at": "2026-06-21T19:20:51.127Z"
+    },
+    {
+      "id": "ag-research-drew-extension-events",
+      "county": "Drew",
+      "lane": "agriculture_pass34",
+      "topic": "Extension calendar events with source-backed dates",
+      "priority": "low",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.uaex.uada.edu/counties/drew/"
+      ],
+      "created_at": "2026-06-21T19:20:53.276Z"
+    },
+    {
+      "id": "ag-research-faulkner-farm-bureau",
+      "county": "Faulkner",
+      "lane": "agriculture_pass34",
+      "topic": "Farm Bureau county chapter public page",
+      "priority": "medium",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.arfb.com/county-offices/?s=Faulkner%20County"
+      ],
+      "created_at": "2026-06-21T19:20:53.587Z"
+    },
+    {
+      "id": "ag-research-faulkner-extension-events",
+      "county": "Faulkner",
+      "lane": "agriculture_pass34",
+      "topic": "Extension calendar events with source-backed dates",
+      "priority": "low",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.uaex.uada.edu/counties/faulkner/"
+      ],
+      "created_at": "2026-06-21T19:20:55.641Z"
+    },
+    {
+      "id": "ag-research-franklin-farm-bureau",
+      "county": "Franklin",
+      "lane": "agriculture_pass34",
+      "topic": "Farm Bureau county chapter public page",
+      "priority": "medium",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.arfb.com/county-offices/?s=Franklin%20County"
+      ],
+      "created_at": "2026-06-21T19:20:55.951Z"
+    },
+    {
+      "id": "ag-research-franklin-extension-events",
+      "county": "Franklin",
+      "lane": "agriculture_pass34",
+      "topic": "Extension calendar events with source-backed dates",
+      "priority": "low",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.uaex.uada.edu/counties/franklin/"
+      ],
+      "created_at": "2026-06-21T19:20:57.674Z"
+    },
+    {
+      "id": "ag-research-fulton-farm-bureau",
+      "county": "Fulton",
+      "lane": "agriculture_pass34",
+      "topic": "Farm Bureau county chapter public page",
+      "priority": "medium",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.arfb.com/county-offices/?s=Fulton%20County"
+      ],
+      "created_at": "2026-06-21T19:20:57.989Z"
+    },
+    {
+      "id": "ag-research-fulton-extension-events",
+      "county": "Fulton",
+      "lane": "agriculture_pass34",
+      "topic": "Extension calendar events with source-backed dates",
+      "priority": "low",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.uaex.uada.edu/counties/fulton/"
+      ],
+      "created_at": "2026-06-21T19:21:13.390Z"
+    },
+    {
+      "id": "ag-research-garland-farm-bureau",
+      "county": "Garland",
+      "lane": "agriculture_pass34",
+      "topic": "Farm Bureau county chapter public page",
+      "priority": "medium",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.arfb.com/county-offices/?s=Garland%20County"
+      ],
+      "created_at": "2026-06-21T19:21:13.704Z"
+    },
+    {
+      "id": "ag-research-garland-extension-events",
+      "county": "Garland",
+      "lane": "agriculture_pass34",
+      "topic": "Extension calendar events with source-backed dates",
+      "priority": "low",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.uaex.uada.edu/counties/garland/"
+      ],
+      "created_at": "2026-06-21T19:21:17.517Z"
+    },
+    {
+      "id": "ag-research-grant-farm-bureau",
+      "county": "Grant",
+      "lane": "agriculture_pass34",
+      "topic": "Farm Bureau county chapter public page",
+      "priority": "medium",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.arfb.com/county-offices/?s=Grant%20County"
+      ],
+      "created_at": "2026-06-21T19:21:17.823Z"
+    },
+    {
+      "id": "ag-research-grant-extension-events",
+      "county": "Grant",
+      "lane": "agriculture_pass34",
+      "topic": "Extension calendar events with source-backed dates",
+      "priority": "low",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.uaex.uada.edu/counties/grant/"
+      ],
+      "created_at": "2026-06-21T19:21:19.532Z"
+    },
+    {
+      "id": "ag-research-greene-farm-bureau",
+      "county": "Greene",
+      "lane": "agriculture_pass34",
+      "topic": "Farm Bureau county chapter public page",
+      "priority": "medium",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.arfb.com/county-offices/?s=Greene%20County"
+      ],
+      "created_at": "2026-06-21T19:21:19.835Z"
+    },
+    {
+      "id": "ag-research-greene-extension-events",
+      "county": "Greene",
+      "lane": "agriculture_pass34",
+      "topic": "Extension calendar events with source-backed dates",
+      "priority": "low",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.uaex.uada.edu/counties/greene/"
+      ],
+      "created_at": "2026-06-21T19:21:23.698Z"
+    },
+    {
+      "id": "ag-research-hempstead-farm-bureau",
+      "county": "Hempstead",
+      "lane": "agriculture_pass34",
+      "topic": "Farm Bureau county chapter public page",
+      "priority": "medium",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.arfb.com/county-offices/?s=Hempstead%20County"
+      ],
+      "created_at": "2026-06-21T19:21:24.007Z"
+    },
+    {
+      "id": "ag-research-hempstead-extension-events",
+      "county": "Hempstead",
+      "lane": "agriculture_pass34",
+      "topic": "Extension calendar events with source-backed dates",
+      "priority": "low",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.uaex.uada.edu/counties/hempstead/"
+      ],
+      "created_at": "2026-06-21T19:21:33.191Z"
+    },
+    {
+      "id": "ag-research-hot-spring-farm-bureau",
+      "county": "Hot Spring",
+      "lane": "agriculture_pass34",
+      "topic": "Farm Bureau county chapter public page",
+      "priority": "medium",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.arfb.com/county-offices/?s=Hot%20Spring%20County"
+      ],
+      "created_at": "2026-06-21T19:21:33.493Z"
+    },
+    {
+      "id": "ag-research-hot-spring-extension-events",
+      "county": "Hot Spring",
+      "lane": "agriculture_pass34",
+      "topic": "Extension calendar events with source-backed dates",
+      "priority": "low",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.uaex.uada.edu/counties/hot-spring/"
+      ],
+      "created_at": "2026-06-21T19:21:35.663Z"
+    },
+    {
+      "id": "ag-research-howard-farm-bureau",
+      "county": "Howard",
+      "lane": "agriculture_pass34",
+      "topic": "Farm Bureau county chapter public page",
+      "priority": "medium",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.arfb.com/county-offices/?s=Howard%20County"
+      ],
+      "created_at": "2026-06-21T19:21:35.971Z"
+    },
+    {
+      "id": "ag-research-howard-extension-events",
+      "county": "Howard",
+      "lane": "agriculture_pass34",
+      "topic": "Extension calendar events with source-backed dates",
+      "priority": "low",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.uaex.uada.edu/counties/howard/"
+      ],
+      "created_at": "2026-06-21T19:21:38.205Z"
+    },
+    {
+      "id": "ag-research-independence-farm-bureau",
+      "county": "Independence",
+      "lane": "agriculture_pass34",
+      "topic": "Farm Bureau county chapter public page",
+      "priority": "medium",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.arfb.com/county-offices/?s=Independence%20County"
+      ],
+      "created_at": "2026-06-21T19:21:38.510Z"
+    },
+    {
+      "id": "ag-research-independence-extension-events",
+      "county": "Independence",
+      "lane": "agriculture_pass34",
+      "topic": "Extension calendar events with source-backed dates",
+      "priority": "low",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.uaex.uada.edu/counties/independence/"
+      ],
+      "created_at": "2026-06-21T19:21:40.526Z"
+    },
+    {
+      "id": "ag-research-izard-farm-bureau",
+      "county": "Izard",
+      "lane": "agriculture_pass34",
+      "topic": "Farm Bureau county chapter public page",
+      "priority": "medium",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.arfb.com/county-offices/?s=Izard%20County"
+      ],
+      "created_at": "2026-06-21T19:21:40.827Z"
+    },
+    {
+      "id": "ag-research-izard-extension-events",
+      "county": "Izard",
+      "lane": "agriculture_pass34",
+      "topic": "Extension calendar events with source-backed dates",
+      "priority": "low",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.uaex.uada.edu/counties/izard/"
+      ],
+      "created_at": "2026-06-21T19:21:42.742Z"
+    },
+    {
+      "id": "ag-research-jackson-farm-bureau",
+      "county": "Jackson",
+      "lane": "agriculture_pass34",
+      "topic": "Farm Bureau county chapter public page",
+      "priority": "medium",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.arfb.com/county-offices/?s=Jackson%20County"
+      ],
+      "created_at": "2026-06-21T19:21:43.054Z"
+    },
+    {
+      "id": "ag-research-jackson-extension-events",
+      "county": "Jackson",
+      "lane": "agriculture_pass34",
+      "topic": "Extension calendar events with source-backed dates",
+      "priority": "low",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.uaex.uada.edu/counties/jackson/"
+      ],
+      "created_at": "2026-06-21T19:21:44.749Z"
+    },
+    {
+      "id": "ag-research-jefferson-farm-bureau",
+      "county": "Jefferson",
+      "lane": "agriculture_pass34",
+      "topic": "Farm Bureau county chapter public page",
+      "priority": "medium",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.arfb.com/county-offices/?s=Jefferson%20County"
+      ],
+      "created_at": "2026-06-21T19:21:45.053Z"
+    },
+    {
+      "id": "ag-research-jefferson-extension-events",
+      "county": "Jefferson",
+      "lane": "agriculture_pass34",
+      "topic": "Extension calendar events with source-backed dates",
+      "priority": "low",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.uaex.uada.edu/counties/jefferson/"
+      ],
+      "created_at": "2026-06-21T19:21:47.203Z"
+    },
+    {
+      "id": "ag-research-johnson-farm-bureau",
+      "county": "Johnson",
+      "lane": "agriculture_pass34",
+      "topic": "Farm Bureau county chapter public page",
+      "priority": "medium",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.arfb.com/county-offices/?s=Johnson%20County"
+      ],
+      "created_at": "2026-06-21T19:21:47.507Z"
+    },
+    {
+      "id": "ag-research-johnson-extension-events",
+      "county": "Johnson",
+      "lane": "agriculture_pass34",
+      "topic": "Extension calendar events with source-backed dates",
+      "priority": "low",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.uaex.uada.edu/counties/johnson/"
+      ],
+      "created_at": "2026-06-21T19:21:52.246Z"
+    },
+    {
+      "id": "ag-research-lafayette-farm-bureau",
+      "county": "Lafayette",
+      "lane": "agriculture_pass34",
+      "topic": "Farm Bureau county chapter public page",
+      "priority": "medium",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.arfb.com/county-offices/?s=Lafayette%20County"
+      ],
+      "created_at": "2026-06-21T19:21:52.559Z"
+    },
+    {
+      "id": "ag-research-lafayette-extension-events",
+      "county": "Lafayette",
+      "lane": "agriculture_pass34",
+      "topic": "Extension calendar events with source-backed dates",
+      "priority": "low",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.uaex.uada.edu/counties/lafayette/"
+      ],
+      "created_at": "2026-06-21T19:21:54.634Z"
+    },
+    {
+      "id": "ag-research-lawrence-farm-bureau",
+      "county": "Lawrence",
+      "lane": "agriculture_pass34",
+      "topic": "Farm Bureau county chapter public page",
+      "priority": "medium",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.arfb.com/county-offices/?s=Lawrence%20County"
+      ],
+      "created_at": "2026-06-21T19:21:54.935Z"
+    },
+    {
+      "id": "ag-research-lawrence-extension-events",
+      "county": "Lawrence",
+      "lane": "agriculture_pass34",
+      "topic": "Extension calendar events with source-backed dates",
+      "priority": "low",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.uaex.uada.edu/counties/lawrence/"
+      ],
+      "created_at": "2026-06-21T19:21:56.786Z"
+    },
+    {
+      "id": "ag-research-lee-farm-bureau",
+      "county": "Lee",
+      "lane": "agriculture_pass34",
+      "topic": "Farm Bureau county chapter public page",
+      "priority": "medium",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.arfb.com/county-offices/?s=Lee%20County"
+      ],
+      "created_at": "2026-06-21T19:21:57.089Z"
+    },
+    {
+      "id": "ag-research-lee-extension-events",
+      "county": "Lee",
+      "lane": "agriculture_pass34",
+      "topic": "Extension calendar events with source-backed dates",
+      "priority": "low",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.uaex.uada.edu/counties/lee/"
+      ],
+      "created_at": "2026-06-21T19:21:58.784Z"
+    },
+    {
+      "id": "ag-research-lincoln-farm-bureau",
+      "county": "Lincoln",
+      "lane": "agriculture_pass34",
+      "topic": "Farm Bureau county chapter public page",
+      "priority": "medium",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.arfb.com/county-offices/?s=Lincoln%20County"
+      ],
+      "created_at": "2026-06-21T19:21:59.089Z"
+    },
+    {
+      "id": "ag-research-lincoln-extension-events",
+      "county": "Lincoln",
+      "lane": "agriculture_pass34",
+      "topic": "Extension calendar events with source-backed dates",
+      "priority": "low",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.uaex.uada.edu/counties/lincoln/"
+      ],
+      "created_at": "2026-06-21T19:22:00.800Z"
+    },
+    {
+      "id": "ag-research-little-river-farm-bureau",
+      "county": "Little River",
+      "lane": "agriculture_pass34",
+      "topic": "Farm Bureau county chapter public page",
+      "priority": "medium",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.arfb.com/county-offices/?s=Little%20River%20County"
+      ],
+      "created_at": "2026-06-21T19:22:01.104Z"
+    },
+    {
+      "id": "ag-research-little-river-extension-events",
+      "county": "Little River",
+      "lane": "agriculture_pass34",
+      "topic": "Extension calendar events with source-backed dates",
+      "priority": "low",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.uaex.uada.edu/counties/little-river/"
+      ],
+      "created_at": "2026-06-21T19:22:04.746Z"
+    },
+    {
+      "id": "ag-research-logan-farm-bureau",
+      "county": "Logan",
+      "lane": "agriculture_pass34",
+      "topic": "Farm Bureau county chapter public page",
+      "priority": "medium",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.arfb.com/county-offices/?s=Logan%20County"
+      ],
+      "created_at": "2026-06-21T19:22:05.048Z"
+    },
+    {
+      "id": "ag-research-logan-extension-events",
+      "county": "Logan",
+      "lane": "agriculture_pass34",
+      "topic": "Extension calendar events with source-backed dates",
+      "priority": "low",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.uaex.uada.edu/counties/logan/"
+      ],
+      "created_at": "2026-06-21T19:22:06.647Z"
+    },
+    {
+      "id": "ag-research-lonoke-farm-bureau",
+      "county": "Lonoke",
+      "lane": "agriculture_pass34",
+      "topic": "Farm Bureau county chapter public page",
+      "priority": "medium",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.arfb.com/county-offices/?s=Lonoke%20County"
+      ],
+      "created_at": "2026-06-21T19:22:06.955Z"
+    },
+    {
+      "id": "ag-research-lonoke-extension-events",
+      "county": "Lonoke",
+      "lane": "agriculture_pass34",
+      "topic": "Extension calendar events with source-backed dates",
+      "priority": "low",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.uaex.uada.edu/counties/lonoke/"
+      ],
+      "created_at": "2026-06-21T19:22:22.606Z"
+    },
+    {
+      "id": "ag-research-madison-farm-bureau",
+      "county": "Madison",
+      "lane": "agriculture_pass34",
+      "topic": "Farm Bureau county chapter public page",
+      "priority": "medium",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.arfb.com/county-offices/?s=Madison%20County"
+      ],
+      "created_at": "2026-06-21T19:22:22.909Z"
+    },
+    {
+      "id": "ag-research-madison-extension-events",
+      "county": "Madison",
+      "lane": "agriculture_pass34",
+      "topic": "Extension calendar events with source-backed dates",
+      "priority": "low",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.uaex.uada.edu/counties/madison/"
+      ],
+      "created_at": "2026-06-21T19:22:25.547Z"
+    },
+    {
+      "id": "ag-research-marion-farm-bureau",
+      "county": "Marion",
+      "lane": "agriculture_pass34",
+      "topic": "Farm Bureau county chapter public page",
+      "priority": "medium",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.arfb.com/county-offices/?s=Marion%20County"
+      ],
+      "created_at": "2026-06-21T19:22:25.855Z"
+    },
+    {
+      "id": "ag-research-marion-extension-events",
+      "county": "Marion",
+      "lane": "agriculture_pass34",
+      "topic": "Extension calendar events with source-backed dates",
+      "priority": "low",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.uaex.uada.edu/counties/marion/"
+      ],
+      "created_at": "2026-06-21T19:22:41.220Z"
+    },
+    {
+      "id": "ag-research-miller-farm-bureau",
+      "county": "Miller",
+      "lane": "agriculture_pass34",
+      "topic": "Farm Bureau county chapter public page",
+      "priority": "medium",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.arfb.com/county-offices/?s=Miller%20County"
+      ],
+      "created_at": "2026-06-21T19:22:41.526Z"
+    },
+    {
+      "id": "ag-research-miller-extension-events",
+      "county": "Miller",
+      "lane": "agriculture_pass34",
+      "topic": "Extension calendar events with source-backed dates",
+      "priority": "low",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.uaex.uada.edu/counties/miller/"
+      ],
+      "created_at": "2026-06-21T19:22:43.720Z"
+    },
+    {
+      "id": "ag-research-mississippi-farm-bureau",
+      "county": "Mississippi",
+      "lane": "agriculture_pass34",
+      "topic": "Farm Bureau county chapter public page",
+      "priority": "medium",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.arfb.com/county-offices/?s=Mississippi%20County"
+      ],
+      "created_at": "2026-06-21T19:22:44.035Z"
+    },
+    {
+      "id": "ag-research-mississippi-extension-events",
+      "county": "Mississippi",
+      "lane": "agriculture_pass34",
+      "topic": "Extension calendar events with source-backed dates",
+      "priority": "low",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.uaex.uada.edu/counties/mississippi/"
+      ],
+      "created_at": "2026-06-21T19:22:45.850Z"
+    },
+    {
+      "id": "ag-research-monroe-farm-bureau",
+      "county": "Monroe",
+      "lane": "agriculture_pass34",
+      "topic": "Farm Bureau county chapter public page",
+      "priority": "medium",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.arfb.com/county-offices/?s=Monroe%20County"
+      ],
+      "created_at": "2026-06-21T19:22:46.159Z"
+    },
+    {
+      "id": "ag-research-monroe-extension-events",
+      "county": "Monroe",
+      "lane": "agriculture_pass34",
+      "topic": "Extension calendar events with source-backed dates",
+      "priority": "low",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.uaex.uada.edu/counties/monroe/"
+      ],
+      "created_at": "2026-06-21T19:23:01.517Z"
+    },
+    {
+      "id": "ag-research-montgomery-farm-bureau",
+      "county": "Montgomery",
+      "lane": "agriculture_pass34",
+      "topic": "Farm Bureau county chapter public page",
+      "priority": "medium",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.arfb.com/county-offices/?s=Montgomery%20County"
+      ],
+      "created_at": "2026-06-21T19:23:01.834Z"
+    },
+    {
+      "id": "ag-research-montgomery-extension-events",
+      "county": "Montgomery",
+      "lane": "agriculture_pass34",
+      "topic": "Extension calendar events with source-backed dates",
+      "priority": "low",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.uaex.uada.edu/counties/montgomery/"
+      ],
+      "created_at": "2026-06-21T19:23:04.053Z"
+    },
+    {
+      "id": "ag-research-nevada-farm-bureau",
+      "county": "Nevada",
+      "lane": "agriculture_pass34",
+      "topic": "Farm Bureau county chapter public page",
+      "priority": "medium",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.arfb.com/county-offices/?s=Nevada%20County"
+      ],
+      "created_at": "2026-06-21T19:23:04.369Z"
+    },
+    {
+      "id": "ag-research-nevada-extension-events",
+      "county": "Nevada",
+      "lane": "agriculture_pass34",
+      "topic": "Extension calendar events with source-backed dates",
+      "priority": "low",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.uaex.uada.edu/counties/nevada/"
+      ],
+      "created_at": "2026-06-21T19:23:19.753Z"
+    },
+    {
+      "id": "ag-research-newton-farm-bureau",
+      "county": "Newton",
+      "lane": "agriculture_pass34",
+      "topic": "Farm Bureau county chapter public page",
+      "priority": "medium",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.arfb.com/county-offices/?s=Newton%20County"
+      ],
+      "created_at": "2026-06-21T19:23:20.064Z"
+    },
+    {
+      "id": "ag-research-newton-extension-events",
+      "county": "Newton",
+      "lane": "agriculture_pass34",
+      "topic": "Extension calendar events with source-backed dates",
+      "priority": "low",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.uaex.uada.edu/counties/newton/"
+      ],
+      "created_at": "2026-06-21T19:23:22.096Z"
+    },
+    {
+      "id": "ag-research-ouachita-farm-bureau",
+      "county": "Ouachita",
+      "lane": "agriculture_pass34",
+      "topic": "Farm Bureau county chapter public page",
+      "priority": "medium",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.arfb.com/county-offices/?s=Ouachita%20County"
+      ],
+      "created_at": "2026-06-21T19:23:22.409Z"
+    },
+    {
+      "id": "ag-research-ouachita-extension-events",
+      "county": "Ouachita",
+      "lane": "agriculture_pass34",
+      "topic": "Extension calendar events with source-backed dates",
+      "priority": "low",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.uaex.uada.edu/counties/ouachita/"
+      ],
+      "created_at": "2026-06-21T19:23:37.738Z"
+    },
+    {
+      "id": "ag-research-perry-farm-bureau",
+      "county": "Perry",
+      "lane": "agriculture_pass34",
+      "topic": "Farm Bureau county chapter public page",
+      "priority": "medium",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.arfb.com/county-offices/?s=Perry%20County"
+      ],
+      "created_at": "2026-06-21T19:23:38.047Z"
+    },
+    {
+      "id": "ag-research-perry-extension-events",
+      "county": "Perry",
+      "lane": "agriculture_pass34",
+      "topic": "Extension calendar events with source-backed dates",
+      "priority": "low",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.uaex.uada.edu/counties/perry/"
+      ],
+      "created_at": "2026-06-21T19:23:40.552Z"
+    },
+    {
+      "id": "ag-research-phillips-farm-bureau",
+      "county": "Phillips",
+      "lane": "agriculture_pass34",
+      "topic": "Farm Bureau county chapter public page",
+      "priority": "medium",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.arfb.com/county-offices/?s=Phillips%20County"
+      ],
+      "created_at": "2026-06-21T19:23:40.854Z"
+    },
+    {
+      "id": "ag-research-phillips-extension-events",
+      "county": "Phillips",
+      "lane": "agriculture_pass34",
+      "topic": "Extension calendar events with source-backed dates",
+      "priority": "low",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.uaex.uada.edu/counties/phillips/"
+      ],
+      "created_at": "2026-06-21T19:23:42.663Z"
+    },
+    {
+      "id": "ag-research-pike-farm-bureau",
+      "county": "Pike",
+      "lane": "agriculture_pass34",
+      "topic": "Farm Bureau county chapter public page",
+      "priority": "medium",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.arfb.com/county-offices/?s=Pike%20County"
+      ],
+      "created_at": "2026-06-21T19:23:42.965Z"
+    },
+    {
+      "id": "ag-research-pike-extension-events",
+      "county": "Pike",
+      "lane": "agriculture_pass34",
+      "topic": "Extension calendar events with source-backed dates",
+      "priority": "low",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.uaex.uada.edu/counties/pike/"
+      ],
+      "created_at": "2026-06-21T19:23:44.914Z"
+    },
+    {
+      "id": "ag-research-poinsett-farm-bureau",
+      "county": "Poinsett",
+      "lane": "agriculture_pass34",
+      "topic": "Farm Bureau county chapter public page",
+      "priority": "medium",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.arfb.com/county-offices/?s=Poinsett%20County"
+      ],
+      "created_at": "2026-06-21T19:23:45.229Z"
+    },
+    {
+      "id": "ag-research-poinsett-extension-events",
+      "county": "Poinsett",
+      "lane": "agriculture_pass34",
+      "topic": "Extension calendar events with source-backed dates",
+      "priority": "low",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.uaex.uada.edu/counties/poinsett/"
+      ],
+      "created_at": "2026-06-21T19:23:47.396Z"
+    },
+    {
+      "id": "ag-research-polk-farm-bureau",
+      "county": "Polk",
+      "lane": "agriculture_pass34",
+      "topic": "Farm Bureau county chapter public page",
+      "priority": "medium",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.arfb.com/county-offices/?s=Polk%20County"
+      ],
+      "created_at": "2026-06-21T19:23:47.701Z"
+    },
+    {
+      "id": "ag-research-polk-extension-events",
+      "county": "Polk",
+      "lane": "agriculture_pass34",
+      "topic": "Extension calendar events with source-backed dates",
+      "priority": "low",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.uaex.uada.edu/counties/polk/"
+      ],
+      "created_at": "2026-06-21T19:23:49.475Z"
+    },
+    {
+      "id": "ag-research-pope-farm-bureau",
+      "county": "Pope",
+      "lane": "agriculture_pass34",
+      "topic": "Farm Bureau county chapter public page",
+      "priority": "medium",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.arfb.com/county-offices/?s=Pope%20County"
+      ],
+      "created_at": "2026-06-21T19:23:49.778Z"
+    },
+    {
+      "id": "ag-research-pope-extension-events",
+      "county": "Pope",
+      "lane": "agriculture_pass34",
+      "topic": "Extension calendar events with source-backed dates",
+      "priority": "low",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.uaex.uada.edu/counties/pope/"
+      ],
+      "created_at": "2026-06-21T19:23:51.683Z"
+    },
+    {
+      "id": "ag-research-prairie-farm-bureau",
+      "county": "Prairie",
+      "lane": "agriculture_pass34",
+      "topic": "Farm Bureau county chapter public page",
+      "priority": "medium",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.arfb.com/county-offices/?s=Prairie%20County"
+      ],
+      "created_at": "2026-06-21T19:23:51.994Z"
+    },
+    {
+      "id": "ag-research-prairie-extension-events",
+      "county": "Prairie",
+      "lane": "agriculture_pass34",
+      "topic": "Extension calendar events with source-backed dates",
+      "priority": "low",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.uaex.uada.edu/counties/prairie/"
+      ],
+      "created_at": "2026-06-21T19:23:54.294Z"
+    },
+    {
+      "id": "ag-research-pulaski-farm-bureau",
+      "county": "Pulaski",
+      "lane": "agriculture_pass34",
+      "topic": "Farm Bureau county chapter public page",
+      "priority": "medium",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.arfb.com/county-offices/?s=Pulaski%20County"
+      ],
+      "created_at": "2026-06-21T19:23:54.604Z"
+    },
+    {
+      "id": "ag-research-pulaski-extension-events",
+      "county": "Pulaski",
+      "lane": "agriculture_pass34",
+      "topic": "Extension calendar events with source-backed dates",
+      "priority": "low",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.uaex.uada.edu/counties/pulaski/"
+      ],
+      "created_at": "2026-06-21T19:23:57.920Z"
+    },
+    {
+      "id": "ag-research-randolph-farm-bureau",
+      "county": "Randolph",
+      "lane": "agriculture_pass34",
+      "topic": "Farm Bureau county chapter public page",
+      "priority": "medium",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.arfb.com/county-offices/?s=Randolph%20County"
+      ],
+      "created_at": "2026-06-21T19:23:58.225Z"
+    },
+    {
+      "id": "ag-research-randolph-extension-events",
+      "county": "Randolph",
+      "lane": "agriculture_pass34",
+      "topic": "Extension calendar events with source-backed dates",
+      "priority": "low",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.uaex.uada.edu/counties/randolph/"
+      ],
+      "created_at": "2026-06-21T19:24:00.393Z"
+    },
+    {
+      "id": "ag-research-st-francis-farm-bureau",
+      "county": "St. Francis",
+      "lane": "agriculture_pass34",
+      "topic": "Farm Bureau county chapter public page",
+      "priority": "medium",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.arfb.com/county-offices/?s=St.%20Francis%20County"
+      ],
+      "created_at": "2026-06-21T19:24:00.698Z"
+    },
+    {
+      "id": "ag-research-st-francis-extension-events",
+      "county": "St. Francis",
+      "lane": "agriculture_pass34",
+      "topic": "Extension calendar events with source-backed dates",
+      "priority": "low",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.uaex.uada.edu/counties/st-francis/"
+      ],
+      "created_at": "2026-06-21T19:24:03.361Z"
+    },
+    {
+      "id": "ag-research-saline-farm-bureau",
+      "county": "Saline",
+      "lane": "agriculture_pass34",
+      "topic": "Farm Bureau county chapter public page",
+      "priority": "medium",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.arfb.com/county-offices/?s=Saline%20County"
+      ],
+      "created_at": "2026-06-21T19:24:03.662Z"
+    },
+    {
+      "id": "ag-research-saline-extension-events",
+      "county": "Saline",
+      "lane": "agriculture_pass34",
+      "topic": "Extension calendar events with source-backed dates",
+      "priority": "low",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.uaex.uada.edu/counties/saline/"
+      ],
+      "created_at": "2026-06-21T19:24:06.479Z"
+    },
+    {
+      "id": "ag-research-scott-farm-bureau",
+      "county": "Scott",
+      "lane": "agriculture_pass34",
+      "topic": "Farm Bureau county chapter public page",
+      "priority": "medium",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.arfb.com/county-offices/?s=Scott%20County"
+      ],
+      "created_at": "2026-06-21T19:24:06.785Z"
+    },
+    {
+      "id": "ag-research-scott-extension-events",
+      "county": "Scott",
+      "lane": "agriculture_pass34",
+      "topic": "Extension calendar events with source-backed dates",
+      "priority": "low",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.uaex.uada.edu/counties/scott/"
+      ],
+      "created_at": "2026-06-21T19:24:10.163Z"
+    },
+    {
+      "id": "ag-research-searcy-farm-bureau",
+      "county": "Searcy",
+      "lane": "agriculture_pass34",
+      "topic": "Farm Bureau county chapter public page",
+      "priority": "medium",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.arfb.com/county-offices/?s=Searcy%20County"
+      ],
+      "created_at": "2026-06-21T19:24:10.479Z"
+    },
+    {
+      "id": "ag-research-searcy-extension-events",
+      "county": "Searcy",
+      "lane": "agriculture_pass34",
+      "topic": "Extension calendar events with source-backed dates",
+      "priority": "low",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.uaex.uada.edu/counties/searcy/"
+      ],
+      "created_at": "2026-06-21T19:24:12.245Z"
+    },
+    {
+      "id": "ag-research-sebastian-farm-bureau",
+      "county": "Sebastian",
+      "lane": "agriculture_pass34",
+      "topic": "Farm Bureau county chapter public page",
+      "priority": "medium",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.arfb.com/county-offices/?s=Sebastian%20County"
+      ],
+      "created_at": "2026-06-21T19:24:12.548Z"
+    },
+    {
+      "id": "ag-research-sebastian-extension-events",
+      "county": "Sebastian",
+      "lane": "agriculture_pass34",
+      "topic": "Extension calendar events with source-backed dates",
+      "priority": "low",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.uaex.uada.edu/counties/sebastian/"
+      ],
+      "created_at": "2026-06-21T19:24:14.990Z"
+    },
+    {
+      "id": "ag-research-sevier-farm-bureau",
+      "county": "Sevier",
+      "lane": "agriculture_pass34",
+      "topic": "Farm Bureau county chapter public page",
+      "priority": "medium",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.arfb.com/county-offices/?s=Sevier%20County"
+      ],
+      "created_at": "2026-06-21T19:24:15.295Z"
+    },
+    {
+      "id": "ag-research-sevier-extension-events",
+      "county": "Sevier",
+      "lane": "agriculture_pass34",
+      "topic": "Extension calendar events with source-backed dates",
+      "priority": "low",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.uaex.uada.edu/counties/sevier/"
+      ],
+      "created_at": "2026-06-21T19:24:17.131Z"
+    },
+    {
+      "id": "ag-research-sharp-farm-bureau",
+      "county": "Sharp",
+      "lane": "agriculture_pass34",
+      "topic": "Farm Bureau county chapter public page",
+      "priority": "medium",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.arfb.com/county-offices/?s=Sharp%20County"
+      ],
+      "created_at": "2026-06-21T19:24:17.440Z"
+    },
+    {
+      "id": "ag-research-sharp-extension-events",
+      "county": "Sharp",
+      "lane": "agriculture_pass34",
+      "topic": "Extension calendar events with source-backed dates",
+      "priority": "low",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.uaex.uada.edu/counties/sharp/"
+      ],
+      "created_at": "2026-06-21T19:24:21.436Z"
+    },
+    {
+      "id": "ag-research-stone-farm-bureau",
+      "county": "Stone",
+      "lane": "agriculture_pass34",
+      "topic": "Farm Bureau county chapter public page",
+      "priority": "medium",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.arfb.com/county-offices/?s=Stone%20County"
+      ],
+      "created_at": "2026-06-21T19:24:21.742Z"
+    },
+    {
+      "id": "ag-research-stone-extension-events",
+      "county": "Stone",
+      "lane": "agriculture_pass34",
+      "topic": "Extension calendar events with source-backed dates",
+      "priority": "low",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.uaex.uada.edu/counties/stone/"
+      ],
+      "created_at": "2026-06-21T19:24:24.241Z"
+    },
+    {
+      "id": "ag-research-union-farm-bureau",
+      "county": "Union",
+      "lane": "agriculture_pass34",
+      "topic": "Farm Bureau county chapter public page",
+      "priority": "medium",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.arfb.com/county-offices/?s=Union%20County"
+      ],
+      "created_at": "2026-06-21T19:24:24.549Z"
+    },
+    {
+      "id": "ag-research-union-extension-events",
+      "county": "Union",
+      "lane": "agriculture_pass34",
+      "topic": "Extension calendar events with source-backed dates",
+      "priority": "low",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.uaex.uada.edu/counties/union/"
+      ],
+      "created_at": "2026-06-21T19:24:33.024Z"
+    },
+    {
+      "id": "ag-research-van-buren-farm-bureau",
+      "county": "Van Buren",
+      "lane": "agriculture_pass34",
+      "topic": "Farm Bureau county chapter public page",
+      "priority": "medium",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.arfb.com/county-offices/?s=Van%20Buren%20County"
+      ],
+      "created_at": "2026-06-21T19:24:33.326Z"
+    },
+    {
+      "id": "ag-research-van-buren-extension-events",
+      "county": "Van Buren",
+      "lane": "agriculture_pass34",
+      "topic": "Extension calendar events with source-backed dates",
+      "priority": "low",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.uaex.uada.edu/counties/van-buren/"
+      ],
+      "created_at": "2026-06-21T19:24:35.540Z"
+    },
+    {
+      "id": "ag-research-washington-farm-bureau",
+      "county": "Washington",
+      "lane": "agriculture_pass34",
+      "topic": "Farm Bureau county chapter public page",
+      "priority": "medium",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.arfb.com/county-offices/?s=Washington%20County"
+      ],
+      "created_at": "2026-06-21T19:24:35.853Z"
+    },
+    {
+      "id": "ag-research-washington-extension-events",
+      "county": "Washington",
+      "lane": "agriculture_pass34",
+      "topic": "Extension calendar events with source-backed dates",
+      "priority": "low",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.uaex.uada.edu/counties/washington/"
+      ],
+      "created_at": "2026-06-21T19:24:37.824Z"
+    },
+    {
+      "id": "ag-research-white-farm-bureau",
+      "county": "White",
+      "lane": "agriculture_pass34",
+      "topic": "Farm Bureau county chapter public page",
+      "priority": "medium",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.arfb.com/county-offices/?s=White%20County"
+      ],
+      "created_at": "2026-06-21T19:24:38.135Z"
+    },
+    {
+      "id": "ag-research-white-extension-events",
+      "county": "White",
+      "lane": "agriculture_pass34",
+      "topic": "Extension calendar events with source-backed dates",
+      "priority": "low",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.uaex.uada.edu/counties/white/"
+      ],
+      "created_at": "2026-06-21T19:24:41.310Z"
+    },
+    {
+      "id": "ag-research-woodruff-farm-bureau",
+      "county": "Woodruff",
+      "lane": "agriculture_pass34",
+      "topic": "Farm Bureau county chapter public page",
+      "priority": "medium",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.arfb.com/county-offices/?s=Woodruff%20County"
+      ],
+      "created_at": "2026-06-21T19:24:41.612Z"
+    },
+    {
+      "id": "ag-research-woodruff-extension-events",
+      "county": "Woodruff",
+      "lane": "agriculture_pass34",
+      "topic": "Extension calendar events with source-backed dates",
+      "priority": "low",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.uaex.uada.edu/counties/woodruff/"
+      ],
+      "created_at": "2026-06-21T19:24:43.542Z"
+    },
+    {
+      "id": "ag-research-yell-farm-bureau",
+      "county": "Yell",
+      "lane": "agriculture_pass34",
+      "topic": "Farm Bureau county chapter public page",
+      "priority": "medium",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.arfb.com/county-offices/?s=Yell%20County"
+      ],
+      "created_at": "2026-06-21T19:24:43.849Z"
+    },
+    {
+      "id": "ag-research-yell-extension-events",
+      "county": "Yell",
+      "lane": "agriculture_pass34",
+      "topic": "Extension calendar events with source-backed dates",
+      "priority": "low",
+      "status": "open",
+      "suggested_sources": [
+        "https://www.uaex.uada.edu/counties/yell/"
+      ],
+      "created_at": "2026-06-21T19:25:04.084Z"
+    }
+  ]
+}

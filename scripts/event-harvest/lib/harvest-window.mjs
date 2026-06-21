@@ -1,7 +1,7 @@
-/** Harvest date horizon — default now through Nov 1, 2026 */
+/** Harvest date horizon — default now through election calendar last day (Nov 3, 2026). */
 export function getHarvestWindow() {
   const start = process.env.EVENT_HARVEST_START_DATE || "2026-06-20";
-  const end = process.env.EVENT_HARVEST_END_DATE || "2026-11-01";
+  const end = process.env.EVENT_HARVEST_END_DATE || "2026-11-03";
   return { start, end, label: `${start} → ${end}` };
 }
 

@@ -1,6 +1,7 @@
 import { endOfDay, parseISO } from "date-fns";
 import { fromZonedTime, toZonedTime } from "date-fns-tz";
 import type { CivicEvent } from "../types";
+import { isEventHeldForPostElectionRelease } from "./publicCalendarHorizon";
 
 /** Arkansas default; individual events may set `timezone`. */
 export const DEFAULT_EVENT_TIMEZONE = "America/Chicago";
@@ -22,10 +23,11 @@ export function isEventPastForPublic(event: EventTiming, now: Date = new Date())
   return now.getTime() > publicVisibilityCutoff(event).getTime();
 }
 
-/** Approved, not archived, and still within the public visibility window. */
+/** Approved, not archived, within visibility window, and not held for post-election release. */
 export function isPubliclyVisibleEvent(event: CivicEvent, now: Date = new Date()): boolean {
   const status = event.status ?? "approved";
   if (status !== "approved") return false;
+  if (isEventHeldForPostElectionRelease(event, now)) return false;
   return !isEventPastForPublic(event, now);
 }
 
