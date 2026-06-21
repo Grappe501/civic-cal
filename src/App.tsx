@@ -40,6 +40,7 @@ import { AdminPoliticalInfrastructurePage } from "./pages/AdminPoliticalInfrastr
 import { AdminSchoolCalendarPage } from "./pages/AdminSchoolCalendarPage";
 import { AdminCandidatesPage } from "./pages/AdminCandidatesPage";
 import { AdminAiBrainPage } from "./pages/AdminAiBrainPage";
+import { CivicPoliticalEventsPage } from "./pages/CivicPoliticalEventsPage";
 import { CandidateWorkspacePage } from "./pages/CandidateWorkspacePage";
 import { GeoResolverPage } from "./pages/GeoResolverPage";
 import { EntityProfilePage } from "./pages/EntityProfilePage";
@@ -85,6 +86,7 @@ export default function App() {
           <Route path="/schools" element={<EntityDirectoryPage entityType="school" title="Arkansas schools" description="Public school profiles with calendar ties, board meeting sources, and student-service opportunities where verified." canonicalPath="/schools" />} />
           <Route path="/colleges" element={<EntityDirectoryPage entityType="college" title="Arkansas colleges" description="College and university community profiles across Arkansas." canonicalPath="/colleges" />} />
           <Route path="/festivals" element={<EntityDirectoryPage entityType="festival" title="Arkansas festivals" description="Recurring festival traditions — confirm dates annually from official sources." canonicalPath="/festivals" />} />
+          <Route path="/civic-political-events" element={<CivicPoliticalEventsPage />} />
           <Route path="/parades" element={<EntityDirectoryPage entityType="parade" title="Arkansas parades" description="Community parade traditions indexed from calendar and registry sources." canonicalPath="/parades" />} />
           <Route path="/volunteer-opportunities" element={<EntityDirectoryPage entityType="volunteer_opportunity" title="Volunteer opportunities" description="Student-service eligible and community volunteer roles with verification notes." canonicalPath="/volunteer-opportunities" />} />
           <Route path="/dates" element={<EntityDirectoryPage entityType="state_date" title="Important Arkansas dates" description="Statewide and regional dates that shape community calendars — elections, tax deadlines, and civic milestones." canonicalPath="/dates" />} />

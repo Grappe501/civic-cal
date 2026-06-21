@@ -32,6 +32,8 @@ import { getEventStudentServiceOpportunity } from "../../lib/student-service/stu
 import { EventFeedbackForm } from "../EventFeedbackForm";
 import { downloadIcs, formatEventRange } from "../../lib/format";
 import type { IntelligenceLayer } from "../../lib/intelligence/eventLayers";
+import { getHistoricPoliticalEventHistory } from "../../lib/political-events/historicPoliticalEvents";
+import { PoliticalEventHistorySection } from "./PoliticalEventHistorySection";
 
 interface Props {
   event: CivicEvent;
@@ -80,6 +82,7 @@ export function EventIntelligenceDossierView({ event, bundle, presence, onShare,
   const confidenceLabel =
     dossier.confidenceScore >= 70 ? "High confidence" : dossier.confidenceScore >= 40 ? "Partial" : "Needs research";
   const studentServiceOpp = getEventStudentServiceOpportunity(event);
+  const politicalHistory = getHistoricPoliticalEventHistory(event);
 
   return (
     <article className="mx-auto max-w-4xl px-4 py-8 pb-16">
@@ -136,6 +139,8 @@ export function EventIntelligenceDossierView({ event, bundle, presence, onShare,
 
       <div className="mt-8 grid gap-6 lg:grid-cols-3">
         <div className="lg:col-span-2 space-y-6">
+          {politicalHistory?.historyAvailable && <PoliticalEventHistorySection dossier={politicalHistory} />}
+
           <Section title="Why this event matters" icon={Shield}>
             <p className="text-[var(--text-primary)] leading-relaxed">{whyEventMatters(event)}</p>
             {dossier.historicalNotes && (

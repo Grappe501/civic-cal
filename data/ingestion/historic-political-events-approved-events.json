@@ -1,0 +1,167 @@
+{
+  "events": [
+    {
+      "id": "political-hist-fisher-shackelford-dinner",
+      "slug": "fisher-shackelford-dinner-2026-04-25-little-rock-political",
+      "title": "Fisher Shackelford Dinner",
+      "description": "Major statewide Democratic fundraiser and gathering where Arkansas candidates and national figures regularly appear. Typical audience: Elected officials, party leaders, donors, activists, county chairs, community leaders. Neutral civic-political calendar entry — confirm details at official source.",
+      "startAt": "2026-04-25T23:00:00.000Z",
+      "endAt": null,
+      "allDay": false,
+      "timezone": "America/Chicago",
+      "city": "Little Rock",
+      "county": "Pulaski",
+      "address": "101 Markham St, Little Rock, AR",
+      "locationName": "Little Rock Convention Center",
+      "category": "candidate_event",
+      "hostOrganization": "Arkansas Democratic Party",
+      "status": "approved",
+      "source": "https://www.arkdems.org/vice-president-kamala-harris-to-deliver-keynote-address-at-2026-fisher-shackelford-dinner-in-little-rock/",
+      "websiteUrl": "https://www.arkdems.org/",
+      "highCivicValue": true,
+      "candidateRelevant": true,
+      "isRecurring": true,
+      "intelligenceLayer": "relationship",
+      "relationshipDensityScore": 92,
+      "typicalAttendanceBand": "medium",
+      "harvestBatch": "historic_political_events_pass30",
+      "festivalCategory": "annual_party_dinner",
+      "politicalEventRegistryId": "fisher-shackelford-dinner",
+      "historyDossier": {
+        "firstYearHeld": 2014,
+        "honors": "Former party chairs Lottie Shackelford and Jimmie Lou Fisher",
+        "typicalAudience": "Elected officials, party leaders, donors, activists, county chairs, community leaders",
+        "historicSignificance": "Major statewide Democratic fundraiser and gathering where Arkansas candidates and national figures regularly appear.",
+        "notableSpeakers": [
+          {
+            "name": "Kamala Harris",
+            "year": 2026,
+            "role": "Keynote (announced)",
+            "source_url": "https://www.arkdems.org/vice-president-kamala-harris-to-deliver-keynote-address-at-2026-fisher-shackelford-dinner-in-little-rock/"
+          }
+        ],
+        "recurringPattern": "Annual spring dinner — typically April",
+        "hostOrganization": "Arkansas Democratic Party",
+        "ticketUrl": null,
+        "sourceLinks": [
+          {
+            "label": "Official source",
+            "url": "https://www.arkdems.org/vice-president-kamala-harris-to-deliver-keynote-address-at-2026-fisher-shackelford-dinner-in-little-rock/",
+            "trust": "high"
+          },
+          {
+            "label": "Host organization",
+            "url": "https://www.arkdems.org/",
+            "trust": "high"
+          }
+        ],
+        "lastRefreshed": "2026-06-21T16:35:39.524Z",
+        "confidenceScore": 92,
+        "historyAvailable": true
+      }
+    },
+    {
+      "id": "political-hist-independence-reagan-rockefeller-dinner",
+      "slug": "independence-county-reagan-rockefeller-dinner-2026-02-06-batesville-political",
+      "title": "Independence County Reagan Rockefeller Dinner",
+      "description": "County Republican annual dinner — historically draws local and statewide candidates. Typical audience: County GOP activists, elected officials, donors, community leaders. Neutral civic-political calendar entry — confirm details at official source.",
+      "startAt": "2026-02-06T23:00:00.000Z",
+      "endAt": null,
+      "allDay": false,
+      "timezone": "America/Chicago",
+      "city": "Batesville",
+      "county": "Independence",
+      "address": null,
+      "locationName": "Batesville Community Center",
+      "category": "candidate_event",
+      "hostOrganization": "Independence County Republican Committee",
+      "status": "approved",
+      "source": "https://www.facebook.com/IndependenceCountyRepublicans/",
+      "websiteUrl": "https://www.facebook.com/IndependenceCountyRepublicans/",
+      "highCivicValue": true,
+      "candidateRelevant": true,
+      "isRecurring": true,
+      "intelligenceLayer": "relationship",
+      "relationshipDensityScore": 92,
+      "typicalAttendanceBand": "medium",
+      "harvestBatch": "historic_political_events_pass30",
+      "festivalCategory": "county_party_dinner",
+      "politicalEventRegistryId": "independence-reagan-rockefeller-dinner",
+      "historyDossier": {
+        "firstYearHeld": null,
+        "honors": "Ronald Reagan and Winthrop Rockefeller",
+        "typicalAudience": "County GOP activists, elected officials, donors, community leaders",
+        "historicSignificance": "County Republican annual dinner — historically draws local and statewide candidates.",
+        "notableSpeakers": [],
+        "recurringPattern": "Annual winter county GOP dinner",
+        "hostOrganization": "Independence County Republican Committee",
+        "ticketUrl": null,
+        "sourceLinks": [
+          {
+            "label": "Official source",
+            "url": "https://www.facebook.com/IndependenceCountyRepublicans/",
+            "trust": "high"
+          }
+        ],
+        "lastRefreshed": "2026-06-21T16:35:39.524Z",
+        "confidenceScore": 85,
+        "historyAvailable": true
+      }
+    },
+    {
+      "id": "political-hist-adb-black-caucus-back-to-roots-afterparty",
+      "slug": "arkansas-democratic-black-caucus-back-to-our-roots-after-party-2026-04-25-little",
+      "title": "Arkansas Democratic Black Caucus — Back to Our Roots After-Party",
+      "description": "Caucus gathering held in conjunction with Fisher Shackelford Dinner weekend. Typical audience: Black Caucus members, party leaders, activists. Neutral civic-political calendar entry — confirm details at official source.",
+      "startAt": "2026-04-25T23:00:00.000Z",
+      "endAt": null,
+      "allDay": false,
+      "timezone": "America/Chicago",
+      "city": "Little Rock",
+      "county": "Pulaski",
+      "address": null,
+      "locationName": "Little Rock Marriott",
+      "category": "candidate_event",
+      "hostOrganization": "Arkansas Democratic Black Caucus",
+      "status": "approved",
+      "source": "https://www.arkdems.org/vice-president-kamala-harris-to-deliver-keynote-address-at-2026-fisher-shackelford-dinner-in-little-rock/",
+      "websiteUrl": "https://www.arkdems.org/",
+      "highCivicValue": true,
+      "candidateRelevant": true,
+      "isRecurring": true,
+      "intelligenceLayer": "relationship",
+      "relationshipDensityScore": 92,
+      "typicalAttendanceBand": "medium",
+      "harvestBatch": "historic_political_events_pass30",
+      "festivalCategory": "caucus_event",
+      "politicalEventRegistryId": "adb-black-caucus-back-to-roots-afterparty",
+      "historyDossier": {
+        "firstYearHeld": null,
+        "honors": null,
+        "typicalAudience": "Black Caucus members, party leaders, activists",
+        "historicSignificance": "Caucus gathering held in conjunction with Fisher Shackelford Dinner weekend.",
+        "notableSpeakers": [],
+        "recurringPattern": "Annual — same weekend as Fisher Shackelford Dinner",
+        "hostOrganization": "Arkansas Democratic Black Caucus",
+        "ticketUrl": null,
+        "sourceLinks": [
+          {
+            "label": "Official source",
+            "url": "https://www.arkdems.org/vice-president-kamala-harris-to-deliver-keynote-address-at-2026-fisher-shackelford-dinner-in-little-rock/",
+            "trust": "high"
+          },
+          {
+            "label": "Host organization",
+            "url": "https://www.arkdems.org/",
+            "trust": "high"
+          }
+        ],
+        "lastRefreshed": "2026-06-21T16:35:39.524Z",
+        "confidenceScore": 88,
+        "historyAvailable": true
+      }
+    }
+  ],
+  "generatedAt": "2026-06-21T16:35:39.525Z",
+  "pass": "30"
+}

@@ -34,6 +34,7 @@ type ExtraFilter =
   | "needs_source"
   | "possible_dup"
   | "county_fairs"
+  | "historic_political"
   | "party_all"
   | "party_democratic"
   | "party_republican"
@@ -106,6 +107,14 @@ export function AdminIntelligencePanel({ token }: Props) {
             c.discoveredBy === "county_fair_harvest" ||
             (c.harvestBatch || "").includes("county_fair") ||
             /county fair/i.test(c.title),
+        );
+        break;
+      case "historic_political":
+        list = list.filter(
+          (c) =>
+            c.discoveredBy === "historic_political_harvest" ||
+            (c.harvestBatch || "").includes("historic_political") ||
+            /shackelford|clinton day|reagan rockefeller|lincoln day|black caucus|candidate forum|political dinner/i.test(c.title),
         );
         break;
       case "school_sports":
@@ -244,6 +253,7 @@ export function AdminIntelligencePanel({ token }: Props) {
             <option value="gov_meetings">Government meetings</option>
             <option value="festivals_fairs">Fairs &amp; Festivals</option>
             <option value="county_fairs">County fairs</option>
+            <option value="historic_political">Historic political events</option>
             <option value="school_sports">School / sports</option>
             <option value="needs_source">Needs source verification</option>
             <option value="possible_dup">Possible duplicate</option>

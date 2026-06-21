@@ -6,6 +6,7 @@ import { runProfileHealth } from "../lib/profiles/profileHealth";
 import { runPartyMeetingHealth } from "../lib/party-meetings/partyMeetingHealth";
 import { runSchoolHarvestHealth } from "../lib/schools/schoolHarvestHealth";
 import { runCountyFairHealth } from "../lib/fairs/countyFairHealth";
+import { runHistoricPoliticalHealth } from "../lib/political-events/historicPoliticalEvents";
 import { loadFeedAttachmentReport } from "../lib/feeds/feedAttachmentReport";
 import { formatEventRange } from "../lib/format";
 
@@ -19,6 +20,7 @@ export function AdminDataHealthPage() {
   const partyHealth = useMemo(() => runPartyMeetingHealth(), []);
   const schoolHealth = useMemo(() => runSchoolHarvestHealth(), []);
   const countyFairHealth = useMemo(() => runCountyFairHealth(), []);
+  const politicalHealth = useMemo(() => runHistoricPoliticalHealth(), []);
   const feedReport = useMemo(() => loadFeedAttachmentReport(), []);
 
   async function refresh() {
@@ -157,6 +159,22 @@ export function AdminDataHealthPage() {
               <Stat label="Regional fairs tracked" value={String(countyFairHealth.regionalFairCount)} />
               <Stat label="Arkansas State Fair" value={countyFairHealth.stateFairStatus} />
             </div>
+          </section>
+
+          <section className="card-readable">
+            <h2 className="font-semibold text-[var(--text-secondary)]">Historic political events (Pass 30)</h2>
+            <p className="text-caption mt-1">Recurring civic-political dinners and forums — candidate-relevant intelligence with source-backed history.</p>
+            <div className="mt-3 grid gap-3 sm:grid-cols-2 text-sm">
+              <Stat label="Registry traditions" value={String(politicalHealth.registryCount)} highlight />
+              <Stat label="History dossiers" value={String(politicalHealth.historyDossierCount)} />
+              <Stat label="Verified 2026 dates" value={String(politicalHealth.verified2026Count)} highlight />
+              <Stat label="Approved public events" value={String(politicalHealth.approvedPublicCount)} />
+              <Stat label="Staged / needs review" value={String(politicalHealth.stagedCount)} />
+              <Stat label="Research tasks open" value={String(politicalHealth.researchTaskCount)} />
+            </div>
+            <Link to="/civic-political-events" className="btn-secondary text-xs mt-4 inline-flex">
+              Open civic-political directory →
+            </Link>
           </section>
 
           <section className="card-readable">

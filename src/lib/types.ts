@@ -68,6 +68,21 @@ export interface CivicEvent {
   recurringRegistryId?: string | null;
   harvestBatch?: string | null;
   festivalCategory?: string | null;
+  politicalEventRegistryId?: string | null;
+  historyDossier?: {
+    firstYearHeld?: number | null;
+    honors?: string | null;
+    typicalAudience?: string | null;
+    historicSignificance?: string | null;
+    notableSpeakers?: { name: string; year?: number; role?: string; source_url: string }[];
+    recurringPattern?: string | null;
+    hostOrganization?: string | null;
+    ticketUrl?: string | null;
+    sourceLinks?: { label: string; url: string; trust?: string }[];
+    lastRefreshed?: string | null;
+    confidenceScore?: number;
+    historyAvailable?: boolean;
+  } | null;
 }
 
 export interface EventFilters {
