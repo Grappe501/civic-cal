@@ -167,3 +167,14 @@ export function dossierMiniSummary(dossier: EventIntelligenceDossier): {
 export function whyEventMatters(event: CivicEvent): string {
   return inferWhyItMatters(event);
 }
+
+/** Public calendar copy — no campaign scores or partisan framing. */
+export function whyEventMattersPublic(event: CivicEvent): string {
+  const parts = [
+    `${event.title} is listed on the Arkansas Everywhere community calendar for ${event.city ? `${event.city}, ` : ""}${event.county} County.`,
+  ];
+  if (event.isPublicGovernmentMeeting) parts.push("This is a public government meeting open to residents.");
+  if (event.highCivicValue) parts.push("Flagged as high civic value for community participation.");
+  if (event.hostOrganization) parts.push(`Hosted by ${event.hostOrganization}.`);
+  return parts.join(" ");
+}

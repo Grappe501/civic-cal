@@ -1,0 +1,5269 @@
+{
+  "generatedAt": "2026-06-21T17:33:18.075Z",
+  "pass": "31-community-narrative-engine",
+  "narratives": [
+    {
+      "id": "narr-toad-suck-daze",
+      "entityType": "festival",
+      "slug": "toad-suck-daze",
+      "title": "Toad Suck Daze",
+      "city": "Conway",
+      "county": "Faulkner",
+      "about": "Toad Suck Daze is a long-running spring festival in downtown Conway, Arkansas, centered on music, food, carnival rides, and family activities along the Arkansas River corridor.",
+      "history": "The festival grew from a local river-community celebration into one of central Arkansas's best-known annual gatherings. Dates and programming are set annually by the festival organization.",
+      "originStory": "The name references the historic Toad Suck community and river folklore tied to the Arkansas River — confirm details from official festival history pages before citing in campaigns or press.",
+      "timeline": [
+        {
+          "year": "1980s",
+          "label": "Festival tradition established in Conway",
+          "note": "Verify first official year from Toad Suck Daze historical materials."
+        }
+      ],
+      "interestingFacts": [
+        "Multi-day downtown festival with concerts, vendors, and kids zones.",
+        "Major recurring anchor for Faulkner County's community calendar each spring."
+      ],
+      "faqs": [
+        {
+          "question": "When is Toad Suck Daze?",
+          "answer": "Dates vary each year — check the official Toad Suck Daze site or the Arkansas Everywhere calendar listing for the current verified schedule."
+        },
+        {
+          "question": "Where is Toad Suck Daze held?",
+          "answer": "Downtown Conway, Faulkner County, Arkansas. Confirm festival map and parking from official sources each year."
+        },
+        {
+          "question": "Why is it called Toad Suck Daze?",
+          "answer": "The name connects to local river history and the Toad Suck area — see official festival About/FAQ pages for the organization's telling."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "city",
+          "slug": "conway",
+          "label": "Conway community calendar"
+        },
+        {
+          "entityType": "county",
+          "slug": "faulkner-county",
+          "label": "Faulkner County"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Toad Suck Daze official site",
+          "url": "https://www.toadsuck.org/",
+          "trust": "high"
+        }
+      ],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "partial",
+      "researchNotes": "Expand with schedule, parking, attendance, and sponsor sections from official site harvest."
+    },
+    {
+      "id": "narr-conway-city",
+      "entityType": "city",
+      "slug": "conway",
+      "title": "Conway, Arkansas",
+      "city": "Conway",
+      "county": "Faulkner",
+      "about": "Conway is a regional hub in Faulkner County and home to major institutions, schools, and recurring festivals including Toad Suck Daze.",
+      "history": null,
+      "faqs": [
+        {
+          "question": "What festivals happen in Conway?",
+          "answer": "Toad Suck Daze is the flagship recurring festival. Browse the Conway community calendar on Arkansas Everywhere for sourced dates."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "festival",
+          "slug": "toad-suck-daze",
+          "label": "Toad Suck Daze"
+        },
+        {
+          "entityType": "county",
+          "slug": "faulkner-county",
+          "label": "Faulkner County"
+        }
+      ],
+      "sources": [],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Add city government calendar link, chamber, and school district anchors."
+    },
+    {
+      "id": "narr-faulkner-county",
+      "entityType": "county",
+      "slug": "faulkner-county",
+      "title": "Faulkner County, Arkansas",
+      "county": "Faulkner",
+      "about": "Faulkner County sits in central Arkansas with Conway as its largest city and a dense mix of schools, county government, and community festivals.",
+      "faqs": [
+        {
+          "question": "What events happen in Faulkner County?",
+          "answer": "See the Faulkner County calendar for quorum court, school, festival, and civic organization events as they are verified."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "city",
+          "slug": "conway",
+          "label": "Conway"
+        }
+      ],
+      "sources": [],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder"
+    },
+    {
+      "id": "narr-pope-county-fair",
+      "entityType": "festival",
+      "slug": "pope-county-fair",
+      "title": "Pope County Fair",
+      "city": "Russellville",
+      "county": "Pope",
+      "about": "The Pope County Fair is the county's annual fair tradition — livestock, midway, and community programming typical of Arkansas county fairs.",
+      "faqs": [
+        {
+          "question": "When is the Pope County Fair?",
+          "answer": "Fair dates are set annually. Check Arkansas Everywhere for verified 2026 dates when available from official fair or extension sources."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "pope-county",
+          "label": "Pope County"
+        }
+      ],
+      "sources": [],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Link official fairgrounds or extension page when verified in county fair lane."
+    },
+    {
+      "id": "narr-scaffold-catholic-point-spaghetti",
+      "entityType": "festival",
+      "slug": "catholic-point-spaghetti",
+      "title": "Catholic Point Spaghetti and Sausage Dinner",
+      "city": "Center Ridge",
+      "county": "Conway",
+      "about": "Anchor example — confirm annual date from DOLR each year.",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Catholic Point Spaghetti and Sausage Dinner?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "conway-county",
+          "label": "Conway County"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Catholic Diocese of Little Rock",
+          "url": "https://www.dolr.org/events/96th-annual-st-joseph-spaghetti-and-sausage-dinner-and-picnic-center-ridge"
+        }
+      ],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-bradley-pink-tomato",
+      "entityType": "festival",
+      "slug": "bradley-pink-tomato",
+      "title": "Bradley County Pink Tomato Festival",
+      "city": "Warren",
+      "county": "Bradley",
+      "about": "Heritage food festival — high southeast Arkansas draw.",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Bradley County Pink Tomato Festival?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "bradley-county",
+          "label": "Bradley County"
+        }
+      ],
+      "sources": [],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-hope-watermelon",
+      "entityType": "festival",
+      "slug": "hope-watermelon",
+      "title": "Hope Watermelon Festival",
+      "city": "Hope",
+      "county": "Hempstead",
+      "about": "Southwest Arkansas tradition.",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Hope Watermelon Festival?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "hempstead-county",
+          "label": "Hempstead County"
+        }
+      ],
+      "sources": [],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-johnson-county-peach",
+      "entityType": "festival",
+      "slug": "johnson-county-peach",
+      "title": "Johnson County Peach Festival",
+      "city": "Clarksville",
+      "county": "Johnson",
+      "about": "River Valley / Ozark foothills draw.",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Johnson County Peach Festival?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "johnson-county",
+          "label": "Johnson County"
+        }
+      ],
+      "sources": [],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-duck-gumbo-cookoff",
+      "entityType": "festival",
+      "slug": "duck-gumbo-cookoff",
+      "title": "World Championship Duck Gumbo Cookoff",
+      "city": "Stuttgart",
+      "county": "Arkansas",
+      "about": "Delta / duck hunting culture — verify year from public listings.",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is World Championship Duck Gumbo Cookoff?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "arkansas-county",
+          "label": "Arkansas County"
+        }
+      ],
+      "sources": [],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-st-mary-brisket-unverified",
+      "entityType": "festival",
+      "slug": "st-mary-brisket-unverified",
+      "title": "St. Mary / Saint Vincent Community BBQ or Brisket Fundraiser",
+      "city": "Morrilton",
+      "county": "Conway",
+      "about": "User-reported — locate parish bulletin or DOLR before publishing.",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is St. Mary / Saint Vincent Community BBQ or Brisket Fundraiser?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "conway-county",
+          "label": "Conway County"
+        }
+      ],
+      "sources": [],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-county-fair-circuit",
+      "entityType": "festival",
+      "slug": "county-fair-circuit",
+      "title": "Arkansas County Fair Circuit (75 counties)",
+      "city": null,
+      "county": null,
+      "about": "Each county fair is its own tradition — harvest per county from public fair boards.",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Arkansas County Fair Circuit (75 counties)?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [],
+      "sources": [],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-arkansas-county-fair",
+      "entityType": "festival",
+      "slug": "arkansas-county-fair",
+      "title": "Arkansas County Fair",
+      "city": "DeWitt",
+      "county": "Arkansas",
+      "about": "Arkansas County Fair in Arkansas County",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Arkansas County Fair?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "arkansas-county",
+          "label": "Arkansas County"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Official",
+          "url": "https://cofairs.com/arkansas/arkansas-county-fair"
+        }
+      ],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-ashley-county-fair",
+      "entityType": "festival",
+      "slug": "ashley-county-fair",
+      "title": "Ashley County Fair",
+      "city": "Hamburg",
+      "county": "Ashley",
+      "about": "Ashley County Fair in Ashley County",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Ashley County Fair?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "ashley-county",
+          "label": "Ashley County"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Official",
+          "url": "https://cofairs.com/arkansas/ashley-county-fair"
+        }
+      ],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-baxter-county-fair",
+      "entityType": "festival",
+      "slug": "baxter-county-fair",
+      "title": "Baxter County Fair",
+      "city": "Mountain Home",
+      "county": "Baxter",
+      "about": "Baxter County Fair in Baxter County",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Baxter County Fair?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "baxter-county",
+          "label": "Baxter County"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Official",
+          "url": "https://www.baxtercountyfair.org/"
+        },
+        {
+          "label": "Official",
+          "url": "https://www.baxtercountyfair.org/"
+        }
+      ],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-benton-county-fair",
+      "entityType": "festival",
+      "slug": "benton-county-fair",
+      "title": "Benton County Fair",
+      "city": "Bentonville",
+      "county": "Benton",
+      "about": "Benton County Fair in Benton County",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Benton County Fair?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "benton-county",
+          "label": "Benton County"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Official",
+          "url": "https://bentonar.fairwire.com/"
+        },
+        {
+          "label": "Official",
+          "url": "https://bentonar.fairwire.com/"
+        }
+      ],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-boone-county-fair",
+      "entityType": "festival",
+      "slug": "boone-county-fair",
+      "title": "Boone County 4-H Fair",
+      "city": "Harrison",
+      "county": "Boone",
+      "about": "Boone County 4-H Fair in Boone County",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Boone County 4-H Fair?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "boone-county",
+          "label": "Boone County"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Official",
+          "url": "https://www.boonecounty4h.org/fair"
+        },
+        {
+          "label": "Official",
+          "url": "https://www.boonecounty4h.org/fair"
+        }
+      ],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-bradley-county-fair",
+      "entityType": "festival",
+      "slug": "bradley-county-fair",
+      "title": "Bradley County Fair",
+      "city": "Warren",
+      "county": "Bradley",
+      "about": "Bradley County Fair in Bradley County",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Bradley County Fair?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "bradley-county",
+          "label": "Bradley County"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Official",
+          "url": "https://www.bradleycountyfair.net/"
+        },
+        {
+          "label": "Official",
+          "url": "https://www.bradleycountyfair.net/"
+        }
+      ],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-calhoun-county-fair",
+      "entityType": "festival",
+      "slug": "calhoun-county-fair",
+      "title": "Calhoun County Fair",
+      "city": "Hampton",
+      "county": "Calhoun",
+      "about": "Calhoun County Fair in Calhoun County",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Calhoun County Fair?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "calhoun-county",
+          "label": "Calhoun County"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Official",
+          "url": "https://cofairs.com/arkansas/calhoun-county-fair"
+        }
+      ],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-carroll-county-fair",
+      "entityType": "festival",
+      "slug": "carroll-county-fair",
+      "title": "Carroll County 4-H & FFA Fair",
+      "city": "Berryville",
+      "county": "Carroll",
+      "about": "Carroll County 4-H & FFA Fair in Carroll County",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Carroll County 4-H & FFA Fair?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "carroll-county",
+          "label": "Carroll County"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Official",
+          "url": "https://www.carrollcountyfair.com/"
+        },
+        {
+          "label": "Official",
+          "url": "https://www.carrollcountyfair.com/fair-schedule"
+        }
+      ],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-chicot-county-fair",
+      "entityType": "festival",
+      "slug": "chicot-county-fair",
+      "title": "Chicot County Fair",
+      "city": "Eudora",
+      "county": "Chicot",
+      "about": "Chicot County Fair in Chicot County",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Chicot County Fair?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "chicot-county",
+          "label": "Chicot County"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Official",
+          "url": "https://cofairs.com/arkansas/chicot-county-fair"
+        }
+      ],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-clark-county-fair",
+      "entityType": "festival",
+      "slug": "clark-county-fair",
+      "title": "Clark County Fair",
+      "city": "Arkadelphia",
+      "county": "Clark",
+      "about": "Clark County Fair in Clark County",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Clark County Fair?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "clark-county",
+          "label": "Clark County"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Official",
+          "url": "https://cofairs.com/arkansas/clark-county-fair"
+        }
+      ],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-clay-county-fair",
+      "entityType": "festival",
+      "slug": "clay-county-fair",
+      "title": "Clay County Fair",
+      "city": "Piggott",
+      "county": "Clay",
+      "about": "Clay County Fair in Clay County",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Clay County Fair?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "clay-county",
+          "label": "Clay County"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Official",
+          "url": "https://cofairs.com/arkansas/clay-county-fair"
+        }
+      ],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-cleburne-county-fair",
+      "entityType": "festival",
+      "slug": "cleburne-county-fair",
+      "title": "Cleburne County Fair & Livestock Show",
+      "city": "Heber Springs",
+      "county": "Cleburne",
+      "about": "Cleburne County Fair & Livestock Show in Cleburne County",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Cleburne County Fair & Livestock Show?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "cleburne-county",
+          "label": "Cleburne County"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Official",
+          "url": "https://www.cleburnecountyfair.com/"
+        },
+        {
+          "label": "Official",
+          "url": "https://fairentry.com/Public/FindYourFair"
+        }
+      ],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-cleveland-county-fair",
+      "entityType": "festival",
+      "slug": "cleveland-county-fair",
+      "title": "Cleveland County Fair",
+      "city": "Rison",
+      "county": "Cleveland",
+      "about": "Cleveland County Fair in Cleveland County",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Cleveland County Fair?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "cleveland-county",
+          "label": "Cleveland County"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Official",
+          "url": "https://cofairs.com/arkansas/cleveland-county-fair"
+        }
+      ],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-columbia-county-fair",
+      "entityType": "festival",
+      "slug": "columbia-county-fair",
+      "title": "Columbia County Fair & Livestock Show",
+      "city": "Magnolia",
+      "county": "Columbia",
+      "about": "Columbia County Fair & Livestock Show in Columbia County",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Columbia County Fair & Livestock Show?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "columbia-county",
+          "label": "Columbia County"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Official",
+          "url": "https://arksouth.org/events/columbia-county-fair-livestock-show/"
+        },
+        {
+          "label": "Official",
+          "url": "https://arksouth.org/events/columbia-county-fair-livestock-show/"
+        }
+      ],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-conway-county-fair",
+      "entityType": "festival",
+      "slug": "conway-county-fair",
+      "title": "Conway County Fair",
+      "city": "Morrilton",
+      "county": "Conway",
+      "about": "Conway County Fair in Conway County",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Conway County Fair?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "conway-county",
+          "label": "Conway County"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Official",
+          "url": "https://www.conwaycountyfair.com/"
+        },
+        {
+          "label": "Official",
+          "url": "https://www.conwaycountyfair.com/"
+        }
+      ],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-craighead-county-fair",
+      "entityType": "festival",
+      "slug": "craighead-county-fair",
+      "title": "Craighead County Fair",
+      "city": "Jonesboro",
+      "county": "Craighead",
+      "about": "Craighead County Fair in Craighead County",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Craighead County Fair?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "craighead-county",
+          "label": "Craighead County"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Official",
+          "url": "https://cofairs.com/arkansas/craighead-county-fair"
+        }
+      ],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-crawford-county-fair",
+      "entityType": "festival",
+      "slug": "crawford-county-fair",
+      "title": "Crawford County Fair",
+      "city": "Mulberry",
+      "county": "Crawford",
+      "about": "Crawford County Fair in Crawford County",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Crawford County Fair?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "crawford-county",
+          "label": "Crawford County"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Official",
+          "url": "https://cofairs.com/arkansas/crawford-county-fair"
+        }
+      ],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-crittenden-county-fair",
+      "entityType": "festival",
+      "slug": "crittenden-county-fair",
+      "title": "Crittenden County Fair",
+      "city": "West Memphis",
+      "county": "Crittenden",
+      "about": "Crittenden County Fair in Crittenden County",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Crittenden County Fair?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "crittenden-county",
+          "label": "Crittenden County"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Official",
+          "url": "https://cofairs.com/arkansas/crittenden-county-fair"
+        }
+      ],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-cross-county-fair",
+      "entityType": "festival",
+      "slug": "cross-county-fair",
+      "title": "Cross County Fair",
+      "city": "Wynne",
+      "county": "Cross",
+      "about": "Cross County Fair in Cross County",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Cross County Fair?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "cross-county",
+          "label": "Cross County"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Official",
+          "url": "https://cofairs.com/arkansas/cross-county-fair"
+        }
+      ],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-dallas-county-fair",
+      "entityType": "festival",
+      "slug": "dallas-county-fair",
+      "title": "Dallas County Fair",
+      "city": "Fordyce",
+      "county": "Dallas",
+      "about": "Dallas County Fair in Dallas County",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Dallas County Fair?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "dallas-county",
+          "label": "Dallas County"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Official",
+          "url": "https://cofairs.com/arkansas/dallas-county-fair"
+        }
+      ],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-desha-county-fair",
+      "entityType": "festival",
+      "slug": "desha-county-fair",
+      "title": "Desha County Fair",
+      "city": "McGehee",
+      "county": "Desha",
+      "about": "Desha County Fair in Desha County",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Desha County Fair?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "desha-county",
+          "label": "Desha County"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Official",
+          "url": "https://cofairs.com/arkansas/desha-county-fair"
+        }
+      ],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-drew-county-fair",
+      "entityType": "festival",
+      "slug": "drew-county-fair",
+      "title": "Drew County Fair",
+      "city": "Monticello",
+      "county": "Drew",
+      "about": "Drew County Fair in Drew County",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Drew County Fair?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "drew-county",
+          "label": "Drew County"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Official",
+          "url": "https://cofairs.com/arkansas/drew-county-fair"
+        }
+      ],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-faulkner-county-fair",
+      "entityType": "festival",
+      "slug": "faulkner-county-fair",
+      "title": "Faulkner County Fair",
+      "city": "Conway",
+      "county": "Faulkner",
+      "about": "Faulkner County Fair in Faulkner County",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Faulkner County Fair?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "faulkner-county",
+          "label": "Faulkner County"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Official",
+          "url": "http://www.faulknercountyfair.net/"
+        },
+        {
+          "label": "Official",
+          "url": "http://www.faulknercountyfair.net/"
+        }
+      ],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-franklin-county-fair",
+      "entityType": "festival",
+      "slug": "franklin-county-fair",
+      "title": "Franklin County Fair",
+      "city": "Ozark",
+      "county": "Franklin",
+      "about": "Franklin County Fair in Franklin County",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Franklin County Fair?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "franklin-county",
+          "label": "Franklin County"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Official",
+          "url": "https://cofairs.com/arkansas/franklin-county-fair"
+        }
+      ],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-fulton-county-fair",
+      "entityType": "festival",
+      "slug": "fulton-county-fair",
+      "title": "Fulton County Fair",
+      "city": "Salem",
+      "county": "Fulton",
+      "about": "Fulton County Fair in Fulton County",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Fulton County Fair?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "fulton-county",
+          "label": "Fulton County"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Official",
+          "url": "https://www.fultoncountyfair.net/"
+        },
+        {
+          "label": "Official",
+          "url": "https://cofairs.com/arkansas/fulton-county-fair"
+        }
+      ],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-garland-county-fair",
+      "entityType": "festival",
+      "slug": "garland-county-fair",
+      "title": "Garland County Fair",
+      "city": "Hot Springs",
+      "county": "Garland",
+      "about": "Garland County Fair in Garland County",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Garland County Fair?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "garland-county",
+          "label": "Garland County"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Official",
+          "url": "https://garlandcountyfair.com/"
+        },
+        {
+          "label": "Official",
+          "url": "https://cofairs.com/arkansas/garland-county-fair"
+        }
+      ],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-grant-county-fair",
+      "entityType": "festival",
+      "slug": "grant-county-fair",
+      "title": "Grant County Fair",
+      "city": "Sheridan",
+      "county": "Grant",
+      "about": "Grant County Fair in Grant County",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Grant County Fair?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "grant-county",
+          "label": "Grant County"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Official",
+          "url": "https://cofairs.com/arkansas/grant-county-fair"
+        }
+      ],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-greene-county-fair",
+      "entityType": "festival",
+      "slug": "greene-county-fair",
+      "title": "Greene County Fair",
+      "city": "Paragould",
+      "county": "Greene",
+      "about": "Greene County Fair in Greene County",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Greene County Fair?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "greene-county",
+          "label": "Greene County"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Official",
+          "url": "https://cofairs.com/arkansas/greene-county-fair"
+        },
+        {
+          "label": "Official",
+          "url": "https://cofairs.com/arkansas/greene-county-fair"
+        }
+      ],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-hempstead-county-fair",
+      "entityType": "festival",
+      "slug": "hempstead-county-fair",
+      "title": "Hempstead County Fair",
+      "city": "Hope",
+      "county": "Hempstead",
+      "about": "Hempstead County Fair in Hempstead County",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Hempstead County Fair?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "hempstead-county",
+          "label": "Hempstead County"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Official",
+          "url": "https://cofairs.com/arkansas/hempstead-county-fair"
+        }
+      ],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-hot-spring-county-fair",
+      "entityType": "festival",
+      "slug": "hot-spring-county-fair",
+      "title": "Hot Spring County Fair",
+      "city": "Malvern",
+      "county": "Hot Spring",
+      "about": "Hot Spring County Fair in Hot Spring County",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Hot Spring County Fair?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "hot-spring-county",
+          "label": "Hot Spring County"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Official",
+          "url": "https://www.hotspringcountyfair.com/"
+        },
+        {
+          "label": "Official",
+          "url": "https://www.hotspringcountyfair.com/"
+        }
+      ],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-howard-county-fair",
+      "entityType": "festival",
+      "slug": "howard-county-fair",
+      "title": "Howard County Fair",
+      "city": "Nashville",
+      "county": "Howard",
+      "about": "Howard County Fair in Howard County",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Howard County Fair?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "howard-county",
+          "label": "Howard County"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Official",
+          "url": "https://cofairs.com/arkansas/howard-county-fair"
+        }
+      ],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-independence-county-fair",
+      "entityType": "festival",
+      "slug": "independence-county-fair",
+      "title": "Independence County Fair",
+      "city": "Batesville",
+      "county": "Independence",
+      "about": "Independence County Fair in Independence County",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Independence County Fair?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "independence-county",
+          "label": "Independence County"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Official",
+          "url": "https://cofairs.com/arkansas/independence-county-fair"
+        }
+      ],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-izard-county-fair",
+      "entityType": "festival",
+      "slug": "izard-county-fair",
+      "title": "Izard County Fair",
+      "city": "Melbourne",
+      "county": "Izard",
+      "about": "Izard County Fair in Izard County",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Izard County Fair?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "izard-county",
+          "label": "Izard County"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Official",
+          "url": "https://cofairs.com/arkansas/izard-county-fair"
+        }
+      ],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-jackson-county-fair",
+      "entityType": "festival",
+      "slug": "jackson-county-fair",
+      "title": "Jackson County Fair",
+      "city": "Newport",
+      "county": "Jackson",
+      "about": "Jackson County Fair in Jackson County",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Jackson County Fair?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "jackson-county",
+          "label": "Jackson County"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Official",
+          "url": "https://cofairs.com/arkansas/jackson-county-fair"
+        }
+      ],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-jefferson-county-fair",
+      "entityType": "festival",
+      "slug": "jefferson-county-fair",
+      "title": "Jefferson County Fair",
+      "city": "Pine Bluff",
+      "county": "Jefferson",
+      "about": "Jefferson County Fair in Jefferson County",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Jefferson County Fair?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "jefferson-county",
+          "label": "Jefferson County"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Official",
+          "url": "https://cofairs.com/arkansas/jefferson-county-fair"
+        }
+      ],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-johnson-county-fair",
+      "entityType": "festival",
+      "slug": "johnson-county-fair",
+      "title": "Johnson County Fair",
+      "city": "Clarksville",
+      "county": "Johnson",
+      "about": "Johnson County Fair in Johnson County",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Johnson County Fair?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "johnson-county",
+          "label": "Johnson County"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Official",
+          "url": "https://thejohnsoncountyfair.org/"
+        },
+        {
+          "label": "Official",
+          "url": "https://thejohnsoncountyfair.org/"
+        }
+      ],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-lafayette-county-fair",
+      "entityType": "festival",
+      "slug": "lafayette-county-fair",
+      "title": "Lafayette County Fair",
+      "city": "Lewisville",
+      "county": "Lafayette",
+      "about": "Lafayette County Fair in Lafayette County",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Lafayette County Fair?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "lafayette-county",
+          "label": "Lafayette County"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Official",
+          "url": "https://cofairs.com/arkansas/lafayette-county-fair"
+        }
+      ],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-lawrence-county-fair",
+      "entityType": "festival",
+      "slug": "lawrence-county-fair",
+      "title": "Lawrence County Fair",
+      "city": "Imboden",
+      "county": "Lawrence",
+      "about": "Lawrence County Fair in Lawrence County",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Lawrence County Fair?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "lawrence-county",
+          "label": "Lawrence County"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Official",
+          "url": "https://cofairs.com/arkansas/lawrence-county-fair"
+        }
+      ],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-lee-county-fair",
+      "entityType": "festival",
+      "slug": "lee-county-fair",
+      "title": "Lee County Fair",
+      "city": "Marianna",
+      "county": "Lee",
+      "about": "Lee County Fair in Lee County",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Lee County Fair?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "lee-county",
+          "label": "Lee County"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Official",
+          "url": "https://cofairs.com/arkansas/lee-county-fair"
+        }
+      ],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-lincoln-county-fair",
+      "entityType": "festival",
+      "slug": "lincoln-county-fair",
+      "title": "Lincoln County Fair",
+      "city": "Star City",
+      "county": "Lincoln",
+      "about": "Lincoln County Fair in Lincoln County",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Lincoln County Fair?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "lincoln-county",
+          "label": "Lincoln County"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Official",
+          "url": "https://cofairs.com/arkansas/lincoln-county-fair"
+        }
+      ],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-little-river-county-fair",
+      "entityType": "festival",
+      "slug": "little-river-county-fair",
+      "title": "Little River County Fair",
+      "city": "Ashdown",
+      "county": "Little River",
+      "about": "Little River County Fair in Little River County",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Little River County Fair?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "little-river-county",
+          "label": "Little River County"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Official",
+          "url": "https://cofairs.com/arkansas/little-river-county-fair"
+        }
+      ],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-logan-county-fair",
+      "entityType": "festival",
+      "slug": "logan-county-fair",
+      "title": "Logan County Fair",
+      "city": "Paris",
+      "county": "Logan",
+      "about": "Logan County Fair in Logan County",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Logan County Fair?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "logan-county",
+          "label": "Logan County"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Official",
+          "url": "https://cofairs.com/arkansas/logan-county-fair"
+        }
+      ],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-lonoke-county-fair",
+      "entityType": "festival",
+      "slug": "lonoke-county-fair",
+      "title": "Lonoke County Fair",
+      "city": "Lonoke",
+      "county": "Lonoke",
+      "about": "Lonoke County Fair in Lonoke County",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Lonoke County Fair?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "lonoke-county",
+          "label": "Lonoke County"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Official",
+          "url": "https://www.lonokecountyfair.com/"
+        },
+        {
+          "label": "Official",
+          "url": "https://www.lonokecountyfair.com/"
+        }
+      ],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-madison-county-fair",
+      "entityType": "festival",
+      "slug": "madison-county-fair",
+      "title": "Madison County Fair",
+      "city": "Huntsville",
+      "county": "Madison",
+      "about": "Madison County Fair in Madison County",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Madison County Fair?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "madison-county",
+          "label": "Madison County"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Official",
+          "url": "https://www.madisoncountyfair.net/"
+        },
+        {
+          "label": "Official",
+          "url": "https://www.madisoncountyfair.net/"
+        }
+      ],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-marion-county-fair",
+      "entityType": "festival",
+      "slug": "marion-county-fair",
+      "title": "Marion County Fair",
+      "city": "Summit",
+      "county": "Marion",
+      "about": "Marion County Fair in Marion County",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Marion County Fair?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "marion-county",
+          "label": "Marion County"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Official",
+          "url": "https://cofairs.com/arkansas/marion-county-fair"
+        }
+      ],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-miller-county-fair",
+      "entityType": "festival",
+      "slug": "miller-county-fair",
+      "title": "Miller County Fair",
+      "city": "Fouke",
+      "county": "Miller",
+      "about": "Miller County Fair in Miller County",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Miller County Fair?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "miller-county",
+          "label": "Miller County"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Official",
+          "url": "https://cofairs.com/arkansas/miller-county-fair"
+        }
+      ],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-mississippi-county-fair",
+      "entityType": "festival",
+      "slug": "mississippi-county-fair",
+      "title": "Mississippi County Fair",
+      "city": "Osceola",
+      "county": "Mississippi",
+      "about": "Mississippi County Fair in Mississippi County",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Mississippi County Fair?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "mississippi-county",
+          "label": "Mississippi County"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Official",
+          "url": "https://cofairs.com/arkansas/mississippi-county-fair"
+        }
+      ],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-monroe-county-fair",
+      "entityType": "festival",
+      "slug": "monroe-county-fair",
+      "title": "Monroe County Fair",
+      "city": "Clarendon",
+      "county": "Monroe",
+      "about": "Monroe County Fair in Monroe County",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Monroe County Fair?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "monroe-county",
+          "label": "Monroe County"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Official",
+          "url": "https://cofairs.com/arkansas/monroe-county-fair"
+        }
+      ],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-montgomery-county-fair",
+      "entityType": "festival",
+      "slug": "montgomery-county-fair",
+      "title": "Montgomery County Fair",
+      "city": "Mount Ida",
+      "county": "Montgomery",
+      "about": "Montgomery County Fair in Montgomery County",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Montgomery County Fair?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "montgomery-county",
+          "label": "Montgomery County"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Official",
+          "url": "https://cofairs.com/arkansas/montgomery-county-fair"
+        }
+      ],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-nevada-county-fair",
+      "entityType": "festival",
+      "slug": "nevada-county-fair",
+      "title": "Nevada County Fair",
+      "city": "Prescott",
+      "county": "Nevada",
+      "about": "Nevada County Fair in Nevada County",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Nevada County Fair?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "nevada-county",
+          "label": "Nevada County"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Official",
+          "url": "https://cofairs.com/arkansas/nevada-county-fair"
+        }
+      ],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-newton-county-fair",
+      "entityType": "festival",
+      "slug": "newton-county-fair",
+      "title": "Newton County Pun'kin Vine Fair",
+      "city": "Jasper",
+      "county": "Newton",
+      "about": "Newton County Pun'kin Vine Fair in Newton County",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Newton County Pun'kin Vine Fair?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "newton-county",
+          "label": "Newton County"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Official",
+          "url": "https://www.newtoncountyfair.com/"
+        },
+        {
+          "label": "Official",
+          "url": "https://www.newtoncountyfair.com/"
+        }
+      ],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-ouachita-county-fair",
+      "entityType": "festival",
+      "slug": "ouachita-county-fair",
+      "title": "Ouachita County Fair",
+      "city": "Camden",
+      "county": "Ouachita",
+      "about": "Ouachita County Fair in Ouachita County",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Ouachita County Fair?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "ouachita-county",
+          "label": "Ouachita County"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Official",
+          "url": "https://cofairs.com/arkansas/ouachita-county-fair"
+        }
+      ],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-perry-county-fair",
+      "entityType": "festival",
+      "slug": "perry-county-fair",
+      "title": "Perry County Fair",
+      "city": "Perryville",
+      "county": "Perry",
+      "about": "Perry County Fair in Perry County",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Perry County Fair?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "perry-county",
+          "label": "Perry County"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Official",
+          "url": "https://cofairs.com/arkansas/perry-county-fair"
+        }
+      ],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-phillips-county-fair",
+      "entityType": "festival",
+      "slug": "phillips-county-fair",
+      "title": "Phillips County Fair",
+      "city": "Helena-West Helena",
+      "county": "Phillips",
+      "about": "Phillips County Fair in Phillips County",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Phillips County Fair?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "phillips-county",
+          "label": "Phillips County"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Official",
+          "url": "https://cofairs.com/arkansas/phillips-county-fair"
+        }
+      ],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-pike-county-fair",
+      "entityType": "festival",
+      "slug": "pike-county-fair",
+      "title": "Pike County Fair",
+      "city": "Glenwood",
+      "county": "Pike",
+      "about": "Pike County Fair in Pike County",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Pike County Fair?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "pike-county",
+          "label": "Pike County"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Official",
+          "url": "https://cofairs.com/arkansas/pike-county-fair"
+        }
+      ],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-poinsett-county-fair",
+      "entityType": "festival",
+      "slug": "poinsett-county-fair",
+      "title": "Poinsett County Fair",
+      "city": "Harrisburg",
+      "county": "Poinsett",
+      "about": "Poinsett County Fair in Poinsett County",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Poinsett County Fair?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "poinsett-county",
+          "label": "Poinsett County"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Official",
+          "url": "https://cofairs.com/arkansas/poinsett-county-fair"
+        }
+      ],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-polk-county-fair",
+      "entityType": "festival",
+      "slug": "polk-county-fair",
+      "title": "Polk County Fair",
+      "city": "Mena",
+      "county": "Polk",
+      "about": "Polk County Fair in Polk County",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Polk County Fair?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "polk-county",
+          "label": "Polk County"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Official",
+          "url": "https://cofairs.com/arkansas/polk-county-fair"
+        }
+      ],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-prairie-county-fair",
+      "entityType": "festival",
+      "slug": "prairie-county-fair",
+      "title": "Prairie County Fair",
+      "city": "Hazen",
+      "county": "Prairie",
+      "about": "Prairie County Fair in Prairie County",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Prairie County Fair?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "prairie-county",
+          "label": "Prairie County"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Official",
+          "url": "https://www.prairiefaircountyar.com/"
+        },
+        {
+          "label": "Official",
+          "url": "https://www.prairiefaircountyar.com/"
+        }
+      ],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-pulaski-county-fair",
+      "entityType": "festival",
+      "slug": "pulaski-county-fair",
+      "title": "Pulaski County Fair",
+      "city": "North Little Rock",
+      "county": "Pulaski",
+      "about": "Pulaski County Fair in Pulaski County",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Pulaski County Fair?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "pulaski-county",
+          "label": "Pulaski County"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Official",
+          "url": "https://thepulaskicountyfair.net/home"
+        },
+        {
+          "label": "Official",
+          "url": "https://thepulaskicountyfair.net/home"
+        }
+      ],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-randolph-county-fair",
+      "entityType": "festival",
+      "slug": "randolph-county-fair",
+      "title": "Randolph County Fair",
+      "city": "Pocahontas",
+      "county": "Randolph",
+      "about": "Randolph County Fair in Randolph County",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Randolph County Fair?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "randolph-county",
+          "label": "Randolph County"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Official",
+          "url": "https://cofairs.com/arkansas/randolph-county-fair"
+        }
+      ],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-st-francis-county-fair",
+      "entityType": "festival",
+      "slug": "st-francis-county-fair",
+      "title": "St. Francis County Fair",
+      "city": "Forrest City",
+      "county": "St. Francis",
+      "about": "St. Francis County Fair in St. Francis County",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is St. Francis County Fair?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "st-francis-county",
+          "label": "St. Francis County"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Official",
+          "url": "https://cofairs.com/arkansas/st-francis-county-fair"
+        }
+      ],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-saline-county-fair",
+      "entityType": "festival",
+      "slug": "saline-county-fair",
+      "title": "Saline County Fair and Rodeo",
+      "city": "Benton",
+      "county": "Saline",
+      "about": "Saline County Fair and Rodeo in Saline County",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Saline County Fair and Rodeo?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "saline-county",
+          "label": "Saline County"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Official",
+          "url": "https://salinecountyfairgrounds.com/"
+        },
+        {
+          "label": "Official",
+          "url": "https://salinecountyfairgrounds.com/"
+        }
+      ],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-scott-county-fair",
+      "entityType": "festival",
+      "slug": "scott-county-fair",
+      "title": "Scott County Fair",
+      "city": "Waldron",
+      "county": "Scott",
+      "about": "Scott County Fair in Scott County",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Scott County Fair?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "scott-county",
+          "label": "Scott County"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Official",
+          "url": "https://cofairs.com/arkansas/scott-county-fair"
+        }
+      ],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-searcy-county-fair",
+      "entityType": "festival",
+      "slug": "searcy-county-fair",
+      "title": "Searcy County Fair",
+      "city": "Marshall",
+      "county": "Searcy",
+      "about": "Searcy County Fair in Searcy County",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Searcy County Fair?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "searcy-county",
+          "label": "Searcy County"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Official",
+          "url": "https://www.searcycountyfair.com/"
+        },
+        {
+          "label": "Official",
+          "url": "https://www.searcycountyfair.com/"
+        }
+      ],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-sebastian-county-fair",
+      "entityType": "festival",
+      "slug": "sebastian-county-fair",
+      "title": "Sebastian County Fair",
+      "city": "Greenwood",
+      "county": "Sebastian",
+      "about": "Sebastian County Fair in Sebastian County",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Sebastian County Fair?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "sebastian-county",
+          "label": "Sebastian County"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Official",
+          "url": "https://www.sebastiancountyfair.com/"
+        },
+        {
+          "label": "Official",
+          "url": "https://www.sebastiancountyfair.com/fair-info"
+        }
+      ],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-sevier-county-fair",
+      "entityType": "festival",
+      "slug": "sevier-county-fair",
+      "title": "Sevier County Fair",
+      "city": "De Queen",
+      "county": "Sevier",
+      "about": "Sevier County Fair in Sevier County",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Sevier County Fair?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "sevier-county",
+          "label": "Sevier County"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Official",
+          "url": "https://cofairs.com/arkansas/sevier-county-fair"
+        }
+      ],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-sharp-county-fair",
+      "entityType": "festival",
+      "slug": "sharp-county-fair",
+      "title": "Sharp County Fair",
+      "city": "Ash Flat",
+      "county": "Sharp",
+      "about": "Sharp County Fair in Sharp County",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Sharp County Fair?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "sharp-county",
+          "label": "Sharp County"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Official",
+          "url": "https://cofairs.com/arkansas/sharp-county-fair"
+        }
+      ],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-stone-county-fair",
+      "entityType": "festival",
+      "slug": "stone-county-fair",
+      "title": "Stone County Fair",
+      "city": "Mountain View",
+      "county": "Stone",
+      "about": "Stone County Fair in Stone County",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Stone County Fair?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "stone-county",
+          "label": "Stone County"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Official",
+          "url": "https://cofairs.com/arkansas/stone-county-fair"
+        }
+      ],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-union-county-fair",
+      "entityType": "festival",
+      "slug": "union-county-fair",
+      "title": "Union County Fair",
+      "city": "El Dorado",
+      "county": "Union",
+      "about": "Union County Fair in Union County",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Union County Fair?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "union-county",
+          "label": "Union County"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Official",
+          "url": "https://myunioncountyarfair.com/"
+        },
+        {
+          "label": "Official",
+          "url": "https://myunioncountyarfair.com/"
+        }
+      ],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-van-buren-county-fair",
+      "entityType": "festival",
+      "slug": "van-buren-county-fair",
+      "title": "Van Buren County Fair",
+      "city": "Clinton",
+      "county": "Van Buren",
+      "about": "Van Buren County Fair in Van Buren County",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Van Buren County Fair?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "van-buren-county",
+          "label": "Van Buren County"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Official",
+          "url": "https://www.vanburencountyarkansasfairgrounds.com/"
+        },
+        {
+          "label": "Official",
+          "url": "https://www.vanburencountyarkansasfairgrounds.com/"
+        }
+      ],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-washington-county-fair",
+      "entityType": "festival",
+      "slug": "washington-county-fair",
+      "title": "Washington County Fair",
+      "city": "Fayetteville",
+      "county": "Washington",
+      "about": "Washington County Fair in Washington County",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Washington County Fair?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "washington-county",
+          "label": "Washington County"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Official",
+          "url": "https://www.mywashcofair.com/"
+        },
+        {
+          "label": "Official",
+          "url": "https://www.mywashcofair.com/"
+        }
+      ],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-white-county-fair",
+      "entityType": "festival",
+      "slug": "white-county-fair",
+      "title": "White County Fair",
+      "city": "Searcy",
+      "county": "White",
+      "about": "White County Fair in White County",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is White County Fair?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "white-county",
+          "label": "White County"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Official",
+          "url": "https://cofairs.com/arkansas/white-county-fair"
+        }
+      ],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-woodruff-county-fair",
+      "entityType": "festival",
+      "slug": "woodruff-county-fair",
+      "title": "Woodruff County Fair",
+      "city": "McCrory",
+      "county": "Woodruff",
+      "about": "Woodruff County Fair in Woodruff County",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Woodruff County Fair?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "woodruff-county",
+          "label": "Woodruff County"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Official",
+          "url": "https://cofairs.com/arkansas/woodruff-county-fair"
+        }
+      ],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-yell-county-fair",
+      "entityType": "festival",
+      "slug": "yell-county-fair",
+      "title": "Yell County Fair",
+      "city": "Danville",
+      "county": "Yell",
+      "about": "Yell County Fair in Yell County",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Yell County Fair?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "yell-county",
+          "label": "Yell County"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Official",
+          "url": "https://yellcountyfair.com/"
+        },
+        {
+          "label": "Official",
+          "url": "https://yellcountyfair.com/"
+        }
+      ],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-arkansas-county",
+      "entityType": "county",
+      "slug": "arkansas-county",
+      "title": "Arkansas County, Arkansas",
+      "city": null,
+      "county": "Arkansas",
+      "about": "County-wide community calendar for Arkansas County.",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Arkansas County, Arkansas?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "arkansas-county",
+          "label": "Arkansas County"
+        }
+      ],
+      "sources": [],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-ashley-county",
+      "entityType": "county",
+      "slug": "ashley-county",
+      "title": "Ashley County, Arkansas",
+      "city": null,
+      "county": "Ashley",
+      "about": "County-wide community calendar for Ashley County.",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Ashley County, Arkansas?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "ashley-county",
+          "label": "Ashley County"
+        }
+      ],
+      "sources": [],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-baxter-county",
+      "entityType": "county",
+      "slug": "baxter-county",
+      "title": "Baxter County, Arkansas",
+      "city": null,
+      "county": "Baxter",
+      "about": "County-wide community calendar for Baxter County.",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Baxter County, Arkansas?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "baxter-county",
+          "label": "Baxter County"
+        }
+      ],
+      "sources": [],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-benton-county",
+      "entityType": "county",
+      "slug": "benton-county",
+      "title": "Benton County, Arkansas",
+      "city": null,
+      "county": "Benton",
+      "about": "County-wide community calendar for Benton County.",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Benton County, Arkansas?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "benton-county",
+          "label": "Benton County"
+        }
+      ],
+      "sources": [],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-boone-county",
+      "entityType": "county",
+      "slug": "boone-county",
+      "title": "Boone County, Arkansas",
+      "city": null,
+      "county": "Boone",
+      "about": "County-wide community calendar for Boone County.",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Boone County, Arkansas?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "boone-county",
+          "label": "Boone County"
+        }
+      ],
+      "sources": [],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-bradley-county",
+      "entityType": "county",
+      "slug": "bradley-county",
+      "title": "Bradley County, Arkansas",
+      "city": null,
+      "county": "Bradley",
+      "about": "County-wide community calendar for Bradley County.",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Bradley County, Arkansas?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "bradley-county",
+          "label": "Bradley County"
+        }
+      ],
+      "sources": [],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-calhoun-county",
+      "entityType": "county",
+      "slug": "calhoun-county",
+      "title": "Calhoun County, Arkansas",
+      "city": null,
+      "county": "Calhoun",
+      "about": "County-wide community calendar for Calhoun County.",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Calhoun County, Arkansas?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "calhoun-county",
+          "label": "Calhoun County"
+        }
+      ],
+      "sources": [],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-carroll-county",
+      "entityType": "county",
+      "slug": "carroll-county",
+      "title": "Carroll County, Arkansas",
+      "city": null,
+      "county": "Carroll",
+      "about": "County-wide community calendar for Carroll County.",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Carroll County, Arkansas?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "carroll-county",
+          "label": "Carroll County"
+        }
+      ],
+      "sources": [],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-chicot-county",
+      "entityType": "county",
+      "slug": "chicot-county",
+      "title": "Chicot County, Arkansas",
+      "city": null,
+      "county": "Chicot",
+      "about": "County-wide community calendar for Chicot County.",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Chicot County, Arkansas?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "chicot-county",
+          "label": "Chicot County"
+        }
+      ],
+      "sources": [],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-clark-county",
+      "entityType": "county",
+      "slug": "clark-county",
+      "title": "Clark County, Arkansas",
+      "city": null,
+      "county": "Clark",
+      "about": "County-wide community calendar for Clark County.",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Clark County, Arkansas?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "clark-county",
+          "label": "Clark County"
+        }
+      ],
+      "sources": [],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-clay-county",
+      "entityType": "county",
+      "slug": "clay-county",
+      "title": "Clay County, Arkansas",
+      "city": null,
+      "county": "Clay",
+      "about": "County-wide community calendar for Clay County.",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Clay County, Arkansas?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "clay-county",
+          "label": "Clay County"
+        }
+      ],
+      "sources": [],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-cleburne-county",
+      "entityType": "county",
+      "slug": "cleburne-county",
+      "title": "Cleburne County, Arkansas",
+      "city": null,
+      "county": "Cleburne",
+      "about": "County-wide community calendar for Cleburne County.",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Cleburne County, Arkansas?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "cleburne-county",
+          "label": "Cleburne County"
+        }
+      ],
+      "sources": [],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-cleveland-county",
+      "entityType": "county",
+      "slug": "cleveland-county",
+      "title": "Cleveland County, Arkansas",
+      "city": null,
+      "county": "Cleveland",
+      "about": "County-wide community calendar for Cleveland County.",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Cleveland County, Arkansas?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "cleveland-county",
+          "label": "Cleveland County"
+        }
+      ],
+      "sources": [],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-columbia-county",
+      "entityType": "county",
+      "slug": "columbia-county",
+      "title": "Columbia County, Arkansas",
+      "city": null,
+      "county": "Columbia",
+      "about": "County-wide community calendar for Columbia County.",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Columbia County, Arkansas?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "columbia-county",
+          "label": "Columbia County"
+        }
+      ],
+      "sources": [],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-conway-county",
+      "entityType": "county",
+      "slug": "conway-county",
+      "title": "Conway County, Arkansas",
+      "city": null,
+      "county": "Conway",
+      "about": "County-wide community calendar for Conway County.",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Conway County, Arkansas?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "conway-county",
+          "label": "Conway County"
+        }
+      ],
+      "sources": [],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-craighead-county",
+      "entityType": "county",
+      "slug": "craighead-county",
+      "title": "Craighead County, Arkansas",
+      "city": null,
+      "county": "Craighead",
+      "about": "County-wide community calendar for Craighead County.",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Craighead County, Arkansas?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "craighead-county",
+          "label": "Craighead County"
+        }
+      ],
+      "sources": [],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-crawford-county",
+      "entityType": "county",
+      "slug": "crawford-county",
+      "title": "Crawford County, Arkansas",
+      "city": null,
+      "county": "Crawford",
+      "about": "County-wide community calendar for Crawford County.",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Crawford County, Arkansas?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "crawford-county",
+          "label": "Crawford County"
+        }
+      ],
+      "sources": [],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-crittenden-county",
+      "entityType": "county",
+      "slug": "crittenden-county",
+      "title": "Crittenden County, Arkansas",
+      "city": null,
+      "county": "Crittenden",
+      "about": "County-wide community calendar for Crittenden County.",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Crittenden County, Arkansas?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "crittenden-county",
+          "label": "Crittenden County"
+        }
+      ],
+      "sources": [],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-cross-county",
+      "entityType": "county",
+      "slug": "cross-county",
+      "title": "Cross County, Arkansas",
+      "city": null,
+      "county": "Cross",
+      "about": "County-wide community calendar for Cross County.",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Cross County, Arkansas?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "cross-county",
+          "label": "Cross County"
+        }
+      ],
+      "sources": [],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-dallas-county",
+      "entityType": "county",
+      "slug": "dallas-county",
+      "title": "Dallas County, Arkansas",
+      "city": null,
+      "county": "Dallas",
+      "about": "County-wide community calendar for Dallas County.",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Dallas County, Arkansas?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "dallas-county",
+          "label": "Dallas County"
+        }
+      ],
+      "sources": [],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-desha-county",
+      "entityType": "county",
+      "slug": "desha-county",
+      "title": "Desha County, Arkansas",
+      "city": null,
+      "county": "Desha",
+      "about": "County-wide community calendar for Desha County.",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Desha County, Arkansas?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "desha-county",
+          "label": "Desha County"
+        }
+      ],
+      "sources": [],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-drew-county",
+      "entityType": "county",
+      "slug": "drew-county",
+      "title": "Drew County, Arkansas",
+      "city": null,
+      "county": "Drew",
+      "about": "County-wide community calendar for Drew County.",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Drew County, Arkansas?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "drew-county",
+          "label": "Drew County"
+        }
+      ],
+      "sources": [],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-franklin-county",
+      "entityType": "county",
+      "slug": "franklin-county",
+      "title": "Franklin County, Arkansas",
+      "city": null,
+      "county": "Franklin",
+      "about": "County-wide community calendar for Franklin County.",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Franklin County, Arkansas?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "franklin-county",
+          "label": "Franklin County"
+        }
+      ],
+      "sources": [],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-fulton-county",
+      "entityType": "county",
+      "slug": "fulton-county",
+      "title": "Fulton County, Arkansas",
+      "city": null,
+      "county": "Fulton",
+      "about": "County-wide community calendar for Fulton County.",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Fulton County, Arkansas?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "fulton-county",
+          "label": "Fulton County"
+        }
+      ],
+      "sources": [],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-garland-county",
+      "entityType": "county",
+      "slug": "garland-county",
+      "title": "Garland County, Arkansas",
+      "city": null,
+      "county": "Garland",
+      "about": "County-wide community calendar for Garland County.",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Garland County, Arkansas?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "garland-county",
+          "label": "Garland County"
+        }
+      ],
+      "sources": [],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-grant-county",
+      "entityType": "county",
+      "slug": "grant-county",
+      "title": "Grant County, Arkansas",
+      "city": null,
+      "county": "Grant",
+      "about": "County-wide community calendar for Grant County.",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Grant County, Arkansas?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "grant-county",
+          "label": "Grant County"
+        }
+      ],
+      "sources": [],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-greene-county",
+      "entityType": "county",
+      "slug": "greene-county",
+      "title": "Greene County, Arkansas",
+      "city": null,
+      "county": "Greene",
+      "about": "County-wide community calendar for Greene County.",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Greene County, Arkansas?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "greene-county",
+          "label": "Greene County"
+        }
+      ],
+      "sources": [],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-hempstead-county",
+      "entityType": "county",
+      "slug": "hempstead-county",
+      "title": "Hempstead County, Arkansas",
+      "city": null,
+      "county": "Hempstead",
+      "about": "County-wide community calendar for Hempstead County.",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Hempstead County, Arkansas?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "hempstead-county",
+          "label": "Hempstead County"
+        }
+      ],
+      "sources": [],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-hot-spring-county",
+      "entityType": "county",
+      "slug": "hot-spring-county",
+      "title": "Hot Spring County, Arkansas",
+      "city": null,
+      "county": "Hot Spring",
+      "about": "County-wide community calendar for Hot Spring County.",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Hot Spring County, Arkansas?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "hot-spring-county",
+          "label": "Hot Spring County"
+        }
+      ],
+      "sources": [],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-howard-county",
+      "entityType": "county",
+      "slug": "howard-county",
+      "title": "Howard County, Arkansas",
+      "city": null,
+      "county": "Howard",
+      "about": "County-wide community calendar for Howard County.",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Howard County, Arkansas?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "howard-county",
+          "label": "Howard County"
+        }
+      ],
+      "sources": [],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-independence-county",
+      "entityType": "county",
+      "slug": "independence-county",
+      "title": "Independence County, Arkansas",
+      "city": null,
+      "county": "Independence",
+      "about": "County-wide community calendar for Independence County.",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Independence County, Arkansas?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "independence-county",
+          "label": "Independence County"
+        }
+      ],
+      "sources": [],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-izard-county",
+      "entityType": "county",
+      "slug": "izard-county",
+      "title": "Izard County, Arkansas",
+      "city": null,
+      "county": "Izard",
+      "about": "County-wide community calendar for Izard County.",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Izard County, Arkansas?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "izard-county",
+          "label": "Izard County"
+        }
+      ],
+      "sources": [],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-jackson-county",
+      "entityType": "county",
+      "slug": "jackson-county",
+      "title": "Jackson County, Arkansas",
+      "city": null,
+      "county": "Jackson",
+      "about": "County-wide community calendar for Jackson County.",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Jackson County, Arkansas?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "jackson-county",
+          "label": "Jackson County"
+        }
+      ],
+      "sources": [],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-jefferson-county",
+      "entityType": "county",
+      "slug": "jefferson-county",
+      "title": "Jefferson County, Arkansas",
+      "city": null,
+      "county": "Jefferson",
+      "about": "County-wide community calendar for Jefferson County.",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Jefferson County, Arkansas?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "jefferson-county",
+          "label": "Jefferson County"
+        }
+      ],
+      "sources": [],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-johnson-county",
+      "entityType": "county",
+      "slug": "johnson-county",
+      "title": "Johnson County, Arkansas",
+      "city": null,
+      "county": "Johnson",
+      "about": "County-wide community calendar for Johnson County.",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Johnson County, Arkansas?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "johnson-county",
+          "label": "Johnson County"
+        }
+      ],
+      "sources": [],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-lafayette-county",
+      "entityType": "county",
+      "slug": "lafayette-county",
+      "title": "Lafayette County, Arkansas",
+      "city": null,
+      "county": "Lafayette",
+      "about": "County-wide community calendar for Lafayette County.",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Lafayette County, Arkansas?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "lafayette-county",
+          "label": "Lafayette County"
+        }
+      ],
+      "sources": [],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-lawrence-county",
+      "entityType": "county",
+      "slug": "lawrence-county",
+      "title": "Lawrence County, Arkansas",
+      "city": null,
+      "county": "Lawrence",
+      "about": "County-wide community calendar for Lawrence County.",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Lawrence County, Arkansas?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "lawrence-county",
+          "label": "Lawrence County"
+        }
+      ],
+      "sources": [],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-lee-county",
+      "entityType": "county",
+      "slug": "lee-county",
+      "title": "Lee County, Arkansas",
+      "city": null,
+      "county": "Lee",
+      "about": "County-wide community calendar for Lee County.",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Lee County, Arkansas?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "lee-county",
+          "label": "Lee County"
+        }
+      ],
+      "sources": [],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-lincoln-county",
+      "entityType": "county",
+      "slug": "lincoln-county",
+      "title": "Lincoln County, Arkansas",
+      "city": null,
+      "county": "Lincoln",
+      "about": "County-wide community calendar for Lincoln County.",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Lincoln County, Arkansas?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "lincoln-county",
+          "label": "Lincoln County"
+        }
+      ],
+      "sources": [],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-little-river-county",
+      "entityType": "county",
+      "slug": "little-river-county",
+      "title": "Little River County, Arkansas",
+      "city": null,
+      "county": "Little River",
+      "about": "County-wide community calendar for Little River County.",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Little River County, Arkansas?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "little-river-county",
+          "label": "Little River County"
+        }
+      ],
+      "sources": [],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-logan-county",
+      "entityType": "county",
+      "slug": "logan-county",
+      "title": "Logan County, Arkansas",
+      "city": null,
+      "county": "Logan",
+      "about": "County-wide community calendar for Logan County.",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Logan County, Arkansas?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "logan-county",
+          "label": "Logan County"
+        }
+      ],
+      "sources": [],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-lonoke-county",
+      "entityType": "county",
+      "slug": "lonoke-county",
+      "title": "Lonoke County, Arkansas",
+      "city": null,
+      "county": "Lonoke",
+      "about": "County-wide community calendar for Lonoke County.",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Lonoke County, Arkansas?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "lonoke-county",
+          "label": "Lonoke County"
+        }
+      ],
+      "sources": [],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-madison-county",
+      "entityType": "county",
+      "slug": "madison-county",
+      "title": "Madison County, Arkansas",
+      "city": null,
+      "county": "Madison",
+      "about": "County-wide community calendar for Madison County.",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Madison County, Arkansas?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "madison-county",
+          "label": "Madison County"
+        }
+      ],
+      "sources": [],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-marion-county",
+      "entityType": "county",
+      "slug": "marion-county",
+      "title": "Marion County, Arkansas",
+      "city": null,
+      "county": "Marion",
+      "about": "County-wide community calendar for Marion County.",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Marion County, Arkansas?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "marion-county",
+          "label": "Marion County"
+        }
+      ],
+      "sources": [],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-miller-county",
+      "entityType": "county",
+      "slug": "miller-county",
+      "title": "Miller County, Arkansas",
+      "city": null,
+      "county": "Miller",
+      "about": "County-wide community calendar for Miller County.",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Miller County, Arkansas?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "miller-county",
+          "label": "Miller County"
+        }
+      ],
+      "sources": [],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-mississippi-county",
+      "entityType": "county",
+      "slug": "mississippi-county",
+      "title": "Mississippi County, Arkansas",
+      "city": null,
+      "county": "Mississippi",
+      "about": "County-wide community calendar for Mississippi County.",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Mississippi County, Arkansas?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "mississippi-county",
+          "label": "Mississippi County"
+        }
+      ],
+      "sources": [],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-monroe-county",
+      "entityType": "county",
+      "slug": "monroe-county",
+      "title": "Monroe County, Arkansas",
+      "city": null,
+      "county": "Monroe",
+      "about": "County-wide community calendar for Monroe County.",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Monroe County, Arkansas?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "monroe-county",
+          "label": "Monroe County"
+        }
+      ],
+      "sources": [],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-montgomery-county",
+      "entityType": "county",
+      "slug": "montgomery-county",
+      "title": "Montgomery County, Arkansas",
+      "city": null,
+      "county": "Montgomery",
+      "about": "County-wide community calendar for Montgomery County.",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Montgomery County, Arkansas?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "montgomery-county",
+          "label": "Montgomery County"
+        }
+      ],
+      "sources": [],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-nevada-county",
+      "entityType": "county",
+      "slug": "nevada-county",
+      "title": "Nevada County, Arkansas",
+      "city": null,
+      "county": "Nevada",
+      "about": "County-wide community calendar for Nevada County.",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Nevada County, Arkansas?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "nevada-county",
+          "label": "Nevada County"
+        }
+      ],
+      "sources": [],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-newton-county",
+      "entityType": "county",
+      "slug": "newton-county",
+      "title": "Newton County, Arkansas",
+      "city": null,
+      "county": "Newton",
+      "about": "County-wide community calendar for Newton County.",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Newton County, Arkansas?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "newton-county",
+          "label": "Newton County"
+        }
+      ],
+      "sources": [],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-ouachita-county",
+      "entityType": "county",
+      "slug": "ouachita-county",
+      "title": "Ouachita County, Arkansas",
+      "city": null,
+      "county": "Ouachita",
+      "about": "County-wide community calendar for Ouachita County.",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Ouachita County, Arkansas?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "ouachita-county",
+          "label": "Ouachita County"
+        }
+      ],
+      "sources": [],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-perry-county",
+      "entityType": "county",
+      "slug": "perry-county",
+      "title": "Perry County, Arkansas",
+      "city": null,
+      "county": "Perry",
+      "about": "County-wide community calendar for Perry County.",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Perry County, Arkansas?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "perry-county",
+          "label": "Perry County"
+        }
+      ],
+      "sources": [],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-phillips-county",
+      "entityType": "county",
+      "slug": "phillips-county",
+      "title": "Phillips County, Arkansas",
+      "city": null,
+      "county": "Phillips",
+      "about": "County-wide community calendar for Phillips County.",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Phillips County, Arkansas?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "phillips-county",
+          "label": "Phillips County"
+        }
+      ],
+      "sources": [],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-pike-county",
+      "entityType": "county",
+      "slug": "pike-county",
+      "title": "Pike County, Arkansas",
+      "city": null,
+      "county": "Pike",
+      "about": "County-wide community calendar for Pike County.",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Pike County, Arkansas?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "pike-county",
+          "label": "Pike County"
+        }
+      ],
+      "sources": [],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-poinsett-county",
+      "entityType": "county",
+      "slug": "poinsett-county",
+      "title": "Poinsett County, Arkansas",
+      "city": null,
+      "county": "Poinsett",
+      "about": "County-wide community calendar for Poinsett County.",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Poinsett County, Arkansas?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "poinsett-county",
+          "label": "Poinsett County"
+        }
+      ],
+      "sources": [],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-polk-county",
+      "entityType": "county",
+      "slug": "polk-county",
+      "title": "Polk County, Arkansas",
+      "city": null,
+      "county": "Polk",
+      "about": "County-wide community calendar for Polk County.",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Polk County, Arkansas?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "polk-county",
+          "label": "Polk County"
+        }
+      ],
+      "sources": [],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-pope-county",
+      "entityType": "county",
+      "slug": "pope-county",
+      "title": "Pope County, Arkansas",
+      "city": null,
+      "county": "Pope",
+      "about": "County-wide community calendar for Pope County.",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Pope County, Arkansas?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "pope-county",
+          "label": "Pope County"
+        }
+      ],
+      "sources": [],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-prairie-county",
+      "entityType": "county",
+      "slug": "prairie-county",
+      "title": "Prairie County, Arkansas",
+      "city": null,
+      "county": "Prairie",
+      "about": "County-wide community calendar for Prairie County.",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Prairie County, Arkansas?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "prairie-county",
+          "label": "Prairie County"
+        }
+      ],
+      "sources": [],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-pulaski-county",
+      "entityType": "county",
+      "slug": "pulaski-county",
+      "title": "Pulaski County, Arkansas",
+      "city": null,
+      "county": "Pulaski",
+      "about": "County-wide community calendar for Pulaski County.",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Pulaski County, Arkansas?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "pulaski-county",
+          "label": "Pulaski County"
+        }
+      ],
+      "sources": [],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-randolph-county",
+      "entityType": "county",
+      "slug": "randolph-county",
+      "title": "Randolph County, Arkansas",
+      "city": null,
+      "county": "Randolph",
+      "about": "County-wide community calendar for Randolph County.",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Randolph County, Arkansas?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "randolph-county",
+          "label": "Randolph County"
+        }
+      ],
+      "sources": [],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-st-francis-county",
+      "entityType": "county",
+      "slug": "st-francis-county",
+      "title": "St. Francis County, Arkansas",
+      "city": null,
+      "county": "St. Francis",
+      "about": "County-wide community calendar for St. Francis County.",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is St. Francis County, Arkansas?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "st-francis-county",
+          "label": "St. Francis County"
+        }
+      ],
+      "sources": [],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-saline-county",
+      "entityType": "county",
+      "slug": "saline-county",
+      "title": "Saline County, Arkansas",
+      "city": null,
+      "county": "Saline",
+      "about": "County-wide community calendar for Saline County.",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Saline County, Arkansas?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "saline-county",
+          "label": "Saline County"
+        }
+      ],
+      "sources": [],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-scott-county",
+      "entityType": "county",
+      "slug": "scott-county",
+      "title": "Scott County, Arkansas",
+      "city": null,
+      "county": "Scott",
+      "about": "County-wide community calendar for Scott County.",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Scott County, Arkansas?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "scott-county",
+          "label": "Scott County"
+        }
+      ],
+      "sources": [],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-searcy-county",
+      "entityType": "county",
+      "slug": "searcy-county",
+      "title": "Searcy County, Arkansas",
+      "city": null,
+      "county": "Searcy",
+      "about": "County-wide community calendar for Searcy County.",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Searcy County, Arkansas?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "searcy-county",
+          "label": "Searcy County"
+        }
+      ],
+      "sources": [],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-sebastian-county",
+      "entityType": "county",
+      "slug": "sebastian-county",
+      "title": "Sebastian County, Arkansas",
+      "city": null,
+      "county": "Sebastian",
+      "about": "County-wide community calendar for Sebastian County.",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Sebastian County, Arkansas?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "sebastian-county",
+          "label": "Sebastian County"
+        }
+      ],
+      "sources": [],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-sevier-county",
+      "entityType": "county",
+      "slug": "sevier-county",
+      "title": "Sevier County, Arkansas",
+      "city": null,
+      "county": "Sevier",
+      "about": "County-wide community calendar for Sevier County.",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Sevier County, Arkansas?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "sevier-county",
+          "label": "Sevier County"
+        }
+      ],
+      "sources": [],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-sharp-county",
+      "entityType": "county",
+      "slug": "sharp-county",
+      "title": "Sharp County, Arkansas",
+      "city": null,
+      "county": "Sharp",
+      "about": "County-wide community calendar for Sharp County.",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Sharp County, Arkansas?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "sharp-county",
+          "label": "Sharp County"
+        }
+      ],
+      "sources": [],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-stone-county",
+      "entityType": "county",
+      "slug": "stone-county",
+      "title": "Stone County, Arkansas",
+      "city": null,
+      "county": "Stone",
+      "about": "County-wide community calendar for Stone County.",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Stone County, Arkansas?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "stone-county",
+          "label": "Stone County"
+        }
+      ],
+      "sources": [],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-union-county",
+      "entityType": "county",
+      "slug": "union-county",
+      "title": "Union County, Arkansas",
+      "city": null,
+      "county": "Union",
+      "about": "County-wide community calendar for Union County.",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Union County, Arkansas?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "union-county",
+          "label": "Union County"
+        }
+      ],
+      "sources": [],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-van-buren-county",
+      "entityType": "county",
+      "slug": "van-buren-county",
+      "title": "Van Buren County, Arkansas",
+      "city": null,
+      "county": "Van Buren",
+      "about": "County-wide community calendar for Van Buren County.",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Van Buren County, Arkansas?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "van-buren-county",
+          "label": "Van Buren County"
+        }
+      ],
+      "sources": [],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-washington-county",
+      "entityType": "county",
+      "slug": "washington-county",
+      "title": "Washington County, Arkansas",
+      "city": null,
+      "county": "Washington",
+      "about": "County-wide community calendar for Washington County.",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Washington County, Arkansas?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "washington-county",
+          "label": "Washington County"
+        }
+      ],
+      "sources": [],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-white-county",
+      "entityType": "county",
+      "slug": "white-county",
+      "title": "White County, Arkansas",
+      "city": null,
+      "county": "White",
+      "about": "County-wide community calendar for White County.",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is White County, Arkansas?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "white-county",
+          "label": "White County"
+        }
+      ],
+      "sources": [],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-woodruff-county",
+      "entityType": "county",
+      "slug": "woodruff-county",
+      "title": "Woodruff County, Arkansas",
+      "city": null,
+      "county": "Woodruff",
+      "about": "County-wide community calendar for Woodruff County.",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Woodruff County, Arkansas?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "woodruff-county",
+          "label": "Woodruff County"
+        }
+      ],
+      "sources": [],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    },
+    {
+      "id": "narr-scaffold-yell-county",
+      "entityType": "county",
+      "slug": "yell-county",
+      "title": "Yell County, Arkansas",
+      "city": null,
+      "county": "Yell",
+      "about": "County-wide community calendar for Yell County.",
+      "history": null,
+      "originStory": null,
+      "timeline": [],
+      "interestingFacts": [],
+      "faqs": [
+        {
+          "question": "What is Yell County, Arkansas?",
+          "answer": "Community profile on Arkansas Everywhere — expand with sourced history and official links."
+        }
+      ],
+      "relatedEntitySlugs": [
+        {
+          "entityType": "county",
+          "slug": "yell-county",
+          "label": "Yell County"
+        }
+      ],
+      "sources": [],
+      "lastRefreshedAt": "2026-06-21",
+      "verificationStatus": "placeholder",
+      "researchNotes": "Auto-scaffold — requires sourced research before verification."
+    }
+  ]
+}

@@ -19,7 +19,10 @@ export function DemocraticCountyPartiesPage() {
         Neutral civic directory of public county party committee pages and meeting schedules. Not an endorsement.
       </p>
       <p className="mt-4 text-sm text-[var(--text-secondary)]">
-        {withSchedule.length} of {committees.length} counties with public meeting schedules indexed.
+        {withSchedule.length} of {committees.length} counties with public meeting schedules indexed.{" "}
+        <Link to="/calendar/month?category=public_party_meeting&party=Democratic&partyMeeting=1" className="text-ark-sky underline">
+          View on calendar (month / week / day)
+        </Link>
       </p>
 
       <ul className="mt-8 grid gap-3 sm:grid-cols-2">

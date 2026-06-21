@@ -1,34 +1,126 @@
 {
-  "version": "1.0",
+  "version": "2.0",
   "title": "Master Calendar Lane Map",
   "updatedAt": "2026-06-21",
   "objective": "Build the definitive civic, community, cultural, educational, recreational, and political event graph for Arkansas.",
-  "sixMonthPriority": [
-    { "order": 1, "laneId": "festivals", "label": "County fair lane completion", "registryLane": "festivals" },
-    { "order": 2, "laneId": "festivals", "label": "Festival lane (top 250 cities)", "registryLane": "festivals" },
-    { "order": 3, "laneId": "government_civic", "label": "Government meetings", "registryLane": "government_civic" },
-    { "order": 4, "laneId": "schools", "label": "School boards & athletics", "registryLane": "schools" },
-    { "order": 5, "laneId": "community_anchors", "label": "Extension / 4-H / Homemakers", "registryLane": "community_anchors" },
-    { "order": 6, "laneId": "vfds", "label": "Volunteer fire departments", "registryLane": "vfds" },
-    { "order": 7, "laneId": "churches", "label": "Community church events", "registryLane": "churches" },
-    { "order": 8, "laneId": "civic_orgs", "label": "Chambers / Rotary / Lions", "registryLane": "civic_orgs" },
-    { "order": 9, "laneId": "farmers_markets", "label": "Farmers markets", "registryLane": "farmers_markets" },
-    { "order": 10, "laneId": "races", "label": "Race circuit", "registryLane": "races" }
+  "productStack": [
+    "Arkansas Everywhere",
+    "Best Arkansas Community Calendar",
+    "Best Arkansas Event Database",
+    "Best Arkansas Community Knowledge Graph",
+    "Best Arkansas Civic Intelligence Engine",
+    "Campaign tools (admin-only, on top)"
   ],
+  "buildProgram": {
+    "stopUntilDensity": ["campaign_features", "paid_features", "crm_features"],
+    "focus": ["density", "content", "drill_down_pages", "lanes", "narratives", "internal_links", "ai_knowledge"]
+  },
+  "tenLaneProgram": [
+    {
+      "lane": 1,
+      "id": "government_civic",
+      "label": "Government Meetings",
+      "goal": { "counties": 75, "cities": 250 },
+      "coverage": ["quorum_courts", "city_councils", "planning_commissions", "school_boards", "election_commissions"],
+      "registryLane": "government_civic"
+    },
+    {
+      "lane": 2,
+      "id": "schools",
+      "label": "Public Schools",
+      "goal": { "high_schools": 328, "events": 1000 },
+      "coverage": ["athletics", "homecoming", "graduation", "theater", "pto", "band"],
+      "registryLane": "schools"
+    },
+    {
+      "lane": 3,
+      "id": "colleges",
+      "label": "Colleges & Universities",
+      "goal": { "institutions": 18, "annual_events": 500 },
+      "coverage": ["athletics", "lectures", "student_activities"],
+      "registryLane": "colleges"
+    },
+    {
+      "lane": 4,
+      "id": "county_fairs",
+      "label": "County Fairs",
+      "current": { "verified": 30 },
+      "goal": { "verified": 75 },
+      "registryLane": "festivals"
+    },
+    {
+      "lane": 5,
+      "id": "festivals",
+      "label": "Festivals & Community Celebrations",
+      "current": { "harvested": 31 },
+      "goal": { "recurring_festivals": 500 },
+      "examples": ["Toad Suck Daze", "FestiVille", "Pink Tomato", "Hope Watermelon", "Peach Festival"],
+      "registryLane": "festivals"
+    },
+    {
+      "lane": 6,
+      "id": "community_anchors",
+      "label": "Extension / 4-H / Homemakers",
+      "registryLane": "community_anchors"
+    },
+    {
+      "lane": 7,
+      "id": "vfds",
+      "label": "Volunteer Fire Departments",
+      "coverage": ["fish_fries", "pancake_breakfasts", "cookoffs", "fundraisers", "parades"],
+      "registryLane": "vfds"
+    },
+    {
+      "lane": 8,
+      "id": "churches",
+      "label": "Church Community Events",
+      "goal": { "annual_events": 5000 },
+      "coverage": ["fish_fries", "spaghetti_suppers", "wild_game_dinners", "fall_festivals", "vbs"],
+      "note": "Not worship services",
+      "registryLane": "churches"
+    },
+    {
+      "lane": 9,
+      "id": "farmers_markets",
+      "label": "Farmers Markets / Food Trucks",
+      "coverage": ["weekly_markets", "food_truck_circuit"],
+      "registryLane": "farmers_markets"
+    },
+    {
+      "lane": 10,
+      "id": "races",
+      "label": "Race Circuit",
+      "coverage": ["5k", "10k", "half_marathon", "marathon", "trail", "triathlon"],
+      "registryLane": "races"
+    }
+  ],
+  "sixMonthPriority": [
+    { "order": 1, "laneId": "county_fairs", "label": "County fair lane completion" },
+    { "order": 2, "laneId": "festivals", "label": "Festival lane (top 250 cities)" },
+    { "order": 3, "laneId": "government_civic", "label": "Government meetings" },
+    { "order": 4, "laneId": "schools", "label": "School boards & athletics" },
+    { "order": 5, "laneId": "community_anchors", "label": "Extension / 4-H / Homemakers" },
+    { "order": 6, "laneId": "vfds", "label": "Volunteer fire departments" },
+    { "order": 7, "laneId": "churches", "label": "Community church events" },
+    { "order": 8, "laneId": "civic_orgs", "label": "Chambers / Rotary / Lions" },
+    { "order": 9, "laneId": "farmers_markets", "label": "Farmers markets" },
+    { "order": 10, "laneId": "races", "label": "Race circuit" }
+  ],
+  "pass31NarrativeEngine": {
+    "doc": "docs/PASS_31_COMMUNITY_NARRATIVE_ENGINE.md",
+    "bundle": "data/narratives/community-narratives.json",
+    "sections": ["about", "history", "timeline", "faqs", "related_entities", "sources", "last_refreshed"]
+  },
   "postHarvestStandard": [
     "harvest",
     "approve source-backed records",
     "rebuild AI indexes",
     "regenerate research tasks",
     "geocode approved bundles when API key present",
+    "build narrative scaffolds",
     "build",
     "push"
   ],
-  "tier1Foundational": ["government_civic", "schools", "colleges", "festivals", "public_party_meetings"],
-  "tier2RuralGold": ["community_anchors", "vfds"],
-  "tier3Faith": ["churches", "faith_outreach"],
-  "tier4CivicOrgs": ["civic_orgs", "chambers"],
-  "tier5Political": ["public_party_meetings", "historic_political_events"],
   "aiBrainQuestions": [
     "Where should I be today?",
     "What are the highest value events this week?",

@@ -1,18 +1,7 @@
 {
-  "generatedAt": "2026-06-21T17:00:18.913Z",
-  "openCount": 149,
+  "generatedAt": "2026-06-21T17:43:29.563Z",
+  "openCount": 144,
   "tasks": [
-    {
-      "task_type": "county_event_density",
-      "county": "Arkansas",
-      "city": null,
-      "entity": "Arkansas",
-      "reason": "Arkansas County has fewer than 3 indexed public events — thin coverage.",
-      "suggested_query": "Arkansas County Arkansas community events calendar 2026",
-      "priority": "high",
-      "status": "open",
-      "createdAt": "2026-06-21T17:00:18.912Z"
-    },
     {
       "task_type": "county_event_density",
       "county": "Bradley",
@@ -22,7 +11,7 @@
       "suggested_query": "Bradley County Arkansas community events calendar 2026",
       "priority": "high",
       "status": "open",
-      "createdAt": "2026-06-21T17:00:18.912Z"
+      "createdAt": "2026-06-21T17:43:29.562Z"
     },
     {
       "task_type": "county_event_density",
@@ -33,7 +22,7 @@
       "suggested_query": "Calhoun County Arkansas community events calendar 2026",
       "priority": "high",
       "status": "open",
-      "createdAt": "2026-06-21T17:00:18.912Z"
+      "createdAt": "2026-06-21T17:43:29.562Z"
     },
     {
       "task_type": "county_event_density",
@@ -44,18 +33,7 @@
       "suggested_query": "Chicot County Arkansas community events calendar 2026",
       "priority": "high",
       "status": "open",
-      "createdAt": "2026-06-21T17:00:18.912Z"
-    },
-    {
-      "task_type": "county_event_density",
-      "county": "Cross",
-      "city": null,
-      "entity": "Cross",
-      "reason": "Cross County has fewer than 3 indexed public events — thin coverage.",
-      "suggested_query": "Cross County Arkansas community events calendar 2026",
-      "priority": "high",
-      "status": "open",
-      "createdAt": "2026-06-21T17:00:18.912Z"
+      "createdAt": "2026-06-21T17:43:29.562Z"
     },
     {
       "task_type": "county_event_density",
@@ -66,18 +44,7 @@
       "suggested_query": "Drew County Arkansas community events calendar 2026",
       "priority": "high",
       "status": "open",
-      "createdAt": "2026-06-21T17:00:18.912Z"
-    },
-    {
-      "task_type": "county_event_density",
-      "county": "Franklin",
-      "city": null,
-      "entity": "Franklin",
-      "reason": "Franklin County has fewer than 3 indexed public events — thin coverage.",
-      "suggested_query": "Franklin County Arkansas community events calendar 2026",
-      "priority": "high",
-      "status": "open",
-      "createdAt": "2026-06-21T17:00:18.912Z"
+      "createdAt": "2026-06-21T17:43:29.562Z"
     },
     {
       "task_type": "county_event_density",
@@ -88,7 +55,7 @@
       "suggested_query": "Jackson County Arkansas community events calendar 2026",
       "priority": "high",
       "status": "open",
-      "createdAt": "2026-06-21T17:00:18.912Z"
+      "createdAt": "2026-06-21T17:43:29.562Z"
     },
     {
       "task_type": "county_event_density",
@@ -99,7 +66,18 @@
       "suggested_query": "Lafayette County Arkansas community events calendar 2026",
       "priority": "high",
       "status": "open",
-      "createdAt": "2026-06-21T17:00:18.912Z"
+      "createdAt": "2026-06-21T17:43:29.562Z"
+    },
+    {
+      "task_type": "county_event_density",
+      "county": "Lee",
+      "city": null,
+      "entity": "Lee",
+      "reason": "Lee County has fewer than 3 indexed public events — thin coverage.",
+      "suggested_query": "Lee County Arkansas community events calendar 2026",
+      "priority": "high",
+      "status": "open",
+      "createdAt": "2026-06-21T17:43:29.562Z"
     },
     {
       "task_type": "county_event_density",
@@ -110,18 +88,7 @@
       "suggested_query": "Lincoln County Arkansas community events calendar 2026",
       "priority": "high",
       "status": "open",
-      "createdAt": "2026-06-21T17:00:18.912Z"
-    },
-    {
-      "task_type": "county_event_density",
-      "county": "Ouachita",
-      "city": null,
-      "entity": "Ouachita",
-      "reason": "Ouachita County has fewer than 3 indexed public events — thin coverage.",
-      "suggested_query": "Ouachita County Arkansas community events calendar 2026",
-      "priority": "high",
-      "status": "open",
-      "createdAt": "2026-06-21T17:00:18.912Z"
+      "createdAt": "2026-06-21T17:43:29.562Z"
     },
     {
       "task_type": "county_event_density",
@@ -132,29 +99,7 @@
       "suggested_query": "Pike County Arkansas community events calendar 2026",
       "priority": "high",
       "status": "open",
-      "createdAt": "2026-06-21T17:00:18.912Z"
-    },
-    {
-      "task_type": "county_event_density",
-      "county": "Poinsett",
-      "city": null,
-      "entity": "Poinsett",
-      "reason": "Poinsett County has fewer than 3 indexed public events — thin coverage.",
-      "suggested_query": "Poinsett County Arkansas community events calendar 2026",
-      "priority": "high",
-      "status": "open",
-      "createdAt": "2026-06-21T17:00:18.912Z"
-    },
-    {
-      "task_type": "county_event_density",
-      "county": "Polk",
-      "city": null,
-      "entity": "Polk",
-      "reason": "Polk County has fewer than 3 indexed public events — thin coverage.",
-      "suggested_query": "Polk County Arkansas community events calendar 2026",
-      "priority": "high",
-      "status": "open",
-      "createdAt": "2026-06-21T17:00:18.912Z"
+      "createdAt": "2026-06-21T17:43:29.562Z"
     },
     {
       "task_type": "county_event_density",
@@ -165,7 +110,7 @@
       "suggested_query": "Woodruff County Arkansas community events calendar 2026",
       "priority": "high",
       "status": "open",
-      "createdAt": "2026-06-21T17:00:18.912Z"
+      "createdAt": "2026-06-21T17:43:29.562Z"
     },
     {
       "task_type": "county_fair_dates",
@@ -178,7 +123,7 @@
       "source_url": "https://cofairs.com/arkansas/arkansas-county-fair",
       "approval_status": "needs_human_review",
       "status": "open",
-      "createdAt": "2026-06-21T17:00:18.912Z"
+      "createdAt": "2026-06-21T17:43:29.562Z"
     },
     {
       "task_type": "county_fair_dates",
@@ -191,7 +136,7 @@
       "source_url": "https://cofairs.com/arkansas/ashley-county-fair",
       "approval_status": "needs_human_review",
       "status": "open",
-      "createdAt": "2026-06-21T17:00:18.912Z"
+      "createdAt": "2026-06-21T17:43:29.563Z"
     },
     {
       "task_type": "county_fair_dates",
@@ -204,7 +149,7 @@
       "source_url": "https://www.bradleycountyfair.net/",
       "approval_status": "needs_human_review",
       "status": "open",
-      "createdAt": "2026-06-21T17:00:18.912Z"
+      "createdAt": "2026-06-21T17:43:29.563Z"
     },
     {
       "task_type": "county_fair_dates",
@@ -217,7 +162,7 @@
       "source_url": "https://cofairs.com/arkansas/calhoun-county-fair",
       "approval_status": "needs_human_review",
       "status": "open",
-      "createdAt": "2026-06-21T17:00:18.912Z"
+      "createdAt": "2026-06-21T17:43:29.563Z"
     },
     {
       "task_type": "county_fair_dates",
@@ -230,7 +175,7 @@
       "source_url": "https://cofairs.com/arkansas/chicot-county-fair",
       "approval_status": "needs_human_review",
       "status": "open",
-      "createdAt": "2026-06-21T17:00:18.912Z"
+      "createdAt": "2026-06-21T17:43:29.563Z"
     },
     {
       "task_type": "county_fair_dates",
@@ -243,7 +188,7 @@
       "source_url": "https://cofairs.com/arkansas/clark-county-fair",
       "approval_status": "needs_human_review",
       "status": "open",
-      "createdAt": "2026-06-21T17:00:18.912Z"
+      "createdAt": "2026-06-21T17:43:29.563Z"
     },
     {
       "task_type": "county_fair_dates",
@@ -256,7 +201,7 @@
       "source_url": "https://cofairs.com/arkansas/clay-county-fair",
       "approval_status": "needs_human_review",
       "status": "open",
-      "createdAt": "2026-06-21T17:00:18.912Z"
+      "createdAt": "2026-06-21T17:43:29.563Z"
     },
     {
       "task_type": "county_fair_dates",
@@ -269,7 +214,7 @@
       "source_url": "https://cofairs.com/arkansas/cleveland-county-fair",
       "approval_status": "needs_human_review",
       "status": "open",
-      "createdAt": "2026-06-21T17:00:18.912Z"
+      "createdAt": "2026-06-21T17:43:29.563Z"
     },
     {
       "task_type": "county_fair_dates",
@@ -282,7 +227,7 @@
       "source_url": "https://www.conwaycountyfair.com/",
       "approval_status": "needs_human_review",
       "status": "open",
-      "createdAt": "2026-06-21T17:00:18.912Z"
+      "createdAt": "2026-06-21T17:43:29.563Z"
     },
     {
       "task_type": "county_fair_dates",
@@ -295,7 +240,7 @@
       "source_url": "https://cofairs.com/arkansas/craighead-county-fair",
       "approval_status": "needs_human_review",
       "status": "open",
-      "createdAt": "2026-06-21T17:00:18.912Z"
+      "createdAt": "2026-06-21T17:43:29.563Z"
     },
     {
       "task_type": "county_fair_dates",
@@ -308,7 +253,7 @@
       "source_url": "https://cofairs.com/arkansas/crawford-county-fair",
       "approval_status": "needs_human_review",
       "status": "open",
-      "createdAt": "2026-06-21T17:00:18.912Z"
+      "createdAt": "2026-06-21T17:43:29.563Z"
     },
     {
       "task_type": "county_fair_dates",
@@ -321,7 +266,7 @@
       "source_url": "https://cofairs.com/arkansas/crittenden-county-fair",
       "approval_status": "needs_human_review",
       "status": "open",
-      "createdAt": "2026-06-21T17:00:18.912Z"
+      "createdAt": "2026-06-21T17:43:29.563Z"
     },
     {
       "task_type": "county_fair_dates",
@@ -334,7 +279,7 @@
       "source_url": "https://cofairs.com/arkansas/cross-county-fair",
       "approval_status": "needs_human_review",
       "status": "open",
-      "createdAt": "2026-06-21T17:00:18.912Z"
+      "createdAt": "2026-06-21T17:43:29.563Z"
     },
     {
       "task_type": "county_fair_dates",
@@ -347,7 +292,7 @@
       "source_url": "https://cofairs.com/arkansas/dallas-county-fair",
       "approval_status": "needs_human_review",
       "status": "open",
-      "createdAt": "2026-06-21T17:00:18.912Z"
+      "createdAt": "2026-06-21T17:43:29.563Z"
     },
     {
       "task_type": "county_fair_dates",
@@ -360,7 +305,7 @@
       "source_url": "https://cofairs.com/arkansas/desha-county-fair",
       "approval_status": "needs_human_review",
       "status": "open",
-      "createdAt": "2026-06-21T17:00:18.912Z"
+      "createdAt": "2026-06-21T17:43:29.563Z"
     },
     {
       "task_type": "county_fair_dates",
@@ -373,7 +318,7 @@
       "source_url": "https://cofairs.com/arkansas/drew-county-fair",
       "approval_status": "needs_human_review",
       "status": "open",
-      "createdAt": "2026-06-21T17:00:18.912Z"
+      "createdAt": "2026-06-21T17:43:29.563Z"
     },
     {
       "task_type": "county_fair_dates",
@@ -386,7 +331,7 @@
       "source_url": "https://cofairs.com/arkansas/franklin-county-fair",
       "approval_status": "needs_human_review",
       "status": "open",
-      "createdAt": "2026-06-21T17:00:18.912Z"
+      "createdAt": "2026-06-21T17:43:29.563Z"
     },
     {
       "task_type": "county_fair_dates",
@@ -399,7 +344,7 @@
       "source_url": "https://cofairs.com/arkansas/grant-county-fair",
       "approval_status": "needs_human_review",
       "status": "open",
-      "createdAt": "2026-06-21T17:00:18.912Z"
+      "createdAt": "2026-06-21T17:43:29.563Z"
     },
     {
       "task_type": "county_fair_dates",
@@ -412,7 +357,7 @@
       "source_url": "https://cofairs.com/arkansas/hempstead-county-fair",
       "approval_status": "needs_human_review",
       "status": "open",
-      "createdAt": "2026-06-21T17:00:18.912Z"
+      "createdAt": "2026-06-21T17:43:29.563Z"
     },
     {
       "task_type": "county_fair_dates",
@@ -425,7 +370,7 @@
       "source_url": "https://cofairs.com/arkansas/izard-county-fair",
       "approval_status": "needs_human_review",
       "status": "open",
-      "createdAt": "2026-06-21T17:00:18.912Z"
+      "createdAt": "2026-06-21T17:43:29.563Z"
     },
     {
       "task_type": "county_fair_dates",
@@ -438,7 +383,7 @@
       "source_url": "https://cofairs.com/arkansas/jackson-county-fair",
       "approval_status": "needs_human_review",
       "status": "open",
-      "createdAt": "2026-06-21T17:00:18.912Z"
+      "createdAt": "2026-06-21T17:43:29.563Z"
     },
     {
       "task_type": "county_fair_dates",
@@ -451,7 +396,7 @@
       "source_url": "https://cofairs.com/arkansas/jefferson-county-fair",
       "approval_status": "needs_human_review",
       "status": "open",
-      "createdAt": "2026-06-21T17:00:18.912Z"
+      "createdAt": "2026-06-21T17:43:29.563Z"
     },
     {
       "task_type": "county_fair_dates",
@@ -464,7 +409,7 @@
       "source_url": "https://cofairs.com/arkansas/lafayette-county-fair",
       "approval_status": "needs_human_review",
       "status": "open",
-      "createdAt": "2026-06-21T17:00:18.912Z"
+      "createdAt": "2026-06-21T17:43:29.563Z"
     },
     {
       "task_type": "county_fair_dates",
@@ -477,7 +422,7 @@
       "source_url": "https://cofairs.com/arkansas/lawrence-county-fair",
       "approval_status": "needs_human_review",
       "status": "open",
-      "createdAt": "2026-06-21T17:00:18.912Z"
+      "createdAt": "2026-06-21T17:43:29.563Z"
     },
     {
       "task_type": "county_fair_dates",
@@ -490,7 +435,7 @@
       "source_url": "https://cofairs.com/arkansas/lee-county-fair",
       "approval_status": "needs_human_review",
       "status": "open",
-      "createdAt": "2026-06-21T17:00:18.912Z"
+      "createdAt": "2026-06-21T17:43:29.563Z"
     },
     {
       "task_type": "county_fair_dates",
@@ -503,7 +448,7 @@
       "source_url": "https://cofairs.com/arkansas/lincoln-county-fair",
       "approval_status": "needs_human_review",
       "status": "open",
-      "createdAt": "2026-06-21T17:00:18.913Z"
+      "createdAt": "2026-06-21T17:43:29.563Z"
     },
     {
       "task_type": "county_fair_dates",
@@ -516,7 +461,7 @@
       "source_url": "https://cofairs.com/arkansas/little-river-county-fair",
       "approval_status": "needs_human_review",
       "status": "open",
-      "createdAt": "2026-06-21T17:00:18.913Z"
+      "createdAt": "2026-06-21T17:43:29.563Z"
     },
     {
       "task_type": "county_fair_dates",
@@ -529,7 +474,7 @@
       "source_url": "https://cofairs.com/arkansas/logan-county-fair",
       "approval_status": "needs_human_review",
       "status": "open",
-      "createdAt": "2026-06-21T17:00:18.913Z"
+      "createdAt": "2026-06-21T17:43:29.563Z"
     },
     {
       "task_type": "county_fair_dates",
@@ -542,7 +487,7 @@
       "source_url": "https://cofairs.com/arkansas/marion-county-fair",
       "approval_status": "needs_human_review",
       "status": "open",
-      "createdAt": "2026-06-21T17:00:18.913Z"
+      "createdAt": "2026-06-21T17:43:29.563Z"
     },
     {
       "task_type": "county_fair_dates",
@@ -555,7 +500,7 @@
       "source_url": "https://cofairs.com/arkansas/miller-county-fair",
       "approval_status": "needs_human_review",
       "status": "open",
-      "createdAt": "2026-06-21T17:00:18.913Z"
+      "createdAt": "2026-06-21T17:43:29.563Z"
     },
     {
       "task_type": "county_fair_dates",
@@ -568,7 +513,7 @@
       "source_url": "https://cofairs.com/arkansas/mississippi-county-fair",
       "approval_status": "needs_human_review",
       "status": "open",
-      "createdAt": "2026-06-21T17:00:18.913Z"
+      "createdAt": "2026-06-21T17:43:29.563Z"
     },
     {
       "task_type": "county_fair_dates",
@@ -581,7 +526,7 @@
       "source_url": "https://cofairs.com/arkansas/monroe-county-fair",
       "approval_status": "needs_human_review",
       "status": "open",
-      "createdAt": "2026-06-21T17:00:18.913Z"
+      "createdAt": "2026-06-21T17:43:29.563Z"
     },
     {
       "task_type": "county_fair_dates",
@@ -594,7 +539,7 @@
       "source_url": "https://cofairs.com/arkansas/montgomery-county-fair",
       "approval_status": "needs_human_review",
       "status": "open",
-      "createdAt": "2026-06-21T17:00:18.913Z"
+      "createdAt": "2026-06-21T17:43:29.563Z"
     },
     {
       "task_type": "county_fair_dates",
@@ -607,7 +552,7 @@
       "source_url": "https://cofairs.com/arkansas/nevada-county-fair",
       "approval_status": "needs_human_review",
       "status": "open",
-      "createdAt": "2026-06-21T17:00:18.913Z"
+      "createdAt": "2026-06-21T17:43:29.563Z"
     },
     {
       "task_type": "county_fair_dates",
@@ -620,7 +565,7 @@
       "source_url": "https://cofairs.com/arkansas/ouachita-county-fair",
       "approval_status": "needs_human_review",
       "status": "open",
-      "createdAt": "2026-06-21T17:00:18.913Z"
+      "createdAt": "2026-06-21T17:43:29.563Z"
     },
     {
       "task_type": "county_fair_dates",
@@ -633,7 +578,7 @@
       "source_url": "https://cofairs.com/arkansas/perry-county-fair",
       "approval_status": "needs_human_review",
       "status": "open",
-      "createdAt": "2026-06-21T17:00:18.913Z"
+      "createdAt": "2026-06-21T17:43:29.563Z"
     },
     {
       "task_type": "county_fair_dates",
@@ -646,7 +591,7 @@
       "source_url": "https://cofairs.com/arkansas/phillips-county-fair",
       "approval_status": "needs_human_review",
       "status": "open",
-      "createdAt": "2026-06-21T17:00:18.913Z"
+      "createdAt": "2026-06-21T17:43:29.563Z"
     },
     {
       "task_type": "county_fair_dates",
@@ -659,7 +604,7 @@
       "source_url": "https://cofairs.com/arkansas/pike-county-fair",
       "approval_status": "needs_human_review",
       "status": "open",
-      "createdAt": "2026-06-21T17:00:18.913Z"
+      "createdAt": "2026-06-21T17:43:29.563Z"
     },
     {
       "task_type": "county_fair_dates",
@@ -672,7 +617,7 @@
       "source_url": "https://cofairs.com/arkansas/poinsett-county-fair",
       "approval_status": "needs_human_review",
       "status": "open",
-      "createdAt": "2026-06-21T17:00:18.913Z"
+      "createdAt": "2026-06-21T17:43:29.563Z"
     },
     {
       "task_type": "county_fair_dates",
@@ -685,7 +630,7 @@
       "source_url": "https://cofairs.com/arkansas/polk-county-fair",
       "approval_status": "needs_human_review",
       "status": "open",
-      "createdAt": "2026-06-21T17:00:18.913Z"
+      "createdAt": "2026-06-21T17:43:29.563Z"
     },
     {
       "task_type": "county_fair_dates",
@@ -698,7 +643,7 @@
       "source_url": "https://cofairs.com/arkansas/randolph-county-fair",
       "approval_status": "needs_human_review",
       "status": "open",
-      "createdAt": "2026-06-21T17:00:18.913Z"
+      "createdAt": "2026-06-21T17:43:29.563Z"
     },
     {
       "task_type": "county_fair_dates",
@@ -711,7 +656,7 @@
       "source_url": "https://cofairs.com/arkansas/scott-county-fair",
       "approval_status": "needs_human_review",
       "status": "open",
-      "createdAt": "2026-06-21T17:00:18.913Z"
+      "createdAt": "2026-06-21T17:43:29.563Z"
     },
     {
       "task_type": "county_fair_dates",
@@ -724,7 +669,7 @@
       "source_url": "https://cofairs.com/arkansas/sevier-county-fair",
       "approval_status": "needs_human_review",
       "status": "open",
-      "createdAt": "2026-06-21T17:00:18.913Z"
+      "createdAt": "2026-06-21T17:43:29.563Z"
     },
     {
       "task_type": "county_fair_dates",
@@ -737,7 +682,7 @@
       "source_url": "https://cofairs.com/arkansas/stone-county-fair",
       "approval_status": "needs_human_review",
       "status": "open",
-      "createdAt": "2026-06-21T17:00:18.913Z"
+      "createdAt": "2026-06-21T17:43:29.563Z"
     },
     {
       "task_type": "county_fair_dates",
@@ -750,7 +695,7 @@
       "source_url": "https://cofairs.com/arkansas/woodruff-county-fair",
       "approval_status": "needs_human_review",
       "status": "open",
-      "createdAt": "2026-06-21T17:00:18.913Z"
+      "createdAt": "2026-06-21T17:43:29.563Z"
     },
     {
       "task_type": "confirm_fair_dates",
@@ -763,7 +708,7 @@
       "status": "open",
       "source_url": null,
       "approval_status": "needs_human_review",
-      "createdAt": "2026-06-21T17:00:18.913Z"
+      "createdAt": "2026-06-21T17:43:29.563Z"
     },
     {
       "task_type": "confirm_fair_dates",
@@ -776,7 +721,7 @@
       "status": "open",
       "source_url": null,
       "approval_status": "needs_human_review",
-      "createdAt": "2026-06-21T17:00:18.913Z"
+      "createdAt": "2026-06-21T17:43:29.563Z"
     },
     {
       "task_type": "confirm_fair_dates",
@@ -789,7 +734,7 @@
       "status": "open",
       "source_url": null,
       "approval_status": "needs_human_review",
-      "createdAt": "2026-06-21T17:00:18.913Z"
+      "createdAt": "2026-06-21T17:43:29.563Z"
     },
     {
       "task_type": "confirm_fair_dates",
@@ -802,7 +747,7 @@
       "status": "open",
       "source_url": null,
       "approval_status": "needs_human_review",
-      "createdAt": "2026-06-21T17:00:18.913Z"
+      "createdAt": "2026-06-21T17:43:29.563Z"
     },
     {
       "task_type": "confirm_fair_dates",
@@ -815,7 +760,7 @@
       "status": "open",
       "source_url": null,
       "approval_status": "needs_human_review",
-      "createdAt": "2026-06-21T17:00:18.913Z"
+      "createdAt": "2026-06-21T17:43:29.563Z"
     },
     {
       "task_type": "confirm_fair_dates",
@@ -828,7 +773,7 @@
       "status": "open",
       "source_url": null,
       "approval_status": "needs_human_review",
-      "createdAt": "2026-06-21T17:00:18.913Z"
+      "createdAt": "2026-06-21T17:43:29.563Z"
     },
     {
       "task_type": "confirm_fair_dates",
@@ -841,7 +786,7 @@
       "status": "open",
       "source_url": null,
       "approval_status": "needs_human_review",
-      "createdAt": "2026-06-21T17:00:18.913Z"
+      "createdAt": "2026-06-21T17:43:29.563Z"
     },
     {
       "task_type": "confirm_fair_dates",
@@ -854,7 +799,7 @@
       "status": "open",
       "source_url": null,
       "approval_status": "needs_human_review",
-      "createdAt": "2026-06-21T17:00:18.913Z"
+      "createdAt": "2026-06-21T17:43:29.563Z"
     },
     {
       "task_type": "confirm_fair_dates",
@@ -867,7 +812,7 @@
       "status": "open",
       "source_url": null,
       "approval_status": "needs_human_review",
-      "createdAt": "2026-06-21T17:00:18.913Z"
+      "createdAt": "2026-06-21T17:43:29.563Z"
     },
     {
       "task_type": "confirm_fair_dates",
@@ -880,7 +825,7 @@
       "status": "open",
       "source_url": null,
       "approval_status": "needs_human_review",
-      "createdAt": "2026-06-21T17:00:18.913Z"
+      "createdAt": "2026-06-21T17:43:29.563Z"
     },
     {
       "task_type": "confirm_fair_dates",
@@ -893,7 +838,7 @@
       "status": "open",
       "source_url": null,
       "approval_status": "needs_human_review",
-      "createdAt": "2026-06-21T17:00:18.913Z"
+      "createdAt": "2026-06-21T17:43:29.563Z"
     },
     {
       "task_type": "confirm_fair_dates",
@@ -906,7 +851,7 @@
       "status": "open",
       "source_url": null,
       "approval_status": "needs_human_review",
-      "createdAt": "2026-06-21T17:00:18.913Z"
+      "createdAt": "2026-06-21T17:43:29.563Z"
     },
     {
       "task_type": "confirm_fair_dates",
@@ -919,7 +864,7 @@
       "status": "open",
       "source_url": null,
       "approval_status": "needs_human_review",
-      "createdAt": "2026-06-21T17:00:18.913Z"
+      "createdAt": "2026-06-21T17:43:29.563Z"
     },
     {
       "task_type": "confirm_fair_dates",
@@ -932,7 +877,7 @@
       "status": "open",
       "source_url": null,
       "approval_status": "needs_human_review",
-      "createdAt": "2026-06-21T17:00:18.913Z"
+      "createdAt": "2026-06-21T17:43:29.563Z"
     },
     {
       "task_type": "confirm_fair_dates",
@@ -945,7 +890,7 @@
       "status": "open",
       "source_url": null,
       "approval_status": "needs_human_review",
-      "createdAt": "2026-06-21T17:00:18.913Z"
+      "createdAt": "2026-06-21T17:43:29.563Z"
     },
     {
       "task_type": "confirm_fair_dates",
@@ -958,7 +903,7 @@
       "status": "open",
       "source_url": null,
       "approval_status": "needs_human_review",
-      "createdAt": "2026-06-21T17:00:18.913Z"
+      "createdAt": "2026-06-21T17:43:29.563Z"
     },
     {
       "task_type": "confirm_fair_dates",
@@ -971,7 +916,7 @@
       "status": "open",
       "source_url": null,
       "approval_status": "needs_human_review",
-      "createdAt": "2026-06-21T17:00:18.913Z"
+      "createdAt": "2026-06-21T17:43:29.563Z"
     },
     {
       "task_type": "confirm_fair_dates",
@@ -984,7 +929,7 @@
       "status": "open",
       "source_url": null,
       "approval_status": "needs_human_review",
-      "createdAt": "2026-06-21T17:00:18.913Z"
+      "createdAt": "2026-06-21T17:43:29.563Z"
     },
     {
       "task_type": "confirm_fair_dates",
@@ -997,7 +942,7 @@
       "status": "open",
       "source_url": null,
       "approval_status": "needs_human_review",
-      "createdAt": "2026-06-21T17:00:18.913Z"
+      "createdAt": "2026-06-21T17:43:29.563Z"
     },
     {
       "task_type": "confirm_fair_dates",
@@ -1010,7 +955,7 @@
       "status": "open",
       "source_url": null,
       "approval_status": "needs_human_review",
-      "createdAt": "2026-06-21T17:00:18.913Z"
+      "createdAt": "2026-06-21T17:43:29.563Z"
     },
     {
       "task_type": "confirm_fair_dates",
@@ -1023,7 +968,7 @@
       "status": "open",
       "source_url": null,
       "approval_status": "needs_human_review",
-      "createdAt": "2026-06-21T17:00:18.913Z"
+      "createdAt": "2026-06-21T17:43:29.563Z"
     },
     {
       "task_type": "confirm_fair_dates",
@@ -1036,7 +981,7 @@
       "status": "open",
       "source_url": null,
       "approval_status": "needs_human_review",
-      "createdAt": "2026-06-21T17:00:18.913Z"
+      "createdAt": "2026-06-21T17:43:29.563Z"
     },
     {
       "task_type": "confirm_fair_dates",
@@ -1049,7 +994,7 @@
       "status": "open",
       "source_url": null,
       "approval_status": "needs_human_review",
-      "createdAt": "2026-06-21T17:00:18.913Z"
+      "createdAt": "2026-06-21T17:43:29.563Z"
     },
     {
       "task_type": "confirm_fair_dates",
@@ -1062,7 +1007,7 @@
       "status": "open",
       "source_url": null,
       "approval_status": "needs_human_review",
-      "createdAt": "2026-06-21T17:00:18.913Z"
+      "createdAt": "2026-06-21T17:43:29.563Z"
     },
     {
       "task_type": "confirm_fair_dates",
@@ -1075,7 +1020,7 @@
       "status": "open",
       "source_url": null,
       "approval_status": "needs_human_review",
-      "createdAt": "2026-06-21T17:00:18.913Z"
+      "createdAt": "2026-06-21T17:43:29.563Z"
     },
     {
       "task_type": "confirm_fair_dates",
@@ -1088,7 +1033,7 @@
       "status": "open",
       "source_url": null,
       "approval_status": "needs_human_review",
-      "createdAt": "2026-06-21T17:00:18.913Z"
+      "createdAt": "2026-06-21T17:43:29.563Z"
     },
     {
       "task_type": "confirm_fair_dates",
@@ -1101,7 +1046,7 @@
       "status": "open",
       "source_url": null,
       "approval_status": "needs_human_review",
-      "createdAt": "2026-06-21T17:00:18.913Z"
+      "createdAt": "2026-06-21T17:43:29.563Z"
     },
     {
       "task_type": "confirm_fair_dates",
@@ -1114,7 +1059,7 @@
       "status": "open",
       "source_url": null,
       "approval_status": "needs_human_review",
-      "createdAt": "2026-06-21T17:00:18.913Z"
+      "createdAt": "2026-06-21T17:43:29.563Z"
     },
     {
       "task_type": "confirm_fair_dates",
@@ -1127,7 +1072,7 @@
       "status": "open",
       "source_url": null,
       "approval_status": "needs_human_review",
-      "createdAt": "2026-06-21T17:00:18.913Z"
+      "createdAt": "2026-06-21T17:43:29.563Z"
     },
     {
       "task_type": "confirm_fair_dates",
@@ -1140,7 +1085,7 @@
       "status": "open",
       "source_url": null,
       "approval_status": "needs_human_review",
-      "createdAt": "2026-06-21T17:00:18.913Z"
+      "createdAt": "2026-06-21T17:43:29.563Z"
     },
     {
       "task_type": "confirm_fair_dates",
@@ -1153,7 +1098,7 @@
       "status": "open",
       "source_url": null,
       "approval_status": "needs_human_review",
-      "createdAt": "2026-06-21T17:00:18.913Z"
+      "createdAt": "2026-06-21T17:43:29.563Z"
     },
     {
       "task_type": "confirm_fair_dates",
@@ -1166,7 +1111,7 @@
       "status": "open",
       "source_url": null,
       "approval_status": "needs_human_review",
-      "createdAt": "2026-06-21T17:00:18.913Z"
+      "createdAt": "2026-06-21T17:43:29.563Z"
     },
     {
       "task_type": "confirm_fair_dates",
@@ -1179,7 +1124,7 @@
       "status": "open",
       "source_url": null,
       "approval_status": "needs_human_review",
-      "createdAt": "2026-06-21T17:00:18.913Z"
+      "createdAt": "2026-06-21T17:43:29.563Z"
     },
     {
       "task_type": "confirm_fair_dates",
@@ -1192,7 +1137,7 @@
       "status": "open",
       "source_url": null,
       "approval_status": "needs_human_review",
-      "createdAt": "2026-06-21T17:00:18.913Z"
+      "createdAt": "2026-06-21T17:43:29.563Z"
     },
     {
       "task_type": "confirm_fair_dates",
@@ -1205,7 +1150,7 @@
       "status": "open",
       "source_url": null,
       "approval_status": "needs_human_review",
-      "createdAt": "2026-06-21T17:00:18.913Z"
+      "createdAt": "2026-06-21T17:43:29.563Z"
     },
     {
       "task_type": "confirm_fair_dates",
@@ -1218,7 +1163,7 @@
       "status": "open",
       "source_url": null,
       "approval_status": "needs_human_review",
-      "createdAt": "2026-06-21T17:00:18.913Z"
+      "createdAt": "2026-06-21T17:43:29.563Z"
     },
     {
       "task_type": "confirm_fair_dates",
@@ -1231,7 +1176,7 @@
       "status": "open",
       "source_url": null,
       "approval_status": "needs_human_review",
-      "createdAt": "2026-06-21T17:00:18.913Z"
+      "createdAt": "2026-06-21T17:43:29.563Z"
     },
     {
       "task_type": "confirm_fair_dates",
@@ -1244,7 +1189,7 @@
       "status": "open",
       "source_url": null,
       "approval_status": "needs_human_review",
-      "createdAt": "2026-06-21T17:00:18.913Z"
+      "createdAt": "2026-06-21T17:43:29.563Z"
     },
     {
       "task_type": "confirm_fair_dates",
@@ -1257,7 +1202,7 @@
       "status": "open",
       "source_url": null,
       "approval_status": "needs_human_review",
-      "createdAt": "2026-06-21T17:00:18.913Z"
+      "createdAt": "2026-06-21T17:43:29.563Z"
     },
     {
       "task_type": "confirm_fair_dates",
@@ -1270,7 +1215,7 @@
       "status": "open",
       "source_url": null,
       "approval_status": "needs_human_review",
-      "createdAt": "2026-06-21T17:00:18.913Z"
+      "createdAt": "2026-06-21T17:43:29.563Z"
     },
     {
       "task_type": "confirm_fair_dates",
@@ -1283,7 +1228,7 @@
       "status": "open",
       "source_url": null,
       "approval_status": "needs_human_review",
-      "createdAt": "2026-06-21T17:00:18.913Z"
+      "createdAt": "2026-06-21T17:43:29.563Z"
     },
     {
       "task_type": "confirm_fair_dates",
@@ -1296,7 +1241,7 @@
       "status": "open",
       "source_url": null,
       "approval_status": "needs_human_review",
-      "createdAt": "2026-06-21T17:00:18.913Z"
+      "createdAt": "2026-06-21T17:43:29.563Z"
     },
     {
       "task_type": "confirm_fair_dates",
@@ -1309,7 +1254,7 @@
       "status": "open",
       "source_url": null,
       "approval_status": "needs_human_review",
-      "createdAt": "2026-06-21T17:00:18.913Z"
+      "createdAt": "2026-06-21T17:43:29.563Z"
     },
     {
       "task_type": "confirm_fair_dates",
@@ -1322,7 +1267,7 @@
       "status": "open",
       "source_url": null,
       "approval_status": "needs_human_review",
-      "createdAt": "2026-06-21T17:00:18.913Z"
+      "createdAt": "2026-06-21T17:43:29.563Z"
     },
     {
       "task_type": "confirm_fair_dates",
@@ -1335,7 +1280,7 @@
       "status": "open",
       "source_url": null,
       "approval_status": "needs_human_review",
-      "createdAt": "2026-06-21T17:00:18.913Z"
+      "createdAt": "2026-06-21T17:43:29.563Z"
     },
     {
       "task_type": "confirm_fair_dates",
@@ -1348,7 +1293,7 @@
       "status": "open",
       "source_url": null,
       "approval_status": "needs_human_review",
-      "createdAt": "2026-06-21T17:00:18.913Z"
+      "createdAt": "2026-06-21T17:43:29.563Z"
     },
     {
       "task_type": "feed_attachment",
@@ -1359,7 +1304,7 @@
       "suggested_query": "Chicot County Arkansas school church calendar feed",
       "priority": "medium",
       "status": "open",
-      "createdAt": "2026-06-21T17:00:18.912Z"
+      "createdAt": "2026-06-21T17:43:29.562Z"
     },
     {
       "task_type": "feed_attachment",
@@ -1370,7 +1315,7 @@
       "suggested_query": "Desha County Arkansas school church calendar feed",
       "priority": "medium",
       "status": "open",
-      "createdAt": "2026-06-21T17:00:18.912Z"
+      "createdAt": "2026-06-21T17:43:29.562Z"
     },
     {
       "task_type": "feed_attachment",
@@ -1381,7 +1326,7 @@
       "suggested_query": "Poinsett County Arkansas school church calendar feed",
       "priority": "medium",
       "status": "open",
-      "createdAt": "2026-06-21T17:00:18.912Z"
+      "createdAt": "2026-06-21T17:43:29.562Z"
     },
     {
       "task_type": "feed_attachment",
@@ -1392,7 +1337,7 @@
       "suggested_query": "Izard County Arkansas school church calendar feed",
       "priority": "medium",
       "status": "open",
-      "createdAt": "2026-06-21T17:00:18.912Z"
+      "createdAt": "2026-06-21T17:43:29.562Z"
     },
     {
       "task_type": "feed_attachment",
@@ -1403,7 +1348,7 @@
       "suggested_query": "Ashley County Arkansas school church calendar feed",
       "priority": "medium",
       "status": "open",
-      "createdAt": "2026-06-21T17:00:18.912Z"
+      "createdAt": "2026-06-21T17:43:29.562Z"
     },
     {
       "task_type": "feed_attachment",
@@ -1414,7 +1359,7 @@
       "suggested_query": "Sharp County Arkansas school church calendar feed",
       "priority": "medium",
       "status": "open",
-      "createdAt": "2026-06-21T17:00:18.912Z"
+      "createdAt": "2026-06-21T17:43:29.562Z"
     },
     {
       "task_type": "feed_attachment",
@@ -1425,7 +1370,7 @@
       "suggested_query": "Mississippi County Arkansas school church calendar feed",
       "priority": "medium",
       "status": "open",
-      "createdAt": "2026-06-21T17:00:18.912Z"
+      "createdAt": "2026-06-21T17:43:29.562Z"
     },
     {
       "task_type": "feed_attachment",
@@ -1436,7 +1381,7 @@
       "suggested_query": "Arkansas County Arkansas school church calendar feed",
       "priority": "medium",
       "status": "open",
-      "createdAt": "2026-06-21T17:00:18.912Z"
+      "createdAt": "2026-06-21T17:43:29.562Z"
     },
     {
       "task_type": "feed_attachment",
@@ -1447,7 +1392,7 @@
       "suggested_query": "Woodruff County Arkansas school church calendar feed",
       "priority": "medium",
       "status": "open",
-      "createdAt": "2026-06-21T17:00:18.912Z"
+      "createdAt": "2026-06-21T17:43:29.562Z"
     },
     {
       "task_type": "feed_attachment",
@@ -1458,7 +1403,7 @@
       "suggested_query": "Ouachita County Arkansas school church calendar feed",
       "priority": "medium",
       "status": "open",
-      "createdAt": "2026-06-21T17:00:18.912Z"
+      "createdAt": "2026-06-21T17:43:29.562Z"
     },
     {
       "task_type": "feed_attachment",
@@ -1469,7 +1414,7 @@
       "suggested_query": "Drew County Arkansas school church calendar feed",
       "priority": "medium",
       "status": "open",
-      "createdAt": "2026-06-21T17:00:18.912Z"
+      "createdAt": "2026-06-21T17:43:29.562Z"
     },
     {
       "task_type": "feed_attachment",
@@ -1480,7 +1425,7 @@
       "suggested_query": "Hot Spring County Arkansas school church calendar feed",
       "priority": "medium",
       "status": "open",
-      "createdAt": "2026-06-21T17:00:18.912Z"
+      "createdAt": "2026-06-21T17:43:29.562Z"
     },
     {
       "task_type": "feed_attachment",
@@ -1491,7 +1436,7 @@
       "suggested_query": "Phillips County Arkansas school church calendar feed",
       "priority": "medium",
       "status": "open",
-      "createdAt": "2026-06-21T17:00:18.912Z"
+      "createdAt": "2026-06-21T17:43:29.562Z"
     },
     {
       "task_type": "feed_attachment",
@@ -1502,7 +1447,7 @@
       "suggested_query": "Yell County Arkansas school church calendar feed",
       "priority": "medium",
       "status": "open",
-      "createdAt": "2026-06-21T17:00:18.912Z"
+      "createdAt": "2026-06-21T17:43:29.562Z"
     },
     {
       "task_type": "feed_attachment",
@@ -1513,7 +1458,7 @@
       "suggested_query": "Jackson County Arkansas school church calendar feed",
       "priority": "medium",
       "status": "open",
-      "createdAt": "2026-06-21T17:00:18.912Z"
+      "createdAt": "2026-06-21T17:43:29.562Z"
     },
     {
       "task_type": "feed_attachment",
@@ -1524,7 +1469,7 @@
       "suggested_query": "Cleburne County Arkansas school church calendar feed",
       "priority": "medium",
       "status": "open",
-      "createdAt": "2026-06-21T17:00:18.912Z"
+      "createdAt": "2026-06-21T17:43:29.562Z"
     },
     {
       "task_type": "feed_attachment",
@@ -1535,7 +1480,7 @@
       "suggested_query": "Prairie County Arkansas school church calendar feed",
       "priority": "medium",
       "status": "open",
-      "createdAt": "2026-06-21T17:00:18.912Z"
+      "createdAt": "2026-06-21T17:43:29.562Z"
     },
     {
       "task_type": "feed_attachment",
@@ -1546,7 +1491,7 @@
       "suggested_query": "Faulkner County Arkansas school church calendar feed",
       "priority": "medium",
       "status": "open",
-      "createdAt": "2026-06-21T17:00:18.912Z"
+      "createdAt": "2026-06-21T17:43:29.562Z"
     },
     {
       "task_type": "feed_attachment",
@@ -1557,7 +1502,7 @@
       "suggested_query": "Dallas County Arkansas school church calendar feed",
       "priority": "medium",
       "status": "open",
-      "createdAt": "2026-06-21T17:00:18.912Z"
+      "createdAt": "2026-06-21T17:43:29.562Z"
     },
     {
       "task_type": "feed_attachment",
@@ -1568,7 +1513,7 @@
       "suggested_query": "Monroe County Arkansas school church calendar feed",
       "priority": "medium",
       "status": "open",
-      "createdAt": "2026-06-21T17:00:18.912Z"
+      "createdAt": "2026-06-21T17:43:29.562Z"
     },
     {
       "task_type": "feed_attachment",
@@ -1579,7 +1524,7 @@
       "suggested_query": "Pope County Arkansas school church calendar feed",
       "priority": "medium",
       "status": "open",
-      "createdAt": "2026-06-21T17:00:18.912Z"
+      "createdAt": "2026-06-21T17:43:29.562Z"
     },
     {
       "task_type": "feed_attachment",
@@ -1590,7 +1535,7 @@
       "suggested_query": "Little River County Arkansas school church calendar feed",
       "priority": "medium",
       "status": "open",
-      "createdAt": "2026-06-21T17:00:18.912Z"
+      "createdAt": "2026-06-21T17:43:29.562Z"
     },
     {
       "task_type": "feed_attachment",
@@ -1601,7 +1546,7 @@
       "suggested_query": "Independence County Arkansas school church calendar feed",
       "priority": "medium",
       "status": "open",
-      "createdAt": "2026-06-21T17:00:18.912Z"
+      "createdAt": "2026-06-21T17:43:29.562Z"
     },
     {
       "task_type": "feed_attachment",
@@ -1612,7 +1557,7 @@
       "suggested_query": "Carroll County Arkansas school church calendar feed",
       "priority": "medium",
       "status": "open",
-      "createdAt": "2026-06-21T17:00:18.912Z"
+      "createdAt": "2026-06-21T17:43:29.562Z"
     },
     {
       "task_type": "feed_attachment",
@@ -1623,7 +1568,7 @@
       "suggested_query": "Perry County Arkansas school church calendar feed",
       "priority": "medium",
       "status": "open",
-      "createdAt": "2026-06-21T17:00:18.912Z"
+      "createdAt": "2026-06-21T17:43:29.562Z"
     },
     {
       "task_type": "feed_attachment",
@@ -1634,7 +1579,7 @@
       "suggested_query": "St. Francis County Arkansas school church calendar feed",
       "priority": "medium",
       "status": "open",
-      "createdAt": "2026-06-21T17:00:18.912Z"
+      "createdAt": "2026-06-21T17:43:29.562Z"
     },
     {
       "task_type": "feed_attachment",
@@ -1645,7 +1590,7 @@
       "suggested_query": "Crittenden County Arkansas school church calendar feed",
       "priority": "medium",
       "status": "open",
-      "createdAt": "2026-06-21T17:00:18.912Z"
+      "createdAt": "2026-06-21T17:43:29.562Z"
     },
     {
       "task_type": "feed_attachment",
@@ -1656,7 +1601,7 @@
       "suggested_query": "Clark County Arkansas school church calendar feed",
       "priority": "medium",
       "status": "open",
-      "createdAt": "2026-06-21T17:00:18.912Z"
+      "createdAt": "2026-06-21T17:43:29.562Z"
     },
     {
       "task_type": "feed_attachment",
@@ -1667,7 +1612,7 @@
       "suggested_query": "Van Buren County Arkansas school church calendar feed",
       "priority": "medium",
       "status": "open",
-      "createdAt": "2026-06-21T17:00:18.912Z"
+      "createdAt": "2026-06-21T17:43:29.562Z"
     },
     {
       "task_type": "feed_attachment",
@@ -1678,7 +1623,7 @@
       "suggested_query": "Craighead County Arkansas school church calendar feed",
       "priority": "medium",
       "status": "open",
-      "createdAt": "2026-06-21T17:00:18.912Z"
+      "createdAt": "2026-06-21T17:43:29.562Z"
     },
     {
       "task_type": "feed_attachment",
@@ -1689,7 +1634,7 @@
       "suggested_query": "Washington County Arkansas school church calendar feed",
       "priority": "medium",
       "status": "open",
-      "createdAt": "2026-06-21T17:00:18.912Z"
+      "createdAt": "2026-06-21T17:43:29.562Z"
     },
     {
       "task_type": "feed_attachment",
@@ -1700,7 +1645,7 @@
       "suggested_query": "Benton County Arkansas school church calendar feed",
       "priority": "medium",
       "status": "open",
-      "createdAt": "2026-06-21T17:00:18.912Z"
+      "createdAt": "2026-06-21T17:43:29.562Z"
     },
     {
       "task_type": "feed_attachment",
@@ -1711,7 +1656,7 @@
       "suggested_query": "White County Arkansas school church calendar feed",
       "priority": "medium",
       "status": "open",
-      "createdAt": "2026-06-21T17:00:18.912Z"
+      "createdAt": "2026-06-21T17:43:29.562Z"
     },
     {
       "task_type": "feed_attachment",
@@ -1722,7 +1667,7 @@
       "suggested_query": "Logan County Arkansas school church calendar feed",
       "priority": "medium",
       "status": "open",
-      "createdAt": "2026-06-21T17:00:18.912Z"
+      "createdAt": "2026-06-21T17:43:29.562Z"
     },
     {
       "task_type": "feed_attachment",
@@ -1733,7 +1678,7 @@
       "suggested_query": "Clay County Arkansas school church calendar feed",
       "priority": "medium",
       "status": "open",
-      "createdAt": "2026-06-21T17:00:18.912Z"
+      "createdAt": "2026-06-21T17:43:29.562Z"
     },
     {
       "task_type": "feed_attachment",
@@ -1744,7 +1689,7 @@
       "suggested_query": "Cross County Arkansas school church calendar feed",
       "priority": "medium",
       "status": "open",
-      "createdAt": "2026-06-21T17:00:18.912Z"
+      "createdAt": "2026-06-21T17:43:29.562Z"
     },
     {
       "task_type": "feed_attachment",
@@ -1755,7 +1700,7 @@
       "suggested_query": "Boone County Arkansas school church calendar feed",
       "priority": "medium",
       "status": "open",
-      "createdAt": "2026-06-21T17:00:18.912Z"
+      "createdAt": "2026-06-21T17:43:29.562Z"
     },
     {
       "task_type": "feed_attachment",
@@ -1766,7 +1711,7 @@
       "suggested_query": "Lee County Arkansas school church calendar feed",
       "priority": "medium",
       "status": "open",
-      "createdAt": "2026-06-21T17:00:18.912Z"
+      "createdAt": "2026-06-21T17:43:29.562Z"
     },
     {
       "task_type": "feed_attachment",
@@ -1777,18 +1722,18 @@
       "suggested_query": "Greene County Arkansas school church calendar feed",
       "priority": "medium",
       "status": "open",
-      "createdAt": "2026-06-21T17:00:18.912Z"
+      "createdAt": "2026-06-21T17:43:29.562Z"
     },
     {
       "task_type": "source_confirmation",
       "county": null,
       "city": null,
       "entity": "events_missing_sources",
-      "reason": "649 events need source URL confirmation.",
+      "reason": "1922 events need source URL confirmation.",
       "suggested_query": "Review events flagged needsSourceConfirmation in event index",
       "priority": "medium",
       "status": "open",
-      "createdAt": "2026-06-21T17:00:18.913Z"
+      "createdAt": "2026-06-21T17:43:29.563Z"
     },
     {
       "task_type": "confirm_fair_dates",
@@ -1801,7 +1746,7 @@
       "status": "open",
       "source_url": null,
       "approval_status": "needs_human_review",
-      "createdAt": "2026-06-21T17:00:18.913Z"
+      "createdAt": "2026-06-21T17:43:29.563Z"
     },
     {
       "task_type": "confirm_fair_dates",
@@ -1814,7 +1759,7 @@
       "status": "open",
       "source_url": null,
       "approval_status": "needs_human_review",
-      "createdAt": "2026-06-21T17:00:18.913Z"
+      "createdAt": "2026-06-21T17:43:29.563Z"
     },
     {
       "task_type": "confirm_fair_dates",
@@ -1827,7 +1772,7 @@
       "status": "open",
       "source_url": null,
       "approval_status": "needs_human_review",
-      "createdAt": "2026-06-21T17:00:18.913Z"
+      "createdAt": "2026-06-21T17:43:29.563Z"
     }
   ]
 }

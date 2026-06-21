@@ -14,7 +14,9 @@ import {
 } from "lucide-react";
 import type { CivicEvent } from "../../lib/types";
 import type { EventDossierBundle } from "../../lib/intelligence/eventDossierTypes";
-import { whyEventMatters } from "../../lib/ai/eventDossierBuilder";
+import { whyEventMatters, whyEventMattersPublic } from "../../lib/ai/eventDossierBuilder";
+import { getNarrativeForEvent } from "../../lib/narratives/narrativeRegistry";
+import { CommunityNarrativePanel } from "../narratives/CommunityNarrativePanel";
 import { scoreEventForCampaign } from "../../lib/campaigns/eventIntel";
 import { countySlug } from "../../lib/counties";
 import { citySlug, getCityDossier, getCountyDossier, voteTargetGap } from "../../lib/local-intelligence/registry";
@@ -41,6 +43,8 @@ interface Props {
   presence: EventPresence;
   onShare: () => void;
   campaignSlug?: string;
+  /** When true (default), hide campaign intelligence from public visitors. */
+  publicMode?: boolean;
 }
 
 function Fact({ label, value, unknown = "Not yet verified" }: { label: string; value?: string | null; unknown?: string }) {
@@ -71,9 +75,11 @@ function formatLabel(raw: string | null | undefined): string {
   return raw.replace(/_/g, " ").replace(/\b\w/g, (c) => c.toUpperCase());
 }
 
-export function EventIntelligenceDossierView({ event, bundle, presence, onShare, campaignSlug }: Props) {
+export function EventIntelligenceDossierView({ event, bundle, presence, onShare, campaignSlug, publicMode = true }: Props) {
   const { dossier, tasks } = bundle;
   const scored = scoreEventForCampaign(event);
+  const showCampaignIntel = !publicMode || Boolean(campaignSlug);
+  const narrative = getNarrativeForEvent(event);
   const cityDossier = event.city ? getCityDossier(event.city) : undefined;
   const countyDossier = event.county ? getCountyDossier(event.county) : undefined;
   const countyGap = countyDossier ? voteTargetGap(countyDossier) : null;
@@ -93,9 +99,13 @@ export function EventIntelligenceDossierView({ event, bundle, presence, onShare,
         <PresenceBadges presence={presence} eventTitle={event.title} />
         <div className="flex flex-wrap gap-2 items-center mb-3">
           <CategoryBadge category={event.category} />
-          <LayerBadge layer={scored.layer as IntelligenceLayer} compact />
-          <span className="chip chip-score">PO {scored.politicalOpportunityScore}</span>
-          <DensityBadge score={scored.relationshipDensityScore} />
+          {showCampaignIntel && (
+            <>
+              <LayerBadge layer={scored.layer as IntelligenceLayer} compact />
+              <span className="chip chip-score">PO {scored.politicalOpportunityScore}</span>
+              <DensityBadge score={scored.relationshipDensityScore} />
+            </>
+          )}
           <span className={`chip ${dossier.verificationStatus === "verified" ? "chip-active" : "chip-muted"}`}>
             {confidenceLabel}
           </span>
@@ -106,16 +116,16 @@ export function EventIntelligenceDossierView({ event, bundle, presence, onShare,
           <MapPin className="h-4 w-4 text-ark-sage" />
           {[event.city, `${event.county} County, AR`].filter(Boolean).join(" · ")}
         </p>
-        {campaignSlug ? (
+        {showCampaignIntel && campaignSlug ? (
           <LocalGeographyIntelStrip event={event} campaignSlug={campaignSlug} />
-        ) : (cityDossier || countyDossier) && (
+        ) : showCampaignIntel && (cityDossier || countyDossier) ? (
           <div className="mt-3 flex flex-wrap gap-2 text-xs">
             {cityDossier && <span className="chip chip-muted">City priority #{cityDossier.priorityRank}</span>}
             {countyGap != null && <span className="chip chip-muted">County vote gap {countyGap.toLocaleString()}</span>}
             {localConfidence != null && <span className="chip chip-muted">Local confidence {localConfidence}%</span>}
             <Link to="/campaigns" className="chip chip-muted hover:bg-ark-wheat">Candidate dashboards →</Link>
           </div>
-        )}
+        ) : null}
       </header>
 
       {/* Quick facts */}
@@ -141,13 +151,18 @@ export function EventIntelligenceDossierView({ event, bundle, presence, onShare,
         <div className="lg:col-span-2 space-y-6">
           {politicalHistory?.historyAvailable && <PoliticalEventHistorySection dossier={politicalHistory} />}
 
-          <Section title="Why this event matters" icon={Shield}>
-            <p className="text-[var(--text-primary)] leading-relaxed">{whyEventMatters(event)}</p>
+          <Section title="About this event" icon={Shield}>
+            <p className="text-[var(--text-primary)] leading-relaxed">
+              {showCampaignIntel ? whyEventMatters(event) : whyEventMattersPublic(event)}
+            </p>
             {dossier.historicalNotes && (
               <p className="text-sm text-muted mt-3 border-t border-ark-pine/10 pt-3">{dossier.historicalNotes}</p>
             )}
           </Section>
 
+          {narrative && <CommunityNarrativePanel narrative={narrative} compact />}
+
+          {showCampaignIntel && (
           <Section title="Candidate opportunity" icon={Users}>
             <p className="text-[var(--text-primary)]">{dossier.candidateGuidance || "Local verification needed before campaign deployment."}</p>
             {dossier.eventFormat && (
@@ -160,6 +175,7 @@ export function EventIntelligenceDossierView({ event, bundle, presence, onShare,
               <p className="mt-2 text-sm text-amber-900 bg-amber-50 rounded-lg px-3 py-2">{dossier.campaignRiskNotes}</p>
             )}
           </Section>
+          )}
 
           {(dossier.localCustoms || dossier.confirmedFacts?.length || dossier.likelyInferences?.length || traditions.length > 0) && (
             <Section title="Local intelligence" icon={HelpCircle}>

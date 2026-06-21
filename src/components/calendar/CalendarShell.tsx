@@ -2,7 +2,11 @@ import { useEffect, useMemo, useState } from "react";
 import { Link, Navigate, useLocation, useSearchParams } from "react-router-dom";
 import { AlertTriangle, Database } from "lucide-react";
 import { fetchEventsWithMeta } from "../../lib/api";
-import { applyCalendarFilters, type CalendarFilterState } from "../../lib/calendar/calendarFilters";
+import {
+  applyCalendarFilters,
+  calendarFiltersFromSearchParams,
+  type CalendarFilterState,
+} from "../../lib/calendar/calendarFilters";
 import { parseCalendarDate, type CalendarView } from "../../lib/calendar/calendarUtils";
 import type { CivicEvent } from "../../lib/types";
 import { CalendarToolbar } from "./CalendarToolbar";
@@ -26,11 +30,15 @@ export function CalendarShell({ defaultView }: { defaultView?: CalendarView }) {
   const [events, setEvents] = useState<CivicEvent[]>([]);
   const [source, setSource] = useState<string>("loading");
   const [loading, setLoading] = useState(true);
-  const [filters, setFilters] = useState<CalendarFilterState>({});
+  const [filters, setFilters] = useState<CalendarFilterState>(() => calendarFiltersFromSearchParams(params));
+
+  useEffect(() => {
+    setFilters(calendarFiltersFromSearchParams(params));
+  }, [params]);
 
   useEffect(() => {
     setLoading(true);
-    fetchEventsWithMeta({ limit: 500 })
+    fetchEventsWithMeta({ limit: 2000 })
       .then(({ events: list, source: s }) => {
         setEvents(list);
         setSource(s);

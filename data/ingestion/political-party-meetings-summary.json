@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-06-21T17:25:21.231Z",
+  "generatedAt": "2026-06-21T17:43:25.778Z",
   "pass": "25-civic-political-infrastructure",
   "sourcesUsed": [
     "https://www.arkansasgop.org/countygop.html",
     "https://www.arkdems.org/county/*",
     "https://www.lpar.org/events/"
   ],
-  "rawMeetingRecords": 141,
-  "stagedCandidates": 402,
+  "rawMeetingRecords": 140,
+  "stagedCandidates": 1586,
   "partyCounts": {
-    "Republican": 240,
-    "Democratic": 161,
-    "Libertarian": 1,
+    "Republican": 996,
+    "Democratic": 590,
+    "Libertarian": 0,
     "Other": 0
   },
-  "countiesWithData": 76,
+  "countiesWithData": 75,
   "republicanCountiesFound": 65,
   "democraticCountyPages": 75,
-  "democraticCountiesWithMeetingInfo": 27,
-  "recurrenceNeedsReview": 60,
-  "withDates": 342,
+  "democraticCountiesWithMeetingInfo": 30,
+  "recurrenceNeedsReview": 56,
+  "withDates": 1530,
   "awaitingConfirmation": 10
 }

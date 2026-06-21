@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T17:25:25.353Z",
+  "generatedAt": "2026-06-21T17:43:28.803Z",
   "countyCount": 75,
   "thinCounties": [
     "Bradley",
@@ -8,6 +8,7 @@
     "Drew",
     "Jackson",
     "Lafayette",
+    "Lee",
     "Lincoln",
     "Pike",
     "Woodruff"
@@ -15,7 +16,7 @@
   "counties": [
     {
       "county": "Arkansas",
-      "eventCount": 6,
+      "eventCount": 20,
       "cityCount": 1,
       "thin": false
     },
@@ -27,20 +28,20 @@
     },
     {
       "county": "Baxter",
-      "eventCount": 8,
+      "eventCount": 22,
       "cityCount": 2,
       "thin": false
     },
     {
       "county": "Benton",
-      "eventCount": 33,
+      "eventCount": 47,
       "cityCount": 4,
       "thin": false
     },
     {
       "county": "Boone",
-      "eventCount": 13,
-      "cityCount": 2,
+      "eventCount": 22,
+      "cityCount": 1,
       "thin": false
     },
     {
@@ -57,7 +58,7 @@
     },
     {
       "county": "Carroll",
-      "eventCount": 12,
+      "eventCount": 40,
       "cityCount": 2,
       "thin": false
     },
@@ -69,73 +70,73 @@
     },
     {
       "county": "Clark",
-      "eventCount": 12,
+      "eventCount": 40,
       "cityCount": 1,
       "thin": false
     },
     {
       "county": "Clay",
-      "eventCount": 7,
+      "eventCount": 3,
       "cityCount": 2,
       "thin": false
     },
     {
       "county": "Cleburne",
-      "eventCount": 8,
+      "eventCount": 4,
       "cityCount": 2,
       "thin": false
     },
     {
       "county": "Cleveland",
-      "eventCount": 5,
+      "eventCount": 19,
       "cityCount": 0,
       "thin": false
     },
     {
       "county": "Columbia",
-      "eventCount": 8,
+      "eventCount": 22,
       "cityCount": 1,
       "thin": false
     },
     {
       "county": "Conway",
-      "eventCount": 12,
+      "eventCount": 40,
       "cityCount": 1,
       "thin": false
     },
     {
       "county": "Craighead",
-      "eventCount": 15,
+      "eventCount": 29,
       "cityCount": 1,
       "thin": false
     },
     {
       "county": "Crawford",
-      "eventCount": 11,
+      "eventCount": 39,
       "cityCount": 2,
       "thin": false
     },
     {
       "county": "Crittenden",
-      "eventCount": 7,
-      "cityCount": 1,
+      "eventCount": 39,
+      "cityCount": 2,
       "thin": false
     },
     {
       "county": "Cross",
-      "eventCount": 5,
+      "eventCount": 19,
       "cityCount": 0,
       "thin": false
     },
     {
       "county": "Dallas",
-      "eventCount": 6,
+      "eventCount": 20,
       "cityCount": 0,
       "thin": false
     },
     {
       "county": "Desha",
-      "eventCount": 5,
+      "eventCount": 19,
       "cityCount": 0,
       "thin": false
     },
@@ -147,67 +148,67 @@
     },
     {
       "county": "Faulkner",
-      "eventCount": 24,
+      "eventCount": 52,
       "cityCount": 3,
       "thin": false
     },
     {
       "county": "Franklin",
-      "eventCount": 6,
+      "eventCount": 20,
       "cityCount": 0,
       "thin": false
     },
     {
       "county": "Fulton",
-      "eventCount": 12,
+      "eventCount": 40,
       "cityCount": 2,
       "thin": false
     },
     {
       "county": "Garland",
-      "eventCount": 14,
+      "eventCount": 46,
       "cityCount": 2,
       "thin": false
     },
     {
       "county": "Grant",
-      "eventCount": 6,
+      "eventCount": 20,
       "cityCount": 0,
       "thin": false
     },
     {
       "county": "Greene",
-      "eventCount": 11,
+      "eventCount": 39,
       "cityCount": 1,
       "thin": false
     },
     {
       "county": "Hempstead",
-      "eventCount": 12,
+      "eventCount": 40,
       "cityCount": 1,
       "thin": false
     },
     {
       "county": "Hot Spring",
-      "eventCount": 7,
+      "eventCount": 21,
       "cityCount": 1,
       "thin": false
     },
     {
       "county": "Howard",
-      "eventCount": 7,
+      "eventCount": 21,
       "cityCount": 1,
       "thin": false
     },
     {
       "county": "Independence",
-      "eventCount": 14,
+      "eventCount": 42,
       "cityCount": 1,
       "thin": false
     },
     {
       "county": "Izard",
-      "eventCount": 9,
+      "eventCount": 37,
       "cityCount": 0,
       "thin": false
     },
@@ -219,13 +220,13 @@
     },
     {
       "county": "Jefferson",
-      "eventCount": 13,
+      "eventCount": 27,
       "cityCount": 2,
       "thin": false
     },
     {
       "county": "Johnson",
-      "eventCount": 8,
+      "eventCount": 22,
       "cityCount": 1,
       "thin": false
     },
@@ -237,15 +238,15 @@
     },
     {
       "county": "Lawrence",
-      "eventCount": 7,
+      "eventCount": 21,
       "cityCount": 1,
       "thin": false
     },
     {
       "county": "Lee",
-      "eventCount": 5,
+      "eventCount": 1,
       "cityCount": 0,
-      "thin": false
+      "thin": true
     },
     {
       "county": "Lincoln",
@@ -255,61 +256,61 @@
     },
     {
       "county": "Little River",
-      "eventCount": 6,
+      "eventCount": 20,
       "cityCount": 1,
       "thin": false
     },
     {
       "county": "Logan",
-      "eventCount": 9,
+      "eventCount": 37,
       "cityCount": 0,
       "thin": false
     },
     {
       "county": "Lonoke",
-      "eventCount": 14,
+      "eventCount": 42,
       "cityCount": 2,
       "thin": false
     },
     {
       "county": "Madison",
-      "eventCount": 6,
+      "eventCount": 20,
       "cityCount": 1,
       "thin": false
     },
     {
       "county": "Marion",
-      "eventCount": 7,
+      "eventCount": 21,
       "cityCount": 1,
       "thin": false
     },
     {
       "county": "Miller",
-      "eventCount": 5,
-      "cityCount": 0,
+      "eventCount": 37,
+      "cityCount": 1,
       "thin": false
     },
     {
       "county": "Mississippi",
-      "eventCount": 6,
+      "eventCount": 20,
       "cityCount": 0,
       "thin": false
     },
     {
       "county": "Monroe",
-      "eventCount": 9,
+      "eventCount": 37,
       "cityCount": 0,
       "thin": false
     },
     {
       "county": "Montgomery",
-      "eventCount": 11,
+      "eventCount": 39,
       "cityCount": 2,
       "thin": false
     },
     {
       "county": "Nevada",
-      "eventCount": 10,
+      "eventCount": 38,
       "cityCount": 1,
       "thin": false
     },
@@ -321,13 +322,13 @@
     },
     {
       "county": "Ouachita",
-      "eventCount": 9,
+      "eventCount": 37,
       "cityCount": 0,
       "thin": false
     },
     {
       "county": "Perry",
-      "eventCount": 5,
+      "eventCount": 19,
       "cityCount": 0,
       "thin": false
     },
@@ -345,19 +346,19 @@
     },
     {
       "county": "Poinsett",
-      "eventCount": 5,
+      "eventCount": 19,
       "cityCount": 0,
       "thin": false
     },
     {
       "county": "Polk",
-      "eventCount": 5,
+      "eventCount": 19,
       "cityCount": 0,
       "thin": false
     },
     {
       "county": "Pope",
-      "eventCount": 8,
+      "eventCount": 22,
       "cityCount": 1,
       "thin": false
     },
@@ -369,85 +370,85 @@
     },
     {
       "county": "Pulaski",
-      "eventCount": 35,
+      "eventCount": 63,
       "cityCount": 5,
       "thin": false
     },
     {
       "county": "Randolph",
-      "eventCount": 11,
+      "eventCount": 39,
       "cityCount": 1,
       "thin": false
     },
     {
       "county": "St. Francis",
-      "eventCount": 10,
+      "eventCount": 38,
       "cityCount": 1,
       "thin": false
     },
     {
       "county": "Saline",
-      "eventCount": 12,
+      "eventCount": 26,
       "cityCount": 2,
       "thin": false
     },
     {
       "county": "Scott",
-      "eventCount": 5,
+      "eventCount": 19,
       "cityCount": 0,
       "thin": false
     },
     {
       "county": "Searcy",
-      "eventCount": 6,
+      "eventCount": 20,
       "cityCount": 1,
       "thin": false
     },
     {
       "county": "Sebastian",
-      "eventCount": 16,
+      "eventCount": 30,
       "cityCount": 2,
       "thin": false
     },
     {
       "county": "Sevier",
-      "eventCount": 5,
+      "eventCount": 19,
       "cityCount": 0,
       "thin": false
     },
     {
       "county": "Sharp",
-      "eventCount": 7,
+      "eventCount": 21,
       "cityCount": 2,
       "thin": false
     },
     {
       "county": "Stone",
-      "eventCount": 9,
+      "eventCount": 37,
       "cityCount": 0,
       "thin": false
     },
     {
       "county": "Union",
-      "eventCount": 8,
+      "eventCount": 22,
       "cityCount": 2,
       "thin": false
     },
     {
       "county": "Van Buren",
-      "eventCount": 13,
+      "eventCount": 41,
       "cityCount": 2,
       "thin": false
     },
     {
       "county": "Washington",
-      "eventCount": 107,
+      "eventCount": 135,
       "cityCount": 2,
       "thin": false
     },
     {
       "county": "White",
-      "eventCount": 17,
+      "eventCount": 31,
       "cityCount": 3,
       "thin": false
     },
@@ -459,7 +460,7 @@
     },
     {
       "county": "Yell",
-      "eventCount": 13,
+      "eventCount": 23,
       "cityCount": 3,
       "thin": false
     }
@@ -471,18 +472,48 @@
       "eventCount": 95
     },
     {
+      "city": "Jonesboro",
+      "county": "Craighead",
+      "eventCount": 27
+    },
+    {
+      "city": "Springdale",
+      "county": "Washington",
+      "eventCount": 20
+    },
+    {
+      "city": "Eureka Springs",
+      "county": "Carroll",
+      "eventCount": 20
+    },
+    {
+      "city": "Clinton",
+      "county": "Van Buren",
+      "eventCount": 20
+    },
+    {
+      "city": "Stuttgart",
+      "county": "Arkansas",
+      "eventCount": 19
+    },
+    {
+      "city": "West Memphis",
+      "county": "Crittenden",
+      "eventCount": 19
+    },
+    {
       "city": "Little Rock",
       "county": "Pulaski",
       "eventCount": 18
     },
     {
-      "city": "Bella Vista",
-      "county": "Benton",
-      "eventCount": 13
+      "city": "Texarkana",
+      "county": "Miller",
+      "eventCount": 18
     },
     {
-      "city": "Jonesboro",
-      "county": "Craighead",
+      "city": "Bella Vista",
+      "county": "Benton",
       "eventCount": 13
     },
     {
@@ -504,11 +535,6 @@
       "city": "Hot Springs",
       "county": "Garland",
       "eventCount": 7
-    },
-    {
-      "city": "Springdale",
-      "county": "Washington",
-      "eventCount": 6
     },
     {
       "city": "Searcy",
@@ -533,21 +559,6 @@
     {
       "city": "Bryant",
       "county": "Saline",
-      "eventCount": 5
-    },
-    {
-      "city": "harrison",
-      "county": "Boone",
-      "eventCount": 5
-    },
-    {
-      "city": "Jonesboro",
-      "county": "PM Craighead",
-      "eventCount": 5
-    },
-    {
-      "city": "Stuttgart",
-      "county": "Arkansas",
       "eventCount": 5
     },
     {
@@ -598,11 +609,6 @@
     {
       "city": "Jasper",
       "county": "Newton",
-      "eventCount": 2
-    },
-    {
-      "city": "Eureka Springs",
-      "county": "Carroll",
       "eventCount": 2
     },
     {
@@ -658,11 +664,6 @@
     {
       "city": "Randolph",
       "county": "Randolph",
-      "eventCount": 2
-    },
-    {
-      "city": "Clinton",
-      "county": "Van Buren",
       "eventCount": 2
     },
     {

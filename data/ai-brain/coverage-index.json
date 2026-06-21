@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T17:25:25.368Z",
+  "generatedAt": "2026-06-21T17:43:28.823Z",
   "thinCounties": [
     "Bradley",
     "Calhoun",
@@ -7,6 +7,7 @@
     "Drew",
     "Jackson",
     "Lafayette",
+    "Lee",
     "Lincoln",
     "Pike",
     "Woodruff"
@@ -52,7 +53,7 @@
     "Lee",
     "Greene"
   ],
-  "eventsNeedingSource": 798,
+  "eventsNeedingSource": 1922,
   "eventsNeedingSourceSlugs": [
     "20-week-execution-begins-central-metro-2026-06-15",
     "quitman-fundraiser-2026-06-16",
@@ -255,6 +256,6 @@
     "saline-county-gotv-push-2026-10-12",
     "recovery-story-backlog-early-vote-prep-2026-10-18"
   ],
-  "totalEvents": 798,
+  "totalEvents": 1922,
   "totalCounties": 75
 }

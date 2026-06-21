@@ -1,0 +1,1246 @@
+{
+  "generatedAt": "2026-06-21T17:33:18.077Z",
+  "count": 155,
+  "queue": [
+    {
+      "entityType": "festival",
+      "slug": "catholic-point-spaghetti",
+      "title": "Catholic Point Spaghetti and Sausage Dinner",
+      "county": "Conway",
+      "priority": "high",
+      "queuedAt": "2026-06-21T17:33:18.074Z"
+    },
+    {
+      "entityType": "festival",
+      "slug": "bradley-pink-tomato",
+      "title": "Bradley County Pink Tomato Festival",
+      "county": "Bradley",
+      "priority": "high",
+      "queuedAt": "2026-06-21T17:33:18.074Z"
+    },
+    {
+      "entityType": "festival",
+      "slug": "hope-watermelon",
+      "title": "Hope Watermelon Festival",
+      "county": "Hempstead",
+      "priority": "high",
+      "queuedAt": "2026-06-21T17:33:18.074Z"
+    },
+    {
+      "entityType": "festival",
+      "slug": "johnson-county-peach",
+      "title": "Johnson County Peach Festival",
+      "county": "Johnson",
+      "priority": "high",
+      "queuedAt": "2026-06-21T17:33:18.074Z"
+    },
+    {
+      "entityType": "festival",
+      "slug": "duck-gumbo-cookoff",
+      "title": "World Championship Duck Gumbo Cookoff",
+      "county": "Arkansas",
+      "priority": "high",
+      "queuedAt": "2026-06-21T17:33:18.074Z"
+    },
+    {
+      "entityType": "festival",
+      "slug": "st-mary-brisket-unverified",
+      "title": "St. Mary / Saint Vincent Community BBQ or Brisket Fundraiser",
+      "county": "Conway",
+      "priority": "high",
+      "queuedAt": "2026-06-21T17:33:18.074Z"
+    },
+    {
+      "entityType": "festival",
+      "slug": "county-fair-circuit",
+      "title": "Arkansas County Fair Circuit (75 counties)",
+      "county": null,
+      "priority": "high",
+      "queuedAt": "2026-06-21T17:33:18.074Z"
+    },
+    {
+      "entityType": "festival",
+      "slug": "arkansas-county-fair",
+      "title": "Arkansas County Fair",
+      "county": "Arkansas",
+      "priority": "high",
+      "queuedAt": "2026-06-21T17:33:18.074Z"
+    },
+    {
+      "entityType": "festival",
+      "slug": "ashley-county-fair",
+      "title": "Ashley County Fair",
+      "county": "Ashley",
+      "priority": "high",
+      "queuedAt": "2026-06-21T17:33:18.074Z"
+    },
+    {
+      "entityType": "festival",
+      "slug": "baxter-county-fair",
+      "title": "Baxter County Fair",
+      "county": "Baxter",
+      "priority": "high",
+      "queuedAt": "2026-06-21T17:33:18.074Z"
+    },
+    {
+      "entityType": "festival",
+      "slug": "benton-county-fair",
+      "title": "Benton County Fair",
+      "county": "Benton",
+      "priority": "high",
+      "queuedAt": "2026-06-21T17:33:18.074Z"
+    },
+    {
+      "entityType": "festival",
+      "slug": "boone-county-fair",
+      "title": "Boone County 4-H Fair",
+      "county": "Boone",
+      "priority": "high",
+      "queuedAt": "2026-06-21T17:33:18.074Z"
+    },
+    {
+      "entityType": "festival",
+      "slug": "bradley-county-fair",
+      "title": "Bradley County Fair",
+      "county": "Bradley",
+      "priority": "high",
+      "queuedAt": "2026-06-21T17:33:18.074Z"
+    },
+    {
+      "entityType": "festival",
+      "slug": "calhoun-county-fair",
+      "title": "Calhoun County Fair",
+      "county": "Calhoun",
+      "priority": "high",
+      "queuedAt": "2026-06-21T17:33:18.074Z"
+    },
+    {
+      "entityType": "festival",
+      "slug": "carroll-county-fair",
+      "title": "Carroll County 4-H & FFA Fair",
+      "county": "Carroll",
+      "priority": "high",
+      "queuedAt": "2026-06-21T17:33:18.074Z"
+    },
+    {
+      "entityType": "festival",
+      "slug": "chicot-county-fair",
+      "title": "Chicot County Fair",
+      "county": "Chicot",
+      "priority": "high",
+      "queuedAt": "2026-06-21T17:33:18.074Z"
+    },
+    {
+      "entityType": "festival",
+      "slug": "clark-county-fair",
+      "title": "Clark County Fair",
+      "county": "Clark",
+      "priority": "high",
+      "queuedAt": "2026-06-21T17:33:18.074Z"
+    },
+    {
+      "entityType": "festival",
+      "slug": "clay-county-fair",
+      "title": "Clay County Fair",
+      "county": "Clay",
+      "priority": "high",
+      "queuedAt": "2026-06-21T17:33:18.074Z"
+    },
+    {
+      "entityType": "festival",
+      "slug": "cleburne-county-fair",
+      "title": "Cleburne County Fair & Livestock Show",
+      "county": "Cleburne",
+      "priority": "high",
+      "queuedAt": "2026-06-21T17:33:18.074Z"
+    },
+    {
+      "entityType": "festival",
+      "slug": "cleveland-county-fair",
+      "title": "Cleveland County Fair",
+      "county": "Cleveland",
+      "priority": "high",
+      "queuedAt": "2026-06-21T17:33:18.074Z"
+    },
+    {
+      "entityType": "festival",
+      "slug": "columbia-county-fair",
+      "title": "Columbia County Fair & Livestock Show",
+      "county": "Columbia",
+      "priority": "high",
+      "queuedAt": "2026-06-21T17:33:18.074Z"
+    },
+    {
+      "entityType": "festival",
+      "slug": "conway-county-fair",
+      "title": "Conway County Fair",
+      "county": "Conway",
+      "priority": "high",
+      "queuedAt": "2026-06-21T17:33:18.074Z"
+    },
+    {
+      "entityType": "festival",
+      "slug": "craighead-county-fair",
+      "title": "Craighead County Fair",
+      "county": "Craighead",
+      "priority": "high",
+      "queuedAt": "2026-06-21T17:33:18.074Z"
+    },
+    {
+      "entityType": "festival",
+      "slug": "crawford-county-fair",
+      "title": "Crawford County Fair",
+      "county": "Crawford",
+      "priority": "high",
+      "queuedAt": "2026-06-21T17:33:18.074Z"
+    },
+    {
+      "entityType": "festival",
+      "slug": "crittenden-county-fair",
+      "title": "Crittenden County Fair",
+      "county": "Crittenden",
+      "priority": "high",
+      "queuedAt": "2026-06-21T17:33:18.074Z"
+    },
+    {
+      "entityType": "festival",
+      "slug": "cross-county-fair",
+      "title": "Cross County Fair",
+      "county": "Cross",
+      "priority": "high",
+      "queuedAt": "2026-06-21T17:33:18.074Z"
+    },
+    {
+      "entityType": "festival",
+      "slug": "dallas-county-fair",
+      "title": "Dallas County Fair",
+      "county": "Dallas",
+      "priority": "high",
+      "queuedAt": "2026-06-21T17:33:18.074Z"
+    },
+    {
+      "entityType": "festival",
+      "slug": "desha-county-fair",
+      "title": "Desha County Fair",
+      "county": "Desha",
+      "priority": "high",
+      "queuedAt": "2026-06-21T17:33:18.074Z"
+    },
+    {
+      "entityType": "festival",
+      "slug": "drew-county-fair",
+      "title": "Drew County Fair",
+      "county": "Drew",
+      "priority": "high",
+      "queuedAt": "2026-06-21T17:33:18.074Z"
+    },
+    {
+      "entityType": "festival",
+      "slug": "faulkner-county-fair",
+      "title": "Faulkner County Fair",
+      "county": "Faulkner",
+      "priority": "high",
+      "queuedAt": "2026-06-21T17:33:18.074Z"
+    },
+    {
+      "entityType": "festival",
+      "slug": "franklin-county-fair",
+      "title": "Franklin County Fair",
+      "county": "Franklin",
+      "priority": "high",
+      "queuedAt": "2026-06-21T17:33:18.074Z"
+    },
+    {
+      "entityType": "festival",
+      "slug": "fulton-county-fair",
+      "title": "Fulton County Fair",
+      "county": "Fulton",
+      "priority": "high",
+      "queuedAt": "2026-06-21T17:33:18.074Z"
+    },
+    {
+      "entityType": "festival",
+      "slug": "garland-county-fair",
+      "title": "Garland County Fair",
+      "county": "Garland",
+      "priority": "high",
+      "queuedAt": "2026-06-21T17:33:18.074Z"
+    },
+    {
+      "entityType": "festival",
+      "slug": "grant-county-fair",
+      "title": "Grant County Fair",
+      "county": "Grant",
+      "priority": "high",
+      "queuedAt": "2026-06-21T17:33:18.074Z"
+    },
+    {
+      "entityType": "festival",
+      "slug": "greene-county-fair",
+      "title": "Greene County Fair",
+      "county": "Greene",
+      "priority": "high",
+      "queuedAt": "2026-06-21T17:33:18.074Z"
+    },
+    {
+      "entityType": "festival",
+      "slug": "hempstead-county-fair",
+      "title": "Hempstead County Fair",
+      "county": "Hempstead",
+      "priority": "high",
+      "queuedAt": "2026-06-21T17:33:18.074Z"
+    },
+    {
+      "entityType": "festival",
+      "slug": "hot-spring-county-fair",
+      "title": "Hot Spring County Fair",
+      "county": "Hot Spring",
+      "priority": "high",
+      "queuedAt": "2026-06-21T17:33:18.074Z"
+    },
+    {
+      "entityType": "festival",
+      "slug": "howard-county-fair",
+      "title": "Howard County Fair",
+      "county": "Howard",
+      "priority": "high",
+      "queuedAt": "2026-06-21T17:33:18.074Z"
+    },
+    {
+      "entityType": "festival",
+      "slug": "independence-county-fair",
+      "title": "Independence County Fair",
+      "county": "Independence",
+      "priority": "high",
+      "queuedAt": "2026-06-21T17:33:18.074Z"
+    },
+    {
+      "entityType": "festival",
+      "slug": "izard-county-fair",
+      "title": "Izard County Fair",
+      "county": "Izard",
+      "priority": "high",
+      "queuedAt": "2026-06-21T17:33:18.074Z"
+    },
+    {
+      "entityType": "festival",
+      "slug": "jackson-county-fair",
+      "title": "Jackson County Fair",
+      "county": "Jackson",
+      "priority": "high",
+      "queuedAt": "2026-06-21T17:33:18.074Z"
+    },
+    {
+      "entityType": "festival",
+      "slug": "jefferson-county-fair",
+      "title": "Jefferson County Fair",
+      "county": "Jefferson",
+      "priority": "high",
+      "queuedAt": "2026-06-21T17:33:18.074Z"
+    },
+    {
+      "entityType": "festival",
+      "slug": "johnson-county-fair",
+      "title": "Johnson County Fair",
+      "county": "Johnson",
+      "priority": "high",
+      "queuedAt": "2026-06-21T17:33:18.074Z"
+    },
+    {
+      "entityType": "festival",
+      "slug": "lafayette-county-fair",
+      "title": "Lafayette County Fair",
+      "county": "Lafayette",
+      "priority": "high",
+      "queuedAt": "2026-06-21T17:33:18.074Z"
+    },
+    {
+      "entityType": "festival",
+      "slug": "lawrence-county-fair",
+      "title": "Lawrence County Fair",
+      "county": "Lawrence",
+      "priority": "high",
+      "queuedAt": "2026-06-21T17:33:18.074Z"
+    },
+    {
+      "entityType": "festival",
+      "slug": "lee-county-fair",
+      "title": "Lee County Fair",
+      "county": "Lee",
+      "priority": "high",
+      "queuedAt": "2026-06-21T17:33:18.074Z"
+    },
+    {
+      "entityType": "festival",
+      "slug": "lincoln-county-fair",
+      "title": "Lincoln County Fair",
+      "county": "Lincoln",
+      "priority": "high",
+      "queuedAt": "2026-06-21T17:33:18.074Z"
+    },
+    {
+      "entityType": "festival",
+      "slug": "little-river-county-fair",
+      "title": "Little River County Fair",
+      "county": "Little River",
+      "priority": "high",
+      "queuedAt": "2026-06-21T17:33:18.074Z"
+    },
+    {
+      "entityType": "festival",
+      "slug": "logan-county-fair",
+      "title": "Logan County Fair",
+      "county": "Logan",
+      "priority": "high",
+      "queuedAt": "2026-06-21T17:33:18.074Z"
+    },
+    {
+      "entityType": "festival",
+      "slug": "lonoke-county-fair",
+      "title": "Lonoke County Fair",
+      "county": "Lonoke",
+      "priority": "high",
+      "queuedAt": "2026-06-21T17:33:18.074Z"
+    },
+    {
+      "entityType": "festival",
+      "slug": "madison-county-fair",
+      "title": "Madison County Fair",
+      "county": "Madison",
+      "priority": "high",
+      "queuedAt": "2026-06-21T17:33:18.074Z"
+    },
+    {
+      "entityType": "festival",
+      "slug": "marion-county-fair",
+      "title": "Marion County Fair",
+      "county": "Marion",
+      "priority": "high",
+      "queuedAt": "2026-06-21T17:33:18.074Z"
+    },
+    {
+      "entityType": "festival",
+      "slug": "miller-county-fair",
+      "title": "Miller County Fair",
+      "county": "Miller",
+      "priority": "high",
+      "queuedAt": "2026-06-21T17:33:18.075Z"
+    },
+    {
+      "entityType": "festival",
+      "slug": "mississippi-county-fair",
+      "title": "Mississippi County Fair",
+      "county": "Mississippi",
+      "priority": "high",
+      "queuedAt": "2026-06-21T17:33:18.075Z"
+    },
+    {
+      "entityType": "festival",
+      "slug": "monroe-county-fair",
+      "title": "Monroe County Fair",
+      "county": "Monroe",
+      "priority": "high",
+      "queuedAt": "2026-06-21T17:33:18.075Z"
+    },
+    {
+      "entityType": "festival",
+      "slug": "montgomery-county-fair",
+      "title": "Montgomery County Fair",
+      "county": "Montgomery",
+      "priority": "high",
+      "queuedAt": "2026-06-21T17:33:18.075Z"
+    },
+    {
+      "entityType": "festival",
+      "slug": "nevada-county-fair",
+      "title": "Nevada County Fair",
+      "county": "Nevada",
+      "priority": "high",
+      "queuedAt": "2026-06-21T17:33:18.075Z"
+    },
+    {
+      "entityType": "festival",
+      "slug": "newton-county-fair",
+      "title": "Newton County Pun'kin Vine Fair",
+      "county": "Newton",
+      "priority": "high",
+      "queuedAt": "2026-06-21T17:33:18.075Z"
+    },
+    {
+      "entityType": "festival",
+      "slug": "ouachita-county-fair",
+      "title": "Ouachita County Fair",
+      "county": "Ouachita",
+      "priority": "high",
+      "queuedAt": "2026-06-21T17:33:18.075Z"
+    },
+    {
+      "entityType": "festival",
+      "slug": "perry-county-fair",
+      "title": "Perry County Fair",
+      "county": "Perry",
+      "priority": "high",
+      "queuedAt": "2026-06-21T17:33:18.075Z"
+    },
+    {
+      "entityType": "festival",
+      "slug": "phillips-county-fair",
+      "title": "Phillips County Fair",
+      "county": "Phillips",
+      "priority": "high",
+      "queuedAt": "2026-06-21T17:33:18.075Z"
+    },
+    {
+      "entityType": "festival",
+      "slug": "pike-county-fair",
+      "title": "Pike County Fair",
+      "county": "Pike",
+      "priority": "high",
+      "queuedAt": "2026-06-21T17:33:18.075Z"
+    },
+    {
+      "entityType": "festival",
+      "slug": "poinsett-county-fair",
+      "title": "Poinsett County Fair",
+      "county": "Poinsett",
+      "priority": "high",
+      "queuedAt": "2026-06-21T17:33:18.075Z"
+    },
+    {
+      "entityType": "festival",
+      "slug": "polk-county-fair",
+      "title": "Polk County Fair",
+      "county": "Polk",
+      "priority": "high",
+      "queuedAt": "2026-06-21T17:33:18.075Z"
+    },
+    {
+      "entityType": "festival",
+      "slug": "prairie-county-fair",
+      "title": "Prairie County Fair",
+      "county": "Prairie",
+      "priority": "high",
+      "queuedAt": "2026-06-21T17:33:18.075Z"
+    },
+    {
+      "entityType": "festival",
+      "slug": "pulaski-county-fair",
+      "title": "Pulaski County Fair",
+      "county": "Pulaski",
+      "priority": "high",
+      "queuedAt": "2026-06-21T17:33:18.075Z"
+    },
+    {
+      "entityType": "festival",
+      "slug": "randolph-county-fair",
+      "title": "Randolph County Fair",
+      "county": "Randolph",
+      "priority": "high",
+      "queuedAt": "2026-06-21T17:33:18.075Z"
+    },
+    {
+      "entityType": "festival",
+      "slug": "st-francis-county-fair",
+      "title": "St. Francis County Fair",
+      "county": "St. Francis",
+      "priority": "high",
+      "queuedAt": "2026-06-21T17:33:18.075Z"
+    },
+    {
+      "entityType": "festival",
+      "slug": "saline-county-fair",
+      "title": "Saline County Fair and Rodeo",
+      "county": "Saline",
+      "priority": "high",
+      "queuedAt": "2026-06-21T17:33:18.075Z"
+    },
+    {
+      "entityType": "festival",
+      "slug": "scott-county-fair",
+      "title": "Scott County Fair",
+      "county": "Scott",
+      "priority": "high",
+      "queuedAt": "2026-06-21T17:33:18.075Z"
+    },
+    {
+      "entityType": "festival",
+      "slug": "searcy-county-fair",
+      "title": "Searcy County Fair",
+      "county": "Searcy",
+      "priority": "high",
+      "queuedAt": "2026-06-21T17:33:18.075Z"
+    },
+    {
+      "entityType": "festival",
+      "slug": "sebastian-county-fair",
+      "title": "Sebastian County Fair",
+      "county": "Sebastian",
+      "priority": "high",
+      "queuedAt": "2026-06-21T17:33:18.075Z"
+    },
+    {
+      "entityType": "festival",
+      "slug": "sevier-county-fair",
+      "title": "Sevier County Fair",
+      "county": "Sevier",
+      "priority": "high",
+      "queuedAt": "2026-06-21T17:33:18.075Z"
+    },
+    {
+      "entityType": "festival",
+      "slug": "sharp-county-fair",
+      "title": "Sharp County Fair",
+      "county": "Sharp",
+      "priority": "high",
+      "queuedAt": "2026-06-21T17:33:18.075Z"
+    },
+    {
+      "entityType": "festival",
+      "slug": "stone-county-fair",
+      "title": "Stone County Fair",
+      "county": "Stone",
+      "priority": "high",
+      "queuedAt": "2026-06-21T17:33:18.075Z"
+    },
+    {
+      "entityType": "festival",
+      "slug": "union-county-fair",
+      "title": "Union County Fair",
+      "county": "Union",
+      "priority": "high",
+      "queuedAt": "2026-06-21T17:33:18.075Z"
+    },
+    {
+      "entityType": "festival",
+      "slug": "van-buren-county-fair",
+      "title": "Van Buren County Fair",
+      "county": "Van Buren",
+      "priority": "high",
+      "queuedAt": "2026-06-21T17:33:18.075Z"
+    },
+    {
+      "entityType": "festival",
+      "slug": "washington-county-fair",
+      "title": "Washington County Fair",
+      "county": "Washington",
+      "priority": "high",
+      "queuedAt": "2026-06-21T17:33:18.075Z"
+    },
+    {
+      "entityType": "festival",
+      "slug": "white-county-fair",
+      "title": "White County Fair",
+      "county": "White",
+      "priority": "high",
+      "queuedAt": "2026-06-21T17:33:18.075Z"
+    },
+    {
+      "entityType": "festival",
+      "slug": "woodruff-county-fair",
+      "title": "Woodruff County Fair",
+      "county": "Woodruff",
+      "priority": "high",
+      "queuedAt": "2026-06-21T17:33:18.075Z"
+    },
+    {
+      "entityType": "festival",
+      "slug": "yell-county-fair",
+      "title": "Yell County Fair",
+      "county": "Yell",
+      "priority": "high",
+      "queuedAt": "2026-06-21T17:33:18.075Z"
+    },
+    {
+      "entityType": "county",
+      "slug": "arkansas-county",
+      "title": "Arkansas County, Arkansas",
+      "county": "Arkansas",
+      "priority": "medium",
+      "queuedAt": "2026-06-21T17:33:18.075Z"
+    },
+    {
+      "entityType": "county",
+      "slug": "ashley-county",
+      "title": "Ashley County, Arkansas",
+      "county": "Ashley",
+      "priority": "medium",
+      "queuedAt": "2026-06-21T17:33:18.075Z"
+    },
+    {
+      "entityType": "county",
+      "slug": "baxter-county",
+      "title": "Baxter County, Arkansas",
+      "county": "Baxter",
+      "priority": "medium",
+      "queuedAt": "2026-06-21T17:33:18.075Z"
+    },
+    {
+      "entityType": "county",
+      "slug": "benton-county",
+      "title": "Benton County, Arkansas",
+      "county": "Benton",
+      "priority": "medium",
+      "queuedAt": "2026-06-21T17:33:18.075Z"
+    },
+    {
+      "entityType": "county",
+      "slug": "boone-county",
+      "title": "Boone County, Arkansas",
+      "county": "Boone",
+      "priority": "medium",
+      "queuedAt": "2026-06-21T17:33:18.075Z"
+    },
+    {
+      "entityType": "county",
+      "slug": "bradley-county",
+      "title": "Bradley County, Arkansas",
+      "county": "Bradley",
+      "priority": "medium",
+      "queuedAt": "2026-06-21T17:33:18.075Z"
+    },
+    {
+      "entityType": "county",
+      "slug": "calhoun-county",
+      "title": "Calhoun County, Arkansas",
+      "county": "Calhoun",
+      "priority": "medium",
+      "queuedAt": "2026-06-21T17:33:18.075Z"
+    },
+    {
+      "entityType": "county",
+      "slug": "carroll-county",
+      "title": "Carroll County, Arkansas",
+      "county": "Carroll",
+      "priority": "medium",
+      "queuedAt": "2026-06-21T17:33:18.075Z"
+    },
+    {
+      "entityType": "county",
+      "slug": "chicot-county",
+      "title": "Chicot County, Arkansas",
+      "county": "Chicot",
+      "priority": "medium",
+      "queuedAt": "2026-06-21T17:33:18.075Z"
+    },
+    {
+      "entityType": "county",
+      "slug": "clark-county",
+      "title": "Clark County, Arkansas",
+      "county": "Clark",
+      "priority": "medium",
+      "queuedAt": "2026-06-21T17:33:18.075Z"
+    },
+    {
+      "entityType": "county",
+      "slug": "clay-county",
+      "title": "Clay County, Arkansas",
+      "county": "Clay",
+      "priority": "medium",
+      "queuedAt": "2026-06-21T17:33:18.075Z"
+    },
+    {
+      "entityType": "county",
+      "slug": "cleburne-county",
+      "title": "Cleburne County, Arkansas",
+      "county": "Cleburne",
+      "priority": "medium",
+      "queuedAt": "2026-06-21T17:33:18.075Z"
+    },
+    {
+      "entityType": "county",
+      "slug": "cleveland-county",
+      "title": "Cleveland County, Arkansas",
+      "county": "Cleveland",
+      "priority": "medium",
+      "queuedAt": "2026-06-21T17:33:18.075Z"
+    },
+    {
+      "entityType": "county",
+      "slug": "columbia-county",
+      "title": "Columbia County, Arkansas",
+      "county": "Columbia",
+      "priority": "medium",
+      "queuedAt": "2026-06-21T17:33:18.075Z"
+    },
+    {
+      "entityType": "county",
+      "slug": "conway-county",
+      "title": "Conway County, Arkansas",
+      "county": "Conway",
+      "priority": "medium",
+      "queuedAt": "2026-06-21T17:33:18.075Z"
+    },
+    {
+      "entityType": "county",
+      "slug": "craighead-county",
+      "title": "Craighead County, Arkansas",
+      "county": "Craighead",
+      "priority": "medium",
+      "queuedAt": "2026-06-21T17:33:18.075Z"
+    },
+    {
+      "entityType": "county",
+      "slug": "crawford-county",
+      "title": "Crawford County, Arkansas",
+      "county": "Crawford",
+      "priority": "medium",
+      "queuedAt": "2026-06-21T17:33:18.075Z"
+    },
+    {
+      "entityType": "county",
+      "slug": "crittenden-county",
+      "title": "Crittenden County, Arkansas",
+      "county": "Crittenden",
+      "priority": "medium",
+      "queuedAt": "2026-06-21T17:33:18.075Z"
+    },
+    {
+      "entityType": "county",
+      "slug": "cross-county",
+      "title": "Cross County, Arkansas",
+      "county": "Cross",
+      "priority": "medium",
+      "queuedAt": "2026-06-21T17:33:18.075Z"
+    },
+    {
+      "entityType": "county",
+      "slug": "dallas-county",
+      "title": "Dallas County, Arkansas",
+      "county": "Dallas",
+      "priority": "medium",
+      "queuedAt": "2026-06-21T17:33:18.075Z"
+    },
+    {
+      "entityType": "county",
+      "slug": "desha-county",
+      "title": "Desha County, Arkansas",
+      "county": "Desha",
+      "priority": "medium",
+      "queuedAt": "2026-06-21T17:33:18.075Z"
+    },
+    {
+      "entityType": "county",
+      "slug": "drew-county",
+      "title": "Drew County, Arkansas",
+      "county": "Drew",
+      "priority": "medium",
+      "queuedAt": "2026-06-21T17:33:18.075Z"
+    },
+    {
+      "entityType": "county",
+      "slug": "franklin-county",
+      "title": "Franklin County, Arkansas",
+      "county": "Franklin",
+      "priority": "medium",
+      "queuedAt": "2026-06-21T17:33:18.075Z"
+    },
+    {
+      "entityType": "county",
+      "slug": "fulton-county",
+      "title": "Fulton County, Arkansas",
+      "county": "Fulton",
+      "priority": "medium",
+      "queuedAt": "2026-06-21T17:33:18.075Z"
+    },
+    {
+      "entityType": "county",
+      "slug": "garland-county",
+      "title": "Garland County, Arkansas",
+      "county": "Garland",
+      "priority": "medium",
+      "queuedAt": "2026-06-21T17:33:18.075Z"
+    },
+    {
+      "entityType": "county",
+      "slug": "grant-county",
+      "title": "Grant County, Arkansas",
+      "county": "Grant",
+      "priority": "medium",
+      "queuedAt": "2026-06-21T17:33:18.075Z"
+    },
+    {
+      "entityType": "county",
+      "slug": "greene-county",
+      "title": "Greene County, Arkansas",
+      "county": "Greene",
+      "priority": "medium",
+      "queuedAt": "2026-06-21T17:33:18.075Z"
+    },
+    {
+      "entityType": "county",
+      "slug": "hempstead-county",
+      "title": "Hempstead County, Arkansas",
+      "county": "Hempstead",
+      "priority": "medium",
+      "queuedAt": "2026-06-21T17:33:18.075Z"
+    },
+    {
+      "entityType": "county",
+      "slug": "hot-spring-county",
+      "title": "Hot Spring County, Arkansas",
+      "county": "Hot Spring",
+      "priority": "medium",
+      "queuedAt": "2026-06-21T17:33:18.075Z"
+    },
+    {
+      "entityType": "county",
+      "slug": "howard-county",
+      "title": "Howard County, Arkansas",
+      "county": "Howard",
+      "priority": "medium",
+      "queuedAt": "2026-06-21T17:33:18.075Z"
+    },
+    {
+      "entityType": "county",
+      "slug": "independence-county",
+      "title": "Independence County, Arkansas",
+      "county": "Independence",
+      "priority": "medium",
+      "queuedAt": "2026-06-21T17:33:18.075Z"
+    },
+    {
+      "entityType": "county",
+      "slug": "izard-county",
+      "title": "Izard County, Arkansas",
+      "county": "Izard",
+      "priority": "medium",
+      "queuedAt": "2026-06-21T17:33:18.075Z"
+    },
+    {
+      "entityType": "county",
+      "slug": "jackson-county",
+      "title": "Jackson County, Arkansas",
+      "county": "Jackson",
+      "priority": "medium",
+      "queuedAt": "2026-06-21T17:33:18.075Z"
+    },
+    {
+      "entityType": "county",
+      "slug": "jefferson-county",
+      "title": "Jefferson County, Arkansas",
+      "county": "Jefferson",
+      "priority": "medium",
+      "queuedAt": "2026-06-21T17:33:18.075Z"
+    },
+    {
+      "entityType": "county",
+      "slug": "johnson-county",
+      "title": "Johnson County, Arkansas",
+      "county": "Johnson",
+      "priority": "medium",
+      "queuedAt": "2026-06-21T17:33:18.075Z"
+    },
+    {
+      "entityType": "county",
+      "slug": "lafayette-county",
+      "title": "Lafayette County, Arkansas",
+      "county": "Lafayette",
+      "priority": "medium",
+      "queuedAt": "2026-06-21T17:33:18.075Z"
+    },
+    {
+      "entityType": "county",
+      "slug": "lawrence-county",
+      "title": "Lawrence County, Arkansas",
+      "county": "Lawrence",
+      "priority": "medium",
+      "queuedAt": "2026-06-21T17:33:18.075Z"
+    },
+    {
+      "entityType": "county",
+      "slug": "lee-county",
+      "title": "Lee County, Arkansas",
+      "county": "Lee",
+      "priority": "medium",
+      "queuedAt": "2026-06-21T17:33:18.075Z"
+    },
+    {
+      "entityType": "county",
+      "slug": "lincoln-county",
+      "title": "Lincoln County, Arkansas",
+      "county": "Lincoln",
+      "priority": "medium",
+      "queuedAt": "2026-06-21T17:33:18.075Z"
+    },
+    {
+      "entityType": "county",
+      "slug": "little-river-county",
+      "title": "Little River County, Arkansas",
+      "county": "Little River",
+      "priority": "medium",
+      "queuedAt": "2026-06-21T17:33:18.075Z"
+    },
+    {
+      "entityType": "county",
+      "slug": "logan-county",
+      "title": "Logan County, Arkansas",
+      "county": "Logan",
+      "priority": "medium",
+      "queuedAt": "2026-06-21T17:33:18.075Z"
+    },
+    {
+      "entityType": "county",
+      "slug": "lonoke-county",
+      "title": "Lonoke County, Arkansas",
+      "county": "Lonoke",
+      "priority": "medium",
+      "queuedAt": "2026-06-21T17:33:18.075Z"
+    },
+    {
+      "entityType": "county",
+      "slug": "madison-county",
+      "title": "Madison County, Arkansas",
+      "county": "Madison",
+      "priority": "medium",
+      "queuedAt": "2026-06-21T17:33:18.075Z"
+    },
+    {
+      "entityType": "county",
+      "slug": "marion-county",
+      "title": "Marion County, Arkansas",
+      "county": "Marion",
+      "priority": "medium",
+      "queuedAt": "2026-06-21T17:33:18.075Z"
+    },
+    {
+      "entityType": "county",
+      "slug": "miller-county",
+      "title": "Miller County, Arkansas",
+      "county": "Miller",
+      "priority": "medium",
+      "queuedAt": "2026-06-21T17:33:18.075Z"
+    },
+    {
+      "entityType": "county",
+      "slug": "mississippi-county",
+      "title": "Mississippi County, Arkansas",
+      "county": "Mississippi",
+      "priority": "medium",
+      "queuedAt": "2026-06-21T17:33:18.075Z"
+    },
+    {
+      "entityType": "county",
+      "slug": "monroe-county",
+      "title": "Monroe County, Arkansas",
+      "county": "Monroe",
+      "priority": "medium",
+      "queuedAt": "2026-06-21T17:33:18.075Z"
+    },
+    {
+      "entityType": "county",
+      "slug": "montgomery-county",
+      "title": "Montgomery County, Arkansas",
+      "county": "Montgomery",
+      "priority": "medium",
+      "queuedAt": "2026-06-21T17:33:18.075Z"
+    },
+    {
+      "entityType": "county",
+      "slug": "nevada-county",
+      "title": "Nevada County, Arkansas",
+      "county": "Nevada",
+      "priority": "medium",
+      "queuedAt": "2026-06-21T17:33:18.075Z"
+    },
+    {
+      "entityType": "county",
+      "slug": "newton-county",
+      "title": "Newton County, Arkansas",
+      "county": "Newton",
+      "priority": "medium",
+      "queuedAt": "2026-06-21T17:33:18.075Z"
+    },
+    {
+      "entityType": "county",
+      "slug": "ouachita-county",
+      "title": "Ouachita County, Arkansas",
+      "county": "Ouachita",
+      "priority": "medium",
+      "queuedAt": "2026-06-21T17:33:18.075Z"
+    },
+    {
+      "entityType": "county",
+      "slug": "perry-county",
+      "title": "Perry County, Arkansas",
+      "county": "Perry",
+      "priority": "medium",
+      "queuedAt": "2026-06-21T17:33:18.075Z"
+    },
+    {
+      "entityType": "county",
+      "slug": "phillips-county",
+      "title": "Phillips County, Arkansas",
+      "county": "Phillips",
+      "priority": "medium",
+      "queuedAt": "2026-06-21T17:33:18.075Z"
+    },
+    {
+      "entityType": "county",
+      "slug": "pike-county",
+      "title": "Pike County, Arkansas",
+      "county": "Pike",
+      "priority": "medium",
+      "queuedAt": "2026-06-21T17:33:18.075Z"
+    },
+    {
+      "entityType": "county",
+      "slug": "poinsett-county",
+      "title": "Poinsett County, Arkansas",
+      "county": "Poinsett",
+      "priority": "medium",
+      "queuedAt": "2026-06-21T17:33:18.075Z"
+    },
+    {
+      "entityType": "county",
+      "slug": "polk-county",
+      "title": "Polk County, Arkansas",
+      "county": "Polk",
+      "priority": "medium",
+      "queuedAt": "2026-06-21T17:33:18.075Z"
+    },
+    {
+      "entityType": "county",
+      "slug": "pope-county",
+      "title": "Pope County, Arkansas",
+      "county": "Pope",
+      "priority": "medium",
+      "queuedAt": "2026-06-21T17:33:18.075Z"
+    },
+    {
+      "entityType": "county",
+      "slug": "prairie-county",
+      "title": "Prairie County, Arkansas",
+      "county": "Prairie",
+      "priority": "medium",
+      "queuedAt": "2026-06-21T17:33:18.075Z"
+    },
+    {
+      "entityType": "county",
+      "slug": "pulaski-county",
+      "title": "Pulaski County, Arkansas",
+      "county": "Pulaski",
+      "priority": "medium",
+      "queuedAt": "2026-06-21T17:33:18.075Z"
+    },
+    {
+      "entityType": "county",
+      "slug": "randolph-county",
+      "title": "Randolph County, Arkansas",
+      "county": "Randolph",
+      "priority": "medium",
+      "queuedAt": "2026-06-21T17:33:18.075Z"
+    },
+    {
+      "entityType": "county",
+      "slug": "st-francis-county",
+      "title": "St. Francis County, Arkansas",
+      "county": "St. Francis",
+      "priority": "medium",
+      "queuedAt": "2026-06-21T17:33:18.075Z"
+    },
+    {
+      "entityType": "county",
+      "slug": "saline-county",
+      "title": "Saline County, Arkansas",
+      "county": "Saline",
+      "priority": "medium",
+      "queuedAt": "2026-06-21T17:33:18.075Z"
+    },
+    {
+      "entityType": "county",
+      "slug": "scott-county",
+      "title": "Scott County, Arkansas",
+      "county": "Scott",
+      "priority": "medium",
+      "queuedAt": "2026-06-21T17:33:18.075Z"
+    },
+    {
+      "entityType": "county",
+      "slug": "searcy-county",
+      "title": "Searcy County, Arkansas",
+      "county": "Searcy",
+      "priority": "medium",
+      "queuedAt": "2026-06-21T17:33:18.075Z"
+    },
+    {
+      "entityType": "county",
+      "slug": "sebastian-county",
+      "title": "Sebastian County, Arkansas",
+      "county": "Sebastian",
+      "priority": "medium",
+      "queuedAt": "2026-06-21T17:33:18.075Z"
+    },
+    {
+      "entityType": "county",
+      "slug": "sevier-county",
+      "title": "Sevier County, Arkansas",
+      "county": "Sevier",
+      "priority": "medium",
+      "queuedAt": "2026-06-21T17:33:18.075Z"
+    },
+    {
+      "entityType": "county",
+      "slug": "sharp-county",
+      "title": "Sharp County, Arkansas",
+      "county": "Sharp",
+      "priority": "medium",
+      "queuedAt": "2026-06-21T17:33:18.075Z"
+    },
+    {
+      "entityType": "county",
+      "slug": "stone-county",
+      "title": "Stone County, Arkansas",
+      "county": "Stone",
+      "priority": "medium",
+      "queuedAt": "2026-06-21T17:33:18.075Z"
+    },
+    {
+      "entityType": "county",
+      "slug": "union-county",
+      "title": "Union County, Arkansas",
+      "county": "Union",
+      "priority": "medium",
+      "queuedAt": "2026-06-21T17:33:18.075Z"
+    },
+    {
+      "entityType": "county",
+      "slug": "van-buren-county",
+      "title": "Van Buren County, Arkansas",
+      "county": "Van Buren",
+      "priority": "medium",
+      "queuedAt": "2026-06-21T17:33:18.075Z"
+    },
+    {
+      "entityType": "county",
+      "slug": "washington-county",
+      "title": "Washington County, Arkansas",
+      "county": "Washington",
+      "priority": "medium",
+      "queuedAt": "2026-06-21T17:33:18.075Z"
+    },
+    {
+      "entityType": "county",
+      "slug": "white-county",
+      "title": "White County, Arkansas",
+      "county": "White",
+      "priority": "medium",
+      "queuedAt": "2026-06-21T17:33:18.075Z"
+    },
+    {
+      "entityType": "county",
+      "slug": "woodruff-county",
+      "title": "Woodruff County, Arkansas",
+      "county": "Woodruff",
+      "priority": "medium",
+      "queuedAt": "2026-06-21T17:33:18.075Z"
+    },
+    {
+      "entityType": "county",
+      "slug": "yell-county",
+      "title": "Yell County, Arkansas",
+      "county": "Yell",
+      "priority": "medium",
+      "queuedAt": "2026-06-21T17:33:18.075Z"
+    }
+  ]
+}

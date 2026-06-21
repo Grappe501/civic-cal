@@ -4,7 +4,7 @@
  */
 import { parseRecurrenceRule, expandRecurrenceDates, parseTimeTo24 } from "./parse-recurring-meetings.mjs";
 
-const HARVEST_END = "2026-11-01";
+const HARVEST_END = "2027-12-31";
 const HARVEST_START = "2026-06-20";
 
 export function normalizePartyMeeting(raw) {

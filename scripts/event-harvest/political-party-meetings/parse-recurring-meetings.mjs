@@ -7,7 +7,11 @@ const MONTH_NAMES = ["january", "february", "march", "april", "may", "june", "ju
 const ORDINALS = { first: 1, "1st": 1, second: 2, "2nd": 2, third: 3, "3rd": 3, fourth: 4, "4th": 4, last: -1 };
 
 export function parseRecurrenceRule(text) {
-  const raw = String(text || "").replace(/\s*#+\s*$/g, "").replace(/\s+/g, " ").trim();
+  let raw = String(text || "").replace(/\s*#+\s*$/g, "").replace(/\s+/g, " ").trim();
+  // Strip venue tail so "2nd Tuesday at County Courthouse" parses reliably.
+  if (/^(monthly|weekly|bi-?weekly)\b/i.test(raw)) {
+    raw = raw.replace(/\s+at\s+.+$/i, "").trim();
+  }
   const lower = raw.toLowerCase();
 
   if (!raw || /awaiting committee confirmation/i.test(raw)) {

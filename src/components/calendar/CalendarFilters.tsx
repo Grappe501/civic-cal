@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { CATEGORIES } from "../../lib/categories";
 import { CALENDAR_FILTER_CHIPS, type CalendarFilterState, toggleCalendarFilter } from "../../lib/calendar/calendarFilters";
 import { ARKANSAS_COUNTIES } from "../../lib/counties";
@@ -45,6 +46,24 @@ export function CalendarFilters({ filters, onChange }: Props) {
         />
         <select
           className="input-readable text-xs max-w-[180px]"
+          value={filters.partyLabel ?? ""}
+          onChange={(e) =>
+            onChange({
+              ...filters,
+              partyLabel: e.target.value || undefined,
+              partyMeeting: e.target.value ? true : filters.partyMeeting,
+              category: e.target.value || filters.partyMeeting ? "public_party_meeting" : filters.category,
+            })
+          }
+          aria-label="Filter by political party"
+        >
+          <option value="">All parties</option>
+          <option value="Democratic">Democratic county meetings</option>
+          <option value="Republican">Republican county meetings</option>
+          <option value="Libertarian">Libertarian meetings</option>
+        </select>
+        <select
+          className="input-readable text-xs max-w-[180px]"
           value={filters.category ?? ""}
           onChange={(e) => onChange({ ...filters, category: e.target.value || undefined })}
           aria-label="Filter by category"
@@ -56,6 +75,15 @@ export function CalendarFilters({ filters, onChange }: Props) {
             </option>
           ))}
         </select>
+        <Link
+          to="/calendar/month?category=public_party_meeting&party=Democratic&partyMeeting=1"
+          className="chip chip-muted text-xs hover:border-ark-sage"
+        >
+          Dem meetings calendar
+        </Link>
+        <Link to="/democratic-county-parties" className="chip chip-muted text-xs hover:border-ark-sage">
+          All Dem county pages
+        </Link>
       </div>
     </div>
   );

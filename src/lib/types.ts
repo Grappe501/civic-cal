@@ -70,6 +70,8 @@ export interface CivicEvent {
   festivalCategory?: string | null;
   mapDiscoveryCategory?: string | null;
   politicalEventRegistryId?: string | null;
+  partyLabel?: "Democratic" | "Republican" | "Libertarian" | string | null;
+  meetingSubtype?: string | null;
   historyDossier?: {
     firstYearHeld?: number | null;
     honors?: string | null;
@@ -97,6 +99,7 @@ export interface EventFilters {
   candidateRelevant?: boolean;
   thisWeekend?: boolean;
   featured?: boolean;
+  partyLabel?: string;
   limit?: number;
 }
 

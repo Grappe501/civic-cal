@@ -6,6 +6,8 @@ export interface CalendarFilterState {
   county?: string;
   city?: string;
   category?: string;
+  partyLabel?: string;
+  partyMeeting?: boolean;
   volunteer?: boolean;
   studentService?: boolean;
   candidateAttending?: boolean;
@@ -17,6 +19,7 @@ export interface CalendarFilterState {
 }
 
 export const CALENDAR_FILTER_CHIPS: { id: keyof CalendarFilterState; label: string }[] = [
+  { id: "partyMeeting", label: "County party meetings" },
   { id: "volunteer", label: "Volunteer" },
   { id: "studentService", label: "Student service" },
   { id: "candidateAttending", label: "Candidate attending" },
@@ -39,6 +42,12 @@ export function applyCalendarFilters(events: CivicEvent[], filters: CalendarFilt
   }
   if (filters.category) {
     list = list.filter((e) => e.category === filters.category);
+  }
+  if (filters.partyMeeting) {
+    list = list.filter((e) => e.category === "public_party_meeting");
+  }
+  if (filters.partyLabel) {
+    list = list.filter((e) => e.partyLabel === filters.partyLabel);
   }
   if (filters.volunteer) {
     list = list.filter((e) => e.category === "volunteer");
@@ -81,7 +90,49 @@ export function toggleCalendarFilter(
   key: keyof CalendarFilterState,
 ): CalendarFilterState {
   const next = { ...filters };
-  if (key === "county" || key === "city" || key === "category") return next;
+  if (key === "county" || key === "city" || key === "category" || key === "partyLabel") return next;
+  if (key === "partyMeeting" && !next.partyMeeting) {
+    next.partyMeeting = true;
+    next.category = "public_party_meeting";
+    return next;
+  }
+  if (key === "partyMeeting" && next.partyMeeting) {
+    next.partyMeeting = false;
+    if (next.category === "public_party_meeting") next.category = undefined;
+    return next;
+  }
   next[key] = !next[key];
   return next;
+}
+
+export function calendarFiltersFromSearchParams(params: URLSearchParams): CalendarFilterState {
+  const filters: CalendarFilterState = {};
+  const county = params.get("county");
+  const city = params.get("city");
+  const category = params.get("category");
+  const party = params.get("party") || params.get("partyLabel");
+  if (county) filters.county = county;
+  if (city) filters.city = city;
+  if (category) filters.category = category;
+  if (party) filters.partyLabel = party;
+  if (category === "public_party_meeting" || params.get("partyMeeting") === "1") {
+    filters.partyMeeting = true;
+    filters.category = "public_party_meeting";
+  }
+  return filters;
+}
+
+export function calendarFiltersToSearchParams(filters: CalendarFilterState, existing: URLSearchParams): URLSearchParams {
+  const p = new URLSearchParams(existing);
+  if (filters.county) p.set("county", filters.county);
+  else p.delete("county");
+  if (filters.city) p.set("city", filters.city);
+  else p.delete("city");
+  if (filters.category) p.set("category", filters.category);
+  else p.delete("category");
+  if (filters.partyLabel) p.set("party", filters.partyLabel);
+  else p.delete("party");
+  if (filters.partyMeeting) p.set("partyMeeting", "1");
+  else p.delete("partyMeeting");
+  return p;
 }

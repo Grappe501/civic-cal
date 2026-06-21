@@ -29,6 +29,7 @@ function filterSeed(events: CivicEvent[], filters: EventFilters & { limit?: numb
   if (filters.county) list = list.filter((e) => e.county?.toLowerCase() === filters.county!.toLowerCase());
   if (filters.city) list = list.filter((e) => e.city?.toLowerCase().includes(filters.city!.toLowerCase()));
   if (filters.category) list = list.filter((e) => e.category === filters.category);
+  if (filters.partyLabel) list = list.filter((e) => (e as CivicEvent & { partyLabel?: string }).partyLabel === filters.partyLabel);
   if (filters.q) {
     const q = filters.q.toLowerCase();
     list = list.filter(

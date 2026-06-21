@@ -2,6 +2,8 @@ import { Link } from "react-router-dom";
 import { MapPin, AlertCircle } from "lucide-react";
 import { FreshnessFooter } from "../FreshnessFooter";
 import { RelatedCommunityPages } from "./RelatedCommunityPages";
+import { CommunityNarrativePanel } from "../narratives/CommunityNarrativePanel";
+import { getCommunityNarrative } from "../../lib/narratives/narrativeRegistry";
 import type { CommunityProfile } from "../../lib/profiles/profileTypes";
 import { ENTITY_DIRECTORY_ROUTES, ENTITY_TYPE_LABELS } from "../../lib/profiles/profileTypes";
 import { staleLabel } from "../../lib/freshness/staleData";
@@ -14,6 +16,7 @@ interface Props {
 
 export function ProfileShell({ profile, children, heroExtra }: Props) {
   const dirRoute = ENTITY_DIRECTORY_ROUTES[profile.entityType];
+  const narrative = getCommunityNarrative(profile.entityType, profile.slug);
   const isPlaceholder =
     profile.freshness.sourceConfidence === "placeholder" || profile.freshness.verificationStatus === "placeholder";
 
@@ -52,6 +55,8 @@ export function ProfileShell({ profile, children, heroExtra }: Props) {
       </header>
 
       {children}
+
+      {narrative && <CommunityNarrativePanel narrative={narrative} />}
 
       <RelatedCommunityPages links={profile.relatedLinks} />
 
