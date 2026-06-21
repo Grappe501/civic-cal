@@ -1,0 +1,24 @@
+{
+  "generatedAt": "2026-06-21T06:53:07.642Z",
+  "lastDailyScan": "2026-06-21T06:52:37.640Z",
+  "lastWeeklyDiscovery": null,
+  "lastProfileRefresh": null,
+  "lastCandidateBriefings": "2026-06-21T06:53:07.642Z",
+  "lastMonthlyAudit": null,
+  "feedsScanned": 80,
+  "newCandidatesFound": 4,
+  "duplicatesSkipped": 0,
+  "staleSources": 1,
+  "failedSources": 20,
+  "coverageGained": 0,
+  "approvalQueueSize": 4,
+  "candidateBriefingsGenerated": 6,
+  "nextScheduled": {
+    "daily_feed_scan": "0 6 * * *",
+    "weekly_feed_discovery": "0 7 * * 1",
+    "weekly_profile_refresh": "0 8 * * 1",
+    "weekly_campaign_briefings": "0 9 * * 1",
+    "monthly_coverage_audit": "0 10 1 * *"
+  },
+  "status": "idle"
+}

@@ -1,0 +1,23 @@
+{
+  "version": "1.0",
+  "updatedAt": "2026-06-21",
+  "policy": "AI advises. Humans approve. Nothing auto-publishes unless trust rules explicitly allow later.",
+  "statewideAttachmentGoal": 1500,
+  "schedules": {
+    "daily_feed_scan": { "cron": "0 6 * * *", "label": "Daily — scan attached feeds" },
+    "weekly_feed_discovery": { "cron": "0 7 * * 1", "label": "Weekly — discover missing feeds" },
+    "weekly_profile_refresh": { "cron": "0 8 * * 1", "label": "Weekly — refresh stale profiles" },
+    "weekly_campaign_briefings": { "cron": "0 9 * * 1", "label": "Weekly — campaign briefings" },
+    "monthly_coverage_audit": { "cron": "0 10 1 * *", "label": "Monthly — deep coverage audit" }
+  },
+  "limits": {
+    "dailyFeedScanMax": 80,
+    "weeklyDiscoveryVerifyLimit": 400,
+    "candidateBriefingHorizonDays": 30
+  },
+  "trust": {
+    "autoPublishAllowed": false,
+    "minConfidenceToSuggest": 40,
+    "minConfidenceToAutoStage": 50
+  }
+}

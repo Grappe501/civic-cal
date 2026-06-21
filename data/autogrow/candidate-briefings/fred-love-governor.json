@@ -1,0 +1,255 @@
+{
+  "generatedAt": "2026-06-21T06:53:07.636Z",
+  "campaignSlug": "fred-love-governor",
+  "candidateName": "Fred Love",
+  "today": {
+    "urgent": [
+      "2 event(s) today in scope"
+    ],
+    "topEvents": [
+      {
+        "title": "Bella Vista Summer Farmers and Makers Market",
+        "slug": "bella-vista-summer-farmers-and-makers-market-2026-06-21",
+        "county": "Benton",
+        "date": "2026-06-21",
+        "score": 50,
+        "recommendation": "monitor_only",
+        "sourceUrl": null
+      },
+      {
+        "title": "Benton County immersion",
+        "slug": "benton-county-immersion-2026-06-21",
+        "county": "Benton",
+        "date": "2026-06-21",
+        "score": 50,
+        "recommendation": "monitor_only",
+        "sourceUrl": null
+      }
+    ]
+  },
+  "thisWeek": {
+    "topEvents": [
+      {
+        "title": "Arkansas Folklife Festival",
+        "slug": "arkansas-folklife-festival-2026-06-26",
+        "county": "Pulaski",
+        "date": "2026-06-26",
+        "score": 70,
+        "recommendation": "send_volunteers",
+        "sourceUrl": null
+      },
+      {
+        "title": "Buffalo River Elk Festival",
+        "slug": "buffalo-river-elk-festival-2026-06-26",
+        "county": "Newton",
+        "date": "2026-06-26",
+        "score": 70,
+        "recommendation": "send_volunteers",
+        "sourceUrl": null
+      },
+      {
+        "title": "Pioneer Heritage Festival",
+        "slug": "pioneer-heritage-festival-2026-06-27",
+        "county": "Baxter",
+        "date": "2026-06-27",
+        "score": 70,
+        "recommendation": "send_volunteers",
+        "sourceUrl": null
+      },
+      {
+        "title": "Bella Vista Summer Farmers and Makers Market",
+        "slug": "bella-vista-summer-farmers-and-makers-market-2026-06-21",
+        "county": "Benton",
+        "date": "2026-06-21",
+        "score": 50,
+        "recommendation": "monitor_only",
+        "sourceUrl": null
+      },
+      {
+        "title": "Benton County immersion",
+        "slug": "benton-county-immersion-2026-06-21",
+        "county": "Benton",
+        "date": "2026-06-21",
+        "score": 50,
+        "recommendation": "monitor_only",
+        "sourceUrl": null
+      },
+      {
+        "title": "Chamber luncheon — Rex Nelson",
+        "slug": "chamber-luncheon-rex-nelson-2026-06-22",
+        "county": "Pulaski",
+        "date": "2026-06-22",
+        "score": 50,
+        "recommendation": "monitor_only",
+        "sourceUrl": null
+      },
+      {
+        "title": "Rodeo of the Ozarks",
+        "slug": "rodeo-of-the-ozarks-2026-06-24",
+        "county": "Washington",
+        "date": "2026-06-24",
+        "score": 50,
+        "recommendation": "monitor_only",
+        "sourceUrl": null
+      },
+      {
+        "title": "SOS Debate — Annual Press Convention",
+        "slug": "sos-debate-annual-press-convention-2026-06-26",
+        "county": "Carroll",
+        "date": "2026-06-26",
+        "score": 50,
+        "recommendation": "monitor_only",
+        "sourceUrl": null
+      }
+    ],
+    "countiesWithNoPresence": [],
+    "volunteerNeeds": []
+  },
+  "thisMonth": {
+    "topEvents": [
+      {
+        "title": "Community fish fry (demo seed) · Little Rock",
+        "slug": "demo-community-fish-fry-demo-seed-little rock-2026-07-05",
+        "county": "Pulaski",
+        "date": "2026-07-05",
+        "score": 85,
+        "recommendation": "should_attend",
+        "sourceUrl": null
+      },
+      {
+        "title": "Arkansas Folklife Festival",
+        "slug": "arkansas-folklife-festival-2026-06-26",
+        "county": "Pulaski",
+        "date": "2026-06-26",
+        "score": 70,
+        "recommendation": "send_volunteers",
+        "sourceUrl": null
+      },
+      {
+        "title": "Buffalo River Elk Festival",
+        "slug": "buffalo-river-elk-festival-2026-06-26",
+        "county": "Newton",
+        "date": "2026-06-26",
+        "score": 70,
+        "recommendation": "send_volunteers",
+        "sourceUrl": null
+      },
+      {
+        "title": "Pioneer Heritage Festival",
+        "slug": "pioneer-heritage-festival-2026-06-27",
+        "county": "Baxter",
+        "date": "2026-06-27",
+        "score": 70,
+        "recommendation": "send_volunteers",
+        "sourceUrl": null
+      },
+      {
+        "title": "Fulton County Freedom Festival",
+        "slug": "fulton-county-freedom-festival-2026-07-02",
+        "county": "Fulton",
+        "date": "2026-07-02",
+        "score": 70,
+        "recommendation": "send_volunteers",
+        "sourceUrl": null
+      },
+      {
+        "title": "Northeast fair circuit · Jonesboro hub",
+        "slug": "northeast-fair-circuit-jonesboro-hub-2026-07-06",
+        "county": "Unknown",
+        "date": "2026-07-06",
+        "score": 70,
+        "recommendation": "send_volunteers",
+        "sourceUrl": null
+      },
+      {
+        "title": "Fulton County Fair",
+        "slug": "fulton-county-fair-2026-07-10",
+        "county": "Fulton",
+        "date": "2026-07-10",
+        "score": 70,
+        "recommendation": "send_volunteers",
+        "sourceUrl": null
+      },
+      {
+        "title": "Johnson County Peach Festival",
+        "slug": "johnson-county-peach-festival-2026-07-16",
+        "county": "Johnson",
+        "date": "2026-07-16",
+        "score": 70,
+        "recommendation": "send_volunteers",
+        "sourceUrl": null
+      },
+      {
+        "title": "VFD fish fry fundraiser (demo seed) · Conway",
+        "slug": "demo-vfd-fish-fry-fundraiser-demo-seed-conway-2026-07-17",
+        "county": "Faulkner",
+        "date": "2026-07-17",
+        "score": 70,
+        "recommendation": "send_volunteers",
+        "sourceUrl": null
+      },
+      {
+        "title": "Bella Vista Summer Farmers and Makers Market",
+        "slug": "bella-vista-summer-farmers-and-makers-market-2026-06-21",
+        "county": "Benton",
+        "date": "2026-06-21",
+        "score": 50,
+        "recommendation": "monitor_only",
+        "sourceUrl": null
+      }
+    ],
+    "coverageGaps": [],
+    "recurringTraditions": [
+      {
+        "title": "Community fish fry (demo seed) · Little Rock",
+        "slug": "demo-community-fish-fry-demo-seed-little rock-2026-07-05",
+        "county": "Pulaski",
+        "date": "2026-07-05",
+        "score": 85,
+        "recommendation": "should_attend",
+        "sourceUrl": null
+      },
+      {
+        "title": "Arkansas Folklife Festival",
+        "slug": "arkansas-folklife-festival-2026-06-26",
+        "county": "Pulaski",
+        "date": "2026-06-26",
+        "score": 70,
+        "recommendation": "send_volunteers",
+        "sourceUrl": null
+      },
+      {
+        "title": "Buffalo River Elk Festival",
+        "slug": "buffalo-river-elk-festival-2026-06-26",
+        "county": "Newton",
+        "date": "2026-06-26",
+        "score": 70,
+        "recommendation": "send_volunteers",
+        "sourceUrl": null
+      },
+      {
+        "title": "Pioneer Heritage Festival",
+        "slug": "pioneer-heritage-festival-2026-06-27",
+        "county": "Baxter",
+        "date": "2026-06-27",
+        "score": 70,
+        "recommendation": "send_volunteers",
+        "sourceUrl": null
+      },
+      {
+        "title": "Fulton County Freedom Festival",
+        "slug": "fulton-county-freedom-festival-2026-07-02",
+        "county": "Fulton",
+        "date": "2026-07-02",
+        "score": 70,
+        "recommendation": "send_volunteers",
+        "sourceUrl": null
+      }
+    ]
+  },
+  "guardrails": [
+    "Advisory only",
+    "Human approval for public actions",
+    "No invented attendance"
+  ]
+}

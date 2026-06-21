@@ -1,0 +1,36 @@
+{
+  "generatedAt": "2026-06-21T06:53:07.639Z",
+  "campaignSlug": "wendy-peer-house",
+  "candidateName": "Wendy Peer",
+  "today": {
+    "urgent": [
+      "No mapped events today — check feed scan queue"
+    ],
+    "topEvents": []
+  },
+  "thisWeek": {
+    "topEvents": [],
+    "countiesWithNoPresence": [],
+    "volunteerNeeds": []
+  },
+  "thisMonth": {
+    "topEvents": [
+      {
+        "title": "City council meeting (demo seed) · Fort Smith",
+        "slug": "demo-city-council-meeting-demo-seed-fort smith-2026-07-11",
+        "county": "Sebastian",
+        "date": "2026-07-11",
+        "score": 50,
+        "recommendation": "monitor_only",
+        "sourceUrl": null
+      }
+    ],
+    "coverageGaps": [],
+    "recurringTraditions": []
+  },
+  "guardrails": [
+    "Advisory only",
+    "Human approval for public actions",
+    "No invented attendance"
+  ]
+}

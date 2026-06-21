@@ -22,6 +22,8 @@ import { GoogleCalendarRail, MobilizeRail } from "../integrations/IntegrationRai
 import type { IntelligenceLayer } from "../../lib/intelligence/eventLayers";
 import { PublicVolunteerAsksPanel } from "./PublicVolunteerAsksPanel";
 import { CampaignMorningBrief } from "./CampaignMorningBrief";
+import { CampaignIntelligenceCopilotPanel } from "./CampaignIntelligenceCopilotPanel";
+import { CampaignGoalSettingsPanel } from "./CampaignGoalSettingsPanel";
 import { listCampaignPublicVolunteerAsks } from "../../lib/campaigns/volunteerRecruitment";
 import { CampaignEventsPanel } from "./CampaignEventsPanel";
 import { InstitutionRelationshipPanel } from "./InstitutionRelationshipPanel";
@@ -403,6 +405,15 @@ export function CampaignDashboard({ workspace }: Props) {
       )}
 
       <CampaignMorningBrief brief={morningBrief} themePrimary={theme.primaryColor} themeAccent={theme.accentColor} />
+
+      <CampaignGoalSettingsPanel workspace={workspace} />
+      <CampaignIntelligenceCopilotPanel
+        workspace={workspace}
+        events={events}
+        plans={plans}
+        campaignEvents={campaignEvents}
+        themeAccent={theme.accentColor}
+      />
 
       {section === "summary" && (
         <CampaignLocalIntelOverview

@@ -1,0 +1,28 @@
+{
+  "generatedAt": "2026-06-21T06:53:07.642Z",
+  "lastRun": {
+    "id": "weekly_campaign_briefings-1782024787642",
+    "task": "weekly_campaign_briefings",
+    "at": "2026-06-21T06:53:07.642Z",
+    "candidateBriefingsGenerated": 6
+  },
+  "runs": [
+    {
+      "id": "weekly_campaign_briefings-1782024787642",
+      "task": "weekly_campaign_briefings",
+      "at": "2026-06-21T06:53:07.642Z",
+      "candidateBriefingsGenerated": 6
+    },
+    {
+      "id": "daily_feed_scan-1782024757639",
+      "task": "daily_feed_scan",
+      "at": "2026-06-21T06:52:37.639Z",
+      "feedsScanned": 80,
+      "newCandidatesFound": 4,
+      "duplicatesSkipped": 0,
+      "staleSources": 1,
+      "failedSources": 20,
+      "totalStaged": 4
+    }
+  ]
+}

@@ -35,6 +35,7 @@ import {
 import { AdminDataHealthPage } from "./pages/AdminDataHealthPage";
 import { AdminDensityPage } from "./pages/AdminDensityPage";
 import { AdminFeedCoveragePage } from "./pages/AdminFeedCoveragePage";
+import { AdminAutogrowPage } from "./pages/AdminAutogrowPage";
 import { GeoResolverPage } from "./pages/GeoResolverPage";
 import { EntityProfilePage } from "./pages/EntityProfilePage";
 import { EntityDirectoryPage } from "./pages/EntityDirectoryPage";
@@ -94,6 +95,7 @@ export default function App() {
           <Route path="/admin/data-health" element={<AdminDataHealthPage />} />
           <Route path="/admin/density" element={<AdminDensityPage />} />
           <Route path="/admin/feeds" element={<AdminFeedCoveragePage />} />
+          <Route path="/admin/autogrow" element={<AdminAutogrowPage />} />
           <Route path="/admin" element={<AdminPage />} />
           <Route path="/:slug" element={<GeoResolverPage />} />
         </Routes>

@@ -126,6 +126,12 @@ export function AdminPage() {
         <Link to="/admin/density" className="chip chip-muted text-xs">
           Density engine →
         </Link>
+        <Link to="/admin/feeds" className="chip chip-muted text-xs">
+          Feed coverage →
+        </Link>
+        <Link to="/admin/autogrow" className="chip chip-muted text-xs">
+          Autogrow →
+        </Link>
       </div>
 
       {tab === "map" && (

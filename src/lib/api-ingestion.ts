@@ -4,6 +4,7 @@ import flagshipBundle from "../../data/ingestion/flagship-recurring-events.json"
 import stagedBundle from "../../data/ingestion/staged-event-candidates.json";
 import stagedTop200Bundle from "../../data/ingestion/staged-event-candidates-top-200.json";
 import partyStagedBundle from "../../data/ingestion/political-party-meetings-staged.json";
+import autogrowStagedBundle from "../../data/ingestion/autogrow-staged-candidates.json";
 
 const fnBase = import.meta.env.VITE_FUNCTIONS_BASE ?? "/.netlify/functions";
 
@@ -48,7 +49,8 @@ function localCandidates(): IngestionCandidate[] {
   const top200 = (stagedTop200Bundle as { candidates?: Record<string, unknown>[] }).candidates ?? [];
   const staged = (stagedBundle as { candidates?: Record<string, unknown>[] }).candidates ?? [];
   const party = (partyStagedBundle as { candidates?: Record<string, unknown>[] }).candidates ?? [];
-  const merged = [...top200, ...staged, ...party];
+  const autogrow = (autogrowStagedBundle as { candidates?: Record<string, unknown>[] }).candidates ?? [];
+  const merged = [...top200, ...staged, ...party, ...autogrow];
   if (merged.length) return merged.map(mapRawCandidate);
   const flagship = (flagshipBundle as { events?: Record<string, unknown>[] }).events ?? [];
   return flagship.map(mapRawCandidate);

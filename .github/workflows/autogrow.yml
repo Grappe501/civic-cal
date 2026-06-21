@@ -1,0 +1,50 @@
+name: Autogrow
+
+on:
+  schedule:
+    - cron: "0 6 * * *"
+    - cron: "0 7 * * 1"
+    - cron: "0 9 * * 1"
+  workflow_dispatch:
+    inputs:
+      task:
+        description: "Task to run"
+        required: true
+        default: daily_feed_scan
+        type: choice
+        options:
+          - daily_feed_scan
+          - weekly_feed_discovery
+          - weekly_profile_refresh
+          - weekly_campaign_briefings
+
+jobs:
+  autogrow:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+      - run: npm ci
+      - name: Daily feed scan (06:00 UTC)
+        if: github.event.schedule == '0 6 * * *' || (github.event_name == 'workflow_dispatch' && inputs.task == 'daily_feed_scan')
+        run: npm run autogrow:daily
+      - name: Weekly feed discovery (Mon 07:00 UTC)
+        if: github.event.schedule == '0 7 * * 1' || (github.event_name == 'workflow_dispatch' && inputs.task == 'weekly_feed_discovery')
+        run: npm run autogrow:weekly-discovery
+      - name: Weekly profile refresh (Mon — with discovery)
+        if: github.event.schedule == '0 7 * * 1' || (github.event_name == 'workflow_dispatch' && inputs.task == 'weekly_profile_refresh')
+        run: npm run autogrow:profiles
+      - name: Weekly campaign briefings (Mon 09:00 UTC)
+        if: github.event.schedule == '0 9 * * 1' || (github.event_name == 'workflow_dispatch' && inputs.task == 'weekly_campaign_briefings')
+        run: npm run autogrow:briefings
+      - name: Commit autogrow artifacts
+        if: always()
+        run: |
+          git config user.name "autogrow-bot"
+          git config user.email "autogrow@users.noreply.github.com"
+          git add data/autogrow data/ingestion/autogrow-staged-candidates.json data/feeds data/autogrow/candidate-briefings || true
+          git diff --staged --quiet || git commit -m "Autogrow scheduled run artifacts"
+          git push || true

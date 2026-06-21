@@ -1,0 +1,146 @@
+{
+  "generatedAt": "2026-06-21T06:53:07.638Z",
+  "campaignSlug": "joshua-irby-sd16",
+  "candidateName": "Joshua Irby",
+  "today": {
+    "urgent": [
+      "No mapped events today — check feed scan queue"
+    ],
+    "topEvents": []
+  },
+  "thisWeek": {
+    "topEvents": [
+      {
+        "title": "Arkansas Folklife Festival",
+        "slug": "arkansas-folklife-festival-2026-06-26",
+        "county": "Pulaski",
+        "date": "2026-06-26",
+        "score": 70,
+        "recommendation": "send_volunteers",
+        "sourceUrl": null
+      },
+      {
+        "title": "Chamber luncheon — Rex Nelson",
+        "slug": "chamber-luncheon-rex-nelson-2026-06-22",
+        "county": "Pulaski",
+        "date": "2026-06-22",
+        "score": 50,
+        "recommendation": "monitor_only",
+        "sourceUrl": null
+      },
+      {
+        "title": "Little Rock Bridal and Wedding Expo",
+        "slug": "little-rock-bridal-and-wedding-expo-2026-06-28",
+        "county": "Pulaski",
+        "date": "2026-06-28",
+        "score": 50,
+        "recommendation": "monitor_only",
+        "sourceUrl": null
+      },
+      {
+        "title": "Pulaski County Dems",
+        "slug": "pulaski-county-dems-2026-06-28",
+        "county": "Pulaski",
+        "date": "2026-06-28",
+        "score": 50,
+        "recommendation": "monitor_only",
+        "sourceUrl": null
+      }
+    ],
+    "countiesWithNoPresence": [],
+    "volunteerNeeds": []
+  },
+  "thisMonth": {
+    "topEvents": [
+      {
+        "title": "Community fish fry (demo seed) · Little Rock",
+        "slug": "demo-community-fish-fry-demo-seed-little rock-2026-07-05",
+        "county": "Pulaski",
+        "date": "2026-07-05",
+        "score": 85,
+        "recommendation": "should_attend",
+        "sourceUrl": null
+      },
+      {
+        "title": "Arkansas Folklife Festival",
+        "slug": "arkansas-folklife-festival-2026-06-26",
+        "county": "Pulaski",
+        "date": "2026-06-26",
+        "score": 70,
+        "recommendation": "send_volunteers",
+        "sourceUrl": null
+      },
+      {
+        "title": "Chamber luncheon — Rex Nelson",
+        "slug": "chamber-luncheon-rex-nelson-2026-06-22",
+        "county": "Pulaski",
+        "date": "2026-06-22",
+        "score": 50,
+        "recommendation": "monitor_only",
+        "sourceUrl": null
+      },
+      {
+        "title": "Little Rock Bridal and Wedding Expo",
+        "slug": "little-rock-bridal-and-wedding-expo-2026-06-28",
+        "county": "Pulaski",
+        "date": "2026-06-28",
+        "score": 50,
+        "recommendation": "monitor_only",
+        "sourceUrl": null
+      },
+      {
+        "title": "Pulaski County Dems",
+        "slug": "pulaski-county-dems-2026-06-28",
+        "county": "Pulaski",
+        "date": "2026-06-28",
+        "score": 50,
+        "recommendation": "monitor_only",
+        "sourceUrl": null
+      },
+      {
+        "title": "Sherwood Fireworks & Food Trucks",
+        "slug": "sherwood-fireworks-food-trucks-2026-07-03",
+        "county": "Pulaski",
+        "date": "2026-07-03",
+        "score": 50,
+        "recommendation": "monitor_only",
+        "sourceUrl": null
+      },
+      {
+        "title": "Pops on the River",
+        "slug": "pops-on-the-river-2026-07-04",
+        "county": "Pulaski",
+        "date": "2026-07-04",
+        "score": 50,
+        "recommendation": "monitor_only",
+        "sourceUrl": null
+      }
+    ],
+    "coverageGaps": [],
+    "recurringTraditions": [
+      {
+        "title": "Community fish fry (demo seed) · Little Rock",
+        "slug": "demo-community-fish-fry-demo-seed-little rock-2026-07-05",
+        "county": "Pulaski",
+        "date": "2026-07-05",
+        "score": 85,
+        "recommendation": "should_attend",
+        "sourceUrl": null
+      },
+      {
+        "title": "Arkansas Folklife Festival",
+        "slug": "arkansas-folklife-festival-2026-06-26",
+        "county": "Pulaski",
+        "date": "2026-06-26",
+        "score": 70,
+        "recommendation": "send_volunteers",
+        "sourceUrl": null
+      }
+    ]
+  },
+  "guardrails": [
+    "Advisory only",
+    "Human approval for public actions",
+    "No invented attendance"
+  ]
+}
