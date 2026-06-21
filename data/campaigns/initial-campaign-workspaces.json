@@ -154,6 +154,36 @@
       "notes": "Saline County base (Bryant). Democratic nominee SD-16 2026. Church dinners, school events, Benton/Bryant civic calendar priority.",
       "is_active": true,
       "access_mode": "private_admin"
+    },
+    {
+      "slug": "wendy-peer-house",
+      "campaign_name": "Wendy Peer for Arkansas House",
+      "candidate_name": "Wendy Peer",
+      "office_sought": "Arkansas State Representative",
+      "district_type": "state_house",
+      "district_name": "Arkansas State House — district pending",
+      "dashboard_label": "Wendy Peer — House Command",
+      "counties": ["Sebastian", "Crawford", "Franklin"],
+      "cities": ["Fort Smith", "Van Buren", "Alma", "Ozark"],
+      "district_scope": {
+        "mode": "state_house",
+        "districtCode": "HD-PENDING",
+        "counties": ["Sebastian", "Crawford", "Franklin"],
+        "cities": ["Fort Smith", "Van Buren"],
+        "boundaryPrecision": "pending",
+        "boundaryNote": "State House district number pending confirmation — placeholder scope needs confirmation"
+      },
+      "dashboard_theme": {
+        "primaryColor": "#7B3F00",
+        "accentColor": "#D4A574",
+        "surfaceColor": "#FBF5EE",
+        "heroTagline": "Strong local voice — River Valley communities first.",
+        "logoInitials": "WP",
+        "badgeLabel": "State House · District pending"
+      },
+      "notes": "Placeholder scope — Sebastian / River Valley until HD district confirmed.",
+      "is_active": true,
+      "access_mode": "private_admin"
     }
   ]
 }

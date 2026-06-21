@@ -120,6 +120,7 @@ Campaign dashboards classify events into **inside**, **near**, and **worth the t
 
 ```bash
 psql $DATABASE_URL -f supabase/migrations/008_district_boundaries.sql
+psql $DATABASE_URL -f supabase/migrations/009_candidate_presence_ai_search.sql
 ```
 
 Partial counties (e.g. Pulaski in AR-02) use statutory whole-county lists until precinct GeoJSON is imported.
@@ -135,6 +136,59 @@ Reusable campaign workspaces with personalized branding, district scope, and eve
 | `fred-love-governor` | Fred Love | Governor (statewide) |
 | `eduardo-guzman-senate` | Eduardo Guzman | State Senate SD-27 |
 | `joshua-irby-sd16` | Joshua Irby | State Senate SD-16 (Saline / Benton / Bryant) |
+| `wendy-peer-house` | Wendy Peer | State House (district pending) |
+
+## Candidate Presence Layer (Pass 9)
+
+Campaign dashboards can mark events as attending, surrogate, or volunteer-needed — and **choose public visibility** on the live calendar.
+
+### Public vs private plans
+
+- Plans default to **private** (`public_presence_status: private`)
+- Toggle `show_candidate_attending`, `show_volunteers_needed`, or `show_surrogate_attending` to display corner badges
+- Badges appear on homepage feed, map cards, and event detail pages
+
+### Badge corners
+
+| Corner | Meaning |
+|--------|---------|
+| Top-left | Candidate attending (campaign brand color) |
+| Top-right | Volunteers needed (volunteer color) |
+| Bottom-left | Surrogate planned |
+| Bottom-right | Multiple campaigns watching |
+
+**Library:** `src/lib/campaigns/presenceLayer.ts` · **UI:** `PresenceBadges.tsx`
+
+Plans sync from **localStorage** in demo mode; DB columns on `campaign_event_plans` when migrated.
+
+## AI Strategic Search (Pass 9)
+
+Candidate dashboards include an **AI strategic search bar** and **Strategy Panel** — event strategist on top of the calendar.
+
+### Features
+
+- Natural-language queries: gaps, high-RD church events, volunteer deployment, worth-the-trip
+- **Calendar gap analysis:** empty days, counties without presence, high-PO unacted events
+- **Strategy Panel:** recommended next 5, gaps, RD rooms, crowd events, volunteer needs
+
+### API
+
+- `POST /.netlify/functions/campaign-ai-search` — logs to `campaign_ai_queries`
+- **OPENAI_API_KEY** enables GPT reasoning; without it, deterministic fallback filters run
+
+### Env vars
+
+| Variable | Purpose |
+|----------|---------|
+| `OPENAI_API_KEY` | Strategic search + enhanced scoring |
+| `OPENAI_EVENT_INTELLIGENCE_MODEL` | Optional model (default `gpt-4o-mini`) |
+| `DATABASE_URL` | Persist plans + AI query log |
+
+Apply migration:
+
+```bash
+psql $DATABASE_URL -f supabase/migrations/009_candidate_presence_ai_search.sql
+```
 
 - **Data:** `data/campaigns/initial-campaign-workspaces.json` + migration `006_named_campaign_workspaces.sql`
 - **API:** `/.netlify/functions/campaign-workspaces` (seed JSON fallback)

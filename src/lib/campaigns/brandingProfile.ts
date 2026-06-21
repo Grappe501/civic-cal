@@ -92,6 +92,22 @@ const PROFILES: Record<string, CampaignBrandingProfile> = {
       "SD-16 is won in the suburbs and small towns where people know each other — church parking lots, booster clubs, and city hall.",
     accentPattern: "saline-suburban",
   },
+  "wendy-peer-house": {
+    heroSubtitle: "River Valley legislator dashboard — local roots, strong community presence.",
+    scopeCardTitle: "State House · district pending",
+    scopeCardBody: "Sebastian · Crawford · Franklin — Fort Smith / Van Buren placeholder until HD confirmed.",
+    priorityLaneTitle: "Local legislative priority lane",
+    priorityLaneItems: [
+      "Fort Smith & Van Buren city council meetings",
+      "River Valley church dinners & community fundraisers",
+      "School board meetings in Sebastian County",
+      "Chamber breakfasts & VFD fish fries",
+    ],
+    whereToBeTitle: "This is where your campaign should be",
+    whereToBeBody:
+      "A state representative wins by showing up where neighbors gather — parish halls, booster clubs, and the events that never make Facebook.",
+    accentPattern: "river-valley-legislative",
+  },
 };
 
 export function getCampaignBranding(slug: string, workspace: CampaignWorkspace): CampaignBrandingProfile {

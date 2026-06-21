@@ -2,11 +2,14 @@ import { Link } from "react-router-dom";
 import { CalendarPlus, MapPin, Share2, Star } from "lucide-react";
 import type { CivicEvent } from "../lib/types";
 import { CategoryBadge } from "./CategoryBadge";
+import { PresenceBadges } from "./campaigns/PresenceBadges";
+import { useEventPresence } from "../hooks/useEventPresence";
 import { downloadIcs, formatEventRange, mapsUrl, shareEventUrl } from "../lib/format";
 import { cn } from "../lib/cn";
 
 export function EventCard({ event, compact }: { event: CivicEvent; compact?: boolean }) {
   const maps = mapsUrl(event);
+  const presence = useEventPresence(event.id);
 
   async function handleShare() {
     const url = shareEventUrl(event);
@@ -19,7 +22,8 @@ export function EventCard({ event, compact }: { event: CivicEvent; compact?: boo
   }
 
   return (
-    <article className={cn("card flex flex-col gap-3", event.featured && "ring-2 ring-ark-rust/30")}>
+    <article className={cn("card flex flex-col gap-3 relative", event.featured && "ring-2 ring-ark-rust/30")}>
+      <PresenceBadges presence={presence} />
       <div className="flex flex-wrap items-start justify-between gap-2">
         <div className="space-y-1">
           {event.featured && (

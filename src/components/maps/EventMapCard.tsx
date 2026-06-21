@@ -2,6 +2,8 @@ import { Link } from "react-router-dom";
 import { Calendar, MapPin } from "lucide-react";
 import type { CivicEvent } from "../../lib/types";
 import { CategoryBadge } from "../CategoryBadge";
+import { PresenceBadges } from "../campaigns/PresenceBadges";
+import { useEventPresence } from "../../hooks/useEventPresence";
 import { formatEventRange } from "../../lib/format";
 import { cn } from "../../lib/cn";
 
@@ -12,8 +14,11 @@ interface Props {
 }
 
 export function EventMapCard({ event, onClose, className }: Props) {
+  const presence = useEventPresence(event.id);
+
   return (
-    <div className={cn("rounded-xl border border-ark-pine/15 bg-white p-4 shadow-lg", className)}>
+    <div className={cn("relative rounded-xl border border-ark-pine/15 bg-white p-4 shadow-lg", className)}>
+      <PresenceBadges presence={presence} />
       <div className="flex items-start justify-between gap-2">
         <CategoryBadge category={event.category} />
         {onClose && (

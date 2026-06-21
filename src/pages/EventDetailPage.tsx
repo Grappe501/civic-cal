@@ -3,6 +3,8 @@ import { Link, useParams } from "react-router-dom";
 import { CalendarPlus, ExternalLink, MapPin, Share2 } from "lucide-react";
 import { CategoryBadge } from "../components/CategoryBadge";
 import { EventFeedbackForm } from "../components/EventFeedbackForm";
+import { PresenceBadges } from "../components/campaigns/PresenceBadges";
+import { useEventPresence } from "../hooks/useEventPresence";
 import { EventDetailMap } from "../components/maps/EventDetailMap";
 import { fetchEventBySlug } from "../lib/api";
 import { downloadIcs, formatEventRange, mapsUrl, shareEventUrl } from "../lib/format";
@@ -36,6 +38,7 @@ export function EventDetailPage() {
 
   const ev = event;
   const maps = mapsUrl(ev);
+  const presence = useEventPresence(ev.id);
 
   async function handleShare() {
     const url = shareEventUrl(ev);
@@ -49,7 +52,8 @@ export function EventDetailPage() {
   return (
     <article className="mx-auto max-w-3xl px-4 py-10">
       <Link to="/" className="text-sm text-ark-sage hover:underline">← All events</Link>
-      <header className="mt-4 space-y-4">
+      <header className="mt-4 space-y-4 relative">
+        <PresenceBadges presence={presence} />
         <CategoryBadge category={ev.category} />
         <h1 className="font-display text-3xl font-bold text-ark-pine">{ev.title}</h1>
         <p className="text-lg text-ark-pine/70">{formatEventRange(ev)}</p>

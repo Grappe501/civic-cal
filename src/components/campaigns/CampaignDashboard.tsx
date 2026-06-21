@@ -5,8 +5,13 @@ import { isThisWeek } from "date-fns";
 import { fetchEvents } from "../../lib/api";
 import { applyDistrictScope, isBoundaryPending, boundaryStatusNote } from "../../lib/campaigns/districtScope";
 import type { ClassifiedCampaignEvent } from "../../lib/campaigns/districtScope";
+import { analyzeCalendarGaps } from "../../lib/campaigns/calendarGapAnalyzer";
 import { traditionStrengthEstimate, verificationLabel } from "../../lib/campaigns/eventIntel";
 import { buildPlan, loadPlansForCampaign, savePlanForCampaign } from "../../lib/campaigns/planStore";
+import { notifyPresenceUpdate } from "../../lib/campaigns/presenceLayer";
+import { CampaignPresenceControls } from "./CampaignPresenceControls";
+import { CampaignStrategicSearch } from "./CampaignStrategicSearch";
+import { CampaignStrategyPanel } from "./CampaignStrategyPanel";
 import type { CampaignEventPlan, CampaignWorkspace, PlanStatus } from "../../lib/campaigns/types";
 import { PLAN_STATUS_LABELS, PLAN_STATUS_SHORT } from "../../lib/campaigns/types";
 import { dashboardThemeVars } from "../../lib/campaigns/workspaces";
@@ -47,12 +52,16 @@ const PLAN_STATUSES: PlanStatus[] = [
 function EventIntelCard({
   classified,
   plans,
+  workspace,
   onPlan,
+  onPresenceUpdate,
   compact,
 }: {
   classified: ClassifiedCampaignEvent;
   plans: Record<string, CampaignEventPlan>;
+  workspace: CampaignWorkspace;
   onPlan: (eventId: string, status: PlanStatus) => void;
+  onPresenceUpdate: (eventId: string, plan: CampaignEventPlan) => void;
   compact?: boolean;
 }) {
   const { scored, zone, zoneReason } = classified;
@@ -118,6 +127,12 @@ function EventIntelCard({
           <MessageSquarePlus className="h-3 w-3" /> Local intel
         </Link>
       </div>
+      <CampaignPresenceControls
+        workspace={workspace}
+        eventId={event.id}
+        plan={plan}
+        onUpdate={(p) => onPresenceUpdate(event.id, p)}
+      />
     </div>
   );
 }
@@ -185,7 +200,17 @@ export function CampaignDashboard({ workspace }: Props) {
     const plan = buildPlan(eventId, planStatus, plans[eventId]);
     savePlanForCampaign(workspace.slug, eventId, plan);
     setPlans({ ...plans, [eventId]: plan });
+    notifyPresenceUpdate();
   }
+
+  function handlePresenceUpdate(eventId: string, plan: CampaignEventPlan) {
+    setPlans({ ...plans, [eventId]: plan });
+  }
+
+  const gapSummary = useMemo(() => {
+    const a = analyzeCalendarGaps(allVisible, plans, workspace);
+    return a.gaps.map((g) => g.label);
+  }, [allVisible, plans, workspace]);
 
   const sections: { id: SectionId; label: string; count: number }[] = [
     { id: "summary", label: "Command summary", count: allVisible.length },
@@ -312,7 +337,7 @@ export function CampaignDashboard({ workspace }: Props) {
                 </h2>
                 <div className="mt-3 space-y-3">
                   {(thisWeek.length ? thisWeek : topOpportunity).slice(0, 5).map((item) => (
-                    <EventIntelCard key={item.scored.event.id} classified={item} plans={plans} onPlan={handlePlan} compact />
+                    <EventIntelCard key={item.scored.event.id} classified={item} plans={plans} workspace={workspace} onPlan={handlePlan} onPresenceUpdate={handlePresenceUpdate} compact />
                   ))}
                 </div>
               </div>
@@ -322,7 +347,7 @@ export function CampaignDashboard({ workspace }: Props) {
                 </h2>
                 <div className="mt-3 space-y-3">
                   {topDensity.slice(0, 4).map((item) => (
-                    <EventIntelCard key={item.scored.event.id} classified={item} plans={plans} onPlan={handlePlan} compact />
+                    <EventIntelCard key={item.scored.event.id} classified={item} plans={plans} workspace={workspace} onPlan={handlePlan} onPresenceUpdate={handlePresenceUpdate} compact />
                   ))}
                 </div>
               </div>
@@ -330,7 +355,7 @@ export function CampaignDashboard({ workspace }: Props) {
           ) : (
             <div className="space-y-3">
               {list.slice(0, 12).map((item) => (
-                <EventIntelCard key={item.scored.event.id} classified={item} plans={plans} onPlan={handlePlan} />
+                <EventIntelCard key={item.scored.event.id} classified={item} plans={plans} workspace={workspace} onPlan={handlePlan} onPresenceUpdate={handlePresenceUpdate} />
               ))}
               {list.length === 0 && <p className="text-ark-pine/60">No events in this section for current scope.</p>}
             </div>
@@ -342,6 +367,19 @@ export function CampaignDashboard({ workspace }: Props) {
         </div>
 
         <div className="space-y-4">
+          <CampaignStrategicSearch
+            workspace={workspace}
+            events={events}
+            gapSummary={gapSummary}
+            themePrimary={theme.primaryColor}
+          />
+          <CampaignStrategyPanel
+            workspace={workspace}
+            classified={allVisible}
+            plans={plans}
+            themePrimary={theme.primaryColor}
+            themeAccent={theme.accentColor}
+          />
           <div className="card" style={{ backgroundColor: theme.surfaceColor }}>
             <h3 className="font-semibold" style={{ color: theme.primaryColor }}>AI & local intelligence</h3>
             <p className="text-sm text-ark-pine/70 mt-2">

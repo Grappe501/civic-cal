@@ -16,6 +16,14 @@ const CONTRIBUTOR_CHECKLIST = [
   "Farmers markets & library events",
 ];
 
+const INTEL_PROMPTS = [
+  "Which events does every serious candidate need to attend in your town?",
+  "Which church/community meals are the biggest?",
+  "Which rivalry games draw the whole town?",
+  "Which events are not online but everyone knows about?",
+  "Who should we contact to verify this?",
+];
+
 const HIGH_VALUE = [
   "Community church dinners & fish fries",
   "County fairs and heritage festivals",
@@ -29,6 +37,9 @@ export function HelpBuildCalendarPage() {
   const [done, setDone] = useState(false);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const [intelDone, setIntelDone] = useState(false);
+  const [intelLoading, setIntelLoading] = useState(false);
+  const [intelError, setIntelError] = useState<string | null>(null);
   const [townSearch, setTownSearch] = useState("");
   const [events, setEvents] = useState<Awaited<ReturnType<typeof fetchEvents>>>([]);
 
@@ -46,6 +57,29 @@ export function HelpBuildCalendarPage() {
     if (!q) return [];
     return ARKANSAS_COUNTIES.filter((c) => c.toLowerCase().includes(q)).slice(0, 8);
   }, [townSearch]);
+
+  async function onIntelSubmit(e: React.FormEvent<HTMLFormElement>) {
+    e.preventDefault();
+    setIntelLoading(true);
+    setIntelError(null);
+    const fd = new FormData(e.currentTarget);
+    const answers = INTEL_PROMPTS.map((q, i) => `${q}\n${String(fd.get(`intel_${i}`) || "").trim()}`).join("\n\n");
+    try {
+      await signupContributor({
+        name: String(fd.get("intel_name")),
+        email: String(fd.get("intel_email")),
+        county: String(fd.get("intel_county")),
+        city: String(fd.get("intel_city") || "") || undefined,
+        role: "local_campaign_intel",
+        helpAreas: `[Campaign presence intel]\n${answers}`,
+      });
+      setIntelDone(true);
+    } catch (err) {
+      setIntelError(err instanceof Error ? err.message : "Submit failed");
+    } finally {
+      setIntelLoading(false);
+    }
+  }
 
   async function onSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
@@ -149,6 +183,54 @@ export function HelpBuildCalendarPage() {
           <h2 className="font-semibold mt-2">Share recurring traditions</h2>
           <p className="text-sm text-muted mt-1">Annual dinners, fairs, and rivalry games that define your town.</p>
         </div>
+      </section>
+
+      <section className="mt-10 card card-elevated border-l-4 border-l-ark-rust">
+        <h2 className="font-display text-lg font-semibold">Help campaigns know where to show up</h2>
+        <p className="text-sm text-muted mt-2">
+          Local knowledge goes to trusted contributor review — campaigns use this to decide attendance, surrogates, and volunteer deployment.
+        </p>
+        {intelDone ? (
+          <p className="mt-4 text-sm text-ark-sage font-medium">Thank you — your local intel helps Arkansas campaigns show up in the right rooms.</p>
+        ) : (
+          <form onSubmit={onIntelSubmit} className="mt-4 space-y-4">
+            <div className="grid gap-4 sm:grid-cols-2">
+              <div>
+                <label className="label">Name *</label>
+                <input name="intel_name" required className="input" />
+              </div>
+              <div>
+                <label className="label">Email *</label>
+                <input name="intel_email" type="email" required className="input" />
+              </div>
+            </div>
+            <div className="grid gap-4 sm:grid-cols-2">
+              <div>
+                <label className="label">County *</label>
+                <select name="intel_county" required className="input">
+                  <option value="">Select</option>
+                  {ARKANSAS_COUNTIES.map((c) => (
+                    <option key={c} value={c}>{c}</option>
+                  ))}
+                </select>
+              </div>
+              <div>
+                <label className="label">City</label>
+                <input name="intel_city" className="input" />
+              </div>
+            </div>
+            {INTEL_PROMPTS.map((prompt, i) => (
+              <div key={prompt}>
+                <label className="label text-xs">{prompt}</label>
+                <textarea name={`intel_${i}`} rows={2} className="input text-sm" />
+              </div>
+            ))}
+            {intelError && <p className="text-sm text-red-700">{intelError}</p>}
+            <button type="submit" disabled={intelLoading} className="btn-primary">
+              {intelLoading ? "Sending…" : "Share local campaign intel"}
+            </button>
+          </form>
+        )}
       </section>
 
       <section className="mt-10">

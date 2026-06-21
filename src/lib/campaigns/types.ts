@@ -59,6 +59,8 @@ export interface CampaignWorkspace {
   mobilizeStatus?: "not_connected" | "pending" | "connected";
 }
 
+export type PublicPresenceStatus = "private" | "public";
+
 export interface CampaignEventPlan {
   eventId: string;
   planStatus: PlanStatus;
@@ -69,6 +71,14 @@ export interface CampaignEventPlan {
   staffingNotes?: string;
   travelNotes?: string;
   updatedAt?: string;
+  publicPresenceStatus?: PublicPresenceStatus;
+  showCandidateAttending?: boolean;
+  showVolunteersNeeded?: boolean;
+  showSurrogateAttending?: boolean;
+  publicNote?: string;
+  volunteerPublicNote?: string;
+  candidateColor?: string;
+  volunteerColor?: string;
 }
 
 export interface ScoredEvent {
