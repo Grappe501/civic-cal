@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { HandHeart, ExternalLink } from "lucide-react";
+import { resolveCampaignColors } from "../../lib/campaigns/brandingProfile";
 import type { CampaignWorkspace } from "../../lib/campaigns/types";
 import type { PublicVolunteerAsk } from "../../lib/campaigns/volunteerRecruitment";
 
@@ -49,7 +50,10 @@ export function PublicVolunteerAsksPanel({ workspace, asks, themePrimary }: Prop
                   target="_blank"
                   rel="noopener noreferrer"
                   className="chip text-[9px] shrink-0"
-                  style={{ backgroundColor: workspace.volunteerBrandColor ?? workspace.dashboardTheme.accentColor, color: "#fff" }}
+                  style={{
+                    backgroundColor: workspace.volunteerBrandColor ?? workspace.dashboardTheme.accentColor,
+                    color: resolveCampaignColors(workspace).textOnVolunteer,
+                  }}
                 >
                   <ExternalLink className="h-3 w-3 inline mr-0.5" />
                   Sign up

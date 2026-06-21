@@ -32,7 +32,7 @@ export function RaceCircuitPage() {
           </div>
         ) : races.length === 0 ? (
           <div className="card text-center py-12">
-            <p className="text-ark-pine/70">No races indexed yet — submit turkey trots, 5Ks, and fun runs.</p>
+            <p className="text-muted">No races indexed yet — submit turkey trots, 5Ks, and fun runs.</p>
             <Link to="/submit" className="btn-primary mt-4 inline-flex">Submit a race</Link>
           </div>
         ) : (

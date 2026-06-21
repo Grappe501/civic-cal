@@ -31,7 +31,7 @@ export function PersonalityModeToggle({ value, onChange }: Props) {
 
   return (
     <div className="personality-toggle">
-      <p className="text-sm font-medium text-ark-pine/80 mb-2">Who are you exploring as?</p>
+      <p className="text-sm font-medium text-muted mb-2">Who are you exploring as?</p>
       <div className="flex flex-wrap gap-2">
         {MODES.map((m) => (
           <button

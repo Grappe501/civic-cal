@@ -70,10 +70,10 @@ export function AdminPage() {
     return (
       <div className="mx-auto max-w-md px-4 py-16">
         <h1 className="font-display text-2xl font-bold text-ark-pine">Admin review</h1>
-        <p className="mt-2 text-sm text-ark-pine/70">Pending submissions and map location review.</p>
+        <p className="mt-2 text-sm text-muted">Pending submissions and map location review.</p>
         <input
           type="password"
-          className="input mt-4"
+          className="input-readable mt-4"
           placeholder="Admin token"
           value={token}
           onChange={(e) => setToken(e.target.value)}
@@ -94,7 +94,7 @@ export function AdminPage() {
             key={t}
             type="button"
             onClick={() => setTab(t)}
-            className={tab === t ? "chip bg-ark-pine text-white" : "chip bg-ark-wheat text-ark-pine"}
+            className={tab === t ? "chip bg-ark-pine text-white border-ark-pine" : "chip chip-muted"}
           >
             {t === "pending"
               ? "Pending submissions"
@@ -116,7 +116,7 @@ export function AdminPage() {
       </div>
 
       {tab === "map" && (
-        <p className="text-sm text-ark-pine/60 mb-4">
+        <p className="text-sm text-muted-soft mb-4">
           {mapStats.missing} missing coordinates · {mapStats.low} low confidence
         </p>
       )}
@@ -172,14 +172,14 @@ export function AdminPage() {
             <div className="flex flex-wrap items-start justify-between gap-2">
               <div>
                 <h2 className="font-semibold text-ark-pine">{e.title}</h2>
-                <p className="text-sm text-ark-pine/60">
+                <p className="text-sm text-muted-soft">
                   {formatEventRange(e)} · {e.county} County
                   {e.mapStatus && ` · map: ${e.mapStatus}`}
                 </p>
               </div>
               <CategoryBadge category={e.category} />
             </div>
-            {e.description && <p className="mt-2 text-sm text-ark-pine/70">{e.description}</p>}
+            {e.description && <p className="mt-2 text-sm text-muted">{e.description}</p>}
             {tab === "map" && (
               <div className="mt-3 grid gap-2 sm:grid-cols-2">
                 <input
@@ -242,7 +242,7 @@ export function AdminPage() {
             </div>
           </div>
         ))}
-        {events.length === 0 && <p className="text-ark-pine/60">Queue is clear.</p>}
+        {events.length === 0 && <p className="text-muted-soft">Queue is clear.</p>}
       </div>
       )}
     </div>

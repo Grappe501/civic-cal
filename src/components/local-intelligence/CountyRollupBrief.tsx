@@ -34,8 +34,8 @@ interface Props {
 function ListBlock({ title, items, empty }: { title: string; items: string[]; empty?: string }) {
   return (
     <div>
-      <h4 className="text-xs font-bold uppercase tracking-wide text-ark-sage mb-2">{title}</h4>
-      <ul className="text-sm space-y-1 text-ark-pine/85">
+      <h4 className="text-kicker mb-2">{title}</h4>
+      <ul className="text-sm space-y-1 text-muted">
         {items.slice(0, 8).map((x) => <li key={x}>• {x}</li>)}
         {items.length === 0 && <li className="intel-data-unknown text-sm">{empty ?? "Pending harvest / verification"}</li>}
       </ul>
@@ -56,7 +56,7 @@ function EventLinks({ items, events }: { items: string[]; events: CivicEvent[] }
             </li>
           );
         }
-        return <li key={label} className="text-ark-pine/80">{label}</li>;
+        return <li key={label} className="text-muted">{label}</li>;
       })}
     </ul>
   );
@@ -92,7 +92,7 @@ export function CountyRollupBrief({ workspace, rollup, events, summary, opportun
         <h2 className="font-display font-semibold" style={{ color: theme.primaryColor }}>
           Everything known about {dossier.county} County
         </h2>
-        {dossier.demographicsSummary && <p className="text-sm text-ark-pine/85 mt-2">{dossier.demographicsSummary}</p>}
+        {dossier.demographicsSummary && <p className="text-sm text-muted mt-2">{dossier.demographicsSummary}</p>}
         <p className="text-xs text-muted mt-2">Community institutions layer — churches, schools, colleges, orgs, sports</p>
         {dossier.winPathNotes && <p className="text-sm mt-2 font-medium">{dossier.winPathNotes}</p>}
         {onGenerateBrief && (
@@ -258,7 +258,7 @@ export function CountyRollupBrief({ workspace, rollup, events, summary, opportun
           </section>
 
           {summary && (
-            <section className="card card-elevated text-xs space-y-2 text-ark-pine/85">
+            <section className="card card-elevated text-xs space-y-2 text-muted">
               <p><strong>Why it matters:</strong> {summary.whyItMatters}</p>
               <p><strong>Guidance:</strong> {summary.relationshipGuidance}</p>
               <p className="text-muted">{summary.confidenceNotes}</p>

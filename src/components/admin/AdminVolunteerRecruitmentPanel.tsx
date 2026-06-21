@@ -31,7 +31,7 @@ export function AdminVolunteerRecruitmentPanel({ token: _token }: Props) {
 
   return (
     <div className="space-y-6">
-      <p className="text-sm text-ark-pine/60">
+      <p className="text-sm text-muted-soft">
         Volunteer recruitment presence — public badges from localStorage demo plans. Supabase sync is next pass.
       </p>
 

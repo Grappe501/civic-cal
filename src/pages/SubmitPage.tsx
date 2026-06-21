@@ -141,7 +141,7 @@ export function SubmitPage() {
       <div className="mx-auto max-w-lg px-4 py-20 text-center">
         <CheckCircle2 className="mx-auto h-16 w-16 text-ark-sage" />
         <h1 className="mt-4 font-display text-2xl font-bold text-ark-pine">Thanks — your event is under review.</h1>
-        <p className="mt-2 text-ark-pine/70">
+        <p className="mt-2 text-muted">
           Share this link with your county group so more people can add events.
         </p>
         <Link to="/map" className="btn-primary mt-6 inline-flex">See the statewide map</Link>
@@ -152,7 +152,7 @@ export function SubmitPage() {
   return (
     <div className="mx-auto max-w-2xl px-4 py-10">
       <h1 className="font-display text-3xl font-bold text-ark-pine">Submit an Arkansas Event</h1>
-      <p className="mt-2 text-ark-pine/70">
+      <p className="mt-2 text-muted">
         Add your location so neighbors and organizers can find you on the map.
       </p>
 

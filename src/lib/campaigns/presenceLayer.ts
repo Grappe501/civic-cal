@@ -8,6 +8,7 @@ import {
   resolveVolunteerDestination,
 } from "../integrations/mobilizeLinks";
 import { normalizeVolunteerPlan } from "./volunteerRecruitment";
+import { pickReadableText } from "../contrast";
 
 export type PresenceCorner = "top-left" | "top-right" | "bottom-left" | "bottom-right";
 
@@ -85,7 +86,7 @@ function buildBadges(entries: CampaignPresenceEntry[], watchingCount: number): P
         corner: "top-left",
         label: e.publicNote || `${shortCandidateName(e.candidateName)} attending`,
         color: e.candidateColor,
-        textColor: "#fff",
+        textColor: pickReadableText(e.candidateColor),
         slug: e.slug,
         campaignName: e.campaignName,
       });
@@ -98,7 +99,7 @@ function buildBadges(entries: CampaignPresenceEntry[], watchingCount: number): P
         corner: "top-right",
         label: getVolunteerBadgeLabel(e.plan, ws),
         color: getVolunteerBadgeColor(e.plan, ws),
-        textColor: "#fff",
+        textColor: pickReadableText(getVolunteerBadgeColor(e.plan, ws)),
         slug: e.slug,
         campaignName: e.campaignName,
         destinationUrl: dest.url,
@@ -112,7 +113,7 @@ function buildBadges(entries: CampaignPresenceEntry[], watchingCount: number): P
         corner: "bottom-left",
         label: e.publicNote || "Surrogate planned",
         color: e.candidateColor,
-        textColor: "#fff",
+        textColor: pickReadableText(e.candidateColor),
         slug: e.slug,
         campaignName: e.campaignName,
       });
@@ -126,7 +127,7 @@ function buildBadges(entries: CampaignPresenceEntry[], watchingCount: number): P
       corner: "bottom-right",
       label: watchingCount > 1 ? `${watchingCount} campaigns watching` : "Campaign watching",
       color: "#1A1F2E",
-      textColor: "#fff",
+      textColor: "#FFFFFF",
       slug: "multi",
       campaignName: "Multiple",
     });

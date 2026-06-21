@@ -163,7 +163,7 @@ export function HelpBuildCalendarPage() {
 
       <section className="mt-10">
         <h2 className="font-display text-lg font-semibold">Contributor checklist</h2>
-        <ul className="mt-3 grid gap-2 sm:grid-cols-2 text-sm text-ark-pine/85">
+        <ul className="mt-3 grid gap-2 sm:grid-cols-2 text-sm text-muted">
           {CONTRIBUTOR_CHECKLIST.map((item) => (
             <li key={item} className="flex gap-2 items-start">
               <CheckCircle2 className="h-4 w-4 text-ark-sage shrink-0 mt-0.5" /> {item}
@@ -235,7 +235,7 @@ export function HelpBuildCalendarPage() {
 
       <section className="mt-10">
         <h2 className="font-display text-lg font-semibold">What makes a high-value event?</h2>
-        <ul className="mt-3 grid gap-2 sm:grid-cols-2 text-sm text-ark-pine/85">
+        <ul className="mt-3 grid gap-2 sm:grid-cols-2 text-sm text-muted">
           {HIGH_VALUE.map((item) => (
             <li key={item} className="flex gap-2">
               <span className="text-ark-sage font-bold">•</span> {item}

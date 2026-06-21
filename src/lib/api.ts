@@ -1,4 +1,5 @@
 import type { CivicEvent, EventFilters, SubmitEventPayload } from "./types";
+import { filterPublicEvents, isPubliclyVisibleEvent } from "./events/eventArchive";
 import seedBundle from "../../data/seed-events.json";
 
 const fnBase = import.meta.env.VITE_FUNCTIONS_BASE ?? "/.netlify/functions";
@@ -29,6 +30,8 @@ function filterSeed(events: CivicEvent[], filters: EventFilters & { limit?: numb
   if (filters.candidateRelevant) list = list.filter((e) => e.candidateRelevant);
   if (filters.featured) list = list.filter((e) => e.featured);
 
+  list = filterPublicEvents(list);
+
   list.sort((a, b) => new Date(a.startAt).getTime() - new Date(b.startAt).getTime());
   const limit = filters.limit ?? 500;
   return list.slice(0, limit);
@@ -58,22 +61,28 @@ export async function fetchEvents(filters: EventFilters = {}): Promise<CivicEven
     const res = await fetch(`${fnBase}/events?${toParams(filters)}`);
     if (!res.ok) throw new Error("Failed to load events");
     const data = await res.json();
-    return data.events ?? [];
+    return filterPublicEvents(data.events ?? []);
   } catch {
     return filterSeed(seedEvents(), { ...filters, limit: filters.limit ?? 500 });
   }
 }
 
+function visibleSeedEvent(slug: string): CivicEvent | null {
+  const event = seedEvents().find((e) => e.slug === slug);
+  return event && isPubliclyVisibleEvent(event) ? event : null;
+}
+
 export async function fetchEventBySlug(slug: string): Promise<CivicEvent | null> {
-  if (useSeedOnly) return seedEvents().find((e) => e.slug === slug) ?? null;
+  if (useSeedOnly) return visibleSeedEvent(slug);
   try {
     const res = await fetch(`${fnBase}/events?slug=${encodeURIComponent(slug)}`);
     if (res.status === 404) return null;
     if (!res.ok) throw new Error("Failed to load event");
     const data = await res.json();
-    return data.event ?? null;
+    const event = (data.event ?? null) as CivicEvent | null;
+    return event && isPubliclyVisibleEvent(event) ? event : null;
   } catch {
-    return seedEvents().find((e) => e.slug === slug) ?? null;
+    return visibleSeedEvent(slug);
   }
 }
 

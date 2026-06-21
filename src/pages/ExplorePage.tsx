@@ -79,7 +79,11 @@ export function ExplorePage() {
                 {presence.publicBadges.length > 0 && (
                   <div className="flex flex-wrap gap-1 mb-1">
                     {presence.publicBadges.slice(0, 2).map((b) => (
-                      <span key={b.label} className="chip text-[9px] text-white py-0.5" style={{ backgroundColor: b.color }}>
+                      <span
+                        key={b.label}
+                        className="chip text-[9px] py-0.5 border border-black/10"
+                        style={{ backgroundColor: b.color, color: b.textColor ?? "#FFFFFF" }}
+                      >
                         {b.label}
                       </span>
                     ))}

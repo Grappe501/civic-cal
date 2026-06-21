@@ -28,6 +28,8 @@ export interface DashboardTheme {
   heroTagline: string;
   logoInitials: string;
   badgeLabel: string;
+  /** Official campaign logo from candidate website (og:image or header asset) */
+  logoUrl?: string | null;
 }
 
 export type PlanStatus =
@@ -61,6 +63,8 @@ export interface CampaignWorkspace {
   mobilizeOrgUrl?: string | null;
   volunteerBrandColor?: string | null;
   volunteerBadgeLabel?: string | null;
+  /** Official campaign website — sourced from candidate site */
+  campaignWebsiteUrl?: string | null;
 }
 
 export type PublicPresenceStatus = "private" | "public";

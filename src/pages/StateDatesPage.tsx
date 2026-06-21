@@ -44,7 +44,7 @@ export function StateDatesPage() {
       <h1 className="font-display text-3xl font-bold text-ark-pine mt-1 flex items-center gap-2">
         <CalendarDays className="h-8 w-8" /> Important Arkansas dates
       </h1>
-      <p className="text-sm text-ark-pine/70 mt-2 max-w-2xl">{datesPolicy()}</p>
+      <p className="text-sm text-muted mt-2 max-w-2xl">{datesPolicy()}</p>
 
       <div className="flex flex-wrap gap-3 mt-6 mb-8">
         <select className="input text-sm max-w-xs" value={category} onChange={(e) => setCategory(e.target.value)}>
@@ -70,7 +70,7 @@ export function StateDatesPage() {
                 {d.species && ` · ${d.species}`}
                 {d.seasonYear && ` · ${d.seasonYear}`}
               </p>
-              {d.notes && <p className="text-sm text-ark-pine/70 mt-2">{d.notes}</p>}
+              {d.notes && <p className="text-sm text-muted mt-2">{d.notes}</p>}
             </div>
             <div className="text-right text-sm">
               <time dateTime={d.date} className="font-medium text-ark-pine block">
@@ -104,7 +104,7 @@ export function StateDatesPage() {
         </div>
         <div className="card">
           <h3 className="font-semibold">Harvest tasks (pending dates)</h3>
-          <ul className="mt-3 space-y-2 text-sm text-ark-pine/75">
+          <ul className="mt-3 space-y-2 text-sm text-muted">
             {harvestTasks().map((t) => (
               <li key={t.id}>• {t.title} <span className="text-xs text-amber-700">({t.status})</span></li>
             ))}

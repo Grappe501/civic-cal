@@ -47,7 +47,7 @@ export function StudentServicePage() {
         <h1 className="font-display text-3xl md:text-4xl font-bold text-ark-pine mt-2">
           Find verified volunteer opportunities
         </h1>
-        <p className="text-ark-pine/80 mt-3 leading-relaxed">
+        <p className="text-muted mt-3 leading-relaxed">
           Beginning with the <strong>2026–2027 graduating class</strong>, Arkansas public high school students must
           complete <strong>{ARKANSAS_SERVICE_HOUR_REQUIREMENT.hours} documented community service hours</strong> in
           grades {ARKANSAS_SERVICE_HOUR_REQUIREMENT.grades} to graduate.
@@ -64,7 +64,7 @@ export function StudentServicePage() {
 
       <div className="card bg-sky-50/60 border-sky-200/50 mb-8 flex gap-3">
         <ShieldCheck className="h-8 w-8 text-sky-700 shrink-0" />
-        <div className="text-sm text-ark-pine/85 space-y-1">
+        <div className="text-sm text-muted space-y-1">
           <p className="font-semibold text-ark-pine">Safety & privacy</p>
           <ul className="list-disc pl-4 space-y-0.5 text-xs md:text-sm">
             <li>Students connect only through <strong>verified organizations</strong> in this network.</li>
@@ -97,7 +97,7 @@ export function StudentServicePage() {
 
       {opportunities.length === 0 ? (
         <div className="card text-center py-12">
-          <p className="text-ark-pine/70">No verified opportunities match these filters yet.</p>
+          <p className="text-muted">No verified opportunities match these filters yet.</p>
           <Link to="/organizations" className="btn-primary mt-4 inline-flex">Browse organizations</Link>
         </div>
       ) : (
@@ -113,7 +113,7 @@ export function StudentServicePage() {
                 {o.estimatedHours != null && ` · ~${o.estimatedHours} hours`}
                 {o.recurring && " · Recurring"}
               </p>
-              {o.description && <p className="text-sm text-ark-pine/75 mt-2">{o.description}</p>}
+              {o.description && <p className="text-sm text-muted mt-2">{o.description}</p>}
               <div className="flex flex-wrap gap-2 mt-3">
                 <span className="chip chip-muted text-[10px]">Verified organization</span>
                 {o.eligibleGrades && <span className="chip chip-muted text-[10px]">Grades {o.eligibleGrades}</span>}

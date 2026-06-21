@@ -40,7 +40,7 @@ export function CampaignMorningBrief({ brief, themePrimary, themeAccent }: Props
             <li
               key={i}
               className={`flex gap-3 text-sm rounded-lg px-3 py-2 ${
-                insight.severity === "high" ? "bg-amber-50 text-amber-950" : "bg-white/80 text-ark-pine/90"
+                insight.severity === "high" ? "bg-amber-50 text-amber-950" : "bg-white/80 text-[var(--text-primary)]"
               }`}
             >
               <Icon className="h-4 w-4 shrink-0 mt-0.5" style={{ color: themeAccent }} />

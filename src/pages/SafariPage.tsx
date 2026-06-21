@@ -37,7 +37,7 @@ export function SafariPage() {
         <div className="mt-8 h-48 animate-pulse bg-ark-wheat/50 rounded-2xl" />
       ) : results.length === 0 ? (
         <div className="card mt-8 text-center py-12">
-          <p className="text-ark-pine/70">No matches yet — the calendar is still growing.</p>
+          <p className="text-muted">No matches yet — the calendar is still growing.</p>
           <Link to="/submit" className="btn-primary mt-4 inline-flex">Submit an event</Link>
         </div>
       ) : (

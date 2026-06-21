@@ -21,20 +21,22 @@
         "boundaryPrecision": "full"
       },
       "dashboard_theme": {
-        "primaryColor": "#1B4332",
-        "accentColor": "#BC4749",
-        "surfaceColor": "#F5F0E6",
-        "heroTagline": "Statewide command — election integrity, access, every vote counted.",
+        "primaryColor": "#272727",
+        "accentColor": "#BD0000",
+        "surfaceColor": "#F8F6F3",
+        "heroTagline": "People over politics. Always.",
         "logoInitials": "KG",
-        "badgeLabel": "Secretary of State"
+        "badgeLabel": "Secretary of State",
+        "logoUrl": "https://static1.squarespace.com/static/69015af815b6db2589f82b24/t/6977f8b7f53e2d48f24d0c8c/1769470135344/KG.jpg?format=400w"
       },
-      "notes": "Statewide scope — all 75 counties. Civic access and election integrity focus.",
+      "notes": "Branding sourced from kellygrappe.com · volunteer via Mobilize.",
       "is_active": true,
       "access_mode": "private_admin",
-      "default_volunteer_signup_url": null,
-      "mobilize_org_url": null,
-      "volunteer_brand_color": null,
-      "volunteer_badge_label": null
+      "campaign_website_url": "https://www.kellygrappe.com/",
+      "default_volunteer_signup_url": "https://mobilize.us/thecommitteetoelectkellygrappe/",
+      "mobilize_org_url": "https://mobilize.us/thecommitteetoelectkellygrappe/",
+      "volunteer_brand_color": "#BD0000",
+      "volunteer_badge_label": "Volunteer with Kelly"
     },
     {
       "slug": "chris-jones-ar02",
@@ -56,20 +58,22 @@
         "boundaryNote": "Statutory counties + partial Pulaski — precinct GeoJSON next"
       },
       "dashboard_theme": {
-        "primaryColor": "#2D6A4F",
-        "accentColor": "#40916C",
-        "surfaceColor": "#E8F4F0",
-        "heroTagline": "Central Arkansas district intelligence — inside, near, worth the trip.",
+        "primaryColor": "#1A1A1A",
+        "accentColor": "#0693E3",
+        "surfaceColor": "#E8F4F8",
+        "heroTagline": "A Bigger Table. A Brighter Future.",
         "logoInitials": "CJ",
-        "badgeLabel": "Congress · AR-02"
+        "badgeLabel": "Congress · AR-02",
+        "logoUrl": "https://chrisjonesforcongress.com/wp-content/uploads/2025/09/Jones_SocialShare_OG.png"
       },
-      "notes": "Placeholder county scope from statutory district definition.",
+      "notes": "Branding sourced from chrisjonesforcongress.com · volunteer form + Mobilize.",
       "is_active": true,
       "access_mode": "private_admin",
-      "default_volunteer_signup_url": null,
-      "mobilize_org_url": null,
-      "volunteer_brand_color": null,
-      "volunteer_badge_label": null
+      "campaign_website_url": "https://chrisjonesforcongress.com/",
+      "default_volunteer_signup_url": "https://chrisjonesforcongress.com/volunteer/",
+      "mobilize_org_url": "https://mobilize.us/chrisjonesforcongress/",
+      "volunteer_brand_color": "#0693E3",
+      "volunteer_badge_label": "Join the Volunteer Crew"
     },
     {
       "slug": "fred-love-governor",
@@ -90,20 +94,21 @@
         "boundaryPrecision": "full"
       },
       "dashboard_theme": {
-        "primaryColor": "#3D405B",
-        "accentColor": "#E07A5F",
-        "surfaceColor": "#F4F1DE",
-        "heroTagline": "All-Arkansas governor dashboard — movement map from Delta to Ozarks.",
+        "primaryColor": "#19255D",
+        "accentColor": "#BD3531",
+        "surfaceColor": "#F5F7FA",
+        "heroTagline": "Ready to help Arkansas #FeelTheLove?",
         "logoInitials": "FL",
         "badgeLabel": "Governor"
       },
-      "notes": "Statewide scope — all Arkansas communities.",
+      "notes": "Branding sourced from fredloveforarkansas.com · volunteer via contact form.",
       "is_active": true,
       "access_mode": "private_admin",
-      "default_volunteer_signup_url": null,
+      "campaign_website_url": "https://www.fredloveforarkansas.com/",
+      "default_volunteer_signup_url": "https://www.fredloveforarkansas.com/contact",
       "mobilize_org_url": null,
-      "volunteer_brand_color": null,
-      "volunteer_badge_label": null
+      "volunteer_brand_color": "#BD3531",
+      "volunteer_badge_label": "Volunteer with Fred"
     },
     {
       "slug": "eduardo-guzman-senate",
@@ -125,20 +130,21 @@
         "boundaryNote": "SD-27 — partial Sebastian; Fort Smith city match inside"
       },
       "dashboard_theme": {
-        "primaryColor": "#5C4033",
-        "accentColor": "#C1666B",
-        "surfaceColor": "#FAF3F0",
-        "heroTagline": "Fort Smith & River Valley — local relationship density wins SD-27.",
+        "primaryColor": "#272727",
+        "accentColor": "#F0523D",
+        "surfaceColor": "#F6F6F6",
+        "heroTagline": "Fort Smith deserves a stronger voice in Little Rock.",
         "logoInitials": "EG",
         "badgeLabel": "State Senate · SD-27"
       },
-      "notes": "Fort Smith / Sebastian placeholder until Senate district GIS loaded.",
+      "notes": "Branding sourced from guzmanforarkansas.com · volunteer form on campaign site.",
       "is_active": true,
       "access_mode": "private_admin",
-      "default_volunteer_signup_url": null,
+      "campaign_website_url": "https://guzmanforarkansas.com/",
+      "default_volunteer_signup_url": "https://guzmanforarkansas.com/",
       "mobilize_org_url": null,
-      "volunteer_brand_color": null,
-      "volunteer_badge_label": null
+      "volunteer_brand_color": "#F0523D",
+      "volunteer_badge_label": "Volunteer with Ed"
     },
     {
       "slug": "joshua-irby-sd16",
@@ -181,33 +187,34 @@
       "candidate_name": "Wendy Peer",
       "office_sought": "Arkansas State Representative",
       "district_type": "state_house",
-      "district_name": "Arkansas State House — district pending",
-      "dashboard_label": "Wendy Peer — House Command",
-      "counties": ["Sebastian", "Crawford", "Franklin"],
-      "cities": ["Fort Smith", "Van Buren", "Alma", "Ozark"],
+      "district_name": "Arkansas House District 50",
+      "dashboard_label": "Wendy Peer — HD-50 Command",
+      "counties": ["Sebastian"],
+      "cities": ["Fort Smith"],
       "district_scope": {
         "mode": "state_house",
-        "districtCode": "HD-PENDING",
-        "counties": ["Sebastian", "Crawford", "Franklin"],
-        "cities": ["Fort Smith", "Van Buren"],
-        "boundaryPrecision": "pending",
-        "boundaryNote": "State House district number pending confirmation — placeholder scope needs confirmation"
+        "districtCode": "HD-50",
+        "counties": ["Sebastian"],
+        "cities": ["Fort Smith"],
+        "boundaryPrecision": "partial",
+        "boundaryNote": "HD-50 — Fort Smith per electwendypeer.com"
       },
       "dashboard_theme": {
-        "primaryColor": "#7B3F00",
-        "accentColor": "#D4A574",
-        "surfaceColor": "#FBF5EE",
-        "heroTagline": "Strong local voice — River Valley communities first.",
+        "primaryColor": "#2C1D6B",
+        "accentColor": "#F37B39",
+        "surfaceColor": "#FAF7F2",
+        "heroTagline": "Common sense leadership for Fort Smith families.",
         "logoInitials": "WP",
-        "badgeLabel": "State House · District pending"
+        "badgeLabel": "State House · HD-50"
       },
-      "notes": "Placeholder scope — Sebastian / River Valley until HD district confirmed.",
+      "notes": "Branding sourced from electwendypeer.com · volunteer via site contact form.",
       "is_active": true,
       "access_mode": "private_admin",
-      "default_volunteer_signup_url": null,
+      "campaign_website_url": "https://www.electwendypeer.com/",
+      "default_volunteer_signup_url": "https://www.electwendypeer.com/#contact",
       "mobilize_org_url": null,
-      "volunteer_brand_color": null,
-      "volunteer_badge_label": null
+      "volunteer_brand_color": "#F37B39",
+      "volunteer_badge_label": "Volunteer with Wendy"
     }
   ]
 }

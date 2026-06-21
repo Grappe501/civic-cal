@@ -45,7 +45,7 @@ function OpportunityCard({
           {density != null && <DensityBadge score={density} />}
         </div>
       </div>
-      <p className="text-sm text-ark-pine/60 mt-1">{subtitle}</p>
+      <p className="text-sm text-muted-soft mt-1">{subtitle}</p>
     </div>
   );
   return href ? <Link to={href}>{inner}</Link> : inner;
@@ -128,11 +128,11 @@ export function OrganizersPage() {
 
   return (
     <div className="mx-auto max-w-6xl px-4 py-10">
-      <p className="text-sm font-medium uppercase tracking-wide text-ark-sage">For candidates & organizers</p>
+      <p className="text-kicker">For candidates & organizers</p>
       <h1 className="font-display text-3xl md:text-4xl font-bold text-ark-pine mt-1">
         Where should leaders be?
       </h1>
-      <p className="mt-2 text-ark-pine/70 max-w-2xl">
+      <p className="mt-2 text-muted max-w-2xl">
         Highest-value civic touchpoints across Arkansas — meetings, meals, festivals, and traditions worth showing up for.
       </p>
 
@@ -161,7 +161,7 @@ export function OrganizersPage() {
                 </Link>
               </li>
             ))}
-            {weekEvents.length === 0 && <li className="text-sm text-ark-pine/50">No dated events this week in feed.</li>}
+            {weekEvents.length === 0 && <li className="text-sm text-caption">No dated events this week in feed.</li>}
           </ul>
         </div>
         <div>
@@ -174,11 +174,11 @@ export function OrganizersPage() {
                 <Link to={`/county/${county.toLowerCase().replace(/\s+/g, "-")}`} className="hover:text-ark-rust">
                   {county} County
                 </Link>
-                <span className="text-ark-pine/50">{n}</span>
+                <span className="text-caption">{n}</span>
               </li>
             ))}
           </ul>
-          <p className="text-xs text-ark-pine/40 mt-2">
+          <p className="text-xs text-caption mt-2">
             {ARKANSAS_COUNTIES.length - byCounty.length} counties need more intelligence harvests.
           </p>
         </div>
@@ -193,7 +193,7 @@ export function OrganizersPage() {
             {gov.slice(0, 5).map((c) => (
               <li key={c.id}>{c.title}</li>
             ))}
-            {gov.length === 0 && <li className="text-ark-pine/50">Harvest city/county calendars to populate.</li>}
+            {gov.length === 0 && <li className="text-caption">Harvest city/county calendars to populate.</li>}
           </ul>
         </div>
         <div>
@@ -204,7 +204,7 @@ export function OrganizersPage() {
             {church.map((c) => (
               <li key={c.id}>
                 <span className="font-medium">{c.title}</span>
-                <span className="text-ark-pine/50"> — {c.city}, {c.county} Co.</span>
+                <span className="text-caption"> — {c.city}, {c.county} Co.</span>
               </li>
             ))}
           </ul>
@@ -213,7 +213,7 @@ export function OrganizersPage() {
           <h2 className="font-display text-lg font-semibold flex items-center gap-2">
             <Trophy className="h-5 w-5" /> Festivals & fairs
           </h2>
-          <p className="text-sm text-ark-pine/60 mt-2">{festivals.length} community events in pipeline + feed.</p>
+          <p className="text-sm text-muted-soft mt-2">{festivals.length} community events in pipeline + feed.</p>
           <Link to="/map" className="btn-secondary mt-3 inline-flex text-xs">View on map</Link>
         </div>
       </section>
@@ -226,7 +226,7 @@ export function OrganizersPage() {
               <div key={c.id} className="card">
                 <CategoryBadge category={(c.category as CivicEvent["category"]) || "community"} />
                 <p className="font-medium mt-2">{c.title}</p>
-                <p className="text-xs text-ark-pine/50">{c.reviewStatus}</p>
+                <p className="text-xs text-caption">{c.reviewStatus}</p>
               </div>
             ))}
           </div>
@@ -241,8 +241,8 @@ export function OrganizersPage() {
             return (
               <div key={layer.id} className="card">
                 <LayerBadge layer={layer.id} />
-                <p className="text-sm text-ark-pine/70 mt-2">{layer.description}</p>
-                <p className="text-xs text-ark-pine/50 mt-2">{items.length} staged · watch: {layer.watchFor.slice(0, 3).join(", ")}…</p>
+                <p className="text-sm text-muted mt-2">{layer.description}</p>
+                <p className="text-xs text-caption mt-2">{items.length} staged · watch: {layer.watchFor.slice(0, 3).join(", ")}…</p>
               </div>
             );
           })}

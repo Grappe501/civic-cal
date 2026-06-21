@@ -59,7 +59,7 @@ export function CountyPublicPage({ county, slug }: Props) {
         <div>
           <p className="text-sm text-ark-sage font-medium uppercase tracking-wide">Arkansas Community Intelligence</p>
           <h1 className="font-display text-3xl md:text-4xl font-bold text-ark-pine">{formatCountyLabel(county)}</h1>
-          <p className="mt-2 text-ark-pine/70 max-w-2xl ai-readable-summary">{summary}</p>
+          <p className="mt-2 text-muted max-w-2xl ai-readable-summary">{summary}</p>
         </div>
         <div className="flex flex-wrap gap-2">
           <Link to={`/county/${slug.replace(/-county$/, "")}`} className="btn-secondary text-sm">Classic county view</Link>

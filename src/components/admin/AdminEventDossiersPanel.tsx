@@ -125,7 +125,7 @@ export function AdminEventDossiersPanel({ token }: Props) {
                 </div>
                 <span className="chip chip-muted">{d.unansweredQuestions?.length ?? 0} open questions</span>
               </div>
-              {d.candidateGuidance && <p className="text-sm text-ark-pine/80 mt-2 line-clamp-2">{d.candidateGuidance}</p>}
+              {d.candidateGuidance && <p className="text-sm text-muted mt-2 line-clamp-2">{d.candidateGuidance}</p>}
               <div className="mt-3 flex flex-wrap gap-2">
                 <button
                   type="button"

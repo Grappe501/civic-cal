@@ -41,11 +41,11 @@ export function MapPage() {
     <div className="mx-auto max-w-7xl px-4 py-8">
       <div className="flex flex-wrap items-end justify-between gap-4 mb-6">
         <div>
-          <p className="text-sm font-medium uppercase tracking-wide text-ark-sage">Visual civic nervous system</p>
+          <p className="text-kicker">Visual civic nervous system</p>
           <h1 className="font-display text-3xl md:text-4xl font-bold text-ark-pine">
             Arkansas lights up
           </h1>
-          <p className="mt-2 text-ark-pine/70 max-w-xl">
+          <p className="mt-2 text-muted max-w-xl">
             See festivals, city halls, school boards, and community gatherings across all 75 counties.
           </p>
         </div>
@@ -78,7 +78,7 @@ export function MapPage() {
           ) : (
             <ArkansasEventMap events={filtered} height="min(70vh, 620px)" />
           )}
-          <p className="mt-3 text-xs text-ark-pine/50 flex items-center gap-1">
+          <p className="mt-3 text-xs text-caption flex items-center gap-1">
             <Map className="h-3.5 w-3.5" />
             {mappable.length} mapped · {filtered.length - mappable.length} awaiting geocode or address
           </p>

@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { pickReadableText } from "../../lib/contrast";
 import { CIVIC_GLYPHS, type CivicGlyphDef } from "../../lib/glyphs/civicGlyphs";
 import { cn } from "../../lib/cn";
 
@@ -21,7 +22,7 @@ export function CivicGlyph({ glyph, size = "md", className, asLink, href, title 
         SIZE[size],
         className,
       )}
-      style={{ backgroundColor: glyph.color, color: "#fff" }}
+      style={{ backgroundColor: glyph.color, color: pickReadableText(glyph.color) }}
       title={title ?? glyph.label}
       aria-label={glyph.label}
     >

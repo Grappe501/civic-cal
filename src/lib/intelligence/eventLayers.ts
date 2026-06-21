@@ -49,7 +49,7 @@ export const INTELLIGENCE_LAYERS: LayerDefinition[] = [
     label: "Layer 2 — Community Identity",
     shortLabel: "Community identity",
     description: "Where entire communities show up — fairs, festivals, parades (500–5,000+).",
-    color: "bg-ark-sage text-white",
+    color: "bg-emerald-800 text-white",
     watchFor: [
       "Third Thursday",
       "First Friday",
@@ -94,7 +94,7 @@ export const INTELLIGENCE_LAYERS: LayerDefinition[] = [
     label: "Layer 4 — School Ecosystem",
     shortLabel: "School ecosystem",
     description: "The football stadium is the town square — games, FFA, 4-H, booster events.",
-    color: "bg-ark-sky text-ark-night",
+    color: "bg-sky-800 text-white",
     watchFor: [
       "Homecoming",
       "Senior Night",

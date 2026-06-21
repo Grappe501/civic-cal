@@ -1,4 +1,5 @@
 import seedBundle from "../../../data/campaigns/initial-campaign-workspaces.json";
+import type { CampaignColorTokens } from "./brandingProfile";
 import type { CampaignWorkspace, DashboardTheme, DistrictScope } from "./types";
 
 const fnBase = import.meta.env.VITE_FUNCTIONS_BASE ?? "/.netlify/functions";
@@ -14,7 +15,7 @@ interface RawWorkspace {
   counties: string[];
   cities: string[];
   district_scope: DistrictScope;
-  dashboard_theme: DashboardTheme;
+  dashboard_theme: RawDashboardTheme;
   notes?: string;
   is_active?: boolean;
   access_mode?: string;
@@ -23,6 +24,17 @@ interface RawWorkspace {
   mobilize_org_url?: string | null;
   volunteer_brand_color?: string | null;
   volunteer_badge_label?: string | null;
+  campaign_website_url?: string | null;
+}
+
+interface RawDashboardTheme {
+  primaryColor: string;
+  accentColor: string;
+  surfaceColor: string;
+  heroTagline: string;
+  logoInitials: string;
+  badgeLabel: string;
+  logoUrl?: string | null;
 }
 
 function mapWorkspace(raw: RawWorkspace): CampaignWorkspace {
@@ -38,16 +50,20 @@ function mapWorkspace(raw: RawWorkspace): CampaignWorkspace {
     counties: raw.counties ?? [],
     cities: raw.cities ?? [],
     districtScope: raw.district_scope,
-    dashboardTheme: raw.dashboard_theme,
+    dashboardTheme: {
+      ...raw.dashboard_theme,
+      logoUrl: raw.dashboard_theme.logoUrl ?? null,
+    },
     notes: raw.notes,
     isActive: raw.is_active !== false,
     accessMode: raw.access_mode ?? "private_admin",
     googleCalendarStatus: "not_connected",
-    mobilizeStatus: "not_connected",
+    mobilizeStatus: raw.mobilize_org_url ? "pending" : "not_connected",
     defaultVolunteerSignupUrl: raw.default_volunteer_signup_url ?? null,
     mobilizeOrgUrl: raw.mobilize_org_url ?? null,
     volunteerBrandColor: raw.volunteer_brand_color ?? null,
     volunteerBadgeLabel: raw.volunteer_badge_label ?? null,
+    campaignWebsiteUrl: raw.campaign_website_url ?? null,
   };
 }
 
@@ -87,10 +103,20 @@ export async function fetchCampaignWorkspaceBySlug(slug: string): Promise<Campai
 }
 
 /** Apply CSS variables for branded dashboard shell */
-export function dashboardThemeVars(theme: DashboardTheme): Record<string, string> {
-  return {
+export function dashboardThemeVars(theme: DashboardTheme, colors?: CampaignColorTokens): Record<string, string> {
+  const base = {
     "--campaign-primary": theme.primaryColor,
     "--campaign-accent": theme.accentColor,
     "--campaign-surface": theme.surfaceColor,
+  };
+  if (!colors) return base;
+  return {
+    ...base,
+    "--campaign-brand-dark": colors.brandDark,
+    "--campaign-brand-soft": colors.brandSoft,
+    "--campaign-on-brand": colors.textOnBrand,
+    "--campaign-on-soft": colors.textOnSoft,
+    "--campaign-volunteer": colors.volunteerColor,
+    "--campaign-on-volunteer": colors.textOnVolunteer,
   };
 }

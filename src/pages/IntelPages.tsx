@@ -25,7 +25,7 @@ export function ThisWeekPage() {
   return (
     <div className="mx-auto max-w-6xl px-4 py-10">
       <h1 className="font-display text-3xl font-bold text-ark-pine">This Week in Arkansas</h1>
-      <p className="mt-2 text-ark-pine/70 mb-8">
+      <p className="mt-2 text-muted mb-8">
         County event briefs for candidates, volunteers, and community leaders.
       </p>
       <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
@@ -34,7 +34,7 @@ export function ThisWeekPage() {
         ))}
       </div>
       {events.length === 0 && (
-        <p className="text-ark-pine/60">No events in the next 7 days — check back or submit one.</p>
+        <p className="text-muted-soft">No events in the next 7 days — check back or submit one.</p>
       )}
     </div>
   );
@@ -50,7 +50,7 @@ export function CivicWatchPage() {
   return (
     <div className="mx-auto max-w-6xl px-4 py-10">
       <h1 className="font-display text-3xl font-bold text-ark-pine">School Board & City Hall Watchlist</h1>
-      <p className="mt-2 text-ark-pine/70 mb-8">Civic meetings and public government sessions across Arkansas.</p>
+      <p className="mt-2 text-muted mb-8">Civic meetings and public government sessions across Arkansas.</p>
       <div className="grid gap-4 md:grid-cols-2">
         {events.map((e) => (
           <EventCard key={e.id} event={e} />

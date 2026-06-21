@@ -27,9 +27,10 @@ import { DensityBadge } from "../intelligence/LayerBadge";
 import { EventDetailMap } from "../maps/EventDetailMap";
 import { HostVolunteerControls } from "../hosts/HostVolunteerBadge";
 import { StudentServiceBadge } from "../student-service/StudentServiceBadge";
+import { pickReadableText } from "../../lib/contrast";
 import { getEventStudentServiceOpportunity } from "../../lib/student-service/studentServiceEngine";
 import { EventFeedbackForm } from "../EventFeedbackForm";
-import { downloadIcs, formatEventRange, mapsUrl } from "../../lib/format";
+import { downloadIcs, formatEventRange } from "../../lib/format";
 import type { IntelligenceLayer } from "../../lib/intelligence/eventLayers";
 
 interface Props {
@@ -71,7 +72,6 @@ function formatLabel(raw: string | null | undefined): string {
 export function EventIntelligenceDossierView({ event, bundle, presence, onShare, campaignSlug }: Props) {
   const { dossier, tasks } = bundle;
   const scored = scoreEventForCampaign(event);
-  const maps = mapsUrl(event);
   const cityDossier = event.city ? getCityDossier(event.city) : undefined;
   const countyDossier = event.county ? getCountyDossier(event.county) : undefined;
   const countyGap = countyDossier ? voteTargetGap(countyDossier) : null;
@@ -99,7 +99,7 @@ export function EventIntelligenceDossierView({ event, bundle, presence, onShare,
         </div>
         <h1 className="page-header">{event.title}</h1>
         <p className="text-lg text-muted mt-2">{formatEventRange(event)}</p>
-        <p className="text-sm text-ark-pine/80 mt-1 flex items-center gap-1">
+        <p className="text-sm text-muted mt-1 flex items-center gap-1">
           <MapPin className="h-4 w-4 text-ark-sage" />
           {[event.city, `${event.county} County, AR`].filter(Boolean).join(" · ")}
         </p>
@@ -137,14 +137,14 @@ export function EventIntelligenceDossierView({ event, bundle, presence, onShare,
       <div className="mt-8 grid gap-6 lg:grid-cols-3">
         <div className="lg:col-span-2 space-y-6">
           <Section title="Why this event matters" icon={Shield}>
-            <p className="text-ark-pine/90 leading-relaxed">{whyEventMatters(event)}</p>
+            <p className="text-[var(--text-primary)] leading-relaxed">{whyEventMatters(event)}</p>
             {dossier.historicalNotes && (
               <p className="text-sm text-muted mt-3 border-t border-ark-pine/10 pt-3">{dossier.historicalNotes}</p>
             )}
           </Section>
 
           <Section title="Candidate opportunity" icon={Users}>
-            <p className="text-ark-pine/90">{dossier.candidateGuidance || "Local verification needed before campaign deployment."}</p>
+            <p className="text-[var(--text-primary)]">{dossier.candidateGuidance || "Local verification needed before campaign deployment."}</p>
             {dossier.eventFormat && (
               <p className="mt-2 text-sm">
                 <span className="font-semibold text-ark-pine">Format:</span>{" "}
@@ -172,15 +172,15 @@ export function EventIntelligenceDossierView({ event, bundle, presence, onShare,
               )}
               {traditions.length > 0 && (
                 <div className="mb-3">
-                  <p className="text-xs font-semibold uppercase text-ark-sage mb-1">Nearby recurring traditions</p>
+                  <p className="text-kicker mb-1">Nearby recurring traditions</p>
                   <ul className="text-sm space-y-1">{traditions.map((t) => <li key={t}>• {t}</li>)}</ul>
                 </div>
               )}
-              {dossier.localCustoms && <p className="text-sm text-ark-pine/90">{dossier.localCustoms}</p>}
+              {dossier.localCustoms && <p className="text-sm text-[var(--text-primary)]">{dossier.localCustoms}</p>}
               {dossier.confirmedFacts && dossier.confirmedFacts.length > 0 && (
                 <div className="mt-3">
-                  <p className="text-xs font-semibold uppercase text-ark-sage mb-1">Confirmed</p>
-                  <ul className="text-sm space-y-1 text-ark-pine/85">
+                  <p className="text-kicker mb-1">Confirmed</p>
+                  <ul className="text-sm space-y-1 text-muted">
                     {dossier.confirmedFacts.map((f) => (
                       <li key={f} className="flex gap-2"><span className="text-ark-sage">✓</span>{f}</li>
                     ))}
@@ -190,7 +190,7 @@ export function EventIntelligenceDossierView({ event, bundle, presence, onShare,
               {dossier.likelyInferences && dossier.likelyInferences.length > 0 && (
                 <div className="mt-3">
                   <p className="text-xs font-semibold uppercase text-amber-700 mb-1">Likely (verify locally)</p>
-                  <ul className="text-sm space-y-1 text-ark-pine/75">
+                  <ul className="text-sm space-y-1 text-muted">
                     {dossier.likelyInferences.map((f) => (
                       <li key={f} className="flex gap-2"><span>~</span>{f}</li>
                     ))}
@@ -202,7 +202,7 @@ export function EventIntelligenceDossierView({ event, bundle, presence, onShare,
 
           <Section title="Location & map" icon={MapPin}>
             <EventDetailMap event={event} />
-            <p className="mt-3 text-sm text-ark-pine/85">
+            <p className="mt-3 text-sm text-muted">
               {[event.locationName, event.address, event.city, `${event.county} County, AR`].filter(Boolean).join(" · ")}
             </p>
           </Section>
@@ -240,7 +240,11 @@ export function EventIntelligenceDossierView({ event, bundle, presence, onShare,
             ) : (
               <ul className="text-sm space-y-2">
                 {presence.attendingCampaigns.map((p) => (
-                  <li key={p.slug} className="rounded-lg px-3 py-2 text-white text-xs font-semibold" style={{ backgroundColor: p.candidateColor }}>
+                  <li
+                    key={p.slug}
+                    className="rounded-lg px-3 py-2 text-xs font-semibold border border-black/10"
+                    style={{ backgroundColor: p.candidateColor, color: pickReadableText(p.candidateColor) }}
+                  >
                     {p.publicNote || `${p.candidateName} attending`}
                   </li>
                 ))}
@@ -257,7 +261,11 @@ export function EventIntelligenceDossierView({ event, bundle, presence, onShare,
             ) : (
               <ul className="text-sm space-y-2">
                 {presence.volunteerNeeds.map((p) => (
-                  <li key={p.slug} className="rounded-lg px-3 py-2 text-xs font-semibold text-white" style={{ backgroundColor: p.volunteerColor }}>
+                  <li
+                    key={p.slug}
+                    className="rounded-lg px-3 py-2 text-xs font-semibold border border-black/10"
+                    style={{ backgroundColor: p.volunteerColor, color: pickReadableText(p.volunteerColor) }}
+                  >
                     {p.volunteerPublicNote || `Volunteers needed — ${p.campaignName}`}
                   </li>
                 ))}
@@ -291,7 +299,7 @@ export function EventIntelligenceDossierView({ event, bundle, presence, onShare,
           </Section>
 
           <Section title="Still need to verify" icon={AlertCircle}>
-            <ul className="text-xs space-y-1.5 text-ark-pine/80">
+            <ul className="text-xs space-y-1.5 text-muted">
               {(dossier.unansweredQuestions ?? tasks.map((t) => t.taskLabel)).slice(0, 8).map((q) => (
                 <li key={q} className="flex gap-2"><span className="text-ark-rust">?</span>{q}</li>
               ))}
@@ -300,11 +308,6 @@ export function EventIntelligenceDossierView({ event, bundle, presence, onShare,
           </Section>
 
           <div className="flex flex-col gap-2">
-            {maps && (
-              <a href={maps} target="_blank" rel="noreferrer" className="btn-secondary text-sm justify-center">
-                Open in Maps
-              </a>
-            )}
             <button type="button" onClick={() => downloadIcs(event)} className="btn-secondary text-sm justify-center">
               <CalendarPlus className="h-4 w-4" /> Add to calendar
             </button>
@@ -317,7 +320,7 @@ export function EventIntelligenceDossierView({ event, bundle, presence, onShare,
 
       {event.description && (
         <Section title="Event description">
-          <p className="text-ark-pine/85 whitespace-pre-wrap">{event.description}</p>
+          <p className="text-muted whitespace-pre-wrap">{event.description}</p>
         </Section>
       )}
 
@@ -325,7 +328,7 @@ export function EventIntelligenceDossierView({ event, bundle, presence, onShare,
 
       {studentServiceOpp && (
         <Section title="Student community service">
-          <p className="text-sm text-ark-pine/75 mb-3">
+          <p className="text-sm text-muted mb-3">
             Verified organization opportunity — routes through official signup. Parent/guardian documentation required.
           </p>
           <StudentServiceBadge opportunity={studentServiceOpp} />

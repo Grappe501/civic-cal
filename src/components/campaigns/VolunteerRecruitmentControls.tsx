@@ -44,7 +44,7 @@ export function VolunteerRecruitmentControls({ workspace, eventId, plan, onUpdat
 
   return (
     <div className="mt-3 pt-3 border-t border-ark-pine/10 space-y-2 volunteer-recruitment-controls">
-      <p className="text-[10px] font-semibold uppercase tracking-wide text-ark-pine/70 flex items-center gap-1">
+      <p className="text-[10px] font-semibold uppercase tracking-wide text-muted flex items-center gap-1">
         Volunteer recruitment
         <ExternalLink className="h-3 w-3 opacity-60" aria-hidden />
       </p>

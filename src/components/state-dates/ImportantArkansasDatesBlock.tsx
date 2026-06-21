@@ -28,7 +28,7 @@ export function ImportantArkansasDatesBlock({ dates, title = "Important Arkansas
               <span className="font-medium text-ark-pine">{d.title}</span>
               <span className="text-xs text-muted ml-2">{stateDateCategoryLabel(d.category)}</span>
             </div>
-            <div className="text-xs text-ark-pine/70 flex items-center gap-2">
+            <div className="text-xs text-muted flex items-center gap-2">
               <time dateTime={d.date}>
                 {format(parseISO(d.date), "MMM d, yyyy")}
                 {d.endDate && d.endDate !== d.date && ` – ${format(parseISO(d.endDate), "MMM d")}`}

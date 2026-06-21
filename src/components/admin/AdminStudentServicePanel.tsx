@@ -38,7 +38,7 @@ export function AdminStudentServicePanel({ token: _token }: Props) {
 
   return (
     <div className="space-y-6">
-      <p className="text-sm text-ark-pine/60">
+      <p className="text-sm text-muted-soft">
         Student service matching — verified entities only. Interest submissions stay private (localStorage demo).
       </p>
 

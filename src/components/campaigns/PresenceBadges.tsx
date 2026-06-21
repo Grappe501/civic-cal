@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { HandHeart, UserCheck, Users, Eye } from "lucide-react";
 import type { EventPresence, PublicPresenceBadge } from "../../lib/campaigns/presenceLayer";
+import { getWorkspaceBySlug } from "../../lib/campaigns/workspaces";
 import { VolunteerSignupModal } from "./VolunteerSignupModal";
 
 interface Props {
@@ -77,6 +78,7 @@ function BadgeButton({
 
 export function PresenceBadges({ presence, eventTitle, className = "", variant = "overlay" }: Props) {
   const [modalBadge, setModalBadge] = useState<PublicPresenceBadge | null>(null);
+  const modalWorkspace = modalBadge ? getWorkspaceBySlug(modalBadge.slug) : null;
 
   if (!presence.publicBadges.length) return null;
 
@@ -99,6 +101,8 @@ export function PresenceBadges({ presence, eventTitle, className = "", variant =
           campaignName={modalBadge?.campaignName ?? ""}
           eventTitle={eventTitle}
           badgeLabel={modalBadge?.label}
+          signupUrl={modalBadge?.destinationUrl ?? modalWorkspace?.defaultVolunteerSignupUrl}
+          campaignWebsiteUrl={modalWorkspace?.campaignWebsiteUrl}
         />
       </>
     );
@@ -133,6 +137,8 @@ export function PresenceBadges({ presence, eventTitle, className = "", variant =
         campaignName={modalBadge?.campaignName ?? ""}
         eventTitle={eventTitle}
         badgeLabel={modalBadge?.label}
+        signupUrl={modalBadge?.destinationUrl ?? modalWorkspace?.defaultVolunteerSignupUrl}
+        campaignWebsiteUrl={modalWorkspace?.campaignWebsiteUrl}
       />
     </>
   );

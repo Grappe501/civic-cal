@@ -14,11 +14,11 @@ export function OpportunityEnginePage() {
 
   return (
     <div className="mx-auto max-w-4xl px-4 py-10">
-      <p className="text-sm font-medium uppercase tracking-wide text-ark-sage flex items-center gap-2">
+      <p className="text-kicker flex items-center gap-2">
         <Brain className="h-4 w-4" /> Opportunity Engine
       </p>
       <h1 className="font-display text-3xl font-bold text-ark-pine mt-1">How we score Arkansas events</h1>
-      <p className="mt-3 text-ark-pine/70 max-w-2xl">
+      <p className="mt-3 text-muted max-w-2xl">
         Civic-Cal is a living intelligence network — not just a calendar. Scores combine public sources, five intelligence layers,
         community feedback, and optional AI advisory analysis. Nothing publishes without human review.
       </p>
@@ -27,7 +27,7 @@ export function OpportunityEnginePage() {
         {scores.map((s) => (
           <div key={s.name} className="card">
             <h2 className="font-semibold text-ark-pine">{s.name}</h2>
-            <p className="text-sm text-ark-pine/70 mt-1">{s.desc}</p>
+            <p className="text-sm text-muted mt-1">{s.desc}</p>
           </div>
         ))}
       </div>
@@ -36,7 +36,7 @@ export function OpportunityEnginePage() {
         <h2 className="font-display text-xl font-semibold flex items-center gap-2">
           <Shield className="h-5 w-5 text-ark-sage" /> Safety principles
         </h2>
-        <ul className="mt-4 space-y-2 text-sm text-ark-pine/80 list-disc pl-5">
+        <ul className="mt-4 space-y-2 text-sm text-muted list-disc pl-5">
           <li>AI is advisory — operators approve every public listing.</li>
           <li>No private political preference data stored.</li>
           <li>Public sources only — no logged-in social scraping.</li>

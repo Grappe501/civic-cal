@@ -1,6 +1,7 @@
 const fs = require("node:fs");
 const path = require("node:path");
 const { getClient, rowToEvent, json, parseFilters, buildWhere } = require("./lib/db");
+const { isPubliclyVisibleEvent } = require("./lib/eventArchive");
 
 function loadSeedFallback() {
   const seedPath = path.join(__dirname, "..", "..", "data", "seed-events.json");
@@ -19,6 +20,7 @@ function loadSeedFallback() {
 
 function filterSeed(events, filters) {
   let list = events.filter((e) => (filters.status ? e.status === filters.status : e.status === "approved"));
+  list = list.filter(isPubliclyVisibleEvent);
 
   if (filters.county) {
     list = list.filter((e) => e.county?.toLowerCase() === filters.county.toLowerCase());
@@ -67,7 +69,8 @@ exports.handler = async (event) => {
     const seed = loadSeedFallback();
     if (slug) {
       const found = seed.find((e) => e.slug === slug);
-      return found ? json(200, { event: found }) : json(404, { error: "Not found" });
+      if (!found || !isPubliclyVisibleEvent(found)) return json(404, { error: "Not found" });
+      return json(200, { event: found });
     }
     return json(200, { events: filterSeed(seed, filters), source: "seed" });
   }
@@ -82,7 +85,9 @@ exports.handler = async (event) => {
       );
       await client.end();
       if (!res.rows.length) return json(404, { error: "Not found" });
-      return json(200, { event: rowToEvent(res.rows[0]) });
+      const event = rowToEvent(res.rows[0]);
+      if (!isPubliclyVisibleEvent(event)) return json(404, { error: "Not found" });
+      return json(200, { event });
     }
 
     const { where, values, nextIndex } = buildWhere(filters, false);
@@ -92,7 +97,8 @@ exports.handler = async (event) => {
       values,
     );
     await client.end();
-    return json(200, { events: res.rows.map(rowToEvent), source: "database" });
+    const events = res.rows.map(rowToEvent).filter(isPubliclyVisibleEvent);
+    return json(200, { events, source: "database" });
   } catch (err) {
     try {
       await client.end();

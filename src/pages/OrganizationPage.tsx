@@ -69,7 +69,7 @@ export function OrganizationPage() {
             {org.city ? `${org.city} · ` : ""}
             {org.county} County · {org.claimStatus === "unclaimed" ? "Unclaimed — hosts can claim this page" : org.claimStatus}
           </p>
-          <p className="text-sm text-ark-pine/85 mt-3 max-w-2xl ai-readable-summary">{summary}</p>
+          <p className="text-sm text-muted mt-3 max-w-2xl ai-readable-summary">{summary}</p>
         </div>
       </div>
 

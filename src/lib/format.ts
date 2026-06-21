@@ -26,11 +26,36 @@ export function formatEventRange(event: CivicEvent): string {
 }
 
 export function mapsUrl(event: CivicEvent): string | null {
+  const q = locationMapQuery(event);
+  if (!q) return null;
+  return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(q)}`;
+}
+
+/** Address or lat,lng string for map embed/search */
+export function locationMapQuery(event: CivicEvent): string | null {
+  if (
+    typeof event.latitude === "number" &&
+    typeof event.longitude === "number" &&
+    Number.isFinite(event.latitude) &&
+    Number.isFinite(event.longitude)
+  ) {
+    return `${event.latitude},${event.longitude}`;
+  }
   const q = [event.address, event.locationName, event.city, `${event.county} County, AR`]
     .filter(Boolean)
     .join(", ");
-  if (!q.trim()) return null;
-  return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(q)}`;
+  return q.trim() || null;
+}
+
+/** Google Maps iframe embed — works without Maps JavaScript API on the page */
+export function mapsEmbedUrl(event: CivicEvent): string | null {
+  const q = locationMapQuery(event);
+  if (!q) return null;
+  const key = import.meta.env.VITE_GOOGLE_MAPS_API_KEY as string | undefined;
+  if (key?.trim()) {
+    return `https://www.google.com/maps/embed/v1/place?key=${encodeURIComponent(key.trim())}&q=${encodeURIComponent(q)}&zoom=14`;
+  }
+  return `https://maps.google.com/maps?q=${encodeURIComponent(q)}&z=14&output=embed`;
 }
 
 export function buildIcs(event: CivicEvent): string {

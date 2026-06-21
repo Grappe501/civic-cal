@@ -69,11 +69,11 @@ export function ArkansasEventMap({
         className={cn("flex flex-col items-center justify-center rounded-2xl bg-ark-wheat/60 border border-ark-pine/10", className)}
         style={{ height }}
       >
-        <MapPin className="h-10 w-10 text-ark-pine/40" />
-        <p className="mt-2 text-sm text-ark-pine/70 px-6 text-center">
+        <MapPin className="h-10 w-10 text-caption" />
+        <p className="mt-2 text-sm text-muted px-6 text-center">
           Map preview requires <code className="text-xs">VITE_GOOGLE_MAPS_API_KEY</code> in Netlify env.
         </p>
-        <p className="text-xs text-ark-pine/50 mt-1">{mappable.length} events have coordinates when geocoding is enabled.</p>
+        <p className="text-xs text-caption mt-1">{mappable.length} events have coordinates when geocoding is enabled.</p>
       </div>
     );
   }

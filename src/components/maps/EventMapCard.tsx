@@ -22,17 +22,17 @@ export function EventMapCard({ event, onClose, className }: Props) {
       <div className="flex items-start justify-between gap-2">
         <CategoryBadge category={event.category} />
         {onClose && (
-          <button type="button" onClick={onClose} className="text-ark-pine/50 hover:text-ark-pine text-sm">
+          <button type="button" onClick={onClose} className="text-caption hover:text-ark-pine text-sm">
             ✕
           </button>
         )}
       </div>
       <h3 className="mt-2 font-display font-semibold text-ark-pine leading-snug">{event.title}</h3>
-      <p className="mt-1 text-xs text-ark-pine/60 flex items-center gap-1">
+      <p className="mt-1 text-xs text-muted-soft flex items-center gap-1">
         <Calendar className="h-3.5 w-3.5" />
         {formatEventRange(event)}
       </p>
-      <p className="mt-1 text-xs text-ark-pine/70 flex items-start gap-1">
+      <p className="mt-1 text-xs text-muted flex items-start gap-1">
         <MapPin className="h-3.5 w-3.5 shrink-0 mt-0.5" />
         {[event.city, `${event.county} County`].filter(Boolean).join(" · ")}
       </p>

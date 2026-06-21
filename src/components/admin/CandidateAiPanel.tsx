@@ -121,7 +121,7 @@ export function CandidateAiPanel({ token, candidate, onAction }: Props) {
           {a.riskFlags.length > 0 && (
             <p className="text-amber-800"><strong>Risk flags:</strong> {a.riskFlags.join(", ")}</p>
           )}
-          <p className="text-ark-pine/70 border-t pt-2"><strong>Campaign notes (admin):</strong> {a.campaignNotes}</p>
+          <p className="text-muted border-t pt-2"><strong>Campaign notes (admin):</strong> {a.campaignNotes}</p>
         </div>
       )}
     </div>

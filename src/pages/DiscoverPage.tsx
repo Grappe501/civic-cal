@@ -81,13 +81,13 @@ export function DiscoverPage() {
             <Link to="/explore" className="btn-primary bg-ark-rust hover:bg-ark-clay">
               <Compass className="h-4 w-4" /> Explore Arkansas
             </Link>
-            <Link to="/safari" className="btn-secondary border-white/30 bg-white/10 text-white hover:bg-white/20">
+            <Link to="/safari" className="btn-on-dark">
               Event Safari
             </Link>
-            <Link to="/races" className="btn-secondary border-white/30 bg-white/10 text-white hover:bg-white/20">
+            <Link to="/races" className="btn-on-dark">
               Race Circuit
             </Link>
-            <Link to="/map" className="btn-secondary border-white/30 bg-white/10 text-white hover:bg-white/20">
+            <Link to="/map" className="btn-on-dark">
               <MapIcon className="h-4 w-4" /> Map
             </Link>
           </div>
@@ -116,7 +116,7 @@ export function DiscoverPage() {
         {aiAnswer && (
           <section className="card card-elevated border-l-4 border-ark-sage">
             <h2 className="font-display text-xl font-semibold text-ark-pine">{aiAnswer.headline}</h2>
-            <p className="text-sm text-ark-pine/80 mt-2">{aiAnswer.summary}</p>
+            <p className="text-sm text-muted mt-2">{aiAnswer.summary}</p>
             <div className="flex flex-wrap gap-2 mt-3">
               {aiAnswer.followUpPrompts.slice(0, 3).map((p) => (
                 <button key={p} type="button" className="discovery-example-chip" onClick={() => setAiAnswer(null)}>
@@ -184,7 +184,7 @@ export function DiscoverPage() {
             </div>
           ) : displayed.length === 0 ? (
             <div className="card text-center py-12">
-              <p className="text-ark-pine/70">Nothing matched — try Event Safari or ask a different question.</p>
+              <p className="text-muted">Nothing matched — try Event Safari or ask a different question.</p>
               <Link to="/safari" className="btn-primary mt-4 inline-flex">Start Event Safari</Link>
             </div>
           ) : (

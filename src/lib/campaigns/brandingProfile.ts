@@ -1,4 +1,5 @@
 import type { CampaignWorkspace } from "./types";
+import { contrastRatio, darkenHex, isLightBackground, lightenHex, pickReadableText } from "../contrast";
 
 export interface CampaignBrandingProfile {
   heroSubtitle: string;
@@ -9,6 +10,19 @@ export interface CampaignBrandingProfile {
   whereToBeTitle: string;
   whereToBeBody: string;
   accentPattern?: string;
+}
+
+/** Readable campaign color tokens — use for badges, heroes, and dashboards. */
+export interface CampaignColorTokens {
+  brandColor: string;
+  brandDark: string;
+  brandSoft: string;
+  textOnBrand: string;
+  textOnSoft: string;
+  volunteerColor: string;
+  textOnVolunteer: string;
+  /** Hero gradient using darkened brand stops (accent stays off the text band). */
+  heroGradient: string;
 }
 
 const PROFILES: Record<string, CampaignBrandingProfile> = {
@@ -93,9 +107,9 @@ const PROFILES: Record<string, CampaignBrandingProfile> = {
     accentPattern: "saline-suburban",
   },
   "wendy-peer-house": {
-    heroSubtitle: "River Valley legislator dashboard — local roots, strong community presence.",
-    scopeCardTitle: "State House · district pending",
-    scopeCardBody: "Sebastian · Crawford · Franklin — Fort Smith / Van Buren placeholder until HD confirmed.",
+    heroSubtitle: "Common sense leadership for Fort Smith families — HD-50.",
+    scopeCardTitle: "State House District 50",
+    scopeCardBody: "Fort Smith · Sebastian County · community anchors from Mercy/Baptist to Creekmore Park.",
     priorityLaneTitle: "Local legislative priority lane",
     priorityLaneItems: [
       "Fort Smith & Van Buren city council meetings",
@@ -122,4 +136,55 @@ export function getCampaignBranding(slug: string, workspace: CampaignWorkspace):
       whereToBeBody: "Focus on high relationship-density events inside your district scope.",
     }
   );
+}
+
+/** Per-campaign contrast-safe color overrides (light accents stay off hero text). */
+const COLOR_OVERRIDES: Partial<Record<string, Partial<CampaignColorTokens>>> = {
+  "joshua-irby-sd16": {
+    brandDark: "#152a45",
+    volunteerColor: "#1E3A5F",
+    textOnVolunteer: "#FFFFFF",
+  },
+  "wendy-peer-house": {
+    volunteerColor: "#C45A1F",
+    textOnVolunteer: "#FFFFFF",
+  },
+};
+
+export function resolveCampaignColors(workspace: CampaignWorkspace): CampaignColorTokens {
+  const theme = workspace.dashboardTheme;
+  const brandColor = theme.primaryColor;
+  let brandDark = darkenHex(brandColor, isLightBackground(brandColor) ? 0.35 : 0.18);
+  const accentDark = darkenHex(theme.accentColor, isLightBackground(theme.accentColor) ? 0.4 : 0.12);
+  if (contrastRatio("#FFFFFF", brandDark) < 4.5) brandDark = darkenHex(brandColor, 0.35);
+
+  const brandSoft = lightenHex(theme.surfaceColor, 0.02);
+  const volunteerRaw =
+    workspace.volunteerBrandColor?.trim() ||
+    (isLightBackground(theme.accentColor) ? accentDark : theme.accentColor);
+  let volunteerColor = volunteerRaw;
+  let textOnVolunteer = pickReadableText(volunteerColor);
+  if (contrastRatio(textOnVolunteer, volunteerColor) < 4.5) {
+    volunteerColor = isLightBackground(volunteerRaw) ? accentDark : darkenHex(volunteerRaw, 0.15);
+    textOnVolunteer = pickReadableText(volunteerColor);
+  }
+
+  const tokens: CampaignColorTokens = {
+    brandColor,
+    brandDark,
+    brandSoft,
+    textOnBrand: pickReadableText(brandDark),
+    textOnSoft: pickReadableText(brandSoft, { minRatio: 4.5, dark: "#1A1F2E" }),
+    volunteerColor,
+    textOnVolunteer,
+    heroGradient: `linear-gradient(135deg, ${brandDark} 0%, ${brandColor} 72%, ${accentDark} 100%)`,
+  };
+
+  const override = COLOR_OVERRIDES[workspace.slug];
+  if (override) Object.assign(tokens, override);
+
+  tokens.textOnBrand = pickReadableText(brandDark);
+  if (override?.textOnVolunteer) tokens.textOnVolunteer = override.textOnVolunteer;
+
+  return tokens;
 }

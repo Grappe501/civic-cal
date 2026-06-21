@@ -86,7 +86,7 @@ export function StudentServiceInterestModal({
         {submitted ? (
           <>
             <h3 className="font-semibold text-ark-pine">Request submitted safely</h3>
-            <p className="text-sm text-ark-pine/70 mt-2">
+            <p className="text-sm text-muted mt-2">
               Your interest was routed for host/admin review. A parent or guardian should follow up with the
               verified organization — student contact info is not posted publicly.
             </p>
@@ -145,7 +145,7 @@ export function StudentServiceBlock({ county, city, organizationSlug, opportunit
           <p className="text-xs font-bold uppercase tracking-wide text-sky-800 flex items-center gap-1">
             <GraduationCap className="h-3.5 w-3.5" /> Student service opportunities
           </p>
-          <p className="text-sm text-ark-pine/75 mt-1">
+          <p className="text-sm text-muted mt-1">
             Verified organizations only · {ARKANSAS_SERVICE_HOUR_REQUIREMENT.hours}-hour graduation requirement (class of 2027+)
           </p>
         </div>

@@ -15,9 +15,9 @@ const LABELS: Record<IntelligenceLayer, string> = {
 
 const COLORS: Record<IntelligenceLayer, string> = {
   government: "bg-ark-pine text-white",
-  community_identity: "bg-ark-sage text-white",
+  community_identity: "bg-emerald-800 text-white",
   community_church: "bg-ark-clay text-white",
-  school_ecosystem: "bg-ark-sky text-ark-night",
+  school_ecosystem: "bg-sky-800 text-white",
   relationship: "bg-ark-rust text-white",
 };
 
@@ -31,7 +31,7 @@ export function LayerBadge({ layer, compact }: Props) {
 
 export function DensityBadge({ score }: { score: number }) {
   const tone =
-    score >= 85 ? "bg-ark-rust/15 text-ark-rust" : score >= 70 ? "bg-amber-100 text-amber-900" : "bg-ark-wheat text-ark-pine";
+    score >= 85 ? "bg-ark-rust/15 text-ark-rust" : score >= 70 ? "bg-amber-100 text-amber-950" : "chip-muted";
   return (
     <span className={`chip text-[10px] ${tone}`} title="Relationship density — influence per attendee">
       RD {score}

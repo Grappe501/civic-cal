@@ -11,6 +11,8 @@ const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "../..")
 const CITIES = path.join(ROOT, "data/event-harvest/top-200-cities.json");
 const OUT = path.join(ROOT, "data/event-harvest/food-truck-harvest-queries.json");
 
+fs.mkdirSync(path.dirname(OUT), { recursive: true });
+
 const PRIORITY_CITIES = ["Little Rock", "Fayetteville", "Fort Smith", "Springdale", "Jonesboro", "Conway", "Rogers", "Bentonville", "Hot Springs", "North Little Rock"];
 
 let cities = PRIORITY_CITIES;

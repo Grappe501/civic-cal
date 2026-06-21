@@ -32,11 +32,11 @@ export function AdminCampaignWorkspacesPanel({ token }: Props) {
     } catch (_) {}
   }
 
-  if (loading) return <p className="text-ark-pine/60">Loading workspaces…</p>;
+  if (loading) return <p className="text-muted-soft">Loading workspaces…</p>;
 
   return (
     <div>
-      <p className="text-sm text-ark-pine/60 mb-4">
+      <p className="text-sm text-muted-soft mb-4">
         Named campaign dashboards — edit scope placeholders in DB or seed JSON. District GIS is next pass.
       </p>
       <div className="space-y-4">
@@ -45,19 +45,19 @@ export function AdminCampaignWorkspacesPanel({ token }: Props) {
             <div className="flex flex-wrap justify-between gap-2">
               <div>
                 <h3 className="font-semibold text-ark-pine">{ws.dashboardLabel}</h3>
-                <p className="text-sm text-ark-pine/60">
+                <p className="text-sm text-muted-soft">
                   {ws.candidateName} · {ws.officeSought} · {ws.districtName}
                 </p>
               </div>
-              <span className={`chip text-xs ${ws.isActive ? "bg-ark-sage text-white" : "bg-ark-wheat"}`}>
+              <span className={`chip text-xs ${ws.isActive ? "bg-emerald-800 text-white" : "bg-ark-wheat"}`}>
                 {ws.isActive ? "Active" : "Inactive"}
               </span>
             </div>
-            {ws.notes && <p className="text-sm text-ark-pine/70 mt-2">{ws.notes}</p>}
+            {ws.notes && <p className="text-sm text-muted mt-2">{ws.notes}</p>}
             {isBoundaryPending(ws) && (
               <p className="text-xs text-amber-700 mt-2">{ws.districtScope.boundaryNote}</p>
             )}
-            <p className="text-xs text-ark-pine/50 mt-2">
+            <p className="text-xs text-caption mt-2">
               Counties: {ws.counties.length ? ws.counties.join(", ") : "all (statewide)"} · Cities:{" "}
               {ws.cities.length ? ws.cities.join(", ") : "—"}
             </p>

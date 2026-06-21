@@ -49,29 +49,29 @@ export function EventCard({ event, compact }: { event: CivicEvent; compact?: boo
         <CategoryBadge category={event.category} />
       </div>
 
-      <p className="text-sm text-ark-pine/70">{formatEventRange(event)}</p>
+      <p className="text-sm text-muted">{formatEventRange(event)}</p>
 
       <div className="flex flex-wrap gap-1.5">
         <HostVolunteerBadge event={event} />
         {studentServiceOpp && <StudentServiceBadge opportunity={studentServiceOpp} compact />}
       </div>
 
-      <p className="text-sm flex items-start gap-1.5 text-ark-pine/80">
+      <p className="text-sm flex items-start gap-1.5 text-muted">
         <MapPin className="h-4 w-4 shrink-0 mt-0.5 text-ark-sage" />
         <span>
           {[event.city, `${event.county} County`].filter(Boolean).join(" · ")}
           {event.locationName && !compact && (
-            <span className="block text-ark-pine/60">{event.locationName}</span>
+            <span className="block text-muted-soft">{event.locationName}</span>
           )}
         </span>
       </p>
 
       {!compact && event.description && (
-        <p className="text-sm text-ark-pine/70 line-clamp-2">{event.description}</p>
+        <p className="text-sm text-muted line-clamp-2">{event.description}</p>
       )}
 
       {event.hostOrganization && (
-        <p className="text-xs text-ark-pine/50">Hosted by {event.hostOrganization}</p>
+        <p className="text-xs text-caption">Hosted by {event.hostOrganization}</p>
       )}
 
       <div className="mt-auto flex flex-wrap gap-2 pt-2 border-t border-ark-pine/5">

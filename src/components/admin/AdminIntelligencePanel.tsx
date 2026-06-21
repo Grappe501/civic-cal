@@ -124,7 +124,7 @@ export function AdminIntelligencePanel({ token }: Props) {
 
   return (
     <div>
-      <p className="text-sm text-ark-pine/75 mb-4">
+      <p className="text-sm text-muted mb-4">
         Public-source discoveries only — AI is advisory, never auto-published. Approve moves to live events table.
       </p>
 
@@ -142,7 +142,7 @@ export function AdminIntelligencePanel({ token }: Props) {
       </div>
 
       <div className="card mb-4 space-y-3">
-        <p className="text-xs font-semibold uppercase tracking-wide text-ark-pine/70">Filters</p>
+        <p className="text-xs font-semibold uppercase tracking-wide text-muted">Filters</p>
         <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
           <select className="input text-sm" value={cityFilter} onChange={(e) => setCityFilter(e.target.value)}>
             <option value="">All cities</option>
@@ -176,7 +176,7 @@ export function AdminIntelligencePanel({ token }: Props) {
             <option value="possible_dup">Possible duplicate</option>
           </select>
         </div>
-        <p className="text-xs text-ark-pine/60">{filtered.length} of {candidates.length} candidates shown</p>
+        <p className="text-xs text-muted-soft">{filtered.length} of {candidates.length} candidates shown</p>
       </div>
 
       {selected.size > 0 && (
@@ -195,7 +195,7 @@ export function AdminIntelligencePanel({ token }: Props) {
       )}
 
       {loading ? (
-        <p className="text-ark-pine/70">Loading intelligence…</p>
+        <p className="text-muted">Loading intelligence…</p>
       ) : (
         <div className="space-y-4">
           {filtered.map((c) => (
@@ -219,10 +219,10 @@ export function AdminIntelligencePanel({ token }: Props) {
                       {c.harvestBatch && <span className="chip chip-muted">{c.harvestBatch}</span>}
                     </div>
                   </div>
-                  <p className="text-sm text-ark-pine/75 mt-1">
+                  <p className="text-sm text-muted mt-1">
                     {[c.city, c.county ? `${c.county} County` : null, c.eventDate || "date TBD"].filter(Boolean).join(" · ")}
                   </p>
-                  {c.notes && <p className="text-sm text-ark-pine/80 mt-2">{c.notes}</p>}
+                  {c.notes && <p className="text-sm text-muted mt-2">{c.notes}</p>}
                   {c.sourceUrl && (
                     <a href={c.sourceUrl} target="_blank" rel="noreferrer" className="text-xs text-ark-rust font-medium hover:underline mt-1 inline-block">
                       Source: {c.sourceName || c.sourceUrl}
@@ -233,7 +233,7 @@ export function AdminIntelligencePanel({ token }: Props) {
               </div>
             </div>
           ))}
-          {filtered.length === 0 && <p className="text-ark-pine/70">No candidates match current filters.</p>}
+          {filtered.length === 0 && <p className="text-muted">No candidates match current filters.</p>}
         </div>
       )}
     </div>

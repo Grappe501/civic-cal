@@ -24,10 +24,10 @@ export function MapFilters({ filters, onChange, mappableCount, totalCount }: Pro
   return (
     <div className="space-y-4 rounded-2xl border border-ark-pine/10 bg-white/95 p-4 shadow-sm backdrop-blur">
       <div>
-        <p className="text-xs font-medium uppercase tracking-wide text-ark-sage">Explore Arkansas</p>
+        <p className="text-kicker">Explore Arkansas</p>
         <p className="font-display text-lg font-semibold text-ark-pine">
           {mappableCount} on map
-          <span className="text-sm font-normal text-ark-pine/50"> / {totalCount} events</span>
+          <span className="text-sm font-normal text-caption"> / {totalCount} events</span>
         </p>
       </div>
 

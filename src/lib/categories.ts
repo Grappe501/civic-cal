@@ -22,7 +22,7 @@ export const CATEGORIES: {
     id: "community",
     label: "Community",
     description: "Festivals, parades, fairs, farmers markets",
-    color: "bg-ark-sage text-white",
+    color: "bg-emerald-800 text-white",
   },
   {
     id: "community_church",
@@ -40,7 +40,7 @@ export const CATEGORIES: {
     id: "school",
     label: "Schools",
     description: "Games, board meetings, performances",
-    color: "bg-ark-sky text-ark-night",
+    color: "bg-ark-sky text-[var(--text-primary)]",
   },
   {
     id: "volunteer",

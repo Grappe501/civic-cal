@@ -42,7 +42,7 @@ export function CampaignPresenceControls({ workspace, eventId, plan, onUpdate }:
   return (
     <div className="mt-3 pt-3 border-t border-ark-pine/10 space-y-2">
       {showVisibilityToggles && (
-        <p className="text-[10px] font-semibold uppercase tracking-wide text-ark-pine/70">Public calendar visibility</p>
+        <p className="text-[10px] font-semibold uppercase tracking-wide text-muted">Public calendar visibility</p>
       )}
 
       {showVisibilityToggles && canShowCandidate && (

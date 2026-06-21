@@ -6,9 +6,9 @@ export function DistrictEnginePage() {
 
   return (
     <div className="mx-auto max-w-4xl px-4 py-10">
-      <p className="text-sm font-medium uppercase tracking-wide text-ark-sage">Pass 7 — District Boundary Engine</p>
+      <p className="text-kicker">Pass 7 — District Boundary Engine</p>
       <h1 className="font-display text-3xl font-bold text-ark-pine mt-1">Inside · Near · Worth the trip</h1>
-      <p className="mt-3 text-ark-pine/70 max-w-2xl">
+      <p className="mt-3 text-muted max-w-2xl">
         Campaign dashboards classify every event into three zones: inside your district, near your district, and
         high-value statewide exceptions worth travel. Partial counties use statutory lists today; precinct GeoJSON loads next.
       </p>
@@ -21,7 +21,7 @@ export function DistrictEnginePage() {
         ].map(({ title, desc }) => (
           <div key={title} className="card">
             <h2 className="font-semibold text-ark-pine">{title}</h2>
-            <p className="text-sm text-ark-pine/60 mt-1">{desc}</p>
+            <p className="text-sm text-muted-soft mt-1">{desc}</p>
           </div>
         ))}
       </section>

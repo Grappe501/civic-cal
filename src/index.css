@@ -3,83 +3,180 @@
 @tailwind utilities;
 
 @layer base {
+  :root {
+    --surface: #ffffff;
+    --surface-soft: #faf7f2;
+    --surface-strong: #f5e6d3;
+    --text-primary: #1a1f2e;
+    --text-secondary: #2d4a3e;
+    --text-muted: #3d5248;
+    --text-muted-soft: #4f6359;
+    --border: rgba(45, 74, 62, 0.18);
+    --border-strong: rgba(45, 74, 62, 0.32);
+    --brand: #b84a32;
+    --brand-dark: #8f3828;
+    --brand-soft: #f5e6d3;
+    --on-brand: #ffffff;
+    --success: #166534;
+    --success-soft: #ecfdf3;
+    --on-success: #ffffff;
+    --warning: #92400e;
+    --warning-soft: #fffbeb;
+    --on-warning: #1a1f2e;
+    --danger: #991b1b;
+    --danger-soft: #fef2f2;
+    --on-danger: #ffffff;
+    --info: #1e40af;
+    --info-soft: #eff6ff;
+    --on-info: #ffffff;
+    --kicker: #3d5248;
+  }
+
   html {
     @apply scroll-smooth;
   }
   body {
-    @apply bg-ark-porch text-ark-night font-sans antialiased;
+    @apply bg-ark-porch text-[var(--text-primary)] font-sans antialiased;
   }
   h1, h2, h3 {
-    @apply text-ark-pine;
+    @apply text-[var(--text-secondary)];
   }
   ::selection {
-    @apply bg-ark-rust/20 text-ark-night;
+    @apply bg-ark-rust/25 text-[var(--text-primary)];
   }
 }
 
 @layer components {
   .btn-primary {
-    @apply inline-flex items-center justify-center gap-2 rounded-full bg-ark-rust px-6 py-3 text-sm font-semibold text-white shadow-lg shadow-ark-rust/30 transition hover:bg-ark-clay focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ark-rust disabled:opacity-60;
+    @apply inline-flex items-center justify-center gap-2 rounded-full bg-ark-rust px-6 py-3 text-sm font-semibold text-[var(--on-brand)] shadow-lg shadow-ark-rust/30 transition hover:bg-ark-clay focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ark-rust disabled:opacity-60;
   }
   .btn-secondary {
-    @apply inline-flex items-center justify-center gap-2 rounded-full border-2 border-ark-pine/25 bg-white px-5 py-2.5 text-sm font-semibold text-ark-pine transition hover:border-ark-pine/45 hover:bg-ark-wheat/70 disabled:opacity-60;
+    @apply inline-flex items-center justify-center gap-2 rounded-full border-2 border-[var(--border-strong)] bg-white px-5 py-2.5 text-sm font-semibold text-[var(--text-secondary)] transition hover:border-ark-pine/45 hover:bg-ark-wheat/70 disabled:opacity-60;
   }
+  .btn-ghost {
+    @apply inline-flex items-center justify-center gap-2 rounded-full border border-[var(--border)] bg-transparent px-4 py-2 text-sm font-semibold text-[var(--text-secondary)] transition hover:bg-ark-wheat/60;
+  }
+  .btn-on-dark {
+    @apply inline-flex items-center justify-center gap-2 rounded-full border-2 border-white/40 bg-white/15 px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-white/25;
+  }
+
   .card {
-    @apply rounded-2xl border border-ark-pine/10 bg-white p-5 shadow-md shadow-ark-pine/5 transition hover:border-ark-sage/35 hover:shadow-lg;
+    @apply rounded-2xl border border-[var(--border)] bg-[var(--surface)] p-5 shadow-md shadow-ark-pine/5 transition hover:border-ark-sage/35 hover:shadow-lg;
+  }
+  .card-readable {
+    @apply card text-[var(--text-primary)];
   }
   .card-elevated {
-    @apply shadow-lg shadow-ark-pine/10 bg-white;
+    @apply shadow-lg shadow-ark-pine/10 bg-[var(--surface)];
   }
+
   .chip {
-    @apply inline-flex items-center rounded-full px-3 py-1 text-xs font-semibold;
+    @apply inline-flex items-center rounded-full px-3 py-1 text-xs font-semibold border border-transparent;
+  }
+  .chip-readable {
+    @apply chip bg-ark-wheat text-[var(--text-secondary)] border-[var(--border)];
   }
   .chip-active {
-    @apply bg-ark-rust text-white shadow-sm;
+    @apply bg-ark-rust text-[var(--on-brand)] shadow-sm border-ark-rust;
   }
   .chip-muted {
-    @apply bg-ark-wheat text-ark-pine border border-ark-pine/15;
+    @apply bg-ark-wheat text-[var(--text-secondary)] border-[var(--border)];
   }
   .chip-score {
-    @apply bg-ark-pine/10 text-ark-pine;
+    @apply bg-ark-pine/10 text-[var(--text-secondary)];
   }
-  .input {
-    @apply w-full rounded-xl border-2 border-ark-pine/15 bg-white px-4 py-2.5 text-sm text-ark-night outline-none transition focus:border-ark-sage focus:ring-2 focus:ring-ark-sage/25;
+
+  .badge-readable {
+    @apply inline-flex items-center gap-1 rounded-full px-2.5 py-0.5 text-[10px] font-semibold border border-[var(--border-strong)] bg-[var(--surface-strong)] text-[var(--text-secondary)] shadow-sm;
+  }
+  .badge-success {
+    @apply inline-flex items-center gap-1 rounded-full px-2.5 py-0.5 text-[10px] font-semibold bg-emerald-800 text-[var(--on-success)] border border-emerald-900/30;
+  }
+  .badge-warning {
+    @apply inline-flex items-center gap-1 rounded-full px-2.5 py-0.5 text-[10px] font-semibold bg-amber-100 text-amber-950 border border-amber-300;
+  }
+  .badge-danger {
+    @apply inline-flex items-center gap-1 rounded-full px-2.5 py-0.5 text-[10px] font-semibold bg-red-800 text-[var(--on-danger)] border border-red-900/30;
+  }
+  .badge-info {
+    @apply inline-flex items-center gap-1 rounded-full px-2.5 py-0.5 text-[10px] font-semibold bg-sky-800 text-[var(--on-info)] border border-sky-900/30;
+  }
+
+  .input,
+  .input-readable {
+    @apply w-full rounded-xl border-2 border-[var(--border-strong)] bg-white px-4 py-2.5 text-sm text-[var(--text-primary)] placeholder:text-[var(--text-muted-soft)] outline-none transition focus:border-ark-sage focus:ring-2 focus:ring-ark-sage/25;
   }
   .label {
-    @apply mb-1.5 block text-sm font-semibold text-ark-pine;
+    @apply mb-1.5 block text-sm font-semibold text-[var(--text-secondary)];
   }
-  .section-kicker {
-    @apply text-sm font-bold uppercase tracking-wider text-ark-sage;
+  .form-readable {
+    @apply space-y-4 text-[var(--text-primary)];
   }
+  .form-help {
+    @apply text-sm text-[var(--text-muted)];
+  }
+  .form-error {
+    @apply text-sm font-medium text-red-800;
+  }
+
   .text-muted {
-    @apply text-ark-pine/75;
+    @apply text-[var(--text-muted)];
+  }
+  .text-muted-soft {
+    @apply text-[var(--text-muted-soft)];
+  }
+  .text-caption {
+    @apply text-xs text-[var(--text-muted-soft)];
+  }
+  .text-kicker {
+    @apply text-sm font-bold uppercase tracking-wider text-[var(--kicker)];
+  }
+
+  .panel-light {
+    @apply rounded-2xl border border-[var(--border)] bg-[var(--surface)] p-5 text-[var(--text-primary)];
+  }
+  .panel-dark {
+    @apply rounded-2xl border border-ark-night/20 bg-ark-night p-5 text-white;
+  }
+  .panel-brand {
+    @apply relative overflow-hidden rounded-2xl p-6 md:p-10 text-white shadow-xl;
+  }
+  .panel-brand-overlay {
+    @apply absolute inset-0 bg-ark-night/25 pointer-events-none;
+  }
+  .panel-brand-content {
+    @apply relative z-10;
+  }
+
+  .section-kicker {
+    @apply text-kicker;
   }
   .hero-gradient {
     @apply bg-gradient-to-br from-ark-pine via-ark-pine to-ark-rust text-white;
   }
   .page-header {
-    @apply font-display text-3xl md:text-4xl font-bold text-ark-pine tracking-tight;
+    @apply font-display text-3xl md:text-4xl font-bold text-[var(--text-secondary)] tracking-tight;
   }
   .dossier-hero {
-    @apply rounded-2xl border border-ark-pine/10 bg-white p-6 md:p-8 shadow-lg;
+    @apply rounded-2xl border border-[var(--border)] bg-white p-6 md:p-8 shadow-lg;
   }
   .dossier-quick-facts {
-    @apply rounded-2xl border border-ark-pine/10 bg-ark-wheat/40 p-4 md:p-5;
+    @apply rounded-2xl border border-[var(--border)] bg-ark-wheat/50 p-4 md:p-5;
   }
   .dossier-fact {
     @apply space-y-0.5;
   }
   .dossier-fact-label {
-    @apply text-[10px] font-bold uppercase tracking-wider text-ark-sage;
+    @apply text-[10px] font-bold uppercase tracking-wider text-[var(--kicker)];
   }
   .dossier-fact-value {
-    @apply text-sm font-medium text-ark-pine;
+    @apply text-sm font-medium text-[var(--text-secondary)];
   }
   .dossier-fact-unknown {
-    @apply text-sm italic text-ark-pine/50;
+    @apply text-sm italic text-[var(--text-muted-soft)];
   }
   .dossier-section-title {
-    @apply font-display text-lg font-semibold text-ark-pine flex items-center gap-2;
+    @apply font-display text-lg font-semibold text-[var(--text-secondary)] flex items-center gap-2;
   }
   .dossier-section {
     @apply scroll-mt-24;
@@ -88,76 +185,76 @@
     @apply space-y-2;
   }
   .intel-hero {
-    @apply rounded-2xl border border-ark-pine/10 bg-white p-6 md:p-8 shadow-lg border-t-4;
+    @apply rounded-2xl border border-[var(--border)] bg-white p-6 md:p-8 shadow-lg border-t-4;
   }
   .intel-exec-summary {
-    @apply rounded-2xl border border-ark-pine/10 p-5 md:p-6;
+    @apply rounded-2xl border border-[var(--border)] p-5 md:p-6;
   }
   .intel-section-title {
-    @apply font-display text-base font-semibold text-ark-pine flex items-center gap-2;
+    @apply font-display text-base font-semibold text-[var(--text-secondary)] flex items-center gap-2;
   }
   .intel-data-card {
-    @apply rounded-lg bg-ark-wheat/40 px-3 py-2;
+    @apply rounded-lg bg-ark-wheat/50 px-3 py-2;
   }
   .intel-data-label {
-    @apply text-[10px] font-bold uppercase tracking-wider text-ark-sage;
+    @apply text-[10px] font-bold uppercase tracking-wider text-[var(--kicker)];
   }
   .intel-data-value {
-    @apply text-sm font-medium text-ark-pine mt-0.5;
+    @apply text-sm font-medium text-[var(--text-secondary)] mt-0.5;
   }
   .intel-data-unknown {
-    @apply text-sm italic text-ark-pine/50 mt-0.5;
+    @apply text-sm italic text-[var(--text-muted-soft)] mt-0.5;
   }
   .intel-election-panel {
-    @apply bg-gradient-to-br from-white to-ark-wheat/30;
+    @apply bg-gradient-to-br from-white to-ark-wheat/40;
   }
   .discovery-banner {
-    @apply relative overflow-hidden border-b border-ark-pine/10 bg-gradient-to-br from-ark-pine via-[#1e3d32] to-ark-rust text-white;
+    @apply relative overflow-hidden border-b border-[var(--border)] bg-gradient-to-br from-ark-pine via-[#1e3d32] to-ark-rust text-white;
   }
   .discovery-banner-kicker {
-    @apply text-sm font-medium uppercase tracking-widest text-ark-wheat/70;
+    @apply text-sm font-medium uppercase tracking-widest text-ark-wheat;
   }
   .discovery-banner-title {
     @apply mt-2 font-display text-4xl md:text-5xl font-bold leading-tight max-w-3xl;
   }
   .discovery-banner-sub {
-    @apply mt-3 text-lg text-white/85;
+    @apply mt-3 text-lg text-white/95;
   }
   .discovery-hero {
-    @apply relative rounded-2xl border border-ark-pine/10 bg-gradient-to-br from-white via-ark-wheat/30 to-white p-6 md:p-8 shadow-lg overflow-hidden;
+    @apply relative rounded-2xl border border-[var(--border)] bg-gradient-to-br from-white via-ark-wheat/40 to-white p-6 md:p-8 shadow-lg overflow-hidden;
   }
   .discovery-hero-glow {
     @apply absolute -top-20 -right-20 h-64 w-64 rounded-full bg-ark-sage/20 blur-3xl pointer-events-none;
   }
   .discovery-hero-kicker {
-    @apply text-sm font-semibold text-ark-sage uppercase tracking-wide;
+    @apply text-kicker;
   }
   .discovery-hero-input {
-    @apply input text-base md:text-lg py-3 border-ark-pine/15 shadow-inner;
+    @apply input text-base md:text-lg py-3 shadow-inner;
   }
   .discovery-hero-btn {
     @apply py-3 px-6;
   }
   .discovery-example-chip {
-    @apply rounded-full border border-ark-pine/10 bg-ark-wheat/60 px-3 py-1.5 text-xs text-ark-pine/80 hover:bg-ark-wheat hover:border-ark-sage/40 transition text-left;
+    @apply rounded-full border border-[var(--border)] bg-ark-wheat/70 px-3 py-1.5 text-xs text-[var(--text-muted)] hover:bg-ark-wheat hover:border-ark-sage/40 transition text-left;
   }
   .discovery-chip-grid {
     @apply grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3;
   }
   .discovery-chip {
-    @apply flex flex-col items-center justify-center gap-2 rounded-2xl border-2 border-ark-pine/10 bg-white p-4 min-h-[100px] shadow-sm hover:border-ark-sage/50 hover:shadow-md hover:-translate-y-0.5 transition-all;
+    @apply flex flex-col items-center justify-center gap-2 rounded-2xl border-2 border-[var(--border)] bg-white p-4 min-h-[100px] shadow-sm hover:border-ark-sage/50 hover:shadow-md hover:-translate-y-0.5 transition-all;
   }
   .discovery-chip-sm {
     @apply min-h-[80px] p-3;
   }
   .discovery-chip-active {
-    @apply border-ark-rust bg-ark-rust/5 ring-2 ring-ark-rust/20;
+    @apply border-ark-rust bg-ark-rust/10 ring-2 ring-ark-rust/25;
   }
   .discovery-chip-emoji {
     @apply text-2xl md:text-3xl leading-none;
   }
   .discovery-chip-label {
-    @apply text-xs md:text-sm font-semibold text-ark-pine text-center leading-tight;
+    @apply text-xs md:text-sm font-semibold text-[var(--text-secondary)] text-center leading-tight;
   }
   .personality-pill {
     @apply rounded-full px-4 py-2 text-sm font-medium transition border;
@@ -166,33 +263,39 @@
     @apply bg-ark-pine text-white border-ark-pine;
   }
   .personality-pill-idle {
-    @apply bg-white text-ark-pine/80 border-ark-pine/15 hover:border-ark-sage/40;
+    @apply bg-white text-[var(--text-muted)] border-[var(--border)] hover:border-ark-sage/40;
   }
   .explore-prompt-card {
-    @apply flex items-center gap-3 rounded-xl border border-ark-pine/10 bg-white px-4 py-3 shadow-sm hover:border-ark-sage/40 hover:shadow transition text-left;
+    @apply flex items-center gap-3 rounded-xl border border-[var(--border)] bg-white px-4 py-3 shadow-sm hover:border-ark-sage/40 hover:shadow transition text-left;
   }
   .explore-prompt-card-active {
-    @apply border-ark-rust bg-ark-rust/5 ring-1 ring-ark-rust/20;
+    @apply border-ark-rust bg-ark-rust/10 ring-1 ring-ark-rust/25;
   }
   .safari-step-dot {
-    @apply h-2 flex-1 rounded-full bg-ark-pine/10;
+    @apply h-2 flex-1 rounded-full bg-ark-pine/15;
   }
   .safari-step-dot-active {
-    @apply bg-ark-sage;
+    @apply bg-emerald-700;
   }
   .presence-badge {
-    @apply inline-flex items-center gap-1 rounded-full px-2 py-0.5 text-[10px] font-semibold shadow-sm max-w-[48%] truncate;
+    @apply inline-flex items-center gap-1 rounded-full px-2 py-0.5 text-[10px] font-semibold shadow-sm max-w-[48%] truncate border border-black/15;
   }
   .presence-badge-volunteer {
-    @apply ring-1 ring-white/30;
+    @apply ring-2 ring-white/50;
   }
   .presence-legend {
-    @apply mt-4 rounded-xl border border-ark-pine/10 bg-white/80 p-3;
+    @apply mt-4 rounded-xl border border-[var(--border)] bg-white p-3;
   }
   .presence-legend-compact {
     @apply mt-3 p-2;
   }
   .presence-legend-item {
-    @apply inline-flex items-center;
+    @apply inline-flex items-center text-[var(--text-secondary)];
+  }
+  .civic-glyph {
+    @apply border-2 border-white/60 ring-1 ring-black/20;
+  }
+  .civic-glyph-legend {
+    @apply rounded-xl border border-[var(--border)] bg-white p-3;
   }
 }

@@ -105,7 +105,7 @@ export function AdminLocalIntelligencePanel() {
               onChange={(e) => e.target.files?.[0] && handleImport(e.target.files[0])}
             />
           </label>
-          {importMsg && <p className="text-sm text-ark-pine/80">{importMsg}</p>}
+          {importMsg && <p className="text-sm text-muted">{importMsg}</p>}
           <button
             type="button"
             className="btn-secondary text-sm"

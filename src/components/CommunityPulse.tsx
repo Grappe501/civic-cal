@@ -21,7 +21,7 @@ export function CommunityPulse({ events }: { events: CivicEvent[] }) {
           <TrendingUp className="h-5 w-5 text-ark-sage" />
           Community pulse
         </h2>
-        <p className="mt-1 text-sm text-ark-pine/60">Where activity is showing up this season</p>
+        <p className="mt-1 text-sm text-muted-soft">Where activity is showing up this season</p>
         <ul className="mt-4 space-y-2">
           {topCounties.map(([county, count]) => (
             <li key={county} className="flex items-center justify-between text-sm">
@@ -37,10 +37,10 @@ export function CommunityPulse({ events }: { events: CivicEvent[] }) {
           <AlertTriangle className="h-5 w-5 text-amber-600" />
           Empty county alerts
         </h2>
-        <p className="mt-1 text-sm text-ark-pine/60">
+        <p className="mt-1 text-sm text-muted-soft">
           {empty.length} counties with no events yet — be a local champion.
         </p>
-        <p className="mt-3 text-xs text-ark-pine/50 line-clamp-4">
+        <p className="mt-3 text-xs text-caption line-clamp-4">
           {empty.slice(0, 12).join(", ")}
           {empty.length > 12 ? "…" : ""}
         </p>
@@ -52,7 +52,7 @@ export function CommunityPulse({ events }: { events: CivicEvent[] }) {
             <Sparkles className="h-5 w-5 text-ark-rust" />
             Event of the week
           </h2>
-          <p className="mt-2 text-sm text-ark-pine/70">
+          <p className="mt-2 text-sm text-muted">
             {events.find((e) => e.featured)?.title ?? events[0]?.title}
           </p>
         </div>

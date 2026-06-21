@@ -88,7 +88,7 @@ export function CityIntelligenceBrief({ workspace, city }: Props) {
 
       <div className="intel-exec-summary card card-elevated mt-6" style={{ backgroundColor: theme.surfaceColor }}>
         <h2 className="font-display font-semibold" style={{ color: theme.primaryColor }}>Executive summary</h2>
-        <p className="text-sm text-ark-pine/85 mt-2">{city.opportunityNotes || city.demographicsSummary}</p>
+        <p className="text-sm text-muted mt-2">{city.opportunityNotes || city.demographicsSummary}</p>
         {city.politicalNotes && <p className="text-sm text-muted mt-2">{city.politicalNotes}</p>}
       </div>
 
@@ -108,7 +108,7 @@ export function CityIntelligenceBrief({ workspace, city }: Props) {
 
           <section className="card card-elevated">
             <h2 className="intel-section-title">Civic institutions</h2>
-            <ul className="mt-3 text-sm space-y-1 text-ark-pine/85">
+            <ul className="mt-3 text-sm space-y-1 text-muted">
               {[...(city.civicInstitutions ?? []), ...(city.churches ?? []), ...(city.schools ?? [])].map((x) => (
                 <li key={x}>• {x}</li>
               ))}
@@ -185,7 +185,7 @@ export function CityIntelligenceBrief({ workspace, city }: Props) {
               <Brain className="h-4 w-4" /> {aiLoading ? "Analyzing…" : "Ask AI about this city"}
             </button>
             {summary && (
-              <div className="mt-4 text-xs space-y-2 text-ark-pine/85">
+              <div className="mt-4 text-xs space-y-2 text-muted">
                 <p><strong>Why it matters:</strong> {summary.whyItMatters}</p>
                 <p><strong>Relationship:</strong> {summary.relationshipGuidance}</p>
                 <p className="text-muted">{summary.confidenceNotes}</p>

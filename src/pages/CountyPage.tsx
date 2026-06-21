@@ -92,7 +92,7 @@ export function CountyPage() {
         <div>
           <p className="text-sm text-ark-sage font-medium uppercase tracking-wide">County calendar</p>
           <h1 className="font-display text-3xl font-bold text-ark-pine">{formatCountyLabel(county)}</h1>
-          <p className="mt-2 text-ark-pine/70 ai-readable-summary max-w-2xl">{summary}</p>
+          <p className="mt-2 text-muted ai-readable-summary max-w-2xl">{summary}</p>
         </div>
         <div className="flex flex-wrap gap-2">
           <Link to={countyPublicPath(county)} className="btn-secondary text-sm">Community intelligence view</Link>
@@ -125,7 +125,7 @@ export function CountyPage() {
         <ArkansasEventMap events={events} height="420px" />
       ) : events.length === 0 ? (
         <div className="card text-center py-12">
-          <p className="text-ark-pine/70">No events listed yet for {county} County.</p>
+          <p className="text-muted">No events listed yet for {county} County.</p>
           <Link to="/submit" className="btn-primary mt-4 inline-flex">Submit the first event</Link>
         </div>
       ) : (
@@ -163,7 +163,7 @@ export function CountiesIndexPage() {
   return (
     <div className="mx-auto max-w-6xl px-4 py-10">
       <h1 className="font-display text-3xl font-bold text-ark-pine">All 75 counties</h1>
-      <p className="mt-2 text-ark-pine/70 mb-8">Shareable county calendars for organizers and neighbors.</p>
+      <p className="mt-2 text-muted mb-8">Shareable county calendars for organizers and neighbors.</p>
       <div className="grid gap-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
         {ARKANSAS_COUNTIES.map((county) => (
           <Link
@@ -172,7 +172,7 @@ export function CountiesIndexPage() {
             className="card py-3 px-4 flex items-center justify-between hover:border-ark-sage"
           >
             <span className="font-medium text-ark-pine">{county}</span>
-            <span className="text-xs text-ark-pine/50">{counts.get(county) ?? 0}</span>
+            <span className="text-xs text-caption">{counts.get(county) ?? 0}</span>
           </Link>
         ))}
       </div>

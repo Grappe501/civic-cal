@@ -27,7 +27,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
               <p className="font-display text-lg font-semibold leading-tight text-ark-pine group-hover:text-ark-rust transition">
                 Arkansas Everywhere
               </p>
-              <p className="text-xs text-ark-pine/60">Community calendar · all 75 counties</p>
+              <p className="text-caption">Community calendar · all 75 counties</p>
             </div>
           </Link>
           <nav className="hidden lg:flex items-center gap-1">
@@ -38,7 +38,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
                 className={({ isActive }) =>
                   cn(
                     "rounded-full px-3 py-2 text-sm font-medium transition",
-                    isActive ? "bg-ark-pine text-white" : "text-ark-pine/70 hover:bg-ark-wheat hover:text-ark-pine",
+                    isActive ? "bg-ark-pine text-white" : "text-muted hover:bg-ark-wheat hover:text-[var(--text-secondary)]",
                   )
                 }
               >

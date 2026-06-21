@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 import { Link } from "react-router-dom";
-import { AlertTriangle, Brain, MapPin, MessageSquarePlus, Sparkles, Users } from "lucide-react";
+import { AlertTriangle, Brain, ExternalLink, HandHeart, MapPin, MessageSquarePlus, Sparkles, Users } from "lucide-react";
 import { isThisWeek } from "date-fns";
 import { fetchEvents } from "../../lib/api";
 import { applyDistrictScope, isBoundaryPending, boundaryStatusNote } from "../../lib/campaigns/districtScope";
@@ -16,7 +16,7 @@ import { CampaignStrategyPanel } from "./CampaignStrategyPanel";
 import type { CampaignEventPlan, CampaignWorkspace, PlanStatus } from "../../lib/campaigns/types";
 import { PLAN_STATUS_LABELS, PLAN_STATUS_SHORT } from "../../lib/campaigns/types";
 import { dashboardThemeVars } from "../../lib/campaigns/workspaces";
-import { getCampaignBranding } from "../../lib/campaigns/brandingProfile";
+import { getCampaignBranding, resolveCampaignColors } from "../../lib/campaigns/brandingProfile";
 import { formatEventRange } from "../../lib/format";
 import { GoogleCalendarRail, MobilizeRail } from "../integrations/IntegrationRails";
 import type { IntelligenceLayer } from "../../lib/intelligence/eventLayers";
@@ -93,7 +93,7 @@ function EventIntelCard({
           <Link to={`/event/${event.slug}`} className="font-semibold text-ark-pine hover:opacity-80">
             {event.title}
           </Link>
-          <p className="text-xs text-ark-pine/50 mt-1">
+          <p className="text-xs text-caption mt-1">
             {formatEventRange(event)} · {event.city || event.county} County
             {zone !== "inside" && (
               <span className="ml-1 capitalize">· {zone === "near" ? "Near district" : "High-value"}</span>
@@ -111,7 +111,7 @@ function EventIntelCard({
 
       {!compact && (
         <div className="mt-2 flex flex-wrap gap-2 text-[10px]">
-          {zoneReason && <span className="text-ark-pine/50 w-full">{zoneReason}</span>}
+          {zoneReason && <span className="text-caption w-full">{zoneReason}</span>}
           <span className="chip bg-ark-wheat text-ark-pine">Usefulness: {candidateUsefulness}</span>
           {tradition != null && <span className="chip bg-ark-wheat text-ark-pine">Tradition ~{tradition}</span>}
           <span className="chip bg-ark-wheat text-ark-pine capitalize">{verification.replace("_", " ")}</span>
@@ -145,10 +145,14 @@ function EventIntelCard({
             onClick={() => onPlan(event.id, status)}
             className={
               plan?.planStatus === status
-                ? "chip text-[10px] text-white"
-                : "chip text-[10px] bg-ark-wheat text-ark-pine"
+                ? "chip text-[10px]"
+                : "chip text-[10px] chip-muted"
             }
-            style={plan?.planStatus === status ? { backgroundColor: "var(--campaign-primary)" } : undefined}
+            style={
+              plan?.planStatus === status
+                ? { backgroundColor: "var(--campaign-brand-dark)", color: "var(--campaign-on-brand)", borderColor: "var(--campaign-brand-dark)" }
+                : undefined
+            }
           >
             {PLAN_STATUS_SHORT[status]}
           </button>
@@ -179,7 +183,8 @@ export function CampaignDashboard({ workspace }: Props) {
   const [section, setSection] = useState<SectionId>("summary");
 
   const theme = workspace.dashboardTheme;
-  const vars = dashboardThemeVars(theme);
+  const colorTokens = resolveCampaignColors(workspace);
+  const vars = dashboardThemeVars(theme, colorTokens);
   const branding = getCampaignBranding(workspace.slug, workspace);
 
   useEffect(() => {
@@ -319,39 +324,63 @@ export function CampaignDashboard({ workspace }: Props) {
 
   return (
     <div style={vars as React.CSSProperties}>
-      <div
-        className="rounded-2xl p-6 md:p-10 text-white mb-8 shadow-xl"
-        style={{ background: `linear-gradient(135deg, ${theme.primaryColor} 0%, ${theme.accentColor} 85%)` }}
-      >
-        <div className="flex flex-wrap items-start justify-between gap-4">
+      <div className="panel-brand mb-8" style={{ background: colorTokens.heroGradient, color: colorTokens.textOnBrand }}>
+        <div className="panel-brand-overlay" aria-hidden />
+        <div className="panel-brand-content flex flex-wrap items-start justify-between gap-4">
           <div className="max-w-2xl">
-            <span className="inline-block px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wide bg-white/25 text-white mb-3 border border-white/20">
+            <span className="inline-block px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wide bg-black/20 mb-3 border border-white/30">
               {theme.badgeLabel}
             </span>
             <h1 className="font-display text-2xl md:text-4xl font-bold leading-tight">{workspace.dashboardLabel}</h1>
-            <p className="mt-3 text-base md:text-lg text-white/95 font-medium">{branding.heroSubtitle}</p>
-            <p className="mt-2 text-sm text-white/80">{workspace.candidateName} · {workspace.officeSought}</p>
+            <p className="mt-3 text-base md:text-lg font-medium opacity-95">{branding.heroSubtitle}</p>
+            <p className="mt-2 text-sm opacity-90">{workspace.candidateName} · {workspace.officeSought}</p>
+            <div className="mt-4 flex flex-wrap gap-2">
+              {workspace.campaignWebsiteUrl && (
+                <a
+                  href={workspace.campaignWebsiteUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn-on-dark text-xs px-3 py-1.5"
+                >
+                  Official campaign site <ExternalLink className="h-3.5 w-3.5" />
+                </a>
+              )}
+              {workspace.defaultVolunteerSignupUrl && (
+                <a
+                  href={workspace.defaultVolunteerSignupUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn-on-dark text-xs px-3 py-1.5"
+                >
+                  <HandHeart className="h-3.5 w-3.5" /> Volunteer
+                </a>
+              )}
+            </div>
           </div>
           <div
-            className="flex h-20 w-20 items-center justify-center rounded-2xl text-2xl font-bold shrink-0 shadow-lg"
-            style={{ backgroundColor: theme.surfaceColor, color: theme.primaryColor }}
+            className="flex h-20 w-20 items-center justify-center rounded-2xl text-2xl font-bold shrink-0 shadow-lg overflow-hidden border-2 border-white/40"
+            style={{ backgroundColor: colorTokens.brandSoft, color: colorTokens.textOnSoft }}
           >
-            {theme.logoInitials}
+            {theme.logoUrl ? (
+              <img src={theme.logoUrl} alt="" className="h-full w-full object-cover" />
+            ) : (
+              theme.logoInitials
+            )}
           </div>
         </div>
       </div>
 
       <div className="grid gap-4 md:grid-cols-2 mb-8">
         <div className="card card-elevated" style={{ borderTop: `4px solid ${theme.accentColor}` }}>
-          <h3 className="font-display font-semibold text-lg" style={{ color: theme.primaryColor }}>{branding.scopeCardTitle}</h3>
-          <p className="text-sm text-ark-pine/80 mt-2">{branding.scopeCardBody}</p>
+          <h3 className="font-display font-semibold text-lg text-[var(--text-secondary)]">{branding.scopeCardTitle}</h3>
+          <p className="text-sm text-muted mt-2">{branding.scopeCardBody}</p>
         </div>
         <div className="card card-elevated" style={{ borderTop: `4px solid ${theme.primaryColor}` }}>
-          <h3 className="font-display font-semibold text-lg" style={{ color: theme.primaryColor }}>{branding.priorityLaneTitle}</h3>
-          <ul className="mt-2 space-y-1.5 text-sm text-ark-pine/80">
+          <h3 className="font-display font-semibold text-lg text-[var(--text-secondary)]">{branding.priorityLaneTitle}</h3>
+          <ul className="mt-2 space-y-1.5 text-sm text-muted">
             {branding.priorityLaneItems.map((item) => (
               <li key={item} className="flex gap-2">
-                <span style={{ color: theme.accentColor }}>▸</span> {item}
+                <span className="font-bold" style={{ color: theme.accentColor }} aria-hidden>▸</span> {item}
               </li>
             ))}
           </ul>
@@ -359,8 +388,8 @@ export function CampaignDashboard({ workspace }: Props) {
       </div>
 
       <div className="card mb-8 border-l-4" style={{ borderLeftColor: theme.accentColor, backgroundColor: theme.surfaceColor }}>
-        <h3 className="font-display font-semibold text-lg" style={{ color: theme.primaryColor }}>{branding.whereToBeTitle}</h3>
-        <p className="text-sm text-ark-pine/85 mt-2 max-w-3xl">{branding.whereToBeBody}</p>
+        <h3 className="font-display font-semibold text-lg text-[var(--text-secondary)]">{branding.whereToBeTitle}</h3>
+        <p className="text-sm text-muted mt-2 max-w-3xl">{branding.whereToBeBody}</p>
       </div>
 
       {isBoundaryPending(workspace) && (
@@ -395,7 +424,7 @@ export function CampaignDashboard({ workspace }: Props) {
             <div key={label} className="card" style={{ backgroundColor: theme.surfaceColor }}>
               <Icon className="h-5 w-5" style={{ color: theme.accentColor }} />
               <p className="text-2xl font-bold mt-2" style={{ color: theme.primaryColor }}>{value}</p>
-              <p className="text-sm text-ark-pine/60">{label}</p>
+              <p className="text-sm text-muted-soft">{label}</p>
             </div>
           ))}
         </section>
@@ -409,8 +438,8 @@ export function CampaignDashboard({ workspace }: Props) {
                 key={s.id}
                 type="button"
                 onClick={() => setSection(s.id)}
-                className={section === s.id ? "chip text-white text-xs" : "chip bg-ark-wheat text-ark-pine text-xs"}
-                style={section === s.id ? { backgroundColor: theme.primaryColor } : undefined}
+                className={section === s.id ? "chip text-xs" : "chip chip-muted text-xs"}
+                style={section === s.id ? { backgroundColor: "var(--campaign-brand-dark)", color: "var(--campaign-on-brand)" } : undefined}
               >
                 {s.label} ({s.count})
               </button>
@@ -445,11 +474,11 @@ export function CampaignDashboard({ workspace }: Props) {
               {list.slice(0, 12).map((item) => (
                 <EventIntelCard key={item.scored.event.id} classified={item} plans={plans} workspace={workspace} onPlan={handlePlan} onPresenceUpdate={handlePresenceUpdate} />
               ))}
-              {list.length === 0 && <p className="text-ark-pine/60">No events in this section for current scope.</p>}
+              {list.length === 0 && <p className="text-muted-soft">No events in this section for current scope.</p>}
             </div>
           )}
 
-          <p className="text-xs text-ark-pine/50 mt-4">
+          <p className="text-caption mt-4">
             Scope: {scopeResult.scopeLabel} · {scopeResult.totalBeforeFilter} total · {allVisible.length} shown
           </p>
         </div>
@@ -489,7 +518,7 @@ export function CampaignDashboard({ workspace }: Props) {
           <StatewideDatesWatchPanel dates={filterStateDates({ verifiedOnly: true }).slice(0, 8)} />
           <div className="card" style={{ backgroundColor: theme.surfaceColor }}>
             <h3 className="font-semibold" style={{ color: theme.primaryColor }}>AI & local intelligence</h3>
-            <p className="text-sm text-ark-pine/70 mt-2">
+            <p className="text-sm text-muted mt-2">
               PO/RD scores are deterministic; admin AI assessments available in Event Intelligence tab.
               Use &quot;Local intel&quot; on any event to request community feedback.
             </p>
@@ -500,7 +529,7 @@ export function CampaignDashboard({ workspace }: Props) {
           <GoogleCalendarRail />
           <MobilizeRail />
           {workspace.notes && (
-            <div className="card text-sm text-ark-pine/70">
+            <div className="card text-sm text-muted">
               <strong className="text-ark-pine">Workspace notes</strong>
               <p className="mt-1">{workspace.notes}</p>
             </div>

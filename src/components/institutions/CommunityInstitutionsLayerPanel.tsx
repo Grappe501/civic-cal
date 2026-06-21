@@ -46,15 +46,15 @@ export function CommunityInstitutionsLayerPanel({ layer }: Props) {
         <p className="text-xs text-muted mt-1">Who shapes community life in {layer.county} County</p>
         <div className="grid gap-6 lg:grid-cols-2 mt-4">
           <div>
-            <h3 className="text-xs font-bold uppercase text-ark-sage mb-2">Churches ({layer.churches.length})</h3>
+            <h3 className="text-kicker mb-2">Churches ({layer.churches.length})</h3>
             <ul className="max-h-48 overflow-y-auto">{layer.churches.slice(0, 8).map((c) => <ChurchRow key={c.id} c={c} />)}</ul>
           </div>
           <div>
-            <h3 className="text-xs font-bold uppercase text-ark-sage mb-2">Schools ({layer.schools.length})</h3>
+            <h3 className="text-kicker mb-2">Schools ({layer.schools.length})</h3>
             <ul className="max-h-48 overflow-y-auto">{layer.schools.slice(0, 8).map((s) => <SchoolRow key={s.id} s={s} />)}</ul>
           </div>
           <div>
-            <h3 className="text-xs font-bold uppercase text-ark-sage mb-2">Colleges ({layer.colleges.length})</h3>
+            <h3 className="text-kicker mb-2">Colleges ({layer.colleges.length})</h3>
             <ul className="text-sm space-y-1">
               {layer.colleges.map((c) => (
                 <li key={c.id}>{c.institutionName} · {c.city}</li>
@@ -63,8 +63,8 @@ export function CommunityInstitutionsLayerPanel({ layer }: Props) {
             </ul>
           </div>
           <div>
-            <h3 className="text-xs font-bold uppercase text-ark-sage mb-2">Libraries · Hospitals · VFDs</h3>
-            <ul className="text-sm space-y-1 text-ark-pine/85">
+            <h3 className="text-kicker mb-2">Libraries · Hospitals · VFDs</h3>
+            <ul className="text-sm space-y-1 text-muted">
               {orgByType("library").slice(0, 3).map((o) => <li key={o.id}>📚 {o.name}</li>)}
               {orgByType("hospital").slice(0, 2).map((o) => <li key={o.id}>🏥 {o.name}</li>)}
               {orgByType("vfd").slice(0, 4).map((o) => <li key={o.id}>🚒 {o.name}</li>)}

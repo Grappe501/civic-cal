@@ -73,7 +73,7 @@ export function CityPage({ slug: slugProp }: Props = {}) {
         <div>
           <p className="text-sm text-ark-sage font-medium uppercase tracking-wide">Arkansas Community Calendar</p>
           <h1 className="font-display text-3xl md:text-4xl font-bold text-ark-pine">{dossier.city}, Arkansas</h1>
-          <p className="mt-2 text-ark-pine/70 max-w-2xl">{summary}</p>
+          <p className="mt-2 text-muted max-w-2xl">{summary}</p>
           <p className="text-xs text-muted mt-2 flex items-center gap-1">
             <MapPin className="h-3.5 w-3.5" />
             {formatCountyLabel(dossier.county)} · Priority community #{dossier.priorityRank}
@@ -92,7 +92,7 @@ export function CityPage({ slug: slugProp }: Props = {}) {
 
       <section className="card bg-ark-wheat/30 mb-8">
         <h2 className="font-semibold text-ark-pine">What is happening in {dossier.city}?</h2>
-        <p className="text-sm text-ark-pine/80 mt-2 ai-readable-summary">{summary}</p>
+        <p className="text-sm text-muted mt-2 ai-readable-summary">{summary}</p>
         <div className="mt-4 flex flex-wrap gap-2">
           {aiGuidePrompts(dossier.city, dossier.county).map((q) => (
             <span key={q} className="chip chip-muted text-[10px]">{q}</span>
@@ -165,7 +165,7 @@ export function CityPage({ slug: slugProp }: Props = {}) {
       {dossier.recurringEvents && dossier.recurringEvents.length > 0 && (
         <section className="mb-10">
           <h2 className="font-display text-xl font-semibold mb-4">Annual traditions</h2>
-          <ul className="text-sm space-y-1 text-ark-pine/85">
+          <ul className="text-sm space-y-1 text-muted">
             {dossier.recurringEvents.map((t) => (
               <li key={t}>• {t}</li>
             ))}

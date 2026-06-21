@@ -190,7 +190,7 @@ export function CampaignLocalIntelOverview({ workspace, classified, themePrimary
             <Brain className="h-4 w-4" /> Ask AI about top priority city
           </button>
           {aiPlace && (
-            <p className="text-xs mt-3 text-ark-pine/80">
+            <p className="text-xs mt-3 text-muted">
               <strong>{aiPlace}:</strong> {aiBusy ? "Analyzing…" : aiText ?? "—"}
             </p>
           )}

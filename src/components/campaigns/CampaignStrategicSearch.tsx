@@ -71,7 +71,7 @@ export function CampaignStrategicSearch({ workspace, events, gapSummary, themePr
       {error && <p className="text-sm text-red-700 mt-2">{error}</p>}
       {answer && (
         <div className="mt-4 space-y-3 text-sm border-t border-ark-pine/10 pt-4">
-          <p className="text-ark-pine/85">{answer.summary}</p>
+          <p className="text-muted">{answer.summary}</p>
           <p className="text-[10px] uppercase tracking-wide text-muted">Source: {answer.source}</p>
           {answer.recommendedEvents.length > 0 && (
             <div>

@@ -47,8 +47,8 @@ export function CommunityAnchorsPanel({ anchors, themePrimary = "#2d5016" }: Pro
       </div>
 
       <div className="mt-6">
-        <h3 className="text-xs font-bold uppercase text-ark-sage mb-2">Events sourced by anchor</h3>
-        <ul className="text-sm space-y-1 text-ark-pine/85">
+        <h3 className="text-kicker mb-2">Events sourced by anchor</h3>
+        <ul className="text-sm space-y-1 text-muted">
           {topSourcing.map((row) => (
             <li key={row.kind} className="flex flex-wrap gap-x-2">
               <span>{formatAnchorSourcingLine(row)}</span>
@@ -73,12 +73,12 @@ export function CommunityAnchorsPanel({ anchors, themePrimary = "#2d5016" }: Pro
 
       {anchors.homemakerClubs.length > 0 && (
         <div className="mt-4">
-          <h3 className="text-xs font-bold uppercase text-ark-sage mb-2 flex items-center gap-1">
+          <h3 className="text-kicker mb-2 flex items-center gap-1">
             <Users className="h-3.5 w-3.5" /> Extension Homemaker clubs
           </h3>
           <ul className="text-sm space-y-1">
             {anchors.homemakerClubs.slice(0, 5).map((c) => (
-              <li key={c.id} className="text-ark-pine/85">
+              <li key={c.id} className="text-muted">
                 {c.clubName}
                 {c.meetingSchedule ? ` · ${c.meetingSchedule}` : " · schedule pending"}
               </li>
@@ -89,12 +89,12 @@ export function CommunityAnchorsPanel({ anchors, themePrimary = "#2d5016" }: Pro
 
       {anchors.vfds.length > 0 && (
         <div className="mt-4">
-          <h3 className="text-xs font-bold uppercase text-ark-sage mb-2 flex items-center gap-1">
+          <h3 className="text-kicker mb-2 flex items-center gap-1">
             <Flame className="h-3.5 w-3.5" /> Volunteer fire departments
           </h3>
           <ul className="text-sm space-y-1">
             {anchors.vfds.slice(0, 6).map((v) => (
-              <li key={v.id} className="text-ark-pine/85">
+              <li key={v.id} className="text-muted">
                 {v.name} · {v.city}
               </li>
             ))}
@@ -105,7 +105,7 @@ export function CommunityAnchorsPanel({ anchors, themePrimary = "#2d5016" }: Pro
 
       {anchors.parades.length > 0 && (
         <div className="mt-4">
-          <h3 className="text-xs font-bold uppercase text-ark-sage mb-2">Parades</h3>
+          <h3 className="text-kicker mb-2">Parades</h3>
           <ul className="text-sm space-y-1.5">
             {anchors.parades.slice(0, 5).map((p) => (
               <li key={p.eventTitle}>
@@ -126,7 +126,7 @@ export function CommunityAnchorsPanel({ anchors, themePrimary = "#2d5016" }: Pro
 
       {anchors.foodEvents.length > 0 && (
         <div className="mt-4">
-          <h3 className="text-xs font-bold uppercase text-ark-sage mb-2 flex items-center gap-1">
+          <h3 className="text-kicker mb-2 flex items-center gap-1">
             <UtensilsCrossed className="h-3.5 w-3.5" /> Arkansas Food Trail (county)
           </h3>
           <ul className="text-sm space-y-1">
@@ -142,7 +142,7 @@ export function CommunityAnchorsPanel({ anchors, themePrimary = "#2d5016" }: Pro
 
       {anchors.topAttendanceSignals.length > 0 && (
         <div className="mt-4 pt-4 border-t border-ark-pine/10">
-          <h3 className="text-xs font-bold uppercase text-ark-sage mb-2">Community attendance signals</h3>
+          <h3 className="text-kicker mb-2">Community attendance signals</h3>
           <p className="text-xs text-muted mb-2">A 150-person Homemaker event may outrank a 500-person generic festival</p>
           <div className="flex flex-wrap gap-2">
             {anchors.topAttendanceSignals.map((s) => (

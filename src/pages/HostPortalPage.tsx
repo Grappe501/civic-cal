@@ -7,6 +7,7 @@ import { HOST_TYPE_LABELS, hostTypeToGlyphKind, type HostPortalType } from "../l
 const HOST_TYPES: HostPortalType[] = [
   "church", "school", "college", "festival", "chamber", "rotary", "vfd", "library",
   "farm_bureau", "extension", "homemakers", "naacp", "four_h", "business", "nonprofit", "community",
+  "candidate", "campaign",
 ];
 
 export function HostPortalPage() {
@@ -44,7 +45,10 @@ export function HostPortalPage() {
               </span>
             ))}
         </div>
-        <p className="text-xs text-muted mt-3">Candidates & campaigns: use <Link to="/campaigns" className="underline">Campaign workspaces</Link> (premium layer).</p>
+        <p className="text-xs text-muted mt-3">
+          Political candidates and campaigns can publish community events here. For district intelligence, presence layers, and volunteer recruitment tools, use{" "}
+          <Link to="/campaigns" className="underline">Campaign workspaces</Link>.
+        </p>
       </section>
 
       <div className="mt-12 flex flex-wrap gap-3">
@@ -57,7 +61,7 @@ export function HostPortalPage() {
         <h2 className="font-semibold flex items-center gap-2">
           <MapPin className="h-5 w-5" /> The flywheel
         </h2>
-        <p className="text-sm text-ark-pine/85 mt-2">
+        <p className="text-sm text-muted mt-2">
           Organizations add events → calendar grows → citizens use it → AI learns community patterns → campaigns subscribe →
           organizations gain visibility → more organizations join. Stronger than campaigns alone.
         </p>
