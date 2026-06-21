@@ -1,12 +1,19 @@
 {
-  "pass": "30",
-  "generatedAt": "2026-06-21T16:40:40.220Z",
+  "pass": "32",
+  "generatedAt": "2026-06-21T18:14:49.637Z",
   "citiesScanned": 250,
   "rawRecords": 250,
-  "approvedCount": 9,
-  "needsReviewCount": 241,
+  "approvedCount": 107,
+  "needsReviewCount": 257,
+  "candidatePoolSize": 139,
   "verifiedSeedCount": 2,
+  "registryMerged": 31,
   "fairFestivalMerged": 7,
+  "tourismMerged": 98,
+  "discoveredMerged": 0,
+  "traditionsMerged": 1,
+  "targetApproved": 500,
+  "targetMet": false,
   "festivilleStatus": "approved_2026-09-05",
   "roseBudSummerfestStatus": "approved_2026-06-18"
 }

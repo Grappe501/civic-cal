@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-06-21T16:03:51.655Z",
+  "generatedAt": "2026-06-21T18:14:48.123Z",
   "pass": "29",
   "harvest_batch": "fair_festival_harvest_pass29",
   "sourceCount": 31,
-  "fetchedCount": 22,
+  "fetchedCount": 21,
   "datedCount": 7,
   "records": [
     {
@@ -37,7 +37,7 @@
         }
       ],
       "fetch_status": "ok",
-      "fetched_at": "2026-06-21T16:03:29.245Z",
+      "fetched_at": "2026-06-21T18:14:04.917Z",
       "fetch_url": "https://www.arkansasfolklifefestival.org/"
     },
     {
@@ -70,7 +70,7 @@
         }
       ],
       "fetch_status": "ok",
-      "fetched_at": "2026-06-21T16:03:29.972Z",
+      "fetched_at": "2026-06-21T18:14:05.793Z",
       "fetch_url": "https://crawdaddays.net/"
     },
     {
@@ -97,7 +97,7 @@
       "raw_excerpt": "",
       "date_candidates": [],
       "fetch_status": "error:fetch failed",
-      "fetched_at": "2026-06-21T16:03:30.366Z",
+      "fetched_at": "2026-06-21T18:14:06.358Z",
       "fetch_url": "https://www.fultoncountyfair.net/"
     },
     {
@@ -124,7 +124,7 @@
       "raw_excerpt": "Hillberry Music Festival Hillberry 2026 Lineup Announce! &#8211; Railroad Earth Skip to content Search for: NEWS TOUR ABOUT MEDIA MUSIC STORE CONTACT Facebook Instagram YouTube Spotify Hillberry 2026 Lineup Announce! View Larger Image We are thrilled to share the initial lineup for Hillberry 2026! Come join us for 5 nights of music &amp; camping with 3 stages, 40+ bands, food &amp; craft vendors, 100+ workshops for kids &amp; adults, comedy shows, live artists and much more! The event takes place 10/7 – 10/11/26 at The Farm &#8211; Campground &amp; Events &#8211; Eureka Springs , Arkansas. Tic",
       "date_candidates": [],
       "fetch_status": "ok_alternate",
-      "fetched_at": "2026-06-21T16:03:32.457Z",
+      "fetched_at": "2026-06-21T18:14:09.094Z",
       "fetch_url": "https://railroad.earth/news/hillberry-2026-lineup-announce/"
     },
     {
@@ -157,7 +157,7 @@
         }
       ],
       "fetch_status": "ok",
-      "fetched_at": "2026-06-21T16:03:32.899Z",
+      "fetched_at": "2026-06-21T18:14:09.576Z",
       "fetch_url": "https://www.arscottishfest.com/"
     },
     {
@@ -184,7 +184,7 @@
       "raw_excerpt": "",
       "date_candidates": [],
       "fetch_status": "error:fetch failed",
-      "fetched_at": "2026-06-21T16:03:33.281Z",
+      "fetched_at": "2026-06-21T18:14:10.023Z",
       "fetch_url": "https://www.prairiecountyfair.com/"
     },
     {
@@ -211,7 +211,7 @@
       "raw_excerpt": "",
       "date_candidates": [],
       "fetch_status": "error:fetch failed",
-      "fetched_at": "2026-06-21T16:03:33.670Z",
+      "fetched_at": "2026-06-21T18:14:10.440Z",
       "fetch_url": "https://www.pinktomato.org/"
     },
     {
@@ -244,7 +244,7 @@
         }
       ],
       "fetch_status": "ok",
-      "fetched_at": "2026-06-21T16:03:34.117Z",
+      "fetched_at": "2026-06-21T18:14:10.942Z",
       "fetch_url": "https://www.hopewatermelonfest.com/"
     },
     {
@@ -271,7 +271,7 @@
       "raw_excerpt": "",
       "date_candidates": [],
       "fetch_status": "error:fetch failed",
-      "fetched_at": "2026-06-21T16:03:34.510Z",
+      "fetched_at": "2026-06-21T18:14:11.385Z",
       "fetch_url": "https://www.jococopeachfest.com/"
     },
     {
@@ -298,7 +298,7 @@
       "raw_excerpt": "",
       "date_candidates": [],
       "fetch_status": "error:fetch failed",
-      "fetched_at": "2026-06-21T16:03:34.897Z",
+      "fetched_at": "2026-06-21T18:14:11.846Z",
       "fetch_url": "https://www.cavecitywatermelonfest.com/"
     },
     {
@@ -325,7 +325,7 @@
       "raw_excerpt": "",
       "date_candidates": [],
       "fetch_status": "error:fetch failed",
-      "fetched_at": "2026-06-21T16:03:35.273Z",
+      "fetched_at": "2026-06-21T18:14:12.283Z",
       "fetch_url": "https://www.magnoliablossomfest.com/"
     },
     {
@@ -358,7 +358,7 @@
         }
       ],
       "fetch_status": "ok",
-      "fetched_at": "2026-06-21T16:03:35.813Z",
+      "fetched_at": "2026-06-21T18:14:12.946Z",
       "fetch_url": "https://www.toadsuck.org/"
     },
     {
@@ -391,7 +391,7 @@
         }
       ],
       "fetch_status": "ok_alternate",
-      "fetched_at": "2026-06-21T16:03:37.508Z",
+      "fetched_at": "2026-06-21T18:14:14.720Z",
       "fetch_url": "https://kingbiscuitfestival.com/tickets-online/"
     },
     {
@@ -418,7 +418,7 @@
       "raw_excerpt": "",
       "date_candidates": [],
       "fetch_status": "ok",
-      "fetched_at": "2026-06-21T16:03:38.253Z",
+      "fetched_at": "2026-06-21T18:14:15.555Z",
       "fetch_url": "https://www.stuttgartarkansas.org/wings-over-the-prairie"
     },
     {
@@ -445,7 +445,7 @@
       "raw_excerpt": "",
       "date_candidates": [],
       "fetch_status": "ok",
-      "fetched_at": "2026-06-21T16:03:38.753Z",
+      "fetched_at": "2026-06-21T18:14:16.224Z",
       "fetch_url": "https://www.stuttgartarkansas.org/wings-over-the-prairie"
     },
     {
@@ -478,7 +478,7 @@
         }
       ],
       "fetch_status": "ok",
-      "fetched_at": "2026-06-21T16:03:42.605Z",
+      "fetched_at": "2026-06-21T18:14:20.022Z",
       "fetch_url": "https://www.tontitown.com/grape-festival"
     },
     {
@@ -505,7 +505,7 @@
       "raw_excerpt": "",
       "date_candidates": [],
       "fetch_status": "error:fetch failed",
-      "fetched_at": "2026-06-21T16:03:43.010Z",
+      "fetched_at": "2026-06-21T18:14:20.439Z",
       "fetch_url": "https://www.beanfest.org/"
     },
     {
@@ -532,7 +532,7 @@
       "raw_excerpt": "",
       "date_candidates": [],
       "fetch_status": "error:fetch failed",
-      "fetched_at": "2026-06-21T16:03:43.390Z",
+      "fetched_at": "2026-06-21T18:14:20.889Z",
       "fetch_url": "https://www.atkinsarkansas.org/picklefest"
     },
     {
@@ -559,7 +559,7 @@
       "raw_excerpt": "",
       "date_candidates": [],
       "fetch_status": "error:HTTP 404",
-      "fetched_at": "2026-06-21T16:03:44.328Z",
+      "fetched_at": "2026-06-21T18:14:21.795Z",
       "fetch_url": "https://www.hotsprings.org/events/spa-city-food-truck-festival"
     },
     {
@@ -586,7 +586,7 @@
       "raw_excerpt": "skip to main content Search Website Search About Contact Us Events Event Calendar Barton Coliseum Hall of Industry Arkansas State Fair Get Involved Sponsors Pageants & Talent Showdown&nbsp&nbsp&gt The Fairest Day Of All Concessions & Exhibits Livestock Creative Arts Facilities Upcoming Events view full event calendar Big flavors , big rides and even bigger fun! 501-372-8341 Info@ASFG.net 2600 Howard St, Little Rock, AR 72206 Home | Contact | Site Map | Privacy, Terms & Cookies Copyright &copy;2026, Arkansas State Fair. All Rights Reserved. Powered by Back to Top My Account Log Out Log In Searc",
       "date_candidates": [],
       "fetch_status": "ok",
-      "fetched_at": "2026-06-21T16:03:45.080Z",
+      "fetched_at": "2026-06-21T18:14:22.579Z",
       "fetch_url": "https://www.arkansasstatefair.com/"
     },
     {
@@ -613,7 +613,7 @@
       "raw_excerpt": "Benton County Fairgrounds skip to main content Search Website Search Area Weather Hours & Directions Contact Staff Directory Tickets Special Discounts&nbsp&nbsp&gt Any Ticket Works Promotion Entertainment Larry Bell Memorial All Girls Rodeo Rodeo Mainstage Senior Day Food & Drink Open Class Exhibits Carnival Grounds Performers & Activities Funporium - Central Plaza Oak Grove Stage Master Gardener Demo Garden 4-H at the Fair! Get Involved Volunteer For Fair 2026 Become a Vendor Perform on the Community Stage Battle of the Bands Willamette Valley Fiddle Contest Beard, Mustache & Goatee Competiti",
       "date_candidates": [],
       "fetch_status": "ok",
-      "fetched_at": "2026-06-21T16:03:45.827Z",
+      "fetched_at": "2026-06-21T18:14:23.374Z",
       "fetch_url": "https://www.bentoncountyfair.net/"
     },
     {
@@ -640,7 +640,7 @@
       "raw_excerpt": "--> Washington County Fair 2025 | wcfair top of page Washington County Fairgrounds 392 Old Schuylerville Rd&nbsp; Greenwich, NY 12834 518-692-2464 office@washingtoncountyfair.com Menu Close Washington County Fair 2025 ADGA Goat Show Animal Health Check Sheets ADK Wool &amp; Arts Association Updates Capital Campaign Directors and staff Employment Entertainment Schedules Daily FAQ&#x27;s Fair Schedules Daily Fair Scholarship Fairground events General Info Grounds Info Gymkhana Series Jr Committee Livestock Clinics Motorsports Arena Schedule Motorsports participant info Scholarship info Superinte",
       "date_candidates": [],
       "fetch_status": "ok",
-      "fetched_at": "2026-06-21T16:03:46.376Z",
+      "fetched_at": "2026-06-21T18:14:23.989Z",
       "fetch_url": "https://www.washingtoncountyfair.com/"
     },
     {
@@ -667,7 +667,7 @@
       "raw_excerpt": "--> County Fair | Sebastian County Fair | Greenwood top of page Home Donate Crawfish Festival Fair Info Livestock Show Christmas At The Fairgrounds Poultry Show Greenwood Car Show Our Mission FAQ More Use tab to navigate through the menu items. Sebastian County Fair Association Sebastian County Fair Association Sebastian County Fair Association Sebastian County Fair Association The Sebastian County Fair Association is a 501 C 3 nonprofit organization dedicated to educational pursuits in agriculture and the arts. &nbsp; Website Sponsored by the City of Greenwood A&amp;P Commission Vendor Applic",
       "date_candidates": [],
       "fetch_status": "ok",
-      "fetched_at": "2026-06-21T16:03:46.914Z",
+      "fetched_at": "2026-06-21T18:14:24.762Z",
       "fetch_url": "https://www.sebastiancountyfair.com/"
     },
     {
@@ -691,10 +691,10 @@
       "source_confidence": "low",
       "verification_status": "needs_review",
       "source_type": "official_festival_website",
-      "raw_excerpt": "Home Page - RiverFest 2018 - An Arkansas Tradition RiverFest on Facebook RiverFest on Twitter RiverFest on Instagram An Arkansas Tradition RiverFest Arkansas Home Lineup ▼ 2018 Music Lineup RiverFest Stage Schedule 2018 Music Line Up RiverFest Stage Schedule Tickets Sponsors Info ▼ Frequently Asked Questions Festival Day Riverfest Merchandise Fireworks Display Ford Family Fun Zone Press &amp; Media Volunteer Hours &amp; Directions Rules of Conduct Plan your Trip Frequently Asked Questions Festival Day Riverfest Merchandise Fireworks Display Ford Family Fun Zone Press &amp; Media Volunteer Hour",
+      "raw_excerpt": "",
       "date_candidates": [],
-      "fetch_status": "ok",
-      "fetched_at": "2026-06-21T16:03:47.502Z",
+      "fetch_status": "error:This operation was aborted",
+      "fetched_at": "2026-06-21T18:14:43.136Z",
       "fetch_url": "https://www.riverfestarkansas.com/"
     },
     {
@@ -727,7 +727,7 @@
         }
       ],
       "fetch_status": "ok",
-      "fetched_at": "2026-06-21T16:03:48.369Z",
+      "fetched_at": "2026-06-21T18:14:44.119Z",
       "fetch_url": "https://www.bikesbluesandbbq.org/"
     },
     {
@@ -754,7 +754,7 @@
       "raw_excerpt": "",
       "date_candidates": [],
       "fetch_status": "error:HTTP 404",
-      "fetched_at": "2026-06-21T16:03:48.855Z",
+      "fetched_at": "2026-06-21T18:14:44.812Z",
       "fetch_url": "https://www.mountainviewarkansas.com/events"
     },
     {
@@ -780,7 +780,7 @@
       "raw_excerpt": "",
       "date_candidates": [],
       "fetch_status": "error:fetch failed",
-      "fetched_at": "2026-06-21T16:03:49.244Z",
+      "fetched_at": "2026-06-21T18:14:45.238Z",
       "fetch_url": "https://www.arkansassouth.com/events/festivals/",
       "notes": "Aggregator page — individual events require linked official confirmation."
     },
@@ -847,7 +847,7 @@
         }
       ],
       "fetch_status": "ok",
-      "fetched_at": "2026-06-21T16:03:49.712Z",
+      "fetched_at": "2026-06-21T18:14:46.085Z",
       "fetch_url": "https://www.arkansasheritage.com/",
       "notes": "Aggregator page — individual events require linked official confirmation."
     },
@@ -875,7 +875,7 @@
       "raw_excerpt": "",
       "date_candidates": [],
       "fetch_status": "ok",
-      "fetched_at": "2026-06-21T16:03:50.234Z",
+      "fetched_at": "2026-06-21T18:14:46.674Z",
       "fetch_url": "https://www.salinecountyfair.com/"
     },
     {
@@ -902,7 +902,7 @@
       "raw_excerpt": "",
       "date_candidates": [],
       "fetch_status": "ok",
-      "fetched_at": "2026-06-21T16:03:50.784Z",
+      "fetched_at": "2026-06-21T18:14:47.284Z",
       "fetch_url": "https://www.cleburnecountyfair.com/"
     },
     {
@@ -929,7 +929,7 @@
       "raw_excerpt": "Links to more information about Texarkana events. 2026/06/21 &nbsp; TexarkanaUSA.com Texarkana's information web site &nbsp; Home Site Information Help Blog Internet Mall Where to Eat What to Do Where to Stay Schools Hospitals Real Estate Local Events Churches Comm. Svc. Links Search Site Site Comments Events comming soon. Texarkana U.S.A. Home Page Copyright 1998 - 2025 Dennis Walker All rights reserved.",
       "date_candidates": [],
       "fetch_status": "ok",
-      "fetched_at": "2026-06-21T16:03:51.303Z",
+      "fetched_at": "2026-06-21T18:14:47.770Z",
       "fetch_url": "https://www.texarkanausa.com/events/"
     }
   ]

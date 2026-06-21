@@ -83,7 +83,35 @@ for (const bundle of ["data/seed-events.json", "data/seed-events-public-demo.jso
   }
 }
 
-// Cities & counties
+// Approved ingestion bundles → event pages
+for (const bundle of [
+  "data/ingestion/political-party-meetings-approved-events.json",
+  "data/ingestion/school-events-approved-events.json",
+  "data/ingestion/fair-festival-approved-events.json",
+  "data/ingestion/county-fair-approved-events.json",
+  "data/ingestion/top250-city-festival-approved-events.json",
+  "data/ingestion/historic-political-events-approved-events.json",
+]) {
+  try {
+    const { events = [] } = readJson(bundle);
+    for (const e of events) {
+      if (e.slug) add(`/event/${e.slug}`);
+    }
+  } catch {
+    /* optional bundle */
+  }
+}
+
+// Pass 32 festival / city narrative profiles
+try {
+  const { narratives = [] } = readJson("data/narratives/community-narratives.json");
+  for (const n of narratives) {
+    if (n.entityType === "festival" && n.slug) add(`/festival/${n.slug}`);
+  }
+} catch {
+  /* skip */
+}
+
 try {
   const { cities = [] } = readJson("data/local-intelligence/top-city-dossiers.json");
   for (const c of cities) {

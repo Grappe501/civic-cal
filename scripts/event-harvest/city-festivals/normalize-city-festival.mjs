@@ -1,24 +1,12 @@
 /**
- * Pass 30 — Normalize city festival harvest records to calendar events.
+ * Pass 32 — Normalize city festival harvest records to calendar events.
  */
 import { enrichCandidate } from "../lib/layer-inference.mjs";
+import { buildCitySearchQueries } from "./festival-identity-patterns.mjs";
 
-export const HARVEST_BATCH = "top250_city_festival_pass30";
+export const HARVEST_BATCH = "top250_city_festival_pass32";
 
-export const FESTIVAL_SEARCH_PATTERNS = [
-  (city) => `${city} Arkansas festival 2026`,
-  (city) => `${city} AR summer festival`,
-  (city) => `${city} Arkansas food truck festival`,
-  (city) => `${city} Arkansas music festival`,
-  (city) => `${city} Arkansas parade 2026`,
-  (city) => `${city} Arkansas fall festival`,
-  (city) => `${city} Arkansas spring festival`,
-  (city) => `${city} Arkansas Christmas parade`,
-  (city) => `${city} Arkansas farmers market`,
-  (city) => `${city} Arkansas parks recreation events`,
-  (city) => `${city} Arkansas city calendar`,
-  (city) => `${city} Arkansas chamber events`,
-];
+export { buildCitySearchQueries };
 
 export function slugify(text) {
   return String(text)
@@ -26,10 +14,6 @@ export function slugify(text) {
     .replace(/[^a-z0-9]+/g, "-")
     .replace(/^-|-$/g, "")
     .slice(0, 80);
-}
-
-export function buildCitySearchQueries(city) {
-  return FESTIVAL_SEARCH_PATTERNS.map((fn) => fn(city));
 }
 
 export function normalizeCityFestivalCandidate(raw) {
@@ -59,11 +43,13 @@ export function normalizeCityFestivalCandidate(raw) {
     source_url: raw.source_url,
     official_url: raw.official_url || raw.source_url,
     source_type: raw.source_type || "city_official",
-    discovered_by: "top250_city_festival_harvest",
+    source_confidence: raw.source_confidence ?? (hasDate ? "medium" : "low"),
+    discovered_by: raw.discovered_by || "top250_city_festival_harvest",
     review_status: hasDate && raw.source_url ? "auto_approved" : "needs_review",
     is_recurring_annual: Boolean(raw.is_recurring_annual),
     harvest_batch: HARVEST_BATCH,
-    verification_status: hasDate && raw.source_url ? "verified_dated" : "needs_review",
+    verification_status:
+      raw.verification_status ?? (hasDate && raw.source_url ? "verified_dated" : "needs_review"),
     start_time: raw.start_time ?? null,
     end_time: raw.end_time ?? null,
   });
@@ -130,6 +116,8 @@ export function isAutoPublishable(c) {
       c.city &&
       c.county &&
       c.source_url &&
-      c.verification_status === "verified_dated",
+      (c.verification_status === "verified_dated" ||
+        (c.source_confidence === "medium" && c.source_type === "web_search_discovery") ||
+        (c.source_confidence === "high" && c.source_type === "arkansas_tourism")),
   );
 }

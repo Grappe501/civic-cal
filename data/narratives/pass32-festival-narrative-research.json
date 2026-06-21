@@ -1,0 +1,119 @@
+{
+  "pass": "32",
+  "generatedAt": "2026-06-21T18:15:43.043Z",
+  "addedCount": 329,
+  "queue": [
+    {
+      "slug": "pink-tomato-festival",
+      "title": "Bradley County Pink Tomato Festival",
+      "county": "Bradley",
+      "reason": "missing_verified_dates",
+      "pass": "32"
+    },
+    {
+      "slug": "johnson-county-peach-festival",
+      "title": "Johnson County Peach Festival",
+      "county": "Johnson",
+      "reason": "missing_verified_dates",
+      "pass": "32"
+    },
+    {
+      "slug": "cave-city-watermelon-festival",
+      "title": "Cave City Watermelon Festival",
+      "county": "Sharp",
+      "reason": "missing_verified_dates",
+      "pass": "32"
+    },
+    {
+      "slug": "magnolia-blossom-festival",
+      "title": "Magnolia Blossom Festival & Steak Cook-off",
+      "county": "Columbia",
+      "reason": "missing_verified_dates",
+      "pass": "32"
+    },
+    {
+      "slug": "wings-over-the-prairie",
+      "title": "Wings Over the Prairie Festival",
+      "county": "Arkansas",
+      "reason": "missing_verified_dates",
+      "pass": "32"
+    },
+    {
+      "slug": "tontitown-grape-festival",
+      "title": "Tontitown Grape Festival",
+      "county": "Washington",
+      "reason": "missing_verified_dates",
+      "pass": "32"
+    },
+    {
+      "slug": "beanfest",
+      "title": "BeanFest",
+      "county": "Stone",
+      "reason": "missing_verified_dates",
+      "pass": "32"
+    },
+    {
+      "slug": "picklefest",
+      "title": "PickleFest",
+      "county": "Pope",
+      "reason": "missing_verified_dates",
+      "pass": "32"
+    },
+    {
+      "slug": "spa-city-food-truck-festival",
+      "title": "Spa City Food Truck Festival",
+      "county": "Garland",
+      "reason": "missing_verified_dates",
+      "pass": "32"
+    },
+    {
+      "slug": "arkansas-state-fair",
+      "title": "Arkansas State Fair",
+      "county": "Pulaski",
+      "reason": "missing_verified_dates",
+      "pass": "32"
+    },
+    {
+      "slug": "riverfest",
+      "title": "Riverfest",
+      "county": "Pulaski",
+      "reason": "missing_verified_dates",
+      "pass": "32"
+    },
+    {
+      "slug": "bikes-blues-bbq",
+      "title": "Bikes, Blues & BBQ",
+      "county": "Washington",
+      "reason": "missing_verified_dates",
+      "pass": "32"
+    },
+    {
+      "slug": "mountain-view-bean-festival",
+      "title": "Mountain View Folk Festival",
+      "county": "Stone",
+      "reason": "missing_verified_dates",
+      "pass": "32"
+    },
+    {
+      "slug": "arkansas-south-tourism-festivals",
+      "title": "Arkansas South Tourism — Festivals",
+      "county": null,
+      "reason": "missing_verified_dates",
+      "pass": "32"
+    },
+    {
+      "slug": "arkansas-heritage-month",
+      "title": "Arkansas Heritage Month Events",
+      "county": "Pulaski",
+      "reason": "missing_verified_dates",
+      "pass": "32"
+    },
+    {
+      "slug": "texarkana-pepper-fest",
+      "title": "Texarkana Pepper Fest",
+      "county": "Miller",
+      "reason": "missing_verified_dates",
+      "pass": "32"
+    }
+  ]
+}

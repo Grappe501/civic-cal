@@ -31,6 +31,8 @@ function loadBundledEvents() {
     "ingestion/school-events-approved-events.json",
     "ingestion/fair-festival-approved-events.json",
     "ingestion/county-fair-approved-events.json",
+    "ingestion/top250-city-festival-approved-events.json",
+    "ingestion/historic-political-events-approved-events.json",
   ]) {
     for (const e of readEvents(file)) {
       if (e?.slug && !bySlug.has(e.slug)) bySlug.set(e.slug, e);

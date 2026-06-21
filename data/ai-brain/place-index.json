@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T17:43:28.803Z",
+  "generatedAt": "2026-06-21T18:15:44.375Z",
   "countyCount": 75,
   "thinCounties": [
     "Bradley",
@@ -58,7 +58,7 @@
     },
     {
       "county": "Carroll",
-      "eventCount": 40,
+      "eventCount": 86,
       "cityCount": 2,
       "thin": false
     },
@@ -100,8 +100,8 @@
     },
     {
       "county": "Conway",
-      "eventCount": 40,
-      "cityCount": 1,
+      "eventCount": 41,
+      "cityCount": 2,
       "thin": false
     },
     {
@@ -166,7 +166,7 @@
     },
     {
       "county": "Garland",
-      "eventCount": 46,
+      "eventCount": 47,
       "cityCount": 2,
       "thin": false
     },
@@ -202,7 +202,7 @@
     },
     {
       "county": "Independence",
-      "eventCount": 42,
+      "eventCount": 43,
       "cityCount": 1,
       "thin": false
     },
@@ -286,7 +286,7 @@
     },
     {
       "county": "Miller",
-      "eventCount": 37,
+      "eventCount": 38,
       "cityCount": 1,
       "thin": false
     },
@@ -310,13 +310,13 @@
     },
     {
       "county": "Nevada",
-      "eventCount": 38,
-      "cityCount": 1,
+      "eventCount": 39,
+      "cityCount": 2,
       "thin": false
     },
     {
       "county": "Newton",
-      "eventCount": 5,
+      "eventCount": 6,
       "cityCount": 2,
       "thin": false
     },
@@ -370,7 +370,7 @@
     },
     {
       "county": "Pulaski",
-      "eventCount": 63,
+      "eventCount": 103,
       "cityCount": 5,
       "thin": false
     },
@@ -430,7 +430,7 @@
     },
     {
       "county": "Union",
-      "eventCount": 22,
+      "eventCount": 24,
       "cityCount": 2,
       "thin": false
     },
@@ -448,7 +448,7 @@
     },
     {
       "county": "White",
-      "eventCount": 31,
+      "eventCount": 32,
       "cityCount": 3,
       "thin": false
     },
@@ -460,7 +460,7 @@
     },
     {
       "county": "Yell",
-      "eventCount": 23,
+      "eventCount": 24,
       "cityCount": 3,
       "thin": false
     }
@@ -472,6 +472,16 @@
       "eventCount": 95
     },
     {
+      "city": "Eureka Springs",
+      "county": "Carroll",
+      "eventCount": 66
+    },
+    {
+      "city": "Little Rock",
+      "county": "Pulaski",
+      "eventCount": 55
+    },
+    {
       "city": "Jonesboro",
       "county": "Craighead",
       "eventCount": 27
@@ -479,11 +489,6 @@
     {
       "city": "Springdale",
       "county": "Washington",
-      "eventCount": 20
-    },
-    {
-      "city": "Eureka Springs",
-      "county": "Carroll",
       "eventCount": 20
     },
     {
@@ -502,14 +507,9 @@
       "eventCount": 19
     },
     {
-      "city": "Little Rock",
-      "county": "Pulaski",
-      "eventCount": 18
-    },
-    {
       "city": "Texarkana",
       "county": "Miller",
-      "eventCount": 18
+      "eventCount": 19
     },
     {
       "city": "Bella Vista",
@@ -522,6 +522,11 @@
       "eventCount": 9
     },
     {
+      "city": "Hot Springs",
+      "county": "Garland",
+      "eventCount": 8
+    },
+    {
       "city": "Bentonville",
       "county": "Benton",
       "eventCount": 7
@@ -529,11 +534,6 @@
     {
       "city": "Fort Smith",
       "county": "Sebastian",
-      "eventCount": 7
-    },
-    {
-      "city": "Hot Springs",
-      "county": "Garland",
       "eventCount": 7
     },
     {
@@ -545,6 +545,11 @@
       "city": "Siloam Springs",
       "county": "Benton",
       "eventCount": 6
+    },
+    {
+      "city": "North Little Rock",
+      "county": "Pulaski",
+      "eventCount": 5
     },
     {
       "city": "Arkansas",
@@ -562,18 +567,28 @@
       "eventCount": 5
     },
     {
+      "city": "Rose Bud",
+      "county": "White",
+      "eventCount": 4
+    },
+    {
+      "city": "El Dorado",
+      "county": "Union",
+      "eventCount": 4
+    },
+    {
+      "city": "Batesville",
+      "county": "Independence",
+      "eventCount": 4
+    },
+    {
       "city": "Morrilton",
       "county": "Conway",
       "eventCount": 3
     },
     {
-      "city": "Rose Bud",
-      "county": "White",
-      "eventCount": 3
-    },
-    {
-      "city": "North Little Rock",
-      "county": "Pulaski",
+      "city": "Jasper",
+      "county": "Newton",
       "eventCount": 3
     },
     {
@@ -592,11 +607,6 @@
       "eventCount": 3
     },
     {
-      "city": "Batesville",
-      "county": "Independence",
-      "eventCount": 3
-    },
-    {
       "city": "Greenwood",
       "county": "Sebastian",
       "eventCount": 2
@@ -604,11 +614,6 @@
     {
       "city": "Mountain Home",
       "county": "Baxter",
-      "eventCount": 2
-    },
-    {
-      "city": "Jasper",
-      "county": "Newton",
       "eventCount": 2
     },
     {
@@ -629,11 +634,6 @@
     {
       "city": "Paragould",
       "county": "Greene",
-      "eventCount": 2
-    },
-    {
-      "city": "El Dorado",
-      "county": "Union",
       "eventCount": 2
     },
     {
@@ -667,6 +667,11 @@
       "eventCount": 2
     },
     {
+      "city": "Dardanelle",
+      "county": "Yell",
+      "eventCount": 2
+    },
+    {
       "city": "Ashley",
       "county": "Ashley",
       "eventCount": 2
@@ -679,6 +684,11 @@
     {
       "city": "Russellville",
       "county": "Pope",
+      "eventCount": 2
+    },
+    {
+      "city": "Jacksonville",
+      "county": "Pulaski",
       "eventCount": 2
     },
     {
@@ -782,11 +792,6 @@
       "eventCount": 1
     },
     {
-      "city": "Dardanelle",
-      "county": "Yell",
-      "eventCount": 1
-    },
-    {
       "city": "Lafayette",
       "county": "Lafayette",
       "eventCount": 1
@@ -829,11 +834,6 @@
     {
       "city": "White",
       "county": "White",
-      "eventCount": 1
-    },
-    {
-      "city": "Jacksonville",
-      "county": "Pulaski",
       "eventCount": 1
     },
     {
@@ -889,6 +889,51 @@
     {
       "city": "Berryville",
       "county": "Carroll",
+      "eventCount": 1
+    },
+    {
+      "city": "Center Ridge",
+      "county": "Conway",
+      "eventCount": 1
+    },
+    {
+      "city": "N West Ave. Fayetteville",
+      "county": "Unknown",
+      "eventCount": 1
+    },
+    {
+      "city": "St. Little Rock",
+      "county": "Unknown",
+      "eventCount": 1
+    },
+    {
+      "city": "Tyronza",
+      "county": "Unknown",
+      "eventCount": 1
+    },
+    {
+      "city": "W. Johnson Ave. Springdale",
+      "county": "Unknown",
+      "eventCount": 1
+    },
+    {
+      "city": "S Mockingbird Ln Hope",
+      "county": "Unknown",
+      "eventCount": 1
+    },
+    {
+      "city": "Adkisson Rd. Mount Vernon",
+      "county": "Unknown",
+      "eventCount": 1
+    },
+    {
+      "city": "Canehill",
+      "county": "Unknown",
+      "eventCount": 1
+    },
+    {
+      "city": "Prescott",
+      "county": "Nevada",
       "eventCount": 1
     }
   ]
