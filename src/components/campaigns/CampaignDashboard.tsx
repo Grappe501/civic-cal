@@ -6,6 +6,7 @@ import { fetchEvents } from "../../lib/api";
 import { applyDistrictScope, isBoundaryPending, boundaryStatusNote } from "../../lib/campaigns/districtScope";
 import type { ClassifiedCampaignEvent } from "../../lib/campaigns/districtScope";
 import { analyzeCalendarGaps } from "../../lib/campaigns/calendarGapAnalyzer";
+import { buildDeterministicDossier, dossierMiniSummary } from "../../lib/ai/eventDossierBuilder";
 import { traditionStrengthEstimate, verificationLabel } from "../../lib/campaigns/eventIntel";
 import { buildPlan, loadPlansForCampaign, savePlanForCampaign } from "../../lib/campaigns/planStore";
 import { notifyPresenceUpdate } from "../../lib/campaigns/presenceLayer";
@@ -69,6 +70,7 @@ function EventIntelCard({
   const tradition = traditionStrengthEstimate(event);
   const verification = verificationLabel(event);
   const plan = plans[event.id];
+  const dossierMini = dossierMiniSummary(buildDeterministicDossier({ event }).dossier);
 
   return (
     <div className="card border-l-4" style={{ borderLeftColor: "var(--campaign-accent)" }}>
@@ -99,7 +101,15 @@ function EventIntelCard({
           <span className="chip bg-ark-wheat text-ark-pine">Usefulness: {candidateUsefulness}</span>
           {tradition != null && <span className="chip bg-ark-wheat text-ark-pine">Tradition ~{tradition}</span>}
           <span className="chip bg-ark-wheat text-ark-pine capitalize">{verification.replace("_", " ")}</span>
+          {dossierMini.crowdRange && <span className="chip chip-muted">Crowd ~{dossierMini.crowdRange}</span>}
+          {dossierMini.format && <span className="chip chip-muted capitalize">{dossierMini.format.replace(/_/g, " ")}</span>}
+          {dossierMini.parking && <span className="chip chip-muted">Parking ✓</span>}
+          {dossierMini.accessibility && <span className="chip chip-muted">Access ✓</span>}
         </div>
+      )}
+
+      {!compact && dossierMini.guidance && (
+        <p className="text-[10px] text-muted mt-2 line-clamp-2">{dossierMini.guidance}</p>
       )}
 
       <div className="mt-3 flex flex-wrap gap-1">
@@ -122,9 +132,9 @@ function EventIntelCard({
         <Link
           to={`/event/${event.slug}`}
           className="chip text-[10px] bg-ark-sage/20 text-ark-pine inline-flex items-center gap-1"
-          title="Request local feedback on event page"
+          title="View intelligence dossier"
         >
-          <MessageSquarePlus className="h-3 w-3" /> Local intel
+          <MessageSquarePlus className="h-3 w-3" /> Intel dossier
         </Link>
       </div>
       <CampaignPresenceControls

@@ -14,6 +14,7 @@ export interface EventFeedbackPayload {
   isGoodForCandidates?: boolean;
   whyItMatters?: string;
   correctionNotes?: string;
+  dossierIntel?: Record<string, string>;
 }
 
 export async function submitEventFeedback(payload: EventFeedbackPayload): Promise<{ ok: boolean; message: string }> {

@@ -190,6 +190,41 @@ Apply migration:
 psql $DATABASE_URL -f supabase/migrations/009_candidate_presence_ai_search.sql
 ```
 
+## Event Intelligence Dossiers (Pass 10)
+
+Every `/event/:slug` page is a **field briefing**: logistics, candidate opportunity, sources, presence, and open research questions.
+
+### Dossier fields
+
+Host, contacts, sources, cost, crowd range, parking, accessibility, indoor/outdoor, food, family-friendly, history/tradition, candidate & volunteer guidance, local customs, arrival advice, event format, confirmed facts vs likely inferences, unanswered questions.
+
+### Source policy (legal public research only)
+
+Allowed: official event sites, city/county calendars, church/parish pages, **public** Facebook pages, chamber/tourism, school pages, newspapers, Eventbrite/public tickets, library calendars, fair/festival official sites.
+
+**Not allowed:** private groups, login scraping, paywall bypass, platform protection circumvention.
+
+### AI research policy
+
+- `POST /.netlify/functions/event-dossier-research` — admin only
+- **OPENAI_API_KEY:** structured dossier + research tasks from event data + community feedback
+- **Never invents facts** — separates confirmed, inferred, and unanswered
+- Without OpenAI: deterministic blank dossier + standard research checklist
+
+### Admin review
+
+`/admin` → **Event Dossiers** tab: missing, needs research, low confidence, run AI research, mark verified.
+
+### Local feedback
+
+Expanded form on event detail — accessibility, parking, cost, vendors, crowd, format, host, candidate tips. Goes to `event_feedback` review queue, not direct publish.
+
+### Migration
+
+```bash
+psql $DATABASE_URL -f supabase/migrations/010_event_intelligence_dossiers.sql
+```
+
 - **Data:** `data/campaigns/initial-campaign-workspaces.json` + migration `006_named_campaign_workspaces.sql`
 - **API:** `/.netlify/functions/campaign-workspaces` (seed JSON fallback)
 - **Plans:** localStorage per slug until auth/DB sync

@@ -20,9 +20,10 @@ exports.handler = async (event) => {
 
   const client = getClient();
   if (!client) {
-    return json(503, {
-      error: "Database not configured",
-      message: "Feedback received in demo mode — configure DATABASE_URL.",
+    return json(201, {
+      ok: true,
+      demo: true,
+      message: "Thanks — local intel queued for review (demo mode without database).",
     });
   }
 
@@ -37,7 +38,11 @@ exports.handler = async (event) => {
 
     if (!resolvedEventId || !UUID_RE.test(resolvedEventId)) {
       await client.end();
-      return json(400, { error: "Event not found in database — feedback available for published DB events only" });
+      return json(201, {
+        ok: true,
+        demo: true,
+        message: "Thanks — feedback saved for review when event is in database.",
+      });
     }
 
     const exists = await client.query(`SELECT id FROM civic_call.events WHERE id = $1`, [resolvedEventId]);

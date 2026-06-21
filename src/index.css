@@ -60,4 +60,28 @@
   .page-header {
     @apply font-display text-3xl md:text-4xl font-bold text-ark-pine tracking-tight;
   }
+  .dossier-hero {
+    @apply rounded-2xl border border-ark-pine/10 bg-white p-6 md:p-8 shadow-lg;
+  }
+  .dossier-quick-facts {
+    @apply rounded-2xl border border-ark-pine/10 bg-ark-wheat/40 p-4 md:p-5;
+  }
+  .dossier-fact {
+    @apply space-y-0.5;
+  }
+  .dossier-fact-label {
+    @apply text-[10px] font-bold uppercase tracking-wider text-ark-sage;
+  }
+  .dossier-fact-value {
+    @apply text-sm font-medium text-ark-pine;
+  }
+  .dossier-fact-unknown {
+    @apply text-sm italic text-ark-pine/50;
+  }
+  .dossier-section-title {
+    @apply font-display text-lg font-semibold text-ark-pine flex items-center gap-2;
+  }
+  .dossier-section {
+    @apply scroll-mt-24;
+  }
 }
