@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from "react";
-import { fetchIngestionCandidates, candidateAdminAction } from "../../lib/api-ingestion";
+import { fetchIngestionCandidates, candidateAdminAction, approveRecurringSeriesAction } from "../../lib/api-ingestion";
 import type { IngestionCandidate, IntelligenceSection } from "../../lib/intelligence/types";
 import { LayerBadge, DensityBadge } from "../intelligence/LayerBadge";
 import { CandidateAiPanel } from "./CandidateAiPanel";
@@ -51,6 +51,7 @@ export function AdminIntelligencePanel({ token }: Props) {
   const [extraFilter, setExtraFilter] = useState<ExtraFilter>("all");
   const [selected, setSelected] = useState<Set<string>>(new Set());
   const [batchBusy, setBatchBusy] = useState(false);
+  const [seriesBusy, setSeriesBusy] = useState<string | null>(null);
 
   async function load(s: IntelligenceSection = section) {
     setLoading(true);
@@ -142,6 +143,29 @@ export function AdminIntelligencePanel({ token }: Props) {
     });
   }
 
+  const seriesGroups = useMemo(() => {
+    const map = new Map<string, IngestionCandidate[]>();
+    for (const c of filtered) {
+      if (c.category !== "public_party_meeting" || !c.seriesKey) continue;
+      const list = map.get(c.seriesKey) ?? [];
+      list.push(c);
+      map.set(c.seriesKey, list);
+    }
+    return [...map.entries()]
+      .filter(([, list]) => list.length > 1 && list.some((c) => c.isRecurringSeries))
+      .sort((a, b) => b[1].length - a[1].length);
+  }, [filtered]);
+
+  async function approveSeries(seriesKey: string) {
+    setSeriesBusy(seriesKey);
+    try {
+      await approveRecurringSeriesAction(token, seriesKey);
+      await load(section);
+    } finally {
+      setSeriesBusy(null);
+    }
+  }
+
   async function batchAction(action: "approve_to_events" | "reject" | "mark_duplicate") {
     if (!selected.size) return;
     setBatchBusy(true);
@@ -218,6 +242,29 @@ export function AdminIntelligencePanel({ token }: Props) {
         </div>
         <p className="text-xs text-muted-soft">{filtered.length} of {candidates.length} candidates shown</p>
       </div>
+
+      {seriesGroups.length > 0 && extraFilter.startsWith("party") && (
+        <div className="card mb-4 bg-ark-pine/5 border border-ark-sage">
+          <p className="text-sm font-semibold text-ark-pine mb-2">Verified recurring series — approve all occurrences at once</p>
+          <ul className="space-y-2 text-sm">
+            {seriesGroups.slice(0, 12).map(([key, list]) => (
+              <li key={key} className="flex flex-wrap items-center justify-between gap-2 border-b border-ark-sage/20 pb-2">
+                <span>
+                  {list[0]?.title?.replace(/ Meeting.*/, " Meeting")} · {list.length} occurrences · {list[0]?.partyLabel}
+                </span>
+                <button
+                  type="button"
+                  className="btn-primary text-xs py-1.5"
+                  disabled={!!seriesBusy}
+                  onClick={() => approveSeries(key)}
+                >
+                  {seriesBusy === key ? "Approving…" : "Approve entire series"}
+                </button>
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
 
       {selected.size > 0 && (
         <div className="card mb-4 flex flex-wrap gap-2 items-center bg-ark-wheat/60">

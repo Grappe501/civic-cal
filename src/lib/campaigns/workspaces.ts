@@ -1,4 +1,5 @@
 import seedBundle from "../../../data/campaigns/initial-campaign-workspaces.json";
+import discoveredBundle from "../../../data/campaigns/discovered-campaign-workspaces.json";
 import type { CampaignColorTokens } from "./brandingProfile";
 import type { CampaignWorkspace, DashboardTheme, DistrictScope } from "./types";
 
@@ -68,8 +69,14 @@ function mapWorkspace(raw: RawWorkspace): CampaignWorkspace {
 }
 
 function localWorkspaces(): CampaignWorkspace[] {
-  const bundle = seedBundle as { workspaces?: RawWorkspace[] };
-  return (bundle.workspaces ?? []).map(mapWorkspace).filter((w) => w.isActive);
+  const initial = (seedBundle as { workspaces?: RawWorkspace[] }).workspaces ?? [];
+  const discovered = (discoveredBundle as { workspaces?: RawWorkspace[] }).workspaces ?? [];
+  const bySlug = new Map<string, RawWorkspace>();
+  for (const w of initial) bySlug.set(w.slug, w);
+  for (const w of discovered) {
+    if (!bySlug.has(w.slug)) bySlug.set(w.slug, w);
+  }
+  return [...bySlug.values()].map(mapWorkspace).filter((w) => w.isActive);
 }
 
 export function getWorkspaceBySlug(slug: string): CampaignWorkspace | null {

@@ -132,6 +132,12 @@ export function AdminPage() {
         <Link to="/admin/autogrow" className="chip chip-muted text-xs">
           Autogrow →
         </Link>
+        <Link to="/admin/political-infrastructure" className="chip chip-muted text-xs">
+          Political infrastructure →
+        </Link>
+        <Link to="/admin/candidates" className="chip chip-muted text-xs">
+          Candidates →
+        </Link>
       </div>
 
       {tab === "map" && (

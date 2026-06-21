@@ -1,0 +1,5406 @@
+{
+  "generatedAt": "2026-06-21T07:06:54.816Z",
+  "pass": "25",
+  "counties": [
+    {
+      "county": "Arkansas",
+      "countySlug": "arkansas",
+      "entities": [
+        {
+          "key": "democratic_committee",
+          "label": "Democratic committee",
+          "found": true,
+          "status": "page_discovered",
+          "confidence": 20,
+          "sourceUrl": "https://www.arkdems.org/county/arkansas/",
+          "meetingSchedule": null,
+          "organizationSlug": "arkansas-county-democrats"
+        },
+        {
+          "key": "republican_committee",
+          "label": "Republican committee",
+          "found": true,
+          "status": "meeting_schedule_public",
+          "confidence": 70,
+          "sourceUrl": "https://www.arkansasgop.org/countygop.html",
+          "meetingSchedule": "4th Thursday",
+          "organizationSlug": "arkansas-county-republicans"
+        },
+        {
+          "key": "libertarian_affiliate",
+          "label": "Libertarian affiliate",
+          "found": false,
+          "status": "not_found",
+          "confidence": 0,
+          "sourceUrl": "https://www.lpar.org/events/",
+          "meetingSchedule": null,
+          "organizationSlug": "arkansas-county-libertarians"
+        },
+        {
+          "key": "school_board",
+          "label": "School board",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "quorum_court",
+          "label": "Quorum court",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "election_commission",
+          "label": "Election commission",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "city_council",
+          "label": "City council",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        }
+      ],
+      "politicalInfrastructureFound": 2,
+      "politicalInfrastructureTotal": 3,
+      "coveragePercent": 67,
+      "fullInfrastructureNote": "School board, quorum court, election commission, city council — Pass 26+"
+    },
+    {
+      "county": "Ashley",
+      "countySlug": "ashley",
+      "entities": [
+        {
+          "key": "democratic_committee",
+          "label": "Democratic committee",
+          "found": true,
+          "status": "page_discovered",
+          "confidence": 20,
+          "sourceUrl": "https://www.arkdems.org/county/ashley/",
+          "meetingSchedule": null,
+          "organizationSlug": "ashley-county-democrats"
+        },
+        {
+          "key": "republican_committee",
+          "label": "Republican committee",
+          "found": true,
+          "status": "meeting_schedule_public",
+          "confidence": 70,
+          "sourceUrl": "https://www.arkansasgop.org/countygop.html",
+          "meetingSchedule": "AWAITING COMMITTEE",
+          "organizationSlug": "ashley-county-republicans"
+        },
+        {
+          "key": "libertarian_affiliate",
+          "label": "Libertarian affiliate",
+          "found": false,
+          "status": "not_found",
+          "confidence": 0,
+          "sourceUrl": "https://www.lpar.org/events/",
+          "meetingSchedule": null,
+          "organizationSlug": "ashley-county-libertarians"
+        },
+        {
+          "key": "school_board",
+          "label": "School board",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "quorum_court",
+          "label": "Quorum court",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "election_commission",
+          "label": "Election commission",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "city_council",
+          "label": "City council",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        }
+      ],
+      "politicalInfrastructureFound": 2,
+      "politicalInfrastructureTotal": 3,
+      "coveragePercent": 67,
+      "fullInfrastructureNote": "School board, quorum court, election commission, city council — Pass 26+"
+    },
+    {
+      "county": "Baxter",
+      "countySlug": "baxter",
+      "entities": [
+        {
+          "key": "democratic_committee",
+          "label": "Democratic committee",
+          "found": true,
+          "status": "page_discovered",
+          "confidence": 20,
+          "sourceUrl": "https://www.arkdems.org/county/baxter/",
+          "meetingSchedule": null,
+          "organizationSlug": "baxter-county-democrats"
+        },
+        {
+          "key": "republican_committee",
+          "label": "Republican committee",
+          "found": true,
+          "status": "partial",
+          "confidence": 25,
+          "sourceUrl": "https://www.arkansasgop.org/countygop.html",
+          "meetingSchedule": "Awaiting committee confirmation",
+          "organizationSlug": "baxter-county-republicans"
+        },
+        {
+          "key": "libertarian_affiliate",
+          "label": "Libertarian affiliate",
+          "found": false,
+          "status": "not_found",
+          "confidence": 0,
+          "sourceUrl": "https://www.lpar.org/events/",
+          "meetingSchedule": null,
+          "organizationSlug": "baxter-county-libertarians"
+        },
+        {
+          "key": "school_board",
+          "label": "School board",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "quorum_court",
+          "label": "Quorum court",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "election_commission",
+          "label": "Election commission",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "city_council",
+          "label": "City council",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        }
+      ],
+      "politicalInfrastructureFound": 2,
+      "politicalInfrastructureTotal": 3,
+      "coveragePercent": 67,
+      "fullInfrastructureNote": "School board, quorum court, election commission, city council — Pass 26+"
+    },
+    {
+      "county": "Benton",
+      "countySlug": "benton",
+      "entities": [
+        {
+          "key": "democratic_committee",
+          "label": "Democratic committee",
+          "found": true,
+          "status": "page_discovered",
+          "confidence": 20,
+          "sourceUrl": "https://www.arkdems.org/county/benton/",
+          "meetingSchedule": null,
+          "organizationSlug": "benton-county-democrats"
+        },
+        {
+          "key": "republican_committee",
+          "label": "Republican committee",
+          "found": true,
+          "status": "meeting_schedule_public",
+          "confidence": 70,
+          "sourceUrl": "https://www.arkansasgop.org/countygop.html",
+          "meetingSchedule": "2nd Thursday",
+          "organizationSlug": "benton-county-republicans"
+        },
+        {
+          "key": "libertarian_affiliate",
+          "label": "Libertarian affiliate",
+          "found": false,
+          "status": "not_found",
+          "confidence": 0,
+          "sourceUrl": "https://www.lpar.org/events/",
+          "meetingSchedule": null,
+          "organizationSlug": "benton-county-libertarians"
+        },
+        {
+          "key": "school_board",
+          "label": "School board",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "quorum_court",
+          "label": "Quorum court",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "election_commission",
+          "label": "Election commission",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "city_council",
+          "label": "City council",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        }
+      ],
+      "politicalInfrastructureFound": 2,
+      "politicalInfrastructureTotal": 3,
+      "coveragePercent": 67,
+      "fullInfrastructureNote": "School board, quorum court, election commission, city council — Pass 26+"
+    },
+    {
+      "county": "Boone",
+      "countySlug": "boone",
+      "entities": [
+        {
+          "key": "democratic_committee",
+          "label": "Democratic committee",
+          "found": true,
+          "status": "page_discovered",
+          "confidence": 20,
+          "sourceUrl": "https://www.arkdems.org/county/boone/",
+          "meetingSchedule": null,
+          "organizationSlug": "boone-county-democrats"
+        },
+        {
+          "key": "republican_committee",
+          "label": "Republican committee",
+          "found": true,
+          "status": "meeting_schedule_public",
+          "confidence": 70,
+          "sourceUrl": "https://www.arkansasgop.org/countygop.html",
+          "meetingSchedule": "4th Monday",
+          "organizationSlug": "boone-county-republicans"
+        },
+        {
+          "key": "libertarian_affiliate",
+          "label": "Libertarian affiliate",
+          "found": false,
+          "status": "not_found",
+          "confidence": 0,
+          "sourceUrl": "https://www.lpar.org/events/",
+          "meetingSchedule": null,
+          "organizationSlug": "boone-county-libertarians"
+        },
+        {
+          "key": "school_board",
+          "label": "School board",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "quorum_court",
+          "label": "Quorum court",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "election_commission",
+          "label": "Election commission",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "city_council",
+          "label": "City council",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        }
+      ],
+      "politicalInfrastructureFound": 2,
+      "politicalInfrastructureTotal": 3,
+      "coveragePercent": 67,
+      "fullInfrastructureNote": "School board, quorum court, election commission, city council — Pass 26+"
+    },
+    {
+      "county": "Bradley",
+      "countySlug": "bradley",
+      "entities": [
+        {
+          "key": "democratic_committee",
+          "label": "Democratic committee",
+          "found": true,
+          "status": "page_discovered",
+          "confidence": 20,
+          "sourceUrl": "https://www.arkdems.org/county/bradley/",
+          "meetingSchedule": null,
+          "organizationSlug": "bradley-county-democrats"
+        },
+        {
+          "key": "republican_committee",
+          "label": "Republican committee",
+          "found": false,
+          "status": "not_found",
+          "confidence": 0,
+          "sourceUrl": "https://www.arkansasgop.org/countygop.html",
+          "meetingSchedule": null,
+          "organizationSlug": "bradley-county-republicans"
+        },
+        {
+          "key": "libertarian_affiliate",
+          "label": "Libertarian affiliate",
+          "found": false,
+          "status": "not_found",
+          "confidence": 0,
+          "sourceUrl": "https://www.lpar.org/events/",
+          "meetingSchedule": null,
+          "organizationSlug": "bradley-county-libertarians"
+        },
+        {
+          "key": "school_board",
+          "label": "School board",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "quorum_court",
+          "label": "Quorum court",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "election_commission",
+          "label": "Election commission",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "city_council",
+          "label": "City council",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        }
+      ],
+      "politicalInfrastructureFound": 1,
+      "politicalInfrastructureTotal": 3,
+      "coveragePercent": 33,
+      "fullInfrastructureNote": "School board, quorum court, election commission, city council — Pass 26+"
+    },
+    {
+      "county": "Calhoun",
+      "countySlug": "calhoun",
+      "entities": [
+        {
+          "key": "democratic_committee",
+          "label": "Democratic committee",
+          "found": true,
+          "status": "page_discovered",
+          "confidence": 20,
+          "sourceUrl": "https://www.arkdems.org/county/calhoun/",
+          "meetingSchedule": null,
+          "organizationSlug": "calhoun-county-democrats"
+        },
+        {
+          "key": "republican_committee",
+          "label": "Republican committee",
+          "found": false,
+          "status": "not_found",
+          "confidence": 0,
+          "sourceUrl": "https://www.arkansasgop.org/countygop.html",
+          "meetingSchedule": null,
+          "organizationSlug": "calhoun-county-republicans"
+        },
+        {
+          "key": "libertarian_affiliate",
+          "label": "Libertarian affiliate",
+          "found": false,
+          "status": "not_found",
+          "confidence": 0,
+          "sourceUrl": "https://www.lpar.org/events/",
+          "meetingSchedule": null,
+          "organizationSlug": "calhoun-county-libertarians"
+        },
+        {
+          "key": "school_board",
+          "label": "School board",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "quorum_court",
+          "label": "Quorum court",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "election_commission",
+          "label": "Election commission",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "city_council",
+          "label": "City council",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        }
+      ],
+      "politicalInfrastructureFound": 1,
+      "politicalInfrastructureTotal": 3,
+      "coveragePercent": 33,
+      "fullInfrastructureNote": "School board, quorum court, election commission, city council — Pass 26+"
+    },
+    {
+      "county": "Carroll",
+      "countySlug": "carroll",
+      "entities": [
+        {
+          "key": "democratic_committee",
+          "label": "Democratic committee",
+          "found": true,
+          "status": "page_discovered",
+          "confidence": 20,
+          "sourceUrl": "https://www.arkdems.org/county/carroll/",
+          "meetingSchedule": null,
+          "organizationSlug": "carroll-county-democrats"
+        },
+        {
+          "key": "republican_committee",
+          "label": "Republican committee",
+          "found": true,
+          "status": "meeting_schedule_public",
+          "confidence": 70,
+          "sourceUrl": "https://www.arkansasgop.org/countygop.html",
+          "meetingSchedule": "2nd Monday",
+          "organizationSlug": "carroll-county-republicans"
+        },
+        {
+          "key": "libertarian_affiliate",
+          "label": "Libertarian affiliate",
+          "found": false,
+          "status": "not_found",
+          "confidence": 0,
+          "sourceUrl": "https://www.lpar.org/events/",
+          "meetingSchedule": null,
+          "organizationSlug": "carroll-county-libertarians"
+        },
+        {
+          "key": "school_board",
+          "label": "School board",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "quorum_court",
+          "label": "Quorum court",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "election_commission",
+          "label": "Election commission",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "city_council",
+          "label": "City council",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        }
+      ],
+      "politicalInfrastructureFound": 2,
+      "politicalInfrastructureTotal": 3,
+      "coveragePercent": 67,
+      "fullInfrastructureNote": "School board, quorum court, election commission, city council — Pass 26+"
+    },
+    {
+      "county": "Chicot",
+      "countySlug": "chicot",
+      "entities": [
+        {
+          "key": "democratic_committee",
+          "label": "Democratic committee",
+          "found": true,
+          "status": "page_discovered",
+          "confidence": 20,
+          "sourceUrl": "https://www.arkdems.org/county/chicot/",
+          "meetingSchedule": null,
+          "organizationSlug": "chicot-county-democrats"
+        },
+        {
+          "key": "republican_committee",
+          "label": "Republican committee",
+          "found": true,
+          "status": "partial",
+          "confidence": 25,
+          "sourceUrl": "https://www.arkansasgop.org/countygop.html",
+          "meetingSchedule": "Awaiting committee confirmation",
+          "organizationSlug": "chicot-county-republicans"
+        },
+        {
+          "key": "libertarian_affiliate",
+          "label": "Libertarian affiliate",
+          "found": false,
+          "status": "not_found",
+          "confidence": 0,
+          "sourceUrl": "https://www.lpar.org/events/",
+          "meetingSchedule": null,
+          "organizationSlug": "chicot-county-libertarians"
+        },
+        {
+          "key": "school_board",
+          "label": "School board",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "quorum_court",
+          "label": "Quorum court",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "election_commission",
+          "label": "Election commission",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "city_council",
+          "label": "City council",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        }
+      ],
+      "politicalInfrastructureFound": 2,
+      "politicalInfrastructureTotal": 3,
+      "coveragePercent": 67,
+      "fullInfrastructureNote": "School board, quorum court, election commission, city council — Pass 26+"
+    },
+    {
+      "county": "Clark",
+      "countySlug": "clark",
+      "entities": [
+        {
+          "key": "democratic_committee",
+          "label": "Democratic committee",
+          "found": true,
+          "status": "page_discovered",
+          "confidence": 20,
+          "sourceUrl": "https://www.arkdems.org/county/clark/",
+          "meetingSchedule": null,
+          "organizationSlug": "clark-county-democrats"
+        },
+        {
+          "key": "republican_committee",
+          "label": "Republican committee",
+          "found": false,
+          "status": "not_found",
+          "confidence": 0,
+          "sourceUrl": "https://www.arkansasgop.org/countygop.html",
+          "meetingSchedule": null,
+          "organizationSlug": "clark-county-republicans"
+        },
+        {
+          "key": "libertarian_affiliate",
+          "label": "Libertarian affiliate",
+          "found": false,
+          "status": "not_found",
+          "confidence": 0,
+          "sourceUrl": "https://www.lpar.org/events/",
+          "meetingSchedule": null,
+          "organizationSlug": "clark-county-libertarians"
+        },
+        {
+          "key": "school_board",
+          "label": "School board",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "quorum_court",
+          "label": "Quorum court",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "election_commission",
+          "label": "Election commission",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "city_council",
+          "label": "City council",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        }
+      ],
+      "politicalInfrastructureFound": 1,
+      "politicalInfrastructureTotal": 3,
+      "coveragePercent": 33,
+      "fullInfrastructureNote": "School board, quorum court, election commission, city council — Pass 26+"
+    },
+    {
+      "county": "Clay",
+      "countySlug": "clay",
+      "entities": [
+        {
+          "key": "democratic_committee",
+          "label": "Democratic committee",
+          "found": true,
+          "status": "page_discovered",
+          "confidence": 20,
+          "sourceUrl": "https://www.arkdems.org/county/clay/",
+          "meetingSchedule": null,
+          "organizationSlug": "clay-county-democrats"
+        },
+        {
+          "key": "republican_committee",
+          "label": "Republican committee",
+          "found": true,
+          "status": "meeting_schedule_public",
+          "confidence": 70,
+          "sourceUrl": "https://www.arkansasgop.org/countygop.html",
+          "meetingSchedule": "2nd Thursday",
+          "organizationSlug": "clay-county-republicans"
+        },
+        {
+          "key": "libertarian_affiliate",
+          "label": "Libertarian affiliate",
+          "found": false,
+          "status": "not_found",
+          "confidence": 0,
+          "sourceUrl": "https://www.lpar.org/events/",
+          "meetingSchedule": null,
+          "organizationSlug": "clay-county-libertarians"
+        },
+        {
+          "key": "school_board",
+          "label": "School board",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "quorum_court",
+          "label": "Quorum court",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "election_commission",
+          "label": "Election commission",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "city_council",
+          "label": "City council",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        }
+      ],
+      "politicalInfrastructureFound": 2,
+      "politicalInfrastructureTotal": 3,
+      "coveragePercent": 67,
+      "fullInfrastructureNote": "School board, quorum court, election commission, city council — Pass 26+"
+    },
+    {
+      "county": "Cleburne",
+      "countySlug": "cleburne",
+      "entities": [
+        {
+          "key": "democratic_committee",
+          "label": "Democratic committee",
+          "found": true,
+          "status": "page_discovered",
+          "confidence": 20,
+          "sourceUrl": "https://www.arkdems.org/county/cleburne/",
+          "meetingSchedule": null,
+          "organizationSlug": "cleburne-county-democrats"
+        },
+        {
+          "key": "republican_committee",
+          "label": "Republican committee",
+          "found": true,
+          "status": "meeting_schedule_public",
+          "confidence": 70,
+          "sourceUrl": "https://www.arkansasgop.org/countygop.html",
+          "meetingSchedule": "1st Tuesday",
+          "organizationSlug": "cleburne-county-republicans"
+        },
+        {
+          "key": "libertarian_affiliate",
+          "label": "Libertarian affiliate",
+          "found": false,
+          "status": "not_found",
+          "confidence": 0,
+          "sourceUrl": "https://www.lpar.org/events/",
+          "meetingSchedule": null,
+          "organizationSlug": "cleburne-county-libertarians"
+        },
+        {
+          "key": "school_board",
+          "label": "School board",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "quorum_court",
+          "label": "Quorum court",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "election_commission",
+          "label": "Election commission",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "city_council",
+          "label": "City council",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        }
+      ],
+      "politicalInfrastructureFound": 2,
+      "politicalInfrastructureTotal": 3,
+      "coveragePercent": 67,
+      "fullInfrastructureNote": "School board, quorum court, election commission, city council — Pass 26+"
+    },
+    {
+      "county": "Cleveland",
+      "countySlug": "cleveland",
+      "entities": [
+        {
+          "key": "democratic_committee",
+          "label": "Democratic committee",
+          "found": true,
+          "status": "page_discovered",
+          "confidence": 20,
+          "sourceUrl": "https://www.arkdems.org/county/cleveland/",
+          "meetingSchedule": null,
+          "organizationSlug": "cleveland-county-democrats"
+        },
+        {
+          "key": "republican_committee",
+          "label": "Republican committee",
+          "found": true,
+          "status": "meeting_schedule_public",
+          "confidence": 70,
+          "sourceUrl": "https://www.arkansasgop.org/countygop.html",
+          "meetingSchedule": "2nd Tuesday",
+          "organizationSlug": "cleveland-county-republicans"
+        },
+        {
+          "key": "libertarian_affiliate",
+          "label": "Libertarian affiliate",
+          "found": false,
+          "status": "not_found",
+          "confidence": 0,
+          "sourceUrl": "https://www.lpar.org/events/",
+          "meetingSchedule": null,
+          "organizationSlug": "cleveland-county-libertarians"
+        },
+        {
+          "key": "school_board",
+          "label": "School board",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "quorum_court",
+          "label": "Quorum court",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "election_commission",
+          "label": "Election commission",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "city_council",
+          "label": "City council",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        }
+      ],
+      "politicalInfrastructureFound": 2,
+      "politicalInfrastructureTotal": 3,
+      "coveragePercent": 67,
+      "fullInfrastructureNote": "School board, quorum court, election commission, city council — Pass 26+"
+    },
+    {
+      "county": "Columbia",
+      "countySlug": "columbia",
+      "entities": [
+        {
+          "key": "democratic_committee",
+          "label": "Democratic committee",
+          "found": true,
+          "status": "page_discovered",
+          "confidence": 20,
+          "sourceUrl": "https://www.arkdems.org/county/columbia/",
+          "meetingSchedule": null,
+          "organizationSlug": "columbia-county-democrats"
+        },
+        {
+          "key": "republican_committee",
+          "label": "Republican committee",
+          "found": true,
+          "status": "meeting_schedule_public",
+          "confidence": 70,
+          "sourceUrl": "https://www.arkansasgop.org/countygop.html",
+          "meetingSchedule": "3rd Monday",
+          "organizationSlug": "columbia-county-republicans"
+        },
+        {
+          "key": "libertarian_affiliate",
+          "label": "Libertarian affiliate",
+          "found": false,
+          "status": "not_found",
+          "confidence": 0,
+          "sourceUrl": "https://www.lpar.org/events/",
+          "meetingSchedule": null,
+          "organizationSlug": "columbia-county-libertarians"
+        },
+        {
+          "key": "school_board",
+          "label": "School board",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "quorum_court",
+          "label": "Quorum court",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "election_commission",
+          "label": "Election commission",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "city_council",
+          "label": "City council",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        }
+      ],
+      "politicalInfrastructureFound": 2,
+      "politicalInfrastructureTotal": 3,
+      "coveragePercent": 67,
+      "fullInfrastructureNote": "School board, quorum court, election commission, city council — Pass 26+"
+    },
+    {
+      "county": "Conway",
+      "countySlug": "conway",
+      "entities": [
+        {
+          "key": "democratic_committee",
+          "label": "Democratic committee",
+          "found": true,
+          "status": "page_discovered",
+          "confidence": 20,
+          "sourceUrl": "https://www.arkdems.org/county/conway/",
+          "meetingSchedule": null,
+          "organizationSlug": "conway-county-democrats"
+        },
+        {
+          "key": "republican_committee",
+          "label": "Republican committee",
+          "found": true,
+          "status": "meeting_schedule_public",
+          "confidence": 70,
+          "sourceUrl": "https://www.arkansasgop.org/countygop.html",
+          "meetingSchedule": "3rd Thursday",
+          "organizationSlug": "conway-county-republicans"
+        },
+        {
+          "key": "libertarian_affiliate",
+          "label": "Libertarian affiliate",
+          "found": false,
+          "status": "not_found",
+          "confidence": 0,
+          "sourceUrl": "https://www.lpar.org/events/",
+          "meetingSchedule": null,
+          "organizationSlug": "conway-county-libertarians"
+        },
+        {
+          "key": "school_board",
+          "label": "School board",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "quorum_court",
+          "label": "Quorum court",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "election_commission",
+          "label": "Election commission",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "city_council",
+          "label": "City council",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        }
+      ],
+      "politicalInfrastructureFound": 2,
+      "politicalInfrastructureTotal": 3,
+      "coveragePercent": 67,
+      "fullInfrastructureNote": "School board, quorum court, election commission, city council — Pass 26+"
+    },
+    {
+      "county": "Craighead",
+      "countySlug": "craighead",
+      "entities": [
+        {
+          "key": "democratic_committee",
+          "label": "Democratic committee",
+          "found": true,
+          "status": "page_discovered",
+          "confidence": 20,
+          "sourceUrl": "https://www.arkdems.org/county/craighead/",
+          "meetingSchedule": null,
+          "organizationSlug": "craighead-county-democrats"
+        },
+        {
+          "key": "republican_committee",
+          "label": "Republican committee",
+          "found": false,
+          "status": "not_found",
+          "confidence": 0,
+          "sourceUrl": "https://www.arkansasgop.org/countygop.html",
+          "meetingSchedule": null,
+          "organizationSlug": "craighead-county-republicans"
+        },
+        {
+          "key": "libertarian_affiliate",
+          "label": "Libertarian affiliate",
+          "found": false,
+          "status": "not_found",
+          "confidence": 0,
+          "sourceUrl": "https://www.lpar.org/events/",
+          "meetingSchedule": null,
+          "organizationSlug": "craighead-county-libertarians"
+        },
+        {
+          "key": "school_board",
+          "label": "School board",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "quorum_court",
+          "label": "Quorum court",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "election_commission",
+          "label": "Election commission",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "city_council",
+          "label": "City council",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        }
+      ],
+      "politicalInfrastructureFound": 1,
+      "politicalInfrastructureTotal": 3,
+      "coveragePercent": 33,
+      "fullInfrastructureNote": "School board, quorum court, election commission, city council — Pass 26+"
+    },
+    {
+      "county": "Crawford",
+      "countySlug": "crawford",
+      "entities": [
+        {
+          "key": "democratic_committee",
+          "label": "Democratic committee",
+          "found": true,
+          "status": "page_discovered",
+          "confidence": 20,
+          "sourceUrl": "https://www.arkdems.org/county/crawford/",
+          "meetingSchedule": null,
+          "organizationSlug": "crawford-county-democrats"
+        },
+        {
+          "key": "republican_committee",
+          "label": "Republican committee",
+          "found": true,
+          "status": "meeting_schedule_public",
+          "confidence": 70,
+          "sourceUrl": "https://www.arkansasgop.org/countygop.html",
+          "meetingSchedule": "2nd Tuesday",
+          "organizationSlug": "crawford-county-republicans"
+        },
+        {
+          "key": "libertarian_affiliate",
+          "label": "Libertarian affiliate",
+          "found": false,
+          "status": "not_found",
+          "confidence": 0,
+          "sourceUrl": "https://www.lpar.org/events/",
+          "meetingSchedule": null,
+          "organizationSlug": "crawford-county-libertarians"
+        },
+        {
+          "key": "school_board",
+          "label": "School board",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "quorum_court",
+          "label": "Quorum court",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "election_commission",
+          "label": "Election commission",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "city_council",
+          "label": "City council",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        }
+      ],
+      "politicalInfrastructureFound": 2,
+      "politicalInfrastructureTotal": 3,
+      "coveragePercent": 67,
+      "fullInfrastructureNote": "School board, quorum court, election commission, city council — Pass 26+"
+    },
+    {
+      "county": "Crittenden",
+      "countySlug": "crittenden",
+      "entities": [
+        {
+          "key": "democratic_committee",
+          "label": "Democratic committee",
+          "found": true,
+          "status": "page_discovered",
+          "confidence": 20,
+          "sourceUrl": "https://www.arkdems.org/county/crittenden/",
+          "meetingSchedule": null,
+          "organizationSlug": "crittenden-county-democrats"
+        },
+        {
+          "key": "republican_committee",
+          "label": "Republican committee",
+          "found": true,
+          "status": "meeting_schedule_public",
+          "confidence": 70,
+          "sourceUrl": "https://www.arkansasgop.org/countygop.html",
+          "meetingSchedule": "4th thursday",
+          "organizationSlug": "crittenden-county-republicans"
+        },
+        {
+          "key": "libertarian_affiliate",
+          "label": "Libertarian affiliate",
+          "found": false,
+          "status": "not_found",
+          "confidence": 0,
+          "sourceUrl": "https://www.lpar.org/events/",
+          "meetingSchedule": null,
+          "organizationSlug": "crittenden-county-libertarians"
+        },
+        {
+          "key": "school_board",
+          "label": "School board",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "quorum_court",
+          "label": "Quorum court",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "election_commission",
+          "label": "Election commission",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "city_council",
+          "label": "City council",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        }
+      ],
+      "politicalInfrastructureFound": 2,
+      "politicalInfrastructureTotal": 3,
+      "coveragePercent": 67,
+      "fullInfrastructureNote": "School board, quorum court, election commission, city council — Pass 26+"
+    },
+    {
+      "county": "Cross",
+      "countySlug": "cross",
+      "entities": [
+        {
+          "key": "democratic_committee",
+          "label": "Democratic committee",
+          "found": true,
+          "status": "page_discovered",
+          "confidence": 20,
+          "sourceUrl": "https://www.arkdems.org/county/cross/",
+          "meetingSchedule": null,
+          "organizationSlug": "cross-county-democrats"
+        },
+        {
+          "key": "republican_committee",
+          "label": "Republican committee",
+          "found": false,
+          "status": "not_found",
+          "confidence": 0,
+          "sourceUrl": "https://www.arkansasgop.org/countygop.html",
+          "meetingSchedule": null,
+          "organizationSlug": "cross-county-republicans"
+        },
+        {
+          "key": "libertarian_affiliate",
+          "label": "Libertarian affiliate",
+          "found": false,
+          "status": "not_found",
+          "confidence": 0,
+          "sourceUrl": "https://www.lpar.org/events/",
+          "meetingSchedule": null,
+          "organizationSlug": "cross-county-libertarians"
+        },
+        {
+          "key": "school_board",
+          "label": "School board",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "quorum_court",
+          "label": "Quorum court",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "election_commission",
+          "label": "Election commission",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "city_council",
+          "label": "City council",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        }
+      ],
+      "politicalInfrastructureFound": 1,
+      "politicalInfrastructureTotal": 3,
+      "coveragePercent": 33,
+      "fullInfrastructureNote": "School board, quorum court, election commission, city council — Pass 26+"
+    },
+    {
+      "county": "Dallas",
+      "countySlug": "dallas",
+      "entities": [
+        {
+          "key": "democratic_committee",
+          "label": "Democratic committee",
+          "found": true,
+          "status": "page_discovered",
+          "confidence": 20,
+          "sourceUrl": "https://www.arkdems.org/county/dallas/",
+          "meetingSchedule": null,
+          "organizationSlug": "dallas-county-democrats"
+        },
+        {
+          "key": "republican_committee",
+          "label": "Republican committee",
+          "found": true,
+          "status": "meeting_schedule_public",
+          "confidence": 70,
+          "sourceUrl": "https://www.arkansasgop.org/countygop.html",
+          "meetingSchedule": "Last Tuesday",
+          "organizationSlug": "dallas-county-republicans"
+        },
+        {
+          "key": "libertarian_affiliate",
+          "label": "Libertarian affiliate",
+          "found": false,
+          "status": "not_found",
+          "confidence": 0,
+          "sourceUrl": "https://www.lpar.org/events/",
+          "meetingSchedule": null,
+          "organizationSlug": "dallas-county-libertarians"
+        },
+        {
+          "key": "school_board",
+          "label": "School board",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "quorum_court",
+          "label": "Quorum court",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "election_commission",
+          "label": "Election commission",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "city_council",
+          "label": "City council",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        }
+      ],
+      "politicalInfrastructureFound": 2,
+      "politicalInfrastructureTotal": 3,
+      "coveragePercent": 67,
+      "fullInfrastructureNote": "School board, quorum court, election commission, city council — Pass 26+"
+    },
+    {
+      "county": "Desha",
+      "countySlug": "desha",
+      "entities": [
+        {
+          "key": "democratic_committee",
+          "label": "Democratic committee",
+          "found": true,
+          "status": "page_discovered",
+          "confidence": 20,
+          "sourceUrl": "https://www.arkdems.org/county/desha/",
+          "meetingSchedule": null,
+          "organizationSlug": "desha-county-democrats"
+        },
+        {
+          "key": "republican_committee",
+          "label": "Republican committee",
+          "found": true,
+          "status": "meeting_schedule_public",
+          "confidence": 70,
+          "sourceUrl": "https://www.arkansasgop.org/countygop.html",
+          "meetingSchedule": "3rd Tuesday",
+          "organizationSlug": "desha-county-republicans"
+        },
+        {
+          "key": "libertarian_affiliate",
+          "label": "Libertarian affiliate",
+          "found": false,
+          "status": "not_found",
+          "confidence": 0,
+          "sourceUrl": "https://www.lpar.org/events/",
+          "meetingSchedule": null,
+          "organizationSlug": "desha-county-libertarians"
+        },
+        {
+          "key": "school_board",
+          "label": "School board",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "quorum_court",
+          "label": "Quorum court",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "election_commission",
+          "label": "Election commission",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "city_council",
+          "label": "City council",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        }
+      ],
+      "politicalInfrastructureFound": 2,
+      "politicalInfrastructureTotal": 3,
+      "coveragePercent": 67,
+      "fullInfrastructureNote": "School board, quorum court, election commission, city council — Pass 26+"
+    },
+    {
+      "county": "Drew",
+      "countySlug": "drew",
+      "entities": [
+        {
+          "key": "democratic_committee",
+          "label": "Democratic committee",
+          "found": true,
+          "status": "page_discovered",
+          "confidence": 20,
+          "sourceUrl": "https://www.arkdems.org/county/drew/",
+          "meetingSchedule": null,
+          "organizationSlug": "drew-county-democrats"
+        },
+        {
+          "key": "republican_committee",
+          "label": "Republican committee",
+          "found": true,
+          "status": "meeting_schedule_public",
+          "confidence": 70,
+          "sourceUrl": "https://www.arkansasgop.org/countygop.html",
+          "meetingSchedule": "AWAITING COMMITTEE",
+          "organizationSlug": "drew-county-republicans"
+        },
+        {
+          "key": "libertarian_affiliate",
+          "label": "Libertarian affiliate",
+          "found": false,
+          "status": "not_found",
+          "confidence": 0,
+          "sourceUrl": "https://www.lpar.org/events/",
+          "meetingSchedule": null,
+          "organizationSlug": "drew-county-libertarians"
+        },
+        {
+          "key": "school_board",
+          "label": "School board",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "quorum_court",
+          "label": "Quorum court",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "election_commission",
+          "label": "Election commission",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "city_council",
+          "label": "City council",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        }
+      ],
+      "politicalInfrastructureFound": 2,
+      "politicalInfrastructureTotal": 3,
+      "coveragePercent": 67,
+      "fullInfrastructureNote": "School board, quorum court, election commission, city council — Pass 26+"
+    },
+    {
+      "county": "Faulkner",
+      "countySlug": "faulkner",
+      "entities": [
+        {
+          "key": "democratic_committee",
+          "label": "Democratic committee",
+          "found": true,
+          "status": "meeting_schedule_public",
+          "confidence": 70,
+          "sourceUrl": "https://www.arkdems.org/county/faulkner/",
+          "meetingSchedule": "Monthly 1st Monday at 6:30 PM at McGee Center in Conway",
+          "organizationSlug": "faulkner-county-democrats"
+        },
+        {
+          "key": "republican_committee",
+          "label": "Republican committee",
+          "found": true,
+          "status": "meeting_schedule_public",
+          "confidence": 70,
+          "sourceUrl": "https://www.arkansasgop.org/countygop.html",
+          "meetingSchedule": "4th Monday",
+          "organizationSlug": "faulkner-county-republicans"
+        },
+        {
+          "key": "libertarian_affiliate",
+          "label": "Libertarian affiliate",
+          "found": false,
+          "status": "not_found",
+          "confidence": 0,
+          "sourceUrl": "https://www.lpar.org/events/",
+          "meetingSchedule": null,
+          "organizationSlug": "faulkner-county-libertarians"
+        },
+        {
+          "key": "school_board",
+          "label": "School board",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "quorum_court",
+          "label": "Quorum court",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "election_commission",
+          "label": "Election commission",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "city_council",
+          "label": "City council",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        }
+      ],
+      "politicalInfrastructureFound": 2,
+      "politicalInfrastructureTotal": 3,
+      "coveragePercent": 67,
+      "fullInfrastructureNote": "School board, quorum court, election commission, city council — Pass 26+"
+    },
+    {
+      "county": "Franklin",
+      "countySlug": "franklin",
+      "entities": [
+        {
+          "key": "democratic_committee",
+          "label": "Democratic committee",
+          "found": true,
+          "status": "page_discovered",
+          "confidence": 20,
+          "sourceUrl": "https://www.arkdems.org/county/franklin/",
+          "meetingSchedule": null,
+          "organizationSlug": "franklin-county-democrats"
+        },
+        {
+          "key": "republican_committee",
+          "label": "Republican committee",
+          "found": false,
+          "status": "not_found",
+          "confidence": 0,
+          "sourceUrl": "https://www.arkansasgop.org/countygop.html",
+          "meetingSchedule": null,
+          "organizationSlug": "franklin-county-republicans"
+        },
+        {
+          "key": "libertarian_affiliate",
+          "label": "Libertarian affiliate",
+          "found": false,
+          "status": "not_found",
+          "confidence": 0,
+          "sourceUrl": "https://www.lpar.org/events/",
+          "meetingSchedule": null,
+          "organizationSlug": "franklin-county-libertarians"
+        },
+        {
+          "key": "school_board",
+          "label": "School board",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "quorum_court",
+          "label": "Quorum court",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "election_commission",
+          "label": "Election commission",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "city_council",
+          "label": "City council",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        }
+      ],
+      "politicalInfrastructureFound": 1,
+      "politicalInfrastructureTotal": 3,
+      "coveragePercent": 33,
+      "fullInfrastructureNote": "School board, quorum court, election commission, city council — Pass 26+"
+    },
+    {
+      "county": "Fulton",
+      "countySlug": "fulton",
+      "entities": [
+        {
+          "key": "democratic_committee",
+          "label": "Democratic committee",
+          "found": true,
+          "status": "page_discovered",
+          "confidence": 20,
+          "sourceUrl": "https://www.arkdems.org/county/fulton/",
+          "meetingSchedule": null,
+          "organizationSlug": "fulton-county-democrats"
+        },
+        {
+          "key": "republican_committee",
+          "label": "Republican committee",
+          "found": true,
+          "status": "meeting_schedule_public",
+          "confidence": 70,
+          "sourceUrl": "https://www.arkansasgop.org/countygop.html",
+          "meetingSchedule": "2nd tuesday",
+          "organizationSlug": "fulton-county-republicans"
+        },
+        {
+          "key": "libertarian_affiliate",
+          "label": "Libertarian affiliate",
+          "found": false,
+          "status": "not_found",
+          "confidence": 0,
+          "sourceUrl": "https://www.lpar.org/events/",
+          "meetingSchedule": null,
+          "organizationSlug": "fulton-county-libertarians"
+        },
+        {
+          "key": "school_board",
+          "label": "School board",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "quorum_court",
+          "label": "Quorum court",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "election_commission",
+          "label": "Election commission",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "city_council",
+          "label": "City council",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        }
+      ],
+      "politicalInfrastructureFound": 2,
+      "politicalInfrastructureTotal": 3,
+      "coveragePercent": 67,
+      "fullInfrastructureNote": "School board, quorum court, election commission, city council — Pass 26+"
+    },
+    {
+      "county": "Garland",
+      "countySlug": "garland",
+      "entities": [
+        {
+          "key": "democratic_committee",
+          "label": "Democratic committee",
+          "found": true,
+          "status": "page_discovered",
+          "confidence": 20,
+          "sourceUrl": "https://www.arkdems.org/county/garland/",
+          "meetingSchedule": null,
+          "organizationSlug": "garland-county-democrats"
+        },
+        {
+          "key": "republican_committee",
+          "label": "Republican committee",
+          "found": true,
+          "status": "meeting_schedule_public",
+          "confidence": 70,
+          "sourceUrl": "https://www.arkansasgop.org/countygop.html",
+          "meetingSchedule": "1st Thursday",
+          "organizationSlug": "garland-county-republicans"
+        },
+        {
+          "key": "libertarian_affiliate",
+          "label": "Libertarian affiliate",
+          "found": false,
+          "status": "not_found",
+          "confidence": 0,
+          "sourceUrl": "https://www.lpar.org/events/",
+          "meetingSchedule": null,
+          "organizationSlug": "garland-county-libertarians"
+        },
+        {
+          "key": "school_board",
+          "label": "School board",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "quorum_court",
+          "label": "Quorum court",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "election_commission",
+          "label": "Election commission",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "city_council",
+          "label": "City council",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        }
+      ],
+      "politicalInfrastructureFound": 2,
+      "politicalInfrastructureTotal": 3,
+      "coveragePercent": 67,
+      "fullInfrastructureNote": "School board, quorum court, election commission, city council — Pass 26+"
+    },
+    {
+      "county": "Grant",
+      "countySlug": "grant",
+      "entities": [
+        {
+          "key": "democratic_committee",
+          "label": "Democratic committee",
+          "found": true,
+          "status": "page_discovered",
+          "confidence": 20,
+          "sourceUrl": "https://www.arkdems.org/county/grant/",
+          "meetingSchedule": null,
+          "organizationSlug": "grant-county-democrats"
+        },
+        {
+          "key": "republican_committee",
+          "label": "Republican committee",
+          "found": true,
+          "status": "meeting_schedule_public",
+          "confidence": 70,
+          "sourceUrl": "https://www.arkansasgop.org/countygop.html",
+          "meetingSchedule": "Last Monday",
+          "organizationSlug": "grant-county-republicans"
+        },
+        {
+          "key": "libertarian_affiliate",
+          "label": "Libertarian affiliate",
+          "found": false,
+          "status": "not_found",
+          "confidence": 0,
+          "sourceUrl": "https://www.lpar.org/events/",
+          "meetingSchedule": null,
+          "organizationSlug": "grant-county-libertarians"
+        },
+        {
+          "key": "school_board",
+          "label": "School board",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "quorum_court",
+          "label": "Quorum court",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "election_commission",
+          "label": "Election commission",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "city_council",
+          "label": "City council",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        }
+      ],
+      "politicalInfrastructureFound": 2,
+      "politicalInfrastructureTotal": 3,
+      "coveragePercent": 67,
+      "fullInfrastructureNote": "School board, quorum court, election commission, city council — Pass 26+"
+    },
+    {
+      "county": "Greene",
+      "countySlug": "greene",
+      "entities": [
+        {
+          "key": "democratic_committee",
+          "label": "Democratic committee",
+          "found": true,
+          "status": "page_discovered",
+          "confidence": 20,
+          "sourceUrl": "https://www.arkdems.org/county/greene/",
+          "meetingSchedule": null,
+          "organizationSlug": "greene-county-democrats"
+        },
+        {
+          "key": "republican_committee",
+          "label": "Republican committee",
+          "found": true,
+          "status": "meeting_schedule_public",
+          "confidence": 70,
+          "sourceUrl": "https://www.arkansasgop.org/countygop.html",
+          "meetingSchedule": "1st Tuesday",
+          "organizationSlug": "greene-county-republicans"
+        },
+        {
+          "key": "libertarian_affiliate",
+          "label": "Libertarian affiliate",
+          "found": false,
+          "status": "not_found",
+          "confidence": 0,
+          "sourceUrl": "https://www.lpar.org/events/",
+          "meetingSchedule": null,
+          "organizationSlug": "greene-county-libertarians"
+        },
+        {
+          "key": "school_board",
+          "label": "School board",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "quorum_court",
+          "label": "Quorum court",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "election_commission",
+          "label": "Election commission",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "city_council",
+          "label": "City council",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        }
+      ],
+      "politicalInfrastructureFound": 2,
+      "politicalInfrastructureTotal": 3,
+      "coveragePercent": 67,
+      "fullInfrastructureNote": "School board, quorum court, election commission, city council — Pass 26+"
+    },
+    {
+      "county": "Hempstead",
+      "countySlug": "hempstead",
+      "entities": [
+        {
+          "key": "democratic_committee",
+          "label": "Democratic committee",
+          "found": true,
+          "status": "page_discovered",
+          "confidence": 20,
+          "sourceUrl": "https://www.arkdems.org/county/hempstead/",
+          "meetingSchedule": null,
+          "organizationSlug": "hempstead-county-democrats"
+        },
+        {
+          "key": "republican_committee",
+          "label": "Republican committee",
+          "found": true,
+          "status": "meeting_schedule_public",
+          "confidence": 70,
+          "sourceUrl": "https://www.arkansasgop.org/countygop.html",
+          "meetingSchedule": "3rd Thursday",
+          "organizationSlug": "hempstead-county-republicans"
+        },
+        {
+          "key": "libertarian_affiliate",
+          "label": "Libertarian affiliate",
+          "found": false,
+          "status": "not_found",
+          "confidence": 0,
+          "sourceUrl": "https://www.lpar.org/events/",
+          "meetingSchedule": null,
+          "organizationSlug": "hempstead-county-libertarians"
+        },
+        {
+          "key": "school_board",
+          "label": "School board",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "quorum_court",
+          "label": "Quorum court",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "election_commission",
+          "label": "Election commission",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "city_council",
+          "label": "City council",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        }
+      ],
+      "politicalInfrastructureFound": 2,
+      "politicalInfrastructureTotal": 3,
+      "coveragePercent": 67,
+      "fullInfrastructureNote": "School board, quorum court, election commission, city council — Pass 26+"
+    },
+    {
+      "county": "Hot Spring",
+      "countySlug": "hot-spring",
+      "entities": [
+        {
+          "key": "democratic_committee",
+          "label": "Democratic committee",
+          "found": true,
+          "status": "page_discovered",
+          "confidence": 20,
+          "sourceUrl": "https://www.arkdems.org/county/hot-spring/",
+          "meetingSchedule": null,
+          "organizationSlug": "hot-spring-county-democrats"
+        },
+        {
+          "key": "republican_committee",
+          "label": "Republican committee",
+          "found": true,
+          "status": "meeting_schedule_public",
+          "confidence": 70,
+          "sourceUrl": "https://www.arkansasgop.org/countygop.html",
+          "meetingSchedule": "1st Tuesday",
+          "organizationSlug": "hot-spring-county-republicans"
+        },
+        {
+          "key": "libertarian_affiliate",
+          "label": "Libertarian affiliate",
+          "found": false,
+          "status": "not_found",
+          "confidence": 0,
+          "sourceUrl": "https://www.lpar.org/events/",
+          "meetingSchedule": null,
+          "organizationSlug": "hot-spring-county-libertarians"
+        },
+        {
+          "key": "school_board",
+          "label": "School board",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "quorum_court",
+          "label": "Quorum court",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "election_commission",
+          "label": "Election commission",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "city_council",
+          "label": "City council",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        }
+      ],
+      "politicalInfrastructureFound": 2,
+      "politicalInfrastructureTotal": 3,
+      "coveragePercent": 67,
+      "fullInfrastructureNote": "School board, quorum court, election commission, city council — Pass 26+"
+    },
+    {
+      "county": "Howard",
+      "countySlug": "howard",
+      "entities": [
+        {
+          "key": "democratic_committee",
+          "label": "Democratic committee",
+          "found": true,
+          "status": "page_discovered",
+          "confidence": 20,
+          "sourceUrl": "https://www.arkdems.org/county/howard/",
+          "meetingSchedule": null,
+          "organizationSlug": "howard-county-democrats"
+        },
+        {
+          "key": "republican_committee",
+          "label": "Republican committee",
+          "found": true,
+          "status": "meeting_schedule_public",
+          "confidence": 70,
+          "sourceUrl": "https://www.arkansasgop.org/countygop.html",
+          "meetingSchedule": "2nd Tuesday",
+          "organizationSlug": "howard-county-republicans"
+        },
+        {
+          "key": "libertarian_affiliate",
+          "label": "Libertarian affiliate",
+          "found": false,
+          "status": "not_found",
+          "confidence": 0,
+          "sourceUrl": "https://www.lpar.org/events/",
+          "meetingSchedule": null,
+          "organizationSlug": "howard-county-libertarians"
+        },
+        {
+          "key": "school_board",
+          "label": "School board",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "quorum_court",
+          "label": "Quorum court",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "election_commission",
+          "label": "Election commission",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "city_council",
+          "label": "City council",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        }
+      ],
+      "politicalInfrastructureFound": 2,
+      "politicalInfrastructureTotal": 3,
+      "coveragePercent": 67,
+      "fullInfrastructureNote": "School board, quorum court, election commission, city council — Pass 26+"
+    },
+    {
+      "county": "Independence",
+      "countySlug": "independence",
+      "entities": [
+        {
+          "key": "democratic_committee",
+          "label": "Democratic committee",
+          "found": true,
+          "status": "page_discovered",
+          "confidence": 20,
+          "sourceUrl": "https://www.arkdems.org/county/independence/",
+          "meetingSchedule": null,
+          "organizationSlug": "independence-county-democrats"
+        },
+        {
+          "key": "republican_committee",
+          "label": "Republican committee",
+          "found": true,
+          "status": "meeting_schedule_public",
+          "confidence": 70,
+          "sourceUrl": "https://www.arkansasgop.org/countygop.html",
+          "meetingSchedule": "1st Tuesday",
+          "organizationSlug": "independence-county-republicans"
+        },
+        {
+          "key": "libertarian_affiliate",
+          "label": "Libertarian affiliate",
+          "found": false,
+          "status": "not_found",
+          "confidence": 0,
+          "sourceUrl": "https://www.lpar.org/events/",
+          "meetingSchedule": null,
+          "organizationSlug": "independence-county-libertarians"
+        },
+        {
+          "key": "school_board",
+          "label": "School board",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "quorum_court",
+          "label": "Quorum court",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "election_commission",
+          "label": "Election commission",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "city_council",
+          "label": "City council",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        }
+      ],
+      "politicalInfrastructureFound": 2,
+      "politicalInfrastructureTotal": 3,
+      "coveragePercent": 67,
+      "fullInfrastructureNote": "School board, quorum court, election commission, city council — Pass 26+"
+    },
+    {
+      "county": "Izard",
+      "countySlug": "izard",
+      "entities": [
+        {
+          "key": "democratic_committee",
+          "label": "Democratic committee",
+          "found": true,
+          "status": "page_discovered",
+          "confidence": 20,
+          "sourceUrl": "https://www.arkdems.org/county/izard/",
+          "meetingSchedule": null,
+          "organizationSlug": "izard-county-democrats"
+        },
+        {
+          "key": "republican_committee",
+          "label": "Republican committee",
+          "found": true,
+          "status": "meeting_schedule_public",
+          "confidence": 70,
+          "sourceUrl": "https://www.arkansasgop.org/countygop.html",
+          "meetingSchedule": "3rd monday",
+          "organizationSlug": "izard-county-republicans"
+        },
+        {
+          "key": "libertarian_affiliate",
+          "label": "Libertarian affiliate",
+          "found": false,
+          "status": "not_found",
+          "confidence": 0,
+          "sourceUrl": "https://www.lpar.org/events/",
+          "meetingSchedule": null,
+          "organizationSlug": "izard-county-libertarians"
+        },
+        {
+          "key": "school_board",
+          "label": "School board",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "quorum_court",
+          "label": "Quorum court",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "election_commission",
+          "label": "Election commission",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "city_council",
+          "label": "City council",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        }
+      ],
+      "politicalInfrastructureFound": 2,
+      "politicalInfrastructureTotal": 3,
+      "coveragePercent": 67,
+      "fullInfrastructureNote": "School board, quorum court, election commission, city council — Pass 26+"
+    },
+    {
+      "county": "Jackson",
+      "countySlug": "jackson",
+      "entities": [
+        {
+          "key": "democratic_committee",
+          "label": "Democratic committee",
+          "found": true,
+          "status": "page_discovered",
+          "confidence": 20,
+          "sourceUrl": "https://www.arkdems.org/county/jackson/",
+          "meetingSchedule": null,
+          "organizationSlug": "jackson-county-democrats"
+        },
+        {
+          "key": "republican_committee",
+          "label": "Republican committee",
+          "found": true,
+          "status": "meeting_schedule_public",
+          "confidence": 70,
+          "sourceUrl": "https://www.arkansasgop.org/countygop.html",
+          "meetingSchedule": "AWAITING COMMITTEE",
+          "organizationSlug": "jackson-county-republicans"
+        },
+        {
+          "key": "libertarian_affiliate",
+          "label": "Libertarian affiliate",
+          "found": false,
+          "status": "not_found",
+          "confidence": 0,
+          "sourceUrl": "https://www.lpar.org/events/",
+          "meetingSchedule": null,
+          "organizationSlug": "jackson-county-libertarians"
+        },
+        {
+          "key": "school_board",
+          "label": "School board",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "quorum_court",
+          "label": "Quorum court",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "election_commission",
+          "label": "Election commission",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "city_council",
+          "label": "City council",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        }
+      ],
+      "politicalInfrastructureFound": 2,
+      "politicalInfrastructureTotal": 3,
+      "coveragePercent": 67,
+      "fullInfrastructureNote": "School board, quorum court, election commission, city council — Pass 26+"
+    },
+    {
+      "county": "Jefferson",
+      "countySlug": "jefferson",
+      "entities": [
+        {
+          "key": "democratic_committee",
+          "label": "Democratic committee",
+          "found": true,
+          "status": "page_discovered",
+          "confidence": 20,
+          "sourceUrl": "https://www.arkdems.org/county/jefferson/",
+          "meetingSchedule": null,
+          "organizationSlug": "jefferson-county-democrats"
+        },
+        {
+          "key": "republican_committee",
+          "label": "Republican committee",
+          "found": true,
+          "status": "meeting_schedule_public",
+          "confidence": 70,
+          "sourceUrl": "https://www.arkansasgop.org/countygop.html",
+          "meetingSchedule": "4th Thursday",
+          "organizationSlug": "jefferson-county-republicans"
+        },
+        {
+          "key": "libertarian_affiliate",
+          "label": "Libertarian affiliate",
+          "found": false,
+          "status": "not_found",
+          "confidence": 0,
+          "sourceUrl": "https://www.lpar.org/events/",
+          "meetingSchedule": null,
+          "organizationSlug": "jefferson-county-libertarians"
+        },
+        {
+          "key": "school_board",
+          "label": "School board",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "quorum_court",
+          "label": "Quorum court",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "election_commission",
+          "label": "Election commission",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "city_council",
+          "label": "City council",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        }
+      ],
+      "politicalInfrastructureFound": 2,
+      "politicalInfrastructureTotal": 3,
+      "coveragePercent": 67,
+      "fullInfrastructureNote": "School board, quorum court, election commission, city council — Pass 26+"
+    },
+    {
+      "county": "Johnson",
+      "countySlug": "johnson",
+      "entities": [
+        {
+          "key": "democratic_committee",
+          "label": "Democratic committee",
+          "found": true,
+          "status": "page_discovered",
+          "confidence": 20,
+          "sourceUrl": "https://www.arkdems.org/county/johnson/",
+          "meetingSchedule": null,
+          "organizationSlug": "johnson-county-democrats"
+        },
+        {
+          "key": "republican_committee",
+          "label": "Republican committee",
+          "found": true,
+          "status": "meeting_schedule_public",
+          "confidence": 70,
+          "sourceUrl": "https://www.arkansasgop.org/countygop.html",
+          "meetingSchedule": "1st Thursday",
+          "organizationSlug": "johnson-county-republicans"
+        },
+        {
+          "key": "libertarian_affiliate",
+          "label": "Libertarian affiliate",
+          "found": false,
+          "status": "not_found",
+          "confidence": 0,
+          "sourceUrl": "https://www.lpar.org/events/",
+          "meetingSchedule": null,
+          "organizationSlug": "johnson-county-libertarians"
+        },
+        {
+          "key": "school_board",
+          "label": "School board",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "quorum_court",
+          "label": "Quorum court",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "election_commission",
+          "label": "Election commission",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "city_council",
+          "label": "City council",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        }
+      ],
+      "politicalInfrastructureFound": 2,
+      "politicalInfrastructureTotal": 3,
+      "coveragePercent": 67,
+      "fullInfrastructureNote": "School board, quorum court, election commission, city council — Pass 26+"
+    },
+    {
+      "county": "Lafayette",
+      "countySlug": "lafayette",
+      "entities": [
+        {
+          "key": "democratic_committee",
+          "label": "Democratic committee",
+          "found": true,
+          "status": "page_discovered",
+          "confidence": 20,
+          "sourceUrl": "https://www.arkdems.org/county/lafayette/",
+          "meetingSchedule": null,
+          "organizationSlug": "lafayette-county-democrats"
+        },
+        {
+          "key": "republican_committee",
+          "label": "Republican committee",
+          "found": false,
+          "status": "not_found",
+          "confidence": 0,
+          "sourceUrl": "https://www.arkansasgop.org/countygop.html",
+          "meetingSchedule": null,
+          "organizationSlug": "lafayette-county-republicans"
+        },
+        {
+          "key": "libertarian_affiliate",
+          "label": "Libertarian affiliate",
+          "found": false,
+          "status": "not_found",
+          "confidence": 0,
+          "sourceUrl": "https://www.lpar.org/events/",
+          "meetingSchedule": null,
+          "organizationSlug": "lafayette-county-libertarians"
+        },
+        {
+          "key": "school_board",
+          "label": "School board",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "quorum_court",
+          "label": "Quorum court",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "election_commission",
+          "label": "Election commission",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "city_council",
+          "label": "City council",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        }
+      ],
+      "politicalInfrastructureFound": 1,
+      "politicalInfrastructureTotal": 3,
+      "coveragePercent": 33,
+      "fullInfrastructureNote": "School board, quorum court, election commission, city council — Pass 26+"
+    },
+    {
+      "county": "Lawrence",
+      "countySlug": "lawrence",
+      "entities": [
+        {
+          "key": "democratic_committee",
+          "label": "Democratic committee",
+          "found": true,
+          "status": "page_discovered",
+          "confidence": 20,
+          "sourceUrl": "https://www.arkdems.org/county/lawrence/",
+          "meetingSchedule": null,
+          "organizationSlug": "lawrence-county-democrats"
+        },
+        {
+          "key": "republican_committee",
+          "label": "Republican committee",
+          "found": false,
+          "status": "not_found",
+          "confidence": 0,
+          "sourceUrl": "https://www.arkansasgop.org/countygop.html",
+          "meetingSchedule": null,
+          "organizationSlug": "lawrence-county-republicans"
+        },
+        {
+          "key": "libertarian_affiliate",
+          "label": "Libertarian affiliate",
+          "found": false,
+          "status": "not_found",
+          "confidence": 0,
+          "sourceUrl": "https://www.lpar.org/events/",
+          "meetingSchedule": null,
+          "organizationSlug": "lawrence-county-libertarians"
+        },
+        {
+          "key": "school_board",
+          "label": "School board",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "quorum_court",
+          "label": "Quorum court",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "election_commission",
+          "label": "Election commission",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "city_council",
+          "label": "City council",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        }
+      ],
+      "politicalInfrastructureFound": 1,
+      "politicalInfrastructureTotal": 3,
+      "coveragePercent": 33,
+      "fullInfrastructureNote": "School board, quorum court, election commission, city council — Pass 26+"
+    },
+    {
+      "county": "Lee",
+      "countySlug": "lee",
+      "entities": [
+        {
+          "key": "democratic_committee",
+          "label": "Democratic committee",
+          "found": true,
+          "status": "page_discovered",
+          "confidence": 20,
+          "sourceUrl": "https://www.arkdems.org/county/lee/",
+          "meetingSchedule": null,
+          "organizationSlug": "lee-county-democrats"
+        },
+        {
+          "key": "republican_committee",
+          "label": "Republican committee",
+          "found": true,
+          "status": "meeting_schedule_public",
+          "confidence": 70,
+          "sourceUrl": "https://www.arkansasgop.org/countygop.html",
+          "meetingSchedule": "2nd Tuesday",
+          "organizationSlug": "lee-county-republicans"
+        },
+        {
+          "key": "libertarian_affiliate",
+          "label": "Libertarian affiliate",
+          "found": false,
+          "status": "not_found",
+          "confidence": 0,
+          "sourceUrl": "https://www.lpar.org/events/",
+          "meetingSchedule": null,
+          "organizationSlug": "lee-county-libertarians"
+        },
+        {
+          "key": "school_board",
+          "label": "School board",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "quorum_court",
+          "label": "Quorum court",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "election_commission",
+          "label": "Election commission",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "city_council",
+          "label": "City council",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        }
+      ],
+      "politicalInfrastructureFound": 2,
+      "politicalInfrastructureTotal": 3,
+      "coveragePercent": 67,
+      "fullInfrastructureNote": "School board, quorum court, election commission, city council — Pass 26+"
+    },
+    {
+      "county": "Lincoln",
+      "countySlug": "lincoln",
+      "entities": [
+        {
+          "key": "democratic_committee",
+          "label": "Democratic committee",
+          "found": true,
+          "status": "page_discovered",
+          "confidence": 20,
+          "sourceUrl": "https://www.arkdems.org/county/lincoln/",
+          "meetingSchedule": null,
+          "organizationSlug": "lincoln-county-democrats"
+        },
+        {
+          "key": "republican_committee",
+          "label": "Republican committee",
+          "found": true,
+          "status": "meeting_schedule_public",
+          "confidence": 70,
+          "sourceUrl": "https://www.arkansasgop.org/countygop.html",
+          "meetingSchedule": "AWAITING COMMITTEE",
+          "organizationSlug": "lincoln-county-republicans"
+        },
+        {
+          "key": "libertarian_affiliate",
+          "label": "Libertarian affiliate",
+          "found": false,
+          "status": "not_found",
+          "confidence": 0,
+          "sourceUrl": "https://www.lpar.org/events/",
+          "meetingSchedule": null,
+          "organizationSlug": "lincoln-county-libertarians"
+        },
+        {
+          "key": "school_board",
+          "label": "School board",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "quorum_court",
+          "label": "Quorum court",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "election_commission",
+          "label": "Election commission",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "city_council",
+          "label": "City council",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        }
+      ],
+      "politicalInfrastructureFound": 2,
+      "politicalInfrastructureTotal": 3,
+      "coveragePercent": 67,
+      "fullInfrastructureNote": "School board, quorum court, election commission, city council — Pass 26+"
+    },
+    {
+      "county": "Little River",
+      "countySlug": "little-river",
+      "entities": [
+        {
+          "key": "democratic_committee",
+          "label": "Democratic committee",
+          "found": true,
+          "status": "page_discovered",
+          "confidence": 20,
+          "sourceUrl": "https://www.arkdems.org/county/little-river/",
+          "meetingSchedule": null,
+          "organizationSlug": "little-river-county-democrats"
+        },
+        {
+          "key": "republican_committee",
+          "label": "Republican committee",
+          "found": true,
+          "status": "meeting_schedule_public",
+          "confidence": 70,
+          "sourceUrl": "https://www.arkansasgop.org/countygop.html",
+          "meetingSchedule": "2nd Thursday",
+          "organizationSlug": "little-river-county-republicans"
+        },
+        {
+          "key": "libertarian_affiliate",
+          "label": "Libertarian affiliate",
+          "found": false,
+          "status": "not_found",
+          "confidence": 0,
+          "sourceUrl": "https://www.lpar.org/events/",
+          "meetingSchedule": null,
+          "organizationSlug": "little-river-county-libertarians"
+        },
+        {
+          "key": "school_board",
+          "label": "School board",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "quorum_court",
+          "label": "Quorum court",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "election_commission",
+          "label": "Election commission",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "city_council",
+          "label": "City council",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        }
+      ],
+      "politicalInfrastructureFound": 2,
+      "politicalInfrastructureTotal": 3,
+      "coveragePercent": 67,
+      "fullInfrastructureNote": "School board, quorum court, election commission, city council — Pass 26+"
+    },
+    {
+      "county": "Logan",
+      "countySlug": "logan",
+      "entities": [
+        {
+          "key": "democratic_committee",
+          "label": "Democratic committee",
+          "found": true,
+          "status": "page_discovered",
+          "confidence": 20,
+          "sourceUrl": "https://www.arkdems.org/county/logan/",
+          "meetingSchedule": null,
+          "organizationSlug": "logan-county-democrats"
+        },
+        {
+          "key": "republican_committee",
+          "label": "Republican committee",
+          "found": true,
+          "status": "meeting_schedule_public",
+          "confidence": 70,
+          "sourceUrl": "https://www.arkansasgop.org/countygop.html",
+          "meetingSchedule": "2nd Thursday",
+          "organizationSlug": "logan-county-republicans"
+        },
+        {
+          "key": "libertarian_affiliate",
+          "label": "Libertarian affiliate",
+          "found": false,
+          "status": "not_found",
+          "confidence": 0,
+          "sourceUrl": "https://www.lpar.org/events/",
+          "meetingSchedule": null,
+          "organizationSlug": "logan-county-libertarians"
+        },
+        {
+          "key": "school_board",
+          "label": "School board",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "quorum_court",
+          "label": "Quorum court",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "election_commission",
+          "label": "Election commission",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "city_council",
+          "label": "City council",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        }
+      ],
+      "politicalInfrastructureFound": 2,
+      "politicalInfrastructureTotal": 3,
+      "coveragePercent": 67,
+      "fullInfrastructureNote": "School board, quorum court, election commission, city council — Pass 26+"
+    },
+    {
+      "county": "Lonoke",
+      "countySlug": "lonoke",
+      "entities": [
+        {
+          "key": "democratic_committee",
+          "label": "Democratic committee",
+          "found": true,
+          "status": "page_discovered",
+          "confidence": 20,
+          "sourceUrl": "https://www.arkdems.org/county/lonoke/",
+          "meetingSchedule": null,
+          "organizationSlug": "lonoke-county-democrats"
+        },
+        {
+          "key": "republican_committee",
+          "label": "Republican committee",
+          "found": false,
+          "status": "not_found",
+          "confidence": 0,
+          "sourceUrl": "https://www.arkansasgop.org/countygop.html",
+          "meetingSchedule": null,
+          "organizationSlug": "lonoke-county-republicans"
+        },
+        {
+          "key": "libertarian_affiliate",
+          "label": "Libertarian affiliate",
+          "found": false,
+          "status": "not_found",
+          "confidence": 0,
+          "sourceUrl": "https://www.lpar.org/events/",
+          "meetingSchedule": null,
+          "organizationSlug": "lonoke-county-libertarians"
+        },
+        {
+          "key": "school_board",
+          "label": "School board",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "quorum_court",
+          "label": "Quorum court",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "election_commission",
+          "label": "Election commission",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "city_council",
+          "label": "City council",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        }
+      ],
+      "politicalInfrastructureFound": 1,
+      "politicalInfrastructureTotal": 3,
+      "coveragePercent": 33,
+      "fullInfrastructureNote": "School board, quorum court, election commission, city council — Pass 26+"
+    },
+    {
+      "county": "Madison",
+      "countySlug": "madison",
+      "entities": [
+        {
+          "key": "democratic_committee",
+          "label": "Democratic committee",
+          "found": true,
+          "status": "page_discovered",
+          "confidence": 20,
+          "sourceUrl": "https://www.arkdems.org/county/madison/",
+          "meetingSchedule": null,
+          "organizationSlug": "madison-county-democrats"
+        },
+        {
+          "key": "republican_committee",
+          "label": "Republican committee",
+          "found": true,
+          "status": "meeting_schedule_public",
+          "confidence": 70,
+          "sourceUrl": "https://www.arkansasgop.org/countygop.html",
+          "meetingSchedule": "1st Thursday",
+          "organizationSlug": "madison-county-republicans"
+        },
+        {
+          "key": "libertarian_affiliate",
+          "label": "Libertarian affiliate",
+          "found": false,
+          "status": "not_found",
+          "confidence": 0,
+          "sourceUrl": "https://www.lpar.org/events/",
+          "meetingSchedule": null,
+          "organizationSlug": "madison-county-libertarians"
+        },
+        {
+          "key": "school_board",
+          "label": "School board",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "quorum_court",
+          "label": "Quorum court",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "election_commission",
+          "label": "Election commission",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "city_council",
+          "label": "City council",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        }
+      ],
+      "politicalInfrastructureFound": 2,
+      "politicalInfrastructureTotal": 3,
+      "coveragePercent": 67,
+      "fullInfrastructureNote": "School board, quorum court, election commission, city council — Pass 26+"
+    },
+    {
+      "county": "Marion",
+      "countySlug": "marion",
+      "entities": [
+        {
+          "key": "democratic_committee",
+          "label": "Democratic committee",
+          "found": true,
+          "status": "page_discovered",
+          "confidence": 20,
+          "sourceUrl": "https://www.arkdems.org/county/marion/",
+          "meetingSchedule": null,
+          "organizationSlug": "marion-county-democrats"
+        },
+        {
+          "key": "republican_committee",
+          "label": "Republican committee",
+          "found": true,
+          "status": "meeting_schedule_public",
+          "confidence": 70,
+          "sourceUrl": "https://www.arkansasgop.org/countygop.html",
+          "meetingSchedule": "2nd Thursday",
+          "organizationSlug": "marion-county-republicans"
+        },
+        {
+          "key": "libertarian_affiliate",
+          "label": "Libertarian affiliate",
+          "found": false,
+          "status": "not_found",
+          "confidence": 0,
+          "sourceUrl": "https://www.lpar.org/events/",
+          "meetingSchedule": null,
+          "organizationSlug": "marion-county-libertarians"
+        },
+        {
+          "key": "school_board",
+          "label": "School board",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "quorum_court",
+          "label": "Quorum court",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "election_commission",
+          "label": "Election commission",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "city_council",
+          "label": "City council",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        }
+      ],
+      "politicalInfrastructureFound": 2,
+      "politicalInfrastructureTotal": 3,
+      "coveragePercent": 67,
+      "fullInfrastructureNote": "School board, quorum court, election commission, city council — Pass 26+"
+    },
+    {
+      "county": "Miller",
+      "countySlug": "miller",
+      "entities": [
+        {
+          "key": "democratic_committee",
+          "label": "Democratic committee",
+          "found": true,
+          "status": "page_discovered",
+          "confidence": 20,
+          "sourceUrl": "https://www.arkdems.org/county/miller/",
+          "meetingSchedule": null,
+          "organizationSlug": "miller-county-democrats"
+        },
+        {
+          "key": "republican_committee",
+          "label": "Republican committee",
+          "found": true,
+          "status": "meeting_schedule_public",
+          "confidence": 70,
+          "sourceUrl": "https://www.arkansasgop.org/countygop.html",
+          "meetingSchedule": "2nd Tuesday",
+          "organizationSlug": "miller-county-republicans"
+        },
+        {
+          "key": "libertarian_affiliate",
+          "label": "Libertarian affiliate",
+          "found": false,
+          "status": "not_found",
+          "confidence": 0,
+          "sourceUrl": "https://www.lpar.org/events/",
+          "meetingSchedule": null,
+          "organizationSlug": "miller-county-libertarians"
+        },
+        {
+          "key": "school_board",
+          "label": "School board",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "quorum_court",
+          "label": "Quorum court",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "election_commission",
+          "label": "Election commission",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "city_council",
+          "label": "City council",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        }
+      ],
+      "politicalInfrastructureFound": 2,
+      "politicalInfrastructureTotal": 3,
+      "coveragePercent": 67,
+      "fullInfrastructureNote": "School board, quorum court, election commission, city council — Pass 26+"
+    },
+    {
+      "county": "Mississippi",
+      "countySlug": "mississippi",
+      "entities": [
+        {
+          "key": "democratic_committee",
+          "label": "Democratic committee",
+          "found": true,
+          "status": "page_discovered",
+          "confidence": 20,
+          "sourceUrl": "https://www.arkdems.org/county/mississippi/",
+          "meetingSchedule": null,
+          "organizationSlug": "mississippi-county-democrats"
+        },
+        {
+          "key": "republican_committee",
+          "label": "Republican committee",
+          "found": true,
+          "status": "meeting_schedule_public",
+          "confidence": 70,
+          "sourceUrl": "https://www.arkansasgop.org/countygop.html",
+          "meetingSchedule": "4th Thursday",
+          "organizationSlug": "mississippi-county-republicans"
+        },
+        {
+          "key": "libertarian_affiliate",
+          "label": "Libertarian affiliate",
+          "found": false,
+          "status": "not_found",
+          "confidence": 0,
+          "sourceUrl": "https://www.lpar.org/events/",
+          "meetingSchedule": null,
+          "organizationSlug": "mississippi-county-libertarians"
+        },
+        {
+          "key": "school_board",
+          "label": "School board",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "quorum_court",
+          "label": "Quorum court",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "election_commission",
+          "label": "Election commission",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "city_council",
+          "label": "City council",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        }
+      ],
+      "politicalInfrastructureFound": 2,
+      "politicalInfrastructureTotal": 3,
+      "coveragePercent": 67,
+      "fullInfrastructureNote": "School board, quorum court, election commission, city council — Pass 26+"
+    },
+    {
+      "county": "Monroe",
+      "countySlug": "monroe",
+      "entities": [
+        {
+          "key": "democratic_committee",
+          "label": "Democratic committee",
+          "found": true,
+          "status": "page_discovered",
+          "confidence": 20,
+          "sourceUrl": "https://www.arkdems.org/county/monroe/",
+          "meetingSchedule": null,
+          "organizationSlug": "monroe-county-democrats"
+        },
+        {
+          "key": "republican_committee",
+          "label": "Republican committee",
+          "found": true,
+          "status": "meeting_schedule_public",
+          "confidence": 70,
+          "sourceUrl": "https://www.arkansasgop.org/countygop.html",
+          "meetingSchedule": "3rd Thursday",
+          "organizationSlug": "monroe-county-republicans"
+        },
+        {
+          "key": "libertarian_affiliate",
+          "label": "Libertarian affiliate",
+          "found": false,
+          "status": "not_found",
+          "confidence": 0,
+          "sourceUrl": "https://www.lpar.org/events/",
+          "meetingSchedule": null,
+          "organizationSlug": "monroe-county-libertarians"
+        },
+        {
+          "key": "school_board",
+          "label": "School board",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "quorum_court",
+          "label": "Quorum court",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "election_commission",
+          "label": "Election commission",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "city_council",
+          "label": "City council",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        }
+      ],
+      "politicalInfrastructureFound": 2,
+      "politicalInfrastructureTotal": 3,
+      "coveragePercent": 67,
+      "fullInfrastructureNote": "School board, quorum court, election commission, city council — Pass 26+"
+    },
+    {
+      "county": "Montgomery",
+      "countySlug": "montgomery",
+      "entities": [
+        {
+          "key": "democratic_committee",
+          "label": "Democratic committee",
+          "found": true,
+          "status": "page_discovered",
+          "confidence": 20,
+          "sourceUrl": "https://www.arkdems.org/county/montgomery/",
+          "meetingSchedule": null,
+          "organizationSlug": "montgomery-county-democrats"
+        },
+        {
+          "key": "republican_committee",
+          "label": "Republican committee",
+          "found": true,
+          "status": "meeting_schedule_public",
+          "confidence": 70,
+          "sourceUrl": "https://www.arkansasgop.org/countygop.html",
+          "meetingSchedule": "3rd Tuesday",
+          "organizationSlug": "montgomery-county-republicans"
+        },
+        {
+          "key": "libertarian_affiliate",
+          "label": "Libertarian affiliate",
+          "found": false,
+          "status": "not_found",
+          "confidence": 0,
+          "sourceUrl": "https://www.lpar.org/events/",
+          "meetingSchedule": null,
+          "organizationSlug": "montgomery-county-libertarians"
+        },
+        {
+          "key": "school_board",
+          "label": "School board",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "quorum_court",
+          "label": "Quorum court",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "election_commission",
+          "label": "Election commission",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "city_council",
+          "label": "City council",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        }
+      ],
+      "politicalInfrastructureFound": 2,
+      "politicalInfrastructureTotal": 3,
+      "coveragePercent": 67,
+      "fullInfrastructureNote": "School board, quorum court, election commission, city council — Pass 26+"
+    },
+    {
+      "county": "Nevada",
+      "countySlug": "nevada",
+      "entities": [
+        {
+          "key": "democratic_committee",
+          "label": "Democratic committee",
+          "found": true,
+          "status": "page_discovered",
+          "confidence": 20,
+          "sourceUrl": "https://www.arkdems.org/county/nevada/",
+          "meetingSchedule": null,
+          "organizationSlug": "nevada-county-democrats"
+        },
+        {
+          "key": "republican_committee",
+          "label": "Republican committee",
+          "found": true,
+          "status": "meeting_schedule_public",
+          "confidence": 70,
+          "sourceUrl": "https://www.arkansasgop.org/countygop.html",
+          "meetingSchedule": "3rd Tuesday",
+          "organizationSlug": "nevada-county-republicans"
+        },
+        {
+          "key": "libertarian_affiliate",
+          "label": "Libertarian affiliate",
+          "found": false,
+          "status": "not_found",
+          "confidence": 0,
+          "sourceUrl": "https://www.lpar.org/events/",
+          "meetingSchedule": null,
+          "organizationSlug": "nevada-county-libertarians"
+        },
+        {
+          "key": "school_board",
+          "label": "School board",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "quorum_court",
+          "label": "Quorum court",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "election_commission",
+          "label": "Election commission",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "city_council",
+          "label": "City council",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        }
+      ],
+      "politicalInfrastructureFound": 2,
+      "politicalInfrastructureTotal": 3,
+      "coveragePercent": 67,
+      "fullInfrastructureNote": "School board, quorum court, election commission, city council — Pass 26+"
+    },
+    {
+      "county": "Newton",
+      "countySlug": "newton",
+      "entities": [
+        {
+          "key": "democratic_committee",
+          "label": "Democratic committee",
+          "found": true,
+          "status": "page_discovered",
+          "confidence": 20,
+          "sourceUrl": "https://www.arkdems.org/county/newton/",
+          "meetingSchedule": null,
+          "organizationSlug": "newton-county-democrats"
+        },
+        {
+          "key": "republican_committee",
+          "label": "Republican committee",
+          "found": true,
+          "status": "meeting_schedule_public",
+          "confidence": 70,
+          "sourceUrl": "https://www.arkansasgop.org/countygop.html",
+          "meetingSchedule": "AWAITING COMMITTEE",
+          "organizationSlug": "newton-county-republicans"
+        },
+        {
+          "key": "libertarian_affiliate",
+          "label": "Libertarian affiliate",
+          "found": false,
+          "status": "not_found",
+          "confidence": 0,
+          "sourceUrl": "https://www.lpar.org/events/",
+          "meetingSchedule": null,
+          "organizationSlug": "newton-county-libertarians"
+        },
+        {
+          "key": "school_board",
+          "label": "School board",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "quorum_court",
+          "label": "Quorum court",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "election_commission",
+          "label": "Election commission",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "city_council",
+          "label": "City council",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        }
+      ],
+      "politicalInfrastructureFound": 2,
+      "politicalInfrastructureTotal": 3,
+      "coveragePercent": 67,
+      "fullInfrastructureNote": "School board, quorum court, election commission, city council — Pass 26+"
+    },
+    {
+      "county": "Ouachita",
+      "countySlug": "ouachita",
+      "entities": [
+        {
+          "key": "democratic_committee",
+          "label": "Democratic committee",
+          "found": true,
+          "status": "page_discovered",
+          "confidence": 20,
+          "sourceUrl": "https://www.arkdems.org/county/ouachita/",
+          "meetingSchedule": null,
+          "organizationSlug": "ouachita-county-democrats"
+        },
+        {
+          "key": "republican_committee",
+          "label": "Republican committee",
+          "found": false,
+          "status": "not_found",
+          "confidence": 0,
+          "sourceUrl": "https://www.arkansasgop.org/countygop.html",
+          "meetingSchedule": null,
+          "organizationSlug": "ouachita-county-republicans"
+        },
+        {
+          "key": "libertarian_affiliate",
+          "label": "Libertarian affiliate",
+          "found": false,
+          "status": "not_found",
+          "confidence": 0,
+          "sourceUrl": "https://www.lpar.org/events/",
+          "meetingSchedule": null,
+          "organizationSlug": "ouachita-county-libertarians"
+        },
+        {
+          "key": "school_board",
+          "label": "School board",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "quorum_court",
+          "label": "Quorum court",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "election_commission",
+          "label": "Election commission",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "city_council",
+          "label": "City council",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        }
+      ],
+      "politicalInfrastructureFound": 1,
+      "politicalInfrastructureTotal": 3,
+      "coveragePercent": 33,
+      "fullInfrastructureNote": "School board, quorum court, election commission, city council — Pass 26+"
+    },
+    {
+      "county": "Perry",
+      "countySlug": "perry",
+      "entities": [
+        {
+          "key": "democratic_committee",
+          "label": "Democratic committee",
+          "found": true,
+          "status": "page_discovered",
+          "confidence": 20,
+          "sourceUrl": "https://www.arkdems.org/county/perry/",
+          "meetingSchedule": null,
+          "organizationSlug": "perry-county-democrats"
+        },
+        {
+          "key": "republican_committee",
+          "label": "Republican committee",
+          "found": true,
+          "status": "meeting_schedule_public",
+          "confidence": 70,
+          "sourceUrl": "https://www.arkansasgop.org/countygop.html",
+          "meetingSchedule": "2nd Tuesday",
+          "organizationSlug": "perry-county-republicans"
+        },
+        {
+          "key": "libertarian_affiliate",
+          "label": "Libertarian affiliate",
+          "found": false,
+          "status": "not_found",
+          "confidence": 0,
+          "sourceUrl": "https://www.lpar.org/events/",
+          "meetingSchedule": null,
+          "organizationSlug": "perry-county-libertarians"
+        },
+        {
+          "key": "school_board",
+          "label": "School board",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "quorum_court",
+          "label": "Quorum court",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "election_commission",
+          "label": "Election commission",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "city_council",
+          "label": "City council",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        }
+      ],
+      "politicalInfrastructureFound": 2,
+      "politicalInfrastructureTotal": 3,
+      "coveragePercent": 67,
+      "fullInfrastructureNote": "School board, quorum court, election commission, city council — Pass 26+"
+    },
+    {
+      "county": "Phillips",
+      "countySlug": "phillips",
+      "entities": [
+        {
+          "key": "democratic_committee",
+          "label": "Democratic committee",
+          "found": true,
+          "status": "page_discovered",
+          "confidence": 20,
+          "sourceUrl": "https://www.arkdems.org/county/phillips/",
+          "meetingSchedule": null,
+          "organizationSlug": "phillips-county-democrats"
+        },
+        {
+          "key": "republican_committee",
+          "label": "Republican committee",
+          "found": true,
+          "status": "meeting_schedule_public",
+          "confidence": 70,
+          "sourceUrl": "https://www.arkansasgop.org/countygop.html",
+          "meetingSchedule": "AWAITING COMMITTEE",
+          "organizationSlug": "phillips-county-republicans"
+        },
+        {
+          "key": "libertarian_affiliate",
+          "label": "Libertarian affiliate",
+          "found": false,
+          "status": "not_found",
+          "confidence": 0,
+          "sourceUrl": "https://www.lpar.org/events/",
+          "meetingSchedule": null,
+          "organizationSlug": "phillips-county-libertarians"
+        },
+        {
+          "key": "school_board",
+          "label": "School board",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "quorum_court",
+          "label": "Quorum court",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "election_commission",
+          "label": "Election commission",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "city_council",
+          "label": "City council",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        }
+      ],
+      "politicalInfrastructureFound": 2,
+      "politicalInfrastructureTotal": 3,
+      "coveragePercent": 67,
+      "fullInfrastructureNote": "School board, quorum court, election commission, city council — Pass 26+"
+    },
+    {
+      "county": "Pike",
+      "countySlug": "pike",
+      "entities": [
+        {
+          "key": "democratic_committee",
+          "label": "Democratic committee",
+          "found": true,
+          "status": "page_discovered",
+          "confidence": 20,
+          "sourceUrl": "https://www.arkdems.org/county/pike/",
+          "meetingSchedule": null,
+          "organizationSlug": "pike-county-democrats"
+        },
+        {
+          "key": "republican_committee",
+          "label": "Republican committee",
+          "found": true,
+          "status": "meeting_schedule_public",
+          "confidence": 70,
+          "sourceUrl": "https://www.arkansasgop.org/countygop.html",
+          "meetingSchedule": "AWAITING COMMITTEE",
+          "organizationSlug": "pike-county-republicans"
+        },
+        {
+          "key": "libertarian_affiliate",
+          "label": "Libertarian affiliate",
+          "found": false,
+          "status": "not_found",
+          "confidence": 0,
+          "sourceUrl": "https://www.lpar.org/events/",
+          "meetingSchedule": null,
+          "organizationSlug": "pike-county-libertarians"
+        },
+        {
+          "key": "school_board",
+          "label": "School board",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "quorum_court",
+          "label": "Quorum court",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "election_commission",
+          "label": "Election commission",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "city_council",
+          "label": "City council",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        }
+      ],
+      "politicalInfrastructureFound": 2,
+      "politicalInfrastructureTotal": 3,
+      "coveragePercent": 67,
+      "fullInfrastructureNote": "School board, quorum court, election commission, city council — Pass 26+"
+    },
+    {
+      "county": "Poinsett",
+      "countySlug": "poinsett",
+      "entities": [
+        {
+          "key": "democratic_committee",
+          "label": "Democratic committee",
+          "found": true,
+          "status": "page_discovered",
+          "confidence": 20,
+          "sourceUrl": "https://www.arkdems.org/county/poinsett/",
+          "meetingSchedule": null,
+          "organizationSlug": "poinsett-county-democrats"
+        },
+        {
+          "key": "republican_committee",
+          "label": "Republican committee",
+          "found": false,
+          "status": "not_found",
+          "confidence": 0,
+          "sourceUrl": "https://www.arkansasgop.org/countygop.html",
+          "meetingSchedule": null,
+          "organizationSlug": "poinsett-county-republicans"
+        },
+        {
+          "key": "libertarian_affiliate",
+          "label": "Libertarian affiliate",
+          "found": false,
+          "status": "not_found",
+          "confidence": 0,
+          "sourceUrl": "https://www.lpar.org/events/",
+          "meetingSchedule": null,
+          "organizationSlug": "poinsett-county-libertarians"
+        },
+        {
+          "key": "school_board",
+          "label": "School board",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "quorum_court",
+          "label": "Quorum court",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "election_commission",
+          "label": "Election commission",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "city_council",
+          "label": "City council",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        }
+      ],
+      "politicalInfrastructureFound": 1,
+      "politicalInfrastructureTotal": 3,
+      "coveragePercent": 33,
+      "fullInfrastructureNote": "School board, quorum court, election commission, city council — Pass 26+"
+    },
+    {
+      "county": "Polk",
+      "countySlug": "polk",
+      "entities": [
+        {
+          "key": "democratic_committee",
+          "label": "Democratic committee",
+          "found": true,
+          "status": "page_discovered",
+          "confidence": 20,
+          "sourceUrl": "https://www.arkdems.org/county/polk/",
+          "meetingSchedule": null,
+          "organizationSlug": "polk-county-democrats"
+        },
+        {
+          "key": "republican_committee",
+          "label": "Republican committee",
+          "found": false,
+          "status": "not_found",
+          "confidence": 0,
+          "sourceUrl": "https://www.arkansasgop.org/countygop.html",
+          "meetingSchedule": null,
+          "organizationSlug": "polk-county-republicans"
+        },
+        {
+          "key": "libertarian_affiliate",
+          "label": "Libertarian affiliate",
+          "found": false,
+          "status": "not_found",
+          "confidence": 0,
+          "sourceUrl": "https://www.lpar.org/events/",
+          "meetingSchedule": null,
+          "organizationSlug": "polk-county-libertarians"
+        },
+        {
+          "key": "school_board",
+          "label": "School board",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "quorum_court",
+          "label": "Quorum court",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "election_commission",
+          "label": "Election commission",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "city_council",
+          "label": "City council",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        }
+      ],
+      "politicalInfrastructureFound": 1,
+      "politicalInfrastructureTotal": 3,
+      "coveragePercent": 33,
+      "fullInfrastructureNote": "School board, quorum court, election commission, city council — Pass 26+"
+    },
+    {
+      "county": "Pope",
+      "countySlug": "pope",
+      "entities": [
+        {
+          "key": "democratic_committee",
+          "label": "Democratic committee",
+          "found": true,
+          "status": "page_discovered",
+          "confidence": 20,
+          "sourceUrl": "https://www.arkdems.org/county/pope/",
+          "meetingSchedule": null,
+          "organizationSlug": "pope-county-democrats"
+        },
+        {
+          "key": "republican_committee",
+          "label": "Republican committee",
+          "found": true,
+          "status": "meeting_schedule_public",
+          "confidence": 70,
+          "sourceUrl": "https://www.arkansasgop.org/countygop.html",
+          "meetingSchedule": "Meal at 5:30 PM, Meeting at 6:00 PM",
+          "organizationSlug": "pope-county-republicans"
+        },
+        {
+          "key": "libertarian_affiliate",
+          "label": "Libertarian affiliate",
+          "found": false,
+          "status": "not_found",
+          "confidence": 0,
+          "sourceUrl": "https://www.lpar.org/events/",
+          "meetingSchedule": null,
+          "organizationSlug": "pope-county-libertarians"
+        },
+        {
+          "key": "school_board",
+          "label": "School board",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "quorum_court",
+          "label": "Quorum court",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "election_commission",
+          "label": "Election commission",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "city_council",
+          "label": "City council",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        }
+      ],
+      "politicalInfrastructureFound": 2,
+      "politicalInfrastructureTotal": 3,
+      "coveragePercent": 67,
+      "fullInfrastructureNote": "School board, quorum court, election commission, city council — Pass 26+"
+    },
+    {
+      "county": "Prairie",
+      "countySlug": "prairie",
+      "entities": [
+        {
+          "key": "democratic_committee",
+          "label": "Democratic committee",
+          "found": true,
+          "status": "page_discovered",
+          "confidence": 20,
+          "sourceUrl": "https://www.arkdems.org/county/prairie/",
+          "meetingSchedule": null,
+          "organizationSlug": "prairie-county-democrats"
+        },
+        {
+          "key": "republican_committee",
+          "label": "Republican committee",
+          "found": true,
+          "status": "meeting_schedule_public",
+          "confidence": 70,
+          "sourceUrl": "https://www.arkansasgop.org/countygop.html",
+          "meetingSchedule": "AWAITING COMMITTEE",
+          "organizationSlug": "prairie-county-republicans"
+        },
+        {
+          "key": "libertarian_affiliate",
+          "label": "Libertarian affiliate",
+          "found": false,
+          "status": "not_found",
+          "confidence": 0,
+          "sourceUrl": "https://www.lpar.org/events/",
+          "meetingSchedule": null,
+          "organizationSlug": "prairie-county-libertarians"
+        },
+        {
+          "key": "school_board",
+          "label": "School board",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "quorum_court",
+          "label": "Quorum court",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "election_commission",
+          "label": "Election commission",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "city_council",
+          "label": "City council",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        }
+      ],
+      "politicalInfrastructureFound": 2,
+      "politicalInfrastructureTotal": 3,
+      "coveragePercent": 67,
+      "fullInfrastructureNote": "School board, quorum court, election commission, city council — Pass 26+"
+    },
+    {
+      "county": "Pulaski",
+      "countySlug": "pulaski",
+      "entities": [
+        {
+          "key": "democratic_committee",
+          "label": "Democratic committee",
+          "found": true,
+          "status": "page_discovered",
+          "confidence": 20,
+          "sourceUrl": "https://www.arkdems.org/county/pulaski/",
+          "meetingSchedule": null,
+          "organizationSlug": "pulaski-county-democrats"
+        },
+        {
+          "key": "republican_committee",
+          "label": "Republican committee",
+          "found": true,
+          "status": "meeting_schedule_public",
+          "confidence": 70,
+          "sourceUrl": "https://www.arkansasgop.org/countygop.html",
+          "meetingSchedule": "3rd Thursday",
+          "organizationSlug": "pulaski-county-republicans"
+        },
+        {
+          "key": "libertarian_affiliate",
+          "label": "Libertarian affiliate",
+          "found": false,
+          "status": "not_found",
+          "confidence": 0,
+          "sourceUrl": "https://www.lpar.org/events/",
+          "meetingSchedule": null,
+          "organizationSlug": "pulaski-county-libertarians"
+        },
+        {
+          "key": "school_board",
+          "label": "School board",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "quorum_court",
+          "label": "Quorum court",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "election_commission",
+          "label": "Election commission",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "city_council",
+          "label": "City council",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        }
+      ],
+      "politicalInfrastructureFound": 2,
+      "politicalInfrastructureTotal": 3,
+      "coveragePercent": 67,
+      "fullInfrastructureNote": "School board, quorum court, election commission, city council — Pass 26+"
+    },
+    {
+      "county": "Randolph",
+      "countySlug": "randolph",
+      "entities": [
+        {
+          "key": "democratic_committee",
+          "label": "Democratic committee",
+          "found": true,
+          "status": "page_discovered",
+          "confidence": 20,
+          "sourceUrl": "https://www.arkdems.org/county/randolph/",
+          "meetingSchedule": null,
+          "organizationSlug": "randolph-county-democrats"
+        },
+        {
+          "key": "republican_committee",
+          "label": "Republican committee",
+          "found": false,
+          "status": "not_found",
+          "confidence": 0,
+          "sourceUrl": "https://www.arkansasgop.org/countygop.html",
+          "meetingSchedule": null,
+          "organizationSlug": "randolph-county-republicans"
+        },
+        {
+          "key": "libertarian_affiliate",
+          "label": "Libertarian affiliate",
+          "found": false,
+          "status": "not_found",
+          "confidence": 0,
+          "sourceUrl": "https://www.lpar.org/events/",
+          "meetingSchedule": null,
+          "organizationSlug": "randolph-county-libertarians"
+        },
+        {
+          "key": "school_board",
+          "label": "School board",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "quorum_court",
+          "label": "Quorum court",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "election_commission",
+          "label": "Election commission",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "city_council",
+          "label": "City council",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        }
+      ],
+      "politicalInfrastructureFound": 1,
+      "politicalInfrastructureTotal": 3,
+      "coveragePercent": 33,
+      "fullInfrastructureNote": "School board, quorum court, election commission, city council — Pass 26+"
+    },
+    {
+      "county": "St. Francis",
+      "countySlug": "st.-francis",
+      "entities": [
+        {
+          "key": "democratic_committee",
+          "label": "Democratic committee",
+          "found": true,
+          "status": "page_discovered",
+          "confidence": 20,
+          "sourceUrl": "https://www.arkdems.org/county/st.-francis/",
+          "meetingSchedule": null,
+          "organizationSlug": "st.-francis-county-democrats"
+        },
+        {
+          "key": "republican_committee",
+          "label": "Republican committee",
+          "found": true,
+          "status": "meeting_schedule_public",
+          "confidence": 70,
+          "sourceUrl": "https://www.arkansasgop.org/countygop.html",
+          "meetingSchedule": "3rd Monday",
+          "organizationSlug": "st.-francis-county-republicans"
+        },
+        {
+          "key": "libertarian_affiliate",
+          "label": "Libertarian affiliate",
+          "found": false,
+          "status": "not_found",
+          "confidence": 0,
+          "sourceUrl": "https://www.lpar.org/events/",
+          "meetingSchedule": null,
+          "organizationSlug": "st.-francis-county-libertarians"
+        },
+        {
+          "key": "school_board",
+          "label": "School board",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "quorum_court",
+          "label": "Quorum court",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "election_commission",
+          "label": "Election commission",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "city_council",
+          "label": "City council",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        }
+      ],
+      "politicalInfrastructureFound": 2,
+      "politicalInfrastructureTotal": 3,
+      "coveragePercent": 67,
+      "fullInfrastructureNote": "School board, quorum court, election commission, city council — Pass 26+"
+    },
+    {
+      "county": "Saline",
+      "countySlug": "saline",
+      "entities": [
+        {
+          "key": "democratic_committee",
+          "label": "Democratic committee",
+          "found": true,
+          "status": "meeting_schedule_public",
+          "confidence": 70,
+          "sourceUrl": "https://www.arkdems.org/county/saline/",
+          "meetingSchedule": "Monthly 2nd Tuesday at 6:30 PM",
+          "organizationSlug": "saline-county-democrats"
+        },
+        {
+          "key": "republican_committee",
+          "label": "Republican committee",
+          "found": false,
+          "status": "not_found",
+          "confidence": 0,
+          "sourceUrl": "https://www.arkansasgop.org/countygop.html",
+          "meetingSchedule": null,
+          "organizationSlug": "saline-county-republicans"
+        },
+        {
+          "key": "libertarian_affiliate",
+          "label": "Libertarian affiliate",
+          "found": false,
+          "status": "not_found",
+          "confidence": 0,
+          "sourceUrl": "https://www.lpar.org/events/",
+          "meetingSchedule": null,
+          "organizationSlug": "saline-county-libertarians"
+        },
+        {
+          "key": "school_board",
+          "label": "School board",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "quorum_court",
+          "label": "Quorum court",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "election_commission",
+          "label": "Election commission",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "city_council",
+          "label": "City council",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        }
+      ],
+      "politicalInfrastructureFound": 1,
+      "politicalInfrastructureTotal": 3,
+      "coveragePercent": 33,
+      "fullInfrastructureNote": "School board, quorum court, election commission, city council — Pass 26+"
+    },
+    {
+      "county": "Scott",
+      "countySlug": "scott",
+      "entities": [
+        {
+          "key": "democratic_committee",
+          "label": "Democratic committee",
+          "found": true,
+          "status": "page_discovered",
+          "confidence": 20,
+          "sourceUrl": "https://www.arkdems.org/county/scott/",
+          "meetingSchedule": null,
+          "organizationSlug": "scott-county-democrats"
+        },
+        {
+          "key": "republican_committee",
+          "label": "Republican committee",
+          "found": true,
+          "status": "meeting_schedule_public",
+          "confidence": 70,
+          "sourceUrl": "https://www.arkansasgop.org/countygop.html",
+          "meetingSchedule": "1st tuesday",
+          "organizationSlug": "scott-county-republicans"
+        },
+        {
+          "key": "libertarian_affiliate",
+          "label": "Libertarian affiliate",
+          "found": false,
+          "status": "not_found",
+          "confidence": 0,
+          "sourceUrl": "https://www.lpar.org/events/",
+          "meetingSchedule": null,
+          "organizationSlug": "scott-county-libertarians"
+        },
+        {
+          "key": "school_board",
+          "label": "School board",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "quorum_court",
+          "label": "Quorum court",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "election_commission",
+          "label": "Election commission",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "city_council",
+          "label": "City council",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        }
+      ],
+      "politicalInfrastructureFound": 2,
+      "politicalInfrastructureTotal": 3,
+      "coveragePercent": 67,
+      "fullInfrastructureNote": "School board, quorum court, election commission, city council — Pass 26+"
+    },
+    {
+      "county": "Searcy",
+      "countySlug": "searcy",
+      "entities": [
+        {
+          "key": "democratic_committee",
+          "label": "Democratic committee",
+          "found": true,
+          "status": "page_discovered",
+          "confidence": 20,
+          "sourceUrl": "https://www.arkdems.org/county/searcy/",
+          "meetingSchedule": null,
+          "organizationSlug": "searcy-county-democrats"
+        },
+        {
+          "key": "republican_committee",
+          "label": "Republican committee",
+          "found": true,
+          "status": "meeting_schedule_public",
+          "confidence": 70,
+          "sourceUrl": "https://www.arkansasgop.org/countygop.html",
+          "meetingSchedule": "2nd Thursday",
+          "organizationSlug": "searcy-county-republicans"
+        },
+        {
+          "key": "libertarian_affiliate",
+          "label": "Libertarian affiliate",
+          "found": false,
+          "status": "not_found",
+          "confidence": 0,
+          "sourceUrl": "https://www.lpar.org/events/",
+          "meetingSchedule": null,
+          "organizationSlug": "searcy-county-libertarians"
+        },
+        {
+          "key": "school_board",
+          "label": "School board",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "quorum_court",
+          "label": "Quorum court",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "election_commission",
+          "label": "Election commission",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "city_council",
+          "label": "City council",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        }
+      ],
+      "politicalInfrastructureFound": 2,
+      "politicalInfrastructureTotal": 3,
+      "coveragePercent": 67,
+      "fullInfrastructureNote": "School board, quorum court, election commission, city council — Pass 26+"
+    },
+    {
+      "county": "Sebastian",
+      "countySlug": "sebastian",
+      "entities": [
+        {
+          "key": "democratic_committee",
+          "label": "Democratic committee",
+          "found": true,
+          "status": "page_discovered",
+          "confidence": 20,
+          "sourceUrl": "https://www.arkdems.org/county/sebastian/",
+          "meetingSchedule": null,
+          "organizationSlug": "sebastian-county-democrats"
+        },
+        {
+          "key": "republican_committee",
+          "label": "Republican committee",
+          "found": true,
+          "status": "meeting_schedule_public",
+          "confidence": 70,
+          "sourceUrl": "https://www.arkansasgop.org/countygop.html",
+          "meetingSchedule": "4th Thursday",
+          "organizationSlug": "sebastian-county-republicans"
+        },
+        {
+          "key": "libertarian_affiliate",
+          "label": "Libertarian affiliate",
+          "found": false,
+          "status": "not_found",
+          "confidence": 0,
+          "sourceUrl": "https://www.lpar.org/events/",
+          "meetingSchedule": null,
+          "organizationSlug": "sebastian-county-libertarians"
+        },
+        {
+          "key": "school_board",
+          "label": "School board",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "quorum_court",
+          "label": "Quorum court",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "election_commission",
+          "label": "Election commission",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "city_council",
+          "label": "City council",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        }
+      ],
+      "politicalInfrastructureFound": 2,
+      "politicalInfrastructureTotal": 3,
+      "coveragePercent": 67,
+      "fullInfrastructureNote": "School board, quorum court, election commission, city council — Pass 26+"
+    },
+    {
+      "county": "Sevier",
+      "countySlug": "sevier",
+      "entities": [
+        {
+          "key": "democratic_committee",
+          "label": "Democratic committee",
+          "found": true,
+          "status": "page_discovered",
+          "confidence": 20,
+          "sourceUrl": "https://www.arkdems.org/county/sevier/",
+          "meetingSchedule": null,
+          "organizationSlug": "sevier-county-democrats"
+        },
+        {
+          "key": "republican_committee",
+          "label": "Republican committee",
+          "found": true,
+          "status": "meeting_schedule_public",
+          "confidence": 70,
+          "sourceUrl": "https://www.arkansasgop.org/countygop.html",
+          "meetingSchedule": "3rd thursday",
+          "organizationSlug": "sevier-county-republicans"
+        },
+        {
+          "key": "libertarian_affiliate",
+          "label": "Libertarian affiliate",
+          "found": false,
+          "status": "not_found",
+          "confidence": 0,
+          "sourceUrl": "https://www.lpar.org/events/",
+          "meetingSchedule": null,
+          "organizationSlug": "sevier-county-libertarians"
+        },
+        {
+          "key": "school_board",
+          "label": "School board",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "quorum_court",
+          "label": "Quorum court",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "election_commission",
+          "label": "Election commission",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "city_council",
+          "label": "City council",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        }
+      ],
+      "politicalInfrastructureFound": 2,
+      "politicalInfrastructureTotal": 3,
+      "coveragePercent": 67,
+      "fullInfrastructureNote": "School board, quorum court, election commission, city council — Pass 26+"
+    },
+    {
+      "county": "Sharp",
+      "countySlug": "sharp",
+      "entities": [
+        {
+          "key": "democratic_committee",
+          "label": "Democratic committee",
+          "found": true,
+          "status": "page_discovered",
+          "confidence": 20,
+          "sourceUrl": "https://www.arkdems.org/county/sharp/",
+          "meetingSchedule": null,
+          "organizationSlug": "sharp-county-democrats"
+        },
+        {
+          "key": "republican_committee",
+          "label": "Republican committee",
+          "found": true,
+          "status": "meeting_schedule_public",
+          "confidence": 70,
+          "sourceUrl": "https://www.arkansasgop.org/countygop.html",
+          "meetingSchedule": "2nd Thursday",
+          "organizationSlug": "sharp-county-republicans"
+        },
+        {
+          "key": "libertarian_affiliate",
+          "label": "Libertarian affiliate",
+          "found": false,
+          "status": "not_found",
+          "confidence": 0,
+          "sourceUrl": "https://www.lpar.org/events/",
+          "meetingSchedule": null,
+          "organizationSlug": "sharp-county-libertarians"
+        },
+        {
+          "key": "school_board",
+          "label": "School board",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "quorum_court",
+          "label": "Quorum court",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "election_commission",
+          "label": "Election commission",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "city_council",
+          "label": "City council",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        }
+      ],
+      "politicalInfrastructureFound": 2,
+      "politicalInfrastructureTotal": 3,
+      "coveragePercent": 67,
+      "fullInfrastructureNote": "School board, quorum court, election commission, city council — Pass 26+"
+    },
+    {
+      "county": "Stone",
+      "countySlug": "stone",
+      "entities": [
+        {
+          "key": "democratic_committee",
+          "label": "Democratic committee",
+          "found": true,
+          "status": "page_discovered",
+          "confidence": 20,
+          "sourceUrl": "https://www.arkdems.org/county/stone/",
+          "meetingSchedule": null,
+          "organizationSlug": "stone-county-democrats"
+        },
+        {
+          "key": "republican_committee",
+          "label": "Republican committee",
+          "found": true,
+          "status": "meeting_schedule_public",
+          "confidence": 70,
+          "sourceUrl": "https://www.arkansasgop.org/countygop.html",
+          "meetingSchedule": "2nd Tuesday",
+          "organizationSlug": "stone-county-republicans"
+        },
+        {
+          "key": "libertarian_affiliate",
+          "label": "Libertarian affiliate",
+          "found": false,
+          "status": "not_found",
+          "confidence": 0,
+          "sourceUrl": "https://www.lpar.org/events/",
+          "meetingSchedule": null,
+          "organizationSlug": "stone-county-libertarians"
+        },
+        {
+          "key": "school_board",
+          "label": "School board",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "quorum_court",
+          "label": "Quorum court",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "election_commission",
+          "label": "Election commission",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "city_council",
+          "label": "City council",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        }
+      ],
+      "politicalInfrastructureFound": 2,
+      "politicalInfrastructureTotal": 3,
+      "coveragePercent": 67,
+      "fullInfrastructureNote": "School board, quorum court, election commission, city council — Pass 26+"
+    },
+    {
+      "county": "Union",
+      "countySlug": "union",
+      "entities": [
+        {
+          "key": "democratic_committee",
+          "label": "Democratic committee",
+          "found": true,
+          "status": "page_discovered",
+          "confidence": 20,
+          "sourceUrl": "https://www.arkdems.org/county/union/",
+          "meetingSchedule": null,
+          "organizationSlug": "union-county-democrats"
+        },
+        {
+          "key": "republican_committee",
+          "label": "Republican committee",
+          "found": true,
+          "status": "meeting_schedule_public",
+          "confidence": 70,
+          "sourceUrl": "https://www.arkansasgop.org/countygop.html",
+          "meetingSchedule": "1st Monday",
+          "organizationSlug": "union-county-republicans"
+        },
+        {
+          "key": "libertarian_affiliate",
+          "label": "Libertarian affiliate",
+          "found": false,
+          "status": "not_found",
+          "confidence": 0,
+          "sourceUrl": "https://www.lpar.org/events/",
+          "meetingSchedule": null,
+          "organizationSlug": "union-county-libertarians"
+        },
+        {
+          "key": "school_board",
+          "label": "School board",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "quorum_court",
+          "label": "Quorum court",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "election_commission",
+          "label": "Election commission",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "city_council",
+          "label": "City council",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        }
+      ],
+      "politicalInfrastructureFound": 2,
+      "politicalInfrastructureTotal": 3,
+      "coveragePercent": 67,
+      "fullInfrastructureNote": "School board, quorum court, election commission, city council — Pass 26+"
+    },
+    {
+      "county": "Van Buren",
+      "countySlug": "van-buren",
+      "entities": [
+        {
+          "key": "democratic_committee",
+          "label": "Democratic committee",
+          "found": true,
+          "status": "meeting_schedule_public",
+          "confidence": 70,
+          "sourceUrl": "https://www.arkdems.org/county/van-buren/",
+          "meetingSchedule": "Monthly 1st Monday at 6:30 PM at Western Sizzlin' in Clinton",
+          "organizationSlug": "van-buren-county-democrats"
+        },
+        {
+          "key": "republican_committee",
+          "label": "Republican committee",
+          "found": true,
+          "status": "meeting_schedule_public",
+          "confidence": 70,
+          "sourceUrl": "https://www.arkansasgop.org/countygop.html",
+          "meetingSchedule": "4th Tuesday",
+          "organizationSlug": "van-buren-county-republicans"
+        },
+        {
+          "key": "libertarian_affiliate",
+          "label": "Libertarian affiliate",
+          "found": false,
+          "status": "not_found",
+          "confidence": 0,
+          "sourceUrl": "https://www.lpar.org/events/",
+          "meetingSchedule": null,
+          "organizationSlug": "van-buren-county-libertarians"
+        },
+        {
+          "key": "school_board",
+          "label": "School board",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "quorum_court",
+          "label": "Quorum court",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "election_commission",
+          "label": "Election commission",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "city_council",
+          "label": "City council",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        }
+      ],
+      "politicalInfrastructureFound": 2,
+      "politicalInfrastructureTotal": 3,
+      "coveragePercent": 67,
+      "fullInfrastructureNote": "School board, quorum court, election commission, city council — Pass 26+"
+    },
+    {
+      "county": "Washington",
+      "countySlug": "washington",
+      "entities": [
+        {
+          "key": "democratic_committee",
+          "label": "Democratic committee",
+          "found": true,
+          "status": "page_discovered",
+          "confidence": 20,
+          "sourceUrl": "https://www.arkdems.org/county/washington/",
+          "meetingSchedule": null,
+          "organizationSlug": "washington-county-democrats"
+        },
+        {
+          "key": "republican_committee",
+          "label": "Republican committee",
+          "found": true,
+          "status": "meeting_schedule_public",
+          "confidence": 70,
+          "sourceUrl": "https://www.arkansasgop.org/countygop.html",
+          "meetingSchedule": "3rd Tuesday",
+          "organizationSlug": "washington-county-republicans"
+        },
+        {
+          "key": "libertarian_affiliate",
+          "label": "Libertarian affiliate",
+          "found": false,
+          "status": "not_found",
+          "confidence": 0,
+          "sourceUrl": "https://www.lpar.org/events/",
+          "meetingSchedule": null,
+          "organizationSlug": "washington-county-libertarians"
+        },
+        {
+          "key": "school_board",
+          "label": "School board",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "quorum_court",
+          "label": "Quorum court",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "election_commission",
+          "label": "Election commission",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "city_council",
+          "label": "City council",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        }
+      ],
+      "politicalInfrastructureFound": 2,
+      "politicalInfrastructureTotal": 3,
+      "coveragePercent": 67,
+      "fullInfrastructureNote": "School board, quorum court, election commission, city council — Pass 26+"
+    },
+    {
+      "county": "White",
+      "countySlug": "white",
+      "entities": [
+        {
+          "key": "democratic_committee",
+          "label": "Democratic committee",
+          "found": true,
+          "status": "page_discovered",
+          "confidence": 20,
+          "sourceUrl": "https://www.arkdems.org/county/white/",
+          "meetingSchedule": null,
+          "organizationSlug": "white-county-democrats"
+        },
+        {
+          "key": "republican_committee",
+          "label": "Republican committee",
+          "found": true,
+          "status": "meeting_schedule_public",
+          "confidence": 70,
+          "sourceUrl": "https://www.arkansasgop.org/countygop.html",
+          "meetingSchedule": "4th Thursday",
+          "organizationSlug": "white-county-republicans"
+        },
+        {
+          "key": "libertarian_affiliate",
+          "label": "Libertarian affiliate",
+          "found": false,
+          "status": "not_found",
+          "confidence": 0,
+          "sourceUrl": "https://www.lpar.org/events/",
+          "meetingSchedule": null,
+          "organizationSlug": "white-county-libertarians"
+        },
+        {
+          "key": "school_board",
+          "label": "School board",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "quorum_court",
+          "label": "Quorum court",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "election_commission",
+          "label": "Election commission",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "city_council",
+          "label": "City council",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        }
+      ],
+      "politicalInfrastructureFound": 2,
+      "politicalInfrastructureTotal": 3,
+      "coveragePercent": 67,
+      "fullInfrastructureNote": "School board, quorum court, election commission, city council — Pass 26+"
+    },
+    {
+      "county": "Woodruff",
+      "countySlug": "woodruff",
+      "entities": [
+        {
+          "key": "democratic_committee",
+          "label": "Democratic committee",
+          "found": true,
+          "status": "page_discovered",
+          "confidence": 20,
+          "sourceUrl": "https://www.arkdems.org/county/woodruff/",
+          "meetingSchedule": null,
+          "organizationSlug": "woodruff-county-democrats"
+        },
+        {
+          "key": "republican_committee",
+          "label": "Republican committee",
+          "found": true,
+          "status": "partial",
+          "confidence": 25,
+          "sourceUrl": "https://www.arkansasgop.org/countygop.html",
+          "meetingSchedule": "Awaiting committee confirmation",
+          "organizationSlug": "woodruff-county-republicans"
+        },
+        {
+          "key": "libertarian_affiliate",
+          "label": "Libertarian affiliate",
+          "found": false,
+          "status": "not_found",
+          "confidence": 0,
+          "sourceUrl": "https://www.lpar.org/events/",
+          "meetingSchedule": null,
+          "organizationSlug": "woodruff-county-libertarians"
+        },
+        {
+          "key": "school_board",
+          "label": "School board",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "quorum_court",
+          "label": "Quorum court",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "election_commission",
+          "label": "Election commission",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "city_council",
+          "label": "City council",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        }
+      ],
+      "politicalInfrastructureFound": 2,
+      "politicalInfrastructureTotal": 3,
+      "coveragePercent": 67,
+      "fullInfrastructureNote": "School board, quorum court, election commission, city council — Pass 26+"
+    },
+    {
+      "county": "Yell",
+      "countySlug": "yell",
+      "entities": [
+        {
+          "key": "democratic_committee",
+          "label": "Democratic committee",
+          "found": true,
+          "status": "page_discovered",
+          "confidence": 20,
+          "sourceUrl": "https://www.arkdems.org/county/yell/",
+          "meetingSchedule": null,
+          "organizationSlug": "yell-county-democrats"
+        },
+        {
+          "key": "republican_committee",
+          "label": "Republican committee",
+          "found": true,
+          "status": "meeting_schedule_public",
+          "confidence": 70,
+          "sourceUrl": "https://www.arkansasgop.org/countygop.html",
+          "meetingSchedule": "3rd Tuesday",
+          "organizationSlug": "yell-county-republicans"
+        },
+        {
+          "key": "libertarian_affiliate",
+          "label": "Libertarian affiliate",
+          "found": false,
+          "status": "not_found",
+          "confidence": 0,
+          "sourceUrl": "https://www.lpar.org/events/",
+          "meetingSchedule": null,
+          "organizationSlug": "yell-county-libertarians"
+        },
+        {
+          "key": "school_board",
+          "label": "School board",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "quorum_court",
+          "label": "Quorum court",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "election_commission",
+          "label": "Election commission",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        },
+        {
+          "key": "city_council",
+          "label": "City council",
+          "found": false,
+          "status": "pass_26_plus",
+          "confidence": 0,
+          "sourceUrl": null
+        }
+      ],
+      "politicalInfrastructureFound": 2,
+      "politicalInfrastructureTotal": 3,
+      "coveragePercent": 67,
+      "fullInfrastructureNote": "School board, quorum court, election commission, city council — Pass 26+"
+    }
+  ]
+}

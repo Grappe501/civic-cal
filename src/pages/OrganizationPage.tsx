@@ -20,6 +20,8 @@ import { getProfile } from "../lib/profiles/profileRegistry";
 import { FreshnessFooter } from "../components/FreshnessFooter";
 import { RelatedCommunityPages } from "../components/profiles/RelatedCommunityPages";
 import { relatedLink } from "../lib/profiles/profileLinks";
+import { getPoliticalPartyOrganization } from "../lib/political-infrastructure/registry";
+import { formatDensitySummaryText, buildCivicPoliticalDensitySummary } from "../lib/political-infrastructure/civicPoliticalDensityAssistant";
 
 export function OrganizationPage() {
   const { slug } = useParams<{ slug: string }>();
@@ -49,6 +51,15 @@ export function OrganizationPage() {
   const orgServiceOpps = useMemo(
     () => (org && slug ? opportunitiesForOrganization(slug, events) : []),
     [org, slug, events],
+  );
+
+  const politicalOrg = useMemo(
+    () => (org?.hostType === "political_party" && slug ? getPoliticalPartyOrganization(slug) : undefined),
+    [org, slug],
+  );
+  const densitySummary = useMemo(
+    () => (org?.hostType === "political_party" && org.county ? buildCivicPoliticalDensitySummary(org.county) : null),
+    [org],
   );
 
   const profile = useMemo(() => {
@@ -128,7 +139,26 @@ export function OrganizationPage() {
               <HandHeart className="h-4 w-4" /> Volunteer page
             </a>
           )}
-          {org.recurringTraditions && org.recurringTraditions.length > 0 && (
+          {org.hostType === "political_party" && politicalOrg && (
+            <div className="card">
+              <h3 className="text-xs font-bold uppercase text-muted mb-2">Meeting schedule</h3>
+              <p className="text-sm">{politicalOrg.meetingSchedule ?? "Not published on official page yet."}</p>
+              {politicalOrg.chairPublic && <p className="text-sm text-muted mt-2">Chair (public listing): {politicalOrg.chairPublic}</p>}
+              <p className="text-xs text-muted mt-2">Confidence: {politicalOrg.confidenceScore}% · Updated {politicalOrg.freshnessDate}</p>
+            </div>
+          )}
+          {org.sourceUrl && (
+            <a href={org.sourceUrl} target="_blank" rel="noopener noreferrer" className="card flex items-center gap-2 text-sm hover:border-ark-sage">
+              <ExternalLink className="h-4 w-4" /> Official source
+            </a>
+          )}
+          {densitySummary && (
+            <div className="card">
+              <h3 className="text-xs font-bold uppercase text-muted mb-2">County civic-political density</h3>
+              <pre className="text-xs whitespace-pre-wrap text-muted font-sans">{formatDensitySummaryText(densitySummary)}</pre>
+            </div>
+          )}
+          {org.recurringTraditions && org.recurringTraditions.length > 0 && org.hostType !== "political_party" && (
             <div className="card">
               <h3 className="text-xs font-bold uppercase text-muted mb-2">Traditions</h3>
               <ul className="text-sm space-y-1">

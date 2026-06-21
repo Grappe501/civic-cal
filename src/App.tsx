@@ -36,6 +36,9 @@ import { AdminDataHealthPage } from "./pages/AdminDataHealthPage";
 import { AdminDensityPage } from "./pages/AdminDensityPage";
 import { AdminFeedCoveragePage } from "./pages/AdminFeedCoveragePage";
 import { AdminAutogrowPage } from "./pages/AdminAutogrowPage";
+import { AdminPoliticalInfrastructurePage } from "./pages/AdminPoliticalInfrastructurePage";
+import { AdminCandidatesPage } from "./pages/AdminCandidatesPage";
+import { CandidateWorkspacePage } from "./pages/CandidateWorkspacePage";
 import { GeoResolverPage } from "./pages/GeoResolverPage";
 import { EntityProfilePage } from "./pages/EntityProfilePage";
 import { EntityDirectoryPage } from "./pages/EntityDirectoryPage";
@@ -86,7 +89,7 @@ export default function App() {
           <Route path="/church/:slug" element={<EntityProfilePage entityType="church" />} />
           <Route path="/school/:slug" element={<EntityProfilePage entityType="school" />} />
           <Route path="/college/:slug" element={<EntityProfilePage entityType="college" />} />
-          <Route path="/candidate/:slug" element={<EntityProfilePage entityType="candidate" />} />
+          <Route path="/candidate/:slug" element={<CandidateWorkspacePage />} />
           <Route path="/race/:slug" element={<EntityProfilePage entityType="race" />} />
           <Route path="/festival/:slug" element={<EntityProfilePage entityType="festival" />} />
           <Route path="/parade/:slug" element={<EntityProfilePage entityType="parade" />} />
@@ -96,6 +99,8 @@ export default function App() {
           <Route path="/admin/density" element={<AdminDensityPage />} />
           <Route path="/admin/feeds" element={<AdminFeedCoveragePage />} />
           <Route path="/admin/autogrow" element={<AdminAutogrowPage />} />
+          <Route path="/admin/political-infrastructure" element={<AdminPoliticalInfrastructurePage />} />
+          <Route path="/admin/candidates" element={<AdminCandidatesPage />} />
           <Route path="/admin" element={<AdminPage />} />
           <Route path="/:slug" element={<GeoResolverPage />} />
         </Routes>

@@ -44,6 +44,8 @@ export interface IngestionCandidate {
   isRecurringAnnual?: boolean;
   partyLabel?: string | null;
   meetingSubtype?: string | null;
+  seriesKey?: string | null;
+  isRecurringSeries?: boolean;
   flagshipId?: string;
   harvestBatch?: string | null;
   harvestWindow?: { start: string; end: string } | null;

@@ -1,9 +1,12 @@
 const fs = require("node:fs");
 const path = require("node:path");
 const { getClient, json } = require("./lib/db");
+const { approveRecurringSeries } = require("../../scripts/political-infrastructure/lib/series-approval.cjs");
 
 const STAGED_PATH = path.join(__dirname, "..", "..", "data", "ingestion", "staged-event-candidates.json");
 const STAGED_TOP200_PATH = path.join(__dirname, "..", "..", "data", "ingestion", "staged-event-candidates-top-200.json");
+const PARTY_STAGED_PATH = path.join(__dirname, "..", "..", "data", "ingestion", "political-party-meetings-staged.json");
+const AUTOGROW_STAGED_PATH = path.join(__dirname, "..", "..", "data", "ingestion", "autogrow-staged-candidates.json");
 
 function mapStagedRecord(c, i) {
   return {
@@ -40,12 +43,16 @@ function mapStagedRecord(c, i) {
     flagshipId: c.flagship_id,
     harvestBatch: c.harvest_batch,
     harvestWindow: c.harvest_window,
+    partyLabel: c.party_label,
+    meetingSubtype: c.meeting_subtype,
+    seriesKey: c.series_key,
+    isRecurringSeries: c.is_recurring_series,
   };
 }
 
 function loadStagedFallback() {
   const lists = [];
-  for (const p of [STAGED_TOP200_PATH, STAGED_PATH]) {
+  for (const p of [STAGED_TOP200_PATH, STAGED_PATH, PARTY_STAGED_PATH, AUTOGROW_STAGED_PATH]) {
     if (!fs.existsSync(p)) continue;
     const data = JSON.parse(fs.readFileSync(p, "utf8"));
     lists.push(...(data.candidates ?? []));
@@ -107,7 +114,9 @@ function filterSection(candidates, section) {
     case "flagship_annual":
       return candidates.filter((c) => c.isRecurringAnnual || c.reviewStatus === "verified_flagship");
     case "government_meetings":
-      return candidates.filter((c) => c.category === "civic_meeting");
+      return candidates.filter((c) => c.category === "civic_meeting" || c.category === "public_party_meeting");
+    case "public_party_meetings":
+      return candidates.filter((c) => c.category === "public_party_meeting");
     case "church_fundraisers":
       return candidates.filter(
         (c) =>
@@ -182,16 +191,28 @@ exports.handler = async (event) => {
 
   if (!isAdmin) return json(401, { error: "Unauthorized" });
 
-  const client = getClient();
-  if (!client) return json(503, { error: "DATABASE_URL not configured" });
+  if (event.httpMethod === "PATCH") {
+    const body = JSON.parse(event.body || "{}");
+    const { id, action, seriesKey, ...updates } = body;
 
-  try {
-    await client.connect();
+    if (action === "approve_recurring_series") {
+      const key = seriesKey || updates.series_key;
+      if (!key) return json(400, { error: "Missing seriesKey" });
+      const result = approveRecurringSeries(key, { minConfidence: 50 });
+      return json(result.ok ? 200 : 400, result);
+    }
 
-    if (event.httpMethod === "PATCH") {
-      const body = JSON.parse(event.body || "{}");
-      const { id, action, ...updates } = body;
-      if (!id) return json(400, { error: "Missing id" });
+    const client = getClient();
+    if (!client) {
+      return json(503, { error: "DATABASE_URL not configured — use approve_recurring_series for party JSON locally" });
+    }
+
+    try {
+      await client.connect();
+      if (!id) {
+        await client.end();
+        return json(400, { error: "Missing id" });
+      }
 
       if (action === "reject") {
         await client.query(
@@ -262,14 +283,13 @@ exports.handler = async (event) => {
       const res = await client.query(`SELECT * FROM civic_call.event_ingestion_candidates WHERE id = $1`, [id]);
       await client.end();
       return json(200, { candidate: rowToCandidate(res.rows[0]) });
+    } catch (err) {
+      try {
+        await client.end();
+      } catch (_) {}
+      return json(500, { error: err.message });
     }
-
-    await client.end();
-    return json(405, { error: "Method not allowed" });
-  } catch (err) {
-    try {
-      await client.end();
-    } catch (_) {}
-    return json(500, { error: err.message });
   }
+
+  return json(405, { error: "Method not allowed" });
 };

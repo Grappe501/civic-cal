@@ -42,6 +42,8 @@ function mapRawCandidate(c: Record<string, unknown>, i: number): IngestionCandid
     estimatedCrowdMax: (c.estimated_crowd_max as number) ?? null,
     partyLabel: (c.party_label as string) || null,
     meetingSubtype: (c.meeting_subtype as string) || null,
+    seriesKey: (c.series_key as string) || null,
+    isRecurringSeries: Boolean(c.is_recurring_series),
   };
 }
 
@@ -50,7 +52,9 @@ function localCandidates(): IngestionCandidate[] {
   const staged = (stagedBundle as { candidates?: Record<string, unknown>[] }).candidates ?? [];
   const party = (partyStagedBundle as { candidates?: Record<string, unknown>[] }).candidates ?? [];
   const autogrow = (autogrowStagedBundle as { candidates?: Record<string, unknown>[] }).candidates ?? [];
-  const merged = [...top200, ...staged, ...party, ...autogrow];
+  const merged = [...top200, ...staged, ...party, ...autogrow].filter(
+    (c) => c.review_status !== "approved" && c.review_status !== "rejected",
+  );
   if (merged.length) return merged.map(mapRawCandidate);
   const flagship = (flagshipBundle as { events?: Record<string, unknown>[] }).events ?? [];
   return flagship.map(mapRawCandidate);
@@ -95,7 +99,7 @@ export async function fetchIngestionCandidates(section: IntelligenceSection = "n
 export async function candidateAdminAction(
   token: string,
   id: string,
-  action: "approve_to_events" | "reject" | "mark_duplicate" | "mark_recurring",
+  action: "approve_to_events" | "reject" | "mark_duplicate" | "mark_recurring" | "approve_recurring_series",
   extra?: Record<string, unknown>,
 ): Promise<void> {
   const res = await fetch(`${fnBase}/ingestion-candidates`, {
@@ -107,4 +111,18 @@ export async function candidateAdminAction(
     body: JSON.stringify({ id, action, ...extra }),
   });
   if (!res.ok) throw new Error("Candidate action failed");
+}
+
+export async function approveRecurringSeriesAction(token: string, seriesKey: string): Promise<{ ok: boolean; eventsPublished?: number }> {
+  const res = await fetch(`${fnBase}/ingestion-candidates`, {
+    method: "PATCH",
+    headers: {
+      Authorization: `Bearer ${token}`,
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({ action: "approve_recurring_series", seriesKey }),
+  });
+  const data = await res.json();
+  if (!res.ok) throw new Error(data.error || "Series approval failed");
+  return data;
 }

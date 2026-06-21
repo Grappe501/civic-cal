@@ -4,7 +4,7 @@
  */
 
 function htmlToText(html) {
-  return String(html)
+  let t = String(html)
     .replace(/<script[\s\S]*?<\/script>/gi, " ")
     .replace(/<style[\s\S]*?<\/style>/gi, " ")
     .replace(/<br\s*\/?>/gi, "\n")
@@ -18,10 +18,16 @@ function htmlToText(html) {
     .replace(/\n{3,}/g, "\n\n")
     .replace(/[ \t]{2,}/g, " ")
     .trim();
+  // Ensure county blocks split when HTML collapses whitespace between counties
+  t = t.replace(
+    /\s+((?:St\.\s+)?[A-Z][A-Za-z]+(?:\s+[A-Z][A-Za-z]+)?)\s+County\s+Chair:/g,
+    "\n\n$1 County\n Chair:",
+  );
+  return t;
 }
 
 const COUNTY_BLOCK_RE =
-  /(?:^|\n)\s*([A-Z][A-Za-z]+(?:\s+[A-Z][A-Za-z]+)?)\s+[Cc]ounty(?:\s*\([^)]*\))?(?:\s*\([^)]*\))?\s*\n+\s*Chair:\s*([^\n]+)\s*\n+\s*(?:Meeting Information|MEETING INFORMATION|meeting information)\s*\n+([\s\S]*?)(?=\n\s*[A-Z][A-Za-z]+(?:\s+[A-Z][A-Za-z]+)?\s+[Cc]ounty(?:\s*\(|$|\n)|$)/gi;
+  /(?:^|\n)\s*((?:St\.\s+)?[A-Z][A-Za-z]+(?:\s+[A-Z][A-Za-z]+)?)\s+[Cc]ounty(?:\s*\([^)]*\))?(?:\s*\([^)]*\))?\s*\n+\s*Chair:\s*([^\n]+)\s*\n+\s*(?:Meeting Information|MEETING INFORMATION|meeting information)\s*\n+([\s\S]*?)(?=\n\s*(?:St\.\s+)?[A-Z][A-Za-z]+(?:\s+[A-Z][A-Za-z]+)?\s+[Cc]ounty(?:\s*\(|$|\n)|$)/gi;
 
 export function parseGopCountyPageText(htmlOrText) {
   let text = htmlOrText.includes("<") ? htmlToText(htmlOrText) : String(htmlOrText);
@@ -30,7 +36,8 @@ export function parseGopCountyPageText(htmlOrText) {
 
   let match;
   while ((match = COUNTY_BLOCK_RE.exec(text)) !== null) {
-    const county = match[1].trim().replace(/\s+/g, " ");
+    let county = match[1].trim().replace(/\s+/g, " ");
+    county = county.replace(/^St\.\s+/i, "St. ");
     const chair = match[2].trim().replace(/\s+/g, " ");
     const infoRaw = match[3].trim().replace(/\s+/g, " ");
 
@@ -76,6 +83,9 @@ function splitVenue(infoRaw) {
   );
   let recurrence = meal ? meal[0] : recurrenceMatch ? recurrenceMatch[1].trim() : infoRaw.slice(0, 80);
   let rest = infoRaw.replace(recurrence, "").trim();
+  // Truncate if next county block leaked into venue field
+  const leak = rest.match(/\b((?:St\.\s+)?[A-Z][A-Za-z]+(?:\s+[A-Z][A-Za-z]+)?)\s+County\s+Chair:/);
+  if (leak) rest = rest.slice(0, leak.index).trim();
 
   const addressMatch = rest.match(/(\d+[^,]+,\s*[A-Za-z\s]+,\s*AR\s*\d{5})/i)
     || rest.match(/(\d+[^,]+,\s*[A-Za-z\s]+,\s*AR\b[^,]*)/i);

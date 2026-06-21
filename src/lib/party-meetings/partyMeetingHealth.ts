@@ -1,5 +1,6 @@
 import partySummary from "../../../data/ingestion/political-party-meetings-summary.json";
 import partyStaged from "../../../data/ingestion/political-party-meetings-staged.json";
+import partyApproved from "../../../data/ingestion/political-party-meetings-approved-events.json";
 import partyRegistry from "../../../data/event-harvest/political-party-source-registry.json";
 
 export interface PartyMeetingHealth {
@@ -19,7 +20,9 @@ export function runPartyMeetingHealth(): PartyMeetingHealth {
     recurrenceNeedsReview?: number;
     partyCounts?: Record<string, number>;
   };
-  const staged = (partyStaged as { candidates?: { confidence_score?: number }[] }).candidates ?? [];
+  const staged = (partyStaged as { candidates?: { confidence_score?: number; review_status?: string }[] }).candidates ?? [];
+  const pending = staged.filter((c) => c.review_status !== "approved" && c.review_status !== "rejected");
+  const approved = (partyApproved as { events?: unknown[] }).events ?? [];
   const avg =
     staged.length > 0
       ? Math.round(staged.reduce((s, c) => s + (c.confidence_score ?? 0), 0) / staged.length)
@@ -27,8 +30,8 @@ export function runPartyMeetingHealth(): PartyMeetingHealth {
 
   return {
     sourcesFound: (partyRegistry as { sources?: unknown[] }).sources?.length ?? 0,
-    stagedMeetings: summary.stagedCandidates ?? staged.length,
-    approvedMeetings: 0,
+    stagedMeetings: pending.length || summary.stagedCandidates || staged.length,
+    approvedMeetings: approved.length,
     countiesWithData: summary.countiesWithData ?? 0,
     recurrenceNeedsReview: summary.recurrenceNeedsReview ?? 0,
     partyCounts: summary.partyCounts ?? {},

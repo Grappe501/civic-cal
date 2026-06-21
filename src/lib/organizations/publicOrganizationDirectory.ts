@@ -1,5 +1,6 @@
 import { listChurches, listColleges, listOrganizations, listSchools } from "../institutions/registry";
 import { listExtensionOffices, listHomemakerClubs } from "../institutions/communityAnchorsRegistry";
+import { listPoliticalPartyOrganizations } from "../political-infrastructure/registry";
 import { citySlug } from "../local-intelligence/registry";
 import { countySlug } from "../counties";
 import type { HostGlyphKind } from "../glyphs/civicGlyphs";
@@ -21,7 +22,8 @@ export type PublicHostType =
   | "business"
   | "nonprofit"
   | "campaign"
-  | "community";
+  | "community"
+  | "political_party";
 
 export interface PublicOrganizationProfile {
   id: string;
@@ -38,6 +40,10 @@ export interface PublicOrganizationProfile {
   recurringTraditions?: string[];
   verified: boolean;
   claimStatus: "unclaimed" | "pending" | "claimed";
+  confidenceScore?: number;
+  politicalPartyLabel?: string;
+  meetingSchedule?: string | null;
+  sourceUrl?: string | null;
 }
 
 function slugifyPart(s: string): string {
@@ -171,6 +177,33 @@ function buildDirectory(): PublicOrganizationProfile[] {
       city: eh.city,
       description: eh.publicEventsNotes,
       verified: eh.verified,
+      claimStatus: "unclaimed",
+    });
+  }
+
+  for (const p of listPoliticalPartyOrganizations()) {
+    add({
+      id: p.id,
+      slug: p.slug,
+      name: p.name,
+      hostType: "political_party",
+      glyphKind: "community",
+      county: p.county,
+      city: null,
+      website: p.sourceUrl,
+      sourceUrl: p.sourceUrl,
+      description: [
+        p.meetingSchedule ? `Public meeting schedule: ${p.meetingSchedule}.` : "County party committee page indexed.",
+        p.chairPublic ? `County chair (public listing): ${p.chairPublic}.` : null,
+        "Neutral civic-political infrastructure — not an endorsement.",
+      ]
+        .filter(Boolean)
+        .join(" "),
+      recurringTraditions: p.meetingSchedule ? [p.meetingSchedule] : undefined,
+      meetingSchedule: p.meetingSchedule,
+      verified: p.confidenceScore >= 60,
+      confidenceScore: p.confidenceScore,
+      politicalPartyLabel: p.partyLabel,
       claimStatus: "unclaimed",
     });
   }

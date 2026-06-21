@@ -1,6 +1,7 @@
 import type { CivicEvent } from "../types";
 import seedBundle from "../../../data/seed-events.json";
 import demoBundle from "../../../data/seed-events-public-demo.json";
+import approvedPartyBundle from "../../../data/ingestion/political-party-meetings-approved-events.json";
 
 type SeedFile = { events?: CivicEvent[]; label?: string };
 
@@ -12,11 +13,18 @@ export function loadDemoSeedEvents(): CivicEvent[] {
   return (demoBundle as SeedFile).events ?? [];
 }
 
-/** Merged bundled seeds — main first, demo fills unique slugs. */
+export function loadApprovedPartyEvents(): CivicEvent[] {
+  return (approvedPartyBundle as SeedFile).events ?? [];
+}
+
+/** Merged bundled seeds — main first, demo fills unique slugs, approved party meetings last. */
 export function getBundledSeedEvents(): CivicEvent[] {
   const bySlug = new Map<string, CivicEvent>();
   for (const e of loadMainSeedEvents()) bySlug.set(e.slug, e);
   for (const e of loadDemoSeedEvents()) {
+    if (!bySlug.has(e.slug)) bySlug.set(e.slug, e);
+  }
+  for (const e of loadApprovedPartyEvents()) {
     if (!bySlug.has(e.slug)) bySlug.set(e.slug, e);
   }
   return [...bySlug.values()];

@@ -41,6 +41,8 @@ export function normalizePartyMeeting(raw) {
     notes: buildNotes(raw, rule),
     start_time: parseTimeTo24(rule.time || raw.time),
     chair_public: raw.chair || null,
+    series_key: seriesKey(raw),
+    recurring_registry_id: seriesKey(raw),
   };
 
   if (dates.length > 0) {
@@ -85,6 +87,10 @@ function buildNotes(raw, rule) {
 
 function slug(s) {
   return String(s).toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "").slice(0, 80);
+}
+
+function seriesKey(raw) {
+  return `${slug(raw.county || "statewide")}-${slug(raw.party_label || "other")}`;
 }
 
 export function normalizeAll(records) {

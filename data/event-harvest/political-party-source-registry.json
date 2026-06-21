@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updatedAt": "2026-06-21",
+  "updatedAt": "2026-06-21T07:06:54.126Z",
   "policy": "Public official party pages only. Neutral civic-meetings lane — equal treatment, no endorsements. Admin approval required before publish.",
   "sources": [
     {
@@ -85,15 +85,605 @@
     }
   ],
   "democratic_county_pages": [
-    { "county": "Faulkner", "url": "https://www.arkdems.org/county/faulkner/", "meeting_info": "Monthly 1st Monday at 6:30 PM at McGee Center in Conway" },
-    { "county": "Saline", "url": "https://www.arkdems.org/county/saline/", "meeting_info": "Monthly 2nd Tuesday at 6:30 PM" },
-    { "county": "Van Buren", "url": "https://www.arkdems.org/county/van-buren/", "meeting_info": "Monthly 1st Monday at 6:30 PM at Western Sizzlin' in Clinton" },
-    { "county": "Pulaski", "url": "https://www.arkdems.org/county/pulaski/", "meeting_info": null },
-    { "county": "Washington", "url": "https://www.arkdems.org/county/washington/", "meeting_info": null },
-    { "county": "Benton", "url": "https://www.arkdems.org/county/benton/", "meeting_info": null },
-    { "county": "Garland", "url": "https://www.arkdems.org/county/garland/", "meeting_info": null },
-    { "county": "Jefferson", "url": "https://www.arkdems.org/county/jefferson/", "meeting_info": null },
-    { "county": "Sebastian", "url": "https://www.arkdems.org/county/sebastian/", "meeting_info": null },
-    { "county": "White", "url": "https://www.arkdems.org/county/white/", "meeting_info": null }
+    {
+      "county": "Arkansas",
+      "url": "https://www.arkdems.org/county/arkansas/",
+      "meeting_info": null,
+      "chair": null,
+      "fetch_blocked": false,
+      "last_fetched": null
+    },
+    {
+      "county": "Ashley",
+      "url": "https://www.arkdems.org/county/ashley/",
+      "meeting_info": null,
+      "chair": null,
+      "fetch_blocked": false,
+      "last_fetched": null
+    },
+    {
+      "county": "Baxter",
+      "url": "https://www.arkdems.org/county/baxter/",
+      "meeting_info": null,
+      "chair": null,
+      "fetch_blocked": false,
+      "last_fetched": null
+    },
+    {
+      "county": "Benton",
+      "url": "https://www.arkdems.org/county/benton/",
+      "meeting_info": null,
+      "chair": null,
+      "fetch_blocked": false,
+      "last_fetched": null
+    },
+    {
+      "county": "Boone",
+      "url": "https://www.arkdems.org/county/boone/",
+      "meeting_info": null,
+      "chair": null,
+      "fetch_blocked": false,
+      "last_fetched": null
+    },
+    {
+      "county": "Bradley",
+      "url": "https://www.arkdems.org/county/bradley/",
+      "meeting_info": null,
+      "chair": null,
+      "fetch_blocked": false,
+      "last_fetched": null
+    },
+    {
+      "county": "Calhoun",
+      "url": "https://www.arkdems.org/county/calhoun/",
+      "meeting_info": null,
+      "chair": null,
+      "fetch_blocked": false,
+      "last_fetched": null
+    },
+    {
+      "county": "Carroll",
+      "url": "https://www.arkdems.org/county/carroll/",
+      "meeting_info": null,
+      "chair": null,
+      "fetch_blocked": false,
+      "last_fetched": null
+    },
+    {
+      "county": "Chicot",
+      "url": "https://www.arkdems.org/county/chicot/",
+      "meeting_info": null,
+      "chair": null,
+      "fetch_blocked": false,
+      "last_fetched": null
+    },
+    {
+      "county": "Clark",
+      "url": "https://www.arkdems.org/county/clark/",
+      "meeting_info": null,
+      "chair": null,
+      "fetch_blocked": false,
+      "last_fetched": null
+    },
+    {
+      "county": "Clay",
+      "url": "https://www.arkdems.org/county/clay/",
+      "meeting_info": null,
+      "chair": null,
+      "fetch_blocked": false,
+      "last_fetched": null
+    },
+    {
+      "county": "Cleburne",
+      "url": "https://www.arkdems.org/county/cleburne/",
+      "meeting_info": null,
+      "chair": null,
+      "fetch_blocked": false,
+      "last_fetched": null
+    },
+    {
+      "county": "Cleveland",
+      "url": "https://www.arkdems.org/county/cleveland/",
+      "meeting_info": null,
+      "chair": null,
+      "fetch_blocked": false,
+      "last_fetched": null
+    },
+    {
+      "county": "Columbia",
+      "url": "https://www.arkdems.org/county/columbia/",
+      "meeting_info": null,
+      "chair": null,
+      "fetch_blocked": false,
+      "last_fetched": null
+    },
+    {
+      "county": "Conway",
+      "url": "https://www.arkdems.org/county/conway/",
+      "meeting_info": null,
+      "chair": null,
+      "fetch_blocked": false,
+      "last_fetched": null
+    },
+    {
+      "county": "Craighead",
+      "url": "https://www.arkdems.org/county/craighead/",
+      "meeting_info": null,
+      "chair": null,
+      "fetch_blocked": false,
+      "last_fetched": null
+    },
+    {
+      "county": "Crawford",
+      "url": "https://www.arkdems.org/county/crawford/",
+      "meeting_info": null,
+      "chair": null,
+      "fetch_blocked": false,
+      "last_fetched": null
+    },
+    {
+      "county": "Crittenden",
+      "url": "https://www.arkdems.org/county/crittenden/",
+      "meeting_info": null,
+      "chair": null,
+      "fetch_blocked": false,
+      "last_fetched": null
+    },
+    {
+      "county": "Cross",
+      "url": "https://www.arkdems.org/county/cross/",
+      "meeting_info": null,
+      "chair": null,
+      "fetch_blocked": false,
+      "last_fetched": null
+    },
+    {
+      "county": "Dallas",
+      "url": "https://www.arkdems.org/county/dallas/",
+      "meeting_info": null,
+      "chair": null,
+      "fetch_blocked": false,
+      "last_fetched": null
+    },
+    {
+      "county": "Desha",
+      "url": "https://www.arkdems.org/county/desha/",
+      "meeting_info": null,
+      "chair": null,
+      "fetch_blocked": false,
+      "last_fetched": null
+    },
+    {
+      "county": "Drew",
+      "url": "https://www.arkdems.org/county/drew/",
+      "meeting_info": null,
+      "chair": null,
+      "fetch_blocked": false,
+      "last_fetched": null
+    },
+    {
+      "county": "Faulkner",
+      "url": "https://www.arkdems.org/county/faulkner/",
+      "meeting_info": "Monthly 1st Monday at 6:30 PM at McGee Center in Conway",
+      "chair": null,
+      "fetch_blocked": false,
+      "last_fetched": null
+    },
+    {
+      "county": "Franklin",
+      "url": "https://www.arkdems.org/county/franklin/",
+      "meeting_info": null,
+      "chair": null,
+      "fetch_blocked": false,
+      "last_fetched": null
+    },
+    {
+      "county": "Fulton",
+      "url": "https://www.arkdems.org/county/fulton/",
+      "meeting_info": null,
+      "chair": null,
+      "fetch_blocked": false,
+      "last_fetched": null
+    },
+    {
+      "county": "Garland",
+      "url": "https://www.arkdems.org/county/garland/",
+      "meeting_info": null,
+      "chair": null,
+      "fetch_blocked": false,
+      "last_fetched": null
+    },
+    {
+      "county": "Grant",
+      "url": "https://www.arkdems.org/county/grant/",
+      "meeting_info": null,
+      "chair": null,
+      "fetch_blocked": false,
+      "last_fetched": null
+    },
+    {
+      "county": "Greene",
+      "url": "https://www.arkdems.org/county/greene/",
+      "meeting_info": null,
+      "chair": null,
+      "fetch_blocked": false,
+      "last_fetched": null
+    },
+    {
+      "county": "Hempstead",
+      "url": "https://www.arkdems.org/county/hempstead/",
+      "meeting_info": null,
+      "chair": null,
+      "fetch_blocked": false,
+      "last_fetched": null
+    },
+    {
+      "county": "Hot Spring",
+      "url": "https://www.arkdems.org/county/hot-spring/",
+      "meeting_info": null,
+      "chair": null,
+      "fetch_blocked": false,
+      "last_fetched": null
+    },
+    {
+      "county": "Howard",
+      "url": "https://www.arkdems.org/county/howard/",
+      "meeting_info": null,
+      "chair": null,
+      "fetch_blocked": false,
+      "last_fetched": null
+    },
+    {
+      "county": "Independence",
+      "url": "https://www.arkdems.org/county/independence/",
+      "meeting_info": null,
+      "chair": null,
+      "fetch_blocked": false,
+      "last_fetched": null
+    },
+    {
+      "county": "Izard",
+      "url": "https://www.arkdems.org/county/izard/",
+      "meeting_info": null,
+      "chair": null,
+      "fetch_blocked": false,
+      "last_fetched": null
+    },
+    {
+      "county": "Jackson",
+      "url": "https://www.arkdems.org/county/jackson/",
+      "meeting_info": null,
+      "chair": null,
+      "fetch_blocked": false,
+      "last_fetched": null
+    },
+    {
+      "county": "Jefferson",
+      "url": "https://www.arkdems.org/county/jefferson/",
+      "meeting_info": null,
+      "chair": null,
+      "fetch_blocked": false,
+      "last_fetched": null
+    },
+    {
+      "county": "Johnson",
+      "url": "https://www.arkdems.org/county/johnson/",
+      "meeting_info": null,
+      "chair": null,
+      "fetch_blocked": false,
+      "last_fetched": null
+    },
+    {
+      "county": "Lafayette",
+      "url": "https://www.arkdems.org/county/lafayette/",
+      "meeting_info": null,
+      "chair": null,
+      "fetch_blocked": false,
+      "last_fetched": null
+    },
+    {
+      "county": "Lawrence",
+      "url": "https://www.arkdems.org/county/lawrence/",
+      "meeting_info": null,
+      "chair": null,
+      "fetch_blocked": false,
+      "last_fetched": null
+    },
+    {
+      "county": "Lee",
+      "url": "https://www.arkdems.org/county/lee/",
+      "meeting_info": null,
+      "chair": null,
+      "fetch_blocked": false,
+      "last_fetched": null
+    },
+    {
+      "county": "Lincoln",
+      "url": "https://www.arkdems.org/county/lincoln/",
+      "meeting_info": null,
+      "chair": null,
+      "fetch_blocked": false,
+      "last_fetched": null
+    },
+    {
+      "county": "Little River",
+      "url": "https://www.arkdems.org/county/little-river/",
+      "meeting_info": null,
+      "chair": null,
+      "fetch_blocked": false,
+      "last_fetched": null
+    },
+    {
+      "county": "Logan",
+      "url": "https://www.arkdems.org/county/logan/",
+      "meeting_info": null,
+      "chair": null,
+      "fetch_blocked": false,
+      "last_fetched": null
+    },
+    {
+      "county": "Lonoke",
+      "url": "https://www.arkdems.org/county/lonoke/",
+      "meeting_info": null,
+      "chair": null,
+      "fetch_blocked": false,
+      "last_fetched": null
+    },
+    {
+      "county": "Madison",
+      "url": "https://www.arkdems.org/county/madison/",
+      "meeting_info": null,
+      "chair": null,
+      "fetch_blocked": false,
+      "last_fetched": null
+    },
+    {
+      "county": "Marion",
+      "url": "https://www.arkdems.org/county/marion/",
+      "meeting_info": null,
+      "chair": null,
+      "fetch_blocked": false,
+      "last_fetched": null
+    },
+    {
+      "county": "Miller",
+      "url": "https://www.arkdems.org/county/miller/",
+      "meeting_info": null,
+      "chair": null,
+      "fetch_blocked": false,
+      "last_fetched": null
+    },
+    {
+      "county": "Mississippi",
+      "url": "https://www.arkdems.org/county/mississippi/",
+      "meeting_info": null,
+      "chair": null,
+      "fetch_blocked": false,
+      "last_fetched": null
+    },
+    {
+      "county": "Monroe",
+      "url": "https://www.arkdems.org/county/monroe/",
+      "meeting_info": null,
+      "chair": null,
+      "fetch_blocked": false,
+      "last_fetched": null
+    },
+    {
+      "county": "Montgomery",
+      "url": "https://www.arkdems.org/county/montgomery/",
+      "meeting_info": null,
+      "chair": null,
+      "fetch_blocked": false,
+      "last_fetched": null
+    },
+    {
+      "county": "Nevada",
+      "url": "https://www.arkdems.org/county/nevada/",
+      "meeting_info": null,
+      "chair": null,
+      "fetch_blocked": false,
+      "last_fetched": null
+    },
+    {
+      "county": "Newton",
+      "url": "https://www.arkdems.org/county/newton/",
+      "meeting_info": null,
+      "chair": null,
+      "fetch_blocked": false,
+      "last_fetched": null
+    },
+    {
+      "county": "Ouachita",
+      "url": "https://www.arkdems.org/county/ouachita/",
+      "meeting_info": null,
+      "chair": null,
+      "fetch_blocked": false,
+      "last_fetched": null
+    },
+    {
+      "county": "Perry",
+      "url": "https://www.arkdems.org/county/perry/",
+      "meeting_info": null,
+      "chair": null,
+      "fetch_blocked": false,
+      "last_fetched": null
+    },
+    {
+      "county": "Phillips",
+      "url": "https://www.arkdems.org/county/phillips/",
+      "meeting_info": null,
+      "chair": null,
+      "fetch_blocked": false,
+      "last_fetched": null
+    },
+    {
+      "county": "Pike",
+      "url": "https://www.arkdems.org/county/pike/",
+      "meeting_info": null,
+      "chair": null,
+      "fetch_blocked": false,
+      "last_fetched": null
+    },
+    {
+      "county": "Poinsett",
+      "url": "https://www.arkdems.org/county/poinsett/",
+      "meeting_info": null,
+      "chair": null,
+      "fetch_blocked": false,
+      "last_fetched": null
+    },
+    {
+      "county": "Polk",
+      "url": "https://www.arkdems.org/county/polk/",
+      "meeting_info": null,
+      "chair": null,
+      "fetch_blocked": false,
+      "last_fetched": null
+    },
+    {
+      "county": "Pope",
+      "url": "https://www.arkdems.org/county/pope/",
+      "meeting_info": null,
+      "chair": null,
+      "fetch_blocked": false,
+      "last_fetched": null
+    },
+    {
+      "county": "Prairie",
+      "url": "https://www.arkdems.org/county/prairie/",
+      "meeting_info": null,
+      "chair": null,
+      "fetch_blocked": false,
+      "last_fetched": null
+    },
+    {
+      "county": "Pulaski",
+      "url": "https://www.arkdems.org/county/pulaski/",
+      "meeting_info": null,
+      "chair": null,
+      "fetch_blocked": false,
+      "last_fetched": null
+    },
+    {
+      "county": "Randolph",
+      "url": "https://www.arkdems.org/county/randolph/",
+      "meeting_info": null,
+      "chair": null,
+      "fetch_blocked": false,
+      "last_fetched": null
+    },
+    {
+      "county": "St. Francis",
+      "url": "https://www.arkdems.org/county/st.-francis/",
+      "meeting_info": null,
+      "chair": null,
+      "fetch_blocked": false,
+      "last_fetched": null
+    },
+    {
+      "county": "Saline",
+      "url": "https://www.arkdems.org/county/saline/",
+      "meeting_info": "Monthly 2nd Tuesday at 6:30 PM",
+      "chair": null,
+      "fetch_blocked": false,
+      "last_fetched": null
+    },
+    {
+      "county": "Scott",
+      "url": "https://www.arkdems.org/county/scott/",
+      "meeting_info": null,
+      "chair": null,
+      "fetch_blocked": false,
+      "last_fetched": null
+    },
+    {
+      "county": "Searcy",
+      "url": "https://www.arkdems.org/county/searcy/",
+      "meeting_info": null,
+      "chair": null,
+      "fetch_blocked": false,
+      "last_fetched": null
+    },
+    {
+      "county": "Sebastian",
+      "url": "https://www.arkdems.org/county/sebastian/",
+      "meeting_info": null,
+      "chair": null,
+      "fetch_blocked": false,
+      "last_fetched": null
+    },
+    {
+      "county": "Sevier",
+      "url": "https://www.arkdems.org/county/sevier/",
+      "meeting_info": null,
+      "chair": null,
+      "fetch_blocked": false,
+      "last_fetched": null
+    },
+    {
+      "county": "Sharp",
+      "url": "https://www.arkdems.org/county/sharp/",
+      "meeting_info": null,
+      "chair": null,
+      "fetch_blocked": false,
+      "last_fetched": null
+    },
+    {
+      "county": "Stone",
+      "url": "https://www.arkdems.org/county/stone/",
+      "meeting_info": null,
+      "chair": null,
+      "fetch_blocked": false,
+      "last_fetched": null
+    },
+    {
+      "county": "Union",
+      "url": "https://www.arkdems.org/county/union/",
+      "meeting_info": null,
+      "chair": null,
+      "fetch_blocked": false,
+      "last_fetched": null
+    },
+    {
+      "county": "Van Buren",
+      "url": "https://www.arkdems.org/county/van-buren/",
+      "meeting_info": "Monthly 1st Monday at 6:30 PM at Western Sizzlin' in Clinton",
+      "chair": null,
+      "fetch_blocked": false,
+      "last_fetched": null
+    },
+    {
+      "county": "Washington",
+      "url": "https://www.arkdems.org/county/washington/",
+      "meeting_info": null,
+      "chair": null,
+      "fetch_blocked": false,
+      "last_fetched": null
+    },
+    {
+      "county": "White",
+      "url": "https://www.arkdems.org/county/white/",
+      "meeting_info": null,
+      "chair": null,
+      "fetch_blocked": false,
+      "last_fetched": null
+    },
+    {
+      "county": "Woodruff",
+      "url": "https://www.arkdems.org/county/woodruff/",
+      "meeting_info": null,
+      "chair": null,
+      "fetch_blocked": false,
+      "last_fetched": null
+    },
+    {
+      "county": "Yell",
+      "url": "https://www.arkdems.org/county/yell/",
+      "meeting_info": null,
+      "chair": null,
+      "fetch_blocked": false,
+      "last_fetched": null
+    }
   ]
 }
