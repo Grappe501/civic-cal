@@ -5,6 +5,7 @@ import { cn } from "../lib/cn";
 const nav = [
   { to: "/", label: "Events" },
   { to: "/map", label: "Map" },
+  { to: "/organizers", label: "Organizers" },
   { to: "/this-week", label: "This week" },
   { to: "/counties", label: "Counties" },
   { to: "/civic-watch", label: "Civic watch" },

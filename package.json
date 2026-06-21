@@ -13,6 +13,11 @@
     "seed:sync": "node scripts/run-with-h-drive-env.cjs node scripts/sync-seed-from-reddirt.cjs",
     "seed:import": "node scripts/run-with-h-drive-env.cjs node scripts/import-seed-to-db.cjs",
     "seed:geocode": "node scripts/run-with-h-drive-env.cjs node scripts/geocode-seed-events.mjs",
+    "harvest:city": "node scripts/run-with-h-drive-env.cjs node scripts/event-harvest/harvest-city.mjs",
+    "harvest:priority-cities": "node scripts/run-with-h-drive-env.cjs node scripts/event-harvest/harvest-all-priority-cities.mjs",
+    "harvest:flagship": "node scripts/run-with-h-drive-env.cjs node scripts/event-harvest/sources/dolr-events.mjs",
+    "harvest:dedupe": "node scripts/run-with-h-drive-env.cjs node scripts/event-harvest/dedupe-event-candidates.mjs",
+    "import:candidates": "node scripts/run-with-h-drive-env.cjs node scripts/import-ingestion-candidates.cjs",
     "lint": "eslint src --ext ts,tsx"
   },
   "dependencies": {

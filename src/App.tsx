@@ -7,6 +7,7 @@ import { SubmitPage } from "./pages/SubmitPage";
 import { ThisWeekPage, CivicWatchPage } from "./pages/IntelPages";
 import { AdminPage } from "./pages/AdminPage";
 import { MapPage } from "./pages/MapPage";
+import { OrganizersPage } from "./pages/OrganizersPage";
 
 export default function App() {
   return (
@@ -21,6 +22,7 @@ export default function App() {
           <Route path="/this-week" element={<ThisWeekPage />} />
           <Route path="/civic-watch" element={<CivicWatchPage />} />
           <Route path="/map" element={<MapPage />} />
+          <Route path="/organizers" element={<OrganizersPage />} />
           <Route path="/admin" element={<AdminPage />} />
         </Routes>
       </Layout>

@@ -1,0 +1,60 @@
+{
+  "version": 1,
+  "updatedAt": "2026-06-21",
+  "events": [
+    {
+      "id": "flagship-st-joseph-catholic-point-spaghetti",
+      "title": "96th Annual St. Joseph Spaghetti and Sausage Dinner and Picnic",
+      "alternate_titles": [
+        "Catholic Point Spaghetti Dinner",
+        "St. Joseph Church Center Ridge dinner"
+      ],
+      "venue_name": "St. Joseph Church / Catholic Point",
+      "address": "Catholic Point Road",
+      "city": "Center Ridge",
+      "county": "Conway",
+      "state": "AR",
+      "category": "faith_meal",
+      "civic_value": "very_high",
+      "political_opportunity_score": 96,
+      "confidence_score": 92,
+      "recurrence": {
+        "pattern": "annual",
+        "typical_month": "June",
+        "exact_date_requires_yearly_confirmation": true,
+        "tradition_started": 1929,
+        "last_verified_occurrence": "2025-06-21"
+      },
+      "source_name": "Catholic Diocese of Little Rock",
+      "source_url": "https://www.dolr.org/events/96th-annual-st-joseph-spaghetti-and-sausage-dinner-and-picnic-center-ridge",
+      "source_type": "parish_diocese",
+      "discovered_by": "flagship_registry",
+      "review_status": "verified_flagship",
+      "notes": "Rural Catholic Point tradition feeding thousands over decades. High-value community/political touchpoint. Confirm each year's date from DOLR listing.",
+      "raw_text": "Diocese lists 96th annual dinner/picnic June 21, 2025. Arkansas Catholic documents tradition from 1929."
+    },
+    {
+      "id": "flagship-st-mary-conway-brisket-unverified",
+      "title": "St. Mary Catholic Church / Saint Vincent — Community BBQ or Brisket Fundraiser (unverified)",
+      "venue_name": "St. Mary Catholic Church (Morrilton / Saint Vincent area — confirm)",
+      "city": "Morrilton",
+      "county": "Conway",
+      "state": "AR",
+      "category": "faith_meal",
+      "civic_value": "very_high",
+      "political_opportunity_score": 90,
+      "confidence_score": 35,
+      "recurrence": {
+        "pattern": "annual_or_seasonal",
+        "exact_date_requires_yearly_confirmation": true
+      },
+      "source_name": "Manual tip — requires public source verification",
+      "source_url": null,
+      "source_type": "manual_tip",
+      "discovered_by": "flagship_registry",
+      "review_status": "needs_verification",
+      "notes": "User-reported similar Conway County church BBQ/brisket event. No clean public search confirmation yet. Harvester must locate parish bulletin, DOLR, or church site before publishing.",
+      "raw_text": "Reported as upcoming community meal next month — date and venue TBD."
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "version": 1,
+  "updatedAt": "2026-06-21",
+  "policy": "Public sources only — no login bypass, no private groups, no paywalls.",
+  "sources": [
+    {
+      "source_id": "dolr-events",
+      "source_name": "Catholic Diocese of Little Rock — Events",
+      "source_type": "parish_diocese",
+      "city": "Little Rock",
+      "county": "Pulaski",
+      "url": "https://www.dolr.org/events",
+      "search_terms": ["parish dinner", "fish fry", "spaghetti", "picnic", "fundraiser"],
+      "trust_level": "high",
+      "robots_policy_notes": "Public event listings; respect rate limits; no auth required.",
+      "last_checked_at": null,
+      "active": true
+    },
+    {
+      "source_id": "arkansas-catholic",
+      "source_name": "Arkansas Catholic",
+      "source_type": "newspaper",
+      "city": null,
+      "county": null,
+      "url": "https://arkansas-catholic.org",
+      "search_terms": ["church dinner", "parish festival", "community meal"],
+      "trust_level": "high",
+      "robots_policy_notes": "Public articles; cite source URL.",
+      "last_checked_at": null,
+      "active": true
+    },
+    {
+      "source_id": "conway-county-quorum",
+      "source_name": "Conway County — Quorum Court (verify URL)",
+      "source_type": "county_official",
+      "city": "Morrilton",
+      "county": "Conway",
+      "url": "https://www.conwaycountyar.gov",
+      "search_terms": ["quorum court", "agenda", "meeting"],
+      "trust_level": "medium",
+      "robots_policy_notes": "Official county site; confirm meeting calendar path per county.",
+      "last_checked_at": null,
+      "active": true
+    },
+    {
+      "source_id": "littlerock-city-calendar",
+      "source_name": "City of Little Rock — Public meetings",
+      "source_type": "city_official",
+      "city": "Little Rock",
+      "county": "Pulaski",
+      "url": "https://www.littlerock.gov",
+      "search_terms": ["city council", "board meeting", "agenda"],
+      "trust_level": "high",
+      "robots_policy_notes": "Official municipal calendar only.",
+      "last_checked_at": null,
+      "active": true
+    },
+    {
+      "source_id": "eventbrite-arkansas",
+      "source_name": "Eventbrite — Arkansas public events",
+      "source_type": "event_platform",
+      "city": null,
+      "county": null,
+      "url": "https://www.eventbrite.com/d/united-states--arkansas/events/",
+      "search_terms": ["festival", "fundraiser", "community"],
+      "trust_level": "medium",
+      "robots_policy_notes": "Public listing pages only; no API abuse.",
+      "last_checked_at": null,
+      "active": true
+    },
+    {
+      "source_id": "manual-tip",
+      "source_name": "Manual tip / operator entry",
+      "source_type": "manual_tip",
+      "city": null,
+      "county": null,
+      "url": null,
+      "search_terms": [],
+      "trust_level": "variable",
+      "robots_policy_notes": "Human-submitted leads require verification.",
+      "last_checked_at": null,
+      "active": true
+    }
+  ]
+}

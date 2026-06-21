@@ -69,6 +69,7 @@ npm run seed:import    # requires DATABASE_URL
 ```bash
 psql $DATABASE_URL -f supabase/migrations/001_civic_calendar.sql
 psql $DATABASE_URL -f supabase/migrations/002_event_maps.sql
+psql $DATABASE_URL -f supabase/migrations/003_event_ingestion_candidates.sql
 ```
 
 ## Netlify deploy
@@ -91,6 +92,42 @@ Set all env vars from [`.github/NETLIFY_ENV.md`](.github/NETLIFY_ENV.md).
 | `/admin` | Moderation + map review |
 | `/county/:slug` | County calendar (map/list toggle) |
 | `/event/:slug` | Detail + embedded map |
+
+## Event Intelligence Harvester
+
+**Policy:** Public sources only — official sites, public event listings, diocese calendars, chambers, tourism boards, Eventbrite public pages, newspapers. No login bypass, no private Facebook groups, no paywalls, no robots.txt violations.
+
+### Commands
+
+```bash
+npm run harvest:flagship              # DOLR + flagship recurring events → staged JSON
+npm run harvest:city -- "Center Ridge"
+npm run harvest:priority-cities       # query plan for top priority cities
+npm run harvest:dedupe
+npm run import:candidates             # DATABASE_URL — load staged → Postgres
+```
+
+### Optional search API keys
+
+| Variable | Purpose |
+|----------|---------|
+| `BING_SEARCH_API_KEY` | Bing Web Search for harvest scripts |
+| `GOOGLE_CUSTOM_SEARCH_API_KEY` | Google CSE |
+| `GOOGLE_CUSTOM_SEARCH_ENGINE_ID` | Google CSE cx |
+
+Without keys, harvest scripts output **query plans** to `data/ingestion/raw-search-results/` instead of failing.
+
+### Review workflow
+
+1. Harvest → `data/ingestion/staged-event-candidates.json`
+2. Admin → **Event Intelligence** tab
+3. Approve into live `civic_call.events` — never auto-published
+
+### Data registries
+
+- `data/ingestion/event-source-registry.json`
+- `data/ingestion/flagship-recurring-events.json`
+- `data/arkansas/top-100-priority-cities.json`
 
 ## Lane boundaries
 

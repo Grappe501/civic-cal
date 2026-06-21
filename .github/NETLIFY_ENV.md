@@ -25,6 +25,14 @@ Configure these in **Netlify → Site settings → Environment variables** for t
 | `NETLIFY_DATABASE_URL` | Build/Functions | Neon Netlify integration alias — auto-mapped to `DATABASE_URL` in some setups |
 | `VITE_USE_SEED` | Build | `true` for CI/demo builds without database |
 
+## Optional — Event harvester scripts (local/CI only)
+
+| Variable | Scope | Purpose |
+|----------|-------|---------|
+| `BING_SEARCH_API_KEY` | Scripts | Bing Web Search for harvest |
+| `GOOGLE_CUSTOM_SEARCH_API_KEY` | Scripts | Google Custom Search |
+| `GOOGLE_CUSTOM_SEARCH_ENGINE_ID` | Scripts | Google CSE cx |
+
 ## GitHub Actions mirror (optional)
 
 If you store secrets in **GitHub → Settings → Secrets and variables → Actions**, use the same names so a future deploy workflow can pass them to Netlify CLI:
@@ -41,6 +49,7 @@ CI in this repo runs **without** secrets (`VITE_USE_SEED=true`) — see `.github
 ```bash
 psql $DATABASE_URL -f supabase/migrations/001_civic_calendar.sql
 psql $DATABASE_URL -f supabase/migrations/002_event_maps.sql
+psql $DATABASE_URL -f supabase/migrations/003_event_ingestion_candidates.sql
 npm run seed:import
 ```
 
