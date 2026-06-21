@@ -11,6 +11,7 @@ import { runCountyFairHealth } from "../lib/fairs/countyFairHealth";
 import { runHistoricPoliticalHealth } from "../lib/political-events/historicPoliticalEvents";
 import { loadFeedAttachmentReport } from "../lib/feeds/feedAttachmentReport";
 import { formatEventRange } from "../lib/format";
+import duplicateAudit from "../../data/audits/county-page-duplicates.json";
 
 const fnBase = import.meta.env.VITE_FUNCTIONS_BASE ?? "/.netlify/functions";
 
@@ -145,6 +146,19 @@ export function AdminDataHealthPage() {
                   ))}
                 </tbody>
               </table>
+            </div>
+          </section>
+
+          <section className="card-readable">
+            <h2 className="font-semibold text-[var(--text-secondary)]">County page duplicate audit</h2>
+            <p className="text-caption mt-1">
+              Catalog merge + render-time dedupe — run <code className="text-xs">npm run audit:county-duplicates</code> after bundle changes.
+            </p>
+            <div className="mt-3 grid gap-3 sm:grid-cols-2 text-sm">
+              <Stat label="Findings before merge" value={String(duplicateAudit.duplicateFindingsBeforeMerge)} />
+              <Stat label="After catalog merge" value={String(duplicateAudit.duplicateFindingsAfterCatalogMerge)} />
+              <Stat label="After UI dedupe" value={String(duplicateAudit.duplicateFindingsAfterUiFix)} highlight={duplicateAudit.duplicateFindingsAfterUiFix === 0} />
+              <Stat label="Catalog events merged" value={`${duplicateAudit.catalogEventsRaw} → ${duplicateAudit.catalogEventsMerged}`} />
             </div>
           </section>
 

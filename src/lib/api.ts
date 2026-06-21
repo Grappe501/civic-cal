@@ -1,6 +1,7 @@
 import type { CivicEvent, EventFilters, SubmitEventPayload } from "./types";
 import { filterPublicEvents, isPubliclyVisibleEvent } from "./events/eventArchive";
 import { getBundledSeedEvents } from "./events/seedCatalog";
+import { dedupeEvents } from "./dedupe/dedupeRecords";
 
 const fnBase = import.meta.env.VITE_FUNCTIONS_BASE ?? "/.netlify/functions";
 const useSeedOnly = import.meta.env.VITE_USE_SEED === "true";
@@ -46,6 +47,7 @@ function filterSeed(events: CivicEvent[], filters: EventFilters & { limit?: numb
   if (filters.featured) list = list.filter((e) => e.featured);
 
   list = filterPublicEvents(list);
+  list = dedupeEvents(list);
 
   list.sort((a, b) => new Date(a.startAt).getTime() - new Date(b.startAt).getTime());
   const limit = filters.limit ?? 500;
@@ -98,7 +100,7 @@ export async function fetchEventsWithMeta(filters: EventFilters = {}): Promise<F
     if (events.length === 0) {
       events = filterSeed(seedEvents(), { ...filters, limit: filters.limit ?? 500 });
     } else {
-      events = filterPublicEvents(events);
+      events = dedupeEvents(filterPublicEvents(events));
     }
 
     return {

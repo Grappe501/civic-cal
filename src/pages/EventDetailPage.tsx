@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import { fetchEventBySlug, fetchEvents } from "../lib/api";
+import { dedupeEvents } from "../lib/dedupe/dedupeRecords";
 import { fetchEventDossier } from "../lib/api-event-dossier";
 import { useEventPresence } from "../hooks/useEventPresence";
 import { shareEventUrl } from "../lib/format";
@@ -35,7 +36,9 @@ export function EventDetailPage() {
           fetchEvents({ county: ev.county, limit: 12 }),
         ]);
         setBundle(dossierBundle);
-        setRelatedEvents(countyEvents.filter((e) => e.slug !== ev.slug).slice(0, 8));
+        setRelatedEvents(
+          dedupeEvents(countyEvents.filter((e) => e.slug !== ev.slug)).slice(0, 8),
+        );
       })
       .catch(console.error)
       .finally(() => setLoading(false));

@@ -5,6 +5,7 @@ import { EventCard } from "../components/EventCard";
 import { JsonLd } from "../components/seo/JsonLd";
 import { CivicGlyphLegend, CivicGlyph } from "../components/glyphs/CivicGlyph";
 import { fetchEvents } from "../lib/api";
+import { dedupeEvents, dedupeRelatedLinks, excludeEventsByCanonicalKey } from "../lib/dedupe/dedupeRecords";
 import { getCountyDossier, citiesInCounty, citySlug } from "../lib/local-intelligence/registry";
 import { buildCountyPageSummary, aiGuidePrompts } from "../lib/seo/pageSummaries";
 import { countyPageJsonLd } from "../lib/seo/jsonLd";
@@ -38,7 +39,9 @@ export function CountyPublicPage({ county, slug }: Props) {
 
   useEffect(() => {
     document.title = `${formatCountyLabel(county)} Events | Arkansas Everywhere`;
-    fetchEvents({ county, limit: 500 }).then(setEvents).catch(console.error);
+    fetchEvents({ county, limit: 500 })
+      .then((list) => setEvents(dedupeEvents(list)))
+      .catch(console.error);
   }, [county]);
 
   const summary = buildCountyPageSummary(
@@ -51,6 +54,9 @@ export function CountyPublicPage({ county, slug }: Props) {
   const countyDates = useMemo(() => stateDatesForCounty(county).slice(0, 5), [county]);
   const food = events.filter((e) => /fish fry|spaghetti|dinner|meal/i.test(e.title));
   const festivals = events.filter((e) => /festival|fair|parade/i.test(e.title));
+  const upcoming = events.slice(0, 9);
+  const foodExclusive = useMemo(() => excludeEventsByCanonicalKey(food, upcoming), [food, upcoming]);
+  const festivalsExclusive = useMemo(() => excludeEventsByCanonicalKey(festivals, upcoming), [festivals, upcoming]);
 
   const geoProfile = useMemo(() => {
     const base = getProfile(slug, "county");
@@ -62,7 +68,7 @@ export function CountyPublicPage({ county, slug }: Props) {
     for (const c of cities.slice(0, 6)) {
       extra.push(relatedLink("city", citySlug(c.city), c.city));
     }
-    return { ...base, relatedLinks: [...base.relatedLinks, ...extra] };
+    return { ...base, relatedLinks: dedupeRelatedLinks([...base.relatedLinks, ...extra]) };
   }, [slug, county, cities]);
 
   const density = useMemo(() => getCountyDensity(county, events), [county, events]);
@@ -126,30 +132,30 @@ export function CountyPublicPage({ county, slug }: Props) {
         <section className="mb-10">
           <h2 className="font-display text-xl font-semibold mb-4">Upcoming events ({events.length})</h2>
           <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
-            {events.slice(0, 9).map((e) => (
-              <EventCard key={e.id} event={e} compact />
+            {upcoming.map((e) => (
+              <EventCard key={e.slug} event={e} compact />
             ))}
           </div>
         </section>
       )}
 
-      {food.length > 0 && (
+      {foodExclusive.length > 0 && (
         <section className="mb-10">
           <h2 className="font-display text-xl font-semibold mb-4">Arkansas Food Trail — {county} County</h2>
           <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
-            {food.slice(0, 6).map((e) => (
-              <EventCard key={e.id} event={e} compact />
+            {foodExclusive.slice(0, 6).map((e) => (
+              <EventCard key={e.slug} event={e} compact />
             ))}
           </div>
         </section>
       )}
 
-      {festivals.length > 0 && (
+      {festivalsExclusive.length > 0 && (
         <section className="mb-10">
           <h2 className="font-display text-xl font-semibold mb-4">Festivals & parades</h2>
           <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
-            {festivals.slice(0, 6).map((e) => (
-              <EventCard key={e.id} event={e} compact />
+            {festivalsExclusive.slice(0, 6).map((e) => (
+              <EventCard key={e.slug} event={e} compact />
             ))}
           </div>
         </section>

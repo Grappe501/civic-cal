@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import type { RelatedProfileLink } from "../../lib/profiles/profileTypes";
 import { ENTITY_TYPE_LABELS } from "../../lib/profiles/profileTypes";
+import { dedupeRelatedLinks } from "../../lib/dedupe/dedupeRecords";
 
 interface Props {
   links: RelatedProfileLink[];
@@ -35,13 +36,14 @@ function RelatedCard({ link }: { link: RelatedProfileLink }) {
 }
 
 export function RelatedCommunityPages({ links, title = "Related community pages" }: Props) {
-  if (links.length === 0) return null;
+  const unique = dedupeRelatedLinks(links);
+  if (unique.length === 0) return null;
 
   return (
     <section className="card-readable mt-8">
       <h2 className="font-semibold text-[var(--text-secondary)]">{title}</h2>
       <ul className="mt-4 grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
-        {links.map((l) => (
+        {unique.map((l) => (
           <li key={`${l.entityType}:${l.slug}`}>
             <RelatedCard link={l} />
           </li>

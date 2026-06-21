@@ -5,6 +5,7 @@ import { EventCard } from "../components/EventCard";
 import { JsonLd } from "../components/seo/JsonLd";
 import { ArkansasEventMap } from "../components/maps/ArkansasEventMap";
 import { fetchEvents } from "../lib/api";
+import { dedupeEvents, excludeEventsByCanonicalKey } from "../lib/dedupe/dedupeRecords";
 import { countyFromSlug, countySlug, formatCountyLabel, ARKANSAS_COUNTIES } from "../lib/counties";
 import { getCountyDossier } from "../lib/local-intelligence/registry";
 import { buildCountyPageSummary } from "../lib/seo/pageSummaries";
@@ -34,13 +35,20 @@ export function CountyPage() {
 
   useEffect(() => {
     if (!county) return;
-    fetchEvents({ county, limit: 500 }).then(setEvents).catch(console.error);
+    fetchEvents({ county, limit: 500 })
+      .then((list) => setEvents(dedupeEvents(list)))
+      .catch(console.error);
   }, [county]);
 
   const thisWeek = useMemo(() => eventsThisWeek(events), [events]);
   const civic = useMemo(() => events.filter((e) => e.category === "civic_meeting" || e.isPublicGovernmentMeeting), [events]);
   const community = useMemo(() => events.filter((e) => e.category === "community"), [events]);
   const candidate = useMemo(() => events.filter((e) => e.candidateRelevant), [events]);
+  const highlightEvents = useMemo(() => events.slice(0, 12), [events]);
+  const thisWeekExclusive = useMemo(() => excludeEventsByCanonicalKey(thisWeek, highlightEvents), [thisWeek, highlightEvents]);
+  const civicExclusive = useMemo(() => excludeEventsByCanonicalKey(civic, highlightEvents), [civic, highlightEvents]);
+  const communityExclusive = useMemo(() => excludeEventsByCanonicalKey(community, highlightEvents), [community, highlightEvents]);
+  const candidateExclusive = useMemo(() => excludeEventsByCanonicalKey(candidate, highlightEvents), [candidate, highlightEvents]);
   const summary = useMemo(() => {
     if (!county) return "";
     const dossier = getCountyDossier(county);
@@ -77,7 +85,7 @@ export function CountyPage() {
         <h2 className="font-display text-xl font-semibold text-ark-pine mb-4">{title}</h2>
         <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
           {items.slice(0, 6).map((e) => (
-            <EventCard key={e.id} event={e} compact />
+            <EventCard key={e.slug} event={e} compact />
           ))}
         </div>
       </section>
@@ -130,16 +138,16 @@ export function CountyPage() {
         </div>
       ) : (
         <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
-          {events.map((e) => (
-            <EventCard key={e.id} event={e} />
+          {highlightEvents.map((e) => (
+            <EventCard key={e.slug} event={e} />
           ))}
         </div>
       )}
 
-      <Section title={`Events this week in ${county} County`} items={thisWeek} />
-      <Section title="Civic meetings" items={civic} />
-      <Section title="Festivals & community" items={community} />
-      <Section title="Candidate opportunity events" items={candidate} />
+      <Section title={`Events this week in ${county} County`} items={thisWeekExclusive} />
+      <Section title="Civic meetings" items={civicExclusive} />
+      <Section title="Festivals & community" items={communityExclusive} />
+      <Section title="Candidate opportunity events" items={candidateExclusive} />
 
       <StudentServiceBlock county={county} opportunities={serviceOpps} />
       {countyDates.length > 0 && <ImportantArkansasDatesBlock dates={countyDates} title={`Important dates — ${county} County`} compact />}

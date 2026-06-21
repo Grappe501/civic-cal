@@ -8,6 +8,7 @@ import approvedCountyFairBundle from "../../../data/ingestion/county-fair-approv
 import approvedHistoricPoliticalBundle from "../../../data/ingestion/historic-political-events-approved-events.json";
 import approvedTop250CityFestivalBundle from "../../../data/ingestion/top250-city-festival-approved-events.json";
 import approvedAgricultureBundle from "../../../data/agriculture/agriculture-event-approved-events.json";
+import { dedupeCatalogEvents } from "../dedupe/dedupeRecords";
 
 type SeedFile = { events?: CivicEvent[]; label?: string };
 
@@ -47,35 +48,25 @@ export function loadApprovedAgricultureEvents(): CivicEvent[] {
   return (approvedAgricultureBundle as SeedFile).events ?? [];
 }
 
-/** Merged bundled seeds — main first, demo fills unique slugs, approved party meetings last. */
+/** Merged bundled seeds — later approved bundles win on slug and canonical key. */
 export function getBundledSeedEvents(): CivicEvent[] {
-  const bySlug = new Map<string, CivicEvent>();
-  for (const e of loadMainSeedEvents()) bySlug.set(e.slug, e);
-  for (const e of loadDemoSeedEvents()) {
-    if (!bySlug.has(e.slug)) bySlug.set(e.slug, e);
-  }
-  for (const e of loadApprovedPartyEvents()) {
-    if (!bySlug.has(e.slug)) bySlug.set(e.slug, e);
-  }
-  for (const e of loadApprovedSchoolEvents()) {
-    if (!bySlug.has(e.slug)) bySlug.set(e.slug, e);
-  }
-  for (const e of loadApprovedFairFestivalEvents()) {
-    if (!bySlug.has(e.slug)) bySlug.set(e.slug, e);
-  }
-  for (const e of loadApprovedCountyFairEvents()) {
-    if (!bySlug.has(e.slug)) bySlug.set(e.slug, e);
-  }
-  for (const e of loadApprovedHistoricPoliticalEvents()) {
-    if (!bySlug.has(e.slug)) bySlug.set(e.slug, e);
-  }
-  for (const e of loadApprovedTop250CityFestivalEvents()) {
-    if (!bySlug.has(e.slug)) bySlug.set(e.slug, e);
-  }
-  for (const e of loadApprovedAgricultureEvents()) {
-    if (!bySlug.has(e.slug)) bySlug.set(e.slug, e);
-  }
-  return [...bySlug.values()];
+  const layers: Array<{ priority: number; source: string; events: CivicEvent[] }> = [
+    { priority: 0, source: "main", events: loadMainSeedEvents() },
+    { priority: 1, source: "demo", events: loadDemoSeedEvents() },
+    { priority: 2, source: "party", events: loadApprovedPartyEvents() },
+    { priority: 3, source: "school", events: loadApprovedSchoolEvents() },
+    { priority: 4, source: "fair_festival", events: loadApprovedFairFestivalEvents() },
+    { priority: 5, source: "county_fair", events: loadApprovedCountyFairEvents() },
+    { priority: 6, source: "historic_political", events: loadApprovedHistoricPoliticalEvents() },
+    { priority: 7, source: "top250_festival", events: loadApprovedTop250CityFestivalEvents() },
+    { priority: 8, source: "agriculture", events: loadApprovedAgricultureEvents() },
+  ];
+
+  const tagged = layers.flatMap(({ priority, source, events }) =>
+    events.map((event) => ({ event, priority, source })),
+  );
+
+  return dedupeCatalogEvents(tagged);
 }
 
 export function isDemoSeedEvent(event: CivicEvent): boolean {

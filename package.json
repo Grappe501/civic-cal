@@ -34,6 +34,7 @@
     "audit:contrast": "node scripts/run-with-h-drive-env.cjs node scripts/audit-contrast.mjs",
     "test:calendar-display-priority": "node scripts/run-with-h-drive-env.cjs node scripts/test-calendar-display-priority.mjs",
     "audit:county-horizon": "node scripts/run-with-h-drive-env.cjs node scripts/audit-county-event-horizon.mjs",
+    "audit:county-duplicates": "node scripts/run-with-h-drive-env.cjs node scripts/audit-county-page-duplicates.mjs",
     "harvest:agriculture": "node scripts/run-with-h-drive-env.cjs node scripts/event-harvest/agriculture/harvest-agriculture-system.mjs",
     "approve:agriculture": "node scripts/run-with-h-drive-env.cjs node scripts/event-harvest/agriculture/approve-agriculture-events.mjs",
     "audit:agriculture": "node scripts/run-with-h-drive-env.cjs node scripts/event-harvest/agriculture/audit-agriculture-system.mjs",

@@ -1,0 +1,2536 @@
+{
+  "generatedAt": "2026-06-21T20:10:34.239Z",
+  "pass": "emergency-duplicate-audit",
+  "catalogEventsRaw": 2032,
+  "catalogEventsMerged": 2020,
+  "duplicateFindingsBeforeMerge": 91,
+  "duplicateFindingsAfterCatalogMerge": 74,
+  "duplicateFindingsAfterUiFix": 0,
+  "countiesAudited": 75,
+  "countiesMostAffected": [
+    {
+      "county": "Faulkner",
+      "duplicate_items": 5
+    },
+    {
+      "county": "Newton",
+      "duplicate_items": 4
+    },
+    {
+      "county": "Saline",
+      "duplicate_items": 4
+    },
+    {
+      "county": "Craighead",
+      "duplicate_items": 3
+    },
+    {
+      "county": "Fulton",
+      "duplicate_items": 3
+    },
+    {
+      "county": "Garland",
+      "duplicate_items": 3
+    },
+    {
+      "county": "Sebastian",
+      "duplicate_items": 3
+    },
+    {
+      "county": "Washington",
+      "duplicate_items": 3
+    },
+    {
+      "county": "White",
+      "duplicate_items": 3
+    },
+    {
+      "county": "Ashley",
+      "duplicate_items": 2
+    }
+  ],
+  "findings": [
+    {
+      "county": "Arkansas",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:1"
+      ],
+      "count": 1,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "before_merge"
+    },
+    {
+      "county": "Arkansas",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:1"
+      ],
+      "count": 1,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "after_catalog_merge"
+    },
+    {
+      "county": "Ashley",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:2"
+      ],
+      "count": 2,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "before_merge"
+    },
+    {
+      "county": "Ashley",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:2"
+      ],
+      "count": 2,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "after_catalog_merge"
+    },
+    {
+      "county": "Baxter",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:2"
+      ],
+      "count": 2,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "before_merge"
+    },
+    {
+      "county": "Baxter",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:2"
+      ],
+      "count": 2,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "after_catalog_merge"
+    },
+    {
+      "county": "Boone",
+      "duplicate_type": "event_slug",
+      "keys": [
+        "crawdad-days-festival-2026-05-07-harrison-fest"
+      ],
+      "count": 2,
+      "sources": [
+        "fair_festival",
+        "top250_festival"
+      ],
+      "suggested_fix": "dedupeBySlug before county render",
+      "phase": "before_merge"
+    },
+    {
+      "county": "Boone",
+      "duplicate_type": "title_date_city",
+      "keys": [
+        "crawdad days festival|2026-05-07|harrison|boone",
+        "crawdad-days-festival-2026-05-07-harrison-fest",
+        "crawdad-days-festival-2026-05-07-harrison-fest"
+      ],
+      "count": 2,
+      "sources": [
+        "fair_festival",
+        "top250_festival"
+      ],
+      "suggested_fix": "dedupeByCanonicalKey in seed merge — prefer approved bundle",
+      "phase": "before_merge"
+    },
+    {
+      "county": "Boone",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:1"
+      ],
+      "count": 1,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "before_merge"
+    },
+    {
+      "county": "Boone",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:1"
+      ],
+      "count": 1,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "after_catalog_merge"
+    },
+    {
+      "county": "Bradley",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:1"
+      ],
+      "count": 1,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "before_merge"
+    },
+    {
+      "county": "Bradley",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:1"
+      ],
+      "count": 1,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "after_catalog_merge"
+    },
+    {
+      "county": "Calhoun",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:1"
+      ],
+      "count": 1,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "before_merge"
+    },
+    {
+      "county": "Calhoun",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:1"
+      ],
+      "count": 1,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "after_catalog_merge"
+    },
+    {
+      "county": "Carroll",
+      "duplicate_type": "event_slug",
+      "keys": [
+        "hillberry-music-festival-2026-10-07-eureka-springs-fest"
+      ],
+      "count": 2,
+      "sources": [
+        "fair_festival",
+        "top250_festival"
+      ],
+      "suggested_fix": "dedupeBySlug before county render",
+      "phase": "before_merge"
+    },
+    {
+      "county": "Carroll",
+      "duplicate_type": "title_date_city",
+      "keys": [
+        "hillberry music festival|2026-10-07|eureka springs|carroll",
+        "hillberry-music-festival-2026-10-07-eureka-springs-fest",
+        "hillberry-music-festival-2026-10-07-eureka-springs-fest"
+      ],
+      "count": 2,
+      "sources": [
+        "fair_festival",
+        "top250_festival"
+      ],
+      "suggested_fix": "dedupeByCanonicalKey in seed merge — prefer approved bundle",
+      "phase": "before_merge"
+    },
+    {
+      "county": "Carroll",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:1"
+      ],
+      "count": 1,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "before_merge"
+    },
+    {
+      "county": "Carroll",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:1"
+      ],
+      "count": 1,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "after_catalog_merge"
+    },
+    {
+      "county": "Chicot",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:1"
+      ],
+      "count": 1,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "before_merge"
+    },
+    {
+      "county": "Chicot",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:1"
+      ],
+      "count": 1,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "after_catalog_merge"
+    },
+    {
+      "county": "Clark",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:1"
+      ],
+      "count": 1,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "before_merge"
+    },
+    {
+      "county": "Clark",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:1"
+      ],
+      "count": 1,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "after_catalog_merge"
+    },
+    {
+      "county": "Clay",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:2"
+      ],
+      "count": 2,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "before_merge"
+    },
+    {
+      "county": "Clay",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:2"
+      ],
+      "count": 2,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "after_catalog_merge"
+    },
+    {
+      "county": "Cleburne",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:2"
+      ],
+      "count": 2,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "before_merge"
+    },
+    {
+      "county": "Cleburne",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:2"
+      ],
+      "count": 2,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "after_catalog_merge"
+    },
+    {
+      "county": "Cleveland",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:1"
+      ],
+      "count": 1,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "before_merge"
+    },
+    {
+      "county": "Cleveland",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:1"
+      ],
+      "count": 1,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "after_catalog_merge"
+    },
+    {
+      "county": "Columbia",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:1"
+      ],
+      "count": 1,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "before_merge"
+    },
+    {
+      "county": "Columbia",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:1"
+      ],
+      "count": 1,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "after_catalog_merge"
+    },
+    {
+      "county": "Conway",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:2"
+      ],
+      "count": 2,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "before_merge"
+    },
+    {
+      "county": "Conway",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:2"
+      ],
+      "count": 2,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "after_catalog_merge"
+    },
+    {
+      "county": "Craighead",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:3"
+      ],
+      "count": 3,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "before_merge"
+    },
+    {
+      "county": "Craighead",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:3"
+      ],
+      "count": 3,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "after_catalog_merge"
+    },
+    {
+      "county": "Crawford",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:2"
+      ],
+      "count": 2,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "before_merge"
+    },
+    {
+      "county": "Crawford",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:2"
+      ],
+      "count": 2,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "after_catalog_merge"
+    },
+    {
+      "county": "Crittenden",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:1"
+      ],
+      "count": 1,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "before_merge"
+    },
+    {
+      "county": "Crittenden",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:1"
+      ],
+      "count": 1,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "after_catalog_merge"
+    },
+    {
+      "county": "Cross",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:1"
+      ],
+      "count": 1,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "before_merge"
+    },
+    {
+      "county": "Cross",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:1"
+      ],
+      "count": 1,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "after_catalog_merge"
+    },
+    {
+      "county": "Dallas",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:1"
+      ],
+      "count": 1,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "before_merge"
+    },
+    {
+      "county": "Dallas",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:1"
+      ],
+      "count": 1,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "after_catalog_merge"
+    },
+    {
+      "county": "Desha",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:1"
+      ],
+      "count": 1,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "before_merge"
+    },
+    {
+      "county": "Desha",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:1"
+      ],
+      "count": 1,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "after_catalog_merge"
+    },
+    {
+      "county": "Drew",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:1"
+      ],
+      "count": 1,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "before_merge"
+    },
+    {
+      "county": "Drew",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:1"
+      ],
+      "count": 1,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "after_catalog_merge"
+    },
+    {
+      "county": "Faulkner",
+      "duplicate_type": "event_slug",
+      "keys": [
+        "toad-suck-daze-2026-05-01-conway-fest"
+      ],
+      "count": 2,
+      "sources": [
+        "fair_festival",
+        "top250_festival"
+      ],
+      "suggested_fix": "dedupeBySlug before county render",
+      "phase": "before_merge"
+    },
+    {
+      "county": "Faulkner",
+      "duplicate_type": "title_date_city",
+      "keys": [
+        "toad suck daze|2026-05-01|conway|faulkner",
+        "toad-suck-daze-2026-05-01-conway-fest",
+        "toad-suck-daze-2026-05-01-conway-fest"
+      ],
+      "count": 2,
+      "sources": [
+        "fair_festival",
+        "top250_festival"
+      ],
+      "suggested_fix": "dedupeByCanonicalKey in seed merge — prefer approved bundle",
+      "phase": "before_merge"
+    },
+    {
+      "county": "Faulkner",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:1",
+        "festivals:4"
+      ],
+      "count": 5,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "before_merge"
+    },
+    {
+      "county": "Faulkner",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:1",
+        "festivals:4"
+      ],
+      "count": 5,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "after_catalog_merge"
+    },
+    {
+      "county": "Franklin",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:1"
+      ],
+      "count": 1,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "before_merge"
+    },
+    {
+      "county": "Franklin",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:1"
+      ],
+      "count": 1,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "after_catalog_merge"
+    },
+    {
+      "county": "Fulton",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:3"
+      ],
+      "count": 3,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "before_merge"
+    },
+    {
+      "county": "Fulton",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:3"
+      ],
+      "count": 3,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "after_catalog_merge"
+    },
+    {
+      "county": "Garland",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:2",
+        "festivals:1"
+      ],
+      "count": 3,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "before_merge"
+    },
+    {
+      "county": "Garland",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:2",
+        "festivals:1"
+      ],
+      "count": 3,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "after_catalog_merge"
+    },
+    {
+      "county": "Grant",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:1"
+      ],
+      "count": 1,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "before_merge"
+    },
+    {
+      "county": "Grant",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:1"
+      ],
+      "count": 1,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "after_catalog_merge"
+    },
+    {
+      "county": "Greene",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:1"
+      ],
+      "count": 1,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "before_merge"
+    },
+    {
+      "county": "Greene",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:1"
+      ],
+      "count": 1,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "after_catalog_merge"
+    },
+    {
+      "county": "Hempstead",
+      "duplicate_type": "event_slug",
+      "keys": [
+        "hope-watermelon-festival-2026-08-06-hope-fest"
+      ],
+      "count": 2,
+      "sources": [
+        "fair_festival",
+        "top250_festival"
+      ],
+      "suggested_fix": "dedupeBySlug before county render",
+      "phase": "before_merge"
+    },
+    {
+      "county": "Hempstead",
+      "duplicate_type": "title_date_city",
+      "keys": [
+        "hope watermelon festival|2026-08-06|hope|hempstead",
+        "hope-watermelon-festival-2026-08-06",
+        "hope-watermelon-festival-2026-08-06-hope-fest",
+        "hope-watermelon-festival-2026-08-06-hope-fest"
+      ],
+      "count": 3,
+      "sources": [
+        "main",
+        "fair_festival",
+        "top250_festival"
+      ],
+      "suggested_fix": "dedupeByCanonicalKey in seed merge — prefer approved bundle",
+      "phase": "before_merge"
+    },
+    {
+      "county": "Hempstead",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:4"
+      ],
+      "count": 4,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "before_merge"
+    },
+    {
+      "county": "Hempstead",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:2"
+      ],
+      "count": 2,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "after_catalog_merge"
+    },
+    {
+      "county": "Hot Spring",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:1"
+      ],
+      "count": 1,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "before_merge"
+    },
+    {
+      "county": "Hot Spring",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:1"
+      ],
+      "count": 1,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "after_catalog_merge"
+    },
+    {
+      "county": "Howard",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:1"
+      ],
+      "count": 1,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "before_merge"
+    },
+    {
+      "county": "Howard",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:1"
+      ],
+      "count": 1,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "after_catalog_merge"
+    },
+    {
+      "county": "Independence",
+      "duplicate_type": "event_slug",
+      "keys": [
+        "scotsfest-arkansas-scottish-festival-2026-10-23-batesville-fest"
+      ],
+      "count": 2,
+      "sources": [
+        "fair_festival",
+        "top250_festival"
+      ],
+      "suggested_fix": "dedupeBySlug before county render",
+      "phase": "before_merge"
+    },
+    {
+      "county": "Independence",
+      "duplicate_type": "title_date_city",
+      "keys": [
+        "scotsfest arkansas scottish festival|2026-10-23|batesville|independence",
+        "scotsfest-arkansas-scottish-festival-2026-10-23-batesville-fest",
+        "scotsfest-arkansas-scottish-festival-2026-10-23-batesville-fest"
+      ],
+      "count": 2,
+      "sources": [
+        "fair_festival",
+        "top250_festival"
+      ],
+      "suggested_fix": "dedupeByCanonicalKey in seed merge — prefer approved bundle",
+      "phase": "before_merge"
+    },
+    {
+      "county": "Independence",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:1"
+      ],
+      "count": 1,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "before_merge"
+    },
+    {
+      "county": "Independence",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:1"
+      ],
+      "count": 1,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "after_catalog_merge"
+    },
+    {
+      "county": "Izard",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:1"
+      ],
+      "count": 1,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "before_merge"
+    },
+    {
+      "county": "Izard",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:1"
+      ],
+      "count": 1,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "after_catalog_merge"
+    },
+    {
+      "county": "Jackson",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:1"
+      ],
+      "count": 1,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "before_merge"
+    },
+    {
+      "county": "Jackson",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:1"
+      ],
+      "count": 1,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "after_catalog_merge"
+    },
+    {
+      "county": "Jefferson",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:1",
+        "festivals:1"
+      ],
+      "count": 2,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "before_merge"
+    },
+    {
+      "county": "Jefferson",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:1",
+        "festivals:1"
+      ],
+      "count": 2,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "after_catalog_merge"
+    },
+    {
+      "county": "Johnson",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:2"
+      ],
+      "count": 2,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "before_merge"
+    },
+    {
+      "county": "Johnson",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:2"
+      ],
+      "count": 2,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "after_catalog_merge"
+    },
+    {
+      "county": "Lafayette",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:2"
+      ],
+      "count": 2,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "before_merge"
+    },
+    {
+      "county": "Lafayette",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:2"
+      ],
+      "count": 2,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "after_catalog_merge"
+    },
+    {
+      "county": "Lawrence",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:2"
+      ],
+      "count": 2,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "before_merge"
+    },
+    {
+      "county": "Lawrence",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:2"
+      ],
+      "count": 2,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "after_catalog_merge"
+    },
+    {
+      "county": "Lee",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:1"
+      ],
+      "count": 1,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "before_merge"
+    },
+    {
+      "county": "Lee",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:1"
+      ],
+      "count": 1,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "after_catalog_merge"
+    },
+    {
+      "county": "Lincoln",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:1"
+      ],
+      "count": 1,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "before_merge"
+    },
+    {
+      "county": "Lincoln",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:1"
+      ],
+      "count": 1,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "after_catalog_merge"
+    },
+    {
+      "county": "Little River",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:2"
+      ],
+      "count": 2,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "before_merge"
+    },
+    {
+      "county": "Little River",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:2"
+      ],
+      "count": 2,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "after_catalog_merge"
+    },
+    {
+      "county": "Logan",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:1"
+      ],
+      "count": 1,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "before_merge"
+    },
+    {
+      "county": "Logan",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:1"
+      ],
+      "count": 1,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "after_catalog_merge"
+    },
+    {
+      "county": "Lonoke",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:2"
+      ],
+      "count": 2,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "before_merge"
+    },
+    {
+      "county": "Lonoke",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:2"
+      ],
+      "count": 2,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "after_catalog_merge"
+    },
+    {
+      "county": "Madison",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:1"
+      ],
+      "count": 1,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "before_merge"
+    },
+    {
+      "county": "Madison",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:1"
+      ],
+      "count": 1,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "after_catalog_merge"
+    },
+    {
+      "county": "Marion",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:1"
+      ],
+      "count": 1,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "before_merge"
+    },
+    {
+      "county": "Marion",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:1"
+      ],
+      "count": 1,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "after_catalog_merge"
+    },
+    {
+      "county": "Miller",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:1"
+      ],
+      "count": 1,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "before_merge"
+    },
+    {
+      "county": "Miller",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:1"
+      ],
+      "count": 1,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "after_catalog_merge"
+    },
+    {
+      "county": "Mississippi",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:1"
+      ],
+      "count": 1,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "before_merge"
+    },
+    {
+      "county": "Mississippi",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:1"
+      ],
+      "count": 1,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "after_catalog_merge"
+    },
+    {
+      "county": "Monroe",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:1"
+      ],
+      "count": 1,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "before_merge"
+    },
+    {
+      "county": "Monroe",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:1"
+      ],
+      "count": 1,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "after_catalog_merge"
+    },
+    {
+      "county": "Montgomery",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:1"
+      ],
+      "count": 1,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "before_merge"
+    },
+    {
+      "county": "Montgomery",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:1"
+      ],
+      "count": 1,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "after_catalog_merge"
+    },
+    {
+      "county": "Nevada",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:2"
+      ],
+      "count": 2,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "before_merge"
+    },
+    {
+      "county": "Nevada",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:2"
+      ],
+      "count": 2,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "after_catalog_merge"
+    },
+    {
+      "county": "Newton",
+      "duplicate_type": "title_date_city",
+      "keys": [
+        "buffalo river elk festival|2026-06-26|jasper|newton",
+        "buffalo-river-elk-festival-2026-06-26",
+        "buffalo-river-elk-festival-2026-06-26-jasper-fest"
+      ],
+      "count": 2,
+      "sources": [
+        "main",
+        "top250_festival"
+      ],
+      "suggested_fix": "dedupeByCanonicalKey in seed merge — prefer approved bundle",
+      "phase": "before_merge"
+    },
+    {
+      "county": "Newton",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:5"
+      ],
+      "count": 5,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "before_merge"
+    },
+    {
+      "county": "Newton",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:4"
+      ],
+      "count": 4,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "after_catalog_merge"
+    },
+    {
+      "county": "Ouachita",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:1"
+      ],
+      "count": 1,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "before_merge"
+    },
+    {
+      "county": "Ouachita",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:1"
+      ],
+      "count": 1,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "after_catalog_merge"
+    },
+    {
+      "county": "Perry",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:1"
+      ],
+      "count": 1,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "before_merge"
+    },
+    {
+      "county": "Perry",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:1"
+      ],
+      "count": 1,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "after_catalog_merge"
+    },
+    {
+      "county": "Phillips",
+      "duplicate_type": "event_slug",
+      "keys": [
+        "king-biscuit-blues-festival-2026-10-08-helena-west-helena-fest"
+      ],
+      "count": 2,
+      "sources": [
+        "fair_festival",
+        "top250_festival"
+      ],
+      "suggested_fix": "dedupeBySlug before county render",
+      "phase": "before_merge"
+    },
+    {
+      "county": "Phillips",
+      "duplicate_type": "title_date_city",
+      "keys": [
+        "king biscuit blues festival|2026-10-08|helena west helena|phillips",
+        "king-biscuit-blues-festival-2026-10-08-helena-west-helena-fest",
+        "king-biscuit-blues-festival-2026-10-08-helena-west-helena-fest"
+      ],
+      "count": 2,
+      "sources": [
+        "fair_festival",
+        "top250_festival"
+      ],
+      "suggested_fix": "dedupeByCanonicalKey in seed merge — prefer approved bundle",
+      "phase": "before_merge"
+    },
+    {
+      "county": "Phillips",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:3"
+      ],
+      "count": 3,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "before_merge"
+    },
+    {
+      "county": "Phillips",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:2"
+      ],
+      "count": 2,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "after_catalog_merge"
+    },
+    {
+      "county": "Pike",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:2"
+      ],
+      "count": 2,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "before_merge"
+    },
+    {
+      "county": "Pike",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:2"
+      ],
+      "count": 2,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "after_catalog_merge"
+    },
+    {
+      "county": "Poinsett",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:1"
+      ],
+      "count": 1,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "before_merge"
+    },
+    {
+      "county": "Poinsett",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:1"
+      ],
+      "count": 1,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "after_catalog_merge"
+    },
+    {
+      "county": "Polk",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:1"
+      ],
+      "count": 1,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "before_merge"
+    },
+    {
+      "county": "Polk",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:1"
+      ],
+      "count": 1,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "after_catalog_merge"
+    },
+    {
+      "county": "Pope",
+      "duplicate_type": "title_date_city",
+      "keys": [
+        "pope county fair|2026-09-15|russellville|pope",
+        "pope-county-fair-2026-09-15",
+        "pope-county-fair-2026-09-15-pope-fair"
+      ],
+      "count": 2,
+      "sources": [
+        "main",
+        "county_fair"
+      ],
+      "suggested_fix": "dedupeByCanonicalKey in seed merge — prefer approved bundle",
+      "phase": "before_merge"
+    },
+    {
+      "county": "Pope",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:3"
+      ],
+      "count": 3,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "before_merge"
+    },
+    {
+      "county": "Pope",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:2"
+      ],
+      "count": 2,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "after_catalog_merge"
+    },
+    {
+      "county": "Prairie",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:2"
+      ],
+      "count": 2,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "before_merge"
+    },
+    {
+      "county": "Prairie",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:2"
+      ],
+      "count": 2,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "after_catalog_merge"
+    },
+    {
+      "county": "Pulaski",
+      "duplicate_type": "event_slug",
+      "keys": [
+        "arkansas-folklife-festival-2026-06-26-north-little-rock-fest"
+      ],
+      "count": 2,
+      "sources": [
+        "fair_festival",
+        "top250_festival"
+      ],
+      "suggested_fix": "dedupeBySlug before county render",
+      "phase": "before_merge"
+    },
+    {
+      "county": "Pulaski",
+      "duplicate_type": "title_date_city",
+      "keys": [
+        "arkansas folklife festival|2026-06-26|north little rock|pulaski",
+        "arkansas-folklife-festival-2026-06-26",
+        "arkansas-folklife-festival-2026-06-26-north-little-rock-fest",
+        "arkansas-folklife-festival-2026-06-26-north-little-rock-fest"
+      ],
+      "count": 3,
+      "sources": [
+        "main",
+        "fair_festival",
+        "top250_festival"
+      ],
+      "suggested_fix": "dedupeByCanonicalKey in seed merge — prefer approved bundle",
+      "phase": "before_merge"
+    },
+    {
+      "county": "Pulaski",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:4"
+      ],
+      "count": 4,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "before_merge"
+    },
+    {
+      "county": "Pulaski",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:2"
+      ],
+      "count": 2,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "after_catalog_merge"
+    },
+    {
+      "county": "Randolph",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:2"
+      ],
+      "count": 2,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "before_merge"
+    },
+    {
+      "county": "Randolph",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:2"
+      ],
+      "count": 2,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "after_catalog_merge"
+    },
+    {
+      "county": "St. Francis",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:1"
+      ],
+      "count": 1,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "before_merge"
+    },
+    {
+      "county": "St. Francis",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:1"
+      ],
+      "count": 1,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "after_catalog_merge"
+    },
+    {
+      "county": "Saline",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:4"
+      ],
+      "count": 4,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "before_merge"
+    },
+    {
+      "county": "Saline",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:4"
+      ],
+      "count": 4,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "after_catalog_merge"
+    },
+    {
+      "county": "Scott",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:1"
+      ],
+      "count": 1,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "before_merge"
+    },
+    {
+      "county": "Scott",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:1"
+      ],
+      "count": 1,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "after_catalog_merge"
+    },
+    {
+      "county": "Searcy",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:1"
+      ],
+      "count": 1,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "before_merge"
+    },
+    {
+      "county": "Searcy",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:1"
+      ],
+      "count": 1,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "after_catalog_merge"
+    },
+    {
+      "county": "Sebastian",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:3"
+      ],
+      "count": 3,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "before_merge"
+    },
+    {
+      "county": "Sebastian",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:3"
+      ],
+      "count": 3,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "after_catalog_merge"
+    },
+    {
+      "county": "Sevier",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:1"
+      ],
+      "count": 1,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "before_merge"
+    },
+    {
+      "county": "Sevier",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:1"
+      ],
+      "count": 1,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "after_catalog_merge"
+    },
+    {
+      "county": "Sharp",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:1"
+      ],
+      "count": 1,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "before_merge"
+    },
+    {
+      "county": "Sharp",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:1"
+      ],
+      "count": 1,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "after_catalog_merge"
+    },
+    {
+      "county": "Stone",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:1"
+      ],
+      "count": 1,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "before_merge"
+    },
+    {
+      "county": "Stone",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:1"
+      ],
+      "count": 1,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "after_catalog_merge"
+    },
+    {
+      "county": "Union",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:2"
+      ],
+      "count": 2,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "before_merge"
+    },
+    {
+      "county": "Union",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:2"
+      ],
+      "count": 2,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "after_catalog_merge"
+    },
+    {
+      "county": "Van Buren",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:2"
+      ],
+      "count": 2,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "before_merge"
+    },
+    {
+      "county": "Van Buren",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:2"
+      ],
+      "count": 2,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "after_catalog_merge"
+    },
+    {
+      "county": "Washington",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:1",
+        "festivals:2"
+      ],
+      "count": 3,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "before_merge"
+    },
+    {
+      "county": "Washington",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:1",
+        "festivals:2"
+      ],
+      "count": 3,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "after_catalog_merge"
+    },
+    {
+      "county": "White",
+      "duplicate_type": "title_date_city",
+      "keys": [
+        "rose bud summerfest|2026-06-18|rose bud|white",
+        "rose-bud-summerfest-2026-06-18",
+        "rose-bud-summerfest-2026-06-18-rose-bud-fest"
+      ],
+      "count": 2,
+      "sources": [
+        "main",
+        "top250_festival"
+      ],
+      "suggested_fix": "dedupeByCanonicalKey in seed merge — prefer approved bundle",
+      "phase": "before_merge"
+    },
+    {
+      "county": "White",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:1",
+        "festivals:2"
+      ],
+      "count": 3,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "before_merge"
+    },
+    {
+      "county": "White",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:1",
+        "festivals:2"
+      ],
+      "count": 3,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "after_catalog_merge"
+    },
+    {
+      "county": "Woodruff",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:1"
+      ],
+      "count": 1,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "before_merge"
+    },
+    {
+      "county": "Woodruff",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:1"
+      ],
+      "count": 1,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "after_catalog_merge"
+    },
+    {
+      "county": "Yell",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:2"
+      ],
+      "count": 2,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "before_merge"
+    },
+    {
+      "county": "Yell",
+      "duplicate_type": "ui_section_overlap",
+      "keys": [
+        "food:0",
+        "festivals:2"
+      ],
+      "count": 2,
+      "sources": [
+        "CountyPublicPage",
+        "CityPage"
+      ],
+      "suggested_fix": "excludeEventsByCanonicalKey for highlight subsections",
+      "phase": "after_catalog_merge"
+    }
+  ]
+}

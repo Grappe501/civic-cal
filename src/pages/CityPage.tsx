@@ -7,6 +7,7 @@ import { CivicGlyphLegend, CivicGlyph } from "../components/glyphs/CivicGlyph";
 import { StudentServiceBlock } from "../components/student-service/StudentServiceBadge";
 import { ImportantArkansasDatesBlock } from "../components/state-dates/ImportantArkansasDatesBlock";
 import { fetchEvents } from "../lib/api";
+import { dedupeEvents, dedupeRelatedLinks, excludeEventsByCanonicalKey } from "../lib/dedupe/dedupeRecords";
 import { cityFromSlug, citySlug } from "../lib/local-intelligence/registry";
 import { buildCityPageSummary, aiGuidePrompts } from "../lib/seo/pageSummaries";
 import { cityPageJsonLd } from "../lib/seo/jsonLd";
@@ -37,7 +38,12 @@ export function CityPage({ slug: slugProp }: Props = {}) {
     if (!dossier) return;
     document.title = `Events in ${dossier.city}, Arkansas | Arkansas Everywhere`;
     fetchEvents({ county: dossier.county, limit: 500 })
-      .then((all) => setEvents(all.filter((e) => e.city?.toLowerCase() === dossier.city.toLowerCase())))
+      .then((all) => {
+        const cityEvents = dedupeEvents(
+          all.filter((e) => e.city?.toLowerCase() === dossier.city.toLowerCase()),
+        );
+        setEvents(cityEvents);
+      })
       .catch(console.error);
   }, [dossier]);
 
@@ -50,6 +56,19 @@ export function CityPage({ slug: slugProp }: Props = {}) {
   const food = events.filter((e) => /fish fry|spaghetti|dinner|meal/i.test(e.title));
   const festivals = events.filter((e) => /festival|fair|parade/i.test(e.title));
   const sports = events.filter((e) => e.category === "school" || /football|basketball|game/i.test(e.title));
+  const upcoming = events.slice(0, 9);
+  const foodExclusive = useMemo(
+    () => excludeEventsByCanonicalKey(food, upcoming),
+    [food, upcoming],
+  );
+  const festivalsExclusive = useMemo(
+    () => excludeEventsByCanonicalKey(festivals, upcoming),
+    [festivals, upcoming],
+  );
+  const sportsExclusive = useMemo(
+    () => excludeEventsByCanonicalKey(sports, upcoming),
+    [sports, upcoming],
+  );
   const serviceOpps = useMemo(() => listPublicStudentServiceOpportunities(events), [events]);
   const countyDates = useMemo(() => (dossier ? stateDatesForCounty(dossier.county).slice(0, 4) : []), [dossier]);
 
@@ -66,7 +85,7 @@ export function CityPage({ slug: slugProp }: Props = {}) {
       .slice(0, 8)
       .map((p) => relatedLink(p.entityType, p.slug, p.title));
     extra.push(relatedLink("county", `${countySlug(dossier.county)}-county`, `${dossier.county} County`));
-    return { ...base, relatedLinks: [...base.relatedLinks, ...extra] };
+    return { ...base, relatedLinks: dedupeRelatedLinks([...base.relatedLinks, ...extra]) };
   }, [slug, dossier]);
 
   const laneCoverage = useMemo(
@@ -146,41 +165,41 @@ export function CityPage({ slug: slugProp }: Props = {}) {
         <section className="mb-10">
           <h2 className="font-display text-xl font-semibold mb-4">Upcoming events</h2>
           <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
-            {events.slice(0, 9).map((e) => (
-              <EventCard key={e.id} event={e} compact />
+            {upcoming.map((e) => (
+              <EventCard key={e.slug} event={e} compact />
             ))}
           </div>
         </section>
       )}
 
-      {food.length > 0 && (
+      {foodExclusive.length > 0 && (
         <section className="mb-10">
           <h2 className="font-display text-xl font-semibold mb-4">Food & community meals</h2>
           <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
-            {food.slice(0, 6).map((e) => (
-              <EventCard key={e.id} event={e} compact />
+            {foodExclusive.slice(0, 6).map((e) => (
+              <EventCard key={e.slug} event={e} compact />
             ))}
           </div>
         </section>
       )}
 
-      {festivals.length > 0 && (
+      {festivalsExclusive.length > 0 && (
         <section className="mb-10">
           <h2 className="font-display text-xl font-semibold mb-4">Festivals & fairs</h2>
           <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
-            {festivals.slice(0, 6).map((e) => (
-              <EventCard key={e.id} event={e} compact />
+            {festivalsExclusive.slice(0, 6).map((e) => (
+              <EventCard key={e.slug} event={e} compact />
             ))}
           </div>
         </section>
       )}
 
-      {sports.length > 0 && (
+      {sportsExclusive.length > 0 && (
         <section className="mb-10">
           <h2 className="font-display text-xl font-semibold mb-4">School & sports</h2>
           <ul className="text-sm space-y-1">
-            {sports.slice(0, 8).map((e) => (
-              <li key={e.id}>
+            {sportsExclusive.slice(0, 8).map((e) => (
+              <li key={e.slug}>
                 <Link to={`/event/${e.slug}`} className="hover:underline">{e.title}</Link>
               </li>
             ))}

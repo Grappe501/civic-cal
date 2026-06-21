@@ -3,6 +3,7 @@ import type { CivicEvent } from "../../lib/types";
 import { countySlug } from "../../lib/counties";
 import { citySlug } from "../../lib/local-intelligence/registry";
 import { isFairFestivalEvent } from "../../lib/events/festivalUtils";
+import { dedupeEvents, dedupeRelatedLinks } from "../../lib/dedupe/dedupeRecords";
 
 interface Props {
   event: CivicEvent;
@@ -30,13 +31,14 @@ export function EventRelatedLinks({ event, relatedEvents = [] }: Props) {
 
   links.push({ label: "Full month calendar", to: "/calendar/month" });
 
-  const similar = relatedEvents.filter((e) => e.id !== event.id).slice(0, 5);
+  const uniqueLinks = dedupeRelatedLinks(links);
+  const similar = dedupeEvents(relatedEvents.filter((e) => e.slug !== event.slug)).slice(0, 5);
 
   return (
     <section className="dossier-section card card-elevated">
       <h2 className="dossier-section-title">Explore further</h2>
       <div className="mt-4 flex flex-wrap gap-2">
-        {links.map((l) => (
+        {uniqueLinks.map((l) => (
           <Link key={l.to} to={l.to} className="chip chip-muted hover:border-ark-sage text-xs">
             {l.label}
           </Link>
@@ -52,7 +54,7 @@ export function EventRelatedLinks({ event, relatedEvents = [] }: Props) {
           <p className="text-kicker mb-2">Nearby / similar events</p>
           <ul className="text-sm space-y-1.5">
             {similar.map((e) => (
-              <li key={e.id}>
+              <li key={e.slug}>
                 <Link to={`/event/${e.slug}`} className="text-ark-rust hover:underline">
                   {e.title}
                 </Link>
