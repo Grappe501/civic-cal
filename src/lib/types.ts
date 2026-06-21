@@ -68,6 +68,7 @@ export interface CivicEvent {
   recurringRegistryId?: string | null;
   harvestBatch?: string | null;
   festivalCategory?: string | null;
+  mapDiscoveryCategory?: string | null;
   politicalEventRegistryId?: string | null;
   historyDossier?: {
     firstYearHeld?: number | null;

@@ -3,6 +3,8 @@ import { GoogleMap, MarkerF, MarkerClustererF } from "@react-google-maps/api";
 import type { CivicEvent } from "../../lib/types";
 import { categoryLabel } from "../../lib/categories";
 import { ARKANSAS_MAP_DEFAULT, ARKANSAS_BOUNDS, eventHasMapPin } from "../../lib/maps/mapTypes";
+import { eventsWithMapPositions } from "../../lib/maps/mapPositionResolver";
+import { mapPinColor } from "../../lib/maps/mapDiscoveryCategories";
 import { hasMapsApiKey, useGoogleMapsLoader } from "../../lib/maps/googleMapsLoader";
 import { EventMapCard } from "./EventMapCard";
 import { cn } from "../../lib/cn";
@@ -16,18 +18,6 @@ const mapStyles = [
   { featureType: "road", elementType: "labels.text.fill", stylers: [{ color: "#2D4A3E" }] },
 ];
 
-const CATEGORY_PIN: Record<string, string> = {
-  civic_meeting: "#2D4A3E",
-  candidate_event: "#B84A32",
-  community: "#6B8F71",
-  faith_meal: "#C4785A",
-  school: "#7BAFD4",
-  volunteer: "#047857",
-  government_deadline: "#475569",
-  culture: "#6d28d9",
-  small_business: "#b45309",
-};
-
 interface Props {
   events: CivicEvent[];
   className?: string;
@@ -35,6 +25,8 @@ interface Props {
   selectedSlug?: string | null;
   onSelectEvent?: (event: CivicEvent | null) => void;
   compact?: boolean;
+  /** Use county centroid when event lacks geocode */
+  useCentroidFallback?: boolean;
 }
 
 export function ArkansasEventMap({
@@ -44,16 +36,29 @@ export function ArkansasEventMap({
   selectedSlug,
   onSelectEvent,
   compact,
+  useCentroidFallback = false,
 }: Props) {
   const { isLoaded, loadError } = useGoogleMapsLoader();
   const [internalSelected, setInternalSelected] = useState<CivicEvent | null>(null);
 
-  const mappable = useMemo(() => events.filter(eventHasMapPin), [events]);
+  const pinEntries = useMemo(() => {
+    if (useCentroidFallback) return eventsWithMapPositions(events);
+    return events.filter(eventHasMapPin).map((event) => ({
+      event,
+      position: { lat: event.latitude!, lng: event.longitude!, source: "geocoded" as const },
+    }));
+  }, [events, useCentroidFallback]);
+
+  const mappable = useMemo(() => pinEntries.map((p) => p.event), [pinEntries]);
 
   const selected =
     events.find((e) => e.slug === selectedSlug) ??
     internalSelected ??
     null;
+
+  const selectedPosition = selected
+    ? pinEntries.find((p) => p.event.id === selected.id)?.position
+    : null;
 
   const onMarkerClick = useCallback(
     (ev: CivicEvent) => {
@@ -94,8 +99,8 @@ export function ArkansasEventMap({
     <div className={cn("relative overflow-hidden rounded-2xl border border-ark-pine/10 shadow-inner", className)}>
       <GoogleMap
         mapContainerStyle={{ width: "100%", height }}
-        center={selected ? { lat: selected.latitude!, lng: selected.longitude! } : ARKANSAS_MAP_DEFAULT.center}
-        zoom={selected ? 12 : ARKANSAS_MAP_DEFAULT.zoom}
+        center={selectedPosition ? { lat: selectedPosition.lat, lng: selectedPosition.lng } : ARKANSAS_MAP_DEFAULT.center}
+        zoom={selectedPosition ? 12 : ARKANSAS_MAP_DEFAULT.zoom}
         options={{
           styles: mapStyles,
           restriction: { latLngBounds: ARKANSAS_BOUNDS, strictBounds: false },
@@ -111,18 +116,18 @@ export function ArkansasEventMap({
         <MarkerClustererF>
           {(clusterer) => (
             <>
-              {mappable.map((ev) => (
+              {pinEntries.map(({ event: ev, position }) => (
                 <MarkerF
                   key={ev.id}
                   clusterer={clusterer}
-                  position={{ lat: ev.latitude!, lng: ev.longitude! }}
+                  position={{ lat: position.lat, lng: position.lng }}
                   title={ev.title}
                   onClick={() => onMarkerClick(ev)}
                   icon={{
                     path: google.maps.SymbolPath.CIRCLE,
                     scale: selected?.id === ev.id ? 11 : 8,
-                    fillColor: CATEGORY_PIN[ev.category] ?? "#2D4A3E",
-                    fillOpacity: 0.95,
+                    fillColor: mapPinColor(ev),
+                    fillOpacity: position.source === "county_centroid" ? 0.75 : 0.95,
                     strokeColor: "#FAF7F2",
                     strokeWeight: 2,
                   }}

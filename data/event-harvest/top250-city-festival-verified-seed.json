@@ -1,0 +1,47 @@
+{
+  "pass": "30",
+  "label": "Source-backed city festival verified seed",
+  "generatedAt": "2026-06-21T19:00:00.000Z",
+  "events": [
+    {
+      "id": "festiville-jacksonville-2026",
+      "title": "FestiVille",
+      "event_date": "2026-09-05",
+      "end_date": "2026-09-05",
+      "start_time": "10:00",
+      "end_time": "20:00",
+      "city": "Jacksonville",
+      "county": "Pulaski",
+      "venue": "Main Street",
+      "address": "Main Street, Jacksonville, AR",
+      "category": "community",
+      "harvest_category": "festival",
+      "source_url": "https://www.jacksonvillear.gov/270/FestiVille",
+      "official_url": "https://www.jacksonvillear.gov/270/FestiVille",
+      "source_type": "city_official",
+      "source_confidence": "high",
+      "host_organization": "City of Jacksonville",
+      "description": "City of Jacksonville annual FestiVille on Main Street — source-backed Sept. 5, 2026, 10am–8pm.",
+      "is_recurring_annual": true
+    },
+    {
+      "id": "rose-bud-summerfest-2026",
+      "title": "Rose Bud Summerfest",
+      "event_date": "2026-06-18",
+      "end_date": "2026-06-20",
+      "city": "Rose Bud",
+      "county": "White",
+      "venue": "Downtown Rose Bud",
+      "address": "Rose Bud, AR",
+      "category": "community",
+      "harvest_category": "festival",
+      "source_url": "https://www.rosebudar.com/",
+      "official_url": "https://www.rosebudar.com/",
+      "source_type": "city_official",
+      "source_confidence": "high",
+      "host_organization": "City of Rose Bud",
+      "description": "Rose Bud Summerfest — source-backed June 18–20, 2026 community festival.",
+      "is_recurring_annual": true
+    }
+  ]
+}

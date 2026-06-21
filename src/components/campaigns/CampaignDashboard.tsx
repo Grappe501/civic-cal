@@ -8,6 +8,8 @@ import type { ClassifiedCampaignEvent } from "../../lib/campaigns/districtScope"
 import { analyzeCalendarGaps } from "../../lib/campaigns/calendarGapAnalyzer";
 import { buildDeterministicDossier, dossierMiniSummary } from "../../lib/ai/eventDossierBuilder";
 import { traditionStrengthEstimate, verificationLabel } from "../../lib/campaigns/eventIntel";
+import { loadCampaignGoalSettings } from "../../lib/campaigns/campaignGoalSettings";
+import { scoreCandidateEventPriority, priorityBadgeClass } from "../../lib/intelligence/candidateEventPriority";
 import { buildPlan, loadPlansForCampaign, savePlanForCampaign } from "../../lib/campaigns/planStore";
 import { notifyPresenceUpdate } from "../../lib/campaigns/presenceLayer";
 import { CampaignPresenceControls } from "./CampaignPresenceControls";
@@ -88,6 +90,8 @@ function EventIntelCard({
   const verification = verificationLabel(event);
   const plan = plans[event.id];
   const dossierMini = dossierMiniSummary(buildDeterministicDossier({ event }).dossier);
+  const goals = loadCampaignGoalSettings(workspace.slug);
+  const priority = scoreCandidateEventPriority(event, workspace, plans, goals);
 
   return (
     <div className="card border-l-4" style={{ borderLeftColor: "var(--campaign-accent)" }}>
@@ -109,8 +113,25 @@ function EventIntelCard({
             PO {politicalOpportunityScore}
           </span>
           <DensityBadge score={relationshipDensityScore} />
+          <span className={`chip text-[10px] ${priorityBadgeClass(priority.priority)}`}>
+            Priority: {priority.priorityLabel}
+          </span>
         </div>
       </div>
+
+      {!compact && (
+        <div className="mt-2 text-xs space-y-1">
+          <p>
+            <span className="font-semibold text-ark-pine">Why this matters:</span> {priority.whyThisMatters}
+          </p>
+          <p>
+            <span className="font-semibold text-ark-pine">Recommended role:</span> {priority.recommendedRole}
+          </p>
+          {priority.doNotWasteTime && (
+            <p className="text-amber-800 bg-amber-50 rounded px-2 py-1 font-medium">Do not waste time — low campaign ROI</p>
+          )}
+        </div>
+      )}
 
       {!compact && (
         <div className="mt-2 flex flex-wrap gap-2 text-[10px]">
@@ -358,6 +379,9 @@ export function CampaignDashboard({ workspace }: Props) {
                   <HandHeart className="h-3.5 w-3.5" /> Volunteer
                 </a>
               )}
+              <Link to={`/campaigns/${workspace.slug}/public-calendar`} className="btn-on-dark text-xs px-3 py-1.5">
+                Public campaign calendar
+              </Link>
             </div>
           </div>
           <div

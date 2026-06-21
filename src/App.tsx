@@ -41,6 +41,7 @@ import { AdminSchoolCalendarPage } from "./pages/AdminSchoolCalendarPage";
 import { AdminCandidatesPage } from "./pages/AdminCandidatesPage";
 import { AdminAiBrainPage } from "./pages/AdminAiBrainPage";
 import { CivicPoliticalEventsPage } from "./pages/CivicPoliticalEventsPage";
+import { CampaignPublicCalendarPage } from "./pages/CampaignPublicCalendarPage";
 import { CandidateWorkspacePage } from "./pages/CandidateWorkspacePage";
 import { GeoResolverPage } from "./pages/GeoResolverPage";
 import { EntityProfilePage } from "./pages/EntityProfilePage";
@@ -74,6 +75,7 @@ export default function App() {
           <Route path="/campaigns" element={<CampaignsLandingPage />} />
           <Route path="/campaigns/demo" element={<CampaignDemoPage />} />
           <Route path="/campaigns/:slug" element={<CampaignWorkspacePage />} />
+          <Route path="/campaigns/:slug/public-calendar" element={<CampaignPublicCalendarPage />} />
           <Route path="/campaigns/:slug/city/:citySlug" element={<CampaignCityIntelPage />} />
           <Route path="/campaigns/:slug/county/:countySlug" element={<CampaignCountyIntelPage />} />
           <Route path="/student-service" element={<StudentServicePage />} />

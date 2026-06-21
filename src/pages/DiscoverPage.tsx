@@ -18,6 +18,7 @@ import { upcomingStateDates } from "../lib/state-dates/stateDatesRegistry";
 import { countySlug } from "../lib/counties";
 import { formatCalendarDateParam } from "../lib/calendar/calendarUtils";
 import { startOfMonth, startOfWeek } from "date-fns";
+import { HomeDiscoveryMap } from "../components/maps/HomeDiscoveryMap";
 
 export function DiscoverPage() {
   const [mode, setMode] = useState<PersonalityMode>(() => loadPersonalityMode());
@@ -138,6 +139,8 @@ export function DiscoverPage() {
             setActiveChip(null);
           }}
         />
+
+        {!loading && events.length > 0 && <HomeDiscoveryMap events={events} />}
 
         {aiAnswer && (
           <section className="card card-elevated border-l-4 border-ark-sage">

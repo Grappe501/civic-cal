@@ -1,0 +1,12 @@
+{
+  "pass": "30",
+  "generatedAt": "2026-06-21T16:40:40.220Z",
+  "citiesScanned": 250,
+  "rawRecords": 250,
+  "approvedCount": 9,
+  "needsReviewCount": 241,
+  "verifiedSeedCount": 2,
+  "fairFestivalMerged": 7,
+  "festivilleStatus": "approved_2026-09-05",
+  "roseBudSummerfestStatus": "approved_2026-06-18"
+}

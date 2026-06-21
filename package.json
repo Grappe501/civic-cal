@@ -60,6 +60,8 @@
     "harvest:political-events": "node scripts/run-with-h-drive-env.cjs node scripts/event-harvest/political-events/harvest-historic-political-events.mjs",
     "approve:political-events": "node scripts/run-with-h-drive-env.cjs node scripts/event-harvest/political-events/approve-source-backed-political-events.mjs",
     "audit:political-events": "node scripts/run-with-h-drive-env.cjs node scripts/event-harvest/political-events/audit-political-events.mjs",
+    "harvest:city-festivals": "node scripts/run-with-h-drive-env.cjs node scripts/event-harvest/city-festivals/harvest-top250-city-festivals.mjs",
+    "audit:city-festivals": "node scripts/run-with-h-drive-env.cjs node scripts/event-harvest/city-festivals/audit-city-festivals.mjs",
     "feeds:generate": "node scripts/run-with-h-drive-env.cjs node scripts/feeds/generate-feed-registries.mjs",
     "feeds:report": "node scripts/run-with-h-drive-env.cjs node scripts/feeds/build-feed-attachment-report.mjs",
     "feeds:build": "node scripts/run-with-h-drive-env.cjs node scripts/feeds/generate-feed-registries.mjs && node scripts/run-with-h-drive-env.cjs node scripts/feeds/build-feed-attachment-report.mjs",
