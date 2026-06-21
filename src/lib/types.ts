@@ -11,6 +11,7 @@ export type EventCategory =
   | "small_business";
 
 import type { IntelligenceLayer } from "./intelligence/eventLayers";
+import type { SubmissionTrustSignals } from "./submitRiskScore";
 
 export type { IntelligenceLayer } from "./intelligence/eventLayers";
 
@@ -108,4 +109,7 @@ export interface SubmitEventPayload {
   placeId?: string;
   locationConfidence?: LocationConfidence;
   mapStatus?: MapStatus;
+  submissionTrust?: SubmissionTrustSignals;
+  spamRiskScore?: number;
+  spamFlags?: string[];
 }

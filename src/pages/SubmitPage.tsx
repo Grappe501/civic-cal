@@ -6,6 +6,7 @@ import { ARKANSAS_COUNTIES } from "../lib/counties";
 import { geocodeLocation, submitEvent } from "../lib/api";
 import { EventDetailMap } from "../components/maps/EventDetailMap";
 import type { CivicEvent, EventCategory } from "../lib/types";
+import { scoreSubmissionRisk, type SubmissionTrustSignals } from "../lib/submitRiskScore";
 import type { GeocodeResult } from "../lib/maps/mapTypes";
 
 export function SubmitPage() {
@@ -14,6 +15,7 @@ export function SubmitPage() {
   const [loading, setLoading] = useState(false);
   const [geoLoading, setGeoLoading] = useState(false);
   const [geoResult, setGeoResult] = useState<GeocodeResult | null>(null);
+  const [riskPreview, setRiskPreview] = useState<ReturnType<typeof scoreSubmissionRisk> | null>(null);
   const [isOnlineOnly, setIsOnlineOnly] = useState(false);
 
   const [loc, setLoc] = useState({
@@ -71,9 +73,32 @@ export function SubmitPage() {
     const endAt = endDate ? new Date(`${endDate}T${endTime || startTime}`).toISOString() : undefined;
 
     try {
+      const title = String(fd.get("title"));
+      const description = String(fd.get("description") || "");
+      const websiteUrl = String(fd.get("websiteUrl") || "");
+      const trustSignals: SubmissionTrustSignals = {
+        isHostOrganizer: fd.get("isHostOrganizer") === "on",
+        attendedBefore: fd.get("attendedBefore") === "on",
+        isPublicGovernmentMeeting: fd.get("isPublicGovernmentMeeting") === "on",
+        isRecurringTradition: fd.get("isRecurringTradition") === "on",
+        isOpenToPublic: fd.get("isOpenToPublic") === "on",
+      };
+      const risk = scoreSubmissionRisk({
+        title,
+        description,
+        websiteUrl,
+        startAt,
+        city: loc.city,
+        county: loc.county,
+        address: loc.address,
+        locationName: loc.locationName,
+        trust: trustSignals,
+      });
+      setRiskPreview(risk);
+
       await submitEvent({
-        title: String(fd.get("title")),
-        description: String(fd.get("description") || ""),
+        title,
+        description,
         startAt,
         endAt,
         city: loc.city,
@@ -85,7 +110,7 @@ export function SubmitPage() {
         hostOrganization: String(fd.get("hostOrganization") || ""),
         contactName: String(fd.get("contactName") || ""),
         contactEmail: String(fd.get("contactEmail") || ""),
-        websiteUrl: String(fd.get("websiteUrl") || ""),
+        websiteUrl,
         isRecurring: fd.get("isRecurring") === "on",
         isPublicGovernmentMeeting: fd.get("isPublicGovernmentMeeting") === "on",
         candidateRelevant: fd.get("candidateRelevant") === "on",
@@ -99,6 +124,9 @@ export function SubmitPage() {
         placeId: geoResult?.placeId,
         locationConfidence: geoResult?.locationConfidence,
         mapStatus: isOnlineOnly ? "online" : geoResult?.mapStatus ?? "pending",
+        submissionTrust: trustSignals,
+        spamRiskScore: risk.score,
+        spamFlags: risk.flags,
       });
       setDone(true);
     } catch (err) {
@@ -252,6 +280,27 @@ export function SubmitPage() {
         </div>
 
         <fieldset className="space-y-2 border-t border-ark-pine/10 pt-4">
+          <legend className="text-sm font-medium text-ark-pine mb-2">Trust signals (helps reviewers)</legend>
+          {[
+            ["isHostOrganizer", "I am the host/organizer"],
+            ["attendedBefore", "I attended this event before"],
+            ["isPublicGovernmentMeeting", "This is a public government meeting"],
+            ["isRecurringTradition", "This is a recurring community tradition"],
+            ["isOpenToPublic", "This is open to the public"],
+          ].map(([name, label]) => (
+            <label key={name} className="flex items-center gap-2 text-sm">
+              <input
+                type="checkbox"
+                name={name}
+                defaultChecked={name === "isOpenToPublic"}
+                className="rounded border-ark-pine/30"
+              />
+              {label}
+            </label>
+          ))}
+        </fieldset>
+
+        <fieldset className="space-y-2 border-t border-ark-pine/10 pt-4">
           <legend className="text-sm font-medium text-ark-pine mb-2">Options</legend>
           {[
             ["isRecurring", "Is this recurring?"],
@@ -266,6 +315,14 @@ export function SubmitPage() {
             </label>
           ))}
         </fieldset>
+
+        {riskPreview && riskPreview.score > 20 && (
+          <p className="text-sm text-amber-800 bg-amber-50 rounded-lg p-3">
+            Submission flagged for enhanced review ({riskPreview.recommendation.replace("_", " ")}).
+            {riskPreview.flags.length > 0 && ` Flags: ${riskPreview.flags.join(", ")}.`}
+            {" "}Legitimate events are still welcome — a human will review.
+          </p>
+        )}
 
         {error && <p className="text-sm text-red-600">{error}</p>}
 

@@ -8,6 +8,10 @@ import { ThisWeekPage, CivicWatchPage } from "./pages/IntelPages";
 import { AdminPage } from "./pages/AdminPage";
 import { MapPage } from "./pages/MapPage";
 import { OrganizersPage } from "./pages/OrganizersPage";
+import { OpportunityEnginePage } from "./pages/OpportunityEnginePage";
+import { HelpBuildCalendarPage } from "./pages/HelpBuildCalendarPage";
+import { CampaignsLandingPage } from "./pages/CampaignsLandingPage";
+import { CampaignDemoPage } from "./pages/CampaignDemoPage";
 
 export default function App() {
   return (
@@ -23,6 +27,10 @@ export default function App() {
           <Route path="/civic-watch" element={<CivicWatchPage />} />
           <Route path="/map" element={<MapPage />} />
           <Route path="/organizers" element={<OrganizersPage />} />
+          <Route path="/opportunity-engine" element={<OpportunityEnginePage />} />
+          <Route path="/help-build-the-calendar" element={<HelpBuildCalendarPage />} />
+          <Route path="/campaigns" element={<CampaignsLandingPage />} />
+          <Route path="/campaigns/demo" element={<CampaignDemoPage />} />
           <Route path="/admin" element={<AdminPage />} />
         </Routes>
       </Layout>

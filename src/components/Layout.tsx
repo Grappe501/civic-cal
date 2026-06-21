@@ -6,6 +6,7 @@ const nav = [
   { to: "/", label: "Events" },
   { to: "/map", label: "Map" },
   { to: "/organizers", label: "Organizers" },
+  { to: "/campaigns", label: "Campaigns" },
   { to: "/this-week", label: "This week" },
   { to: "/counties", label: "Counties" },
   { to: "/civic-watch", label: "Civic watch" },
@@ -67,6 +68,8 @@ export function Layout({ children }: { children: React.ReactNode }) {
             <p className="font-semibold mb-2">Quick links</p>
             <ul className="space-y-1 text-ark-wheat/70">
               <li><Link to="/submit" className="hover:text-white">Submit an event</Link></li>
+              <li><Link to="/help-build-the-calendar" className="hover:text-white">Help build the calendar</Link></li>
+              <li><Link to="/opportunity-engine" className="hover:text-white">Opportunity Engine</Link></li>
               <li><Link to="/counties" className="hover:text-white">Browse by county</Link></li>
               <li><Link to="/admin" className="hover:text-white">Admin review</Link></li>
             </ul>

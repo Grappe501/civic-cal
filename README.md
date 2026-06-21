@@ -70,7 +70,49 @@ npm run seed:import    # requires DATABASE_URL
 psql $DATABASE_URL -f supabase/migrations/001_civic_calendar.sql
 psql $DATABASE_URL -f supabase/migrations/002_event_maps.sql
 psql $DATABASE_URL -f supabase/migrations/003_event_ingestion_candidates.sql
+psql $DATABASE_URL -f supabase/migrations/004_intelligence_layers.sql
+psql $DATABASE_URL -f supabase/migrations/005_ai_event_network.sql
 ```
+
+## AI Event Intelligence Network
+
+**Policy:** AI is advisory only — never auto-publishes events. Community feedback and public submissions go through human review.
+
+### OpenAI setup (optional)
+
+Set on Netlify Functions (not `VITE_`):
+
+```bash
+OPENAI_API_KEY=...
+OPENAI_EVENT_INTELLIGENCE_MODEL=gpt-4o-mini  # optional
+```
+
+Without `OPENAI_API_KEY`, scoring uses deterministic PO/RD fallback.
+
+### New Netlify functions
+
+| Function | Purpose |
+|----------|---------|
+| `ai-score-event` | Admin POST — AI/deterministic assessment |
+| `event-feedback` | Public POST — local knowledge on event detail |
+| `trusted-contributors` | Public POST — county ambassador signup |
+
+### Approval queue
+
+- All `/submit` events → `status: pending` unless trusted contributor (future)
+- Spam risk scored softly — enhanced review, not hard block
+- Harvester candidates → admin Event Intelligence tab only
+
+### Campaign dashboard (demo)
+
+- `/campaigns` — landing
+- `/campaigns/demo` — localStorage workspace, district filter, plan statuses
+- Google Calendar & Mobilize — disabled planning rails only
+
+### Contributor trust
+
+- `/help-build-the-calendar` → `trusted_contributors` table (`trust_level: new`)
+- `/opportunity-engine` — scoring transparency
 
 ## Netlify deploy
 
@@ -89,7 +131,12 @@ Set all env vars from [`.github/NETLIFY_ENV.md`](.github/NETLIFY_ENV.md).
 | `/` | Event feed + filters |
 | `/map` | Statewide interactive map |
 | `/submit` | Public submission + map preview |
-| `/admin` | Moderation + map review |
+| `/organizers` | Organizer intelligence + five layers |
+| `/opportunity-engine` | Scoring system explainer |
+| `/help-build-the-calendar` | County ambassador signup |
+| `/campaigns` | Campaign dashboard landing |
+| `/campaigns/demo` | Demo workspace (localStorage) |
+| `/admin` | Moderation + map review + Event Intelligence + AI scoring |
 | `/county/:slug` | County calendar (map/list toggle) |
 | `/event/:slug` | Detail + embedded map |
 

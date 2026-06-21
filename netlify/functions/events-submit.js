@@ -91,10 +91,10 @@ exports.handler = async (event) => {
         is_public_government_meeting, candidate_relevant, is_family_friendly,
         is_free, status, source, submitter_name,
         latitude, longitude, place_id, formatted_address, location_confidence,
-        map_status, geocoded_at, is_online_only
+        map_status, geocoded_at,         is_online_only, submission_trust_json, spam_risk_score, spam_flags
       ) VALUES (
         $1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14,$15,$16,$17,$18,$19,$20,$21,$22,
-        'pending','public_submission',$23,$24,$25,$26,$27,$28,$29,$30,$31
+        'pending','public_submission',$23,$24,$25,$26,$27,$28,$29,$30,$31,$32,$33,$34
       )
       ON CONFLICT (slug) DO UPDATE SET updated_at = now()
       RETURNING *`,
@@ -130,6 +130,9 @@ exports.handler = async (event) => {
         mapFields.map_status,
         mapFields.geocoded_at,
         mapFields.is_online_only,
+        body.submissionTrust ? JSON.stringify(body.submissionTrust) : null,
+        body.spamRiskScore ?? null,
+        body.spamFlags?.length ? body.spamFlags : null,
       ],
     );
     await client.end();

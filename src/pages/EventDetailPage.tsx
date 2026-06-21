@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import { CalendarPlus, ExternalLink, MapPin, Share2 } from "lucide-react";
 import { CategoryBadge } from "../components/CategoryBadge";
+import { EventFeedbackForm } from "../components/EventFeedbackForm";
 import { EventDetailMap } from "../components/maps/EventDetailMap";
 import { fetchEventBySlug } from "../lib/api";
 import { downloadIcs, formatEventRange, mapsUrl, shareEventUrl } from "../lib/format";
@@ -97,6 +98,8 @@ export function EventDetailPage() {
           Share this event
         </button>
       </div>
+
+      <EventFeedbackForm eventId={ev.id} eventSlug={ev.slug} eventCounty={ev.county} eventCity={ev.city} />
     </article>
   );
 }

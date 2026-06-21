@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react";
-import { candidateAdminAction, fetchIngestionCandidates } from "../../lib/api-ingestion";
+import { fetchIngestionCandidates } from "../../lib/api-ingestion";
 import type { IngestionCandidate, IntelligenceSection } from "../../lib/intelligence/types";
 import { LayerBadge, DensityBadge } from "../intelligence/LayerBadge";
+import { CandidateAiPanel } from "./CandidateAiPanel";
 
 const SECTIONS: { id: IntelligenceSection; label: string }[] = [
   { id: "newly_discovered", label: "Newly discovered" },
@@ -37,19 +38,10 @@ export function AdminIntelligencePanel({ token }: Props) {
     load(section);
   }, [section]);
 
-  async function act(id: string, action: "approve_to_events" | "reject" | "mark_duplicate" | "mark_recurring") {
-    try {
-      await candidateAdminAction(token, id, action);
-    } catch {
-      /* demo mode — remove from UI locally */
-    }
-    setCandidates((prev) => prev.filter((c) => c.id !== id));
-  }
-
   return (
     <div>
       <p className="text-sm text-ark-pine/60 mb-4">
-        Public-source discoveries only — never auto-published. Approve moves to live events table.
+        Public-source discoveries only — AI is advisory, never auto-published. Approve moves to live events table.
       </p>
       <div className="flex flex-wrap gap-2 mb-6">
         {SECTIONS.map((s) => (
@@ -89,20 +81,7 @@ export function AdminIntelligencePanel({ token }: Props) {
                   Source: {c.sourceName || c.sourceUrl}
                 </a>
               )}
-              <div className="mt-3 flex flex-wrap gap-2">
-                <button type="button" className="btn-primary text-xs py-2" onClick={() => act(c.id, "approve_to_events")}>
-                  Approve into events
-                </button>
-                <button type="button" className="btn-secondary text-xs py-2" onClick={() => act(c.id, "reject")}>
-                  Reject
-                </button>
-                <button type="button" className="btn-secondary text-xs py-2" onClick={() => act(c.id, "mark_duplicate")}>
-                  Mark duplicate
-                </button>
-                <button type="button" className="btn-secondary text-xs py-2" onClick={() => act(c.id, "mark_recurring")}>
-                  Recurring annual
-                </button>
-              </div>
+              <CandidateAiPanel token={token} candidate={c} onAction={() => load(section)} />
             </div>
           ))}
           {candidates.length === 0 && <p className="text-ark-pine/60">No candidates in this section.</p>}
