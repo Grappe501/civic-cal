@@ -1,22 +1,9 @@
-const fs = require("node:fs");
-const path = require("node:path");
 const { getClient, json } = require("./lib/db");
 const { isPubliclyVisibleEvent } = require("./lib/eventArchive");
-
-function loadBundledSeed() {
-  const files = ["seed-events.json", "seed-events-public-demo.json"];
-  const bySlug = new Map();
-  for (const file of files) {
-    const p = path.join(__dirname, "..", "..", "data", file);
-    if (!fs.existsSync(p)) continue;
-    const bundle = JSON.parse(fs.readFileSync(p, "utf8"));
-    for (const e of bundle.events || []) bySlug.set(e.slug, e);
-  }
-  return [...bySlug.values()];
-}
+const { loadBundledSeedEvents } = require("./lib/bundledSeed.cjs");
 
 exports.handler = async () => {
-  const bundled = loadBundledSeed();
+  const bundled = loadBundledSeedEvents();
   const seedVisible = bundled.filter(isPubliclyVisibleEvent).length;
 
   const client = getClient();

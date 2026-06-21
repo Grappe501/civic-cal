@@ -1,6 +1,6 @@
 const { getClient, rowToEvent, json, parseFilters, buildWhere } = require("./lib/db");
 const { isPubliclyVisibleEvent } = require("./lib/eventArchive");
-const { loadBundledSeedEvents } = require("./lib/bundledSeed");
+const { loadBundledSeedEvents } = require("./lib/bundledSeed.cjs");
 
 function loadSeedFallback() {
   return loadBundledSeedEvents();
