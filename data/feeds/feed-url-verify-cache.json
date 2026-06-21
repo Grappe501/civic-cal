@@ -258,6 +258,48 @@
       "status": 200,
       "method": "HEAD",
       "checkedAt": "2026-06-21T06:41:53.365Z"
+    },
+    "https://www.siloamspringssd.org": {
+      "url": "https://www.siloamspringssd.org",
+      "ok": false,
+      "status": null,
+      "method": null,
+      "checkedAt": "2026-06-21T07:38:57.519Z"
+    },
+    "https://www.camdensd.org": {
+      "url": "https://www.camdensd.org",
+      "ok": false,
+      "status": null,
+      "method": null,
+      "checkedAt": "2026-06-21T07:38:59.008Z"
+    },
+    "https://www.mountainviewsd.org": {
+      "url": "https://www.mountainviewsd.org",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "checkedAt": "2026-06-21T07:39:00.601Z"
+    },
+    "https://www.lowellsd.org": {
+      "url": "https://www.lowellsd.org",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "checkedAt": "2026-06-21T07:39:02.737Z"
+    },
+    "https://www.eurekaspringssd.org": {
+      "url": "https://www.eurekaspringssd.org",
+      "ok": false,
+      "status": null,
+      "method": null,
+      "checkedAt": "2026-06-21T07:39:04.962Z"
+    },
+    "https://www.warrensd.org": {
+      "url": "https://www.warrensd.org",
+      "ok": true,
+      "status": 200,
+      "method": "HEAD",
+      "checkedAt": "2026-06-21T07:39:06.972Z"
     }
   }
 }

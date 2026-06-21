@@ -135,6 +135,9 @@ export function AdminPage() {
         <Link to="/admin/political-infrastructure" className="chip chip-muted text-xs">
           Political infrastructure →
         </Link>
+        <Link to="/admin/school-calendars" className="chip chip-muted text-xs">
+          School calendars →
+        </Link>
         <Link to="/admin/candidates" className="chip chip-muted text-xs">
           Candidates →
         </Link>

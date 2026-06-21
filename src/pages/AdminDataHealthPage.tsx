@@ -4,6 +4,7 @@ import { AlertTriangle, CheckCircle2, Database, RefreshCw } from "lucide-react";
 import { runEventDataDiagnostics, type EventDataDiagnostics } from "../lib/events/eventDataDiagnostics";
 import { runProfileHealth } from "../lib/profiles/profileHealth";
 import { runPartyMeetingHealth } from "../lib/party-meetings/partyMeetingHealth";
+import { runSchoolHarvestHealth } from "../lib/schools/schoolHarvestHealth";
 import { loadFeedAttachmentReport } from "../lib/feeds/feedAttachmentReport";
 import { formatEventRange } from "../lib/format";
 
@@ -15,6 +16,7 @@ export function AdminDataHealthPage() {
   const [loading, setLoading] = useState(true);
   const profileHealth = useMemo(() => runProfileHealth(), []);
   const partyHealth = useMemo(() => runPartyMeetingHealth(), []);
+  const schoolHealth = useMemo(() => runSchoolHarvestHealth(), []);
   const feedReport = useMemo(() => loadFeedAttachmentReport(), []);
 
   async function refresh() {
@@ -122,6 +124,22 @@ export function AdminDataHealthPage() {
             </div>
             <Link to="/admin" className="btn-secondary text-xs mt-4 inline-flex" onClick={() => sessionStorage.setItem("civic-admin-tab", "event_coverage")}>
               Review party meetings →
+            </Link>
+          </section>
+
+          <section className="card-readable">
+            <h2 className="font-semibold text-[var(--text-secondary)]">School calendar harvest (Pass 27)</h2>
+            <p className="text-caption mt-1">328 high schools + 18 colleges → URLs → staged → approved.</p>
+            <div className="mt-3 grid gap-3 sm:grid-cols-2 text-sm">
+              <Stat label="HS discovered" value={String(schoolHealth.funnel.highSchoolsDiscovered)} />
+              <Stat label="HS calendar URLs" value={`${schoolHealth.funnel.highSchoolsCalendarUrl} / ${schoolHealth.funnel.highSchoolsDiscovered}`} highlight />
+              <Stat label="HS athletics URLs" value={`${schoolHealth.funnel.highSchoolsAthleticsUrl} / ${schoolHealth.funnel.highSchoolsDiscovered}`} />
+              <Stat label="Staged school events" value={String(schoolHealth.funnel.stagedSchoolEvents)} highlight />
+              <Stat label="Approved public" value={String(schoolHealth.funnel.approvedPublicEvents)} />
+              <Stat label="Colleges w/ calendar" value={`${schoolHealth.funnel.collegesCalendarUrl} / ${schoolHealth.funnel.collegesDiscovered}`} />
+            </div>
+            <Link to="/admin/school-calendars" className="btn-secondary text-xs mt-4 inline-flex">
+              School calendar funnel →
             </Link>
           </section>
 

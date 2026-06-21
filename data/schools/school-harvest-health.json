@@ -1,0 +1,42 @@
+{
+  "generatedAt": "2026-06-21T15:31:36.504Z",
+  "pass": "27",
+  "funnel": {
+    "highSchoolsDiscovered": 328,
+    "collegesDiscovered": 18,
+    "highSchoolsCalendarUrl": 93,
+    "highSchoolsAthleticsUrl": 93,
+    "collegesCalendarUrl": 14,
+    "collegesAthleticsUrl": 14,
+    "stagedSchoolEvents": 967,
+    "stagedPendingReview": 865,
+    "approvedPublicEvents": 100
+  },
+  "lanes": {
+    "school_general": 86,
+    "pto_fundraiser": 95,
+    "college_athletics": 17,
+    "graduation": 98,
+    "theater": 99,
+    "school_board": 93,
+    "football": 93,
+    "basketball": 93,
+    "band_concert": 93,
+    "homecoming": 93,
+    "senior_night": 93,
+    "college_public": 14
+  },
+  "targetLanes": [
+    "school_board",
+    "football",
+    "basketball",
+    "band_concert",
+    "homecoming",
+    "senior_night",
+    "graduation",
+    "theater",
+    "pto_fundraiser",
+    "college_athletics",
+    "college_public"
+  ]
+}

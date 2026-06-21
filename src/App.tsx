@@ -37,6 +37,7 @@ import { AdminDensityPage } from "./pages/AdminDensityPage";
 import { AdminFeedCoveragePage } from "./pages/AdminFeedCoveragePage";
 import { AdminAutogrowPage } from "./pages/AdminAutogrowPage";
 import { AdminPoliticalInfrastructurePage } from "./pages/AdminPoliticalInfrastructurePage";
+import { AdminSchoolCalendarPage } from "./pages/AdminSchoolCalendarPage";
 import { AdminCandidatesPage } from "./pages/AdminCandidatesPage";
 import { CandidateWorkspacePage } from "./pages/CandidateWorkspacePage";
 import { GeoResolverPage } from "./pages/GeoResolverPage";
@@ -100,6 +101,7 @@ export default function App() {
           <Route path="/admin/feeds" element={<AdminFeedCoveragePage />} />
           <Route path="/admin/autogrow" element={<AdminAutogrowPage />} />
           <Route path="/admin/political-infrastructure" element={<AdminPoliticalInfrastructurePage />} />
+          <Route path="/admin/school-calendars" element={<AdminSchoolCalendarPage />} />
           <Route path="/admin/candidates" element={<AdminCandidatesPage />} />
           <Route path="/admin" element={<AdminPage />} />
           <Route path="/:slug" element={<GeoResolverPage />} />

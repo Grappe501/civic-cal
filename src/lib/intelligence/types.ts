@@ -65,4 +65,5 @@ export type IntelligenceSection =
   | "flagship_annual"
   | "government_meetings"
   | "church_fundraisers"
-  | "public_party_meetings";
+  | "public_party_meetings"
+  | "school_events";

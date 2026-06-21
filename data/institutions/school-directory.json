@@ -13090,8 +13090,8 @@
     {
       "id": "ade-7311051",
       "school_name": "AHLF JUNIOR HIGH SCHOOL",
-      "city": null,
-      "county": "Unknown",
+      "city": "Searcy",
+      "county": "White",
       "district": "Verify district",
       "school_type": "public",
       "grades_served": "07 - 08",
@@ -13099,7 +13099,7 @@
       "school_colors": null,
       "principal": "Jonathan Gosdin",
       "superintendent": null,
-      "website": null,
+      "website": "https://www.searcyschools.org",
       "governance": {
         "board_meeting_schedule": null,
         "board_meeting_location": null,
@@ -13114,9 +13114,9 @@
           "Graduation",
           "Band Competition"
         ],
-        "calendar_url": null,
-        "athletics_url": null,
-        "board_meeting_url": null,
+        "calendar_url": "https://www.searcyschools.org",
+        "athletics_url": "https://www.searcyschools.org/athletics",
+        "board_meeting_url": "https://www.searcyschools.org/school-board",
         "last_harvest_at": null
       },
       "source_links": [
@@ -13174,16 +13174,16 @@
     {
       "id": "ade-1701002",
       "school_name": "ALMA HIGH SCHOOL",
-      "city": null,
-      "county": "Unknown",
-      "district": "Verify district",
+      "city": "Alma",
+      "county": "Crawford",
+      "district": "Alma School District",
       "school_type": "public",
       "grades_served": "09 - 12",
       "mascot": null,
       "school_colors": null,
       "principal": "Manesseh Moore",
       "superintendent": null,
-      "website": null,
+      "website": "https://www.almaschools.net",
       "governance": {
         "board_meeting_schedule": null,
         "board_meeting_location": null,
@@ -13198,9 +13198,9 @@
           "Graduation",
           "Band Competition"
         ],
-        "calendar_url": null,
-        "athletics_url": null,
-        "board_meeting_url": null,
+        "calendar_url": "https://www.almaschools.net",
+        "athletics_url": "https://www.almaschools.net/athletics",
+        "board_meeting_url": "https://www.almaschools.net/school-board",
         "last_harvest_at": null
       },
       "source_links": [
@@ -13300,16 +13300,16 @@
     {
       "id": "ade-1002010",
       "school_name": "ARKADELPHIA HIGH SCHOOL",
-      "city": null,
-      "county": "Unknown",
-      "district": "Verify district",
+      "city": "Arkadelphia",
+      "county": "Clark",
+      "district": "Arkadelphia School District",
       "school_type": "public",
       "grades_served": "09 - 12",
       "mascot": null,
       "school_colors": null,
       "principal": "Callie Hunley",
       "superintendent": null,
-      "website": null,
+      "website": "https://www.arkadelphiaschools.org",
       "governance": {
         "board_meeting_schedule": null,
         "board_meeting_location": null,
@@ -13324,9 +13324,9 @@
           "Graduation",
           "Band Competition"
         ],
-        "calendar_url": null,
-        "athletics_url": null,
-        "board_meeting_url": null,
+        "calendar_url": "https://www.arkadelphiaschools.org",
+        "athletics_url": "https://www.arkadelphiaschools.org/athletics",
+        "board_meeting_url": "https://www.arkadelphiaschools.org/school-board",
         "last_harvest_at": null
       },
       "source_links": [
@@ -13762,16 +13762,16 @@
     {
       "id": "ade-4101004",
       "school_name": "ASHDOWN HIGH SCHOOL",
-      "city": null,
-      "county": "Unknown",
-      "district": "Verify district",
+      "city": "Ashdown",
+      "county": "Little River",
+      "district": "Ashdown School District",
       "school_type": "public",
       "grades_served": "09 - 12",
       "mascot": null,
       "school_colors": null,
       "principal": "Kay York",
       "superintendent": null,
-      "website": null,
+      "website": "https://www.ashdownschools.org",
       "governance": {
         "board_meeting_schedule": null,
         "board_meeting_location": null,
@@ -13786,9 +13786,9 @@
           "Graduation",
           "Band Competition"
         ],
-        "calendar_url": null,
-        "athletics_url": null,
-        "board_meeting_url": null,
+        "calendar_url": "https://www.ashdownschools.org",
+        "athletics_url": "https://www.ashdownschools.org/athletics",
+        "board_meeting_url": "https://www.ashdownschools.org/school-board",
         "last_harvest_at": null
       },
       "source_links": [
@@ -13804,16 +13804,16 @@
     {
       "id": "ade-4101003",
       "school_name": "ASHDOWN JUNIOR HIGH SCHOOL",
-      "city": null,
-      "county": "Unknown",
-      "district": "Verify district",
+      "city": "Ashdown",
+      "county": "Little River",
+      "district": "Ashdown School District",
       "school_type": "public",
       "grades_served": "06 - 08",
       "mascot": null,
       "school_colors": null,
       "principal": "Felicia Cunningham",
       "superintendent": null,
-      "website": null,
+      "website": "https://www.ashdownschools.org",
       "governance": {
         "board_meeting_schedule": null,
         "board_meeting_location": null,
@@ -13828,9 +13828,9 @@
           "Graduation",
           "Band Competition"
         ],
-        "calendar_url": null,
-        "athletics_url": null,
-        "board_meeting_url": null,
+        "calendar_url": "https://www.ashdownschools.org",
+        "athletics_url": "https://www.ashdownschools.org/athletics",
+        "board_meeting_url": "https://www.ashdownschools.org/school-board",
         "last_harvest_at": null
       },
       "source_links": [
@@ -14014,8 +14014,8 @@
     {
       "id": "ade-7001010",
       "school_name": "BARTON JR. HIGH SCHOOL",
-      "city": null,
-      "county": "Unknown",
+      "city": "El Dorado",
+      "county": "Union",
       "district": "Verify district",
       "school_type": "public",
       "grades_served": "07 - 08",
@@ -14023,7 +14023,7 @@
       "school_colors": null,
       "principal": "G. Michelle Henry",
       "superintendent": null,
-      "website": null,
+      "website": "https://www.eldoradopublicschools.org",
       "governance": {
         "board_meeting_schedule": null,
         "board_meeting_location": null,
@@ -14038,9 +14038,9 @@
           "Graduation",
           "Band Competition"
         ],
-        "calendar_url": null,
-        "athletics_url": null,
-        "board_meeting_url": null,
+        "calendar_url": "https://www.eldoradopublicschools.org",
+        "athletics_url": "https://www.eldoradopublicschools.org/athletics",
+        "board_meeting_url": "https://www.eldoradopublicschools.org/school-board",
         "last_harvest_at": null
       },
       "source_links": [
@@ -14056,16 +14056,16 @@
     {
       "id": "ade-3201703",
       "school_name": "BATESVILLE HIGH SCHOOL CHARTER",
-      "city": null,
-      "county": "Unknown",
-      "district": "Verify district",
+      "city": "Batesville",
+      "county": "Independence",
+      "district": "Batesville School District",
       "school_type": "public",
       "grades_served": "09 - 12",
       "mascot": null,
       "school_colors": null,
       "principal": "Kevin Bledsoe",
       "superintendent": null,
-      "website": null,
+      "website": "https://www.batesvilleschools.com",
       "governance": {
         "board_meeting_schedule": null,
         "board_meeting_location": null,
@@ -14080,9 +14080,9 @@
           "Graduation",
           "Band Competition"
         ],
-        "calendar_url": null,
-        "athletics_url": null,
-        "board_meeting_url": null,
+        "calendar_url": "https://www.batesvilleschools.com",
+        "athletics_url": "https://www.batesvilleschools.com/athletics",
+        "board_meeting_url": "https://www.batesvilleschools.com/school-board",
         "last_harvest_at": null
       },
       "source_links": [
@@ -14098,16 +14098,16 @@
     {
       "id": "ade-3201702",
       "school_name": "BATESVILLE JUNIOR HIGH SCHOOL CHARTER",
-      "city": null,
-      "county": "Unknown",
-      "district": "Verify district",
+      "city": "Batesville",
+      "county": "Independence",
+      "district": "Batesville School District",
       "school_type": "public",
       "grades_served": "06 - 08",
       "mascot": null,
       "school_colors": null,
       "principal": "Casey Burnside",
       "superintendent": null,
-      "website": null,
+      "website": "https://www.batesvilleschools.com",
       "governance": {
         "board_meeting_schedule": null,
         "board_meeting_location": null,
@@ -14122,9 +14122,9 @@
           "Graduation",
           "Band Competition"
         ],
-        "calendar_url": null,
-        "athletics_url": null,
-        "board_meeting_url": null,
+        "calendar_url": "https://www.batesvilleschools.com",
+        "athletics_url": "https://www.batesvilleschools.com/athletics",
+        "board_meeting_url": "https://www.batesvilleschools.com/school-board",
         "last_harvest_at": null
       },
       "source_links": [
@@ -14266,7 +14266,7 @@
     {
       "id": "ade-7302010",
       "school_name": "BEEBE HIGH SCHOOL",
-      "city": null,
+      "city": "BEEBE",
       "county": "Unknown",
       "district": "Verify district",
       "school_type": "public",
@@ -14275,7 +14275,7 @@
       "school_colors": null,
       "principal": "Justin Edwards",
       "superintendent": null,
-      "website": null,
+      "website": "https://www.beebeschools.org",
       "governance": {
         "board_meeting_schedule": null,
         "board_meeting_location": null,
@@ -14290,9 +14290,9 @@
           "Graduation",
           "Band Competition"
         ],
-        "calendar_url": null,
-        "athletics_url": null,
-        "board_meeting_url": null,
+        "calendar_url": "https://www.beebeschools.org",
+        "athletics_url": "https://www.beebeschools.org/athletics",
+        "board_meeting_url": "https://www.beebeschools.org/school-board",
         "last_harvest_at": null
       },
       "source_links": [
@@ -14308,7 +14308,7 @@
     {
       "id": "ade-7302009",
       "school_name": "BEEBE JUNIOR HIGH SCHOOL",
-      "city": null,
+      "city": "BEEBE",
       "county": "Unknown",
       "district": "Verify district",
       "school_type": "public",
@@ -14317,7 +14317,7 @@
       "school_colors": null,
       "principal": "Kelli Mcneill",
       "superintendent": null,
-      "website": null,
+      "website": "https://www.beebeschools.org",
       "governance": {
         "board_meeting_schedule": null,
         "board_meeting_location": null,
@@ -14332,9 +14332,9 @@
           "Graduation",
           "Band Competition"
         ],
-        "calendar_url": null,
-        "athletics_url": null,
-        "board_meeting_url": null,
+        "calendar_url": "https://www.beebeschools.org",
+        "athletics_url": "https://www.beebeschools.org/athletics",
+        "board_meeting_url": "https://www.beebeschools.org/school-board",
         "last_harvest_at": null
       },
       "source_links": [
@@ -14350,16 +14350,16 @@
     {
       "id": "ade-6302012",
       "school_name": "BENTON HIGH SCHOOL",
-      "city": null,
-      "county": "Unknown",
-      "district": "Verify district",
+      "city": "Benton",
+      "county": "Saline",
+      "district": "Benton School District",
       "school_type": "public",
       "grades_served": "10 - 12",
       "mascot": null,
       "school_colors": null,
       "principal": "Jonathan Barger",
       "superintendent": null,
-      "website": null,
+      "website": "https://www.bentonschools.org",
       "governance": {
         "board_meeting_schedule": null,
         "board_meeting_location": null,
@@ -14374,9 +14374,9 @@
           "Graduation",
           "Band Competition"
         ],
-        "calendar_url": null,
-        "athletics_url": null,
-        "board_meeting_url": null,
+        "calendar_url": "https://www.bentonschools.org",
+        "athletics_url": "https://www.bentonschools.org/athletics",
+        "board_meeting_url": "https://www.bentonschools.org/school-board",
         "last_harvest_at": null
       },
       "source_links": [
@@ -14392,16 +14392,16 @@
     {
       "id": "ade-6302010",
       "school_name": "BENTON JUNIOR HIGH SCHOOL",
-      "city": null,
-      "county": "Unknown",
-      "district": "Verify district",
+      "city": "Benton",
+      "county": "Saline",
+      "district": "Benton School District",
       "school_type": "public",
       "grades_served": "08 - 09",
       "mascot": null,
       "school_colors": null,
       "principal": "Melissa White",
       "superintendent": null,
-      "website": null,
+      "website": "https://www.bentonschools.org",
       "governance": {
         "board_meeting_schedule": null,
         "board_meeting_location": null,
@@ -14416,9 +14416,9 @@
           "Graduation",
           "Band Competition"
         ],
-        "calendar_url": null,
-        "athletics_url": null,
-        "board_meeting_url": null,
+        "calendar_url": "https://www.bentonschools.org",
+        "athletics_url": "https://www.bentonschools.org/athletics",
+        "board_meeting_url": "https://www.bentonschools.org/school-board",
         "last_harvest_at": null
       },
       "source_links": [
@@ -14434,16 +14434,16 @@
     {
       "id": "ade-0401003",
       "school_name": "BENTONVILLE HIGH SCHOOL",
-      "city": null,
-      "county": "Unknown",
-      "district": "Verify district",
+      "city": "Bentonville",
+      "county": "Benton",
+      "district": "Bentonville School District",
       "school_type": "public",
       "grades_served": "09 - 12",
       "mascot": null,
       "school_colors": null,
       "principal": "Jeffrey Wasem",
       "superintendent": null,
-      "website": null,
+      "website": "https://www.bentonvillek12.org",
       "governance": {
         "board_meeting_schedule": null,
         "board_meeting_location": null,
@@ -14458,9 +14458,9 @@
           "Graduation",
           "Band Competition"
         ],
-        "calendar_url": null,
-        "athletics_url": null,
-        "board_meeting_url": null,
+        "calendar_url": "https://www.bentonvillek12.org",
+        "athletics_url": "https://www.bentonvillek12.org/athletics",
+        "board_meeting_url": "https://www.bentonvillek12.org/school-board",
         "last_harvest_at": null
       },
       "source_links": [
@@ -14476,16 +14476,16 @@
     {
       "id": "ade-0401019",
       "school_name": "BENTONVILLE WEST HIGH SCHOOL",
-      "city": null,
-      "county": "Unknown",
-      "district": "Verify district",
+      "city": "Bentonville",
+      "county": "Benton",
+      "district": "Bentonville School District",
       "school_type": "public",
       "grades_served": "09 - 12",
       "mascot": null,
       "school_colors": null,
       "principal": "Jonathon Guthrie",
       "superintendent": null,
-      "website": null,
+      "website": "https://www.bentonvillek12.org",
       "governance": {
         "board_meeting_schedule": null,
         "board_meeting_location": null,
@@ -14500,9 +14500,9 @@
           "Graduation",
           "Band Competition"
         ],
-        "calendar_url": null,
-        "athletics_url": null,
-        "board_meeting_url": null,
+        "calendar_url": "https://www.bentonvillek12.org",
+        "athletics_url": "https://www.bentonvillek12.org/athletics",
+        "board_meeting_url": "https://www.bentonvillek12.org/school-board",
         "last_harvest_at": null
       },
       "source_links": [
@@ -14728,7 +14728,7 @@
     {
       "id": "ade-4702014",
       "school_name": "BLYTHEVILLE HIGH SCHOOL",
-      "city": null,
+      "city": "BLYTHEVILLE",
       "county": "Unknown",
       "district": "Verify district",
       "school_type": "public",
@@ -14737,7 +14737,7 @@
       "school_colors": null,
       "principal": "Mary Jackson",
       "superintendent": null,
-      "website": null,
+      "website": "https://www.blythevilleschools.org",
       "governance": {
         "board_meeting_schedule": null,
         "board_meeting_location": null,
@@ -14752,9 +14752,9 @@
           "Graduation",
           "Band Competition"
         ],
-        "calendar_url": null,
-        "athletics_url": null,
-        "board_meeting_url": null,
+        "calendar_url": "https://www.blythevilleschools.org",
+        "athletics_url": "https://www.blythevilleschools.org/athletics",
+        "board_meeting_url": "https://www.blythevilleschools.org/school-board",
         "last_harvest_at": null
       },
       "source_links": [
@@ -15064,16 +15064,16 @@
     {
       "id": "ade-6303022",
       "school_name": "BRYANT HIGH SCHOOL",
-      "city": null,
-      "county": "Unknown",
-      "district": "Verify district",
+      "city": "Bryant",
+      "county": "Saline",
+      "district": "Bryant School District",
       "school_type": "public",
       "grades_served": "10 - 12",
       "mascot": null,
       "school_colors": null,
       "principal": "William Hay",
       "superintendent": null,
-      "website": null,
+      "website": "https://www.bryantschools.org",
       "governance": {
         "board_meeting_schedule": null,
         "board_meeting_location": null,
@@ -15088,9 +15088,9 @@
           "Graduation",
           "Band Competition"
         ],
-        "calendar_url": null,
-        "athletics_url": null,
-        "board_meeting_url": null,
+        "calendar_url": "https://www.bryantschools.org",
+        "athletics_url": "https://www.bryantschools.org/athletics",
+        "board_meeting_url": "https://www.bryantschools.org/school-board",
         "last_harvest_at": null
       },
       "source_links": [
@@ -15106,16 +15106,16 @@
     {
       "id": "ade-6303017",
       "school_name": "BRYANT JUNIOR HIGH SCHOOL",
-      "city": null,
-      "county": "Unknown",
-      "district": "Verify district",
+      "city": "Bryant",
+      "county": "Saline",
+      "district": "Bryant School District",
       "school_type": "public",
       "grades_served": "08 - 09",
       "mascot": null,
       "school_colors": null,
       "principal": "Laura Fee",
       "superintendent": null,
-      "website": null,
+      "website": "https://www.bryantschools.org",
       "governance": {
         "board_meeting_schedule": null,
         "board_meeting_location": null,
@@ -15130,9 +15130,9 @@
           "Graduation",
           "Band Competition"
         ],
-        "calendar_url": null,
-        "athletics_url": null,
-        "board_meeting_url": null,
+        "calendar_url": "https://www.bryantschools.org",
+        "athletics_url": "https://www.bryantschools.org/athletics",
+        "board_meeting_url": "https://www.bryantschools.org/school-board",
         "last_harvest_at": null
       },
       "source_links": [
@@ -15190,16 +15190,16 @@
     {
       "id": "ade-4304005",
       "school_name": "CABOT HIGH SCHOOL",
-      "city": null,
-      "county": "Unknown",
-      "district": "Verify district",
+      "city": "Cabot",
+      "county": "Lonoke",
+      "district": "Cabot School District",
       "school_type": "public",
       "grades_served": "10 - 12",
       "mascot": null,
       "school_colors": null,
       "principal": "Michael Falcinelli",
       "superintendent": null,
-      "website": null,
+      "website": "https://www.cabotschools.org",
       "governance": {
         "board_meeting_schedule": null,
         "board_meeting_location": null,
@@ -15214,9 +15214,9 @@
           "Graduation",
           "Band Competition"
         ],
-        "calendar_url": null,
-        "athletics_url": null,
-        "board_meeting_url": null,
+        "calendar_url": "https://www.cabotschools.org",
+        "athletics_url": "https://www.cabotschools.org/athletics",
+        "board_meeting_url": "https://www.cabotschools.org/school-board",
         "last_harvest_at": null
       },
       "source_links": [
@@ -15274,7 +15274,7 @@
     {
       "id": "ade-5204023",
       "school_name": "CAMDEN FAIRVIEW HIGH SCHOOL",
-      "city": null,
+      "city": "CAMDEN FAIRVIEW",
       "county": "Unknown",
       "district": "Verify district",
       "school_type": "public",
@@ -15283,7 +15283,7 @@
       "school_colors": null,
       "principal": "Cara Bowie",
       "superintendent": null,
-      "website": null,
+      "website": "https://www.camdenschools.org",
       "governance": {
         "board_meeting_schedule": null,
         "board_meeting_location": null,
@@ -15298,9 +15298,9 @@
           "Graduation",
           "Band Competition"
         ],
-        "calendar_url": null,
-        "athletics_url": null,
-        "board_meeting_url": null,
+        "calendar_url": "https://www.camdenschools.org",
+        "athletics_url": "https://www.camdenschools.org/athletics",
+        "board_meeting_url": "https://www.camdenschools.org/school-board",
         "last_harvest_at": null
       },
       "source_links": [
@@ -15526,8 +15526,8 @@
     {
       "id": "ade-6001001",
       "school_name": "CENTRAL HIGH SCHOOL",
-      "city": null,
-      "county": "Unknown",
+      "city": "Little Rock",
+      "county": "Pulaski",
       "district": "Verify district",
       "school_type": "public",
       "grades_served": "09 - 12",
@@ -15535,7 +15535,7 @@
       "school_colors": null,
       "principal": "Nancy Rousseau",
       "superintendent": null,
-      "website": null,
+      "website": "https://www.lrsd.org",
       "governance": {
         "board_meeting_schedule": null,
         "board_meeting_location": null,
@@ -15550,9 +15550,9 @@
           "Graduation",
           "Band Competition"
         ],
-        "calendar_url": null,
-        "athletics_url": null,
-        "board_meeting_url": null,
+        "calendar_url": "https://www.lrsd.org/o/lrsd/page/calendar",
+        "athletics_url": "https://www.lrsd.org/o/lrsd/page/athletics",
+        "board_meeting_url": "https://www.lrsd.org/o/lrsd/page/school-board",
         "last_harvest_at": null
       },
       "source_links": [
@@ -15568,8 +15568,8 @@
     {
       "id": "ade-7207047",
       "school_name": "CENTRAL JUNIOR HIGH SCHOOL",
-      "city": null,
-      "county": "Unknown",
+      "city": "Springdale",
+      "county": "Washington",
       "district": "Verify district",
       "school_type": "public",
       "grades_served": "08 - 09",
@@ -15577,7 +15577,7 @@
       "school_colors": null,
       "principal": "Todd Loftin",
       "superintendent": null,
-      "website": null,
+      "website": "https://www.springdaleschools.org",
       "governance": {
         "board_meeting_schedule": null,
         "board_meeting_location": null,
@@ -15592,9 +15592,9 @@
           "Graduation",
           "Band Competition"
         ],
-        "calendar_url": null,
-        "athletics_url": null,
-        "board_meeting_url": null,
+        "calendar_url": "https://www.springdaleschools.org",
+        "athletics_url": "https://www.springdaleschools.org/athletics",
+        "board_meeting_url": "https://www.springdaleschools.org/school-board",
         "last_harvest_at": null
       },
       "source_links": [
@@ -15694,7 +15694,7 @@
     {
       "id": "ade-3601005",
       "school_name": "CLARKSVILLE HIGH SCHOOL",
-      "city": null,
+      "city": "CLARKSVILLE",
       "county": "Unknown",
       "district": "Verify district",
       "school_type": "public",
@@ -15703,7 +15703,7 @@
       "school_colors": null,
       "principal": "Shelley Vaughn",
       "superintendent": null,
-      "website": null,
+      "website": "https://www.clarksvilleschools.org",
       "governance": {
         "board_meeting_schedule": null,
         "board_meeting_location": null,
@@ -15718,9 +15718,9 @@
           "Graduation",
           "Band Competition"
         ],
-        "calendar_url": null,
-        "athletics_url": null,
-        "board_meeting_url": null,
+        "calendar_url": "https://www.clarksvilleschools.org",
+        "athletics_url": "https://www.clarksvilleschools.org/athletics",
+        "board_meeting_url": "https://www.clarksvilleschools.org/school-board",
         "last_harvest_at": null
       },
       "source_links": [
@@ -15736,7 +15736,7 @@
     {
       "id": "ade-3601004",
       "school_name": "CLARKSVILLE JUNIOR HIGH SCHOOL",
-      "city": null,
+      "city": "CLARKSVILLE",
       "county": "Unknown",
       "district": "Verify district",
       "school_type": "public",
@@ -15745,7 +15745,7 @@
       "school_colors": null,
       "principal": "Brandy Cogan",
       "superintendent": null,
-      "website": null,
+      "website": "https://www.clarksvilleschools.org",
       "governance": {
         "board_meeting_schedule": null,
         "board_meeting_location": null,
@@ -15760,9 +15760,9 @@
           "Graduation",
           "Band Competition"
         ],
-        "calendar_url": null,
-        "athletics_url": null,
-        "board_meeting_url": null,
+        "calendar_url": "https://www.clarksvilleschools.org",
+        "athletics_url": "https://www.clarksvilleschools.org/athletics",
+        "board_meeting_url": "https://www.clarksvilleschools.org/school-board",
         "last_harvest_at": null
       },
       "source_links": [
@@ -15778,7 +15778,7 @@
     {
       "id": "ade-7102006",
       "school_name": "CLINTON HIGH SCHOOL",
-      "city": null,
+      "city": "CLINTON",
       "county": "Unknown",
       "district": "Verify district",
       "school_type": "public",
@@ -15787,7 +15787,7 @@
       "school_colors": null,
       "principal": "Keith Brown",
       "superintendent": null,
-      "website": null,
+      "website": "https://www.clintonschools.org",
       "governance": {
         "board_meeting_schedule": null,
         "board_meeting_location": null,
@@ -15802,9 +15802,9 @@
           "Graduation",
           "Band Competition"
         ],
-        "calendar_url": null,
-        "athletics_url": null,
-        "board_meeting_url": null,
+        "calendar_url": "https://www.clintonschools.org",
+        "athletics_url": "https://www.clintonschools.org/athletics",
+        "board_meeting_url": "https://www.clintonschools.org/school-board",
         "last_harvest_at": null
       },
       "source_links": [
@@ -15820,7 +15820,7 @@
     {
       "id": "ade-7102008",
       "school_name": "CLINTON JR HIGH SCHOOL",
-      "city": null,
+      "city": "CLINTON JR",
       "county": "Unknown",
       "district": "Verify district",
       "school_type": "public",
@@ -15829,7 +15829,7 @@
       "school_colors": null,
       "principal": "Michael Wells",
       "superintendent": null,
-      "website": null,
+      "website": "https://www.clintonschools.org",
       "governance": {
         "board_meeting_schedule": null,
         "board_meeting_location": null,
@@ -15844,9 +15844,9 @@
           "Graduation",
           "Band Competition"
         ],
-        "calendar_url": null,
-        "athletics_url": null,
-        "board_meeting_url": null,
+        "calendar_url": "https://www.clintonschools.org",
+        "athletics_url": "https://www.clintonschools.org/athletics",
+        "board_meeting_url": "https://www.clintonschools.org/school-board",
         "last_harvest_at": null
       },
       "source_links": [
@@ -15904,16 +15904,16 @@
     {
       "id": "ade-2301006",
       "school_name": "CONWAY HIGH SCHOOL",
-      "city": null,
-      "county": "Unknown",
-      "district": "Verify district",
+      "city": "Conway",
+      "county": "Faulkner",
+      "district": "Conway School District",
       "school_type": "public",
       "grades_served": "10 - 12",
       "mascot": null,
       "school_colors": null,
       "principal": "Katti Worley",
       "superintendent": null,
-      "website": null,
+      "website": "https://www.conwayschools.org",
       "governance": {
         "board_meeting_schedule": null,
         "board_meeting_location": null,
@@ -15928,9 +15928,9 @@
           "Graduation",
           "Band Competition"
         ],
-        "calendar_url": null,
-        "athletics_url": null,
-        "board_meeting_url": null,
+        "calendar_url": "https://www.conwayschools.org",
+        "athletics_url": "https://www.conwayschools.org/athletics",
+        "board_meeting_url": "https://www.conwayschools.org/school-board",
         "last_harvest_at": null
       },
       "source_links": [
@@ -15946,16 +15946,16 @@
     {
       "id": "ade-2301020",
       "school_name": "CONWAY JUNIOR HIGH SCHOOL",
-      "city": null,
-      "county": "Unknown",
-      "district": "Verify district",
+      "city": "Conway",
+      "county": "Faulkner",
+      "district": "Conway School District",
       "school_type": "public",
       "grades_served": "08 - 09",
       "mascot": null,
       "school_colors": null,
       "principal": "Marquis Rogers",
       "superintendent": null,
-      "website": null,
+      "website": "https://www.conwayschools.org",
       "governance": {
         "board_meeting_schedule": null,
         "board_meeting_location": null,
@@ -15970,9 +15970,9 @@
           "Graduation",
           "Band Competition"
         ],
-        "calendar_url": null,
-        "athletics_url": null,
-        "board_meeting_url": null,
+        "calendar_url": "https://www.conwayschools.org",
+        "athletics_url": "https://www.conwayschools.org/athletics",
+        "board_meeting_url": "https://www.conwayschools.org/school-board",
         "last_harvest_at": null
       },
       "source_links": [
@@ -16912,16 +16912,16 @@
     {
       "id": "ade-7001012",
       "school_name": "EL DORADO HIGH SCHOOL",
-      "city": null,
-      "county": "Unknown",
-      "district": "Verify district",
+      "city": "El Dorado",
+      "county": "Union",
+      "district": "El Dorado School District",
       "school_type": "public",
       "grades_served": "09 - 12",
       "mascot": null,
       "school_colors": null,
       "principal": "John Jameson",
       "superintendent": null,
-      "website": null,
+      "website": "https://www.eldoradopublicschools.org",
       "governance": {
         "board_meeting_schedule": null,
         "board_meeting_location": null,
@@ -16936,9 +16936,9 @@
           "Graduation",
           "Band Competition"
         ],
-        "calendar_url": null,
-        "athletics_url": null,
-        "board_meeting_url": null,
+        "calendar_url": "https://www.eldoradopublicschools.org",
+        "athletics_url": "https://www.eldoradopublicschools.org/athletics",
+        "board_meeting_url": "https://www.eldoradopublicschools.org/school-board",
         "last_harvest_at": null
       },
       "source_links": [
@@ -17206,16 +17206,16 @@
     {
       "id": "ade-7202012",
       "school_name": "FARMINGTON HIGH SCHOOL",
-      "city": null,
-      "county": "Unknown",
-      "district": "Verify district",
+      "city": "Farmington",
+      "county": "Washington",
+      "district": "Farmington School District",
       "school_type": "public",
       "grades_served": "10 - 12",
       "mascot": null,
       "school_colors": null,
       "principal": "Jon Purifoy",
       "superintendent": null,
-      "website": null,
+      "website": "https://www.farmcards.net",
       "governance": {
         "board_meeting_schedule": null,
         "board_meeting_location": null,
@@ -17230,9 +17230,9 @@
           "Graduation",
           "Band Competition"
         ],
-        "calendar_url": null,
-        "athletics_url": null,
-        "board_meeting_url": null,
+        "calendar_url": "https://www.farmcards.net",
+        "athletics_url": "https://www.farmcards.net/athletics",
+        "board_meeting_url": "https://www.farmcards.net/school-board",
         "last_harvest_at": null
       },
       "source_links": [
@@ -17248,16 +17248,16 @@
     {
       "id": "ade-7202010",
       "school_name": "FARMINGTON JUNIOR HIGH SCHOOL",
-      "city": null,
-      "county": "Unknown",
-      "district": "Verify district",
+      "city": "Farmington",
+      "county": "Washington",
+      "district": "Farmington School District",
       "school_type": "public",
       "grades_served": "07 - 09",
       "mascot": null,
       "school_colors": null,
       "principal": "Teri Morris",
       "superintendent": null,
-      "website": null,
+      "website": "https://www.farmcards.net",
       "governance": {
         "board_meeting_schedule": null,
         "board_meeting_location": null,
@@ -17272,9 +17272,9 @@
           "Graduation",
           "Band Competition"
         ],
-        "calendar_url": null,
-        "athletics_url": null,
-        "board_meeting_url": null,
+        "calendar_url": "https://www.farmcards.net",
+        "athletics_url": "https://www.farmcards.net/athletics",
+        "board_meeting_url": "https://www.farmcards.net/school-board",
         "last_harvest_at": null
       },
       "source_links": [
@@ -17290,16 +17290,16 @@
     {
       "id": "ade-7203020",
       "school_name": "FAYETTEVILLE HIGH SCHOOL",
-      "city": null,
-      "county": "Unknown",
-      "district": "Verify district",
+      "city": "Fayetteville",
+      "county": "Washington",
+      "district": "Fayetteville School District",
       "school_type": "public",
       "grades_served": "09 - 12",
       "mascot": null,
       "school_colors": null,
       "principal": "Michelle Miller",
       "superintendent": null,
-      "website": null,
+      "website": "https://www.fayar.net",
       "governance": {
         "board_meeting_schedule": null,
         "board_meeting_location": null,
@@ -17314,9 +17314,9 @@
           "Graduation",
           "Band Competition"
         ],
-        "calendar_url": null,
-        "athletics_url": null,
-        "board_meeting_url": null,
+        "calendar_url": "https://www.fayar.net",
+        "athletics_url": "https://www.fayar.net/athletics",
+        "board_meeting_url": "https://www.fayar.net/school-board",
         "last_harvest_at": null
       },
       "source_links": [
@@ -17752,8 +17752,8 @@
     {
       "id": "ade-7207060",
       "school_name": "GEORGE JUNIOR HIGH SCHOOL",
-      "city": null,
-      "county": "Unknown",
+      "city": "Springdale",
+      "county": "Washington",
       "district": "Verify district",
       "school_type": "public",
       "grades_served": "08 - 09",
@@ -17761,7 +17761,7 @@
       "school_colors": null,
       "principal": "William Flanigan",
       "superintendent": null,
-      "website": null,
+      "website": "https://www.springdaleschools.org",
       "governance": {
         "board_meeting_schedule": null,
         "board_meeting_location": null,
@@ -17776,9 +17776,9 @@
           "Graduation",
           "Band Competition"
         ],
-        "calendar_url": null,
-        "athletics_url": null,
-        "board_meeting_url": null,
+        "calendar_url": "https://www.springdaleschools.org",
+        "athletics_url": "https://www.springdaleschools.org/athletics",
+        "board_meeting_url": "https://www.springdaleschools.org/school-board",
         "last_harvest_at": null
       },
       "source_links": [
@@ -17878,7 +17878,7 @@
     {
       "id": "ade-0404022",
       "school_name": "GRAVETTE HIGH SCHOOL",
-      "city": null,
+      "city": "GRAVETTE",
       "county": "Unknown",
       "district": "Verify district",
       "school_type": "public",
@@ -17887,7 +17887,7 @@
       "school_colors": null,
       "principal": "Shannon Mitchell",
       "superintendent": null,
-      "website": null,
+      "website": "https://www.gravetteschools.net",
       "governance": {
         "board_meeting_schedule": null,
         "board_meeting_location": null,
@@ -17902,9 +17902,9 @@
           "Graduation",
           "Band Competition"
         ],
-        "calendar_url": null,
-        "athletics_url": null,
-        "board_meeting_url": null,
+        "calendar_url": "https://www.gravetteschools.net",
+        "athletics_url": "https://www.gravetteschools.net/athletics",
+        "board_meeting_url": "https://www.gravetteschools.net/school-board",
         "last_harvest_at": null
       },
       "source_links": [
@@ -17962,16 +17962,16 @@
     {
       "id": "ade-2303017",
       "school_name": "GREENBRIER HIGH SCHOOL",
-      "city": null,
-      "county": "Unknown",
-      "district": "Verify district",
+      "city": "Greenbrier",
+      "county": "Faulkner",
+      "district": "Greenbrier School District",
       "school_type": "public",
       "grades_served": "10 - 12",
       "mascot": null,
       "school_colors": null,
       "principal": "William Roberson",
       "superintendent": null,
-      "website": null,
+      "website": "https://www.greenbrierschools.org",
       "governance": {
         "board_meeting_schedule": null,
         "board_meeting_location": null,
@@ -17986,9 +17986,9 @@
           "Graduation",
           "Band Competition"
         ],
-        "calendar_url": null,
-        "athletics_url": null,
-        "board_meeting_url": null,
+        "calendar_url": "https://www.greenbrierschools.org",
+        "athletics_url": "https://www.greenbrierschools.org/athletics",
+        "board_meeting_url": "https://www.greenbrierschools.org/school-board",
         "last_harvest_at": null
       },
       "source_links": [
@@ -18004,16 +18004,16 @@
     {
       "id": "ade-2303020",
       "school_name": "GREENBRIER JUNIOR HIGH SCHOOL",
-      "city": null,
-      "county": "Unknown",
-      "district": "Verify district",
+      "city": "Greenbrier",
+      "county": "Faulkner",
+      "district": "Greenbrier School District",
       "school_type": "public",
       "grades_served": "08 - 09",
       "mascot": null,
       "school_colors": null,
       "principal": "Joshua Lyra",
       "superintendent": null,
-      "website": null,
+      "website": "https://www.greenbrierschools.org",
       "governance": {
         "board_meeting_schedule": null,
         "board_meeting_location": null,
@@ -18028,9 +18028,9 @@
           "Graduation",
           "Band Competition"
         ],
-        "calendar_url": null,
-        "athletics_url": null,
-        "board_meeting_url": null,
+        "calendar_url": "https://www.greenbrierschools.org",
+        "athletics_url": "https://www.greenbrierschools.org/athletics",
+        "board_meeting_url": "https://www.greenbrierschools.org/school-board",
         "last_harvest_at": null
       },
       "source_links": [
@@ -18172,16 +18172,16 @@
     {
       "id": "ade-6602043",
       "school_name": "GREENWOOD HIGH SCHOOL",
-      "city": null,
-      "county": "Unknown",
-      "district": "Verify district",
+      "city": "Greenwood",
+      "county": "Sebastian",
+      "district": "Greenwood School District",
       "school_type": "public",
       "grades_served": "09 - 12",
       "mascot": null,
       "school_colors": null,
       "principal": "Jared Meyers",
       "superintendent": null,
-      "website": null,
+      "website": "https://www.greenwoodschools.net",
       "governance": {
         "board_meeting_schedule": null,
         "board_meeting_location": null,
@@ -18196,9 +18196,9 @@
           "Graduation",
           "Band Competition"
         ],
-        "calendar_url": null,
-        "athletics_url": null,
-        "board_meeting_url": null,
+        "calendar_url": "https://www.greenwoodschools.net",
+        "athletics_url": "https://www.greenwoodschools.net/athletics",
+        "board_meeting_url": "https://www.greenwoodschools.net/school-board",
         "last_harvest_at": null
       },
       "source_links": [
@@ -18214,16 +18214,16 @@
     {
       "id": "ade-6602042",
       "school_name": "GREENWOOD JUNIOR HIGH SCHOOL",
-      "city": null,
-      "county": "Unknown",
-      "district": "Verify district",
+      "city": "Greenwood",
+      "county": "Sebastian",
+      "district": "Greenwood School District",
       "school_type": "public",
       "grades_served": "07 - 08",
       "mascot": null,
       "school_colors": null,
       "principal": "Joshua Nation",
       "superintendent": null,
-      "website": null,
+      "website": "https://www.greenwoodschools.net",
       "governance": {
         "board_meeting_schedule": null,
         "board_meeting_location": null,
@@ -18238,9 +18238,9 @@
           "Graduation",
           "Band Competition"
         ],
-        "calendar_url": null,
-        "athletics_url": null,
-        "board_meeting_url": null,
+        "calendar_url": "https://www.greenwoodschools.net",
+        "athletics_url": "https://www.greenwoodschools.net/athletics",
+        "board_meeting_url": "https://www.greenwoodschools.net/school-board",
         "last_harvest_at": null
       },
       "source_links": [
@@ -18256,8 +18256,8 @@
     {
       "id": "ade-0401023",
       "school_name": "GRIMSLEY JUNIOR HIGH SCHOOL",
-      "city": null,
-      "county": "Unknown",
+      "city": "Bentonville",
+      "county": "Benton",
       "district": "Verify district",
       "school_type": "public",
       "grades_served": "07 - 08",
@@ -18265,7 +18265,7 @@
       "school_colors": null,
       "principal": "Skyler Brown",
       "superintendent": null,
-      "website": null,
+      "website": "https://www.bentonvillek12.org",
       "governance": {
         "board_meeting_schedule": null,
         "board_meeting_location": null,
@@ -18280,9 +18280,9 @@
           "Graduation",
           "Band Competition"
         ],
-        "calendar_url": null,
-        "athletics_url": null,
-        "board_meeting_url": null,
+        "calendar_url": "https://www.bentonvillek12.org",
+        "athletics_url": "https://www.bentonvillek12.org/athletics",
+        "board_meeting_url": "https://www.bentonvillek12.org/school-board",
         "last_harvest_at": null
       },
       "source_links": [
@@ -18424,8 +18424,8 @@
     {
       "id": "ade-6001081",
       "school_name": "HALL HIGH SCHOOL - WEST SOI",
-      "city": null,
-      "county": "Unknown",
+      "city": "Little Rock",
+      "county": "Pulaski",
       "district": "Verify district",
       "school_type": "public",
       "grades_served": "09 - 12",
@@ -18433,7 +18433,7 @@
       "school_colors": null,
       "principal": "Carlton Mcgee",
       "superintendent": null,
-      "website": null,
+      "website": "https://www.lrsd.org",
       "governance": {
         "board_meeting_schedule": null,
         "board_meeting_location": null,
@@ -18448,9 +18448,9 @@
           "Graduation",
           "Band Competition"
         ],
-        "calendar_url": null,
-        "athletics_url": null,
-        "board_meeting_url": null,
+        "calendar_url": "https://www.lrsd.org/o/lrsd/page/calendar",
+        "athletics_url": "https://www.lrsd.org/o/lrsd/page/athletics",
+        "board_meeting_url": "https://www.lrsd.org/o/lrsd/page/school-board",
         "last_harvest_at": null
       },
       "source_links": [
@@ -18550,8 +18550,8 @@
     {
       "id": "ade-7207062",
       "school_name": "HAR-BER HIGH SCHOOL",
-      "city": null,
-      "county": "Unknown",
+      "city": "Springdale",
+      "county": "Washington",
       "district": "Verify district",
       "school_type": "public",
       "grades_served": "10 - 12",
@@ -18559,7 +18559,7 @@
       "school_colors": null,
       "principal": "Paul Griep",
       "superintendent": null,
-      "website": null,
+      "website": "https://www.springdaleschools.org",
       "governance": {
         "board_meeting_schedule": null,
         "board_meeting_location": null,
@@ -18574,9 +18574,9 @@
           "Graduation",
           "Band Competition"
         ],
-        "calendar_url": null,
-        "athletics_url": null,
-        "board_meeting_url": null,
+        "calendar_url": "https://www.springdaleschools.org",
+        "athletics_url": "https://www.springdaleschools.org/athletics",
+        "board_meeting_url": "https://www.springdaleschools.org/school-board",
         "last_harvest_at": null
       },
       "source_links": [
@@ -18760,16 +18760,16 @@
     {
       "id": "ade-0503019",
       "school_name": "HARRISON HIGH SCHOOL",
-      "city": null,
-      "county": "Unknown",
-      "district": "Verify district",
+      "city": "Harrison",
+      "county": "Boone",
+      "district": "Harrison School District",
       "school_type": "public",
       "grades_served": "09 - 12",
       "mascot": null,
       "school_colors": null,
       "principal": "James Parker",
       "superintendent": null,
-      "website": null,
+      "website": "https://www.harrison.k12.ar.us",
       "governance": {
         "board_meeting_schedule": null,
         "board_meeting_location": null,
@@ -18784,9 +18784,9 @@
           "Graduation",
           "Band Competition"
         ],
-        "calendar_url": null,
-        "athletics_url": null,
-        "board_meeting_url": null,
+        "calendar_url": "https://www.harrison.k12.ar.us",
+        "athletics_url": "https://www.harrison.k12.ar.us/athletics",
+        "board_meeting_url": "https://www.harrison.k12.ar.us/school-board",
         "last_harvest_at": null
       },
       "source_links": [
@@ -19054,16 +19054,16 @@
     {
       "id": "ade-2903012",
       "school_name": "HOPE HIGH SCHOOL",
-      "city": null,
-      "county": "Unknown",
-      "district": "Verify district",
+      "city": "Hope",
+      "county": "Hempstead",
+      "district": "Hope School District",
       "school_type": "public",
       "grades_served": "09 - 12",
       "mascot": null,
       "school_colors": null,
       "principal": "Kimberly Dunham",
       "superintendent": null,
-      "website": null,
+      "website": "https://www.hopeschooldistrict.org",
       "governance": {
         "board_meeting_schedule": null,
         "board_meeting_location": null,
@@ -19078,9 +19078,9 @@
           "Graduation",
           "Band Competition"
         ],
-        "calendar_url": null,
-        "athletics_url": null,
-        "board_meeting_url": null,
+        "calendar_url": "https://www.hopeschooldistrict.org",
+        "athletics_url": "https://www.hopeschooldistrict.org/athletics",
+        "board_meeting_url": "https://www.hopeschooldistrict.org/school-board",
         "last_harvest_at": null
       },
       "source_links": [
@@ -19138,16 +19138,16 @@
     {
       "id": "ade-2603703",
       "school_name": "HOT SPRINGS WORLD CLASS HIGH SCHOOL",
-      "city": null,
-      "county": "Unknown",
-      "district": "Verify district",
+      "city": "Hot Springs",
+      "county": "Garland",
+      "district": "Hot Springs School District",
       "school_type": "public",
       "grades_served": "10 - 12",
       "mascot": null,
       "school_colors": null,
       "principal": "Kiley Simms",
       "superintendent": null,
-      "website": null,
+      "website": "https://www.hssd.net",
       "governance": {
         "board_meeting_schedule": null,
         "board_meeting_location": null,
@@ -19162,9 +19162,9 @@
           "Graduation",
           "Band Competition"
         ],
-        "calendar_url": null,
-        "athletics_url": null,
-        "board_meeting_url": null,
+        "calendar_url": "https://www.hssd.net",
+        "athletics_url": "https://www.hssd.net/athletics",
+        "board_meeting_url": "https://www.hssd.net/school-board",
         "last_harvest_at": null
       },
       "source_links": [
@@ -19306,8 +19306,8 @@
     {
       "id": "ade-0401018",
       "school_name": "J. WILLIAM FULBRIGHT JUNIOR HIGH SCHOOL",
-      "city": null,
-      "county": "Unknown",
+      "city": "Bentonville",
+      "county": "Benton",
       "district": "Verify district",
       "school_type": "public",
       "grades_served": "07 - 08",
@@ -19315,7 +19315,7 @@
       "school_colors": null,
       "principal": "Callie Sanchez",
       "superintendent": null,
-      "website": null,
+      "website": "https://www.bentonvillek12.org",
       "governance": {
         "board_meeting_schedule": null,
         "board_meeting_location": null,
@@ -19330,9 +19330,9 @@
           "Graduation",
           "Band Competition"
         ],
-        "calendar_url": null,
-        "athletics_url": null,
-        "board_meeting_url": null,
+        "calendar_url": "https://www.bentonvillek12.org",
+        "athletics_url": "https://www.bentonvillek12.org/athletics",
+        "board_meeting_url": "https://www.bentonvillek12.org/school-board",
         "last_harvest_at": null
       },
       "source_links": [
@@ -19516,8 +19516,8 @@
     {
       "id": "ade-6003127",
       "school_name": "JOE T. ROBINSON HIGH SCHOOL",
-      "city": null,
-      "county": "Unknown",
+      "city": "Maumelle",
+      "county": "Pulaski",
       "district": "Verify district",
       "school_type": "public",
       "grades_served": "09 - 12",
@@ -19525,7 +19525,7 @@
       "school_colors": null,
       "principal": "Laconya Isaac",
       "superintendent": null,
-      "website": null,
+      "website": "https://www.pcssd.org",
       "governance": {
         "board_meeting_schedule": null,
         "board_meeting_location": null,
@@ -19540,9 +19540,9 @@
           "Graduation",
           "Band Competition"
         ],
-        "calendar_url": null,
-        "athletics_url": null,
-        "board_meeting_url": null,
+        "calendar_url": "https://www.pcssd.org",
+        "athletics_url": "https://www.pcssd.org/athletics",
+        "board_meeting_url": "https://www.pcssd.org/school-board",
         "last_harvest_at": null
       },
       "source_links": [
@@ -20020,8 +20020,8 @@
     {
       "id": "ade-7207070",
       "school_name": "LAKESIDE JUNIOR HIGH SCHOOL",
-      "city": null,
-      "county": "Unknown",
+      "city": "Springdale",
+      "county": "Washington",
       "district": "Verify district",
       "school_type": "public",
       "grades_served": "08 - 09",
@@ -20029,7 +20029,7 @@
       "school_colors": null,
       "principal": "Michael Shepherd",
       "superintendent": null,
-      "website": null,
+      "website": "https://www.springdaleschools.org",
       "governance": {
         "board_meeting_schedule": null,
         "board_meeting_location": null,
@@ -20044,9 +20044,9 @@
           "Graduation",
           "Band Competition"
         ],
-        "calendar_url": null,
-        "athletics_url": null,
-        "board_meeting_url": null,
+        "calendar_url": "https://www.springdaleschools.org",
+        "athletics_url": "https://www.springdaleschools.org/athletics",
+        "board_meeting_url": "https://www.springdaleschools.org/school-board",
         "last_harvest_at": null
       },
       "source_links": [
@@ -20272,8 +20272,8 @@
     {
       "id": "ade-0401010",
       "school_name": "LINCOLN JUNIOR HIGH SCHOOL",
-      "city": null,
-      "county": "Unknown",
+      "city": "Bentonville",
+      "county": "Benton",
       "district": "Verify district",
       "school_type": "public",
       "grades_served": "07 - 08",
@@ -20281,7 +20281,7 @@
       "school_colors": null,
       "principal": "Joshua Thompson",
       "superintendent": null,
-      "website": null,
+      "website": "https://www.bentonvillek12.org",
       "governance": {
         "board_meeting_schedule": null,
         "board_meeting_location": null,
@@ -20296,9 +20296,9 @@
           "Graduation",
           "Band Competition"
         ],
-        "calendar_url": null,
-        "athletics_url": null,
-        "board_meeting_url": null,
+        "calendar_url": "https://www.bentonvillek12.org",
+        "athletics_url": "https://www.bentonvillek12.org/athletics",
+        "board_meeting_url": "https://www.bentonvillek12.org/school-board",
         "last_harvest_at": null
       },
       "source_links": [
@@ -20440,16 +20440,16 @@
     {
       "id": "ade-6001082",
       "school_name": "LITTLE ROCK SOUTHWEST HIGH SCHOOL",
-      "city": null,
-      "county": "Unknown",
-      "district": "Verify district",
+      "city": "Little Rock",
+      "county": "Pulaski",
+      "district": "Little Rock School District",
       "school_type": "public",
       "grades_served": "09 - 12",
       "mascot": null,
       "school_colors": null,
       "principal": "George Maxey",
       "superintendent": null,
-      "website": null,
+      "website": "https://www.lrsd.org",
       "governance": {
         "board_meeting_schedule": null,
         "board_meeting_location": null,
@@ -20464,9 +20464,9 @@
           "Graduation",
           "Band Competition"
         ],
-        "calendar_url": null,
-        "athletics_url": null,
-        "board_meeting_url": null,
+        "calendar_url": "https://www.lrsd.org/o/lrsd/page/calendar",
+        "athletics_url": "https://www.lrsd.org/o/lrsd/page/athletics",
+        "board_meeting_url": "https://www.lrsd.org/o/lrsd/page/school-board",
         "last_harvest_at": null
       },
       "source_links": [
@@ -20482,16 +20482,16 @@
     {
       "id": "ade-4301029",
       "school_name": "LONOKE HIGH SCHOOL",
-      "city": null,
-      "county": "Unknown",
-      "district": "Verify district",
+      "city": "Lonoke",
+      "county": "Lonoke",
+      "district": "Lonoke School District",
       "school_type": "public",
       "grades_served": "09 - 12",
       "mascot": null,
       "school_colors": null,
       "principal": "Terrod Hatcher",
       "superintendent": null,
-      "website": null,
+      "website": "https://www.lonokeschools.org",
       "governance": {
         "board_meeting_schedule": null,
         "board_meeting_location": null,
@@ -20506,9 +20506,9 @@
           "Graduation",
           "Band Competition"
         ],
-        "calendar_url": null,
-        "athletics_url": null,
-        "board_meeting_url": null,
+        "calendar_url": "https://www.lonokeschools.org",
+        "athletics_url": "https://www.lonokeschools.org/athletics",
+        "board_meeting_url": "https://www.lonokeschools.org/school-board",
         "last_harvest_at": null
       },
       "source_links": [
@@ -20608,16 +20608,16 @@
     {
       "id": "ade-1402009",
       "school_name": "MAGNOLIA HIGH SCHOOL",
-      "city": null,
-      "county": "Unknown",
-      "district": "Verify district",
+      "city": "Magnolia",
+      "county": "Columbia",
+      "district": "Magnolia School District",
       "school_type": "public",
       "grades_served": "09 - 12",
       "mascot": null,
       "school_colors": null,
       "principal": "Jessica Aryee",
       "superintendent": null,
-      "website": null,
+      "website": "https://www.magnoliaschools.net",
       "governance": {
         "board_meeting_schedule": null,
         "board_meeting_location": null,
@@ -20632,9 +20632,9 @@
           "Graduation",
           "Band Competition"
         ],
-        "calendar_url": null,
-        "athletics_url": null,
-        "board_meeting_url": null,
+        "calendar_url": "https://www.magnoliaschools.net",
+        "athletics_url": "https://www.magnoliaschools.net/athletics",
+        "board_meeting_url": "https://www.magnoliaschools.net/school-board",
         "last_harvest_at": null
       },
       "source_links": [
@@ -20818,16 +20818,16 @@
     {
       "id": "ade-1804015",
       "school_name": "MARION HIGH SCHOOL",
-      "city": null,
-      "county": "Unknown",
-      "district": "Verify district",
+      "city": "Marion",
+      "county": "Crittenden",
+      "district": "Marion School District",
       "school_type": "public",
       "grades_served": "10 - 12",
       "mascot": null,
       "school_colors": null,
       "principal": "Mike Skelton",
       "superintendent": null,
-      "website": null,
+      "website": "https://www.msd3.org",
       "governance": {
         "board_meeting_schedule": null,
         "board_meeting_location": null,
@@ -20842,9 +20842,9 @@
           "Graduation",
           "Band Competition"
         ],
-        "calendar_url": null,
-        "athletics_url": null,
-        "board_meeting_url": null,
+        "calendar_url": "https://www.msd3.org",
+        "athletics_url": "https://www.msd3.org/athletics",
+        "board_meeting_url": "https://www.msd3.org/school-board",
         "last_harvest_at": null
       },
       "source_links": [
@@ -20860,16 +20860,16 @@
     {
       "id": "ade-1804014",
       "school_name": "MARION JUNIOR HIGH SCHOOL",
-      "city": null,
-      "county": "Unknown",
-      "district": "Verify district",
+      "city": "Marion",
+      "county": "Crittenden",
+      "district": "Marion School District",
       "school_type": "public",
       "grades_served": "08 - 09",
       "mascot": null,
       "school_colors": null,
       "principal": "Emily Hall",
       "superintendent": null,
-      "website": null,
+      "website": "https://www.msd3.org",
       "governance": {
         "board_meeting_schedule": null,
         "board_meeting_location": null,
@@ -20884,9 +20884,9 @@
           "Graduation",
           "Band Competition"
         ],
-        "calendar_url": null,
-        "athletics_url": null,
-        "board_meeting_url": null,
+        "calendar_url": "https://www.msd3.org",
+        "athletics_url": "https://www.msd3.org/athletics",
+        "board_meeting_url": "https://www.msd3.org/school-board",
         "last_harvest_at": null
       },
       "source_links": [
@@ -21070,16 +21070,16 @@
     {
       "id": "ade-6040703",
       "school_name": "MAUMELLE CHARTER HIGH SCHOOL",
-      "city": null,
-      "county": "Unknown",
-      "district": "Verify district",
+      "city": "Maumelle",
+      "county": "Pulaski",
+      "district": "Maumelle School District",
       "school_type": "public",
       "grades_served": "08 - 12",
       "mascot": null,
       "school_colors": null,
       "principal": "Kathryn Johnson",
       "superintendent": null,
-      "website": null,
+      "website": "https://www.pcssd.org",
       "governance": {
         "board_meeting_schedule": null,
         "board_meeting_location": null,
@@ -21094,9 +21094,9 @@
           "Graduation",
           "Band Competition"
         ],
-        "calendar_url": null,
-        "athletics_url": null,
-        "board_meeting_url": null,
+        "calendar_url": "https://www.pcssd.org",
+        "athletics_url": "https://www.pcssd.org/athletics",
+        "board_meeting_url": "https://www.pcssd.org/school-board",
         "last_harvest_at": null
       },
       "source_links": [
@@ -21112,16 +21112,16 @@
     {
       "id": "ade-6003151",
       "school_name": "MAUMELLE HIGH SCHOOL",
-      "city": null,
-      "county": "Unknown",
-      "district": "Verify district",
+      "city": "Maumelle",
+      "county": "Pulaski",
+      "district": "Maumelle School District",
       "school_type": "public",
       "grades_served": "09 - 12",
       "mascot": null,
       "school_colors": null,
       "principal": "Matthew Farr",
       "superintendent": null,
-      "website": null,
+      "website": "https://www.pcssd.org",
       "governance": {
         "board_meeting_schedule": null,
         "board_meeting_location": null,
@@ -21136,9 +21136,9 @@
           "Graduation",
           "Band Competition"
         ],
-        "calendar_url": null,
-        "athletics_url": null,
-        "board_meeting_url": null,
+        "calendar_url": "https://www.pcssd.org",
+        "athletics_url": "https://www.pcssd.org/athletics",
+        "board_meeting_url": "https://www.pcssd.org/school-board",
         "last_harvest_at": null
       },
       "source_links": [
@@ -21280,7 +21280,7 @@
     {
       "id": "ade-2105028",
       "school_name": "MCGEHEE HIGH SCHOOL",
-      "city": null,
+      "city": "MCGEHEE",
       "county": "Unknown",
       "district": "Verify district",
       "school_type": "public",
@@ -21289,7 +21289,7 @@
       "school_colors": null,
       "principal": "Paul Prosser",
       "superintendent": null,
-      "website": null,
+      "website": "https://www.mcgeheeschools.org",
       "governance": {
         "board_meeting_schedule": null,
         "board_meeting_location": null,
@@ -21304,9 +21304,9 @@
           "Graduation",
           "Band Competition"
         ],
-        "calendar_url": null,
-        "athletics_url": null,
-        "board_meeting_url": null,
+        "calendar_url": "https://www.mcgeheeschools.org",
+        "athletics_url": "https://www.mcgeheeschools.org/athletics",
+        "board_meeting_url": "https://www.mcgeheeschools.org/school-board",
         "last_harvest_at": null
       },
       "source_links": [
@@ -21364,16 +21364,16 @@
     {
       "id": "ade-5703012",
       "school_name": "MENA HIGH SCHOOL",
-      "city": null,
-      "county": "Unknown",
-      "district": "Verify district",
+      "city": "Mena",
+      "county": "Polk",
+      "district": "Mena School District",
       "school_type": "public",
       "grades_served": "09 - 12",
       "mascot": null,
       "school_colors": null,
       "principal": "David Maxwell",
       "superintendent": null,
-      "website": null,
+      "website": "https://www.menaschools.org",
       "governance": {
         "board_meeting_schedule": null,
         "board_meeting_location": null,
@@ -21388,9 +21388,9 @@
           "Graduation",
           "Band Competition"
         ],
-        "calendar_url": null,
-        "athletics_url": null,
-        "board_meeting_url": null,
+        "calendar_url": "https://www.menaschools.org",
+        "athletics_url": "https://www.menaschools.org/athletics",
+        "board_meeting_url": "https://www.menaschools.org/school-board",
         "last_harvest_at": null
       },
       "source_links": [
@@ -21448,8 +21448,8 @@
     {
       "id": "ade-6003125",
       "school_name": "MILLS UNIVERSITY STUDIES HIGH SCHOOL",
-      "city": null,
-      "county": "Unknown",
+      "city": "Maumelle",
+      "county": "Pulaski",
       "district": "Verify district",
       "school_type": "public",
       "grades_served": "09 - 12",
@@ -21457,7 +21457,7 @@
       "school_colors": null,
       "principal": "Damian Patterson",
       "superintendent": null,
-      "website": null,
+      "website": "https://www.pcssd.org",
       "governance": {
         "board_meeting_schedule": null,
         "board_meeting_location": null,
@@ -21472,9 +21472,9 @@
           "Graduation",
           "Band Competition"
         ],
-        "calendar_url": null,
-        "athletics_url": null,
-        "board_meeting_url": null,
+        "calendar_url": "https://www.pcssd.org",
+        "athletics_url": "https://www.pcssd.org/athletics",
+        "board_meeting_url": "https://www.pcssd.org/school-board",
         "last_harvest_at": null
       },
       "source_links": [
@@ -21532,16 +21532,16 @@
     {
       "id": "ade-2203012",
       "school_name": "MONTICELLO HIGH SCHOOL",
-      "city": null,
-      "county": "Unknown",
-      "district": "Verify district",
+      "city": "Monticello",
+      "county": "Drew",
+      "district": "Monticello School District",
       "school_type": "public",
       "grades_served": "09 - 12",
       "mascot": null,
       "school_colors": null,
       "principal": "Jacob Lanehart",
       "superintendent": null,
-      "website": null,
+      "website": "https://www.monticelloschools.net",
       "governance": {
         "board_meeting_schedule": null,
         "board_meeting_location": null,
@@ -21556,9 +21556,9 @@
           "Graduation",
           "Band Competition"
         ],
-        "calendar_url": null,
-        "athletics_url": null,
-        "board_meeting_url": null,
+        "calendar_url": "https://www.monticelloschools.net",
+        "athletics_url": "https://www.monticelloschools.net/athletics",
+        "board_meeting_url": "https://www.monticelloschools.net/school-board",
         "last_harvest_at": null
       },
       "source_links": [
@@ -21742,7 +21742,7 @@
     {
       "id": "ade-6901007",
       "school_name": "MOUNTAIN VIEW HIGH SCHOOL",
-      "city": null,
+      "city": "MOUNTAIN VIEW",
       "county": "Unknown",
       "district": "Verify district",
       "school_type": "public",
@@ -21751,7 +21751,7 @@
       "school_colors": null,
       "principal": "Matthew Sullivan",
       "superintendent": null,
-      "website": null,
+      "website": "https://www.mountainviewsd.org",
       "governance": {
         "board_meeting_schedule": null,
         "board_meeting_location": null,
@@ -21766,9 +21766,9 @@
           "Graduation",
           "Band Competition"
         ],
-        "calendar_url": null,
-        "athletics_url": null,
-        "board_meeting_url": null,
+        "calendar_url": "https://www.mountainviewsd.org",
+        "athletics_url": "https://www.mountainviewsd.org/athletics",
+        "board_meeting_url": "https://www.mountainviewsd.org/school-board",
         "last_harvest_at": null
       },
       "source_links": [
@@ -21952,7 +21952,7 @@
     {
       "id": "ade-3105011",
       "school_name": "NASHVILLE HIGH SCHOOL",
-      "city": null,
+      "city": "NASHVILLE",
       "county": "Unknown",
       "district": "Verify district",
       "school_type": "public",
@@ -21961,7 +21961,7 @@
       "school_colors": null,
       "principal": "Ashley Riggs",
       "superintendent": null,
-      "website": null,
+      "website": "https://www.nashvilleschools.org",
       "governance": {
         "board_meeting_schedule": null,
         "board_meeting_location": null,
@@ -21976,9 +21976,9 @@
           "Graduation",
           "Band Competition"
         ],
-        "calendar_url": null,
-        "athletics_url": null,
-        "board_meeting_url": null,
+        "calendar_url": "https://www.nashvilleschools.org",
+        "athletics_url": "https://www.nashvilleschools.org/athletics",
+        "board_meeting_url": "https://www.nashvilleschools.org/school-board",
         "last_harvest_at": null
       },
       "source_links": [
@@ -21994,7 +21994,7 @@
     {
       "id": "ade-3105010",
       "school_name": "NASHVILLE JUNIOR HIGH SCHOOL",
-      "city": null,
+      "city": "NASHVILLE",
       "county": "Unknown",
       "district": "Verify district",
       "school_type": "public",
@@ -22003,7 +22003,7 @@
       "school_colors": null,
       "principal": "Hannah Topor",
       "superintendent": null,
-      "website": null,
+      "website": "https://www.nashvilleschools.org",
       "governance": {
         "board_meeting_schedule": null,
         "board_meeting_location": null,
@@ -22018,9 +22018,9 @@
           "Graduation",
           "Band Competition"
         ],
-        "calendar_url": null,
-        "athletics_url": null,
-        "board_meeting_url": null,
+        "calendar_url": "https://www.nashvilleschools.org",
+        "athletics_url": "https://www.nashvilleschools.org/athletics",
+        "board_meeting_url": "https://www.nashvilleschools.org/school-board",
         "last_harvest_at": null
       },
       "source_links": [
@@ -22288,16 +22288,16 @@
     {
       "id": "ade-6002082",
       "school_name": "NORTH LITTLE ROCK HIGH SCHOOL",
-      "city": null,
-      "county": "Unknown",
-      "district": "Verify district",
+      "city": "North Little Rock",
+      "county": "Pulaski",
+      "district": "North Little Rock School District",
       "school_type": "public",
       "grades_served": "09 - 12",
       "mascot": null,
       "school_colors": null,
       "principal": "Nadia Saint-Louis",
       "superintendent": null,
-      "website": null,
+      "website": "https://www.nlrsd.org",
       "governance": {
         "board_meeting_schedule": null,
         "board_meeting_location": null,
@@ -22312,9 +22312,9 @@
           "Graduation",
           "Band Competition"
         ],
-        "calendar_url": null,
-        "athletics_url": null,
-        "board_meeting_url": null,
+        "calendar_url": "https://www.nlrsd.org",
+        "athletics_url": "https://www.nlrsd.org/athletics",
+        "board_meeting_url": "https://www.nlrsd.org/school-board",
         "last_harvest_at": null
       },
       "source_links": [
@@ -22708,16 +22708,16 @@
     {
       "id": "ade-2808043",
       "school_name": "PARAGOULD HIGH SCHOOL",
-      "city": null,
-      "county": "Unknown",
-      "district": "Verify district",
+      "city": "Paragould",
+      "county": "Greene",
+      "district": "Paragould School District",
       "school_type": "public",
       "grades_served": "09 - 12",
       "mascot": null,
       "school_colors": null,
       "principal": "Evan Elmore",
       "superintendent": null,
-      "website": null,
+      "website": "https://www.paragould.net",
       "governance": {
         "board_meeting_schedule": null,
         "board_meeting_location": null,
@@ -22732,9 +22732,9 @@
           "Graduation",
           "Band Competition"
         ],
-        "calendar_url": null,
-        "athletics_url": null,
-        "board_meeting_url": null,
+        "calendar_url": "https://www.paragould.net",
+        "athletics_url": "https://www.paragould.net/athletics",
+        "board_meeting_url": "https://www.paragould.net/school-board",
         "last_harvest_at": null
       },
       "source_links": [
@@ -22834,8 +22834,8 @@
     {
       "id": "ade-6001005",
       "school_name": "PARKVIEW MAGNET HIGH SCHOOL",
-      "city": null,
-      "county": "Unknown",
+      "city": "Little Rock",
+      "county": "Pulaski",
       "district": "Verify district",
       "school_type": "public",
       "grades_served": "09 - 12",
@@ -22843,7 +22843,7 @@
       "school_colors": null,
       "principal": "Nickolous Anderson",
       "superintendent": null,
-      "website": null,
+      "website": "https://www.lrsd.org",
       "governance": {
         "board_meeting_schedule": null,
         "board_meeting_location": null,
@@ -22858,9 +22858,9 @@
           "Graduation",
           "Band Competition"
         ],
-        "calendar_url": null,
-        "athletics_url": null,
-        "board_meeting_url": null,
+        "calendar_url": "https://www.lrsd.org/o/lrsd/page/calendar",
+        "athletics_url": "https://www.lrsd.org/o/lrsd/page/athletics",
+        "board_meeting_url": "https://www.lrsd.org/o/lrsd/page/school-board",
         "last_harvest_at": null
       },
       "source_links": [
@@ -22876,16 +22876,16 @@
     {
       "id": "ade-0407027",
       "school_name": "PEA RIDGE HIGH SCHOOL",
-      "city": null,
-      "county": "Unknown",
-      "district": "Verify district",
+      "city": "Pea Ridge",
+      "county": "Benton",
+      "district": "Pea Ridge School District",
       "school_type": "public",
       "grades_served": "10 - 12",
       "mascot": null,
       "school_colors": null,
       "principal": "Leonard Ogden",
       "superintendent": null,
-      "website": null,
+      "website": "https://www.pearidgek12.com",
       "governance": {
         "board_meeting_schedule": null,
         "board_meeting_location": null,
@@ -22900,9 +22900,9 @@
           "Graduation",
           "Band Competition"
         ],
-        "calendar_url": null,
-        "athletics_url": null,
-        "board_meeting_url": null,
+        "calendar_url": "https://www.pearidgek12.com",
+        "athletics_url": "https://www.pearidgek12.com/athletics",
+        "board_meeting_url": "https://www.pearidgek12.com/school-board",
         "last_harvest_at": null
       },
       "source_links": [
@@ -22918,16 +22918,16 @@
     {
       "id": "ade-0407029",
       "school_name": "PEA RIDGE JUNIOR HIGH SCHOOL",
-      "city": null,
-      "county": "Unknown",
-      "district": "Verify district",
+      "city": "Pea Ridge",
+      "county": "Benton",
+      "district": "Pea Ridge School District",
       "school_type": "public",
       "grades_served": "07 - 09",
       "mascot": null,
       "school_colors": null,
       "principal": "Sarah Raymond",
       "superintendent": null,
-      "website": null,
+      "website": "https://www.pearidgek12.com",
       "governance": {
         "board_meeting_schedule": null,
         "board_meeting_location": null,
@@ -22942,9 +22942,9 @@
           "Graduation",
           "Band Competition"
         ],
-        "calendar_url": null,
-        "athletics_url": null,
-        "board_meeting_url": null,
+        "calendar_url": "https://www.pearidgek12.com",
+        "athletics_url": "https://www.pearidgek12.com/athletics",
+        "board_meeting_url": "https://www.pearidgek12.com/school-board",
         "last_harvest_at": null
       },
       "source_links": [
@@ -23044,16 +23044,16 @@
     {
       "id": "ade-3505042",
       "school_name": "PINE BLUFF HIGH SCHOOL",
-      "city": null,
-      "county": "Unknown",
-      "district": "Verify district",
+      "city": "Pine Bluff",
+      "county": "Jefferson",
+      "district": "Pine Bluff School District",
       "school_type": "public",
       "grades_served": "10 - 12",
       "mascot": null,
       "school_colors": null,
       "principal": "Ronald Laurent",
       "superintendent": null,
-      "website": null,
+      "website": "https://www.pinebluffschools.org",
       "governance": {
         "board_meeting_schedule": null,
         "board_meeting_location": null,
@@ -23068,9 +23068,9 @@
           "Graduation",
           "Band Competition"
         ],
-        "calendar_url": null,
-        "athletics_url": null,
-        "board_meeting_url": null,
+        "calendar_url": "https://www.pinebluffschools.org",
+        "athletics_url": "https://www.pinebluffschools.org/athletics",
+        "board_meeting_url": "https://www.pinebluffschools.org/school-board",
         "last_harvest_at": null
       },
       "source_links": [
@@ -23086,16 +23086,16 @@
     {
       "id": "ade-3505052",
       "school_name": "PINE BLUFF JUNIOR HIGH SCHOOL",
-      "city": null,
-      "county": "Unknown",
-      "district": "Verify district",
+      "city": "Pine Bluff",
+      "county": "Jefferson",
+      "district": "Pine Bluff School District",
       "school_type": "public",
       "grades_served": "07 - 09",
       "mascot": null,
       "school_colors": null,
       "principal": "Latanya Paige-Harris",
       "superintendent": null,
-      "website": null,
+      "website": "https://www.pinebluffschools.org",
       "governance": {
         "board_meeting_schedule": null,
         "board_meeting_location": null,
@@ -23110,9 +23110,9 @@
           "Graduation",
           "Band Competition"
         ],
-        "calendar_url": null,
-        "athletics_url": null,
-        "board_meeting_url": null,
+        "calendar_url": "https://www.pinebluffschools.org",
+        "athletics_url": "https://www.pinebluffschools.org/athletics",
+        "board_meeting_url": "https://www.pinebluffschools.org/school-board",
         "last_harvest_at": null
       },
       "source_links": [
@@ -23884,8 +23884,8 @@
     {
       "id": "ade-7203018",
       "school_name": "RAMAY JUNIOR HIGH SCHOOL",
-      "city": null,
-      "county": "Unknown",
+      "city": "Fayetteville",
+      "county": "Washington",
       "district": "Verify district",
       "school_type": "public",
       "grades_served": "07 - 08",
@@ -23893,7 +23893,7 @@
       "school_colors": null,
       "principal": "Christopher Johnson",
       "superintendent": null,
-      "website": null,
+      "website": "https://www.fayar.net",
       "governance": {
         "board_meeting_schedule": null,
         "board_meeting_location": null,
@@ -23908,9 +23908,9 @@
           "Graduation",
           "Band Competition"
         ],
-        "calendar_url": null,
-        "athletics_url": null,
-        "board_meeting_url": null,
+        "calendar_url": "https://www.fayar.net",
+        "athletics_url": "https://www.fayar.net/athletics",
+        "board_meeting_url": "https://www.fayar.net/school-board",
         "last_harvest_at": null
       },
       "source_links": [
@@ -24136,16 +24136,16 @@
     {
       "id": "ade-0405052",
       "school_name": "ROGERS HERITAGE HIGH SCHOOL",
-      "city": null,
-      "county": "Unknown",
-      "district": "Verify district",
+      "city": "Rogers",
+      "county": "Benton",
+      "district": "Rogers School District",
       "school_type": "public",
       "grades_served": "09 - 12",
       "mascot": null,
       "school_colors": null,
       "principal": "Donald Greenwell",
       "superintendent": null,
-      "website": null,
+      "website": "https://www.rogersschools.net",
       "governance": {
         "board_meeting_schedule": null,
         "board_meeting_location": null,
@@ -24160,9 +24160,9 @@
           "Graduation",
           "Band Competition"
         ],
-        "calendar_url": null,
-        "athletics_url": null,
-        "board_meeting_url": null,
+        "calendar_url": "https://www.rogersschools.net",
+        "athletics_url": "https://www.rogersschools.net/athletics",
+        "board_meeting_url": "https://www.rogersschools.net/school-board",
         "last_harvest_at": null
       },
       "source_links": [
@@ -24178,16 +24178,16 @@
     {
       "id": "ade-0405048",
       "school_name": "ROGERS HIGH SCHOOL",
-      "city": null,
-      "county": "Unknown",
-      "district": "Verify district",
+      "city": "Rogers",
+      "county": "Benton",
+      "district": "Rogers School District",
       "school_type": "public",
       "grades_served": "09 - 12",
       "mascot": null,
       "school_colors": null,
       "principal": "Lisa Williams",
       "superintendent": null,
-      "website": null,
+      "website": "https://www.rogersschools.net",
       "governance": {
         "board_meeting_schedule": null,
         "board_meeting_location": null,
@@ -24202,9 +24202,9 @@
           "Graduation",
           "Band Competition"
         ],
-        "calendar_url": null,
-        "athletics_url": null,
-        "board_meeting_url": null,
+        "calendar_url": "https://www.rogersschools.net",
+        "athletics_url": "https://www.rogersschools.net/athletics",
+        "board_meeting_url": "https://www.rogersschools.net/school-board",
         "last_harvest_at": null
       },
       "source_links": [
@@ -24262,7 +24262,7 @@
     {
       "id": "ade-6901012",
       "school_name": "RURAL SPECIAL HIGH SCHOOL",
-      "city": null,
+      "city": "MOUNTAIN VIEW",
       "county": "Unknown",
       "district": "Verify district",
       "school_type": "public",
@@ -24271,7 +24271,7 @@
       "school_colors": null,
       "principal": "Tanya Stewart",
       "superintendent": null,
-      "website": null,
+      "website": "https://www.mountainviewsd.org",
       "governance": {
         "board_meeting_schedule": null,
         "board_meeting_location": null,
@@ -24286,9 +24286,9 @@
           "Graduation",
           "Band Competition"
         ],
-        "calendar_url": null,
-        "athletics_url": null,
-        "board_meeting_url": null,
+        "calendar_url": "https://www.mountainviewsd.org",
+        "athletics_url": "https://www.mountainviewsd.org/athletics",
+        "board_meeting_url": "https://www.mountainviewsd.org/school-board",
         "last_harvest_at": null
       },
       "source_links": [
@@ -24304,16 +24304,16 @@
     {
       "id": "ade-5805024",
       "school_name": "RUSSELLVILLE HIGH SCHOOL",
-      "city": null,
-      "county": "Unknown",
-      "district": "Verify district",
+      "city": "Russellville",
+      "county": "Pope",
+      "district": "Russellville School District",
       "school_type": "public",
       "grades_served": "10 - 12",
       "mascot": null,
       "school_colors": null,
       "principal": "Cory Mounts",
       "superintendent": null,
-      "website": null,
+      "website": "https://www.russellvilleschools.net",
       "governance": {
         "board_meeting_schedule": null,
         "board_meeting_location": null,
@@ -24328,9 +24328,9 @@
           "Graduation",
           "Band Competition"
         ],
-        "calendar_url": null,
-        "athletics_url": null,
-        "board_meeting_url": null,
+        "calendar_url": "https://www.russellvilleschools.net",
+        "athletics_url": "https://www.russellvilleschools.net/athletics",
+        "board_meeting_url": "https://www.russellvilleschools.net/school-board",
         "last_harvest_at": null
       },
       "source_links": [
@@ -24346,16 +24346,16 @@
     {
       "id": "ade-5805023",
       "school_name": "RUSSELLVILLE JUNIOR HIGH SCHOOL",
-      "city": null,
-      "county": "Unknown",
-      "district": "Verify district",
+      "city": "Russellville",
+      "county": "Pope",
+      "district": "Russellville School District",
       "school_type": "public",
       "grades_served": "08 - 09",
       "mascot": null,
       "school_colors": null,
       "principal": "Sara Walker",
       "superintendent": null,
-      "website": null,
+      "website": "https://www.russellvilleschools.net",
       "governance": {
         "board_meeting_schedule": null,
         "board_meeting_location": null,
@@ -24370,9 +24370,9 @@
           "Graduation",
           "Band Competition"
         ],
-        "calendar_url": null,
-        "athletics_url": null,
-        "board_meeting_url": null,
+        "calendar_url": "https://www.russellvilleschools.net",
+        "athletics_url": "https://www.russellvilleschools.net/athletics",
+        "board_meeting_url": "https://www.russellvilleschools.net/school-board",
         "last_harvest_at": null
       },
       "source_links": [
@@ -24472,16 +24472,16 @@
     {
       "id": "ade-7311052",
       "school_name": "SEARCY HIGH SCHOOL",
-      "city": null,
-      "county": "Unknown",
-      "district": "Verify district",
+      "city": "Searcy",
+      "county": "White",
+      "district": "Searcy School District",
       "school_type": "public",
       "grades_served": "09 - 12",
       "mascot": null,
       "school_colors": null,
       "principal": "David Landers",
       "superintendent": null,
-      "website": null,
+      "website": "https://www.searcyschools.org",
       "governance": {
         "board_meeting_schedule": null,
         "board_meeting_location": null,
@@ -24496,9 +24496,9 @@
           "Graduation",
           "Band Competition"
         ],
-        "calendar_url": null,
-        "athletics_url": null,
-        "board_meeting_url": null,
+        "calendar_url": "https://www.searcyschools.org",
+        "athletics_url": "https://www.searcyschools.org/athletics",
+        "board_meeting_url": "https://www.searcyschools.org/school-board",
         "last_harvest_at": null
       },
       "source_links": [
@@ -24892,8 +24892,8 @@
     {
       "id": "ade-7207048",
       "school_name": "SOUTHWEST JUNIOR HIGH SCHOOL",
-      "city": null,
-      "county": "Unknown",
+      "city": "Springdale",
+      "county": "Washington",
       "district": "Verify district",
       "school_type": "public",
       "grades_served": "08 - 09",
@@ -24901,7 +24901,7 @@
       "school_colors": null,
       "principal": "Curtis Gladden",
       "superintendent": null,
-      "website": null,
+      "website": "https://www.springdaleschools.org",
       "governance": {
         "board_meeting_schedule": null,
         "board_meeting_location": null,
@@ -24916,9 +24916,9 @@
           "Graduation",
           "Band Competition"
         ],
-        "calendar_url": null,
-        "athletics_url": null,
-        "board_meeting_url": null,
+        "calendar_url": "https://www.springdaleschools.org",
+        "athletics_url": "https://www.springdaleschools.org/athletics",
+        "board_meeting_url": "https://www.springdaleschools.org/school-board",
         "last_harvest_at": null
       },
       "source_links": [
@@ -24976,16 +24976,16 @@
     {
       "id": "ade-7207049",
       "school_name": "SPRINGDALE HIGH SCHOOL",
-      "city": null,
-      "county": "Unknown",
-      "district": "Verify district",
+      "city": "Springdale",
+      "county": "Washington",
+      "district": "Springdale School District",
       "school_type": "public",
       "grades_served": "10 - 12",
       "mascot": null,
       "school_colors": null,
       "principal": "Jason Jones",
       "superintendent": null,
-      "website": null,
+      "website": "https://www.springdaleschools.org",
       "governance": {
         "board_meeting_schedule": null,
         "board_meeting_location": null,
@@ -25000,9 +25000,9 @@
           "Graduation",
           "Band Competition"
         ],
-        "calendar_url": null,
-        "athletics_url": null,
-        "board_meeting_url": null,
+        "calendar_url": "https://www.springdaleschools.org",
+        "athletics_url": "https://www.springdaleschools.org/athletics",
+        "board_meeting_url": "https://www.springdaleschools.org/school-board",
         "last_harvest_at": null
       },
       "source_links": [
@@ -25102,16 +25102,16 @@
     {
       "id": "ade-0104025",
       "school_name": "STUTTGART HIGH SCHOOL",
-      "city": null,
-      "county": "Unknown",
-      "district": "Verify district",
+      "city": "Stuttgart",
+      "county": "Arkansas",
+      "district": "Stuttgart School District",
       "school_type": "public",
       "grades_served": "09 - 12",
       "mascot": null,
       "school_colors": null,
       "principal": "Pam Dean",
       "superintendent": null,
-      "website": null,
+      "website": "https://www.stuttgartschools.org",
       "governance": {
         "board_meeting_schedule": null,
         "board_meeting_location": null,
@@ -25126,9 +25126,9 @@
           "Graduation",
           "Band Competition"
         ],
-        "calendar_url": null,
-        "athletics_url": null,
-        "board_meeting_url": null,
+        "calendar_url": "https://www.stuttgartschools.org",
+        "athletics_url": "https://www.stuttgartschools.org/athletics",
+        "board_meeting_url": "https://www.stuttgartschools.org/school-board",
         "last_harvest_at": null
       },
       "source_links": [
@@ -25144,16 +25144,16 @@
     {
       "id": "ade-0104026",
       "school_name": "STUTTGART JUNIOR HIGH SCHOOL",
-      "city": null,
-      "county": "Unknown",
-      "district": "Verify district",
+      "city": "Stuttgart",
+      "county": "Arkansas",
+      "district": "Stuttgart School District",
       "school_type": "public",
       "grades_served": "07 - 08",
       "mascot": null,
       "school_colors": null,
       "principal": "Latara Robinson",
       "superintendent": null,
-      "website": null,
+      "website": "https://www.stuttgartschools.org",
       "governance": {
         "board_meeting_schedule": null,
         "board_meeting_location": null,
@@ -25168,9 +25168,9 @@
           "Graduation",
           "Band Competition"
         ],
-        "calendar_url": null,
-        "athletics_url": null,
-        "board_meeting_url": null,
+        "calendar_url": "https://www.stuttgartschools.org",
+        "athletics_url": "https://www.stuttgartschools.org/athletics",
+        "board_meeting_url": "https://www.stuttgartschools.org/school-board",
         "last_harvest_at": null
       },
       "source_links": [
@@ -25186,8 +25186,8 @@
     {
       "id": "ade-6003128",
       "school_name": "SYLVAN HILLS HIGH SCHOOL",
-      "city": null,
-      "county": "Unknown",
+      "city": "Maumelle",
+      "county": "Pulaski",
       "district": "Verify district",
       "school_type": "public",
       "grades_served": "10 - 12",
@@ -25195,7 +25195,7 @@
       "school_colors": null,
       "principal": "Tracy Allen",
       "superintendent": null,
-      "website": null,
+      "website": "https://www.pcssd.org",
       "governance": {
         "board_meeting_schedule": null,
         "board_meeting_location": null,
@@ -25210,9 +25210,9 @@
           "Graduation",
           "Band Competition"
         ],
-        "calendar_url": null,
-        "athletics_url": null,
-        "board_meeting_url": null,
+        "calendar_url": "https://www.pcssd.org",
+        "athletics_url": "https://www.pcssd.org/athletics",
+        "board_meeting_url": "https://www.pcssd.org/school-board",
         "last_harvest_at": null
       },
       "source_links": [
@@ -25228,8 +25228,8 @@
     {
       "id": "ade-6003152",
       "school_name": "SYLVAN HILLS JUNIOR HIGH SCHOOL",
-      "city": null,
-      "county": "Unknown",
+      "city": "Maumelle",
+      "county": "Pulaski",
       "district": "Verify district",
       "school_type": "public",
       "grades_served": "08 - 09",
@@ -25237,7 +25237,7 @@
       "school_colors": null,
       "principal": "Yvone West",
       "superintendent": null,
-      "website": null,
+      "website": "https://www.pcssd.org",
       "governance": {
         "board_meeting_schedule": null,
         "board_meeting_location": null,
@@ -25252,9 +25252,9 @@
           "Graduation",
           "Band Competition"
         ],
-        "calendar_url": null,
-        "athletics_url": null,
-        "board_meeting_url": null,
+        "calendar_url": "https://www.pcssd.org",
+        "athletics_url": "https://www.pcssd.org/athletics",
+        "board_meeting_url": "https://www.pcssd.org/school-board",
         "last_harvest_at": null
       },
       "source_links": [
@@ -25396,7 +25396,7 @@
     {
       "id": "ade-6901016",
       "school_name": "TIMBO HIGH SCHOOL",
-      "city": null,
+      "city": "MOUNTAIN VIEW",
       "county": "Unknown",
       "district": "Verify district",
       "school_type": "public",
@@ -25405,7 +25405,7 @@
       "school_colors": null,
       "principal": "Shelia Mitchell",
       "superintendent": null,
-      "website": null,
+      "website": "https://www.mountainviewsd.org",
       "governance": {
         "board_meeting_schedule": null,
         "board_meeting_location": null,
@@ -25420,9 +25420,9 @@
           "Graduation",
           "Band Competition"
         ],
-        "calendar_url": null,
-        "athletics_url": null,
-        "board_meeting_url": null,
+        "calendar_url": "https://www.mountainviewsd.org",
+        "athletics_url": "https://www.mountainviewsd.org/athletics",
+        "board_meeting_url": "https://www.mountainviewsd.org/school-board",
         "last_harvest_at": null
       },
       "source_links": [
@@ -25690,16 +25690,16 @@
     {
       "id": "ade-1705027",
       "school_name": "VAN BUREN HIGH SCHOOL",
-      "city": null,
-      "county": "Unknown",
-      "district": "Verify district",
+      "city": "Van Buren",
+      "county": "Crawford",
+      "district": "Van Buren School District",
       "school_type": "public",
       "grades_served": "10 - 12",
       "mascot": null,
       "school_colors": null,
       "principal": "Christopher Bryant",
       "superintendent": null,
-      "website": null,
+      "website": "https://www.vbsd.us",
       "governance": {
         "board_meeting_schedule": null,
         "board_meeting_location": null,
@@ -25714,9 +25714,9 @@
           "Graduation",
           "Band Competition"
         ],
-        "calendar_url": null,
-        "athletics_url": null,
-        "board_meeting_url": null,
+        "calendar_url": "https://www.vbsd.us",
+        "athletics_url": "https://www.vbsd.us/athletics",
+        "board_meeting_url": "https://www.vbsd.us/school-board",
         "last_harvest_at": null
       },
       "source_links": [
@@ -25732,16 +25732,16 @@
     {
       "id": "ade-2307034",
       "school_name": "VILONIA HIGH SCHOOL",
-      "city": null,
-      "county": "Unknown",
-      "district": "Verify district",
+      "city": "Vilonia",
+      "county": "Faulkner",
+      "district": "Vilonia School District",
       "school_type": "public",
       "grades_served": "10 - 12",
       "mascot": null,
       "school_colors": null,
       "principal": "Tammy Moore",
       "superintendent": null,
-      "website": null,
+      "website": "https://www.viloniaschools.org",
       "governance": {
         "board_meeting_schedule": null,
         "board_meeting_location": null,
@@ -25756,9 +25756,9 @@
           "Graduation",
           "Band Competition"
         ],
-        "calendar_url": null,
-        "athletics_url": null,
-        "board_meeting_url": null,
+        "calendar_url": "https://www.viloniaschools.org",
+        "athletics_url": "https://www.viloniaschools.org/athletics",
+        "board_meeting_url": "https://www.viloniaschools.org/school-board",
         "last_harvest_at": null
       },
       "source_links": [
@@ -25774,16 +25774,16 @@
     {
       "id": "ade-2307037",
       "school_name": "VILONIA JUNIOR HIGH SCHOOL",
-      "city": null,
-      "county": "Unknown",
-      "district": "Verify district",
+      "city": "Vilonia",
+      "county": "Faulkner",
+      "district": "Vilonia School District",
       "school_type": "public",
       "grades_served": "07 - 09",
       "mascot": null,
       "school_colors": null,
       "principal": "Scott Willhite",
       "superintendent": null,
-      "website": null,
+      "website": "https://www.viloniaschools.org",
       "governance": {
         "board_meeting_schedule": null,
         "board_meeting_location": null,
@@ -25798,9 +25798,9 @@
           "Graduation",
           "Band Competition"
         ],
-        "calendar_url": null,
-        "athletics_url": null,
-        "board_meeting_url": null,
+        "calendar_url": "https://www.viloniaschools.org",
+        "athletics_url": "https://www.viloniaschools.org/athletics",
+        "board_meeting_url": "https://www.viloniaschools.org/school-board",
         "last_harvest_at": null
       },
       "source_links": [
@@ -25942,7 +25942,7 @@
     {
       "id": "ade-0602019",
       "school_name": "WARREN HIGH SCHOOL",
-      "city": null,
+      "city": "WARREN",
       "county": "Unknown",
       "district": "Verify district",
       "school_type": "public",
@@ -25951,7 +25951,7 @@
       "school_colors": null,
       "principal": "Tiffany Gathen",
       "superintendent": null,
-      "website": null,
+      "website": "https://www.warrensd.org",
       "governance": {
         "board_meeting_schedule": null,
         "board_meeting_location": null,
@@ -25966,9 +25966,9 @@
           "Graduation",
           "Band Competition"
         ],
-        "calendar_url": null,
-        "athletics_url": null,
-        "board_meeting_url": null,
+        "calendar_url": "https://www.warrensd.org",
+        "athletics_url": "https://www.warrensd.org/athletics",
+        "board_meeting_url": "https://www.warrensd.org/school-board",
         "last_harvest_at": null
       },
       "source_links": [
@@ -25984,8 +25984,8 @@
     {
       "id": "ade-0401002",
       "school_name": "WASHINGTON JUNIOR HIGH SCHOOL",
-      "city": null,
-      "county": "Unknown",
+      "city": "Bentonville",
+      "county": "Benton",
       "district": "Verify district",
       "school_type": "public",
       "grades_served": "07 - 08",
@@ -25993,7 +25993,7 @@
       "school_colors": null,
       "principal": "Timothy Sparacino",
       "superintendent": null,
-      "website": null,
+      "website": "https://www.bentonvillek12.org",
       "governance": {
         "board_meeting_schedule": null,
         "board_meeting_location": null,
@@ -26008,9 +26008,9 @@
           "Graduation",
           "Band Competition"
         ],
-        "calendar_url": null,
-        "athletics_url": null,
-        "board_meeting_url": null,
+        "calendar_url": "https://www.bentonvillek12.org",
+        "athletics_url": "https://www.bentonvillek12.org/athletics",
+        "board_meeting_url": "https://www.bentonvillek12.org/school-board",
         "last_harvest_at": null
       },
       "source_links": [
@@ -26152,16 +26152,16 @@
     {
       "id": "ade-1803034",
       "school_name": "WEST JUNIOR HIGH SCHOOL",
-      "city": null,
-      "county": "Unknown",
-      "district": "Verify district",
+      "city": "West Memphis",
+      "county": "Crittenden",
+      "district": "West Memphis School District",
       "school_type": "public",
       "grades_served": "07 - 09",
       "mascot": null,
       "school_colors": null,
       "principal": "Kissy Turner",
       "superintendent": null,
-      "website": null,
+      "website": "https://www.wmcsd.net",
       "governance": {
         "board_meeting_schedule": null,
         "board_meeting_location": null,
@@ -26176,9 +26176,9 @@
           "Graduation",
           "Band Competition"
         ],
-        "calendar_url": null,
-        "athletics_url": null,
-        "board_meeting_url": null,
+        "calendar_url": "https://www.wmcsd.net",
+        "athletics_url": "https://www.wmcsd.net/athletics",
+        "board_meeting_url": "https://www.wmcsd.net/school-board",
         "last_harvest_at": null
       },
       "source_links": [
@@ -26446,8 +26446,8 @@
     {
       "id": "ade-1803035",
       "school_name": "WONDER JUNIOR HIGH SCHOOL",
-      "city": null,
-      "county": "Unknown",
+      "city": "West Memphis",
+      "county": "Crittenden",
       "district": "Verify district",
       "school_type": "public",
       "grades_served": "07 - 09",
@@ -26455,7 +26455,7 @@
       "school_colors": null,
       "principal": "Leeman Brown",
       "superintendent": null,
-      "website": null,
+      "website": "https://www.wmcsd.net",
       "governance": {
         "board_meeting_schedule": null,
         "board_meeting_location": null,
@@ -26470,9 +26470,9 @@
           "Graduation",
           "Band Competition"
         ],
-        "calendar_url": null,
-        "athletics_url": null,
-        "board_meeting_url": null,
+        "calendar_url": "https://www.wmcsd.net",
+        "athletics_url": "https://www.wmcsd.net/athletics",
+        "board_meeting_url": "https://www.wmcsd.net/school-board",
         "last_harvest_at": null
       },
       "source_links": [
@@ -26530,8 +26530,8 @@
     {
       "id": "ade-7203019",
       "school_name": "WOODLAND JUNIOR HIGH SCHOOL",
-      "city": null,
-      "county": "Unknown",
+      "city": "Fayetteville",
+      "county": "Washington",
       "district": "Verify district",
       "school_type": "public",
       "grades_served": "07 - 08",
@@ -26539,7 +26539,7 @@
       "school_colors": null,
       "principal": "David Mcclure",
       "superintendent": null,
-      "website": null,
+      "website": "https://www.fayar.net",
       "governance": {
         "board_meeting_schedule": null,
         "board_meeting_location": null,
@@ -26554,9 +26554,9 @@
           "Graduation",
           "Band Competition"
         ],
-        "calendar_url": null,
-        "athletics_url": null,
-        "board_meeting_url": null,
+        "calendar_url": "https://www.fayar.net",
+        "athletics_url": "https://www.fayar.net/athletics",
+        "board_meeting_url": "https://www.fayar.net/school-board",
         "last_harvest_at": null
       },
       "source_links": [
@@ -26614,7 +26614,7 @@
     {
       "id": "ade-1905017",
       "school_name": "WYNNE HIGH SCHOOL",
-      "city": null,
+      "city": "WYNNE",
       "county": "Unknown",
       "district": "Verify district",
       "school_type": "public",
@@ -26623,7 +26623,7 @@
       "school_colors": null,
       "principal": "Steven Meek",
       "superintendent": null,
-      "website": null,
+      "website": "https://www.wynneschools.org",
       "governance": {
         "board_meeting_schedule": null,
         "board_meeting_location": null,
@@ -26638,9 +26638,9 @@
           "Graduation",
           "Band Competition"
         ],
-        "calendar_url": null,
-        "athletics_url": null,
-        "board_meeting_url": null,
+        "calendar_url": "https://www.wynneschools.org",
+        "athletics_url": "https://www.wynneschools.org/athletics",
+        "board_meeting_url": "https://www.wynneschools.org/school-board",
         "last_harvest_at": null
       },
       "source_links": [
@@ -26656,7 +26656,7 @@
     {
       "id": "ade-1905016",
       "school_name": "WYNNE JUNIOR HIGH SCHOOL",
-      "city": null,
+      "city": "WYNNE",
       "county": "Unknown",
       "district": "Verify district",
       "school_type": "public",
@@ -26665,7 +26665,7 @@
       "school_colors": null,
       "principal": "Josh Wingo",
       "superintendent": null,
-      "website": null,
+      "website": "https://www.wynneschools.org",
       "governance": {
         "board_meeting_schedule": null,
         "board_meeting_location": null,
@@ -26680,9 +26680,9 @@
           "Graduation",
           "Band Competition"
         ],
-        "calendar_url": null,
-        "athletics_url": null,
-        "board_meeting_url": null,
+        "calendar_url": "https://www.wynneschools.org",
+        "athletics_url": "https://www.wynneschools.org/athletics",
+        "board_meeting_url": "https://www.wynneschools.org/school-board",
         "last_harvest_at": null
       },
       "source_links": [
@@ -26740,8 +26740,8 @@
     {
       "id": "ade-2903011",
       "school_name": "YERGER JUNIOR HIGH SCHOOL",
-      "city": null,
-      "county": "Unknown",
+      "city": "Hope",
+      "county": "Hempstead",
       "district": "Verify district",
       "school_type": "public",
       "grades_served": "07 - 08",
@@ -26749,7 +26749,7 @@
       "school_colors": null,
       "principal": "Marilyn Marks",
       "superintendent": null,
-      "website": null,
+      "website": "https://www.hopeschooldistrict.org",
       "governance": {
         "board_meeting_schedule": null,
         "board_meeting_location": null,
@@ -26764,9 +26764,9 @@
           "Graduation",
           "Band Competition"
         ],
-        "calendar_url": null,
-        "athletics_url": null,
-        "board_meeting_url": null,
+        "calendar_url": "https://www.hopeschooldistrict.org",
+        "athletics_url": "https://www.hopeschooldistrict.org/athletics",
+        "board_meeting_url": "https://www.hopeschooldistrict.org/school-board",
         "last_harvest_at": null
       },
       "source_links": [

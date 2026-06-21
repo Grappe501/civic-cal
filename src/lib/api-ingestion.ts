@@ -4,6 +4,7 @@ import flagshipBundle from "../../data/ingestion/flagship-recurring-events.json"
 import stagedBundle from "../../data/ingestion/staged-event-candidates.json";
 import stagedTop200Bundle from "../../data/ingestion/staged-event-candidates-top-200.json";
 import partyStagedBundle from "../../data/ingestion/political-party-meetings-staged.json";
+import schoolStagedBundle from "../../data/ingestion/school-events-staged.json";
 import autogrowStagedBundle from "../../data/ingestion/autogrow-staged-candidates.json";
 
 const fnBase = import.meta.env.VITE_FUNCTIONS_BASE ?? "/.netlify/functions";
@@ -51,8 +52,9 @@ function localCandidates(): IngestionCandidate[] {
   const top200 = (stagedTop200Bundle as { candidates?: Record<string, unknown>[] }).candidates ?? [];
   const staged = (stagedBundle as { candidates?: Record<string, unknown>[] }).candidates ?? [];
   const party = (partyStagedBundle as { candidates?: Record<string, unknown>[] }).candidates ?? [];
+  const school = (schoolStagedBundle as { candidates?: Record<string, unknown>[] }).candidates ?? [];
   const autogrow = (autogrowStagedBundle as { candidates?: Record<string, unknown>[] }).candidates ?? [];
-  const merged = [...top200, ...staged, ...party, ...autogrow].filter(
+  const merged = [...top200, ...staged, ...party, ...school, ...autogrow].filter(
     (c) => c.review_status !== "approved" && c.review_status !== "rejected",
   );
   if (merged.length) return merged.map(mapRawCandidate);
@@ -78,6 +80,8 @@ function filterSection(list: IngestionCandidate[], section: IntelligenceSection)
       return list.filter((c) => c.intelligenceLayer === "government" || c.category === "civic_meeting");
     case "public_party_meetings":
       return list.filter((c) => c.category === "public_party_meeting");
+    case "school_events":
+      return list.filter((c) => c.category === "school" || c.category === "school_athletics" || c.category === "school_board_meeting" || c.category === "school_graduation");
     case "church_fundraisers":
       return list.filter((c) => c.intelligenceLayer === "community_church" || c.category === "community_church" || c.category === "faith_meal");
     default:
