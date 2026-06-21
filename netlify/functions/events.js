@@ -4,18 +4,27 @@ const { getClient, rowToEvent, json, parseFilters, buildWhere } = require("./lib
 const { isPubliclyVisibleEvent } = require("./lib/eventArchive");
 
 function loadSeedFallback() {
-  const seedPath = path.join(__dirname, "..", "..", "data", "seed-events.json");
-  if (!fs.existsSync(seedPath)) return [];
-  const seed = JSON.parse(fs.readFileSync(seedPath, "utf8"));
-  return (seed.events || []).map((e) => ({
-    ...e,
-    id: e.id,
-    startAt: e.startAt,
-    endAt: e.endAt,
-    locationName: e.locationName,
-    hostOrganization: e.hostOrganization,
-    status: e.status || "approved",
-  }));
+  const files = ["seed-events.json", "seed-events-public-demo.json"];
+  const bySlug = new Map();
+  for (const file of files) {
+    const seedPath = path.join(__dirname, "..", "..", "data", file);
+    if (!fs.existsSync(seedPath)) continue;
+    const seed = JSON.parse(fs.readFileSync(seedPath, "utf8"));
+    for (const e of seed.events || []) {
+      if (!bySlug.has(e.slug)) {
+        bySlug.set(e.slug, {
+          ...e,
+          id: e.id,
+          startAt: e.startAt,
+          endAt: e.endAt,
+          locationName: e.locationName,
+          hostOrganization: e.hostOrganization,
+          status: e.status || "approved",
+        });
+      }
+    }
+  }
+  return [...bySlug.values()];
 }
 
 function filterSeed(events, filters) {
@@ -98,6 +107,13 @@ exports.handler = async (event) => {
     );
     await client.end();
     const events = res.rows.map(rowToEvent).filter(isPubliclyVisibleEvent);
+    if (events.length === 0) {
+      const seed = loadSeedFallback();
+      return json(200, {
+        events: filterSeed(seed, filters),
+        source: "seed-fallback-empty-db",
+      });
+    }
     return json(200, { events, source: "database" });
   } catch (err) {
     try {

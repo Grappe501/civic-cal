@@ -1,12 +1,26 @@
 import type { CivicEvent, EventFilters, SubmitEventPayload } from "./types";
 import { filterPublicEvents, isPubliclyVisibleEvent } from "./events/eventArchive";
-import seedBundle from "../../data/seed-events.json";
+import { getBundledSeedEvents } from "./events/seedCatalog";
 
 const fnBase = import.meta.env.VITE_FUNCTIONS_BASE ?? "/.netlify/functions";
 const useSeedOnly = import.meta.env.VITE_USE_SEED === "true";
 
+export type EventsFetchSource =
+  | "seed-only-env"
+  | "seed"
+  | "seed-fallback"
+  | "seed-fallback-empty-db"
+  | "database"
+  | "unknown";
+
+export interface FetchEventsResult {
+  events: CivicEvent[];
+  source: EventsFetchSource;
+  apiReachable: boolean;
+}
+
 function seedEvents(): CivicEvent[] {
-  return (seedBundle as { events: CivicEvent[] }).events ?? [];
+  return getBundledSeedEvents();
 }
 
 function filterSeed(events: CivicEvent[], filters: EventFilters & { limit?: number }): CivicEvent[] {
@@ -55,16 +69,54 @@ function toParams(filters: EventFilters & { slug?: string; status?: string; limi
   return p;
 }
 
-export async function fetchEvents(filters: EventFilters = {}): Promise<CivicEvent[]> {
-  if (useSeedOnly) return filterSeed(seedEvents(), filters);
+function normalizeSource(raw: string | undefined, emptyDb: boolean): EventsFetchSource {
+  if (raw === "database" && emptyDb) return "seed-fallback-empty-db";
+  if (raw === "database") return "database";
+  if (raw === "seed-fallback-empty-db") return "seed-fallback-empty-db";
+  if (raw?.includes("seed")) return emptyDb ? "seed-fallback" : "seed";
+  return "unknown";
+}
+
+export async function fetchEventsWithMeta(filters: EventFilters = {}): Promise<FetchEventsResult> {
+  if (useSeedOnly) {
+    return {
+      events: filterSeed(seedEvents(), filters),
+      source: "seed-only-env",
+      apiReachable: false,
+    };
+  }
+
   try {
-    const res = await fetch(`${fnBase}/events?${toParams(filters)}`);
+    const res = await fetch(`${fnBase}/events?${toParams({ ...filters, limit: filters.limit ?? 500 })}`);
     if (!res.ok) throw new Error("Failed to load events");
     const data = await res.json();
-    return filterPublicEvents(data.events ?? []);
+    const raw = (data.source as string | undefined) ?? "unknown";
+    let events = (data.events ?? []) as CivicEvent[];
+    const emptyDb = raw === "database" && events.length === 0;
+
+    if (events.length === 0) {
+      events = filterSeed(seedEvents(), { ...filters, limit: filters.limit ?? 500 });
+    } else {
+      events = filterPublicEvents(events);
+    }
+
+    return {
+      events,
+      source: normalizeSource(raw, emptyDb),
+      apiReachable: true,
+    };
   } catch {
-    return filterSeed(seedEvents(), { ...filters, limit: filters.limit ?? 500 });
+    return {
+      events: filterSeed(seedEvents(), { ...filters, limit: filters.limit ?? 500 }),
+      source: "seed-fallback",
+      apiReachable: false,
+    };
   }
+}
+
+export async function fetchEvents(filters: EventFilters = {}): Promise<CivicEvent[]> {
+  const { events } = await fetchEventsWithMeta(filters);
+  return events;
 }
 
 function visibleSeedEvent(slug: string): CivicEvent | null {
@@ -76,11 +128,12 @@ export async function fetchEventBySlug(slug: string): Promise<CivicEvent | null>
   if (useSeedOnly) return visibleSeedEvent(slug);
   try {
     const res = await fetch(`${fnBase}/events?slug=${encodeURIComponent(slug)}`);
-    if (res.status === 404) return null;
+    if (res.status === 404) return visibleSeedEvent(slug);
     if (!res.ok) throw new Error("Failed to load event");
     const data = await res.json();
     const event = (data.event ?? null) as CivicEvent | null;
-    return event && isPubliclyVisibleEvent(event) ? event : null;
+    if (event && isPubliclyVisibleEvent(event)) return event;
+    return visibleSeedEvent(slug);
   } catch {
     return visibleSeedEvent(slug);
   }

@@ -62,6 +62,49 @@ GOOGLE_MAPS_GEOCODING_API_KEY=... npm run seed:geocode
 ```bash
 npm run seed:sync      # from RedDirt calendar-command-center (read-only)
 npm run seed:import    # requires DATABASE_URL
+npm run generate:public-demo-seed   # 50 future demo events (labeled, not verified)
+```
+
+Bundled seeds ship with the app: `data/seed-events.json` + `data/seed-events-public-demo.json`. When Netlify has an empty database, functions fall back to bundled seed automatically.
+
+## Calendar views
+
+| Route | View |
+|-------|------|
+| `/calendar` | Redirects to month |
+| `/calendar/month` | Month grid with day drawer |
+| `/calendar/week` | Week board + best-opportunities rail |
+| `/calendar/day` | Timeline + map for one day |
+
+Homepage links: **View Calendar**, **Today**, **This Week**, **This Month**.
+
+## Data-health diagnostics
+
+Admin-only: **`/admin/data-health`**
+
+Shows visible vs hidden event counts, API/DB source, past-archive filtering, and the first 20 visible/hidden samples with reasons.
+
+Server probe: `/.netlify/functions/events-health` (DATABASE_URL detected, DB row counts, bundled seed visible count).
+
+### Why the public calendar may show no events
+
+1. **Empty DB, no fallback** — fixed: client + `events.js` merge bundled seed when DB returns zero rows.
+2. **All events past** — archive filter hides events after end-of-day (America/Chicago).
+3. **Unapproved status** — only `approved` events are public.
+4. **`VITE_USE_SEED=true`** — forces bundled seed only (local testing).
+
+### Verify Netlify data
+
+1. Open `/admin/data-health` after deploy.
+2. Confirm **visible events** > 0 and note **current source** (`database` vs `seed-fallback-empty-db`).
+3. Open `/calendar/month` — pills should appear on future dates.
+4. Click an event → `/event/:slug`.
+
+### Import real events
+
+```bash
+npm run seed:import    # DATABASE_URL required
+# or approve pending submissions in /admin
 ```
 
 ## Database migrations

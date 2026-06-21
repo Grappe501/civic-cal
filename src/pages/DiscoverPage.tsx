@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 import { Link } from "react-router-dom";
-import { ChevronDown, Compass, Map as MapIcon } from "lucide-react";
+import { ChevronDown, Compass, CalendarDays, Map as MapIcon } from "lucide-react";
 import { EventCard } from "../components/EventCard";
 import { CommunityPulse } from "../components/CommunityPulse";
 import { DiscoveryHero } from "../components/discovery/DiscoveryHero";
@@ -16,6 +16,8 @@ import type { CivicEvent, EventFilters } from "../lib/types";
 import { ImportantArkansasDatesBlock } from "../components/state-dates/ImportantArkansasDatesBlock";
 import { upcomingStateDates } from "../lib/state-dates/stateDatesRegistry";
 import { countySlug } from "../lib/counties";
+import { formatCalendarDateParam } from "../lib/calendar/calendarUtils";
+import { startOfMonth, startOfWeek } from "date-fns";
 
 export function DiscoverPage() {
   const [mode, setMode] = useState<PersonalityMode>(() => loadPersonalityMode());
@@ -63,6 +65,9 @@ export function DiscoverPage() {
 
   const towns = useMemo(() => busiestTownsThisWeekend(events), [events]);
   const stateDates = useMemo(() => upcomingStateDates(6), []);
+  const todayParam = formatCalendarDateParam(new Date());
+  const weekStart = formatCalendarDateParam(startOfWeek(new Date(), { weekStartsOn: 0 }));
+  const monthStart = formatCalendarDateParam(startOfMonth(new Date()));
 
   return (
     <div>
@@ -90,11 +95,32 @@ export function DiscoverPage() {
             <Link to="/map" className="btn-on-dark">
               <MapIcon className="h-4 w-4" /> Map
             </Link>
+            <Link to="/calendar/month" className="btn-on-dark">
+              <CalendarDays className="h-4 w-4" /> View Calendar
+            </Link>
+          </div>
+          <div className="flex flex-wrap gap-2 mt-4">
+            <Link to={`/calendar/day?date=${todayParam}`} className="chip chip-muted text-xs text-white border-white/30 bg-white/10 hover:bg-white/20">
+              Today
+            </Link>
+            <Link to={`/calendar/week?date=${weekStart}`} className="chip chip-muted text-xs text-white border-white/30 bg-white/10 hover:bg-white/20">
+              This Week
+            </Link>
+            <Link to={`/calendar/month?date=${monthStart}`} className="chip chip-muted text-xs text-white border-white/30 bg-white/10 hover:bg-white/20">
+              This Month
+            </Link>
           </div>
         </div>
       </section>
 
       <div className="mx-auto max-w-6xl px-4 py-10 space-y-10">
+        <section className="card-readable">
+          <Link to="/calendar/month" className="font-semibold text-ark-rust hover:underline flex items-center gap-2">
+            <CalendarDays className="h-5 w-5" /> Browse the full calendar — day, week, and month views
+          </Link>
+          <p className="text-muted text-sm mt-2">Filter by county, volunteer shifts, festivals, and more.</p>
+        </section>
+
         <PersonalityModeToggle
           value={mode}
           onChange={(m) => {

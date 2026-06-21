@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useState } from "react";
+import { Link } from "react-router-dom";
 import { adminAction, fetchAdminEvents, fetchAdminMapReview } from "../lib/api";
 import { CategoryBadge } from "../components/CategoryBadge";
 import { formatEventRange } from "../lib/format";
@@ -14,7 +15,7 @@ import { AdminVolunteerRecruitmentPanel } from "../components/admin/AdminVolunte
 import { AdminStudentServicePanel } from "../components/admin/AdminStudentServicePanel";
 import { AdminLocalIntelligencePanel } from "../components/admin/AdminLocalIntelligencePanel";
 
-type Tab = "pending" | "map" | "intelligence" | "dossiers" | "local_intel" | "campaigns" | "volunteers" | "student_service";
+type Tab = "pending" | "map" | "intelligence" | "dossiers" | "local_intel" | "campaigns" | "volunteers" | "student_service" | "data_health";
 
 export function AdminPage() {
   const [token, setToken] = useState(() => sessionStorage.getItem("civic-admin-token") ?? "");
@@ -26,7 +27,7 @@ export function AdminPage() {
 
   async function load(t: string, activeTab: Tab = tab) {
     try {
-      if (activeTab !== "intelligence" && activeTab !== "campaigns" && activeTab !== "dossiers" && activeTab !== "local_intel" && activeTab !== "volunteers" && activeTab !== "student_service") {
+      if (activeTab !== "intelligence" && activeTab !== "campaigns" && activeTab !== "dossiers" && activeTab !== "local_intel" && activeTab !== "volunteers" && activeTab !== "student_service" && activeTab !== "data_health") {
         const data =
           activeTab === "map" ? await fetchAdminMapReview(t) : await fetchAdminEvents(t, "pending");
         setEvents(data);
@@ -113,6 +114,9 @@ export function AdminPage() {
                           : "Student service"}
           </button>
         ))}
+        <Link to="/admin/data-health" className="chip chip-muted text-xs">
+          Data health →
+        </Link>
       </div>
 
       {tab === "map" && (

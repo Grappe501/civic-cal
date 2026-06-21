@@ -26,6 +26,13 @@ import { HostPortalPage } from "./pages/HostPortalPage";
 import { HostDashboardPage } from "./pages/HostDashboardPage";
 import { StudentServicePage } from "./pages/StudentServicePage";
 import { StateDatesPage } from "./pages/StateDatesPage";
+import {
+  CalendarDayPage,
+  CalendarIndexPage,
+  CalendarMonthPage,
+  CalendarWeekPage,
+} from "./components/calendar/CalendarShell";
+import { AdminDataHealthPage } from "./pages/AdminDataHealthPage";
 import { GeoResolverPage } from "./pages/GeoResolverPage";
 
 export default function App() {
@@ -60,6 +67,11 @@ export default function App() {
           <Route path="/campaigns/:slug/county/:countySlug" element={<CampaignCountyIntelPage />} />
           <Route path="/student-service" element={<StudentServicePage />} />
           <Route path="/calendar/dates" element={<StateDatesPage />} />
+          <Route path="/calendar/day" element={<CalendarDayPage />} />
+          <Route path="/calendar/week" element={<CalendarWeekPage />} />
+          <Route path="/calendar/month" element={<CalendarMonthPage />} />
+          <Route path="/calendar" element={<CalendarIndexPage />} />
+          <Route path="/admin/data-health" element={<AdminDataHealthPage />} />
           <Route path="/admin" element={<AdminPage />} />
           <Route path="/:slug" element={<GeoResolverPage />} />
         </Routes>
